@@ -1,0 +1,50 @@
+{
+  "rpc": "https://rpc-evmos.keplr.app",
+  "rest": "https://lcd-evmos.keplr.app",
+  "chainId": "evmos_9001-2",
+  "chainName": "Evmos",
+  "stakeCurrency": {
+    "coinDenom": "EVMOS",
+    "coinMinimalDenom": "aevmos",
+    "coinDecimals": 18,
+    "coinGeckoId": "evmos"
+  },
+  "walletUrl": "https://wallet.keplr.app/chains/evmos",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/evmos",
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "evmos",
+    "bech32PrefixAccPub": "evmospub",
+    "bech32PrefixValAddr": "evmosvaloper",
+    "bech32PrefixValPub": "evmosvaloperpub",
+    "bech32PrefixConsAddr": "evmosvalcons",
+    "bech32PrefixConsPub": "evmosvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "EVMOS",
+      "coinMinimalDenom": "aevmos",
+      "coinDecimals": 18,
+      "coinGeckoId": "evmos"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "EVMOS",
+      "coinMinimalDenom": "aevmos",
+      "coinDecimals": 18,
+      "coinGeckoId": "evmos",
+      "gasPriceStep": {
+        "low": 25000000000,
+        "average": 25000000000,
+        "high": 40000000000
+      }
+    }
+  ],
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ]
+}

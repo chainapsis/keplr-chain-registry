@@ -1,0 +1,67 @@
+{
+  "rpc": "https://rpc-stride.keplr.app",
+  "rest": "https://lcd-stride.keplr.app",
+  "chainId": "stride-1",
+  "chainName": "Stride",
+  "stakeCurrency": {
+    "coinDenom": "STRD",
+    "coinMinimalDenom": "ustrd",
+    "coinDecimals": 6,
+    "coinGeckoId": "stride"
+  },
+  "walletUrl": "https://wallet.keplr.app/chains/stride",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/stride",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "stride",
+    "bech32PrefixAccPub": "stridepub",
+    "bech32PrefixValAddr": "stridevaloper",
+    "bech32PrefixValPub": "stridevaloperpub",
+    "bech32PrefixConsAddr": "stridevalcons",
+    "bech32PrefixConsPub": "stridevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "STRD",
+      "coinMinimalDenom": "ustrd",
+      "coinDecimals": 6,
+      "coinGeckoId": "stride"
+    },
+    {
+      "coinDenom": "stATOM",
+      "coinMinimalDenom": "stuatom",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "stOSMO",
+      "coinMinimalDenom": "stuosmo",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "stJUNO",
+      "coinMinimalDenom": "stujuno",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "stSTARS",
+      "coinMinimalDenom": "stustars",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "STRD",
+      "coinMinimalDenom": "ustrd",
+      "coinDecimals": 6,
+      "coinGeckoId": "stride",
+      "gasPriceStep": {
+        "low": 0,
+        "average": 0,
+        "high": 0.04
+      }
+    }
+  ],
+  "features": []
+}

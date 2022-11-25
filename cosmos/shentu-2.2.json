@@ -1,0 +1,42 @@
+{
+  "rpc": "https://rpc-certik.keplr.app",
+  "rest": "https://lcd-certik.keplr.app",
+  "chainId": "shentu-2.2",
+  "chainName": "Shentu",
+  "stakeCurrency": {
+    "coinDenom": "CTK",
+    "coinMinimalDenom": "uctk",
+    "coinDecimals": 6,
+    "coinGeckoId": "certik"
+  },
+  "walletUrl": "https://wallet.keplr.app/chains/certik",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/certik",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "certik",
+    "bech32PrefixAccPub": "certikpub",
+    "bech32PrefixValAddr": "certikvaloper",
+    "bech32PrefixValPub": "certikvaloperpub",
+    "bech32PrefixConsAddr": "certikvalcons",
+    "bech32PrefixConsPub": "certikvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "CTK",
+      "coinMinimalDenom": "uctk",
+      "coinDecimals": 6,
+      "coinGeckoId": "certik"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "CTK",
+      "coinMinimalDenom": "uctk",
+      "coinDecimals": 6,
+      "coinGeckoId": "certik"
+    }
+  ],
+  "features": []
+}

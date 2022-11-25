@@ -1,0 +1,66 @@
+{
+  "rpc": "https://rpc-cyber.keplr.app",
+  "rest": "https://lcd-cyber.keplr.app",
+  "chainId": "bostrom",
+  "chainName": "Bostrom",
+  "stakeCurrency": {
+    "coinDenom": "BOOT",
+    "coinMinimalDenom": "boot",
+    "coinDecimals": 0
+  },
+  "walletUrl": "https://wallet.keplr.app/chains/bostrom",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/bostrom",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "bostrom",
+    "bech32PrefixAccPub": "bostrompub",
+    "bech32PrefixValAddr": "bostromvaloper",
+    "bech32PrefixValPub": "bostromvaloperpub",
+    "bech32PrefixConsAddr": "bostromvalcons",
+    "bech32PrefixConsPub": "bostromvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "BOOT",
+      "coinMinimalDenom": "boot",
+      "coinDecimals": 0
+    },
+    {
+      "coinDenom": "H",
+      "coinMinimalDenom": "hydrogen",
+      "coinDecimals": 0
+    },
+    {
+      "coinDenom": "V",
+      "coinMinimalDenom": "millivolt",
+      "coinDecimals": 3
+    },
+    {
+      "coinDenom": "A",
+      "coinMinimalDenom": "milliampere",
+      "coinDecimals": 3
+    },
+    {
+      "coinDenom": "TOCYB",
+      "coinMinimalDenom": "tocyb",
+      "coinDecimals": 0
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "BOOT",
+      "coinMinimalDenom": "boot",
+      "coinDecimals": 0,
+      "gasPriceStep": {
+        "low": 0,
+        "average": 0,
+        "high": 0.01
+      }
+    }
+  ],
+  "features": [
+    "cosmwasm"
+  ]
+}

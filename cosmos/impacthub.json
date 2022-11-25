@@ -1,0 +1,39 @@
+{
+  "rpc": "https://rpc-impacthub.keplr.app",
+  "rest": "https://lcd-impacthub.keplr.app",
+  "chainId": "impacthub-3",
+  "chainName": "ixo",
+  "stakeCurrency": {
+    "coinDenom": "IXO",
+    "coinMinimalDenom": "uixo",
+    "coinDecimals": 6
+  },
+  "walletUrl": "https://wallet.keplr.app/chains/ixo",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/ixo",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "ixo",
+    "bech32PrefixAccPub": "ixopub",
+    "bech32PrefixValAddr": "ixovaloper",
+    "bech32PrefixValPub": "ixovaloperpub",
+    "bech32PrefixConsAddr": "ixovalcons",
+    "bech32PrefixConsPub": "ixovalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "IXO",
+      "coinMinimalDenom": "uixo",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "IXO",
+      "coinMinimalDenom": "uixo",
+      "coinDecimals": 6
+    }
+  ],
+  "features": []
+}

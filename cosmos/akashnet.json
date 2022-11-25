@@ -1,0 +1,42 @@
+{
+  "rpc": "https://rpc-akash.keplr.app",
+  "rest": "https://lcd-akash.keplr.app",
+  "chainId": "akashnet-2",
+  "chainName": "Akash",
+  "stakeCurrency": {
+    "coinDenom": "AKT",
+    "coinMinimalDenom": "uakt",
+    "coinDecimals": 6,
+    "coinGeckoId": "akash-network"
+  },
+  "walletUrl": "https://wallet.keplr.app/chains/akash",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/akash",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "akash",
+    "bech32PrefixAccPub": "akashpub",
+    "bech32PrefixValAddr": "akashvaloper",
+    "bech32PrefixValPub": "akashvaloperpub",
+    "bech32PrefixConsAddr": "akashvalcons",
+    "bech32PrefixConsPub": "akashvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "AKT",
+      "coinMinimalDenom": "uakt",
+      "coinDecimals": 6,
+      "coinGeckoId": "akash-network"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "AKT",
+      "coinMinimalDenom": "uakt",
+      "coinDecimals": 6,
+      "coinGeckoId": "akash-network"
+    }
+  ],
+  "features": []
+}

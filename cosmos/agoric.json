@@ -1,0 +1,67 @@
+{
+  "rpc": "https://rpc-agoric.keplr.app",
+  "rest": "https://lcd-agoric.keplr.app",
+  "chainId": "agoric-3",
+  "chainName": "Agoric",
+  "stakeCurrency": {
+    "coinDenom": "BLD",
+    "coinMinimalDenom": "ubld",
+    "coinDecimals": 6,
+    "coinGeckoId": "agoric"
+  },
+  "walletUrl": "https://wallet.keplr.app/chains/agoric",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/agoric",
+  "bip44": {
+    "coinType": 564
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "agoric",
+    "bech32PrefixAccPub": "agoricpub",
+    "bech32PrefixValAddr": "agoricvaloper",
+    "bech32PrefixValPub": "agoricvaloperpub",
+    "bech32PrefixConsAddr": "agoricvalcons",
+    "bech32PrefixConsPub": "agoricvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "BLD",
+      "coinMinimalDenom": "ubld",
+      "coinDecimals": 6,
+      "coinGeckoId": "agoric"
+    },
+    {
+      "coinDenom": "IST",
+      "coinMinimalDenom": "uist",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "BLD",
+      "coinMinimalDenom": "ubld",
+      "coinDecimals": 6,
+      "coinGeckoId": "agoric",
+      "gasPriceStep": {
+        "low": 0.012,
+        "average": 0.024,
+        "high": 0.071
+      }
+    },
+    {
+      "coinDenom": "IST",
+      "coinMinimalDenom": "uist",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.0034,
+        "average": 0.007,
+        "high": 0.02
+      }
+    }
+  ],
+  "features": [],
+  "alternativeBIP44s": [
+    {
+      "coinType": 118
+    }
+  ]
+}

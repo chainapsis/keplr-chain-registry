@@ -1,0 +1,51 @@
+name: Cron Job Validation
+on:
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  validation:
+    name: Suggest Chain Validation Check
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup nodejs
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+
+      - run: npm install --global yarn
+      - run: yarn install --frozen-lockfile
+
+      - name: Check chain updates
+        id: check-update
+        continue-on-error: true
+        run: |
+          yarn ts-node src/schedule.ts
+
+      - name: Slack Alert Notification
+        uses: slackapi/slack-github-action@v1.23.0
+        if: ${{ steps.check-update.outputs.hasError }}
+        with:
+          channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
+          payload: |
+            {
+              "text": "Suggest Chain Alert",
+              "attachments": [
+                {
+                  "color": "FB486C",
+                  "fields": [
+                    {
+                      "title": "Error Message",
+                      "short": false,
+                      "value": "${{ steps.check-update.outputs.errorMessage }}"
+                    }
+                  ]
+                }
+              ]
+            }
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}

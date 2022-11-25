@@ -1,0 +1,52 @@
+{
+  "rpc": "https://rpc-iov.keplr.app",
+  "rest": "https://lcd-iov.keplr.app",
+  "chainId": "iov-mainnet-ibc",
+  "chainName": "Starname",
+  "stakeCurrency": {
+    "coinDenom": "IOV",
+    "coinMinimalDenom": "uiov",
+    "coinDecimals": 6,
+    "coinGeckoId": "starname"
+  },
+  "walletUrl": "https://wallet.keplr.app/chains/starname",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/starname",
+  "bip44": {
+    "coinType": 234
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "star",
+    "bech32PrefixAccPub": "starpub",
+    "bech32PrefixValAddr": "starvaloper",
+    "bech32PrefixValPub": "starvaloperpub",
+    "bech32PrefixConsAddr": "starvalcons",
+    "bech32PrefixConsPub": "starvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "IOV",
+      "coinMinimalDenom": "uiov",
+      "coinDecimals": 6,
+      "coinGeckoId": "starname"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "IOV",
+      "coinMinimalDenom": "uiov",
+      "coinDecimals": 6,
+      "coinGeckoId": "starname",
+      "gasPriceStep": {
+        "low": 1,
+        "average": 2,
+        "high": 3
+      }
+    }
+  ],
+  "features": [],
+  "alternativeBIP44s": [
+    {
+      "coinType": 118
+    }
+  ]
+}

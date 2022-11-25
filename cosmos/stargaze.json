@@ -1,0 +1,42 @@
+{
+  "rpc": "https://rpc-stargaze.keplr.app",
+  "rest": "https://lcd-stargaze.keplr.app",
+  "chainId": "stargaze-1",
+  "chainName": "Stargaze",
+  "stakeCurrency": {
+    "coinDenom": "STARS",
+    "coinMinimalDenom": "ustars",
+    "coinDecimals": 6,
+    "coinGeckoId": "stargaze"
+  },
+  "walletUrl": "https://wallet.keplr.app/chains/stargaze",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/stargaze",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "stars",
+    "bech32PrefixAccPub": "starspub",
+    "bech32PrefixValAddr": "starsvaloper",
+    "bech32PrefixValPub": "starsvaloperpub",
+    "bech32PrefixConsAddr": "starsvalcons",
+    "bech32PrefixConsPub": "starsvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "STARS",
+      "coinMinimalDenom": "ustars",
+      "coinDecimals": 6,
+      "coinGeckoId": "stargaze"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "STARS",
+      "coinMinimalDenom": "ustars",
+      "coinDecimals": 6,
+      "coinGeckoId": "stargaze"
+    }
+  ],
+  "features": []
+}

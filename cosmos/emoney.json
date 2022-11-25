@@ -1,0 +1,124 @@
+{
+  "rpc": "https://rpc-emoney.keplr.app",
+  "rest": "https://lcd-emoney.keplr.app",
+  "chainId": "emoney-3",
+  "chainName": "e-Money",
+  "stakeCurrency": {
+    "coinDenom": "NGM",
+    "coinMinimalDenom": "ungm",
+    "coinDecimals": 6,
+    "coinGeckoId": "e-money"
+  },
+  "walletUrl": "https://wallet.keplr.app/chains/e-money",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/e-money",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "emoney",
+    "bech32PrefixAccPub": "emoneypub",
+    "bech32PrefixValAddr": "emoneyvaloper",
+    "bech32PrefixValPub": "emoneyvaloperpub",
+    "bech32PrefixConsAddr": "emoneyvalcons",
+    "bech32PrefixConsPub": "emoneyvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "NGM",
+      "coinMinimalDenom": "ungm",
+      "coinDecimals": 6,
+      "coinGeckoId": "e-money"
+    },
+    {
+      "coinDenom": "EEUR",
+      "coinMinimalDenom": "eeur",
+      "coinDecimals": 6,
+      "coinGeckoId": "e-money-eur"
+    },
+    {
+      "coinDenom": "EDKK",
+      "coinMinimalDenom": "edkk",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "ESEK",
+      "coinMinimalDenom": "esek",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "ENOK",
+      "coinMinimalDenom": "enok",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "ECHF",
+      "coinMinimalDenom": "echf",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "NGM",
+      "coinMinimalDenom": "ungm",
+      "coinDecimals": 6,
+      "coinGeckoId": "e-money",
+      "gasPriceStep": {
+        "low": 1,
+        "average": 1,
+        "high": 1
+      }
+    },
+    {
+      "coinDenom": "EEUR",
+      "coinMinimalDenom": "eeur",
+      "coinDecimals": 6,
+      "coinGeckoId": "e-money-eur",
+      "gasPriceStep": {
+        "low": 1,
+        "average": 1,
+        "high": 1
+      }
+    },
+    {
+      "coinDenom": "ECHF",
+      "coinMinimalDenom": "echf",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 1,
+        "average": 1,
+        "high": 1
+      }
+    },
+    {
+      "coinDenom": "ESEK",
+      "coinMinimalDenom": "esek",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 1,
+        "average": 1,
+        "high": 1
+      }
+    },
+    {
+      "coinDenom": "ENOK",
+      "coinMinimalDenom": "enok",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 1,
+        "average": 1,
+        "high": 1
+      }
+    },
+    {
+      "coinDenom": "EDKK",
+      "coinMinimalDenom": "edkk",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 1,
+        "average": 1,
+        "high": 1
+      }
+    }
+  ],
+  "features": []
+}

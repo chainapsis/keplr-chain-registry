@@ -1,0 +1,47 @@
+{
+  "rpc": "https://rpc-regen.keplr.app",
+  "rest": "https://lcd-regen.keplr.app",
+  "chainId": "regen-1",
+  "chainName": "Regen",
+  "stakeCurrency": {
+    "coinDenom": "REGEN",
+    "coinMinimalDenom": "uregen",
+    "coinDecimals": 6,
+    "coinGeckoId": "regen"
+  },
+  "walletUrl": "https://wallet.keplr.app/chains/regen",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/regen",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "regen",
+    "bech32PrefixAccPub": "regenpub",
+    "bech32PrefixValAddr": "regenvaloper",
+    "bech32PrefixValPub": "regenvaloperpub",
+    "bech32PrefixConsAddr": "regenvalcons",
+    "bech32PrefixConsPub": "regenvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "REGEN",
+      "coinMinimalDenom": "uregen",
+      "coinDecimals": 6,
+      "coinGeckoId": "regen"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "REGEN",
+      "coinMinimalDenom": "uregen",
+      "coinDecimals": 6,
+      "coinGeckoId": "regen",
+      "gasPriceStep": {
+        "low": 0.015,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "features": []
+}

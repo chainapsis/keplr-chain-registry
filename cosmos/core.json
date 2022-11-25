@@ -1,0 +1,57 @@
+{
+  "rpc": "https://rpc-persistence.keplr.app",
+  "rest": "https://lcd-persistence.keplr.app",
+  "chainId": "core-1",
+  "chainName": "Persistence",
+  "stakeCurrency": {
+    "coinDenom": "XPRT",
+    "coinMinimalDenom": "uxprt",
+    "coinDecimals": 6,
+    "coinGeckoId": "persistence"
+  },
+  "walletUrl": "https://wallet.keplr.app/chains/persistence",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/persistence",
+  "bip44": {
+    "coinType": 118
+  },
+  "alternativeBIP44s": [
+    {
+      "coinType": 750
+    }
+  ],
+  "bech32Config": {
+    "bech32PrefixAccAddr": "persistence",
+    "bech32PrefixAccPub": "persistencepub",
+    "bech32PrefixValAddr": "persistencevaloper",
+    "bech32PrefixValPub": "persistencevaloperpub",
+    "bech32PrefixConsAddr": "persistencevalcons",
+    "bech32PrefixConsPub": "persistencevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "XPRT",
+      "coinMinimalDenom": "uxprt",
+      "coinDecimals": 6,
+      "coinGeckoId": "persistence"
+    },
+    {
+      "coinDenom": "STKATOM",
+      "coinMinimalDenom": "stk/uatom",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "XPRT",
+      "coinMinimalDenom": "uxprt",
+      "coinDecimals": 6,
+      "coinGeckoId": "persistence",
+      "gasPriceStep": {
+        "low": 0,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "features": []
+}

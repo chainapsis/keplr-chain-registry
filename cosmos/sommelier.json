@@ -1,0 +1,42 @@
+{
+  "rpc": "https://rpc-sommelier.keplr.app",
+  "rest": "https://lcd-sommelier.keplr.app",
+  "chainId": "sommelier-3",
+  "chainName": "Sommelier",
+  "stakeCurrency": {
+    "coinDenom": "SOMM",
+    "coinMinimalDenom": "usomm",
+    "coinDecimals": 6,
+    "coinGeckoId": "sommelier"
+  },
+  "walletUrl": "https://wallet.keplr.app/chains/sommelier",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/sommelier",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "somm",
+    "bech32PrefixAccPub": "sommpub",
+    "bech32PrefixValAddr": "sommvaloper",
+    "bech32PrefixValPub": "sommvaloperpub",
+    "bech32PrefixConsAddr": "sommvalcons",
+    "bech32PrefixConsPub": "sommvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "SOMM",
+      "coinMinimalDenom": "usomm",
+      "coinDecimals": 6,
+      "coinGeckoId": "sommelier"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "SOMM",
+      "coinMinimalDenom": "usomm",
+      "coinDecimals": 6,
+      "coinGeckoId": "sommelier"
+    }
+  ],
+  "features": []
+}

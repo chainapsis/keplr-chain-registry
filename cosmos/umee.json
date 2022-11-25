@@ -1,0 +1,44 @@
+{
+  "rpc": "https://rpc-umee.keplr.app",
+  "rest": "https://lcd-umee.keplr.app",
+  "chainId": "umee-1",
+  "chainName": "Umee",
+  "stakeCurrency": {
+    "coinDenom": "UMEE",
+    "coinMinimalDenom": "uumee",
+    "coinDecimals": 6
+  },
+  "walletUrl": "https://wallet.keplr.app/chains/umee",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/umee",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "umee",
+    "bech32PrefixAccPub": "umeepub",
+    "bech32PrefixValAddr": "umeevaloper",
+    "bech32PrefixValPub": "umeevaloperpub",
+    "bech32PrefixConsAddr": "umeevalcons",
+    "bech32PrefixConsPub": "umeevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "UMEE",
+      "coinMinimalDenom": "uumee",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "UMEE",
+      "coinMinimalDenom": "uumee",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.05,
+        "average": 0.06,
+        "high": 0.1
+      }
+    }
+  ],
+  "features": []
+}

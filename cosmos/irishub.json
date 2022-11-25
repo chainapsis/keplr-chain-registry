@@ -1,0 +1,52 @@
+{
+  "rpc": "https://rpc-iris.keplr.app",
+  "rest": "https://lcd-iris.keplr.app",
+  "chainId": "irishub-1",
+  "chainName": "IRISnet",
+  "stakeCurrency": {
+    "coinDenom": "IRIS",
+    "coinMinimalDenom": "uiris",
+    "coinDecimals": 6,
+    "coinGeckoId": "iris-network"
+  },
+  "walletUrl": "https://wallet.keplr.app/chains/irisnet",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/irisnet",
+  "bip44": {
+    "coinType": 118
+  },
+  "alternativeBIP44s": [
+    {
+      "coinType": 566
+    }
+  ],
+  "bech32Config": {
+    "bech32PrefixAccAddr": "iaa",
+    "bech32PrefixAccPub": "iap",
+    "bech32PrefixValAddr": "iva",
+    "bech32PrefixValPub": "ivp",
+    "bech32PrefixConsAddr": "ica",
+    "bech32PrefixConsPub": "icp"
+  },
+  "currencies": [
+    {
+      "coinDenom": "IRIS",
+      "coinMinimalDenom": "uiris",
+      "coinDecimals": 6,
+      "coinGeckoId": "iris-network"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "IRIS",
+      "coinMinimalDenom": "uiris",
+      "coinDecimals": 6,
+      "coinGeckoId": "iris-network",
+      "gasPriceStep": {
+        "low": 0.2,
+        "average": 0.3,
+        "high": 0.4
+      }
+    }
+  ],
+  "features": []
+}
