@@ -21,8 +21,8 @@ chainID is consisted of ({identifier}-{version}). **`chain-identifier`** therefo
 ```
   The chain-identifier of `cosmoshub-4` is `cosmoshub`.
   The chain-identifier of `crypto-org-chain-mainnet-1` is `crypto-org-chain-mainnet`.
-	The chain-identifier of `evmos_9001-2` is `evmos_9001`.
-	The chain-identifier of 'shentu-2.2' is 'shentu-2.2'.
+  The chain-identifier of `evmos_9001-2` is `evmos_9001`.
+  The chain-identifier of 'shentu-2.2' is 'shentu-2.2'.
 ```
 
 Here’s an overview of the structure of the directory. Please provide the information and files complying with the requirements.
