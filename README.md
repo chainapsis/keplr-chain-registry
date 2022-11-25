@@ -133,4 +133,3 @@ Here’s an overview of the structure of the directory. Please provide the infor
 - REST
     - Please check if the REST node is not currently experiencing any issues/errors.
     - Please double-check if your chainId matches the REST node’s chainId.
-- There are two cases that we cannot resolve: 1) websocket connection is not open, and 2) the coin type does not follow the BIP-44 standard. For the websocket issue, please reach out to the chain’s core team. For the coin type issue, please double-check if it follows the standard, before submitting the request.
