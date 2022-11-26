@@ -1,0 +1,64 @@
+{
+    "chainId": "chihuahua-1",
+    "chainName": "Chihuahua v1.1",
+    "rpc": "https://rpc.chihuahua.wtf:443/",
+    "rest": "https://api.chihuahua.wtf:443/",
+    "nodeProvider": {
+        "name": "Chihuahua Node",
+        "email": "chi@huahua.wtf",
+        "website":"https://www.chihuahua.wtf"
+    },
+    "stakeCurrency": {
+        "coinDenom": "HUAHUA",
+        "coinMinimalDenom": "uhuahua",
+        "coinDecimals": 6,
+        "coinGeckoId": "chihuahua-token",
+        "coinImageUrl": "https://raw.githubusercontent.com/ChihuahuaChain/resources/main/logo/logo_transparent_notext.png"
+    },
+    "bip44": {
+        "coinType": 118
+    },
+    "bech32Config": {
+        "bech32PrefixAccAddr": "chihuahua",
+        "bech32PrefixAccPub": "chihuahuapub",
+        "bech32PrefixValAddr": "chihuahuavaloper",
+        "bech32PrefixValPub": "chihuahuavaloperpub",
+        "bech32PrefixConsAddr": "chihuahuavalcons",
+        "bech32PrefixConsPub": "chihuahuavalconspub"
+    },
+    "currencies": [{
+        "coinDenom": "HUAHUA",
+        "coinMinimalDenom": "uhuahua",
+        "coinDecimals": 6,
+        "coinGeckoId": "chihuahua-token",
+        "coinImageUrl": "https://raw.githubusercontent.com/ChihuahuaChain/resources/main/logo/logo_transparent_notext.png"
+    }],
+    "feeCurrencies": [{
+        "coinDenom": "HUAHUA",
+        "coinMinimalDenom": "uhuahua",
+        "coinDecimals": 6,
+        "coinGeckoId": "chihuahua-token",
+        "coinImageUrl": "https://raw.githubusercontent.com/ChihuahuaChain/resources/main/logo/logo_transparent_notext.png",
+        "gasPriceStep": {
+            "low": 1,
+            "average": 5,
+            "high": 10
+        }
+    }],
+    "features": [
+        "cosmwasm",
+        "ibc-transfer",
+        "ibc-go"
+    ],
+    "alternativeBIP44s": [
+        {
+          "coinType": 639
+        }
+    ],
+    "walletUrl": "https://chihuahua.omniflix.co",
+    "walletUrlForStaking": "https://chihuahua.omniflix.co/stake",
+    "txExplorer": {
+        "name": "Mintscan",
+        "txUrl": "https://www.mintscan.io/chihuahua/txs/{txHash}"
+    }
+}
