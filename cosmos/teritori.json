@@ -8,8 +8,10 @@
       "email": "",
       "website":"https://cosmos.directory/"
     },
+    "walletUrl": "https://restake.app/teritori",
+    "walletUrlForStaking": "https://restake.app/teritori",
     "bip44": {
-      "coinType": 118
+        "coinType": 118
     },
     "bech32Config": {
       "bech32PrefixAccAddr": "tori",
