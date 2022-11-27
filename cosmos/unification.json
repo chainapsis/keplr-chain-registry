@@ -28,7 +28,12 @@
       "coinDenom": "FUND",
       "coinMinimalDenom": "nund",
       "coinDecimals": "9",
-      "coinGeckoId": "unification"
+      "coinGeckoId": "unification",
+      "gasPriceStep": {
+        "low": 300,
+        "average": 400,
+        "high": 500
+      }
     }
   ],
   "stakeCurrency": {
@@ -36,11 +41,6 @@
     "coinMinimalDenom": "nund",
     "coinDecimals": "9",
     "coinGeckoId": "unification"
-  },
-  "gasPriceStep": {
-    "low": 100,
-    "average": 200,
-    "high": 300
   },
   "features": []
 }
