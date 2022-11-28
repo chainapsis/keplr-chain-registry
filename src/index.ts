@@ -15,7 +15,7 @@ const main = async () => {
 
     const chainInfo = await validateChainInfoFromPath(path);
 
-    const shouldNodeProvider = (() => {
+    const isNativeSupported = (() => {
       const nativeChains: string[] = [
         "cosmoshub",
         "osmosis",
@@ -46,10 +46,14 @@ const main = async () => {
       ];
       const chainIdentifier = ChainIdHelper.parse(chainInfo.chainId).identifier;
 
-      return !nativeChains.map((s) => s.trim()).includes(chainIdentifier);
+      return nativeChains.map((s) => s.trim()).includes(chainIdentifier);
     })();
-    if (shouldNodeProvider && !chainInfo.nodeProvider) {
+    if (!isNativeSupported && !chainInfo.nodeProvider) {
       throw new Error("Node provider should be provided");
+    }
+
+    if (!isNativeSupported && !chainInfo.chainSymbolImageUrl) {
+      throw new Error("chainSymbolImageUrl should be provided");
     }
 
     const chainIdentifier = libPath.parse(path).name;
