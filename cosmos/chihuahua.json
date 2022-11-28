@@ -48,10 +48,5 @@
     "features": [
         "cosmwasm"
     ],
-    "alternativeBIP44s": [
-        {
-          "coinType": 639
-        }
-    ],
     "walletUrlForStaking": "https://chihuahua.omniflix.co/stake"
 }
