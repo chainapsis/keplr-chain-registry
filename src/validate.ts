@@ -83,6 +83,14 @@ export const validateChainInfo = async (
     }
   }
 
+  if (chainInfo.features?.includes("stargate")) {
+    throw new Error("'stargate' feature is deprecated");
+  }
+
+  if (chainInfo.features?.includes("no-legacy-stdTx")) {
+    throw new Error("'no-legacy-stdTx' feature is deprecated");
+  }
+
   // check RPC alive
   await checkRPCConnectivity(
     chainInfo.chainId,

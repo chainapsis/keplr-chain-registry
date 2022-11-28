@@ -50,6 +50,7 @@ Here’s an overview of the structure of the directory. Please provide the infor
 {
   "chainId": "osmosis-1",
   "chainName": "Osmosis",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/chain.png",
   "rpc": "https://rpc-osmosis.blockapsis.com",
   "rest": "https://lcd-osmosis.blockapsis.com",
   "nodeProvider": {
@@ -106,6 +107,9 @@ Here’s an overview of the structure of the directory. Please provide the infor
 
 - chainId: chainId in a form of {identifier}-{version} (ex. cosmoshub-4)
 - chainName: the name of the chain that will be displayed on the wallet
+- chainSymbolImageUrl: Image URL of the chain.
+  - https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/{chain-identifier}/{file-name}.png
+  - Please modify modify the chain-identifier and file-name from the link above and upload it.
 - rpc: URL of RPC endpoint of the chain
 - rest: URL of REST/API endpoint of the chain
 - nodeProvider: provide the details of the RPC/REST node providers
