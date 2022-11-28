@@ -10,7 +10,7 @@
   },
   "walletUrlForStaking": "https://explorer.unification.chainmasters.ninja/wallet",
   "bip44": {
-    "coinType": "5555"
+    "coinType": 5555
   },
   "bech32Config": {
     "bech32PrefixAccAddr": "und",
@@ -24,7 +24,7 @@
     {
       "coinDenom": "FUND",
       "coinMinimalDenom": "nund",
-      "coinDecimals": "9",
+      "coinDecimals": 9,
       "coinGeckoId": "unification"
     }
   ],
@@ -32,7 +32,7 @@
     {
       "coinDenom": "FUND",
       "coinMinimalDenom": "nund",
-      "coinDecimals": "9",
+      "coinDecimals": 9,
       "coinGeckoId": "unification",
       "gasPriceStep": {
         "low": 300,
@@ -44,7 +44,7 @@
   "stakeCurrency": {
     "coinDenom": "FUND",
     "coinMinimalDenom": "nund",
-    "coinDecimals": "9",
+    "coinDecimals": 9,
     "coinGeckoId": "unification"
   },
   "features": []
