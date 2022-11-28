@@ -3,6 +3,11 @@
   "chainName": "Unification",
   "rpc": "https://rpc1.unification.io",
   "rest": "https://rest.unification.io",
+  "nodeProvider": {
+    "name": "Unification",
+    "email": "hello@unification.com",
+    "website":"https://unification.com/"
+  },
   "walletUrlForStaking": "https://explorer.unification.chainmasters.ninja/wallet",
   "bip44": {
     "coinType": "5555"
