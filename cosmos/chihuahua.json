@@ -46,19 +46,12 @@
         }
     }],
     "features": [
-        "cosmwasm",
-        "ibc-transfer",
-        "ibc-go"
+        "cosmwasm"
     ],
     "alternativeBIP44s": [
         {
           "coinType": 639
         }
-    ],
-    "walletUrl": "https://chihuahua.omniflix.co",
-    "walletUrlForStaking": "https://chihuahua.omniflix.co/stake",
-    "txExplorer": {
-        "name": "Mintscan",
-        "txUrl": "https://www.mintscan.io/chihuahua/txs/{txHash}"
-    }
+    ]
+    "walletUrlForStaking": "https://chihuahua.omniflix.co/stake"
 }
