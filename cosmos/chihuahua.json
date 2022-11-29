@@ -13,8 +13,7 @@
         "coinDenom": "HUAHUA",
         "coinMinimalDenom": "uhuahua",
         "coinDecimals": 6,
-        "coinGeckoId": "chihuahua-token",
-        "coinImageUrl": "https://raw.githubusercontent.com/ChihuahuaChain/resources/main/logo/logo_transparent_notext.png"
+        "coinGeckoId": "chihuahua-token"
     },
     "bip44": {
         "coinType": 118
@@ -31,15 +30,13 @@
         "coinDenom": "HUAHUA",
         "coinMinimalDenom": "uhuahua",
         "coinDecimals": 6,
-        "coinGeckoId": "chihuahua-token",
-        "coinImageUrl": "https://raw.githubusercontent.com/ChihuahuaChain/resources/main/logo/logo_transparent_notext.png"
+        "coinGeckoId": "chihuahua-token"
     }],
     "feeCurrencies": [{
         "coinDenom": "HUAHUA",
         "coinMinimalDenom": "uhuahua",
         "coinDecimals": 6,
         "coinGeckoId": "chihuahua-token",
-        "coinImageUrl": "https://raw.githubusercontent.com/ChihuahuaChain/resources/main/logo/logo_transparent_notext.png",
         "gasPriceStep": {
             "low": 1,
             "average": 5,
