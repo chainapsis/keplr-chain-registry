@@ -1,0 +1,50 @@
+{
+    "chainId": "chihuahua-1",
+    "chainName": "Chihuahua v1.1",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/chihuahua/chain.png",
+    "rpc": "https://rpc.chihuahua.wtf:443/",
+    "rest": "https://api.chihuahua.wtf:443/",
+    "nodeProvider": {
+        "name": "Chihuahua Node",
+        "email": "chi@huahua.wtf",
+        "website":"https://www.chihuahua.wtf"
+    },
+    "stakeCurrency": {
+        "coinDenom": "HUAHUA",
+        "coinMinimalDenom": "uhuahua",
+        "coinDecimals": 6,
+        "coinGeckoId": "chihuahua-token"
+    },
+    "bip44": {
+        "coinType": 118
+    },
+    "bech32Config": {
+        "bech32PrefixAccAddr": "chihuahua",
+        "bech32PrefixAccPub": "chihuahuapub",
+        "bech32PrefixValAddr": "chihuahuavaloper",
+        "bech32PrefixValPub": "chihuahuavaloperpub",
+        "bech32PrefixConsAddr": "chihuahuavalcons",
+        "bech32PrefixConsPub": "chihuahuavalconspub"
+    },
+    "currencies": [{
+        "coinDenom": "HUAHUA",
+        "coinMinimalDenom": "uhuahua",
+        "coinDecimals": 6,
+        "coinGeckoId": "chihuahua-token"
+    }],
+    "feeCurrencies": [{
+        "coinDenom": "HUAHUA",
+        "coinMinimalDenom": "uhuahua",
+        "coinDecimals": 6,
+        "coinGeckoId": "chihuahua-token",
+        "gasPriceStep": {
+            "low": 1,
+            "average": 5,
+            "high": 10
+        }
+    }],
+    "features": [
+        "cosmwasm"
+    ],
+    "walletUrlForStaking": "https://chihuahua.omniflix.co/stake"
+}
