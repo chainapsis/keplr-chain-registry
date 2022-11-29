@@ -1,0 +1,56 @@
+{
+  "chainId": "acre_9052-1",
+  "chainName": "Acrechain Mainnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/acre_9052/chain.png",
+
+  "rpc": "https://rpc-acre.synergynodes.com",
+  "rest": "https://lcd-acre.synergynodes.com",
+  "bip44": {
+    "coinType": 60
+  },
+  "coinType": 60,
+  "bech32Config": {
+    "bech32PrefixAccAddr": "acre",
+    "bech32PrefixAccPub": "acrepub",
+    "bech32PrefixValAddr": "acrevaloper",
+    "bech32PrefixValPub": "acrevaloperpub",
+    "bech32PrefixConsAddr": "acrevalcons",
+    "bech32PrefixConsPub": "acrevalconspub"
+  },
+  "eip55Config": {
+    "eip55PrefixAccAddr": "0x"
+  },
+  "currencies": [
+    {
+      "coinDenom": "acre",
+      "coinMinimalDenom": "aacre",
+      "coinDecimals": 18,
+      "coinGeckoId": "arable-protocol"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "acre",
+      "coinMinimalDenom": "aacre",
+      "coinDecimals": 18,
+      "coinGeckoId": "arable-protocol"
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "acre",
+    "coinMinimalDenom": "aacre",
+    "coinDecimals": 18,
+    "coinGeckoId": "arable-protocol"
+  },
+  "gasPriceStep": {
+    "low": 10000000000,
+    "average": 20000000000,
+    "high": 30000000000
+  },
+  "features": [
+    "ibc-transfer",
+    "ibc-go",
+    "eth-address-gen",
+    "eth-key-sign"
+  ]
+}
