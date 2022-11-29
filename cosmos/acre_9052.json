@@ -16,9 +16,6 @@
     "bech32PrefixConsAddr": "acrevalcons",
     "bech32PrefixConsPub": "acrevalconspub"
   },
-  "eip55Config": {
-    "eip55PrefixAccAddr": "0x"
-  },
   "currencies": [
     {
       "coinDenom": "acre",
@@ -41,14 +38,7 @@
     "coinDecimals": 18,
     "coinGeckoId": "arable-protocol"
   },
-  "gasPriceStep": {
-    "low": 10000000000,
-    "average": 20000000000,
-    "high": 30000000000
-  },
   "features": [
-    "ibc-transfer",
-    "ibc-go",
     "eth-address-gen",
     "eth-key-sign"
   ]
