@@ -9,7 +9,7 @@
     "coinDecimals": 6,
     "coinGeckoId": "omniflix-network"
   },
-  "walletUrlForStaking": "https://flix.omniflix.co/stake",
+  "walletUrlForStaking": "https://flix.omniflix.co/stake/",
   "bip44": {
     "coinType": 118
   },
