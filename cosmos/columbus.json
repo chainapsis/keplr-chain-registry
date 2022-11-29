@@ -7,24 +7,26 @@
   "bip44": {
     "coinType": 330
   },
-  "bech32Config": "terra",
+  "bech32Config": {
+    "bech32PrefixAccAddr": "terra",
+    "bech32PrefixAccPub": "terrapub",
+    "bech32PrefixValAddr": "terravaloper",
+    "bech32PrefixValPub": "terravaloperpub",
+    "bech32PrefixConsAddr": "terravalcons",
+    "bech32PrefixConsPub": "terravalconspub"
+  },
   "currencies": [
     {
-      "coinDenom": "LUNC",
+      "coinDenom": "luna",
       "coinMinimalDenom": "uluna",
       "coinDecimals": 6,
-      "coinGeckoId": "pool:ulunc",
-      "coinImageUrl": "/tokens/lunc.png",
-      "isStakeCurrency": true,
-      "isFeeCurrency": true
+      "coinGeckoId": "pool:ulunc"
     },
     {
       "coinDenom": "USTC",
       "coinMinimalDenom": "uusd",
       "coinDecimals": 6,
       "coinGeckoId": "pool:uustc",
-      "coinImageUrl": "/tokens/ustc.png",
-      "isFeeCurrency": true,
       "pegMechanism": "algorithmic"
     },
     {
@@ -32,10 +34,31 @@
       "coinMinimalDenom": "ukrw",
       "coinDecimals": 6,
       "coinGeckoId": "terra-krw",
-      "coinImageUrl": "/tokens/krtc.png",
       "pegMechanism": "algorithmic"
     }
   ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "luna",
+      "coinMinimalDenom": "uluna",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "USTC",
+      "coinMinimalDenom": "uusd",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "KRTC",
+      "coinMinimalDenom": "ukrw",
+      "coinDecimals": 6
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "luna",
+    "coinMinimalDenom": "uluna",
+    "coinDecimals": 6
+  },
   "gasPriceStep": {
     "low": 5.665,
     "average": 5.665,
