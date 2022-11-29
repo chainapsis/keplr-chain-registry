@@ -91,6 +91,10 @@ export const validateChainInfo = async (
     throw new Error("'no-legacy-stdTx' feature is deprecated");
   }
 
+  if (chainInfo.beta != null) {
+    throw new Error("Should not set 'beta' field");
+  }
+
   // check RPC alive
   await checkRPCConnectivity(
     chainInfo.chainId,
