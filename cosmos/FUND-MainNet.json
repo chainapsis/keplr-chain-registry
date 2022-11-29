@@ -1,0 +1,52 @@
+{
+  "chainId": "FUND-MainNet-2",
+  "chainName": "Unification",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/FUND-MainNet/chain.png",
+  "rpc": "https://rpc1.unification.io",
+  "rest": "https://rest.unification.io",
+  "nodeProvider": {
+    "name": "Unification",
+    "email": "hello@unification.com",
+    "website":"https://unification.com/"
+  },
+  "walletUrlForStaking": "https://explorer.unification.chainmasters.ninja/wallet",
+  "bip44": {
+    "coinType": 5555
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "und",
+    "bech32PrefixAccPub": "undpub",
+    "bech32PrefixValAddr": "undvaloper",
+    "bech32PrefixValPub": "undvaloperpub",
+    "bech32PrefixConsAddr": "undvalcons",
+    "bech32PrefixConsPub": "undvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "FUND",
+      "coinMinimalDenom": "nund",
+      "coinDecimals": 9,
+      "coinGeckoId": "unification"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "FUND",
+      "coinMinimalDenom": "nund",
+      "coinDecimals": 9,
+      "coinGeckoId": "unification",
+      "gasPriceStep": {
+        "low": 300,
+        "average": 400,
+        "high": 500
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "FUND",
+    "coinMinimalDenom": "nund",
+    "coinDecimals": 9,
+    "coinGeckoId": "unification"
+  },
+  "features": []
+}
