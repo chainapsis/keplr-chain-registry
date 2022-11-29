@@ -2,7 +2,6 @@
   "chainId": "acre_9052-1",
   "chainName": "Acrechain Mainnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/acre_9052/chain.png",
-
   "rpc": "https://rpc-acre.synergynodes.com",
   "rest": "https://lcd-acre.synergynodes.com",
   "bip44": {
