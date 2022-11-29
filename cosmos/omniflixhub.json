@@ -38,5 +38,5 @@
         "high": 0.025
       }
     }],
-  "features": ["ibc-transfer", "ibc-go"]
+  "features": []
 }
