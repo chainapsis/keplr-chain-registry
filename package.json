@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node src/index.ts cosmos/axelar-dojo.json",
+    "validate": "ts-node src/index.ts",
     "cron": "ts-node src/schedule.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:test": "eslint \"src/**/*\" && prettier --check \"src/**/*\"",
