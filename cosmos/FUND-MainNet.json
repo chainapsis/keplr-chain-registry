@@ -1,6 +1,7 @@
 {
   "chainId": "FUND-MainNet-2",
   "chainName": "Unification",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/FUND-MainNet/chain.png",
   "rpc": "https://rpc1.unification.io",
   "rest": "https://rest.unification.io",
   "nodeProvider": {
