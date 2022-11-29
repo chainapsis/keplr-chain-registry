@@ -1,6 +1,7 @@
 {
     "chainId": "chihuahua-1",
     "chainName": "Chihuahua v1.1",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/chihuahua/chain.png",
     "rpc": "https://rpc.chihuahua.wtf:443/",
     "rest": "https://api.chihuahua.wtf:443/",
     "nodeProvider": {
