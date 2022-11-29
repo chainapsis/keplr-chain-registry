@@ -1,6 +1,6 @@
 {
   "rpc": "https://rpc-columbus.keplr.app",
-  "rest": "https://lcd-columbus.keplr.app",
+  "rest": "https://columbus-lcd.terra.dev",
   "chainId": "columbus-5",
   "chainName": "Terra Classic",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/chain.png",
@@ -26,15 +26,13 @@
       "coinDenom": "USTC",
       "coinMinimalDenom": "uusd",
       "coinDecimals": 6,
-      "coinGeckoId": "pool:uustc",
-      "pegMechanism": "algorithmic"
+      "coinGeckoId": "pool:uustc"
     },
     {
       "coinDenom": "KRTC",
       "coinMinimalDenom": "ukrw",
       "coinDecimals": 6,
-      "coinGeckoId": "terra-krw",
-      "pegMechanism": "algorithmic"
+      "coinGeckoId": "terra-krw"
     }
   ],
   "feeCurrencies": [
@@ -59,11 +57,6 @@
     "coinMinimalDenom": "uluna",
     "coinDecimals": 6
   },
-  "gasPriceStep": {
-    "low": 5.665,
-    "average": 5.665,
-    "high": 10
-  },
-  "features": ["stargate", "ibc-transfer", "no-legacy-stdTx"],
-  "explorerUrlToTx": "https://finder.terra.money/columbus-5/tx/{txHash}"
+  "features": [
+  ]
 }
