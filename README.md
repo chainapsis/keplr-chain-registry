@@ -9,7 +9,7 @@
 > yarn validate comsmos/{your file.json}
 > ```
 > 
-> READ THE GUIDELINES BELLOW CAREFULLY, PAYING PARTICULAR ATTENTION TO THE "features" IN THE [[REQUIREMENT DETAILS](https://github.com/chainapsis/keplr-chain-registry/edit/main/README.md#requirement-details)].
+> READ THE GUIDELINES BELLOW CAREFULLY, PAYING PARTICULAR ATTENTION TO THE "features" IN THE [[REQUIREMENT DETAILS](https://github.com/chainapsis/keplr-chain-registry#requirement-details)].
 
 
 # Guidelines for Community-Driven Suggest Chain Integration
