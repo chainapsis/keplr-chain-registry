@@ -1,0 +1,48 @@
+{
+  "rpc": "https://rpc.omniflix.network",
+  "rest": "https://rest.omniflix.network",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub/chain.png",
+  "chainId": "omniflixhub-1",
+  "chainName": "OmniFlix Hub",
+  "nodeProvider": {
+    "name": "OmniFlix Node",
+    "email": "info@OmniFlix.network",
+    "website":"https://www.omniflix.network"
+  },
+  "stakeCurrency": {
+    "coinDenom": "FLIX",
+    "coinMinimalDenom": "uflix",
+    "coinDecimals": 6,
+    "coinGeckoId": "omniflix-network"
+  },
+  "walletUrlForStaking": "https://flix.omniflix.co/stake/",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "omniflix",
+    "bech32PrefixAccPub": "omniflixpub",
+    "bech32PrefixValAddr": "omniflixvaloper",
+    "bech32PrefixValPub": "omniflixvaloperpub",
+    "bech32PrefixConsAddr": "omniflixvalcons",
+    "bech32PrefixConsPub": "omniflixvalconspub"
+  },
+  "currencies": [{
+      "coinDenom": "FLIX",
+      "coinMinimalDenom": "uflix",
+      "coinDecimals": 6,
+      "coinGeckoId": "omniflix-network"
+    }],
+  "feeCurrencies": [{
+      "coinDenom": "FLIX",
+      "coinMinimalDenom": "uflix",
+      "coinDecimals": 6,
+      "coinGeckoId": "omniflix-network",
+      "gasPriceStep": {
+        "low": 0.001,
+        "average": 0.0025,
+        "high": 0.025
+      }
+    }],
+  "features": []
+}
