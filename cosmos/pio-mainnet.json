@@ -12,7 +12,7 @@
   },
   "chainId": "pio-mainnet-1",
   "chainName": "Provenance",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/provenance/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pio-mainnet/chain.png",
   "currencies": [
     {
       "coinDecimals": 9,
