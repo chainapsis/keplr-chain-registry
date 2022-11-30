@@ -21,7 +21,9 @@
       "coinMinimalDenom": "nhash"
     }
   ],
-  "features": [],
+  "features": [
+    "cosmwasm"
+  ],
   "feeCurrencies": [
     {
       "coinDecimals": 9,
@@ -29,7 +31,7 @@
       "coinGeckoId": "provenance-blockchain",
       "coinMinimalDenom": "nhash",
       "gasPriceStep": {
-        "average": 2100,
+        "average": 1905,
         "high": 2500,
         "low": 1905
       }
