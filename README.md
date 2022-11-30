@@ -1,3 +1,17 @@
+> **Warning**
+> 
+> PLEASE RUN THE COMMANDS BELOW TO VERIFY CONFIGURATION IN YOUR LOCAL ENVIRONMENT BEFORE SUBMITTING PULL REQUESTS.
+> ```shell
+> # install node modules
+> yarn install
+> 
+> # validate your json file (ex. yarn validate cosmos/osmosis.json)
+> yarn validate comsmos/{your file.json}
+> ```
+> 
+> READ THE GUIDELINES BELLOW CAREFULLY, PAYING PARTICULAR ATTENTION TO THE "features" IN THE [[REQUIREMENT DETAILS](https://github.com/chainapsis/keplr-chain-registry/edit/readme-test/README.md#requirement-details)].
+
+
 # Guidelines for Community-Driven Suggest Chain Integration
 
 Keplr team has always been at the leading edge of building secure and interoperable wallet infrastructure for the blooming cross-chain networks, placing its core mainly at the Cosmos ecosystem.
