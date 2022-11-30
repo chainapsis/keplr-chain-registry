@@ -35,9 +35,9 @@
             "coinDecimals": 6,
             "coinGeckoId": "desmos",
             "gasPriceStep": {
-                "low": 0.002,
-                "average": 0.025,
-                "high": 0.03
+                "low": 0.01,
+                "average": 0.03,
+                "high": 0.05
             }
         }
     ],
