@@ -1,9 +1,14 @@
 {
     "chainId": "desmos-mainnet",
     "chainName": "Desmos",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/desmos/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/desmos-mainnet/chain.png",
     "rpc": "https://rpc.mainnet.desmos.network",
     "rest": "https://api.mainnet.desmos.network",
+    "nodeProvider": {
+        "name": "Forbole",
+        "email": "info@forbole.com",
+        "website": "https://www.forbole.com"
+    },
     "bip44": {
         "coinType": 852
     },
