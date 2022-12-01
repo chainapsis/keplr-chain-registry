@@ -56,10 +56,21 @@ const main = async () => {
       throw new Error("chainSymbolImageUrl should be provided");
     }
 
+    if (
+      chainInfo.bip44.coinType === 60 &&
+      (!chainInfo.features?.includes("eth-address-gen") ||
+        !chainInfo.features?.includes("eth-key-sign"))
+    ) {
+      throw new Error(
+        "EVM Chain should add eth-address-gen, eth-key-sign features"
+      );
+    }
+
     const chainIdentifier = libPath.parse(path).name;
 
     const validateImageUrl = (url: string): string => {
       const baseURL = `https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/${chainIdentifier}/`;
+
       if (!url.startsWith(baseURL)) {
         throw new Error(`Invalid image url: ${url}`);
       }
