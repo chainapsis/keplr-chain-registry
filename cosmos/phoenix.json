@@ -1,7 +1,7 @@
 {
     "chainId": "phoenix-1",
     "chainName": "Terra phoenixg",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/terra/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/chain.png",
     "rpc": "https://terra-rpc.lavenderfive.com",
     "rest": "https://phoenix-lcd.terra.dev",
     "nodeProvider": {
