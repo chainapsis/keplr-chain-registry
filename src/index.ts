@@ -91,6 +91,7 @@ const main = async () => {
     for (const imageFile of imageFiles) {
       checkImageSize(`images/${chainIdentifier}/${imageFile}`);
     }
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (error: any) {
     console.log(error?.message || error);
 
