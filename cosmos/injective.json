@@ -45,5 +45,9 @@
     "website":"https://crescent.network/"
   },
   "chainName": "injective-1",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/chain.png"
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/chain.png",
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ]
 }
