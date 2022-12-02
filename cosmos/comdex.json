@@ -1,0 +1,65 @@
+{
+  "rpc": "https://rpc.comdex.one",
+  "rest": "https://rest.comdex.one",
+  "chainId": "comdex-1",
+  "chainName": "Comdex",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/comdex/chain.png",
+  "nodeProvider": {
+    "name": "Comdex Node",
+    "email": "info@comdex.one",
+    "website":"https://comdex.one"
+  },
+  "stakeCurrency": {
+    "coinDenom": "CMDX",
+    "coinMinimalDenom": "ucmdx",
+    "coinDecimals": 6,
+    "coinGeckoId": "comdex"
+  },
+  "walletUrl": "https://app.harborprotocol.one",
+  "walletUrlForStaking": "https://comdex.omniflix.co/stake",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "comdex",
+    "bech32PrefixAccPub": "comdexpub",
+    "bech32PrefixValAddr": "comdexvaloper",
+    "bech32PrefixValPub": "comdexvaloperpub",
+    "bech32PrefixConsAddr": "comdexvalcons",
+    "bech32PrefixConsPub": "comdexvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "CMDX",
+      "coinMinimalDenom": "ucmdx",
+      "coinDecimals": 6,
+      "coinGeckoId": "comdex"
+    },
+    {
+      "coinDenom": "CMST",
+      "coinMinimalDenom": "ucmst",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "HARBOR",
+      "coinMinimalDenom": "uharbor",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "CMDX",
+      "coinMinimalDenom": "ucmdx",
+      "coinDecimals": 6,
+      "coinGeckoId": "comdex",
+      "gasPriceStep": {
+        "low": 0,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "features": [
+    "cosmwasm"
+  ]
+}
