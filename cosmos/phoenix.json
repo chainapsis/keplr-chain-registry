@@ -1,50 +1,55 @@
 {
-    "chainId": "phoenix-1",
-    "chainName": "Terra Phoenix",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/chain.png",
-    "rpc": "https://terra-rpc.lavenderfive.com",
-    "rest": "https://phoenix-lcd.terra.dev",
-    "nodeProvider": {
-      "name": "Lavender.Five Nodes 🐝",
-      "email": "hello@lavenderfive.com",
-      "website": "http://www.lavenderfive.com"
-    },
-    "bip44": {
-      "coinType": 330
-    },
-    "bech32Config": {
-      "bech32PrefixAccAddr": "terra",
-      "bech32PrefixAccPub": "terrapub",
-      "bech32PrefixValAddr": "terravaloper",
-      "bech32PrefixValPub": "terravaloperpub",
-      "bech32PrefixConsAddr": "terravalcons",
-      "bech32PrefixConsPub": "terravalconspub"
-    },
-    "currencies": [
-      {
-        "coinDenom": "LUNA",
-        "coinMinimalDenom": "uluna",
-        "coinDecimals": 6,
-        "coinGeckoId": "terra-luna-2"
-      }
-    ],
-    "feeCurrencies": [
-      {
-        "coinDenom": "LUNA",
-        "coinMinimalDenom": "uluna",
-        "coinDecimals": 6,
-        "coinGeckoId": "terra-luna-2"
-      }
-    ],
-    "stakeCurrency": {
+  "chainId": "phoenix-1",
+  "chainName": "Terra Phoenix",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/chain.png",
+  "rpc": "https://terra-rpc.lavenderfive.com",
+  "rest": "https://phoenix-lcd.terra.dev",
+  "nodeProvider": {
+    "name": "Lavender.Five Nodes 🐝",
+    "email": "hello@lavenderfive.com",
+    "website": "http://www.lavenderfive.com"
+  },
+  "bip44": {
+    "coinType": 330
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "terra",
+    "bech32PrefixAccPub": "terrapub",
+    "bech32PrefixValAddr": "terravaloper",
+    "bech32PrefixValPub": "terravaloperpub",
+    "bech32PrefixConsAddr": "terravalcons",
+    "bech32PrefixConsPub": "terravalconspub"
+  },
+  "currencies": [
+    {
       "coinDenom": "LUNA",
       "coinMinimalDenom": "uluna",
       "coinDecimals": 6,
       "coinGeckoId": "terra-luna-2"
-    },
-    "walletUrl": "https://station.terra.money/",
-    "walletUrlForStaking": "https://station.terra.money/stake",
-    "features": [
-      "cosmwasm"
-    ]
-  }
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "LUNA",
+      "coinMinimalDenom": "uluna",
+      "coinDecimals": 6,
+      "coinGeckoId": "terra-luna-2",
+      "gasPriceStep": {
+        "low": 0.015,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "LUNA",
+    "coinMinimalDenom": "uluna",
+    "coinDecimals": 6,
+    "coinGeckoId": "terra-luna-2"
+  },
+  "walletUrl": "https://station.terra.money/",
+  "walletUrlForStaking": "https://station.terra.money/stake",
+  "features": [
+    "cosmwasm"
+  ]
+}
