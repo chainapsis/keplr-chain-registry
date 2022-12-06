@@ -23,7 +23,7 @@
   "currencies": [
     {
       "coinDenom": "SWTH",
-      "coinMinimalDenom": "uswth???",
+      "coinMinimalDenom": "swth",
       "coinDecimals": 8,
       "coinGeckoId": "switcheo"
     }
@@ -31,19 +31,19 @@
   "feeCurrencies": [
     {
       "coinDenom": "SWTH",
-      "coinMinimalDenom": "uswth???",
+      "coinMinimalDenom": "swth",
       "coinDecimals": 8,
       "coinGeckoId": "switcheo",
       "gasPriceStep": {
-        "low": 0.01,
-        "average": 0.025,
-        "high": 0.03
+        "low": 1,
+        "average": 1.5,
+        "high": 2
       }
     }
   ],
   "stakeCurrency": {
     "coinDenom": "SWTH",
-    "coinMinimalDenom": "uswth???",
+    "coinMinimalDenom": "swth",
     "coinDecimals": 8,
     "coinGeckoId": "switcheo"
   },
