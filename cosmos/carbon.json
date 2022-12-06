@@ -1,0 +1,51 @@
+{
+  "chainId": "carbon-1",
+  "chainName": "Carbon",
+  "chainSymbolImageUrl": "",
+  "rpc": "https://tm-api.carbon.network",
+  "rest": "https://api.carbon.network",
+  "nodeProvider": {
+    "name": "Switcheo Labs",
+    "email": "info@switcheo.network",
+    "website": "https://www.switcheo.com/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "swth",
+    "bech32PrefixAccPub": "swthpub",
+    "bech32PrefixValAddr": "swthvaloper",
+    "bech32PrefixValPub": "swthvaloperpub",
+    "bech32PrefixConsAddr": "swthvalcons",
+    "bech32PrefixConsPub": "swthvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "SWTH",
+      "coinMinimalDenom": "uswth???",
+      "coinDecimals": 8,
+      "coinGeckoId": "switcheo"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "SWTH",
+      "coinMinimalDenom": "uswth???",
+      "coinDecimals": 8,
+      "coinGeckoId": "switcheo",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.03
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "SWTH",
+    "coinMinimalDenom": "uswth???",
+    "coinDecimals": 8,
+    "coinGeckoId": "switcheo"
+  },
+  "features": []
+}
