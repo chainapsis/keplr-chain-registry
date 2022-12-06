@@ -1,7 +1,7 @@
 {
   "chainId": "carbon-1",
   "chainName": "Carbon",
-  "chainSymbolImageUrl": "",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/carbon/chain.png",
   "rpc": "https://tm-api.carbon.network",
   "rest": "https://api.carbon.network",
   "nodeProvider": {
