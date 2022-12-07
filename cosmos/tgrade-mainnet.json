@@ -3,6 +3,7 @@
   "rest": "https://lcd-tgrade.keplr.app",
   "chainId": "tgrade-mainnet-1",
   "chainName": "Tgrade",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tgrade-mainnet/chain.png",
   "stakeCurrency": {
     "coinDenom": "TGD",
     "coinMinimalDenom": "utgd",

@@ -3,6 +3,7 @@
   "rest": "https://lcd-evmos.keplr.app",
   "chainId": "evmos_9001-2",
   "chainName": "Evmos",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/evmos_9001/chain.png",
   "stakeCurrency": {
     "coinDenom": "EVMOS",
     "coinMinimalDenom": "aevmos",

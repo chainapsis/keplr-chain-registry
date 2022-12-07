@@ -3,6 +3,7 @@
   "rest": "https://lcd-iov.keplr.app",
   "chainId": "iov-mainnet-ibc",
   "chainName": "Starname",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iov-mainnet-ibc/chain.png",
   "stakeCurrency": {
     "coinDenom": "IOV",
     "coinMinimalDenom": "uiov",

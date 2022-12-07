@@ -3,6 +3,7 @@
   "rest": "https://lcd-stargaze.keplr.app",
   "chainId": "stargaze-1",
   "chainName": "Stargaze",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stargaze/chain.png",
   "stakeCurrency": {
     "coinDenom": "STARS",
     "coinMinimalDenom": "ustars",

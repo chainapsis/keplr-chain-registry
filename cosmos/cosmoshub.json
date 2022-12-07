@@ -12,6 +12,7 @@
   },
   "chainId": "cosmoshub-4",
   "chainName": "Cosmos Hub",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/chain.png",
   "currencies": [
     {
       "coinDecimals": 6,

@@ -3,6 +3,7 @@
   "rest": "https://lcd-crypto-org.keplr.app",
   "chainId": "crypto-org-chain-mainnet-1",
   "chainName": "Crypto.org",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/crypto-org-chain-mainnet/chain.png",
   "stakeCurrency": {
     "coinDenom": "CRO",
     "coinMinimalDenom": "basecro",

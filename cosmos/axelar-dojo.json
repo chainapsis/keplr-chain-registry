@@ -3,6 +3,7 @@
   "rest": "https://lcd-axelar.keplr.app",
   "chainId": "axelar-dojo-1",
   "chainName": "Axelar",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/chain.png",
   "stakeCurrency": {
     "coinDenom": "AXL",
     "coinMinimalDenom": "uaxl",

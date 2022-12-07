@@ -3,6 +3,7 @@
   "rest": "https://lcd-stride.keplr.app",
   "chainId": "stride-1",
   "chainName": "Stride",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/chain.png",
   "stakeCurrency": {
     "coinDenom": "STRD",
     "coinMinimalDenom": "ustrd",

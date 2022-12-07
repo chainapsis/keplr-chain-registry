@@ -3,6 +3,7 @@
   "rest": "https://lcd-impacthub.keplr.app",
   "chainId": "impacthub-3",
   "chainName": "ixo",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/impacthub/chain.png",
   "stakeCurrency": {
     "coinDenom": "IXO",
     "coinMinimalDenom": "uixo",
