@@ -3,7 +3,7 @@
   "rest": "https://lcd-certik.keplr.app",
   "chainId": "shentu-2.2",
   "chainName": "Shentu",
-
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shentu-2.2/chain.png",
   "stakeCurrency": {
     "coinDenom": "CTK",
     "coinMinimalDenom": "uctk",
