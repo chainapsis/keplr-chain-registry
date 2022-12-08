@@ -3,6 +3,7 @@
   "rest": "https://lcd-osmosis.keplr.app",
   "chainId": "osmosis-1",
   "chainName": "Osmosis",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/chain.png",
   "stakeCurrency": {
     "coinDenom": "OSMO",
     "coinMinimalDenom": "uosmo",

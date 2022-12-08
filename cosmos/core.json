@@ -3,6 +3,7 @@
   "rest": "https://lcd-persistence.keplr.app",
   "chainId": "core-1",
   "chainName": "Persistence",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/chain.png",
   "stakeCurrency": {
     "coinDenom": "XPRT",
     "coinMinimalDenom": "uxprt",

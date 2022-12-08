@@ -3,6 +3,7 @@
   "rest": "https://lcd-akash.keplr.app",
   "chainId": "akashnet-2",
   "chainName": "Akash",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/akashnet/chain.png",
   "stakeCurrency": {
     "coinDenom": "AKT",
     "coinMinimalDenom": "uakt",

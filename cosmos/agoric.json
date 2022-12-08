@@ -3,6 +3,7 @@
   "rest": "https://lcd-agoric.keplr.app",
   "chainId": "agoric-3",
   "chainName": "Agoric",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/agoric/chain.png",
   "stakeCurrency": {
     "coinDenom": "BLD",
     "coinMinimalDenom": "ubld",

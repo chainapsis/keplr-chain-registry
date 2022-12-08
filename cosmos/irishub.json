@@ -3,6 +3,7 @@
   "rest": "https://lcd-iris.keplr.app",
   "chainId": "irishub-1",
   "chainName": "IRISnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/irishub/chain.png",
   "stakeCurrency": {
     "coinDenom": "IRIS",
     "coinMinimalDenom": "uiris",

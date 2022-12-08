@@ -3,6 +3,7 @@
   "rest": "https://lcd-juno.keplr.app",
   "chainId": "juno-1",
   "chainName": "Juno",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/juno/chain.png",
   "stakeCurrency": {
     "coinDenom": "JUNO",
     "coinMinimalDenom": "ujuno",

@@ -3,6 +3,7 @@
   "rest": "https://lcd-regen.keplr.app",
   "chainId": "regen-1",
   "chainName": "Regen",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/regen/chain.png",
   "stakeCurrency": {
     "coinDenom": "REGEN",
     "coinMinimalDenom": "uregen",

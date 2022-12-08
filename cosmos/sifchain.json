@@ -3,6 +3,7 @@
   "rest": "https://lcd-sifchain.keplr.app",
   "chainId": "sifchain-1",
   "chainName": "Sifchain",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sifchain/chain.png",
   "stakeCurrency": {
     "coinDenom": "ROWAN",
     "coinMinimalDenom": "rowan",

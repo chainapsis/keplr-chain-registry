@@ -3,6 +3,7 @@
   "rest": "https://lcd-emoney.keplr.app",
   "chainId": "emoney-3",
   "chainName": "e-Money",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/emoney/chain.png",
   "stakeCurrency": {
     "coinDenom": "NGM",
     "coinMinimalDenom": "ungm",

@@ -3,6 +3,7 @@
   "rest": "https://lcd-gravity-bridge.keplr.app",
   "chainId": "gravity-bridge-3",
   "chainName": "Gravity Bridge",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/chain.png",
   "stakeCurrency": {
     "coinDenom": "GRAV",
     "coinMinimalDenom": "ugraviton",
