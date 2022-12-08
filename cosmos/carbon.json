@@ -39,6 +39,30 @@
         "average": 1.5,
         "high": 2
       }
+    },
+    {
+      "coinDenom":"BNB",
+      "coinMinimalDenom":"bnb.1.6.773edb",
+      "coinDecimals":18,
+      "coinGeckoId":"binancecoin"
+    },
+    {
+      "coinDenom":"BUSD",
+      "coinMinimalDenom":"busd.1.6.754a80",
+      "coinDecimals":18,
+      "coinGeckoId":"binance-usd"
+    },
+    {
+      "coinDenom":"ETH",
+      "coinMinimalDenom":"eth.1.2.942d87",
+      "coinDecimals":18,
+      "coinGeckoId":"ethereum"
+    },
+    {
+      "coinDenom":"USDC",
+      "coinMinimalDenom":"usdc.1.2.343151",
+      "coinDecimals":6,
+      "coinGeckoId":"usd-coin"
     }
   ],
   "stakeCurrency": {
