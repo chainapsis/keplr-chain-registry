@@ -8,7 +8,6 @@
     "bech32PrefixValAddr": "injvaloper",
     "bech32PrefixConsAddr": "injvalcons"
   },
-  "coinType": 60,
   "bip44": {
     "coinType": 60
   },
