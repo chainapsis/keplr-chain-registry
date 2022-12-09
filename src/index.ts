@@ -28,7 +28,7 @@ const main = async () => {
         "emoney",
         "evmos_9001",
         "gravity-bridge",
-        "impacthub",
+        "ixo",
         "iov-mainnet-ibc",
         "irishub",
         "kava_2222",
