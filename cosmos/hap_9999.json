@@ -1,0 +1,47 @@
+{
+  "rpc": "https://rpc.hap.land",
+  "rest": "https://lcd.hap.land",
+  "chainId": "hap_9999-1",
+  "chainName": "HAP",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/hap_9999/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "HAP",
+    "coinMinimalDenom": "ahap",
+    "coinDecimals": 18,
+    "coinGeckoId": "hap"
+  },
+  "walletUrl": "https://wallet.keplr.app/chains/hap",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/hap",
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "hap",
+    "bech32PrefixAccPub": "happub",
+    "bech32PrefixValAddr": "hapvaloper",
+    "bech32PrefixValPub": "hapvaloperpub",
+    "bech32PrefixConsAddr": "hapvalcons",
+    "bech32PrefixConsPub": "hapvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "HAP",
+      "coinMinimalDenom": "ahap",
+      "coinDecimals": 18,
+      "coinGeckoId": "hap"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "HAP",
+      "coinMinimalDenom": "ahap",
+      "coinDecimals": 18,
+      "coinGeckoId": "hap",
+      "gasPriceStep": {
+        "low": 25000000000,
+        "average": 25000000000,
+        "high": 40000000000
+      }
+    }
+  ]
+}
