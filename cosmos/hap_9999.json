@@ -7,8 +7,7 @@
   "stakeCurrency": {
     "coinDenom": "HAP",
     "coinMinimalDenom": "ahap",
-    "coinDecimals": 18,
-    "coinGeckoId": "hap"
+    "coinDecimals": 18
   },
   "walletUrl": "https://wallet.keplr.app/chains/hap",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/hap",
@@ -27,8 +26,7 @@
     {
       "coinDenom": "HAP",
       "coinMinimalDenom": "ahap",
-      "coinDecimals": 18,
-      "coinGeckoId": "hap"
+      "coinDecimals": 18
     }
   ],
   "feeCurrencies": [
@@ -36,7 +34,6 @@
       "coinDenom": "HAP",
       "coinMinimalDenom": "ahap",
       "coinDecimals": 18,
-      "coinGeckoId": "hap",
       "gasPriceStep": {
         "low": 25000000000,
         "average": 25000000000,
