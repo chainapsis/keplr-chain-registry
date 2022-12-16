@@ -34,7 +34,7 @@
       "coinMinimalDenom": "uqck",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0,
+        "low": 0.0001,
         "average": 0.0001,
         "high": 0.00025
       }
