@@ -7,7 +7,7 @@
   "stakeCurrency": {
     "coinDenom": "QCK",
     "coinMinimalDenom": "uqck",
-    "coinDecimals": 6,
+    "coinDecimals": 6
   },
   "walletUrlForStaking": "https://wallet.keplr.app/chains/quicksilver",
   "bip44": {
@@ -25,8 +25,7 @@
     {
       "coinDenom": "QCK",
       "coinMinimalDenom": "uqck",
-      "coinDecimals": 6,
-      "coinGeckoId": "quicksilver"
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
@@ -34,7 +33,6 @@
       "coinDenom": "QCK",
       "coinMinimalDenom": "uqck",
       "coinDecimals": 6,
-      "coinGeckoId": "quicksilver",
       "gasPriceStep": {
         "low": 0,
         "average": 0.0001,
