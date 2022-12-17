@@ -6,7 +6,7 @@
 > yarn install
 > 
 > # validate your json file (ex. yarn validate cosmos/osmosis.json)
-> yarn validate comsmos/{your file.json}
+> yarn validate cosmos/{your file.json}
 > ```
 > 
 > READ THE GUIDELINES BELLOW CAREFULLY, PAYING PARTICULAR ATTENTION TO THE "features" IN THE [[REQUIREMENT DETAILS](https://github.com/chainapsis/keplr-chain-registry#requirement-details)].

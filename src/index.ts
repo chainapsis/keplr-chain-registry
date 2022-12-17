@@ -44,6 +44,7 @@ const main = async () => {
         "umee",
         "crypto-org-chain-mainnet",
         "hap_9999",
+        "quicksilver",
       ];
       const chainIdentifier = ChainIdHelper.parse(chainInfo.chainId).identifier;
 
