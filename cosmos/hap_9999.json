@@ -40,5 +40,9 @@
         "high": 40000000000
       }
     }
+  ],
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
   ]
 }
