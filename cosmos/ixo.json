@@ -7,7 +7,8 @@
   "stakeCurrency": {
     "coinDenom": "IXO",
     "coinMinimalDenom": "uixo",
-    "coinDecimals": 6
+    "coinDecimals": 6,
+    "coinGeckoId": "ixo"
   },
   "walletUrl": "https://wallet.keplr.app/chains/ixo",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/ixo",
@@ -26,14 +27,20 @@
     {
       "coinDenom": "IXO",
       "coinMinimalDenom": "uixo",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinGeckoId": "ixo"
     }
   ],
   "feeCurrencies": [
     {
       "coinDenom": "IXO",
       "coinMinimalDenom": "uixo",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.015,
+        "average": 0.025,
+        "high": 0.04
+      }
     }
   ],
   "features": []
