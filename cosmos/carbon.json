@@ -1,0 +1,75 @@
+{
+  "chainId": "carbon-1",
+  "chainName": "Carbon",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/carbon/chain.png",
+  "rpc": "https://tm-api.carbon.network",
+  "rest": "https://api.carbon.network",
+  "nodeProvider": {
+    "name": "Switcheo Labs",
+    "email": "info@switcheo.network",
+    "website": "https://www.switcheo.com/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "swth",
+    "bech32PrefixAccPub": "swthpub",
+    "bech32PrefixValAddr": "swthvaloper",
+    "bech32PrefixValPub": "swthvaloperpub",
+    "bech32PrefixConsAddr": "swthvalcons",
+    "bech32PrefixConsPub": "swthvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "SWTH",
+      "coinMinimalDenom": "swth",
+      "coinDecimals": 8,
+      "coinGeckoId": "switcheo"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "SWTH",
+      "coinMinimalDenom": "swth",
+      "coinDecimals": 8,
+      "coinGeckoId": "switcheo",
+      "gasPriceStep": {
+        "low": 1,
+        "average": 1.5,
+        "high": 2
+      }
+    },
+    {
+      "coinDenom":"BNB",
+      "coinMinimalDenom":"bnb.1.6.773edb",
+      "coinDecimals":18,
+      "coinGeckoId":"binancecoin"
+    },
+    {
+      "coinDenom":"BUSD",
+      "coinMinimalDenom":"busd.1.6.754a80",
+      "coinDecimals":18,
+      "coinGeckoId":"binance-usd"
+    },
+    {
+      "coinDenom":"ETH",
+      "coinMinimalDenom":"eth.1.2.942d87",
+      "coinDecimals":18,
+      "coinGeckoId":"ethereum"
+    },
+    {
+      "coinDenom":"USDC",
+      "coinMinimalDenom":"usdc.1.2.343151",
+      "coinDecimals":6,
+      "coinGeckoId":"usd-coin"
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "SWTH",
+    "coinMinimalDenom": "swth",
+    "coinDecimals": 8,
+    "coinGeckoId": "switcheo"
+  },
+  "features": []
+}
