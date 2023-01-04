@@ -1,4 +1,4 @@
-import { BroadcastMode, ChainInfo, Keplr } from "@keplr-wallet/types";
+import { ChainInfo, Keplr } from "@keplr-wallet/types";
 import { Wallet } from "./types";
 
 export const getKeplrFromWindow: () => Promise<
@@ -34,10 +34,6 @@ export const getKeplrFromWindow: () => Promise<
 export class KeplrWallet implements Wallet {
   constructor(public readonly keplr: Keplr) {}
 
-  broadcastTxSync(chainId: string, tx: Uint8Array): Promise<Uint8Array> {
-    return this.keplr.sendTx(chainId, tx, "sync" as BroadcastMode);
-  }
-
   getChainInfosWithoutEndpoints(): Promise<
     (Pick<ChainInfo, "chainId" | "chainName" | "bech32Config"> & {
       readonly isEthermintLike?: boolean;
@@ -55,18 +51,8 @@ export class KeplrWallet implements Wallet {
     });
   }
 
-  getKey(chainId: string): Promise<{
-    readonly name: string;
-    readonly pubKey: Uint8Array;
-    readonly bech32Address: string;
-    readonly isLedgerNano?: boolean;
-  }> {
-    return this.keplr.getKey(chainId).then((key) => {
-      return {
-        ...key,
-        isLedgerNano: key.isNanoLedger,
-      };
-    });
+  suggestChain(chainInfo: ChainInfo): Promise<void> {
+    return this.keplr.experimentalSuggestChain(chainInfo);
   }
 
   init(chainIds: string[]): Promise<void> {

@@ -9,10 +9,5 @@ export interface Wallet {
     })[]
   >;
 
-  getKey(chainId: string): Promise<{
-    readonly name: string;
-    readonly pubKey: Uint8Array;
-    readonly bech32Address: string;
-    readonly isLedgerNano?: boolean;
-  }>;
+  suggestChain(chainInfo: ChainInfo): Promise<void>;
 }

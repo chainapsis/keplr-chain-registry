@@ -12,6 +12,8 @@ type DisplayType = "normal" | "registered";
 export type DisplayChainInfo = ChainInfo & { displayType: DisplayType };
 
 export default function Home() {
+  const [search, setSearch] = useState<string>("");
+  const [wallet, setWallet] = useState<KeplrWallet>();
   const [isExist, setIsExist] = useState<boolean>();
   const [chainInfos, setChainInfos] = useState<DisplayChainInfo[]>([]);
 
@@ -42,6 +44,8 @@ export default function Home() {
       setIsExist(true);
 
       const wallet = new KeplrWallet(keplr);
+      setWallet(wallet);
+
       const chainIds = (await wallet.getChainInfosWithoutEndpoints()).map(
         (c) => c.chainId,
       );
@@ -72,12 +76,32 @@ export default function Home() {
     setChainInfos(displayChainInfo);
   };
 
+  const onClickChainItem = async (chainInfo: ChainInfo) => {
+    await wallet?.suggestChain(chainInfo);
+  };
+
   return (
     <div>
+      <input
+        value={search}
+        onChange={(event) => {
+          setSearch(event.target.value);
+        }}
+      />
       {!isExist ? <div>Install Keplr</div> : null}
-      {chainInfos.map((chainInfo) => (
-        <ChainItem chainItem={chainInfo} />
-      ))}
+      {chainInfos
+        .filter(
+          (chainInfo) =>
+            chainInfo.chainId.toLowerCase().includes(search.toLowerCase()) ||
+            chainInfo.chainName.toLowerCase().includes(search.toLowerCase()),
+        )
+        .map((chainInfo) => (
+          <ChainItem
+            key={chainInfo.chainId}
+            chainItem={chainInfo}
+            onClick={onClickChainItem}
+          />
+        ))}
     </div>
   );
 }

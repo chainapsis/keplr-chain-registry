@@ -1,16 +1,21 @@
 import { FunctionComponent } from "react";
 import styled from "styled-components";
 import { DisplayChainInfo } from "../../index";
+import { ChainInfo } from "@keplr-wallet/types";
 
 interface Props {
   chainItem: DisplayChainInfo;
+  onClick: (chainInfo: ChainInfo) => Promise<void>;
 }
 
 export const ChainItem: FunctionComponent<Props> = (props) => {
-  const { chainItem } = props;
+  const { chainItem, onClick } = props;
 
   return (
-    <ChainItemContainer key={chainItem.chainId}>
+    <ChainItemContainer
+      key={chainItem.chainId}
+      onClick={async () => await onClick(chainItem)}
+    >
       <div>Chain Name: {chainItem.chainName}</div>
       <div>Display Type: {chainItem.displayType}</div>
     </ChainItemContainer>
