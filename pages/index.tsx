@@ -1,54 +1,83 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import { ChainInfo } from "@keplr-wallet/types";
+import { ChainItem } from "./components/chain-item";
+import { getKeplrFromWindow, KeplrWallet } from "../wallet";
 
-interface RepositoryTreesResponse {
-  sha: string;
-  tree: RepositoryTree[];
+interface ChainsResponse {
+  chains: ChainInfo[];
 }
 
-interface RepositoryTree {
-  path: string;
-  url: string;
-}
+type DisplayType = "normal" | "registered";
 
-interface BlobResponse {
-  content: string;
-}
+export type DisplayChainInfo = ChainInfo & { displayType: DisplayType };
 
 export default function Home() {
+  const [isExist, setIsExist] = useState<boolean>();
+  const [chainInfos, setChainInfos] = useState<DisplayChainInfo[]>([]);
+
   useEffect(() => {
     init();
   }, []);
 
   const init = async () => {
-    const urls: string[] = await fetchRepositoryTrees();
-
-    const chainBlobs = urls.map((tree) => fetchChainBlob(tree));
-
-    // const test = await Promise.all(chainBlobs);
-    // console.log(test);
+    try {
+      const chainIds = await checkKeplr();
+      await fetchChains(chainIds);
+    } catch (e) {
+      console.error(e);
+    }
   };
 
-  const fetchRepositoryTrees = async () => {
-    const response: RepositoryTreesResponse = await (
-      await fetch(
-        "https://api.github.com/repos/chainapsis/keplr-chain-registry/git/trees/main?recursive=1",
-      )
+  const checkKeplr = async () => {
+    const keplr = await getKeplrFromWindow();
+
+    if (keplr === undefined) {
+      setIsExist(false);
+      return;
+      // window.location.href =
+      //   "https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap";
+    }
+
+    if (keplr) {
+      setIsExist(true);
+
+      const wallet = new KeplrWallet(keplr);
+      const chainIds = (await wallet.getChainInfosWithoutEndpoints()).map(
+        (c) => c.chainId,
+      );
+
+      await wallet.init(chainIds);
+
+      return chainIds;
+    }
+  };
+
+  const fetchChains = async (chainIds: string[] | undefined) => {
+    const chainsResponse: ChainsResponse = await (
+      await fetch("/api/chains")
     ).json();
 
-    return response.tree
-      .filter((item) => item.path.includes("cosmos/"))
-      .map((item) => item.url);
-  };
+    const registeredChainInfos = chainsResponse.chains;
 
-  const fetchChainBlob = async (url: string) => {
-    const response: BlobResponse = await (await fetch(url)).json();
+    const displayChainInfo: DisplayChainInfo[] = registeredChainInfos.map(
+      (chainInfo) => {
+        if (chainIds?.includes(chainInfo.chainId)) {
+          return { ...chainInfo, displayType: "registered" };
+        }
 
-    const decoded = JSON.parse(
-      Buffer.from(response.content, "base64").toString("utf-8"),
+        return { ...chainInfo, displayType: "normal" };
+      },
     );
 
-    return decoded;
+    setChainInfos(displayChainInfo);
   };
 
-  return <div>Home</div>;
+  return (
+    <div>
+      {!isExist ? <div>Install Keplr</div> : null}
+      {chainInfos.map((chainInfo) => (
+        <ChainItem chainItem={chainInfo} />
+      ))}
+    </div>
+  );
 }
