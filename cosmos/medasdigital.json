@@ -16,8 +16,6 @@
     "coinMinimalDenom": "umedas",
     "coinDecimals": 6
   },
-  "walletUrl": "https://wallet.keplr.app/chains/medasdigital",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/medasdigital",
   "bip44": {
     "coinType": 118
   },
