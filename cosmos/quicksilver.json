@@ -26,7 +26,12 @@
       "coinDenom": "QCK",
       "coinMinimalDenom": "uqck",
       "coinDecimals": 6
-    }
+    },
+    {
+      "coinDenom:": "qSTARS",
+      "coinMinimalDenom" : "uqstars",
+      "coinDecimals": 6
+  }
   ],
   "feeCurrencies": [
     {
