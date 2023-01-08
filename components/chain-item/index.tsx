@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
 import styled from "styled-components";
-import { DisplayChainInfo } from "../../index";
 import { ChainInfo } from "@keplr-wallet/types";
+import { DisplayChainInfo } from "../../pages";
 
 interface Props {
   chainItem: DisplayChainInfo;

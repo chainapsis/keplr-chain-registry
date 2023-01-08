@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { ChainInfo } from "@keplr-wallet/types";
-import { ChainItem } from "./components/chain-item";
 import { getKeplrFromWindow, KeplrWallet } from "../wallet";
+import { ChainItem } from "../components/chain-item";
 
 interface ChainsResponse {
   chains: ChainInfo[];
