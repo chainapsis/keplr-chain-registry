@@ -4,15 +4,30 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import path from "path";
 import { promises as fs } from "fs";
 import { ChainInfo } from "@keplr-wallet/types";
+import Cors from "cors";
 
 type Data = {
   chains: ChainInfo[];
 };
 
-export default async function handler(
-  _: NextApiRequest,
+const cors = Cors({
+  methods: ["GET"],
+});
+
+export default async function (
+  req: NextApiRequest,
   res: NextApiResponse<Data>,
 ) {
+  await new Promise((resolve, reject) => {
+    cors(req, res, (result: any) => {
+      if (result instanceof Error) {
+        return reject(result);
+      }
+
+      return resolve(result);
+    });
+  });
+
   const jsonDirectory = path.join(process.cwd(), "cosmos");
 
   const fetchChains = (await fs.readdir(jsonDirectory)).map((fileName) =>
