@@ -13,6 +13,11 @@
     "bech32PrefixConsAddr": "nvalcons",
     "bech32PrefixConsPub": "nvalconspub"
   },
+  "stakeCurrency": {
+    "coinDenom": "nyx",
+    "coinMinimalDenom": "unyx",
+    "coinDecimals": 6
+  },
   "currencies": [
     {
       "coinDenom": "NYM",
@@ -29,12 +34,6 @@
         "coinGeckoId": "nym"
     }
   ],
-  "stakeCurrency": {
-    "coinDenom": "nym",
-    "coinMinimalDenom": "unym",
-    "coinDecimals": 6,
-    "coinGeckoId": "nym"
-  },
   "coinType": 118,
   "gasPriceStep": {
       "low": 0.01,
