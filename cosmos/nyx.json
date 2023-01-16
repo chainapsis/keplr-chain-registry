@@ -4,7 +4,9 @@
   "chainSymbolImageUrl": "https://github.com/nymtech/keplr-chain-registry/blob/main/images/nyx/chain.png",
   "rpc": "https://rpc.nyx.nodes.guru",
   "rest": "https://api.nyx.nodes.guru/",
-  "bip44": { "coinType": 118 },
+  "bip44": { 
+    "coinType": 118 
+  },
   "bech32Config": {
     "bech32PrefixAccAddr": "n",
     "bech32PrefixAccPub": "npub",
