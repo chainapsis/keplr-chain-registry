@@ -38,9 +38,9 @@
         "coinDecimals": 6,
         "coinGeckoId": "bitcanna",
         "gasPriceStep": {
-          "low": 0,
-          "average": 0.025,
-          "high": 0.04
+          "low": 0.001,
+          "average": 0.0025,
+          "high": 0.01
         }
     }],
     "features": [
