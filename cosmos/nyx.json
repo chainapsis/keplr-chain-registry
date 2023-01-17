@@ -4,6 +4,11 @@
   "chainSymbolImageUrl": "https://github.com/nymtech/keplr-chain-registry/blob/main/images/nyx/chain.png",
   "rpc": "https://rpc.nyx.nodes.guru",
   "rest": "https://api.nyx.nodes.guru/",
+  "nodeProvider": {
+    "name": "NodesGuru",
+    "email": "andreym@nodes.guru",
+    "website":"https://nodes.guru/"
+  },
   "bip44": { 
     "coinType": 118 
   },
@@ -26,6 +31,11 @@
       "coinMinimalDenom": "unym",
       "coinDecimals": 6,
       "coinGeckoId": "nym"
+    }, 
+    {
+      "coinDenom": "NYX", 
+      "coinMinimalDenom": "unyx", 
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
@@ -36,13 +46,7 @@
         "coinGeckoId": "nym"
     }
   ],
-  "coinType": 118,
-  "gasPriceStep": {
-      "low": 0.01,
-      "average": 0.025,
-      "high": 0.03
-  },
   "features": [ 
-      "cosmwasm", "ibc-transfer"
+      "cosmwasm" 
   ]
 }
