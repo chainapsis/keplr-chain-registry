@@ -85,6 +85,9 @@ function createNodeProvider(chainItemDiv, chainInfo) {
   } else {
     nodeProviderDiv = document.createElement("div");
     nodeProviderDiv.className = "native-node-provider";
+
+    const nativeNodeProviderText = document.createTextNode("Keplr Supported");
+    nodeProviderDiv.appendChild(nativeNodeProviderText);
   }
 
   chainItemDiv.appendChild(nodeProviderDiv);
