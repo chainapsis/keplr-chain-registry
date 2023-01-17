@@ -4,6 +4,8 @@ async function init() {
   );
   const chainInfos = await response.json();
 
+  console.log("chainInfos", chainInfos);
+
   chainInfos.chains.map((chainInfo) => {
     return createChainItem(chainInfo);
   });
@@ -16,6 +18,7 @@ function createChainItem(chainInfo) {
   createChainSymbol(chainItemDiv, chainInfo);
   createChainName(chainItemDiv, chainInfo);
   createChainCurrency(chainItemDiv, chainInfo);
+  createNodeProvider(chainItemDiv, chainInfo);
   createRegisterButton(chainItemDiv, chainInfo);
 
   const chainListDiv = document.getElementById("chain-list");
@@ -50,6 +53,41 @@ function createChainCurrency(chainItemDiv, chainInfo) {
   chainCurrencyDiv.appendChild(chainCurrencyText);
 
   chainItemDiv.appendChild(chainCurrencyDiv);
+}
+
+function createNodeProvider(chainItemDiv, chainInfo) {
+  let nodeProviderDiv;
+  if (chainInfo.nodeProvider) {
+    nodeProviderDiv = document.createElement("div");
+    nodeProviderDiv.className = "node-provider";
+
+    const providerLinkA = document.createElement("a");
+    providerLinkA.className = "provider-link";
+
+    providerLinkA.href = chainInfo.nodeProvider.website;
+    providerLinkA.target = "_blank";
+
+    const providerNameText = document.createTextNode(
+      chainInfo.nodeProvider.name,
+    );
+    providerLinkA.appendChild(providerNameText);
+
+    const providerEmailDiv = document.createElement("div");
+    providerEmailDiv.className = "provider-email";
+
+    const providerEmailText = document.createTextNode(
+      chainInfo.nodeProvider.email,
+    );
+    providerEmailDiv.appendChild(providerEmailText);
+
+    nodeProviderDiv.appendChild(providerLinkA);
+    nodeProviderDiv.appendChild(providerEmailDiv);
+  } else {
+    nodeProviderDiv = document.createElement("div");
+    nodeProviderDiv.className = "native-node-provider";
+  }
+
+  chainItemDiv.appendChild(nodeProviderDiv);
 }
 
 function createRegisterButton(chainItemDiv, chainInfo) {
