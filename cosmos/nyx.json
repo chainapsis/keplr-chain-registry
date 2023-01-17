@@ -1,7 +1,7 @@
 {
   "chainId": "nyx",
   "chainName": "Nyx",
-  "chainSymbolImageUrl": "https://github.com/nymtech/keplr-chain-registry/blob/main/images/nyx/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nyx/chain.png",
   "rpc": "https://rpc.nyx.nodes.guru",
   "rest": "https://api.nyx.nodes.guru/",
   "nodeProvider": {
