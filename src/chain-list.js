@@ -1,19 +1,67 @@
-async function init() {
-  const response = await fetch(
-    "https://keplr-chain-registry.vercel.app/api/chains",
-  );
-  const chainInfos = await response.json();
+function onClickRegisterdButton() {
+  const chainListDiv = document.getElementById("chain-list");
+  const registeredChainDivs = document.querySelectorAll(".registered");
+  const unregisteredChainDivs = document.querySelectorAll(".unregistered");
 
-  console.log("chainInfos", chainInfos);
+  registeredChainDivs.forEach((div) => {
+    div.style.display = "block";
+  });
 
-  chainInfos.chains.map((chainInfo) => {
-    return createChainItem(chainInfo);
+  unregisteredChainDivs.forEach((div) => {
+    div.style.display = "none";
   });
 }
 
-function createChainItem(chainInfo) {
+function onClickUnregisterdButton() {
+  const chainListDiv = document.getElementById("chain-list");
+  const registeredChainDivs = document.querySelectorAll(".registered");
+  const unregisteredChainDivs = document.querySelectorAll(".unregistered");
+
+  registeredChainDivs.forEach((div) => {
+    div.style.display = "none";
+  });
+
+  unregisteredChainDivs.forEach((div) => {
+    div.style.display = "block";
+  });
+}
+
+async function init() {
+  removeChainListChild();
+
+  const response = await fetch(
+    "https://keplr-chain-registry.vercel.app/api/chains",
+  );
+
+  const registeredResponse = await window.keplr.getChainInfosWithoutEndpoints();
+  const registeredChainIds = registeredResponse.map(
+    (chainInfo) => chainInfo.chainId,
+  );
+
+  const chainInfos = await response.json();
+
+  chainInfos.chains.map((chainInfo) => {
+    return createChainItem(
+      chainInfo,
+      registeredChainIds.includes(chainInfo.chainId),
+    );
+  });
+
+  onClickUnregisterdButton();
+}
+
+function removeChainListChild() {
+  var chainListDiv = document.getElementById("chain-list");
+  while (chainListDiv.firstChild) {
+    chainListDiv.removeChild(chainListDiv.lastChild);
+  }
+}
+
+function createChainItem(chainInfo, isRegistered) {
   const chainItemDiv = document.createElement("div");
-  chainItemDiv.className = "chain-item";
+  chainItemDiv.className = `chain-item ${
+    isRegistered ? "registered" : "unregistered"
+  }`;
 
   createChainSymbol(chainItemDiv, chainInfo);
   createChainName(chainItemDiv, chainInfo);
@@ -100,11 +148,49 @@ function createRegisterButton(chainItemDiv, chainInfo) {
   const registerButtonText = document.createTextNode("Add to Keplr");
   registerButton.appendChild(registerButtonText);
 
-  registerButton.onclick = () => {
-    window.keplr.experimentalSuggestChain(chainInfo);
+  registerButton.onclick = async () => {
+    try {
+      await window.keplr.experimentalSuggestChain(chainInfo);
+      init();
+    } catch (e) {
+      console.error(e);
+    }
   };
 
   chainItemDiv.appendChild(registerButton);
 }
 
+function addRegisterdButtons() {
+  const unregisteredA = document.createElement("a");
+  unregisteredA.className = "tab active w-button";
+
+  const unregisteredText = document.createTextNode("UNREGISTERED");
+  unregisteredA.appendChild(unregisteredText);
+
+  unregisteredA.onclick = async () => {
+    onClickUnregisterdButton();
+
+    registeredA.classList.remove("active");
+    unregisteredA.classList.add("active");
+  };
+
+  const registeredA = document.createElement("a");
+  registeredA.className = "tab w-button";
+
+  const registeredText = document.createTextNode("REGISTERED");
+  registeredA.appendChild(registeredText);
+
+  registeredA.onclick = async () => {
+    onClickRegisterdButton();
+
+    unregisteredA.classList.remove("active");
+    registeredA.classList.add("active");
+  };
+
+  const registeredButtonsDiv = document.getElementById("registred-buttons");
+  registeredButtonsDiv.appendChild(unregisteredA);
+  registeredButtonsDiv.appendChild(registeredA);
+}
+
+addRegisterdButtons();
 init();
