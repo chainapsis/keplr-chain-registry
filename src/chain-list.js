@@ -51,16 +51,9 @@ async function init() {
 
     onClickUnregisteredButton();
   } else {
-    createKeplrNotInstalled();
+    const keplrNotInstalledDiv = document.getElementById("keplr-not-installed");
+    keplrNotInstalledDiv.style.display = "block";
   }
-}
-
-function createKeplrNotInstalled() {
-  const keplrNotInstalledDiv = document.createElement("div");
-  keplrNotInstalledDiv.className = "keplr-not-installed";
-
-  const chainListDiv = document.getElementById("chain-list");
-  chainListDiv.appendChild(keplrNotInstalledDiv);
 }
 
 function removeChainListChild() {
