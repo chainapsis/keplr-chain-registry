@@ -7,7 +7,7 @@ export default function ChainListPage() {
     const unregisteredChainDivs = document.querySelectorAll(".unregistered");
 
     registeredChainDivs.forEach((div) => {
-      div.style.display = "block";
+      div.style.display = "gird";
     });
 
     unregisteredChainDivs.forEach((div) => {
@@ -25,33 +25,45 @@ export default function ChainListPage() {
     });
 
     unregisteredChainDivs.forEach((div) => {
-      div.style.display = "block";
+      div.style.display = "gird";
     });
   }
 
   async function init() {
     removeChainListChild();
 
-    const response = await fetch(
-      "https://keplr-chain-registry.vercel.app/api/chains",
-    );
-
-    const registeredResponse =
-      await window.keplr.getChainInfosWithoutEndpoints();
-    const registeredChainIds = registeredResponse.map(
-      (chainInfo) => chainInfo.chainId,
-    );
-
-    const chainInfos = await response.json();
-
-    chainInfos.chains.map((chainInfo) => {
-      return createChainItem(
-        chainInfo,
-        registeredChainIds.includes(chainInfo.chainId),
+    if (window.keplr) {
+      const response = await fetch(
+        "https://keplr-chain-registry.vercel.app/api/chains",
       );
-    });
 
-    onClickUnregisterdButton();
+      const registeredResponse =
+        await window.keplr.getChainInfosWithoutEndpoints();
+      const registeredChainIds = registeredResponse.map(
+        (chainInfo) => chainInfo.chainId,
+      );
+
+      const chainInfos = await response.json();
+
+      chainInfos.chains.map((chainInfo) => {
+        return createChainItem(
+          chainInfo,
+          registeredChainIds.includes(chainInfo.chainId),
+        );
+      });
+
+      onClickUnregisterdButton();
+    } else {
+      createKeplrNotInstalled();
+    }
+  }
+
+  function createKeplrNotInstalled() {
+    const keplrNotInstalledDiv = document.createElement("div");
+    keplrNotInstalledDiv.className = "keplr-not-installed";
+
+    const chainListDiv = document.getElementById("chain-list");
+    chainListDiv.appendChild(keplrNotInstalledDiv);
   }
 
   function removeChainListChild() {
@@ -164,10 +176,9 @@ export default function ChainListPage() {
     chainItemDiv.appendChild(registerButton);
   }
 
-  function addRegisterdButtons() {
-    //<a href="#" class="tab active w-button">UNREGISTERED</a>
+  function addRegisteredButtons() {
     const unregisteredA = document.createElement("a");
-    unregisteredA.className = "tab active w-button";
+    unregisteredA.className = "tab active";
 
     const unregisteredText = document.createTextNode("UNREGISTERED");
     unregisteredA.appendChild(unregisteredText);
@@ -180,7 +191,7 @@ export default function ChainListPage() {
     };
 
     const registeredA = document.createElement("a");
-    registeredA.className = "tab w-button";
+    registeredA.className = "tab";
 
     const registeredText = document.createTextNode("REGISTERED");
     registeredA.appendChild(registeredText);
@@ -198,7 +209,7 @@ export default function ChainListPage() {
   }
 
   useEffect(() => {
-    addRegisterdButtons();
+    addRegisteredButtons();
     init();
   }, []);
 
