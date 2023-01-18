@@ -1,10 +1,10 @@
-function onClickRegisterdButton() {
+function onClickRegisteredButton() {
   const chainListDiv = document.getElementById("chain-list");
   const registeredChainDivs = document.querySelectorAll(".registered");
   const unregisteredChainDivs = document.querySelectorAll(".unregistered");
 
   registeredChainDivs.forEach((div) => {
-    div.style.display = "gird";
+    div.style.display = "grid";
   });
 
   unregisteredChainDivs.forEach((div) => {
@@ -12,7 +12,7 @@ function onClickRegisterdButton() {
   });
 }
 
-function onClickUnregisterdButton() {
+function onClickUnregisteredButton() {
   const chainListDiv = document.getElementById("chain-list");
   const registeredChainDivs = document.querySelectorAll(".registered");
   const unregisteredChainDivs = document.querySelectorAll(".unregistered");
@@ -22,7 +22,7 @@ function onClickUnregisterdButton() {
   });
 
   unregisteredChainDivs.forEach((div) => {
-    div.style.display = "gird";
+    div.style.display = "grid";
   });
 }
 
@@ -49,7 +49,7 @@ async function init() {
       );
     });
 
-    onClickUnregisterdButton();
+    onClickUnregisteredButton();
   } else {
     createKeplrNotInstalled();
   }
@@ -80,7 +80,7 @@ function createChainItem(chainInfo, isRegistered) {
   createChainName(chainItemDiv, chainInfo);
   createChainCurrency(chainItemDiv, chainInfo);
   createNodeProvider(chainItemDiv, chainInfo);
-  createRegisterButton(chainItemDiv, chainInfo);
+  createRegisterButton(chainItemDiv, chainInfo, isRegistered);
 
   const chainListDiv = document.getElementById("chain-list");
   chainListDiv.appendChild(chainItemDiv);
@@ -154,11 +154,16 @@ function createNodeProvider(chainItemDiv, chainInfo) {
   chainItemDiv.appendChild(nodeProviderDiv);
 }
 
-function createRegisterButton(chainItemDiv, chainInfo) {
+function createRegisterButton(chainItemDiv, chainInfo, isRegistered) {
   const registerButton = document.createElement("button");
   registerButton.className = "chain-register";
+  if (isRegistered) {
+    registerButton.disabled = true;
+  }
 
-  const registerButtonText = document.createTextNode("Add to Keplr");
+  const registerButtonText = document.createTextNode(
+    isRegistered ? "Added Already" : "Add to Keplr",
+  );
   registerButton.appendChild(registerButtonText);
 
   registerButton.onclick = async () => {
@@ -181,7 +186,7 @@ function addRegisteredButtons() {
   unregisteredA.appendChild(unregisteredText);
 
   unregisteredA.onclick = async () => {
-    onClickUnregisterdButton();
+    onClickUnregisteredButton();
 
     registeredA.classList.remove("active");
     unregisteredA.classList.add("active");
@@ -194,7 +199,7 @@ function addRegisteredButtons() {
   registeredA.appendChild(registeredText);
 
   registeredA.onclick = async () => {
-    onClickRegisterdButton();
+    onClickRegisteredButton();
 
     unregisteredA.classList.remove("active");
     registeredA.classList.add("active");
@@ -205,5 +210,5 @@ function addRegisteredButtons() {
   registeredButtonsDiv.appendChild(registeredA);
 }
 
-addRegisterdButtons();
+addRegisteredButtons();
 init();
