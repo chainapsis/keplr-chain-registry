@@ -1,6 +1,4 @@
 async function init() {
-  removeChainListChild();
-
   if (!!window.keplr) {
     const keplrNotInstalledDiv = document.getElementById("keplr-not-installed");
     keplrNotInstalledDiv.style.display = "none";
@@ -17,13 +15,13 @@ async function init() {
 
     const chainInfos = await response.json();
 
+    removeChainListChild();
+
     chainInfos.chains
       .filter((chainInfo) => !!chainInfo.nodeProvider)
+      .filter((chainInfo) => !registeredChainIds.includes(chainInfo.chainId))
       .map((chainInfo) => {
-        return createChainItem(
-          chainInfo,
-          registeredChainIds.includes(chainInfo.chainId),
-        );
+        return createChainItem(chainInfo);
       });
   } else {
     const keplrNotInstalledDiv = document.getElementById("keplr-not-installed");
