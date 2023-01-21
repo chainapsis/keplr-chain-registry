@@ -28,7 +28,7 @@ const main = async () => {
         "emoney",
         "evmos_9001",
         "gravity-bridge",
-        "impacthub",
+        "ixo",
         "iov-mainnet-ibc",
         "irishub",
         "kava_2222",
@@ -43,6 +43,7 @@ const main = async () => {
         "tgrade-mainnet",
         "umee",
         "crypto-org-chain-mainnet",
+        "quicksilver",
       ];
       const chainIdentifier = ChainIdHelper.parse(chainInfo.chainId).identifier;
 

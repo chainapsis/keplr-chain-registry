@@ -1,0 +1,51 @@
+{
+    "chainId": "colosseum-1",
+    "chainName": "FirmaChain",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/colosseum/chain.png",
+    "rpc": "https://lcd-mainnet.firmachain.dev:26657",
+    "rest": "https://lcd-mainnet.firmachain.dev:1317",
+    "nodeProvider": {
+        "name": "FirmaChain",
+        "email": "contact@firmachain.org",
+        "website": "https://www.firmachain.org"
+    },
+    "bip44": {
+        "coinType": 7777777
+    },
+    "bech32Config": {
+        "bech32PrefixAccAddr": "firma",
+        "bech32PrefixAccPub": "firmapub",
+        "bech32PrefixValAddr": "firmavaloper",
+        "bech32PrefixValPub": "firmavaloperpub",
+        "bech32PrefixConsAddr": "firmavalcons",
+        "bech32PrefixConsPub": "firmavalconspub"
+    },
+    "currencies": [
+        {
+            "coinDenom": "FCT",
+            "coinMinimalDenom": "ufct",
+            "coinDecimals": 6,
+            "coinGeckoId": "firmachain"
+        }
+    ],
+    "feeCurrencies": [
+        {
+            "coinDenom": "FCT",
+            "coinMinimalDenom": "ufct",
+            "coinDecimals": 6,
+            "coinGeckoId": "firmachain",
+            "gasPriceStep": {
+                "low": 0.1,
+                "average": 0.25,
+                "high": 0.3
+            }
+        }
+    ],
+    "stakeCurrency": {
+        "coinDenom": "FCT",
+        "coinMinimalDenom": "ufct",
+        "coinDecimals": 6,
+        "coinGeckoId": "firmachain"
+    },
+    "features": []
+}

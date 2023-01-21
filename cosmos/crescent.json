@@ -1,0 +1,59 @@
+{
+  "rpc": "https://mainnet.crescent.network:26657",
+  "rest": "https://mainnet.crescent.network:1317",
+  "chainId": "crescent-1",
+  "chainName": "Crescent Network",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/crescent/chain.png",
+  "nodeProvider": {
+    "name": "Crescent Node",
+    "email": "contact@crescent.network",
+    "website":"https://crescent.network"
+  },
+  "stakeCurrency": {
+    "coinDenom": "CRE",
+    "coinMinimalDenom": "ucre",
+    "coinDecimals": 6,
+    "coinGeckoId": "crescent-network"
+  },
+  "walletUrl": "https://app.crescent.network/",
+  "walletUrlForStaking": "https://app.crescent.network/staking",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "cre",
+    "bech32PrefixAccPub": "crepub",
+    "bech32PrefixValAddr": "crevaloper",
+    "bech32PrefixValPub": "crevaloperpub",
+    "bech32PrefixConsAddr": "crevalcons",
+    "bech32PrefixConsPub": "crevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "CRE",
+      "coinMinimalDenom": "ucre",
+      "coinDecimals": 6,
+      "coinGeckoId": "crescent-network"
+    },
+    {
+      "coinDenom": "bCRE",
+      "coinMinimalDenom": "ubcre",
+      "coinDecimals": 6,
+      "coinGeckoId": "liquid-staking-crescent"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "CRE",
+      "coinMinimalDenom": "ucre",
+      "coinDecimals": 6,
+      "coinGeckoId": "crescent-network",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.03
+      }
+    }
+  ],
+  "features": []
+}

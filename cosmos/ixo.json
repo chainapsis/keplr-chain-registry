@@ -1,13 +1,14 @@
 {
-  "rpc": "https://rpc-impacthub.keplr.app",
-  "rest": "https://lcd-impacthub.keplr.app",
-  "chainId": "impacthub-3",
+  "rpc": "https://rpc-ixo.keplr.app",
+  "rest": "https://lcd-ixo.keplr.app",
+  "chainId": "ixo-4",
   "chainName": "ixo",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/impacthub/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ixo/chain.png",
   "stakeCurrency": {
     "coinDenom": "IXO",
     "coinMinimalDenom": "uixo",
-    "coinDecimals": 6
+    "coinDecimals": 6,
+    "coinGeckoId": "ixo"
   },
   "walletUrl": "https://wallet.keplr.app/chains/ixo",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/ixo",
@@ -26,14 +27,20 @@
     {
       "coinDenom": "IXO",
       "coinMinimalDenom": "uixo",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinGeckoId": "ixo"
     }
   ],
   "feeCurrencies": [
     {
       "coinDenom": "IXO",
       "coinMinimalDenom": "uixo",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.015,
+        "average": 0.025,
+        "high": 0.04
+      }
     }
   ],
   "features": []
