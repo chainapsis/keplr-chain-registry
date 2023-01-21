@@ -26,6 +26,78 @@
       "coinMinimalDenom": "swth",
       "coinDecimals": 8,
       "coinGeckoId": "switcheo"
+    },
+    {
+      "coinDenom": "BNB",
+      "coinMinimalDenom": "bnb.1.6.773edb",
+      "coinDecimals": 18,
+      "coinGeckoId": "binancecoin"
+    },
+    {
+      "coinDenom": "bNEO",
+      "coinMinimalDenom": "bneo.1.14.e2e5f6",
+      "coinDecimals": 8,
+      "coinGeckoId": "neo"
+    },
+    {
+      "coinDenom": "BUSD",
+      "coinMinimalDenom": "busd.1.6.754a80",
+      "coinDecimals": 18,
+      "coinGeckoId": "binance-usd"
+    },
+    {
+      "coinDenom": "ETH",
+      "coinMinimalDenom": "eth.1.19.c3b805",
+      "coinDecimals": 18,
+      "coinGeckoId": "ethereum"
+    },
+    {
+      "coinDenom": "ETH",
+      "coinMinimalDenom": "eth.1.2.942d87",
+      "coinDecimals": 18,
+      "coinGeckoId": "ethereum"
+    },
+    {
+      "coinDenom": "stOSMO",
+      "coinMinimalDenom": "ibc/75249A18DEFBEFE55F83B1C70CAD234DF164F174C6BC51682EE92C2C81C18C93",
+      "coinDecimals": 6,
+      "coinGeckoId": "osmosis"
+    },
+    {
+      "coinDenom": "ATOM",
+      "coinMinimalDenom": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
+      "coinDecimals": 6,
+      "coinGeckoId": "cosmos"
+    },
+    {
+      "coinDenom": "stATOM",
+      "coinMinimalDenom": "ibc/B7864B03E1B9FD4F049243E92ABD691586F682137037A9F3FCA5222815620B3C",
+      "coinDecimals": 6,
+      "coinGeckoId": "stride-staked-atom"
+    },
+    {
+      "coinDenom": "OSMO",
+      "coinMinimalDenom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+      "coinDecimals": 6,
+      "coinGeckoId": "osmosis"
+    },
+    {
+      "coinDenom": "USC",
+      "coinMinimalDenom": "usc",
+      "coinDecimals": 6,
+      "coinGeckoId": "carbon-usd"
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "usdc.1.2.343151",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin"
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "usdc.1.6.53ff75",
+      "coinDecimals": 18,
+      "coinGeckoId": "usd-coin"
     }
   ],
   "feeCurrencies": [
@@ -41,28 +113,136 @@
       }
     },
     {
-      "coinDenom":"BNB",
-      "coinMinimalDenom":"bnb.1.6.773edb",
-      "coinDecimals":18,
-      "coinGeckoId":"binancecoin"
+      "coinDenom": "BNB",
+      "coinMinimalDenom": "bnb.1.6.773edb",
+      "coinDecimals": 18,
+      "coinGeckoId": "binancecoin",
+      "gasPriceStep": {
+        "low": 1000000,
+        "average": 1500000,
+        "high": 2000000
+      }
     },
     {
-      "coinDenom":"BUSD",
-      "coinMinimalDenom":"busd.1.6.754a80",
-      "coinDecimals":18,
-      "coinGeckoId":"binance-usd"
+      "coinDenom": "bNEO",
+      "coinMinimalDenom": "bneo.1.14.e2e5f6",
+      "coinDecimals": 8,
+      "coinGeckoId": "neo",
+      "gasPriceStep": {
+        "low": 0.0015,
+        "average": 0.00225,
+        "high": 0.003
+      }
     },
     {
-      "coinDenom":"ETH",
-      "coinMinimalDenom":"eth.1.2.942d87",
-      "coinDecimals":18,
-      "coinGeckoId":"ethereum"
+      "coinDenom": "BUSD",
+      "coinMinimalDenom": "busd.1.6.754a80",
+      "coinDecimals": 18,
+      "coinGeckoId": "binance-usd",
+      "gasPriceStep": {
+        "low": 100000000,
+        "average": 150000000,
+        "high": 200000000
+      }
     },
     {
-      "coinDenom":"USDC",
-      "coinMinimalDenom":"usdc.1.2.343151",
-      "coinDecimals":6,
-      "coinGeckoId":"usd-coin"
+      "coinDenom": "ETH",
+      "coinMinimalDenom": "eth.1.19.c3b805",
+      "coinDecimals": 18,
+      "coinGeckoId": "ethereum",
+      "gasPriceStep": {
+        "low": 100000,
+        "average": 150000,
+        "high": 200000
+      }
+    },
+    {
+      "coinDenom": "ETH",
+      "coinMinimalDenom": "eth.1.2.942d87",
+      "coinDecimals": 18,
+      "coinGeckoId": "ethereum",
+      "gasPriceStep": {
+        "low": 100000,
+        "average": 150000,
+        "high": 200000
+      }
+    },
+    {
+      "coinDenom": "stOSMO",
+      "coinMinimalDenom": "ibc/75249A18DEFBEFE55F83B1C70CAD234DF164F174C6BC51682EE92C2C81C18C93",
+      "coinDecimals": 6,
+      "coinGeckoId": "osmosis",
+      "gasPriceStep": {
+        "low": 0.00015,
+        "average": 0.000225,
+        "high": 0.0003
+      }
+    },
+    {
+      "coinDenom": "ATOM",
+      "coinMinimalDenom": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
+      "coinDecimals": 6,
+      "coinGeckoId": "cosmos",
+      "gasPriceStep": {
+        "low": 0.00001,
+        "average": 0.000015,
+        "high": 0.00002
+      }
+    },
+    {
+      "coinDenom": "stATOM",
+      "coinMinimalDenom": "ibc/B7864B03E1B9FD4F049243E92ABD691586F682137037A9F3FCA5222815620B3C",
+      "coinDecimals": 6,
+      "coinGeckoId": "stride-staked-atom",
+      "gasPriceStep": {
+        "low": 0.00001,
+        "average": 0.000015,
+        "high": 0.00002
+      }
+    },
+    {
+      "coinDenom": "OSMO",
+      "coinMinimalDenom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+      "coinDecimals": 6,
+      "coinGeckoId": "osmosis",
+      "gasPriceStep": {
+        "low": 0.00015,
+        "average": 0.000225,
+        "high": 0.0003
+      }
+    },
+    {
+      "coinDenom": "USC",
+      "coinMinimalDenom": "usc",
+      "coinDecimals": 6,
+      "coinGeckoId": "carbon-usd",
+      "gasPriceStep": {
+        "low": 0.0001,
+        "average": 0.00015,
+        "high": 0.0002
+      }
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "usdc.1.2.343151",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "gasPriceStep": {
+        "low": 0.0001,
+        "average": 0.00015,
+        "high": 0.0002
+      }
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "usdc.1.6.53ff75",
+      "coinDecimals": 18,
+      "coinGeckoId": "usd-coin",
+      "gasPriceStep": {
+        "low": 100000000,
+        "average": 150000000,
+        "high": 200000000
+      }
     }
   ],
   "stakeCurrency": {
@@ -71,5 +251,9 @@
     "coinDecimals": 8,
     "coinGeckoId": "switcheo"
   },
-  "features": []
+  "features": [
+    "stargate",
+    "ibc-transfer",
+    "ibc-go"
+  ]
 }
