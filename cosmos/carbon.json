@@ -252,8 +252,6 @@
     "coinGeckoId": "switcheo"
   },
   "features": [
-    "stargate",
-    "ibc-transfer",
-    "ibc-go"
+    "stargate"
   ]
 }
