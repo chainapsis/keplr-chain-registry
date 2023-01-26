@@ -1,4 +1,19 @@
+function parse(chainId) {
+  const split = chainId.split(/(.+)-([\d]+)/).filter(Boolean);
+
+  if (split.length !== 2) {
+    return {
+      identifier: chainId,
+      version: 0,
+    };
+  } else {
+    return { identifier: split[0], version: parseInt(split[1]) };
+  }
+}
+
 async function init() {
+  console.log(window.keplr);
+
   if (!!window.keplr) {
     const keplrNotInstalledDiv = document.getElementById("keplr-not-installed");
     keplrNotInstalledDiv.style.display = "none";
@@ -10,7 +25,7 @@ async function init() {
     const registeredResponse =
       await window.keplr.getChainInfosWithoutEndpoints();
     const registeredChainIds = registeredResponse.map(
-      (chainInfo) => chainInfo.chainId,
+      (chainInfo) => parse(chainInfo.chainId).identifier,
     );
 
     const chainInfos = await response.json();
@@ -18,8 +33,10 @@ async function init() {
     removeChainListChild();
 
     chainInfos.chains
-      .filter((chainInfo) => !!chainInfo.nodeProvider)
-      .filter((chainInfo) => !registeredChainIds.includes(chainInfo.chainId))
+      .filter(
+        (chainInfo) =>
+          !registeredChainIds.includes(parse(chainInfo.chainId).identifier),
+      )
       .map((chainInfo) => {
         return createChainItem(chainInfo);
       });
@@ -81,30 +98,39 @@ function createChainCurrency(chainItemDiv, chainInfo) {
 }
 
 function createNodeProvider(chainItemDiv, chainInfo) {
-  const nodeProviderDiv = document.createElement("div");
-  nodeProviderDiv.className = "node-provider";
+  if (chainInfo.nodeProvider) {
+    const nodeProviderDiv = document.createElement("div");
+    nodeProviderDiv.className = "node-provider";
 
-  const providerLinkA = document.createElement("a");
-  providerLinkA.className = "provider-link";
+    const providerLinkA = document.createElement("a");
+    providerLinkA.className = "provider-link";
 
-  providerLinkA.href = chainInfo.nodeProvider.website;
-  providerLinkA.target = "_blank";
+    providerLinkA.href = chainInfo.nodeProvider.website;
+    providerLinkA.target = "_blank";
 
-  const providerNameText = document.createTextNode(chainInfo.nodeProvider.name);
-  providerLinkA.appendChild(providerNameText);
+    const providerNameText = document.createTextNode(
+      chainInfo.nodeProvider.name,
+    );
+    providerLinkA.appendChild(providerNameText);
 
-  const providerEmailDiv = document.createElement("div");
-  providerEmailDiv.className = "provider-email";
+    const providerEmailDiv = document.createElement("div");
+    providerEmailDiv.className = "provider-email";
 
-  const providerEmailText = document.createTextNode(
-    chainInfo.nodeProvider.email,
-  );
-  providerEmailDiv.appendChild(providerEmailText);
+    const providerEmailText = document.createTextNode(
+      chainInfo.nodeProvider.email,
+    );
+    providerEmailDiv.appendChild(providerEmailText);
 
-  nodeProviderDiv.appendChild(providerLinkA);
-  nodeProviderDiv.appendChild(providerEmailDiv);
+    nodeProviderDiv.appendChild(providerLinkA);
+    nodeProviderDiv.appendChild(providerEmailDiv);
 
-  chainItemDiv.appendChild(nodeProviderDiv);
+    chainItemDiv.appendChild(nodeProviderDiv);
+  } else {
+    const nodeProviderDiv = document.createElement("div");
+    nodeProviderDiv.className = "native-node-provider";
+
+    chainItemDiv.appendChild(nodeProviderDiv);
+  }
 }
 
 function createRegisterButton(chainItemDiv, chainInfo) {
