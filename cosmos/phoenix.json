@@ -28,7 +28,12 @@
       "coinDenom": "LUNA",
       "coinMinimalDenom": "uluna",
       "coinDecimals": 6,
-      "coinGeckoId": "terra-luna-2"
+      "coinGeckoId": "terra-luna-2",
+      "gasPriceStep": {
+        "low": 0.15,
+        "average": 0.25,
+        "high": 0.4
+      }
     }
   ],
   "stakeCurrency": {
