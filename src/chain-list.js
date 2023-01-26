@@ -35,35 +35,38 @@ const getKeplrFromWindow = async () => {
 async function init() {
   const keplr = await getKeplrFromWindow();
 
+  const keplrNotInstalledDiv = document.getElementById("keplr-not-installed");
+  keplrNotInstalledDiv.style.display = "none";
+
+  const response = await fetch(
+    "https://keplr-chain-registry.vercel.app/api/chains",
+  );
+  const chainInfos = await response.json();
+
+  let registeredChainIds = [];
   if (keplr) {
-    const keplrNotInstalledDiv = document.getElementById("keplr-not-installed");
-    keplrNotInstalledDiv.style.display = "none";
-
-    const response = await fetch(
-      "https://keplr-chain-registry.vercel.app/api/chains",
-    );
-
     const registeredResponse = await keplr.getChainInfosWithoutEndpoints();
-    const registeredChainIds = registeredResponse.map(
+    registeredChainIds = registeredResponse.map(
       (chainInfo) => parse(chainInfo.chainId).identifier,
     );
-
-    const chainInfos = await response.json();
-
-    removeChainListChild();
-
-    chainInfos.chains
-      .filter(
-        (chainInfo) =>
-          !registeredChainIds.includes(parse(chainInfo.chainId).identifier),
-      )
-      .map((chainInfo) => {
-        return createChainItem(chainInfo);
-      });
   } else {
-    const keplrNotInstalledDiv = document.getElementById("keplr-not-installed");
-    keplrNotInstalledDiv.style.display = "flex";
+    registeredChainIds = chainInfos.chains
+      .filter((chainInfo) => !chainInfo.nodeProvider)
+      .map((chainInfo) => parse(chainInfo.chainId).identifier);
   }
+
+  console.log("registeredChainIds", registeredChainIds);
+
+  removeChainListChild();
+
+  chainInfos.chains
+    .filter(
+      (chainInfo) =>
+        !registeredChainIds.includes(parse(chainInfo.chainId).identifier),
+    )
+    .map((chainInfo) => {
+      return createChainItem(chainInfo, keplr);
+    });
 }
 
 function removeChainListChild() {
@@ -73,7 +76,7 @@ function removeChainListChild() {
   }
 }
 
-function createChainItem(chainInfo) {
+function createChainItem(chainInfo, keplr) {
   const chainItemDiv = document.createElement("div");
   chainItemDiv.className = "chain-item";
 
@@ -81,7 +84,7 @@ function createChainItem(chainInfo) {
   createChainName(chainItemDiv, chainInfo);
   createChainCurrency(chainItemDiv, chainInfo);
   createNodeProvider(chainItemDiv, chainInfo);
-  createRegisterButton(chainItemDiv, chainInfo);
+  createRegisterButton(chainItemDiv, chainInfo, keplr);
 
   const chainListDiv = document.getElementById("chain-list");
   chainListDiv.appendChild(chainItemDiv);
@@ -153,7 +156,7 @@ function createNodeProvider(chainItemDiv, chainInfo) {
   }
 }
 
-function createRegisterButton(chainItemDiv, chainInfo) {
+function createRegisterButton(chainItemDiv, chainInfo, keplr) {
   const registerButton = document.createElement("button");
   registerButton.className = "chain-register";
 
@@ -162,8 +165,15 @@ function createRegisterButton(chainItemDiv, chainInfo) {
 
   registerButton.onclick = async () => {
     try {
-      await window.keplr.experimentalSuggestChain(chainInfo);
-      init();
+      if (keplr) {
+        await window.keplr.experimentalSuggestChain(chainInfo);
+        init();
+      } else {
+        const keplrNotInstalledDiv = document.getElementById(
+          "keplr-not-installed",
+        );
+        keplrNotInstalledDiv.style.display = "flex";
+      }
     } catch (e) {
       console.error(e);
     }
