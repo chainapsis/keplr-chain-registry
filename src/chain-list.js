@@ -11,10 +11,31 @@ function parse(chainId) {
   }
 }
 
-async function init() {
-  console.log(window.keplr);
+const getKeplrFromWindow = async () => {
+  if (window.keplr) {
+    return window.keplr;
+  }
 
-  if (!!window.keplr) {
+  if (document.readyState === "complete") {
+    return window.keplr;
+  }
+
+  return new Promise((resolve) => {
+    const documentStateChange = (event) => {
+      if (event.target && event.target.readyState === "complete") {
+        resolve(window.keplr);
+        document.removeEventListener("readystatechange", documentStateChange);
+      }
+    };
+
+    document.addEventListener("readystatechange", documentStateChange);
+  });
+};
+
+async function init() {
+  const keplr = await getKeplrFromWindow();
+
+  if (keplr) {
     const keplrNotInstalledDiv = document.getElementById("keplr-not-installed");
     keplrNotInstalledDiv.style.display = "none";
 
@@ -22,8 +43,7 @@ async function init() {
       "https://keplr-chain-registry.vercel.app/api/chains",
     );
 
-    const registeredResponse =
-      await window.keplr.getChainInfosWithoutEndpoints();
+    const registeredResponse = await keplr.getChainInfosWithoutEndpoints();
     const registeredChainIds = registeredResponse.map(
       (chainInfo) => parse(chainInfo.chainId).identifier,
     );
