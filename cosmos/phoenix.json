@@ -42,6 +42,6 @@
     "coinDecimals": 6,
     "coinGeckoId": "terra-luna-2"
   },
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/phoenix",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/terra",
   "features": ["cosmwasm"]
 }
