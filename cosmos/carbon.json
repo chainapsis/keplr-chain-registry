@@ -83,9 +83,9 @@
       "coinDecimals": 8,
       "coinGeckoId": "switcheo",
       "gasPriceStep": {
-        "low": 1,
-        "average": 1.5,
-        "high": 2
+        "low": 769.2307692307693,
+        "average": 961.5384615384615,
+        "high": 1153.8461538461538
       }
     },
     {
@@ -94,9 +94,9 @@
       "coinDecimals": 18,
       "coinGeckoId": "binancecoin",
       "gasPriceStep": {
-        "low": 1000000,
-        "average": 1500000,
-        "high": 2000000
+        "low": 769230769.2307693,
+        "average": 961538461.5384616,
+        "high": 1153846153.8461537
       }
     },
     {
@@ -105,9 +105,9 @@
       "coinDecimals": 8,
       "coinGeckoId": "neo",
       "gasPriceStep": {
-        "low": 0.0015,
-        "average": 0.00225,
-        "high": 0.003
+        "low": 1.1538461538461537,
+        "average": 1.4423076923076923,
+        "high": 1.7307692307692308
       }
     },
     {
@@ -116,9 +116,9 @@
       "coinDecimals": 18,
       "coinGeckoId": "binance-usd",
       "gasPriceStep": {
-        "low": 100000000,
-        "average": 150000000,
-        "high": 200000000
+        "low": 76923076923.07692,
+        "average": 96153846153.84616,
+        "high": 115384615384.61539
       }
     },
     {
@@ -127,9 +127,9 @@
       "coinDecimals": 18,
       "coinGeckoId": "ethereum",
       "gasPriceStep": {
-        "low": 100000,
-        "average": 150000,
-        "high": 200000
+        "low": 76923076.92307693,
+        "average": 96153846.15384616,
+        "high": 115384615.38461539
       }
     },
     {
@@ -138,9 +138,9 @@
       "coinDecimals": 18,
       "coinGeckoId": "ethereum",
       "gasPriceStep": {
-        "low": 100000,
-        "average": 150000,
-        "high": 200000
+        "low": 76923076.92307693,
+        "average": 96153846.15384616,
+        "high": 115384615.38461539
       }
     },
     {
@@ -149,9 +149,9 @@
       "coinDecimals": 6,
       "coinGeckoId": "osmosis",
       "gasPriceStep": {
-        "low": 0.00015,
-        "average": 0.000225,
-        "high": 0.0003
+        "low": 0.11538461538461539,
+        "average": 0.14423076923076922,
+        "high": 0.17307692307692307
       }
     },
     {
@@ -160,9 +160,9 @@
       "coinDecimals": 6,
       "coinGeckoId": "cosmos",
       "gasPriceStep": {
-        "low": 0.00001,
-        "average": 0.000015,
-        "high": 0.00002
+        "low": 0.007692307692307693,
+        "average": 0.009615384615384616,
+        "high": 0.011538461538461539
       }
     },
     {
@@ -171,9 +171,9 @@
       "coinDecimals": 6,
       "coinGeckoId": "stride-staked-atom",
       "gasPriceStep": {
-        "low": 0.00001,
-        "average": 0.000015,
-        "high": 0.00002
+        "low": 0.007692307692307693,
+        "average": 0.009615384615384616,
+        "high": 0.011538461538461539
       }
     },
     {
@@ -182,9 +182,9 @@
       "coinDecimals": 6,
       "coinGeckoId": "osmosis",
       "gasPriceStep": {
-        "low": 0.00015,
-        "average": 0.000225,
-        "high": 0.0003
+        "low": 0.11538461538461539,
+        "average": 0.14423076923076922,
+        "high": 0.17307692307692307
       }
     },
     {
@@ -193,9 +193,9 @@
       "coinDecimals": 6,
       "coinGeckoId": "carbon-usd",
       "gasPriceStep": {
-        "low": 0.0001,
-        "average": 0.00015,
-        "high": 0.0002
+        "low": 0.07692307692307693,
+        "average": 0.09615384615384616,
+        "high": 0.11538461538461539
       }
     },
     {
@@ -204,9 +204,9 @@
       "coinDecimals": 6,
       "coinGeckoId": "usd-coin",
       "gasPriceStep": {
-        "low": 0.0001,
-        "average": 0.00015,
-        "high": 0.0002
+        "low": 0.07692307692307693,
+        "average": 0.09615384615384616,
+        "high": 0.11538461538461539
       }
     },
     {
@@ -215,9 +215,9 @@
       "coinDecimals": 18,
       "coinGeckoId": "usd-coin",
       "gasPriceStep": {
-        "low": 100000000,
-        "average": 150000000,
-        "high": 200000000
+        "low": 76923076923.07692,
+        "average": 96153846153.84616,
+        "high": 115384615384.61539
       }
     }
   ],
@@ -227,7 +227,5 @@
     "coinDecimals": 8,
     "coinGeckoId": "switcheo"
   },
-  "features": [
-    "stargate"
-  ]
+  "features": []
 }
