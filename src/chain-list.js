@@ -55,18 +55,28 @@ async function init() {
       .map((chainInfo) => parse(chainInfo.chainId).identifier);
   }
 
-  console.log("registeredChainIds", registeredChainIds);
-
   removeChainListChild();
 
-  chainInfos.chains
-    .filter(
-      (chainInfo) =>
-        !registeredChainIds.includes(parse(chainInfo.chainId).identifier),
-    )
-    .map((chainInfo) => {
+  const filteredChainInfos = chainInfos.chains.filter(
+    (chainInfo) =>
+      !registeredChainIds.includes(parse(chainInfo.chainId).identifier),
+  );
+
+  if (filteredChainInfos.length > 0) {
+    filteredChainInfos.map((chainInfo) => {
       return createChainItem(chainInfo, keplr);
     });
+  } else {
+    const addedAllChainDiv = document.createElement("div");
+    addedAllChainDiv.className = "added-all-chain";
+    addedAllChainDiv.style.display = "flex";
+
+    const descriptionText = document.createTextNode("You added all chains");
+    addedAllChainDiv.appendChild(descriptionText);
+
+    const chainListDiv = document.getElementById("chain-list");
+    chainListDiv.appendChild(addedAllChainDiv);
+  }
 }
 
 function removeChainListChild() {
