@@ -38,6 +38,9 @@ async function init() {
   const keplrNotInstalledDiv = document.getElementById("keplr-not-installed");
   keplrNotInstalledDiv.style.display = "none";
 
+  const loadingDiv = document.getElementById("loading");
+  loadingDiv.style.display = "flex";
+
   const response = await fetch(
     "https://keplr-chain-registry.vercel.app/api/chains",
   );
@@ -77,6 +80,8 @@ async function init() {
     const chainListDiv = document.getElementById("chain-list");
     chainListDiv.appendChild(addedAllChainDiv);
   }
+
+  loadingDiv.style.display = "none";
 }
 
 function removeChainListChild() {

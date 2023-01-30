@@ -12,6 +12,9 @@ export default function ChainListPage() {
       </div>
       <div id="registred-buttons"></div>
       <div id="chain-list"></div>
+      <div id="loading" style={{ display: "none" }}>
+        loading
+      </div>
     </div>
   );
 }
