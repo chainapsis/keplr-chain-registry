@@ -1,14 +1,13 @@
 {
-  "rpc": "https://rpc.cheqd.net",
-  "rest": "https://api.cheqd.net",
   "chainId": "cheqd-mainnet-1",
   "chainName": "cheqd",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/chain.png",
-  "stakeCurrency": {
-    "coinDenom": "CHEQ",
-    "coinMinimalDenom": "ncheq",
-    "coinDecimals": 9,
-    "coinGeckoId": "cheqd-network"
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cheqd/chain.png",
+  "rpc": "https://rpc.cheqd.net",
+  "rest": "https://api.cheqd.net",
+  "nodeProvider": {
+    "name": "cheqd Network",
+    "email": "security-github@cheqd.io",
+    "website":"https://cheqd.io/"
   },
   "walletUrl": "https://cheqd.omniflix.co",
   "walletUrlForStaking": "https://cheqd.omniflix.co",
@@ -44,8 +43,11 @@
       }
     }
   ],
-  "features": [
-    "cosmwasm",
-    "osmosis-txfees"
-  ]
+  "stakeCurrency": {
+    "coinDenom": "CHEQ",
+    "coinMinimalDenom": "ncheq",
+    "coinDecimals": 9,
+    "coinGeckoId": "cheqd-network"
+  },
+  "features": []
 }
