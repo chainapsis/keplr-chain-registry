@@ -46,6 +46,7 @@ const main = async () => {
         "quicksilver",
         "columbus",
         "phoenix",
+        "mars",
       ];
       const chainIdentifier = ChainIdHelper.parse(chainInfo.chainId).identifier;
 
