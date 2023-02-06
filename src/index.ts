@@ -43,6 +43,10 @@ const main = async () => {
         "tgrade-mainnet",
         "umee",
         "crypto-org-chain-mainnet",
+        "quicksilver",
+        "columbus",
+        "phoenix",
+        "mars",
       ];
       const chainIdentifier = ChainIdHelper.parse(chainInfo.chainId).identifier;
 
