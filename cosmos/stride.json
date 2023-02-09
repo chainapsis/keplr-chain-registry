@@ -53,7 +53,7 @@
       "coinDenom": "stLUNA",
       "coinMinimalDenom": "stuluna",
       "coinDecimals": 6
-    },
+    }
   ],
   "feeCurrencies": [
     {
