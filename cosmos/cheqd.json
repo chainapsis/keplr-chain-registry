@@ -9,7 +9,6 @@
     "email": "security-github@cheqd.io",
     "website":"https://cheqd.io/"
   },
-  "walletUrl": "https://cheqd.omniflix.co",
   "walletUrlForStaking": "https://cheqd.omniflix.co",
   "bip44": {
     "coinType": 118
