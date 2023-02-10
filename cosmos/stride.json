@@ -49,6 +49,11 @@
       "coinDenom": "stSTARS",
       "coinMinimalDenom": "stustars",
       "coinDecimals": 6
+    },
+    {
+      "coinDenom": "stEVMOS",
+      "coinMinimalDenom": "staevmos",
+      "coinDecimals": 18
     }
   ],
   "feeCurrencies": [
