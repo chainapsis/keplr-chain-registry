@@ -50,6 +50,7 @@
       "coinMinimalDenom": "stustars",
       "coinDecimals": 6
     },
+    {
       "coinDenom": "stLUNA",
       "coinMinimalDenom": "stuluna",
       "coinDecimals": 6
