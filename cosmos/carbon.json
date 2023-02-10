@@ -182,7 +182,7 @@
       "coinDecimals": 6,
       "coinGeckoId": "kujira",
       "gasPriceStep": {
-        "low": 0.11538461538461538,
+        "low": 0.11538461538461539,
         "average": 0.14423076923076922,
         "high": 0.17307692307692307
       }
