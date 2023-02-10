@@ -19,7 +19,7 @@ export const fileToChainInfo = (filePath: string) => {
 };
 
 export const validateChainInfoFromPath = async (
-  path: string
+  path: string,
 ): Promise<ChainInfo> => {
   const parsed = libPath.parse(path);
   if (parsed.ext !== ".json") {
@@ -35,7 +35,7 @@ export const validateChainInfoFromPath = async (
 
 export const validateChainInfo = async (
   chainIdentifier: string,
-  chainInfo: ChainInfo
+  chainInfo: ChainInfo,
 ): Promise<ChainInfo> => {
   const prev = sortedJsonByKeyStringify(chainInfo);
 
@@ -51,14 +51,14 @@ export const validateChainInfo = async (
     throw new Error(
       `Chain identifier unmatched: (expected: ${chainIdentifier}, actual: ${
         ChainIdHelper.parse(chainInfo.chainId).identifier
-      })`
+      })`,
     );
   }
 
   for (const feature of chainInfo.features ?? []) {
     if (!NonRecognizableChainFeatures.includes(feature)) {
       throw new Error(
-        `Only non recognizable feature should be provided: ${feature}`
+        `Only non recognizable feature should be provided: ${feature}`,
       );
     }
   }
@@ -66,19 +66,19 @@ export const validateChainInfo = async (
   for (const currency of chainInfo.currencies) {
     if (new DenomHelper(currency.coinMinimalDenom).type !== "native") {
       throw new Error(
-        `Do not provide not native token to currencies: ${currency.coinMinimalDenom}`
+        `Do not provide not native token to currencies: ${currency.coinMinimalDenom}`,
       );
     }
 
     if (currency.coinMinimalDenom.startsWith("ibc/")) {
       throw new Error(
-        `Do not provide ibc currency to currencies: ${currency.coinMinimalDenom}`
+        `Do not provide ibc currency to currencies: ${currency.coinMinimalDenom}`,
       );
     }
 
     if (currency.coinMinimalDenom.startsWith("gravity0x")) {
       throw new Error(
-        `Do not provide bridged currency to currencies: ${currency.coinMinimalDenom}`
+        `Do not provide bridged currency to currencies: ${currency.coinMinimalDenom}`,
       );
     }
   }
@@ -99,7 +99,7 @@ export const validateChainInfo = async (
   await checkRPCConnectivity(
     chainInfo.chainId,
     chainInfo.rpc,
-    (url) => new WebSocket(url)
+    (url) => new WebSocket(url),
   );
 
   // check REST alive
@@ -114,7 +114,7 @@ export const checkImageSize = (path: string) => {
   const dimensions = sizeOf(path);
   if (dimensions.width !== 256 || dimensions.height !== 256) {
     throw new Error(
-      "Image size is not 256x256px. size : " + JSON.stringify(dimensions)
+      "Image size is not 256x256px. size : " + JSON.stringify(dimensions),
     );
   }
 };
