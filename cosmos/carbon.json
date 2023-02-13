@@ -144,6 +144,50 @@
       }
     },
     {
+      "coinDenom": "STARS",
+      "coinMinimalDenom": "ibc/07FA7831E1920D0C87C9388F86B0108677F6ED0C9DE7E4063F05ED675192405C",
+      "coinDecimals": 6,
+      "coinGeckoId": "stargaze",
+      "gasPriceStep": {
+        "low": 2.6923076923076925,
+        "average": 3.365384615384616,
+        "high": 4.038461538461538
+      }
+    },
+    {
+      "coinDenom": "LUNA",
+      "coinMinimalDenom": "ibc/2B58B8C147E8718EECCB3713271DF46DEE8A3A00A27242628604E31C2F370EF5",
+      "coinDecimals": 6,
+      "coinGeckoId": "terra-luna-2",
+      "gasPriceStep": {
+        "low": 0.038461538461538464,
+        "average": 0.04807692307692308,
+        "high": 0.057692307692307696
+      }
+    },
+    {
+      "coinDenom": "STRD",
+      "coinMinimalDenom": "ibc/3552CECB7BCE1891DB6070D37EC6E954C972B1400141308FCD85FD148BD06DE5",
+      "coinDecimals": 6,
+      "coinGeckoId": "stride",
+      "gasPriceStep": {
+        "low": 0.2461538461538462,
+        "average": 0.30769230769230776,
+        "high": 0.3692307692307693
+      }
+    },
+    {
+      "coinDenom": "KUJI",
+      "coinMinimalDenom": "ibc/662914D0C1CEBCB070C68F061D035E8B10A07C79AB286E7342C85F3BE74612C5",
+      "coinDecimals": 6,
+      "coinGeckoId": "kujira",
+      "gasPriceStep": {
+        "low": 0.11538461538461539,
+        "average": 0.14423076923076922,
+        "high": 0.17307692307692307
+      }
+    },
+    {
       "coinDenom": "stOSMO",
       "coinMinimalDenom": "ibc/75249A18DEFBEFE55F83B1C70CAD234DF164F174C6BC51682EE92C2C81C18C93",
       "coinDecimals": 6,
@@ -152,6 +196,17 @@
         "low": 0.11538461538461539,
         "average": 0.14423076923076922,
         "high": 0.17307692307692307
+      }
+    },
+    {
+      "coinDenom": "CANTO",
+      "coinMinimalDenom": "ibc/92E974290AF9E2BC3AEEEC35305C8FD76AC5A22A74CF8D91270FDF5A1C41E861",
+      "coinDecimals": 18,
+      "coinGeckoId": "canto",
+      "gasPriceStep": {
+        "low": 153846153846.15384,
+        "average": 192307692307.6923,
+        "high": 230769230769.23077
       }
     },
     {
