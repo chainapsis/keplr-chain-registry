@@ -1,7 +1,7 @@
 {
   "chainId": "eightball-1",
   "chainName": "8ball",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/8ball/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eightball/chain.png",
   "rpc": "https://rpc.8ball.info",
   "rest": "https://rest.8ball.info",
   "nodeProvider": {
