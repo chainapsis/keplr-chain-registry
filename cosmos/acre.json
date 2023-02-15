@@ -1,0 +1,63 @@
+{
+  "rpc": "https://rpc-acre.synergynodes.com/",
+  "rest": "https://lcd-acre.synergynodes.com/",
+  "chainId": "acre_9052-1",
+  "chainName": "Acrechain",
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "acre",
+    "bech32PrefixAccPub": "acrepub",
+    "bech32PrefixValAddr": "acrevaloper",
+    "bech32PrefixValPub": "acrevaloperpub",
+    "bech32PrefixConsAddr": "acrevalcons",
+    "bech32PrefixConsPub": "acrevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "ACRE",
+      "coinMinimalDenom": "aacre",
+      "coinDecimals": 18,
+      "coinGeckoId": "pool:aacre",
+      "coinImageUrl": "https://frontier.osmosis.zone/tokens/acre.svg"
+    },
+    {
+      "coinDenom": "arUSD",
+      "coinMinimalDenom": "erc20/0x2Cbea61fdfDFA520Ee99700F104D5b75ADf50B0c",
+      "coinDecimals": 18,
+      "coinGeckoId": "pool:erc20/0x2Cbea61fdfDFA520Ee99700F104D5b75ADf50B0c",
+      "coinImageUrl": "https://frontier.osmosis.zone/tokens/arusd.png"
+    },
+    {
+      "coinDenom": "CNTO",
+      "coinMinimalDenom": "erc20/0xAE6D3334989a22A65228732446731438672418F2",
+      "coinDecimals": 18,
+      "coinGeckoId": "pool:erc20/0xAE6D3334989a22A65228732446731438672418F2",
+      "coinImageUrl": "https://frontier.osmosis.zone/tokens/cnto.png"
+    }
+  ],
+  "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+  "stakeCurrency": {
+    "coinDenom": "ACRE",
+    "coinMinimalDenom": "aacre",
+    "coinDecimals": 18,
+    "coinGeckoId": "pool:aacre",
+    "coinImageUrl": "https://frontier.osmosis.zone/tokens/acre.svg"
+  },
+  "feeCurrencies": [
+    {
+      "coinDenom": "ACRE",
+      "coinMinimalDenom": "aacre",
+      "coinDecimals": 18,
+      "coinGeckoId": "pool:aacre",
+      "coinImageUrl": "https://frontier.osmosis.zone/tokens/acre.svg",
+      "gasPriceStep": {
+        "low": 10000000000,
+        "average": 25000000000,
+        "high": 40000000000
+      }
+    }
+  ],
+  "beta": true
+}
