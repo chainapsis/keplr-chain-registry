@@ -15,7 +15,6 @@
     "coinDecimals": 18,
     "coinGeckoId": "ict"
   },
-  "walletUrl": "https://wallet.keplr.app/chains/icplaza",
   "bip44": {
     "coinType": 60
   },
