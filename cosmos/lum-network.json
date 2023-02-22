@@ -47,7 +47,7 @@
             "coinDecimals": 6,
             "coinGeckoId": "lum-network",
             "gasPriceStep": {
-                "low": 0,
+                "low": 0.01,
                 "average": 0.025,
                 "high": 0.04
             }
