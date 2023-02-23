@@ -1,0 +1,48 @@
+{
+    "rpc": "https://rpc.cosmos.directory/migaloo",
+    "rest": "https://rest.cosmos.directory/migaloo",
+    "chainId": "migaloo-1",
+    "chainName": "Migaloo",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/whitewhale.png",
+    "stakeCurrency": {
+      "coinDenom": "WHALE",
+      "coinMinimalDenom": "uwhale",
+      "coinDecimals": 6,
+      "coinGeckoId": "white-whale"
+    },
+    "walletUrl": "https://ping.pub/migaloo",
+    "walletUrlForStaking": "https://ping.pub/migaloo/staking",
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "migaloo",
+      "bech32PrefixAccPub": "migaloopub",
+      "bech32PrefixValAddr": "migaloovaloper",
+      "bech32PrefixValPub": "migaloovaloperpub",
+      "bech32PrefixConsAddr": "migaloovalcons",
+      "bech32PrefixConsPub": "migaloovalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "WHALE",
+        "coinMinimalDenom": "uwhale",
+        "coinDecimals": 6,
+        "coinGeckoId": "white-whale"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "WHALE",
+        "coinMinimalDenom": "uwhale",
+        "coinDecimals": 6,
+        "coinGeckoId": "white-whale",
+        "gasPriceStep": {
+            "low": 0,
+            "average": 0.025,
+            "high": 0.04
+        }
+      }
+    ],
+    "features": []
+  }
