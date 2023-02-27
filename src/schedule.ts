@@ -22,7 +22,7 @@ const main = async () => {
       }
 
       return undefined;
-    })
+    }),
   );
 
   errorMessages = errorMessages.filter((e) => e != null);

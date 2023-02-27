@@ -6,7 +6,8 @@
   "stakeCurrency": {
     "coinDenom": "MARS",
     "coinMinimalDenom": "umars",
-    "coinDecimals": 6
+    "coinDecimals": 6,
+    "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3"
   },
   "walletUrl": "https://wallet.keplr.app/chains/mars-hub",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/mars-hub",
@@ -31,7 +32,8 @@
     {
       "coinDenom": "MARS",
       "coinMinimalDenom": "umars",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3"
     }
   ],
   "feeCurrencies": [
@@ -39,6 +41,7 @@
       "coinDenom": "MARS",
       "coinMinimalDenom": "umars",
       "coinDecimals": 6,
+      "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3",
       "gasPriceStep": {
         "low": 0,
         "average": 0,

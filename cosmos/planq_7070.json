@@ -1,0 +1,56 @@
+{
+  "chainId": "planq_7070-2",
+  "chainName": "Planq",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/planq_7070/chain.png",
+  "rpc": "https://rpc.planq.network",
+  "rest": "https://rest.planq.network",
+  "nodeProvider": {
+    "name": "Planq",
+    "email": "info@planq.network",
+    "website":"https://planq.network/"
+  },
+  "walletUrl": "https://explorer.tcnetwork.io/planq/",
+  "walletUrlForStaking": "https://ping.pub/planq/staking",
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "plq",
+    "bech32PrefixAccPub": "plqpub",
+    "bech32PrefixValAddr": "plqvaloper",
+    "bech32PrefixValPub": "plqvaloperpub",
+    "bech32PrefixConsAddr": "plqvalcons",
+    "bech32PrefixConsPub": "plqvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "PLQ",
+      "coinMinimalDenom": "aplanq",
+      "coinDecimals": 18,
+      "coinGeckoId": "planq"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "PLQ",
+      "coinMinimalDenom": "aplanq",
+      "coinDecimals": 18,
+      "coinGeckoId": "planq",
+      "gasPriceStep": {
+        "low": 30000000000,
+        "average": 35000000000,
+        "high": 40000000000
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "PLQ",
+    "coinMinimalDenom": "aplanq",
+    "coinDecimals": 18,
+    "coinGeckoId": "planq"
+  },
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ]
+}

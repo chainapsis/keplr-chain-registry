@@ -66,7 +66,7 @@ const main = async () => {
         !chainInfo.features?.includes("eth-key-sign"))
     ) {
       throw new Error(
-        "EVM Chain should add eth-address-gen, eth-key-sign features"
+        "EVM Chain should add eth-address-gen, eth-key-sign features",
       );
     }
 

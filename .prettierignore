@@ -1,15 +1,15 @@
 **/*.png
 **/*.svg
-**/*.ttf
-**/*.secret
-**/*.md
+
 .DS_Store
 
 node_modules
+.next
 
 yarn.lock
 
 .eslintignore
 .prettierignore
 
-cosmos
+package.json
+tsconfig.json
