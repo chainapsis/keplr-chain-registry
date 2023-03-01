@@ -1,0 +1,54 @@
+{
+  "rpc": "http://icplazarpc.ic-plaza.org",
+  "rest": "http://icplazarest.ic-plaza.org",
+  "chainId": "icplaza_9000-1",
+  "chainName": "ICPlaza",
+  "nodeProvider": {
+    "name": "ICPlaza Node",
+    "email": "0xf48892@gmail.com",
+    "website":"https://www.ic-plaza.org/"
+  },
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/icplaza_9000/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "ICT",
+    "coinMinimalDenom": "uict",
+    "coinDecimals": 18,
+    "coinGeckoId": "ict"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "icplaza",
+    "bech32PrefixAccPub": "icplazapub",
+    "bech32PrefixValAddr": "icplazavaloper",
+    "bech32PrefixValPub": "icplazavaloperpub",
+    "bech32PrefixConsAddr": "icplazavalcons",
+    "bech32PrefixConsPub": "icplazavalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "ICT",
+      "coinMinimalDenom": "uict",
+      "coinDecimals": 18,
+      "coinGeckoId": "ict"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ICT",
+      "coinMinimalDenom": "uict",
+      "coinDecimals": 18,
+      "coinGeckoId": "ict",
+      "gasPriceStep": {
+        "low": 25000000000,
+        "average": 25000000000,
+        "high": 40000000000
+      }
+    }
+  ],
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ]
+}

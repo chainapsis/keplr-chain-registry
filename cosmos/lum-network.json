@@ -1,0 +1,56 @@
+{
+    "rpc": "https://node0.mainnet.lum.network/rpc",
+    "rest": "https://node0.mainnet.lum.network/rest",
+    "chainId": "lum-network-1",
+    "chainName": "Lum Network",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lum-network/chain.png",
+    "stakeCurrency": {
+        "coinDenom": "LUM",
+        "coinMinimalDenom": "ulum",
+        "coinDecimals": 6,
+        "coinGeckoId": "lum-network"
+    },
+    "nodeProvider": {
+        "name": "Lum Network",
+        "email": "contact@lum.network",
+        "website": "https://lum.network"
+    },
+    "walletUrlForStaking": "https://wallet.lum.network",
+    "bip44": {
+        "coinType": 118
+    },
+    "bech32Config": {
+        "bech32PrefixAccAddr": "lum",
+        "bech32PrefixAccPub": "lumpub",
+        "bech32PrefixValAddr": "lumvaloper",
+        "bech32PrefixValPub": "lumvaloperpub",
+        "bech32PrefixConsAddr": "lumvalcons",
+        "bech32PrefixConsPub": "lumvalconspub"
+    },
+    "currencies": [
+        {
+            "coinDenom": "LUM",
+            "coinMinimalDenom": "ulum",
+            "coinDecimals": 6,
+            "coinGeckoId": "lum-network"
+        },
+        {
+            "coinDenom": "DFR",
+            "coinMinimalDenom": "udfr",
+            "coinDecimals": 6            
+        }
+    ],
+    "feeCurrencies": [
+        {
+            "coinDenom": "LUM",
+            "coinMinimalDenom": "ulum",
+            "coinDecimals": 6,
+            "coinGeckoId": "lum-network",
+            "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+            }
+        }
+    ]
+}

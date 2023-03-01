@@ -9,6 +9,7 @@
     "email": "team@like.co",
     "website":"https://like.co/"
   },
+  "walletUrlForStaking": "https://dao.like.co/validators/",
   "bip44": {
     "coinType": 118
   },

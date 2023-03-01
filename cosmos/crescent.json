@@ -1,0 +1,235 @@
+{
+  "rpc": "https://mainnet.crescent.network:26657",
+  "rest": "https://mainnet.crescent.network:1317",
+  "chainId": "crescent-1",
+  "chainName": "Crescent Network",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/crescent/chain.png",
+  "nodeProvider": {
+    "name": "Crescent Node",
+    "email": "contact@crescent.network",
+    "website":"https://crescent.network"
+  },
+  "stakeCurrency": {
+    "coinDenom": "CRE",
+    "coinMinimalDenom": "ucre",
+    "coinDecimals": 6,
+    "coinGeckoId": "crescent-network"
+  },
+  "walletUrl": "https://app.crescent.network/",
+  "walletUrlForStaking": "https://app.crescent.network/staking",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "cre",
+    "bech32PrefixAccPub": "crepub",
+    "bech32PrefixValAddr": "crevaloper",
+    "bech32PrefixValPub": "crevaloperpub",
+    "bech32PrefixConsAddr": "crevalcons",
+    "bech32PrefixConsPub": "crevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "CRE",
+      "coinMinimalDenom": "ucre",
+      "coinDecimals": 6,
+      "coinGeckoId": "crescent-network"
+    },
+    {
+      "coinDenom": "bCRE",
+      "coinMinimalDenom": "ubcre",
+      "coinDecimals": 6,
+      "coinGeckoId": "liquid-staking-crescent"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "CRE",
+      "coinMinimalDenom": "ucre",
+      "coinDecimals": 6,
+      "coinGeckoId": "crescent-network",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.03
+      }
+    },
+    {
+      "coinDenom": "bCRE",
+      "coinMinimalDenom": "ubcre",
+      "coinDecimals": 6,
+      "coinGeckoId": "liquid-staking-crescent",
+      "gasPriceStep": {
+        "low": 0.0083,
+        "average": 0.02075,
+        "high": 0.0249
+      }
+    },
+    {
+      "coinDenom": "ATOM",
+      "coinMinimalDenom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+      "coinDecimals": 6,
+      "coinGeckoId": "cosmos",
+      "gasPriceStep": {
+        "low": 0.000063,
+        "average": 0.0001575,
+        "high": 0.000189
+      }
+    },
+    {
+      "coinDenom": "USDC.grav",
+      "coinMinimalDenom": "ibc/CD01034D6749F20AAC5330EF4FD8B8CA7C40F7527AB8C4A302FBD2A070852EE1",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "gasPriceStep": {
+        "low": 0.000842,
+        "average": 0.002105,
+        "high": 0.002526
+      }
+    },
+    {
+      "coinDenom": "USDC.axl",
+      "coinMinimalDenom": "ibc/BFF0D3805B50D93E2FA5C0B2DDF7E0B30A631076CD80BC12A48C0E95404B4A41",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "gasPriceStep": {
+        "low": 0.000842,
+        "average": 0.002105,
+        "high": 0.002526
+      }
+    },
+    {
+      "coinDenom": "IST",
+      "coinMinimalDenom": "ibc/CA1261224952DF089EFD363D8DBB30A8AB6D8CD181E60EE9E68E432F8DE14FE3",
+      "coinDecimals": 6,
+      "coinGeckoId": "inter-stable-token",
+      "gasPriceStep": {
+        "low": 0.000842,
+        "average": 0.002105,
+        "high": 0.002526
+      }
+    },
+    {
+      "coinDenom": "CMST",
+      "coinMinimalDenom": "ibc/9EC8A1701813BB7B73BFED2496009ABB2C8BF187E6CDFA788D77F68E08BC05CD",
+      "coinDecimals": 6,
+      "coinGeckoId": "composite",
+      "gasPriceStep": {
+        "low": 0.000842,
+        "average": 0.002105,
+        "high": 0.002526
+      }
+    },
+    {
+      "coinDenom": "JUNO",
+      "coinMinimalDenom": "ibc/C814F0B662234E24248AE3B2FE2C1B54BBAF12934B757F6E7BC5AEC119963895",
+      "coinDecimals": 6,
+      "coinGeckoId": "juno-network",
+      "gasPriceStep": {
+        "low": 0.000568,
+        "average": 0.00142,
+        "high": 0.001704
+      }
+    },
+    {
+      "coinDenom": "BLD",
+      "coinMinimalDenom": "ibc/11F940BCDFD7CFBFD7EDA13F25DA95D308286D441209D780C9863FD4271514EB",
+      "coinDecimals": 6,
+      "coinGeckoId": "agoric",
+      "gasPriceStep": {
+        "low": 0.002,
+        "average": 0.005,
+        "high": 0.006
+      }
+    },
+    {
+      "coinDenom": "CMDX",
+      "coinMinimalDenom": "ibc/61DF64ADF65230540C14C63D64897BE08A3DC9A516A91425913F01240E2F432F",
+      "coinDecimals": 6,
+      "coinGeckoId": "comdex",
+      "gasPriceStep": {
+        "low": 0.008146,
+        "average": 0.020365,
+        "high": 0.024438
+      }
+    },
+    {
+      "coinDenom": "GRAV",
+      "coinMinimalDenom": "ibc/C950356239AD2A205DE09FDF066B1F9FF19A7CA7145EA48A5B19B76EE47E52F7",
+      "coinDecimals": 6,
+      "coinGeckoId": "graviton",
+      "gasPriceStep": {
+        "low": 0.065405,
+        "average": 0.1635125,
+        "high": 0.196215
+      }
+    },
+    {
+      "coinDenom": "INJ",
+      "coinMinimalDenom": "ibc/5A76568E079A31FA12165E4559BA9F1E9D4C97F9C2060B538C84DCD503815E30",
+      "coinDecimals": 18,
+      "coinGeckoId": "injective-protocol",
+      "gasPriceStep": {
+        "low": 3350000000,
+        "average": 8375000000,
+        "high": 10050000000
+      }
+    },
+    {
+      "coinDenom": "LUNA",
+      "coinMinimalDenom": "ibc/8F865D9760B482FF6254EDFEC1FF2F1273B9AB6873A7DE484F89639795D73D75",
+      "coinDecimals": 6,
+      "coinGeckoId": "terra-luna-2",
+      "gasPriceStep": {
+        "low": 0.0004,
+        "average": 0.001,
+        "high": 0.0012
+      }
+    },
+    {
+      "coinDenom": "LUNC",
+      "coinMinimalDenom": "ibc/4627AD2524E3E0523047E35BB76CC90E37D9D57ACF14F0FCBCEB2480705F3CB8",
+      "coinDecimals": 6,
+      "coinGeckoId": "terra-luna",
+      "gasPriceStep": {
+        "low": 5,
+        "average": 12.5,
+        "high": 15
+      }
+    },
+    {
+      "coinDenom": "stATOM",
+      "coinMinimalDenom": "ibc/D64F87FAE0B35C1954DD7921BA7A2939705DE77CBF72B8002F2E3552EDE4DE52",
+      "coinDecimals": 6,
+      "coinGeckoId": "stride-staked-atom",
+      "gasPriceStep": {
+        "low": 0.00006,
+        "average": 0.00015,
+        "high": 0.00018
+      }
+    },
+    {
+      "coinDenom": "OKT",
+      "coinMinimalDenom": "ibc/764D1629980B02BAFF3D25BEE4FB1E0C5E350AFA252FDF66E68E10D2179A826A",
+      "coinDecimals": 18,
+      "coinGeckoId": "oec-token",
+      "gasPriceStep": {
+        "low": 200000000,
+        "average": 500000000,
+        "high": 600000000
+      }
+    },
+    {
+      "coinDenom": "AXL",
+      "coinMinimalDenom": "ibc/0634D0993744740D675AD01E81156EAC945AEAAE17C074918DC7FF52F41B263E",
+      "coinDecimals": 6,
+      "coinGeckoId": "axelar",
+      "gasPriceStep": {
+        "low": 0.0014,
+        "average": 0.0035,
+        "high": 0.0042
+      }
+    }
+  ],
+  "features": []
+}

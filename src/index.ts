@@ -44,6 +44,9 @@ const main = async () => {
         "umee",
         "crypto-org-chain-mainnet",
         "quicksilver",
+        "columbus",
+        "phoenix",
+        "mars",
       ];
       const chainIdentifier = ChainIdHelper.parse(chainInfo.chainId).identifier;
 
@@ -63,7 +66,7 @@ const main = async () => {
         !chainInfo.features?.includes("eth-key-sign"))
     ) {
       throw new Error(
-        "EVM Chain should add eth-address-gen, eth-key-sign features"
+        "EVM Chain should add eth-address-gen, eth-key-sign features",
       );
     }
 
