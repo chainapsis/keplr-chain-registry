@@ -27,6 +27,11 @@
       "coinDenom": "ARKH",
       "coinMinimalDenom": "arkh",
       "coinDecimals": 6
+    },
+    {
+      "coinDenom": "STAKE",
+      "coinMinimalDenom": "stake",
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
