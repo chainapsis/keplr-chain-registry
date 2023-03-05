@@ -10,7 +10,7 @@
         "website": "https://enodex.lol"
     },
   "walletUrl": "https://wallet.arkhadian.com",
-  "walletUrlForStaking": "https://explorer.enodex.lol/arkh/staking",
+  "walletUrlForStaking": "https://explorer.enodex.lol/arkhadian/staking",
   "bip44": {
     "coinType": 118
   },
