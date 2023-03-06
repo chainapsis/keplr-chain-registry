@@ -38,9 +38,9 @@
       "coinDecimals": 6,
       "coinGeckoId": "bitsong",
       "gasPriceStep": {
-        "low": 0.0025,
-        "average": 0.005,
-        "high": 0.01
+        "low": 3,
+        "average": 10,
+        "high": 20
       }
     }
   ],
