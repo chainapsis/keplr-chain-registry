@@ -74,6 +74,12 @@
       "coinMinimalDenom": "usdc.1.6.53ff75",
       "coinDecimals": 18,
       "coinGeckoId": "usd-coin"
+    },
+    {
+      "coinDenom": "USD",
+      "coinMinimalDenom": "cgt/1",
+      "coinDecimals": 18,
+      "coinGeckoId": ""
     }
   ],
   "feeCurrencies": [
@@ -251,6 +257,17 @@
         "low": 0.07692307692307693,
         "average": 0.09615384615384616,
         "high": 0.11538461538461539
+      }
+    },
+    {
+      "coinDenom": "USD",
+      "coinMinimalDenom": "cgt/1",
+      "coinDecimals": 18,
+      "coinGeckoId": "",
+      "gasPriceStep": {
+        "low": 76923076923.07692,
+        "average": 96153846153.84616,
+        "high": 115384615384.61539
       }
     },
     {
