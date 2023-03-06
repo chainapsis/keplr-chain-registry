@@ -32,6 +32,12 @@
       "coinMinimalDenom": "mGeo",
       "coinDecimals": 6,
       "coinGeckoId": "geodb"
+    },
+    {
+      "coinDenom": "O9W",
+      "coinMinimalDenom": "mO9W",
+      "coinDecimals": 6,
+      "coinGeckoId": "o9w"
     }
   ],
   "feeCurrencies": [
