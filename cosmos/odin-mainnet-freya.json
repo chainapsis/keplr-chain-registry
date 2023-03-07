@@ -5,7 +5,7 @@
   "rest": "https://node.odin-freya-website.odinprotocol.io/mainnet/a/api/",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/odin-mainnet-freya/chain.png",
   "nodeProvider": {
-    "name": "OdinProtocol",
+    "name": "Odin Protocol",
     "email": "hello@odinprotocol.io",
     "website": "https://odinprotocol.io/"
   },
