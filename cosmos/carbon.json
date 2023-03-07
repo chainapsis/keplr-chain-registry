@@ -74,12 +74,6 @@
       "coinMinimalDenom": "usdc.1.6.53ff75",
       "coinDecimals": 18,
       "coinGeckoId": "usd-coin"
-    },
-    {
-      "coinDenom": "USD",
-      "coinMinimalDenom": "cgt/1",
-      "coinDecimals": 18,
-      "coinGeckoId": ""
     }
   ],
   "feeCurrencies": [
