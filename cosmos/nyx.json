@@ -9,8 +9,8 @@
     "email": "andreym@nodes.guru",
     "website":"https://nodes.guru/"
   },
-  "bip44": { 
-    "coinType": 118 
+  "bip44": {
+    "coinType": 118
   },
   "bech32Config": {
     "bech32PrefixAccAddr": "n",
@@ -31,11 +31,12 @@
       "coinMinimalDenom": "unym",
       "coinDecimals": 6,
       "coinGeckoId": "nym"
-    }, 
+    },
     {
-      "coinDenom": "NYX", 
-      "coinMinimalDenom": "unyx", 
-      "coinDecimals": 6
+      "coinDenom": "NYX",
+      "coinMinimalDenom": "unyx",
+      "coinDecimals": 6,
+      "coinGeckoId": "nyx"
     }
   ],
   "feeCurrencies": [
@@ -44,9 +45,15 @@
         "coinMinimalDenom": "unym",
         "coinDecimals": 6,
         "coinGeckoId": "nym"
+    },
+    {
+	"coinDenom": "nyx",
+	"coinMinimalDenom": "unyx",
+	"coinDecimals": 6,
+	"coinGeckoId": "nyx"
     }
   ],
-  "features": [ 
-      "cosmwasm" 
+  "features": [
+      "cosmwasm"
   ]
 }
