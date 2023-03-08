@@ -1,0 +1,47 @@
+{
+	"chainId": "migaloo-1",
+	"chainName": "Migaloo",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/chain.png",
+	"rpc": "https://rpc.migaloo.silknodes.io/",
+	"rest": "https://api.migaloo.silknodes.io/",
+    "nodeProvider": {
+    "name": "Silk Nodes",
+    "email": "info@silknodes.io",
+    "website":"https://silknodes.io/"
+  },
+	"bip44": {
+		"coinType": 118
+	},
+	"coinType": 118,
+	"bech32Config": {
+		"bech32PrefixAccAddr": "migaloo",
+		"bech32PrefixAccPub": "migaloopub",
+		"bech32PrefixValAddr": "migaloovaloper",
+		"bech32PrefixValPub": "migaloovaloperpub",
+		"bech32PrefixConsAddr": "migaloovalcons",
+		"bech32PrefixConsPub": "migaloovalconspub"
+	},
+	"currencies": [
+		{
+			"coinDenom": "WHALE",
+			"coinMinimalDenom": "uwhale",
+			"coinDecimals": 6,
+			"coinGeckoId": "unknown"
+		}
+	],
+	"feeCurrencies": [
+		{
+			"coinDenom": "WHALE",
+			"coinMinimalDenom": "uwhale",
+			"coinDecimals": 6,
+			"coinGeckoId": "unknown"
+		}
+	],
+	"stakeCurrency": {
+		"coinDenom": "WHALE",
+		"coinMinimalDenom": "uwhale",
+		"coinDecimals": 6,
+		"coinGeckoId": "unknown"
+	},
+	"features": ["cosmwasm"]
+}

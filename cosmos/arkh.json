@@ -1,0 +1,55 @@
+{
+  "chainId": "arkh",
+  "chainName": "Arkhadian",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/arkh/chain.png",
+  "rpc": "https://arkh-rpc.enodex.lol",
+  "rest": "https://arkh-api.enodex.lol",
+  "nodeProvider": {
+        "name": "Enodex",
+	"email": "enodexmail@gmail.com",
+        "website": "https://enodex.lol"
+    },
+  "walletUrl": "https://wallet.arkhadian.com",
+  "walletUrlForStaking": "https://explorer.enodex.lol/arkhadian/staking",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "arkh",
+    "bech32PrefixAccPub": "arkhpub",
+    "bech32PrefixValAddr": "arkhvaloper",
+    "bech32PrefixValPub": "arkhvaloperpub",
+    "bech32PrefixConsAddr": "arkhvalcons",
+    "bech32PrefixConsPub": "arkhvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "ARKH",
+      "coinMinimalDenom": "arkh",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "STAKE",
+      "coinMinimalDenom": "stake",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ARKH",
+      "coinMinimalDenom": "arkh",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.03
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "ARKH",
+    "coinMinimalDenom": "arkh",
+    "coinDecimals": 6
+  },
+  "features": []
+}

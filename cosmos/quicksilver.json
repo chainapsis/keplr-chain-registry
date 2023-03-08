@@ -31,6 +31,16 @@
       "coinDenom": "qSTARS",
       "coinMinimalDenom" : "uqstars",
       "coinDecimals": 6
+    },
+    {
+      "coinDenom": "qATOM",
+      "coinMinimalDenom" : "uqatom",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "qREGEN",
+      "coinMinimalDenom" : "uqregen",
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [

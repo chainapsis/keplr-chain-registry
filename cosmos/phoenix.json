@@ -30,9 +30,9 @@
       "coinDecimals": 6,
       "coinGeckoId": "terra-luna-2",
       "gasPriceStep": {
-        "low": 0.15,
-        "average": 0.25,
-        "high": 0.4
+        "low": 0.015,
+        "average": 0.025,
+        "high": 0.04
       }
     }
   ],
