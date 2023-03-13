@@ -5,12 +5,12 @@
   "rpc": "https://arkh-rpc.enodex.lol",
   "rest": "https://arkh-api.enodex.lol",
   "nodeProvider": {
-        "name": "Enodex",
-	"email": "enodexmail@gmail.com",
-        "website": "https://enodex.lol"
+        "name": "Kynraze",
+	"email": "support@kynraze.com",
+        "website": "https://kynraze.com"
     },
   "walletUrl": "https://wallet.arkhadian.com",
-  "walletUrlForStaking": "https://explorer.enodex.lol/arkhadian/staking",
+  "walletUrlForStaking": "https://explorer.kynraze.com/arkhadian/staking",
   "bip44": {
     "coinType": 118
   },
