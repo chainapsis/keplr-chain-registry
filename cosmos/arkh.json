@@ -2,15 +2,15 @@
   "chainId": "arkh",
   "chainName": "Arkhadian",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/arkh/chain.png",
-  "rpc": "https://arkh-rpc.enodex.lol",
-  "rest": "https://arkh-api.enodex.lol",
+  "rpc": "https://arkh-rpc.kynraze.com",
+  "rest": "https://arkh-api.kynraze.com",
   "nodeProvider": {
-        "name": "Enodex",
-	"email": "enodexmail@gmail.com",
-        "website": "https://enodex.lol"
+        "name": "Kynraze",
+	"email": "support@kynraze.com",
+        "website": "https://kynraze.com"
     },
   "walletUrl": "https://wallet.arkhadian.com",
-  "walletUrlForStaking": "https://explorer.enodex.lol/arkhadian/staking",
+  "walletUrlForStaking": "https://explorer.kynraze.com/arkhadian/staking",
   "bip44": {
     "coinType": 118
   },
