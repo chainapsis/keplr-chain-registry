@@ -1,7 +1,6 @@
 {
   "rpc": "https://rpc-evmos.keplr.app",
   "rest": "https://lcd-evmos.keplr.app",
-  "ethereumJsonRpc": "https://eth.bd.evmos.org:8545",
   "chainId": "evmos_9001-2",
   "chainName": "Evmos",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/evmos_9001/chain.png",
