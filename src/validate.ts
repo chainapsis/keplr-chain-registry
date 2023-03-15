@@ -65,9 +65,12 @@ export const validateChainInfo = async (
 
   for (const currency of chainInfo.currencies) {
     if (new DenomHelper(currency.coinMinimalDenom).type !== "native") {
-      throw new Error(
-        `Do not provide not native token to currencies: ${currency.coinMinimalDenom}`,
-      );
+      // shouldn't have allowed it... but it's allowed temporarily due to various annoying problems
+      if (new DenomHelper(currency.coinMinimalDenom).type !== "erc20") {
+        throw new Error(
+          `Do not provide not native token to currencies: ${currency.coinMinimalDenom}`,
+        );
+      }
     }
 
     if (currency.coinMinimalDenom.startsWith("ibc/")) {
