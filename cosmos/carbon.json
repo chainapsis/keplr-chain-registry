@@ -46,6 +46,11 @@
       "coinGeckoId": "binance-usd"
     },
     {
+      "coinDenom": "CGLP",
+      "coinMinimalDenom": "cglp.1.19.1698d3",
+      "coinDecimals": 18
+    },
+    {
       "coinDenom": "ETH",
       "coinMinimalDenom": "eth.1.19.c3b805",
       "coinDecimals": 18,
@@ -121,6 +126,16 @@
       "coinMinimalDenom": "busd.1.6.754a80",
       "coinDecimals": 18,
       "coinGeckoId": "binance-usd",
+      "gasPriceStep": {
+        "low": 76923076923.07692,
+        "average": 96153846153.84616,
+        "high": 115384615384.61539
+      }
+    },
+    {
+      "coinDenom": "CGLP",
+      "coinMinimalDenom": "cglp.1.19.1698d3",
+      "coinDecimals": 18,
       "gasPriceStep": {
         "low": 76923076923.07692,
         "average": 96153846153.84616,
