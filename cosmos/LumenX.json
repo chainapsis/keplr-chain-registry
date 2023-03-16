@@ -1,0 +1,49 @@
+{
+  "chainId": "LumenX",
+  "chainName": "LumenX",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/LumenX/chain.png",
+  "rpc": "https://lumenx-rpc.kynraze.com",
+  "rest": "https://lumenx-api.kynraze.com",
+  "nodeProvider": {
+        "name": "Kynraze",
+        "email": "support@kynraze.com",
+        "website": "https://kynraze.com"
+    },
+  "walletUrlForStaking": "https://explorer.kynraze.com/lumenx/staking",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "lumen",
+    "bech32PrefixAccPub": "lumenpub",
+    "bech32PrefixValAddr": "lumenvaloper",
+    "bech32PrefixValPub": "lumenvaloperpub",
+    "bech32PrefixConsAddr": "lumenvalcons",
+    "bech32PrefixConsPub": "lumenvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "LUMEN",
+      "coinMinimalDenom": "ulumen",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "LUMEN",
+      "coinMinimalDenom": "ulumen",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.0125,
+        "average": 0.025,
+        "high": 0.05
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "LUMEN",
+    "coinMinimalDenom": "ulumen",
+    "coinDecimals": 6
+  },
+  "features": []
+}
