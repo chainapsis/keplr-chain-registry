@@ -1,51 +1,59 @@
 {
-  "rpc": "https://rpc.canto.nodestake.top/", 
-  "rest": "https://mainnode.plexnode.org:1317",
-  "chainId": "canto_7700-1",
-  "chainName": "Canto",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/canto_7700/chain.png",
-  "nodeProvider": {
-    "name": "Plex Labs",
-    "email": "contact@plex.engineer",
-    "website":"https://plex.engineer/"
-  },
-  "stakeCurrency": {
-    "coinDenom": "CANTO",
-    "coinMinimalDenom": "acanto",
-    "coinDecimals": 18,
-    "coinGeckoId": "canto"
-  },
-  "walletUrl": "https://canto.io/",
-  "walletUrlForStaking": "https://canto.io/staking",
-  "bip44": {
-    "coinType": 60
-  },
   "bech32Config": {
     "bech32PrefixAccAddr": "canto",
     "bech32PrefixAccPub": "cantopub",
-    "bech32PrefixValAddr": "cantovaloper",
-    "bech32PrefixValPub": "cantovaloperpub",
     "bech32PrefixConsAddr": "cantovalcons",
-    "bech32PrefixConsPub": "cantovalconspub"
+    "bech32PrefixConsPub": "cantovalconspub",
+    "bech32PrefixValAddr": "cantovaloper",
+    "bech32PrefixValPub": "cantovaloperpub"
   },
+  "bip44": {
+    "coinType": 60
+  },
+  "chainId": "canto_7700-1",
+  "chainName": "Canto",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/canto_7700/chain.png",
+  "coinType": 60,
   "currencies": [
     {
-      "coinDenom": "CANTO",
-      "coinMinimalDenom": "acanto",
       "coinDecimals": 18,
-      "coinGeckoId": "canto"
-    }
-  ],
-  "feeCurrencies": [
-    {
       "coinDenom": "CANTO",
-      "coinMinimalDenom": "acanto",
-      "coinDecimals": 18,
-      "coinGeckoId": "canto"
+      "coinGeckoId": "canto",
+      "coinMinimalDenom": "acanto"
     }
   ],
   "features": [
+    "ibc-transfer",
+    "ibc-go",
     "eth-address-gen",
     "eth-key-sign"
-  ]
+  ],
+  "feeCurrencies": [
+    {
+      "coinDecimals": 18,
+      "coinDenom": "CANTO",
+      "coinGeckoId": "canto",
+      "coinMinimalDenom": "acanto",
+      "gasPriceStep": {
+        "average": 1000000000000,
+        "high": 4000000000000,
+        "low": 500000000000
+      }
+    }
+  ],
+  "gasPriceStep": {
+    "average": 1000000000000,
+    "high": 4000000000000,
+    "low": 500000000000
+  },
+  "rest": "https://rest.cosmos.directory/canto",
+  "rpc": "https://api.cosmos.directory/canto",
+  "stakeCurrency": {
+    "coinDecimals": 18,
+    "coinDenom": "CANTO",
+    "coinGeckoId": "canto",
+    "coinMinimalDenom": "acanto"
+  }
+  "walletUrl": "https://canto.io/",
+  "walletUrlForStaking": "https://canto.io/staking"
 }
