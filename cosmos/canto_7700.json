@@ -53,7 +53,7 @@
     "coinDenom": "CANTO",
     "coinGeckoId": "canto",
     "coinMinimalDenom": "acanto"
-  }
+  },
   "walletUrl": "https://canto.io/",
   "walletUrlForStaking": "https://canto.io/staking"
 }
