@@ -1,13 +1,13 @@
 {
-  "rpc": "https://rpc.canto.nodestake.top/", 
-  "rest": "https://mainnode.plexnode.org:1317",
+  "rest": "https://rest.cosmos.directory/canto",
+  "rpc": "https://api.cosmos.directory/canto",
   "chainId": "canto_7700-1",
   "chainName": "Canto",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/canto_7700/chain.png",
   "nodeProvider": {
     "name": "Plex Labs",
     "email": "contact@plex.engineer",
-    "website":"https://plex.engineer/"
+    "website": "https://plex.engineer/"
   },
   "stakeCurrency": {
     "coinDenom": "CANTO",
@@ -41,10 +41,17 @@
       "coinDenom": "CANTO",
       "coinMinimalDenom": "acanto",
       "coinDecimals": 18,
-      "coinGeckoId": "canto"
+      "coinGeckoId": "canto",
+      "gasPriceStep": {
+        "low": 125000000000,
+        "average": 250000000000,
+        "high": 375000000000
+      }
     }
   ],
   "features": [
+    "ibc-transfer",
+    "ibc-go",
     "eth-address-gen",
     "eth-key-sign"
   ]
