@@ -10,8 +10,8 @@
     "coinDecimals": 6,
     "coinGeckoId": "certik"
   },
-  "walletUrl": "https://wallet.keplr.app/chains/certik",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/certik",
+  "walletUrl": "https://wallet.keplr.app/chains/shentu",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/shentu",
   "bip44": {
     "coinType": 118
   },
