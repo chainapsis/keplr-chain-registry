@@ -41,7 +41,12 @@
       "coinDenom": "qREGEN",
       "coinMinimalDenom" : "uqregen",
       "coinDecimals": 6
-    }
+    },
+    {
+      "coinDenom": "qOSMO",
+      "coinMinimalDenom" : "uqosmo",
+      "coinDecimals": 6
+    }	    
   ],
   "feeCurrencies": [
     {
