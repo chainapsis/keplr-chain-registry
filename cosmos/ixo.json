@@ -1,7 +1,7 @@
 {
   "rpc": "https://rpc-ixo.keplr.app",
   "rest": "https://lcd-ixo.keplr.app",
-  "chainId": "ixo-4",
+  "chainId": "ixo-5",
   "chainName": "ixo",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ixo/chain.png",
   "stakeCurrency": {
