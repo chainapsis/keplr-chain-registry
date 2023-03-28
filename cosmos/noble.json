@@ -36,7 +36,12 @@
     {
       "coinDenom": "USDC",
       "coinMinimalDenom": "uusdc",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0,
+        "average": 0,
+        "high": 0.01
+      }
     }
   ],
   "features": []
