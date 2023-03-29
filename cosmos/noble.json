@@ -30,6 +30,11 @@
       "coinDenom": "USDC",
       "coinMinimalDenom": "uusdc",
       "coinDecimals": 6
+    },
+    {
+      "coinDenom": "FRNZ",
+      "coinMinimalDenom": "ufrienzies",
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
