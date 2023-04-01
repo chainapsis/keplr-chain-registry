@@ -59,6 +59,11 @@
       "coinDenom": "stLUNA",
       "coinMinimalDenom": "stuluna",
       "coinDecimals": 6
+    },
+    {
+      "coinDenom": "stINJ",
+      "coinMinimalDenom": "stinj",
+      "coinDecimals": 18
     }
   ],
   "feeCurrencies": [
