@@ -1,0 +1,50 @@
+{
+    "chainId": "ShareRing-VoyagerNet",
+    "chainName": "Shareledger",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ShareRing-VoyagerNet/chain.png",
+    "rpc": "https://rpc.explorer.shareri.ng",
+    "rest": "https://lcd.explorer.shareri.ng",
+    "nodeProvider": {
+        "name": "ShareRing",
+        "email": "hello@sharering.network",
+        "website": "https://www.sharering.network/"
+    },
+    "bip44": {
+        "coinType": 118
+    },
+    "bech32Config": {
+        "bech32PrefixAccAddr": "shareledger",
+        "bech32PrefixAccPub": "shareledgerpub",
+        "bech32PrefixConsAddr": "shareledgervalcons",
+        "bech32PrefixConsPub": "shareledgervalconspub",
+        "bech32PrefixValAddr": "shareledgervaloper",
+        "bech32PrefixValPub": "shareledgervaloperpub"
+    },
+    "currencies": [
+        {
+            "coinDenom": "shr",
+            "coinMinimalDenom": "nshr",
+            "coinDecimals": 9
+        }
+    ],
+    "feeCurrencies": [
+        {
+            "coinDenom": "shr",
+            "coinMinimalDenom": "nshr",
+            "coinDecimals": 9,
+            "gasPriceStep": {
+                "low": 30000,
+                "average": 40000,
+                "high": 50000
+            }
+        }
+    ],
+    "stakeCurrency": {
+        "coinDenom": "shr",
+        "coinMinimalDenom": "nshr",
+        "coinDecimals": 9
+    },
+    "features": [
+        "cosmwasm"
+    ]
+} 
