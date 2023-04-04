@@ -3,11 +3,11 @@
 	"chainName": "Uptick Network",
 	"rpc": "https://rpc.uptick.network",
 	"rest": "https://rest.uptick.network",
-	"chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/uptick/chain.png",
+	"chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/uptick_117/chain.png",
 	 "nodeProvider": {
 	    "name": "fei",
 	    "email": "fei228320@gmail.com",
-	    "website":"https://www.uptick.network/marketplace.html"
+	    "website":"https://evm-explorer.uptick.network/"
 	  },
 	"stakeCurrency": {
 		"coinDenom": "UPTICK",
