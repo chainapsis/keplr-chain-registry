@@ -29,6 +29,12 @@
       "coinMinimalDenom": "uregen",
       "coinDecimals": 6,
       "coinGeckoId": "regen"
+    },
+    {
+      "coinDenom": "NCT",
+      "coinMinimalDenom": "eco.uC.NCT",
+      "coinDecimals": 6,
+      "coinGeckoId": "toucan-protocol-nature-carbon-tonne"
     }
   ],
   "feeCurrencies": [
