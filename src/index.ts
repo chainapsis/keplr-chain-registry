@@ -49,6 +49,7 @@ const main = async () => {
         "mars",
         "quasar",
         "noble",
+        "injective",
       ];
       const chainIdentifier = ChainIdHelper.parse(chainInfo.chainId).identifier;
 

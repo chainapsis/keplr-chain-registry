@@ -1,5 +1,9 @@
 {
+  "rpc": "https://rpc-injective.keplr.app",
+  "rest": "https://lcd-injective.keplr.app",
   "chainId": "injective-1",
+  "chainName": "Injective",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/chain.png",
   "bech32Config": {
     "bech32PrefixAccPub": "injpub",
     "bech32PrefixValPub": "injvaloperpub",
@@ -10,6 +14,12 @@
   },
   "bip44": {
     "coinType": 60
+  },
+  "stakeCurrency": {
+    "coinDenom": "INJ",
+    "coinDecimals": 18,
+    "coinMinimalDenom": "inj",
+    "coinGeckoId": "injective-protocol"
   },
   "currencies": [
     {
@@ -27,28 +37,10 @@
       "coinGeckoId": "injective-protocol",
       "gasPriceStep": {
         "low": 500000000,
-        "high": 1500000000,
-        "average": 1000000000
+        "average": 1000000000,
+        "high": 1500000000
       }
     }
   ],
-  "stakeCurrency": {
-    "coinDenom": "INJ",
-    "coinDecimals": 18,
-    "coinMinimalDenom": "inj",
-    "coinGeckoId": "injective-protocol"
-  },
-  "rpc": "https://injective.crescent.network:26657",
-  "rest": "https://injective.crescent.network:1317",
-    "nodeProvider": {
-    "name": "Crescent Network",
-    "email": "contact@crescent.foundation",
-    "website":"https://crescent.network/"
-  },
-  "chainName": "Injective",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/chain.png",
-  "features": [
-    "eth-address-gen",
-    "eth-key-sign"
-  ]
+  "features": ["eth-address-gen", "eth-key-sign"]
 }
