@@ -1,6 +1,6 @@
 {
-    "rpc": "https://rpc-zenchainlabs.io",
-    "rest": "https://api-zenchainlabs.io",
+    "rpc": "https://rpc-terp.zenchainlabs.io",
+    "rest": "https://api-terp.zenchainlabs.io",
     "nodeProvider": {
         "name": "ZenChainLabs",
         "email": "support@zenchainlabs.io",
