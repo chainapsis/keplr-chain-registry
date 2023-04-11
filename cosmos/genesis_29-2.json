@@ -1,0 +1,48 @@
+{
+  "rpc": "https://26657.genesisl1.org/",
+  "rest": "https://api.genesisl1.org/",
+  "chainId": "genesis_29-2",
+  "chainName": "GenesisL1",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/alpha-omega-labs/genesisd/neolithic/L1.png",
+  "stakeCurrency": {
+    "coinDenom": "L1",
+    "coinMinimalDenom": "el1",
+    "coinDecimals": 18
+  },
+  "walletUrl": "https://ping.pub/genesisL1",
+  "walletUrlForStaking": "https://ping.pub/genesisL1/staking",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "genesis",
+    "bech32PrefixAccPub": "genesispub",
+    "bech32PrefixValAddr": "genesisvaloper",
+    "bech32PrefixValPub": "genesisvaloperpub",
+    "bech32PrefixConsAddr": "genesisvalcons",
+    "bech32PrefixConsPub": "genesisvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "L1",
+      "coinMinimalDenom": "el1",
+      "coinDecimals": 18
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "L1",
+      "coinMinimalDenom": "el1",
+      "coinDecimals": 18,
+      "gasPriceStep": {
+        "low": 51000000000,
+        "average": 52000000000,
+        "high": 53000000000
+      }
+    }
+  ],
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ]
+}
