@@ -1,10 +1,10 @@
 {
     "rpc": "https://rpc-terp.zenchainlabs.io",
-    "rest": "https://api-terp.zenchainlabs.io",
+    "rest": "https://api-terp.zenchainlabs.io/",
     "nodeProvider": {
         "name": "ZenChainLabs",
         "email": "support@zenchainlabs.io",
-        "website":"https://zenscan.io/"
+        "website":"https://zenchainlabs.io/"
       },
     "chainId": "morocco-1",
     "chainName": "Terp Network",
@@ -49,7 +49,7 @@
         "coinDecimals": 6,
         "coinGeckoId": "thiol",
         "gasPriceStep": {
-            "low": 25000000000,
+            "low": 2500000000,
             "average": 4000000000,
             "high": 80000000000
           }
