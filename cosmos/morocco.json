@@ -1,6 +1,6 @@
 {
     "rpc": "https://rpc-terp.zenchainlabs.io",
-    "rest": "https://api-terp.zenchainlabs.io/",
+    "rest": "https://api-terp.zenchainlabs.io",
     "nodeProvider": {
         "name": "ZenChainLabs",
         "email": "support@zenchainlabs.io",
@@ -13,7 +13,7 @@
       "coinDenom": "TERP",
       "coinMinimalDenom": "uterp",
       "coinDecimals": 6,
-      "coinGeckoId": "stargaze"
+      "coinGeckoId": "terp"
     },
     "walletUrl": "https://dash.terp.network",
     "walletUrlForStaking": "https://stake.terp.network",
@@ -49,9 +49,9 @@
         "coinDecimals": 6,
         "coinGeckoId": "thiol",
         "gasPriceStep": {
-            "low": 2500000000,
-            "average": 4000000000,
-            "high": 80000000000
+            "low": 0.02,
+            "average": 0.04,
+            "high": 0.075
           }
         }
     ],
