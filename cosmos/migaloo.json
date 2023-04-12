@@ -34,7 +34,6 @@
 			"coinDenom": "WHALE",
 			"coinMinimalDenom": "uwhale",
 			"coinDecimals": 6,
-			"coinGeckoId": "unknown",
 			"gasPriceStep": {
 			"low": 0.25,
 			"average": 0.3,
