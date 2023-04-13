@@ -1,0 +1,57 @@
+{
+    "rpc": "https://rpc-terp.zenchainlabs.io",
+    "rest": "https://api-terp.zenchainlabs.io",
+    "nodeProvider": {
+        "name": "ZenChainLabs",
+        "email": "support@zenchainlabs.io",
+        "website":"https://zenchainlabs.io/"
+      },
+    "chainId": "morocco-1",
+    "chainName": "Terp Network",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/morocco/chain.png",
+    "stakeCurrency": {
+      "coinDenom": "TERP",
+      "coinMinimalDenom": "uterp",
+      "coinDecimals": 6
+    },
+    "walletUrl": "https://dash.terp.network",
+    "walletUrlForStaking": "https://stake.terp.network",
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "terp",
+      "bech32PrefixAccPub": "terppub",
+      "bech32PrefixValAddr": "terpvaloper",
+      "bech32PrefixValPub": "terpvaloperpub",
+      "bech32PrefixConsAddr": "terpvalcons",
+      "bech32PrefixConsPub": "terpvalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "TERP",
+        "coinMinimalDenom": "uterp",
+        "coinDecimals": 6
+      },
+      {
+        "coinDenom": "THIOL",
+        "coinMinimalDenom": "uthiol",
+        "coinDecimals": 6
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "THIOL",
+        "coinMinimalDenom": "uthiol",
+        "coinDecimals": 6,
+        "gasPriceStep": {
+            "low": 0.02,
+            "average": 0.04,
+            "high": 0.075
+          }
+        }
+    ],
+    "features": [
+        "cosmwasm"
+    ]
+  }
