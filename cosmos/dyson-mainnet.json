@@ -2,8 +2,8 @@
   "chainId": "dyson-mainnet-01",
   "chainName": "Dyson Protocol",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dyson-mainnet/chain.png",
-  "rpc": "https://rpc.cosmos.directory/dyson",
-  "rest": "https://rest.cosmos.directory/dyson",
+  "rpc": "https://dys-tm.dysonprotocol.com/",
+  "rest": "https://dys-api.dysonprotocol.com/",
   "nodeProvider": {
         "name": "Dyson Protocol",
 	"email": "dysonprotocol@protonmail.com",
