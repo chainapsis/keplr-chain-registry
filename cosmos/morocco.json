@@ -8,7 +8,7 @@
       },
     "chainId": "morocco-1",
     "chainName": "Terp Network",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/terpnetwork/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/morocco/chain.png",
     "stakeCurrency": {
       "coinDenom": "TERP",
       "coinMinimalDenom": "uterp",
