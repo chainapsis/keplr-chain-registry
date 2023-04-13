@@ -6,7 +6,7 @@
   "rest": "https://rest.cosmos.directory/dyson",
   "nodeProvider": {
         "name": "Dyson Protocol",
-	"email": "dysonprotocol",
+	"email": "dysonprotocol@protonmail.com",
         "website": "https://dysonprotocol.com/"
     },
   "walletUrlForStaking": "https://explorer.dys.dysonprotocol.com/",
