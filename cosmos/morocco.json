@@ -12,8 +12,7 @@
     "stakeCurrency": {
       "coinDenom": "TERP",
       "coinMinimalDenom": "uterp",
-      "coinDecimals": 6,
-      "coinGeckoId": "unknown"
+      "coinDecimals": 6
     },
     "walletUrl": "https://dash.terp.network",
     "walletUrlForStaking": "https://stake.terp.network",
@@ -32,14 +31,12 @@
       {
         "coinDenom": "TERP",
         "coinMinimalDenom": "uterp",
-        "coinDecimals": 6,
-        "coinGeckoId": "unknown"
+        "coinDecimals": 6
       },
       {
         "coinDenom": "THIOL",
         "coinMinimalDenom": "uthiol",
-        "coinDecimals": 6,
-        "coinGeckoId": "unknown"
+        "coinDecimals": 6
       }
     ],
     "feeCurrencies": [
@@ -47,7 +44,6 @@
         "coinDenom": "THIOL",
         "coinMinimalDenom": "uthiol",
         "coinDecimals": 6,
-        "coinGeckoId": "thiol",
         "gasPriceStep": {
             "low": 0.02,
             "average": 0.04,
