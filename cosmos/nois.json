@@ -1,0 +1,43 @@
+{
+  "rpc": "https://rpc.cosmos.directory/nois",
+  "rest": "https://rest.cosmos.directory/nois",
+  "chainId": "nois-1",
+  "chainName": "Nois",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nois/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "NOIS",
+    "coinMinimalDenom": "unois",
+    "coinDecimals": 6
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "nois",
+    "bech32PrefixAccPub": "noispub",
+    "bech32PrefixValAddr": "noisvaloper",
+    "bech32PrefixValPub": "noisvaloperpub",
+    "bech32PrefixConsAddr": "noisvalcons",
+    "bech32PrefixConsPub": "noisvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "NOIS",
+      "coinMinimalDenom": "unois",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "NOIS",
+      "coinMinimalDenom": "unois",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.05,
+        "average": 0.05,
+        "high": 0.1
+      }
+    }
+  ],
+  "features": []
+}
