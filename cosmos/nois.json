@@ -1,6 +1,6 @@
 {
-  "rpc": "https://rpc.cosmos.directory/nois",
-  "rest": "https://rest.cosmos.directory/nois",
+  "rpc": "https://rpc-nois.sr20de.xyz/",
+  "rest": "https://api.noismain.mcbnode.online",
   "chainId": "nois-1",
   "chainName": "Nois",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nois/chain.png",
