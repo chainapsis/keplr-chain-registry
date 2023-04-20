@@ -2,8 +2,9 @@
   "rpc": "https://rpc-omniflixhub.keplr.app",
   "rest": "https://lcd-omniflixhub.keplr.app",
   "chainId": "omniflixhub-1",
-  "chainName": "OmniFlix Hub",
+  "chainName": "OmniFlix",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub/chain.png",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/omniflix",
   "stakeCurrency": {
     "coinDenom": "FLIX",
     "coinMinimalDenom": "uflix",
