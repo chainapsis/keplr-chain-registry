@@ -1,4 +1,6 @@
 {
+  "rpc": "https://rpc-eu-1.kaon.kyve.network",
+  "rest": "https://api-eu-1.kaon.kyve.network",
   "chainId": "kaon-1",
   "chainName": "Kaon (Testnet)",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kyve/chain.png",
