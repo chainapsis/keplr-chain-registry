@@ -2,8 +2,8 @@
 	"chainId": "migaloo-1",
 	"chainName": "Migaloo",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/chain.png",
-	"rpc": "https://rpc.migaloo.silknodes.io/",
-	"rest": "https://api.migaloo.silknodes.io/",
+	"rpc": "https://migaloo.rpc.silknodes.io/",
+	"rest": "https://migaloo.api.silknodes.io/",
     "nodeProvider": {
     "name": "Silk Nodes",
     "email": "info@silknodes.io",
@@ -34,7 +34,11 @@
 			"coinDenom": "WHALE",
 			"coinMinimalDenom": "uwhale",
 			"coinDecimals": 6,
-			"coinGeckoId": "unknown"
+			"gasPriceStep": {
+			"low": 0.25,
+			"average": 0.3,
+			"high": 0.35
+		      	}
 		}
 	],
 	"stakeCurrency": {

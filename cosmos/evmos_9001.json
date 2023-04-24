@@ -38,14 +38,11 @@
       "coinDecimals": 18,
       "coinGeckoId": "evmos",
       "gasPriceStep": {
-        "low": 25000000000,
-        "average": 25000000000,
-        "high": 40000000000
+        "low": 80000000000,
+        "average": 80000000000,
+        "high": 80000000000
       }
     }
   ],
-  "features": [
-    "eth-address-gen",
-    "eth-key-sign"
-  ]
+  "features": ["eth-address-gen", "eth-key-sign"]
 }

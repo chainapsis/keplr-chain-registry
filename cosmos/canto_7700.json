@@ -43,9 +43,9 @@
       "coinDecimals": 18,
       "coinGeckoId": "canto",
       "gasPriceStep": {
-        "low": 125000000000,
-        "average": 250000000000,
-        "high": 375000000000
+        "low": 1250000000000,
+        "average": 2500000000000,
+        "high": 3750000000000
       }
     }
   ],

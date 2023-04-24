@@ -31,7 +31,7 @@
       "coinGeckoId": "axelar"
     },
     {
-      "coinDenom": "WETH",
+      "coinDenom": "ETH",
       "coinMinimalDenom": "weth-wei",
       "coinDecimals": 18,
       "coinGeckoId": "weth"
