@@ -1,5 +1,5 @@
 {
-  "rpc": "https://rpc-nois.sr20de.xyz/",
+  "rpc": "https://nois-rpc.polkachu.com:443",
   "rest": "https://api.noismain.mcbnode.online",
   "chainId": "nois-1",
   "chainName": "Nois",
