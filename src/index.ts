@@ -51,6 +51,7 @@ const main = async () => {
         "noble",
         "injective",
         "omniflixhub",
+        "kyve",
       ];
       const chainIdentifier = ChainIdHelper.parse(chainInfo.chainId).identifier;
 

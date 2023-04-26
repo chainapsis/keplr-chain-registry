@@ -1,6 +1,6 @@
 {
-  "rpc": "https://rpc-eu-1.kyve.network",
-  "rest": "https://api-eu-1.kyve.network",
+  "rpc": "https://rpc-kyve.keplr.app",
+  "rest": "https://lcd-kyve.keplr.app",
   "chainId": "kyve-1",
   "chainName": "KYVE",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kyve/chain.png",
