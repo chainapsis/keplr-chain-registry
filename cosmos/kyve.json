@@ -9,6 +9,7 @@
     "coinMinimalDenom": "ukyve",
     "coinDecimals": 6
   },
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/kyve",
   "bip44": {
     "coinType": 118
   },
