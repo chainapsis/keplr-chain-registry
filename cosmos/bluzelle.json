@@ -6,7 +6,7 @@
     "email": "support@bluzelle.com",
     "website":"https://bluzelle.com/"
   },  
-  "chainId": "bluzelle-8",
+  "chainId": "bluzelle-9",
   "chainName": "Bluzelle",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bluzelle/chain.png",
   "stakeCurrency": {
