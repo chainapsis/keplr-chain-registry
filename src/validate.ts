@@ -103,7 +103,11 @@ export const validateChainInfo = async (
   );
 
   // check REST alive
-  if (chainIdentifier !== "gravity-bridge" && chainIdentifier !== "sommelier") {
+  if (
+    chainIdentifier !== "gravity-bridge" &&
+    chainIdentifier !== "sommelier" &&
+    chainIdentifier !== "kyve"
+  ) {
     await checkRestConnectivity(chainInfo.chainId, chainInfo.rest);
   }
 

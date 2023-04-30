@@ -38,7 +38,7 @@
       "coinDecimals": 6,
       "coinGeckoId": "juno-network",
       "gasPriceStep": {
-        "low": 0.001,
+        "low": 0.0025,
         "average": 0.0025,
         "high": 0.004
       }
@@ -48,13 +48,11 @@
       "coinMinimalDenom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.00033,
-        "average": 0.0008250000000000001,
+        "low": 0.001,
+        "average": 0.001,
         "high": 0.00132
       }
     }
   ],
-  "features": [
-    "cosmwasm"
-  ]
+  "features": ["cosmwasm"]
 }
