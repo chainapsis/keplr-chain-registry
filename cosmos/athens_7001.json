@@ -1,0 +1,56 @@
+{
+  "rpc": "https://api.athens2.zetachain.com/tendermint/",
+  "rest": "https://api.athens2.zetachain.com/",
+  "chainId": "athens_7001-1",
+  "chainName": "ZetaChain",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zetachain/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "ZETA",
+    "coinMinimalDenom": "zeta",
+    "coinDecimals": 18,
+    "coinGeckoId": "zeta"
+  },
+  "nodeProvider": {
+    "name": "ZetaChain",
+    "email": "hello@zetachain.com",
+    "website": "https://zetachain.com/"
+  },
+  "walletUrl": "https://wallet.keplr.app/chains/zetachain",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/zetachain",
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "zeta",
+    "bech32PrefixAccPub": "zetapub",
+    "bech32PrefixValAddr": "zetavaloper",
+    "bech32PrefixValPub": "zetavaloperpub",
+    "bech32PrefixConsAddr": "ezetaalcons",
+    "bech32PrefixConsPub": "zetavalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "ZETA",
+      "coinMinimalDenom": "azeta",
+      "coinDecimals": 18,
+      "coinGeckoId": "zeta"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ZETA",
+      "coinMinimalDenom": "azeta",
+      "coinDecimals": 18,
+      "coinGeckoId": "zeta",
+      "gasPriceStep": {
+        "low": 80000000000,
+        "average": 80000000000,
+        "high": 80000000000
+      }
+    }
+  ],
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ]
+}
