@@ -7,8 +7,7 @@
   "stakeCurrency": {
     "coinDenom": "ZETA",
     "coinMinimalDenom": "azeta",
-    "coinDecimals": 18,
-    "coinGeckoId": "zeta"
+    "coinDecimals": 18
   },
   "nodeProvider": {
     "name": "ZetaChain",
