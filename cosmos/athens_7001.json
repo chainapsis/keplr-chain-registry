@@ -2,7 +2,7 @@
   "rpc": "https://api-lb.athens2.zetachain.com:26657/",
   "rest": "https://api.athens2.zetachain.com/",
   "chainId": "athens_7001-1",
-  "chainName": "ZetaChain",
+  "chainName": "ZetaChain Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/athens_7001/chain.png",
   "stakeCurrency": {
     "coinDenom": "ZETA",
@@ -14,8 +14,6 @@
     "email": "hello@zetachain.com",
     "website": "https://zetachain.com/"
   },
-  "walletUrl": "https://wallet.keplr.app/chains/zetachain",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/zetachain",
   "bip44": {
     "coinType": 60
   },
