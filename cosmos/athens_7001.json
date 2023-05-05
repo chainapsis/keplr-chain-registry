@@ -1,5 +1,5 @@
 {
-  "rpc": "https://api.athens2.zetachain.com/tendermint/",
+  "rpc": "https://api-lb.athens2.zetachain.com:26657/",
   "rest": "https://api.athens2.zetachain.com/",
   "chainId": "athens_7001-1",
   "chainName": "ZetaChain",
