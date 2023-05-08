@@ -47,6 +47,11 @@
             "coinDenom": "rHUAHUA",
             "coinMinimalDenom": "urhuahua",
             "coinDecimals": 6
+        },
+        {
+            "coinDenom": "rSWTH",
+            "coinMinimalDenom": "urswth",
+            "coinDecimals": 8
         }
     ],
     "feeCurrencies": [{
