@@ -11,7 +11,7 @@
     "coinType": 118
   },
   "chainId": "constantine-2",
-  "chainName": "Constantine (Testnet)",
+  "chainName": "Constantine (Archway Testnet)",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/constantine/chain.png",
   "currencies": [
     {
