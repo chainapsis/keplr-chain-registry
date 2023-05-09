@@ -1,0 +1,49 @@
+{
+    "rpc": "https://rpc.explorebitsong.com",
+    "rest": "https://lcd.explorebitsong.com",
+    "chainId": "bitsong-2b",
+    "chainName": "BitSong",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitsong/chain.png",
+    "stakeCurrency": {
+      "coinDenom": "BTSG",
+      "coinMinimalDenom": "ubtsg",
+      "coinDecimals": 6,
+      "coinGeckoId": "bitsong"
+    },
+    "walletUrl": "https://wallet.bitsong.io",
+    "walletUrlForStaking": "https://wallet.bitsong.io",
+    "bip44": {
+      "coinType": 639
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "bitsong",
+      "bech32PrefixAccPub": "bitsongpub",
+      "bech32PrefixValAddr": "bitsongvaloper",
+      "bech32PrefixValPub": "bitsongvaloperpub",
+      "bech32PrefixConsAddr": "bitsongvalcons",
+      "bech32PrefixConsPub": "bitsongvalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "BTSG",
+        "coinMinimalDenom": "ubtsg",
+        "coinDecimals": 6,
+        "coinGeckoId": "bitsong"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "BTSG",
+        "coinMinimalDenom": "ubtsg",
+        "coinDecimals": 6,
+        "coinGeckoId": "bitsong",
+        "gasPriceStep": {
+          "low": 0.0001,
+          "average": 0.0003,
+          "high": 0.0005
+        }
+      }
+    ],
+    "features": ["stargate", "ibc-transfer"]
+  }
+  
