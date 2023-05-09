@@ -1,0 +1,41 @@
+{
+  "chainId": "neutron-1",
+  "chainName": "Neutron",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/chain.png",
+  "rpc": "https://rpc-neutron.keplr.app",
+  "rest": "https://lcd-neutron.keplr.app",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "neutron",
+    "bech32PrefixAccPub": "neutronpub",
+    "bech32PrefixValAddr": "neutronvaloper",
+    "bech32PrefixValPub": "neutronvaloperpub",
+    "bech32PrefixConsAddr": "neutronvalcons",
+    "bech32PrefixConsPub": "neutronvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "NTRN",
+      "coinMinimalDenom": "untrn",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "NTRN",
+      "coinMinimalDenom": "untrn",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0,
+        "average": 0,
+        "high": 0.01
+      }
+    }
+  ],
+  "stakeCurrency": {},
+  "features": [
+    "cosmwasm"
+  ]
+}
