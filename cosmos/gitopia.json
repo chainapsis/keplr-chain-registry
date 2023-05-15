@@ -1,0 +1,44 @@
+{
+  "chainId": "gitopia",
+  "chainName": "Gitopia",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gitopia/gitopia.png",
+  "bip44": {
+    "coinType": 118
+  },
+  "stakeCurrency": {
+    "coinDenom": "LORE",
+    "coinMinimalDenom": "ulore",
+    "coinDecimals": 6,
+    "coinGeckoId": ""
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "gitopia",
+    "bech32PrefixAccPub": "gitopiapub",
+    "bech32PrefixValAddr": "gitopiavaloper",
+    "bech32PrefixValPub": "gitopiavaloperpub",
+    "bech32PrefixConsAddr": "gitopiavalcons",
+    "bech32PrefixConsPub": "gitopiavalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "LORE",
+      "coinMinimalDenom": "ulore",
+      "coinDecimals": 6,
+      "coinGeckoId": ""
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "LORE",
+      "coinMinimalDenom": "ulore",
+      "coinDecimals": 6,
+      "coinGeckoId": "",
+      "gasPriceStep": {
+        "low": 0.0012,
+        "average": 0.0016,
+        "high": 0.0024
+      }
+    }
+  ],
+  "features": []
+}
