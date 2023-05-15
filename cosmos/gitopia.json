@@ -1,7 +1,7 @@
 {
   "chainId": "gitopia",
   "chainName": "Gitopia",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gitopia/gitopia.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gitopia/chain.png",
   "bip44": {
     "coinType": 118
   },
