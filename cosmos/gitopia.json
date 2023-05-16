@@ -8,8 +8,7 @@
   "stakeCurrency": {
     "coinDenom": "LORE",
     "coinMinimalDenom": "ulore",
-    "coinDecimals": 6,
-    "coinGeckoId": ""
+    "coinDecimals": 6
   },
   "bech32Config": {
     "bech32PrefixAccAddr": "gitopia",
@@ -23,16 +22,14 @@
     {
       "coinDenom": "LORE",
       "coinMinimalDenom": "ulore",
-      "coinDecimals": 6,
-      "coinGeckoId": ""
-    }
+      "coinDecimals": 6
+      }
   ],
   "feeCurrencies": [
     {
       "coinDenom": "LORE",
       "coinMinimalDenom": "ulore",
       "coinDecimals": 6,
-      "coinGeckoId": "",
       "gasPriceStep": {
         "low": 0.0012,
         "average": 0.0016,
