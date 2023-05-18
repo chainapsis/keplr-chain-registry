@@ -7,7 +7,8 @@
   "stakeCurrency": {
     "coinDenom": "KYVE",
     "coinMinimalDenom": "ukyve",
-    "coinDecimals": 6
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kyve/ukyve.png"
   },
   "walletUrlForStaking": "https://wallet.keplr.app/chains/kyve",
   "bip44": {
@@ -25,7 +26,8 @@
     {
       "coinDenom": "KYVE",
       "coinMinimalDenom": "ukyve",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kyve/ukyve.png"
     }
   ],
   "feeCurrencies": [
@@ -33,6 +35,7 @@
       "coinDenom": "KYVE",
       "coinMinimalDenom": "ukyve",
       "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kyve/ukyve.png",
       "gasPriceStep": {
         "low": 0.02,
         "average": 0.03,

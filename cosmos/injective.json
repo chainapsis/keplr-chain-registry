@@ -19,14 +19,16 @@
     "coinDenom": "INJ",
     "coinDecimals": 18,
     "coinMinimalDenom": "inj",
-    "coinGeckoId": "injective-protocol"
+    "coinGeckoId": "injective-protocol",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/inj.png"
   },
   "currencies": [
     {
       "coinDenom": "INJ",
       "coinDecimals": 18,
       "coinMinimalDenom": "inj",
-      "coinGeckoId": "injective-protocol"
+      "coinGeckoId": "injective-protocol",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/inj.png"
     }
   ],
   "feeCurrencies": [
@@ -35,6 +37,7 @@
       "coinDecimals": 18,
       "coinMinimalDenom": "inj",
       "coinGeckoId": "injective-protocol",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/inj.png",
       "gasPriceStep": {
         "low": 500000000,
         "average": 1000000000,

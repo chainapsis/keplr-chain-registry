@@ -8,7 +8,8 @@
     "coinDenom": "NGM",
     "coinMinimalDenom": "ungm",
     "coinDecimals": 6,
-    "coinGeckoId": "e-money"
+    "coinGeckoId": "e-money",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/emoney/ungm.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/e-money",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/e-money",
@@ -28,7 +29,8 @@
       "coinDenom": "NGM",
       "coinMinimalDenom": "ungm",
       "coinDecimals": 6,
-      "coinGeckoId": "e-money"
+      "coinGeckoId": "e-money",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/emoney/ungm.png"
     },
     {
       "coinDenom": "EEUR",
@@ -63,6 +65,7 @@
       "coinMinimalDenom": "ungm",
       "coinDecimals": 6,
       "coinGeckoId": "e-money",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/emoney/ungm.png",
       "gasPriceStep": {
         "low": 1,
         "average": 1,

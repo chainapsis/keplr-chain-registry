@@ -7,7 +7,8 @@
   "stakeCurrency": {
     "coinDenom": "QSR",
     "coinMinimalDenom": "uqsr",
-    "coinDecimals": 6
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/quasar/uqsr.png"
   },
   "walletUrl": "https://wallet.keplr.app",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/quasar",
@@ -26,7 +27,8 @@
     {
       "coinDenom": "QSR",
       "coinMinimalDenom": "uqsr",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/quasar/uqsr.png"
     }
   ],
   "feeCurrencies": [

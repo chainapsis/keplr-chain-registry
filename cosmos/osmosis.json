@@ -8,7 +8,8 @@
     "coinDenom": "OSMO",
     "coinMinimalDenom": "uosmo",
     "coinDecimals": 6,
-    "coinGeckoId": "osmosis"
+    "coinGeckoId": "osmosis",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/uosmo.png"
   },
   "walletUrl": "https://app.osmosis.zone",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/osmosis",
@@ -28,13 +29,15 @@
       "coinDenom": "OSMO",
       "coinMinimalDenom": "uosmo",
       "coinDecimals": 6,
-      "coinGeckoId": "osmosis"
+      "coinGeckoId": "osmosis",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/uosmo.png"
     },
     {
       "coinDenom": "ION",
       "coinMinimalDenom": "uion",
       "coinDecimals": 6,
-      "coinGeckoId": "ion"
+      "coinGeckoId": "ion",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/uion.png"
     }
   ],
   "feeCurrencies": [
@@ -43,6 +46,7 @@
       "coinMinimalDenom": "uosmo",
       "coinDecimals": 6,
       "coinGeckoId": "osmosis",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/uosmo.png",
       "gasPriceStep": {
         "low": 0.0025,
         "average": 0.025,
