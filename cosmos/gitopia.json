@@ -2,6 +2,8 @@
   "chainId": "gitopia",
   "chainName": "Gitopia",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gitopia/chain.png",
+  "rpc": "https://rpc-gitopia.keplr.app",
+  "rest": "https://lcd-gitopia.keplr.app",
   "bip44": {
     "coinType": 118
   },
@@ -23,7 +25,7 @@
       "coinDenom": "LORE",
       "coinMinimalDenom": "ulore",
       "coinDecimals": 6
-      }
+    }
   ],
   "feeCurrencies": [
     {
