@@ -26,12 +26,6 @@
       "coinMinimalDenom": "ucore",
       "coinDecimals": 6,
       "coinGeckoId": "coreum"
-    },
-    {
-      "coinDenom": "USDS",
-      "coinMinimalDenom": "microusds-core17z02cx2xxz2rehq6qay3rc06g5ksa9nxjwh5uv",
-      "coinDecimals": 6,
-      "coinGeckoId": "stably"
     }
   ],
   "feeCurrencies": [
