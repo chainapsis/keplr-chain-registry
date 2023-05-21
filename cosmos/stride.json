@@ -66,6 +66,11 @@
       "coinDenom": "stINJ",
       "coinMinimalDenom": "stinj",
       "coinDecimals": 18
+    },
+    {
+      "coinDenom": "stUMEE",
+      "coinMinimalDenom": "stuumee",
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
