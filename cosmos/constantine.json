@@ -29,9 +29,9 @@
       "coinGeckoId": "constantine-network",
       "coinMinimalDenom": "aconst",
       "gasPriceStep": {
-        "average": 0.0025,
-        "high": 0.0041,
-        "low": 0.001
+        "low": 1000000000000,
+        "average": 1500000000000,
+        "high": 2000000000000
       }
     }
   ],
