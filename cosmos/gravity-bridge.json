@@ -8,7 +8,8 @@
     "coinDenom": "GRAV",
     "coinMinimalDenom": "ugraviton",
     "coinDecimals": 6,
-    "coinGeckoId": "graviton"
+    "coinGeckoId": "graviton",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/ugraviton.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/gravity-bridge",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/gravity-bridge",
@@ -28,7 +29,8 @@
       "coinDenom": "GRAV",
       "coinMinimalDenom": "ugraviton",
       "coinDecimals": 6,
-      "coinGeckoId": "graviton"
+      "coinGeckoId": "graviton",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/ugraviton.png"
     }
   ],
   "feeCurrencies": [
@@ -36,12 +38,14 @@
       "coinDenom": "GRAV",
       "coinMinimalDenom": "ugraviton",
       "coinDecimals": 6,
-      "coinGeckoId": "graviton"
+      "coinGeckoId": "graviton",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/ugraviton.png"
     },
     {
       "coinDenom": "USDC",
       "coinMinimalDenom": "gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
       "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48.png",
       "gasPriceStep": {
         "low": 0.0002,
         "average": 0.0005,
@@ -271,7 +275,8 @@
     {
       "coinDenom": "GRAV",
       "coinMinimalDenom": "gravity0xd8e2F184EedC79A9bdE9Eb7E34B0fF34e98692B7",
-      "coinDecimals": 18
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/ugraviton.png"
     },
     {
       "coinDenom": "PSTAKE",

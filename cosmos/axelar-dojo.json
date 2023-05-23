@@ -8,7 +8,8 @@
     "coinDenom": "AXL",
     "coinMinimalDenom": "uaxl",
     "coinDecimals": 6,
-    "coinGeckoId": "axelar"
+    "coinGeckoId": "axelar",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/uaxl.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/axelar",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/axelar",
@@ -28,7 +29,8 @@
       "coinDenom": "AXL",
       "coinMinimalDenom": "uaxl",
       "coinDecimals": 6,
-      "coinGeckoId": "axelar"
+      "coinGeckoId": "axelar",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/uaxl.png"
     },
     {
       "coinDenom": "ETH",
@@ -40,7 +42,8 @@
       "coinDenom": "USDC",
       "coinMinimalDenom": "uusdc",
       "coinDecimals": 6,
-      "coinGeckoId": "usd-coin"
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/uusdc.png"
     },
     {
       "coinDenom": "FRAX",
@@ -145,6 +148,7 @@
       "coinMinimalDenom": "uaxl",
       "coinDecimals": 6,
       "coinGeckoId": "axelar",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/uaxl.png",
       "gasPriceStep": {
         "low": 0.007,
         "average": 0.007,

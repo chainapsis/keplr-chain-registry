@@ -8,7 +8,8 @@
     "coinDenom": "BLD",
     "coinMinimalDenom": "ubld",
     "coinDecimals": 6,
-    "coinGeckoId": "agoric"
+    "coinGeckoId": "agoric",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/agoric/ubld.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/agoric",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/agoric",
@@ -28,7 +29,8 @@
       "coinDenom": "BLD",
       "coinMinimalDenom": "ubld",
       "coinDecimals": 6,
-      "coinGeckoId": "agoric"
+      "coinGeckoId": "agoric",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/agoric/ubld.png"
     },
     {
       "coinDenom": "IST",
@@ -42,6 +44,7 @@
       "coinMinimalDenom": "ubld",
       "coinDecimals": 6,
       "coinGeckoId": "agoric",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/agoric/ubld.png",
       "gasPriceStep": {
         "low": 0.03,
         "average": 0.05,

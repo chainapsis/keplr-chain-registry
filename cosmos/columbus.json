@@ -8,7 +8,8 @@
     "coinDenom": "LUNC",
     "coinMinimalDenom": "uluna",
     "coinDecimals": 6,
-    "coinGeckoId": "terra-luna"
+    "coinGeckoId": "terra-luna",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/uluna.png"
   },
   "bip44": {
     "coinType": 330
@@ -26,7 +27,8 @@
       "coinDenom": "LUNC",
       "coinMinimalDenom": "uluna",
       "coinDecimals": 6,
-      "coinGeckoId": "terra-luna"
+      "coinGeckoId": "terra-luna",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/uluna.png"
     },
     {
       "coinDenom": "USTC",
@@ -41,6 +43,7 @@
       "coinMinimalDenom": "uluna",
       "coinDecimals": 6,
       "coinGeckoId": "terra-luna",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/uluna.png",
       "gasPriceStep": {
         "low": 28.325,
         "average": 28.325,

@@ -8,7 +8,8 @@
     "coinDenom": "JUNO",
     "coinMinimalDenom": "ujuno",
     "coinDecimals": 6,
-    "coinGeckoId": "juno-network"
+    "coinGeckoId": "juno-network",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/juno/ujuno.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/juno",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/juno",
@@ -28,7 +29,8 @@
       "coinDenom": "JUNO",
       "coinMinimalDenom": "ujuno",
       "coinDecimals": 6,
-      "coinGeckoId": "juno-network"
+      "coinGeckoId": "juno-network",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/juno/ujuno.png"
     }
   ],
   "feeCurrencies": [
@@ -37,6 +39,7 @@
       "coinMinimalDenom": "ujuno",
       "coinDecimals": 6,
       "coinGeckoId": "juno-network",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/juno/ujuno.png",
       "gasPriceStep": {
         "low": 0.0025,
         "average": 0.0025,

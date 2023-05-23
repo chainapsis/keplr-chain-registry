@@ -8,7 +8,8 @@
     "coinDenom": "IOV",
     "coinMinimalDenom": "uiov",
     "coinDecimals": 6,
-    "coinGeckoId": "starname"
+    "coinGeckoId": "starname",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iov-mainnet-ibc/uiov.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/starname",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/starname",
@@ -28,7 +29,8 @@
       "coinDenom": "IOV",
       "coinMinimalDenom": "uiov",
       "coinDecimals": 6,
-      "coinGeckoId": "starname"
+      "coinGeckoId": "starname",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iov-mainnet-ibc/uiov.png"
     }
   ],
   "feeCurrencies": [
@@ -37,6 +39,7 @@
       "coinMinimalDenom": "uiov",
       "coinDecimals": 6,
       "coinGeckoId": "starname",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iov-mainnet-ibc/uiov.png",
       "gasPriceStep": {
         "low": 1,
         "average": 2,

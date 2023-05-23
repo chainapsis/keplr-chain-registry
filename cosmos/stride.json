@@ -8,7 +8,8 @@
     "coinDenom": "STRD",
     "coinMinimalDenom": "ustrd",
     "coinDecimals": 6,
-    "coinGeckoId": "stride"
+    "coinGeckoId": "stride",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/ustrd.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/stride",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/stride",
@@ -28,7 +29,8 @@
       "coinDenom": "STRD",
       "coinMinimalDenom": "ustrd",
       "coinDecimals": 6,
-      "coinGeckoId": "stride"
+      "coinGeckoId": "stride",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/ustrd.png"
     },
     {
       "coinDenom": "stATOM",
@@ -72,6 +74,7 @@
       "coinMinimalDenom": "ustrd",
       "coinDecimals": 6,
       "coinGeckoId": "stride",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/ustrd.png",
       "gasPriceStep": {
         "low": 0,
         "average": 0,

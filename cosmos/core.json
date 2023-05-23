@@ -8,7 +8,8 @@
     "coinDenom": "XPRT",
     "coinMinimalDenom": "uxprt",
     "coinDecimals": 6,
-    "coinGeckoId": "persistence"
+    "coinGeckoId": "persistence",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/uxprt.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/persistence",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/persistence",
@@ -33,7 +34,8 @@
       "coinDenom": "XPRT",
       "coinMinimalDenom": "uxprt",
       "coinDecimals": 6,
-      "coinGeckoId": "persistence"
+      "coinGeckoId": "persistence",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/uxprt.png"
     },
     {
       "coinDenom": "STKATOM",
@@ -47,6 +49,7 @@
       "coinMinimalDenom": "uxprt",
       "coinDecimals": 6,
       "coinGeckoId": "persistence",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/uxprt.png",
       "gasPriceStep": {
         "low": 0,
         "average": 0.025,

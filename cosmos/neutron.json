@@ -1,9 +1,14 @@
 {
+  "rpc": "https://rpc-neutron.keplr.app",
+  "rest": "https://lcd-neutron.keplr.app",
   "chainId": "neutron-1",
   "chainName": "Neutron",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/chain.png",
-  "rpc": "https://rpc-neutron.keplr.app",
-  "rest": "https://lcd-neutron.keplr.app",
+  "stakeCurrency": {
+    "coinDenom": "STAKE",
+    "coinMinimalDenom": "ustake",
+    "coinDecimals": 6
+  },
   "bip44": {
     "coinType": 118
   },
@@ -20,6 +25,11 @@
       "coinDenom": "NTRN",
       "coinMinimalDenom": "untrn",
       "coinDecimals": 6
+    },
+    {
+      "coinDenom": "STAKE",
+      "coinMinimalDenom": "ustake",
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
@@ -28,14 +38,31 @@
       "coinMinimalDenom": "untrn",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0,
-        "average": 0,
+        "low": 0.01,
+        "average": 0.01,
         "high": 0.01
+      }
+    },
+    {
+      "coinDenom": "ATOM",
+      "coinMinimalDenom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.005,
+        "average": 0.005,
+        "high": 0.005
+      }
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.05,
+        "average": 0.05,
+        "high": 0.05
       }
     }
   ],
-  "stakeCurrency": {},
-  "features": [
-    "cosmwasm"
-  ]
+  "features": ["cosmwasm"]
 }
