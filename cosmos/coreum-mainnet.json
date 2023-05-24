@@ -6,8 +6,8 @@
   "rest": "https://full-node.mainnet-1.coreum.dev:1317",
   "nodeProvider": {
     "name": "Coreum Full Node",
-    "email": "hello@coreum.com",
-    "website":"https://www.coreum.com/"
+    "website":"https://www.coreum.com/",
+    "email": "hello@coreum.com"
   },
   "bip44": {
     "coinType": 990
