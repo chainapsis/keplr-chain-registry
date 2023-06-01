@@ -1,9 +1,14 @@
 {
-  "rpc": "https://nois-rpc.polkachu.com",
+  "rpc": "https://nois-rpc.nysa.network",
   "rest": "https://api.noismain.mcbnode.online",
   "chainId": "nois-1",
   "chainName": "Nois",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nois/chain.png",
+  "nodeProvider": {
+    "name": "nysa.network",
+    "website":"https://nysa.network/",
+    "email": "contact@nysa.network"
+  },
   "stakeCurrency": {
     "coinDenom": "NOIS",
     "coinMinimalDenom": "unois",
