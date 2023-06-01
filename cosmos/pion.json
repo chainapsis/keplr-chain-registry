@@ -1,0 +1,43 @@
+{
+  "rpc": "https://rpc-neutron-testnet.keplr.app",
+  "rest": "https://lcd-neutron-testnet.keplr.app",
+  "chainId": "pion-1",
+  "chainName": "Neutron Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "STAKE",
+    "coinMinimalDenom": "ustake",
+    "coinDecimals": 6
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "neutron",
+    "bech32PrefixAccPub": "neutronpub",
+    "bech32PrefixValAddr": "neutronvaloper",
+    "bech32PrefixValPub": "neutronvaloperpub",
+    "bech32PrefixConsAddr": "neutronvalcons",
+    "bech32PrefixConsPub": "neutronvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "NTRN",
+      "coinMinimalDenom": "untrn",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "NTRN",
+      "coinMinimalDenom": "untrn",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.01,
+        "high": 0.01
+      }
+    }
+  ],
+  "features": []
+}

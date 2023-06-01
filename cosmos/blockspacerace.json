@@ -1,0 +1,35 @@
+{
+  "rpc": "https://rpc.itn.celestia.tools",
+  "rest": "https://api.itn.celestia.tools",
+  "chainId": "blockspacerace-0",
+  "chainName": "Celestia Blockspace Race Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet/images/celestia.svg",
+  "bip44": {
+    "coinType": 118
+  },
+  "stakeCurrency": {
+    "coinDenom": "TIA",
+    "coinMinimalDenom": "utia",
+    "coinDecimals": 6
+  },
+  "currencies": [
+    {
+      "coinDenom": "TIA",
+      "coinMinimalDenom": "utia",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "TIA",
+      "coinMinimalDenom": "utia",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "features": []
+}
