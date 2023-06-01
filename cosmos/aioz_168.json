@@ -1,0 +1,51 @@
+{
+  "chainId": "aioz_168-1",
+  "chainName": "AIOZ Network",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aioz_168/chain.png",
+  "rpc": "https://rpc-dataseed.aioz.network",
+  "rest": "https://lcd-dataseed.aioz.network",
+  "nodeProvider": {
+    "name": "AIOZ Network",
+    "email": "contact@aioz.network",
+    "website":"https://aioz.network"
+  },
+  "stakeCurrency": {
+    "coinDenom": "AIOZ",
+    "coinMinimalDenom": "attoaioz",
+    "coinDecimals": 18,
+    "coinGeckoId": "aioz-network"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "aioz",
+    "bech32PrefixAccPub": "aiozpub",
+    "bech32PrefixValAddr": "aiozvaloper",
+    "bech32PrefixValPub": "aiozvaloperpub",
+    "bech32PrefixConsAddr": "aiozvalcons",
+    "bech32PrefixConsPub": "aiozvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "AIOZ",
+      "coinMinimalDenom": "attoaioz",
+      "coinDecimals": 18,
+      "coinGeckoId": "aioz-network"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "AIOZ",
+      "coinMinimalDenom": "attoaioz",
+      "coinDecimals": 18,
+      "coinGeckoId": "aioz-network",
+      "gasPriceStep": {
+        "low": 1000000000,
+        "average": 1000000000,
+        "high": 1500000000
+      }
+    }
+  ],
+  "features": ["eth-address-gen", "eth-key-sign"]
+}
