@@ -8,6 +8,7 @@
     "coinDenom": "UMEE",
     "coinMinimalDenom": "uumee",
     "coinDecimals": 6,
+    "coinGeckoId": "umee",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/umee/uumee.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/umee",
@@ -28,6 +29,7 @@
       "coinDenom": "UMEE",
       "coinMinimalDenom": "uumee",
       "coinDecimals": 6,
+      "coinGeckoId": "umee",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/umee/uumee.png"
     }
   ],
