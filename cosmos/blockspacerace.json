@@ -2,7 +2,7 @@
   "rpc": "https://rpc-blockspacerace.pops.one",
   "rest": "https://api-blockspacerace.pops.one",
   "chainId": "blockspacerace-0",
-  "chainName": "Celestia Blockspace Race Testnet",
+  "chainName": "Celestia Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet/images/celestia.svg",
   "bip44": {
     "coinType": 118
