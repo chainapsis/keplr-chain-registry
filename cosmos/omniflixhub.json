@@ -9,6 +9,7 @@
     "coinDenom": "FLIX",
     "coinMinimalDenom": "uflix",
     "coinDecimals": 6,
+    "coinGeckoId": "omniflix-network",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub/uflix.png"
   },
   "bip44": {
@@ -27,6 +28,7 @@
       "coinDenom": "FLIX",
       "coinMinimalDenom": "uflix",
       "coinDecimals": 6,
+      "coinGeckoId": "omniflix-network",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub/uflix.png"
     }
   ],
@@ -35,6 +37,7 @@
       "coinDenom": "FLIX",
       "coinMinimalDenom": "uflix",
       "coinDecimals": 6,
+      "coinGeckoId": "omniflix-network",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub/uflix.png",
       "gasPriceStep": {
         "low": 0.001,
