@@ -1,6 +1,11 @@
 {
   "rpc": "https://rpc-axelar-testnet.imperator.co",
   "rest": "https://lcd-axelar-testnet.imperator.co",
+  "nodeProvider": {
+    "name": "Imperator.co",
+    "email": "-",
+    "website": "https://imperator.co"
+  },
   "chainId": "axelar-testnet-lisbon-3",
   "chainName": "Axelar Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/chain.png",

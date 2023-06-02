@@ -1,6 +1,11 @@
 {
   "rpc": "https://rpc.atlantic-2.seinetwork.io",
   "rest": "https://rest.atlantic-2.seinetwork.io",
+  "nodeProvider": {
+    "name": "Sei Network",
+    "email": "-",
+    "website": "https://www.sei.io"
+  },
   "chainId": "atlantic-2",
   "chainName": "Sei Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/neutron-org/chain-registry/master/testnets/seitestnet/images/sei.png",

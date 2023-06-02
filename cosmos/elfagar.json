@@ -1,6 +1,11 @@
 {
   "rpc": "https://rpc.elgafar-1.stargaze-apis.com",
   "rest": "https://rest.elgafar-1.stargaze-apis.com",
+  "nodeProvider": {
+    "name": "Stargaze",
+    "email": "-",
+    "website": "https://www.stargaze.zone"
+  },
   "chainId": "elfagar-1",
   "chainName": "Stargaze Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stargaze/chain.png",

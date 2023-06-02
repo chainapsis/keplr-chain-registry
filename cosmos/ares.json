@@ -1,6 +1,11 @@
 {
   "rpc": "https://testnet-rpc.marsprotocol.io",
   "rest": "https://testnet-rest.marsprotocol.io",
+  "nodeProvider": {
+    "name": "Mars Protocol",
+    "email": "-",
+    "website": "https://marsprotocol.io"
+  },
   "chainId": "ares-1",
   "chainName": "Mars Hub Testnet",
   "stakeCurrency": {

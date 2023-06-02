@@ -1,6 +1,11 @@
 {
-  "rpc": "https://rpc-neutron-testnet.keplr.app",
-  "rest": "https://lcd-neutron-testnet.keplr.app",
+  "rpc": "https://rpc-palvus.pion-1.ntrn.tech",
+  "rest": "https://rest-palvus.pion-1.ntrn.tech",
+  "nodeProvider": {
+    "name": "Neutron",
+    "email": "-",
+    "website": "https://neutron.org"
+  },
   "chainId": "pion-1",
   "chainName": "Neutron Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/chain.png",
