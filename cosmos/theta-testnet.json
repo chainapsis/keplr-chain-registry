@@ -1,11 +1,6 @@
 {
   "rpc": "https://rpc.sentry-01.theta-testnet.polypore.xyz",
   "rest": "https://rest.sentry-01.theta-testnet.polypore.xyz",
-  "nodeProvider": {
-    "name": "Hypha",
-    "email": "-",
-    "website": "https://hypha.coo"
-  },
   "chainId": "theta-testnet-001",
   "chainName": "Cosmos Hub Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/chain.png",

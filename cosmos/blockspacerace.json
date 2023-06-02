@@ -1,11 +1,6 @@
 {
   "rpc": "https://rpc-blockspacerace.pops.one",
   "rest": "https://api-blockspacerace.pops.one",
-  "nodeProvider": {
-    "name": "P-OPs",
-    "email": "-",
-    "website": "https://pops.one"
-  },
   "chainId": "blockspacerace-0",
   "chainName": "Celestia Blockspace Race Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet/images/celestia.svg",
