@@ -7,6 +7,14 @@
   "bip44": {
     "coinType": 118
   },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "celestia",
+    "bech32PrefixAccPub": "celestiapub",
+    "bech32PrefixConsAddr": "celestiavalcons",
+    "bech32PrefixConsPub": "celestiavalconspub",
+    "bech32PrefixValAddr": "celestiavaloper",
+    "bech32PrefixValPub": "celestiavaloperpub"
+  },
   "stakeCurrency": {
     "coinDenom": "TIA",
     "coinMinimalDenom": "utia",
