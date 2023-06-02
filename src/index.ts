@@ -59,7 +59,27 @@ const main = async () => {
 
       return nativeChains.map((s) => s.trim()).includes(chainIdentifier);
     })();
-    if (!isNativeSupported && !chainInfo.nodeProvider) {
+
+    const isTestnetChain = (() => {
+      const testNetChains: string[] = [
+        "ares",
+        "axelar-testnet-lisbon",
+        "atlantic",
+        "blockspacerace",
+        "elfagar",
+        "osmo-test",
+        "pion",
+        "theta-testnet",
+      ];
+
+      const chainIdentifier = ChainIdHelper.parse(chainInfo.chainId).identifier;
+
+      return testNetChains
+        .map((s) => s.trim())
+        .some((s) => s === chainIdentifier);
+    })();
+
+    if (!isNativeSupported && !isTestnetChain && !chainInfo.nodeProvider) {
       throw new Error("Node provider should be provided");
     }
 
