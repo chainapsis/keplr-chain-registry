@@ -1,0 +1,51 @@
+{
+  "rpc": "https://rpc-realio.keplr.app",
+  "rest": "https://lcd-realio.keplr.app",
+  "chainId": "",
+  "chainName": "Realio",
+  "chainSymbolImageUrl": "",
+  "stakeCurrency": {
+    "coinDenom": "RST",
+    "coinMinimalDenom": "urst",
+    "coinDecimals": 6,
+    "coinGeckoId": "",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realio/realio.png"
+  },
+  "walletUrl": "https://wallet.keplr.app/chains/realio",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/realio",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "",
+    "bech32PrefixAccPub": "",
+    "bech32PrefixValAddr": "",
+    "bech32PrefixValPub": "",
+    "bech32PrefixConsAddr": "",
+    "bech32PrefixConsPub": ""
+  },
+  "currencies": [
+    {
+      "coinDenom": "RST",
+      "coinMinimalDenom": "urst",
+      "coinDecimals": 6,
+      "coinGeckoId": "realio-network",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realio/urealio.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "RST",
+      "coinMinimalDenom": "urealio",
+      "coinDecimals": 6,
+      "coinGeckoId": "realio-network",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realio/urealio.png",
+      "gasPriceStep": {
+        "low": 0.0025,
+        "average": 0.0025,
+        "high": 0.004
+      }
+    }
+  ],
+  "features": []
+}
