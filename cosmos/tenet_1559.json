@@ -13,7 +13,7 @@
     "coinDenom": "TENET",
     "coinMinimalDenom": "atenet",
     "coinDecimals": 18,
-    "coinGeckoId": "tenet",
+    "coinGeckoId": "tenet-1b000f7b-59cb-4e06-89ce-d62b32d362b9",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tenet_1559/tenet.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/tenet",
@@ -34,7 +34,7 @@
       "coinDenom": "TENET",
       "coinMinimalDenom": "atenet",
       "coinDecimals": 18,
-      "coinGeckoId": "tenet",
+      "coinGeckoId": "tenet-1b000f7b-59cb-4e06-89ce-d62b32d362b9",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tenet_1559/tenet.png"
     }
   ],
@@ -43,7 +43,7 @@
       "coinDenom": "TENET",
       "coinMinimalDenom": "atenet",
       "coinDecimals": 18,
-      "coinGeckoId": "tenet",
+      "coinGeckoId": "tenet-1b000f7b-59cb-4e06-89ce-d62b32d362b9",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tenet_1559/tenet.png",
       "gasPriceStep": {
         "low": 20000000000,
