@@ -14,6 +14,11 @@
   "bip44": {
     "coinType": 330
   },
+  "alternativeBIP44s": [
+    {
+      "coinType": 118
+    }
+  ],
   "bech32Config": {
     "bech32PrefixAccAddr": "terra",
     "bech32PrefixAccPub": "terrapub",
@@ -62,7 +67,5 @@
       }
     }
   ],
-  "features": [
-    "terra-classic-fee"
-  ]
+  "features": ["terra-classic-fee"]
 }
