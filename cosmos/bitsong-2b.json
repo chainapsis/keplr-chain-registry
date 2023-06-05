@@ -8,7 +8,7 @@
   },
   "chainId": "bitsong-2b",
   "chainName": "BitSong",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitsong/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitsong-2b/image.png",
   "stakeCurrency": {
     "coinDenom": "BTSG",
     "coinMinimalDenom": "ubtsg",
