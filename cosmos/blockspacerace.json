@@ -3,7 +3,7 @@
   "rest": "https://api-blockspacerace.pops.one",
   "chainId": "blockspacerace-0",
   "chainName": "Celestia Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet/images/celestia.svg",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mocha/chain.png",
   "bip44": {
     "coinType": 118
   },
