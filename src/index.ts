@@ -70,6 +70,7 @@ const main = async () => {
         "osmo-test",
         "pion",
         "theta-testnet",
+        "mocha",
       ];
 
       const chainIdentifier = ChainIdHelper.parse(chainInfo.chainId).identifier;
