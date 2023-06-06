@@ -39,7 +39,12 @@
       "coinMinimalDenom": "ustars",
       "coinDecimals": 6,
       "coinGeckoId": "stargaze",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stargaze/ustars.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stargaze/ustars.png",
+      "gasPriceStep": {
+        "low": 1,
+        "average": 1.1,
+        "high": 1.2
+      }
     }
   ],
   "features": []
