@@ -1,49 +1,60 @@
 {
   "rpc": "https://rpc-realio.keplr.app",
   "rest": "https://lcd-realio.keplr.app",
-  "chainId": "",
+  "chainId": "realionetwork_3301-1",
   "chainName": "Realio",
-  "chainSymbolImageUrl": "",
-  "stakeCurrency": {
-    "coinDenom": "RST",
-    "coinMinimalDenom": "urst",
-    "coinDecimals": 6,
-    "coinGeckoId": "",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realio/realio.png"
-  },
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/realio/images/rio.png",
+  "stakeCurrency": [
+    {
+      "coinDenom": "RST",
+      "coinMinimalDenom": "arst",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realio/rst.png"
+    },
+    {
+      "coinDenom": "RIO",
+      "coinMinimalDenom": "ario",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realio/rio.png"
+    }
+  ],
   "walletUrl": "https://wallet.keplr.app/chains/realio",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/realio",
   "bip44": {
-    "coinType": 118
+    "coinType": 60
   },
   "bech32Config": {
-    "bech32PrefixAccAddr": "",
-    "bech32PrefixAccPub": "",
-    "bech32PrefixValAddr": "",
-    "bech32PrefixValPub": "",
-    "bech32PrefixConsAddr": "",
-    "bech32PrefixConsPub": ""
+    "bech32PrefixAccAddr": "realio",
+    "bech32PrefixAccPub": "realiopub",
+    "bech32PrefixValAddr": "realiovaloper",
+    "bech32PrefixValPub": "realiovaloperpub",
+    "bech32PrefixConsAddr": "realiovalcons",
+    "bech32PrefixConsPub": "realiovalconspub"
   },
   "currencies": [
     {
       "coinDenom": "RST",
-      "coinMinimalDenom": "urst",
-      "coinDecimals": 6,
-      "coinGeckoId": "realio-network",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realio/urealio.png"
+      "coinMinimalDenom": "arst",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realio/rst.png"
+    },
+    {
+      "coinDenom": "RIO",
+      "coinMinimalDenom": "ario",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realio/rio.png"
     }
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "RST",
-      "coinMinimalDenom": "urealio",
-      "coinDecimals": 6,
-      "coinGeckoId": "realio-network",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realio/urealio.png",
+      "coinDenom": "RIO",
+      "coinMinimalDenom": "ario",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realio/rio.png",
       "gasPriceStep": {
-        "low": 0.0025,
-        "average": 0.0025,
-        "high": 0.004
+        "low": 4000000000,
+        "average": 5000000000,
+        "high": 8000000000
       }
     }
   ],
