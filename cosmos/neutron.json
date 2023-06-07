@@ -24,7 +24,8 @@
     {
       "coinDenom": "NTRN",
       "coinMinimalDenom": "untrn",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/untrn.png"
     },
     {
       "coinDenom": "STAKE",
