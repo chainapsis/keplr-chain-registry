@@ -54,6 +54,7 @@ const main = async () => {
         "kyve",
         "neutron",
         "gitopia",
+        "likecoin-mainnet",
       ];
       const chainIdentifier = ChainIdHelper.parse(chainInfo.chainId).identifier;
 
