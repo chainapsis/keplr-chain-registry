@@ -33,9 +33,9 @@
       "coinMinimalDenom": "usei",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 3.5,
-        "average": 10,
-        "high": 20
+        "low": 0.01,
+        "average": 0.05,
+        "high": 0.1
       }
     }
   ]
