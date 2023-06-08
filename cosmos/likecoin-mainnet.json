@@ -4,7 +4,8 @@
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/likecoin-mainnet/chain.png",
   "rpc": "https://rpc-likecoin.keplr.app",
   "rest": "https://lcd-likecoin.keplr.app",
-  "walletUrlForStaking": "https://dao.like.co/validators/",
+  "walletUrl": "https://wallet.keplr.app/chains/likecoin",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/likecoin",
   "bip44": {
     "coinType": 118
   },
