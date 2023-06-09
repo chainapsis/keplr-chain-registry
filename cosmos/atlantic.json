@@ -1,6 +1,6 @@
 {
-  "rpc": "https://rpc.atlantic-2.seinetwork.io",
-  "rest": "https://rest.atlantic-2.seinetwork.io",
+  "rpc": "https://rpc.wallet.atlantic-2.sei.io",
+  "rest": "https://rest.wallet.atlantic-2.sei.io",
   "chainId": "atlantic-2",
   "chainName": "Sei Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/neutron-org/chain-registry/master/testnets/seitestnet/images/sei.png",
@@ -31,7 +31,12 @@
     {
       "coinDenom": "SEI",
       "coinMinimalDenom": "usei",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.02,
+        "high": 0.03
+      }
     }
   ]
 }
