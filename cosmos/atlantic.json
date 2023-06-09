@@ -34,7 +34,7 @@
       "coinDecimals": 6,
       "gasPriceStep": {
         "low": 0.01,
-        "average": 0.02,
+        "average": 0.015,
         "high": 0.03
       }
     }
