@@ -8,7 +8,7 @@
   },  
   "chainId": "bluzelle-testnet-9",
   "chainName": "Bluzelle Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bluzelle-test/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bluzelle-testnet/chain.png",
   "stakeCurrency": {
       "coinDenom": "BNT",
       "coinMinimalDenom": "ubnt",
