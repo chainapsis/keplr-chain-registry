@@ -12,8 +12,7 @@
   "stakeCurrency": {
       "coinDenom": "BNT",
       "coinMinimalDenom": "ubnt",
-      "coinDecimals": 6,
-      "coinGeckoId": "bluzelle"
+      "coinDecimals": 6
   },
   "walletUrl": "https://a.ping.explorer.neerajnet.bluzelle.com/bluzelle",
   "walletUrlForStaking": "https://a.ping.explorer.neerajnet.bluzelle.com/bluzelle/staking",
@@ -32,28 +31,24 @@
     {
     "coinDenom": "BLZ",
     "coinMinimalDenom": "ubnt",
-    "coinDecimals": 6,
-    "coinGeckoId": "unknown"
+    "coinDecimals": 6
     },
     {
     "coinDenom": "ELT",
     "coinMinimalDenom": "uelt",
-    "coinDecimals": 6,
-    "coinGeckoId": "unknown"
+    "coinDecimals": 6
     },
     {
     "coinDenom": "G4",
     "coinMinimalDenom": "ug4",
-    "coinDecimals": 6,
-    "coinGeckoId": "unknown"
+    "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
     {
     "coinDenom": "BNT",
     "coinMinimalDenom": "ubnt",
-    "coinDecimals": 6,
-    "coinGeckoId": "bluzelle"
+    "coinDecimals": 6
     }
   ],
   "features": []
