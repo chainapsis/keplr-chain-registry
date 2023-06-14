@@ -22,13 +22,13 @@
   },
   "currencies": [
     {
-      "coinDenom": "STAKE",
-      "coinMinimalDenom": "ustake",
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "uusdc",
       "coinDecimals": 6
     },
     {
-      "coinDenom": "USDC",
-      "coinMinimalDenom": "uusdc",
+      "coinDenom": "STAKE",
+      "coinMinimalDenom": "ustake",
       "coinDecimals": 6
     },
     {
