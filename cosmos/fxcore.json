@@ -9,6 +9,11 @@
   "bip44": {
     "coinType": 60
   },
+  "nodeProvider": {
+    "name": "fxCore Network",
+    "email": "contact@functionx.io",
+    "website":"https://functionx.io"
+  },
   "bech32Config": {
     "bech32PrefixAccAddr": "fx",
     "bech32PrefixAccPub": "fxpub",
