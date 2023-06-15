@@ -1,0 +1,53 @@
+{
+  "rpc": "http://a.lcd.ununifi.cauchye.net:26657",
+  "rest": "https://a.lcd.ununifi.cauchye.net:1318",
+  "chainId": "ununifi-beta-1",
+  "chainName": "UnUniFi",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ununifi/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "GUU",
+    "coinMinimalDenom": "uguu",
+    "coinDecimals": 6,
+    "coinGeckoId": "ununifi",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ununifi/uguu.png"
+  },
+  "walletUrl": "https://ununifi.io/portal",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/ununifi",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "ununifi",
+    "bech32PrefixAccPub": "ununifipub",
+    "bech32PrefixValAddr": "ununifivaloper",
+    "bech32PrefixValPub": "ununifivaloperpub",
+    "bech32PrefixConsAddr": "ununifivalcons",
+    "bech32PrefixConsPub": "ununifivalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "GUU",
+      "coinMinimalDenom": "uguu",
+      "coinDecimals": 6,
+      "coinGeckoId": "ununifi",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ununifi/uguu.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "GUU",
+      "coinMinimalDenom": "uguu",
+      "coinDecimals": 6,
+      "coinGeckoId": "ununifi",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ununifi/uguu.png",
+      "gasPriceStep": {
+        "low": 0.0025,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "features": [
+    "cosmwasm"
+  ]
+}
