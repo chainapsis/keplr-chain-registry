@@ -140,6 +140,42 @@
       "coinMinimalDenom": "dot-planck",
       "coinDecimals": 10,
       "coinGeckoId": "polkadot"
+    },
+    {
+      "coinDenom": "WBNB",
+      "coinMinimalDenom": "wbnb-wei",
+      "coinDecimals": 18
+    },
+    {
+      "coinDenom": "WAVAX",
+      "coinMinimalDenom": "wavax-wei",
+      "coinDecimals": 18
+    },
+    {
+      "coinDenom": "WFTM",
+      "coinMinimalDenom": "wftm-wei",
+      "coinDecimals": 18
+    },
+    {
+      "coinDenom": "rETH",
+      "coinMinimalDenom": "reth-wei",
+      "coinDecimals": 18
+    },
+    {
+      "coinDenom": "wstETH",
+      "coinMinimalDenom": "wsteth-wei",
+      "coinDecimals": 18
+    },
+    {
+      "coinDenom": "PolygonUSDC",
+      "coinMinimalDenom": "polygon-uusdc",
+      "coinDecimals": 6
+    },
+
+    {
+      "coinDenom": "AvalancheUSDC",
+      "coinMinimalDenom": "avalanche-uusdc",
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
