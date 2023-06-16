@@ -1,6 +1,6 @@
 {
     "chainId": "gotabit-test-1",
-    "chainName": "gotabit testnet",
+    "chainName": "Gotabit Testnet",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gotabit_test/chain.png",
     "rpc": "https://rpc-testnet-1.gotabit.dev:443",
     "rest": "https://api-testnet-1.gotabit.dev:443",
