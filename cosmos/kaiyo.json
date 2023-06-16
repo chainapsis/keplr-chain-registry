@@ -1,0 +1,52 @@
+{
+  "chainId": "kaiyo-1",
+  "chainName": "Kujira",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/chain.png",
+  "rpc": "https://kujira-rpc.nodes.defiantlabs.net",
+  "rest": "https://rest.cosmos.directory/kujira/",
+  "nodeProvider": {
+    "name": "PFC",
+    "email": "pfc-validator@protonmail.com",
+    "website": "https://pfc.zone/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "kujira",
+    "bech32PrefixAccPub": "kujirapub",
+    "bech32PrefixValAddr": "kujiravaloper",
+    "bech32PrefixValPub": "kujiravaloperpub",
+    "bech32PrefixConsAddr": "kujiravalcons",
+    "bech32PrefixConsPub": "kujiravalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "KUJI",
+      "coinMinimalDenom": "ukuji",
+      "coinDecimals": 6,
+      "coinGeckoId": "kujira"
+    },
+    {
+      "coinDenom": "USK",
+      "coinMinimalDenom": "factory/kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7/uusk",
+      "coinDecimals": 6,
+      "coinGeckoId": "usk"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "KUJI",
+      "coinMinimalDenom": "ukuji",
+      "coinDecimals": 6,
+      "coinGeckoId": "kujira"
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "KUJI",
+    "coinMinimalDenom": "ukuji",
+    "coinDecimals": 6,
+    "coinGeckoId": "kujira"
+  },
+  "features": ["cosmwasm"]
+}
