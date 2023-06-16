@@ -1,9 +1,9 @@
 {
-    "chainId": "gotabit-dev-1",
-    "chainName": "gotabit-dev",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gotabit-dev/chain.png",
-    "rpc": "https://rpc-devnet.gotabit.dev:443",
-    "rest": "https://api-devnet.gotabit.dev:443",
+    "chainId": "gotabit-test-1",
+    "chainName": "gotabit testnet",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gotabit-test/chain.png",
+    "rpc": "https://rpc-testnet-1.gotabit.dev:443",
+    "rest": "https://api-testnet-1.gotabit.dev:443",
     "nodeProvider": {
         "name": "Gotabit team",
         "website": "https://gotabit.io"
@@ -11,6 +11,7 @@
     "bip44": {
         "coinType": 118
     },
+    "coinType": "118",
     "bech32Config": {
         "bech32PrefixAccAddr": "gio",
         "bech32PrefixAccPub": "giopub",
@@ -24,7 +25,7 @@
             "coinDenom": "GTB",
             "coinMinimalDenom": "ugtb",
             "coinDecimals": 6,
-            "coinGeckoId": "gio"
+            "coinGeckoId": "unknown"
         }
     ],
     "feeCurrencies": [
@@ -32,11 +33,11 @@
             "coinDenom": "GTB",
             "coinMinimalDenom": "ugtb",
             "coinDecimals": 6,
-            "coinGeckoId": "gio",
+            "coinGeckoId": "unknown",
             "gasPriceStep": {
                 "low": 0.01,
-                "average": 0.03,
-                "high": 0.05
+                "average": 0.025,
+                "high": 0.03
             }
         }
     ],
@@ -44,7 +45,7 @@
         "coinDenom": "GTB",
         "coinMinimalDenom": "ugtb",
         "coinDecimals": 6,
-        "coinGeckoId": "gio"
+        "coinGeckoId": "unknown"
     },
     "features": [
         "cosmwasm"
