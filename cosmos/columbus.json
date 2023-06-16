@@ -40,6 +40,11 @@
       "coinMinimalDenom": "uusd",
       "coinDecimals": 6,
       "coinGeckoId": "terrausd"
+    },
+    {
+      "coinDenom": "KRT",
+      "coinMinimalDenom": "ukrw",
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [

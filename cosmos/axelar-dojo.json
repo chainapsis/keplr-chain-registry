@@ -140,6 +140,54 @@
       "coinMinimalDenom": "dot-planck",
       "coinDecimals": 10,
       "coinGeckoId": "polkadot"
+    },
+    {
+      "coinDenom": "WBNB",
+      "coinMinimalDenom": "wbnb-wei",
+      "coinDecimals": 18,
+      "coinGeckoId": "wbnb"
+    },
+    {
+      "coinDenom": "WAVAX",
+      "coinMinimalDenom": "wavax-wei",
+      "coinDecimals": 18,
+      "coinGeckoId": "wrapped-avax"
+    },
+    {
+      "coinDenom": "WFTM",
+      "coinMinimalDenom": "wftm-wei",
+      "coinDecimals": 18,
+      "coinGeckoId": "wrapped-fantom"
+    },
+    {
+      "coinDenom": "rETH",
+      "coinMinimalDenom": "reth-wei",
+      "coinDecimals": 18,
+      "coinGeckoId": "rocket-pool-eth"
+    },
+    {
+      "coinDenom": "wstETH",
+      "coinMinimalDenom": "wsteth-wei",
+      "coinDecimals": 18,
+      "coinGeckoId": "wrapped-steth"
+    },
+    {
+      "coinDenom": "PolygonUSDC",
+      "coinMinimalDenom": "polygon-uusdc",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin"
+    },
+    {
+      "coinDenom": "AvalancheUSDC",
+      "coinMinimalDenom": "avalanche-uusdc",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin"
+    },
+    {
+      "coinDenom": "WMATIC",
+      "coinMinimalDenom": "wmatic-wei",
+      "coinDecimals": 18,
+      "coinGeckoId": "wmatic"
     }
   ],
   "feeCurrencies": [
@@ -156,7 +204,5 @@
       }
     }
   ],
-  "features": [
-    "axelar-evm-bridge"
-  ]
+  "features": ["axelar-evm-bridge"]
 }

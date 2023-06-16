@@ -1,14 +1,14 @@
 {
-  "rpc": "http://icplazarpc.ic-plaza.org",
-  "rest": "http://icplazarest.ic-plaza.org",
-  "chainId": "icplaza_9000-1",
+  "rpc": "https://cosrpc.icplaza.pro",
+  "rest": "https://node92.icplaza.pro",
+  "chainId": "icplaza_13141619-1",
   "chainName": "ICPlaza",
   "nodeProvider": {
     "name": "ICPlaza Node",
     "email": "0xf48892@gmail.com",
-    "website":"https://www.ic-plaza.org/"
+    "website":"https://www.icplaza.pro/"
   },
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/icplaza_9000/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/icplaza_13141619/chain.png",
   "stakeCurrency": {
     "coinDenom": "ICT",
     "coinMinimalDenom": "uict",
