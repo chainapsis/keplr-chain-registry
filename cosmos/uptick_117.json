@@ -5,15 +5,19 @@
 	"rest": "https://rest.uptick.network",
 	"chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/uptick_117/chain.png",
 	 "nodeProvider": {
-	    "name": "fei",
-	    "email": "fei228320@gmail.com",
-	    "website":"https://evm-explorer.uptick.network/"
+	    "name": "xian",
+	    "email": "xyyz1207@163.com",
+	    "website":"https://explorer.uptick.network/"
 	  },
 	"stakeCurrency": {
 		"coinDenom": "UPTICK",
 		"coinMinimalDenom": "auptick",
-		"coinDecimals": 18
+		"coinDecimals": 18,
+		"coinGeckoId": "uptick",
+		"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/uptick_117/auptick.png"
 	},
+	"walletUrl": "https://wallet.keplr.app/chains/uptick",
+	"walletUrlForStaking": "https://wallet.keplr.app/chains/uptick",
 	"bip44": {
 		"coinType": 60
 	},
@@ -28,16 +32,20 @@
 	"currencies": [{
 		"coinDenom": "UPTICK",
 		"coinMinimalDenom": "auptick",
-		"coinDecimals": 18
+		"coinDecimals": 18,
+		"coinGeckoId": "uptick",
+		"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/uptick_117/auptick.png"
 	}],
 	"feeCurrencies": [{
 		"coinDenom": "UPTICK",
 		"coinMinimalDenom": "auptick",
 		"coinDecimals": 18,
+		"coinGeckoId": "uptick",
+		"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/uptick_117/auptick.png"
 		"gasPriceStep": {
-			"low": 10000000000,
-			"average": 20000000000,
-			"high": 40000000000
+			"low": 40000000000,
+			"average": 80000000000,
+			"high": 120000000000
 		}
 	}],
 	"coinType": 60,
