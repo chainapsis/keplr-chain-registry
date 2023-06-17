@@ -43,9 +43,9 @@
 		"coinGeckoId": "uptick",
 		"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/uptick_117/auptick.png"
 		"gasPriceStep": {
-			"low": 40000000000,
-			"average": 80000000000,
-			"high": 120000000000
+			"low": 80000000000,
+			"average": 130000000000,
+			"high": 150000000000
 		}
 	}],
 	"coinType": 60,
