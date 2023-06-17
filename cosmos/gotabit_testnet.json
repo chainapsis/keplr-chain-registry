@@ -1,9 +1,9 @@
 {
     "chainId": "gotabit-test-1",
-    "chainName": "Gotabit Testnet",
+    "chainName": "GotaBit-test",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gotabit_test/chain.png",
-    "rpc": "https://rpc-testnet-1.gotabit.dev:443",
-    "rest": "https://api-testnet-1.gotabit.dev:443",
+    "rpc": "https://rpc-testnet.gotabit.dev:443",
+    "rest": "'https://rest-testnet.gotabit.dev:443",
     "nodeProvider": {
         "name": "Gotabit team",
         "website": "https://gotabit.io",
@@ -24,7 +24,8 @@
         {
             "coinDenom": "GTB",
             "coinMinimalDenom": "ugtb",
-            "coinDecimals": 6
+            "coinDecimals": 6,
+            "coinGeckoId": "gotabit"
         }
     ],
     "feeCurrencies": [
@@ -32,6 +33,7 @@
             "coinDenom": "GTB",
             "coinMinimalDenom": "ugtb",
             "coinDecimals": 6,
+            "coinGeckoId": "gotabit",
             "gasPriceStep": {
                 "low": 0.01,
                 "average": 0.025,
@@ -42,7 +44,8 @@
     "stakeCurrency": {
         "coinDenom": "GTB",
         "coinMinimalDenom": "ugtb",
-        "coinDecimals": 6
+        "coinDecimals": 6,
+        "coinGeckoId": "gotabit"
     },
     "features": [
         "cosmwasm"
