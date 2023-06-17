@@ -39,14 +39,18 @@
           "low": 0.001,
           "average": 0.0025,
           "high": 0.004
-        }
+        },
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xstaxy/uaura.png"
+      
       }
     ],
     "stakeCurrency": {
       "coinDenom": "AURA",
       "coinMinimalDenom": "uaura",
       "coinDecimals": 6,
-      "coinGeckoId": "aura-network"
+      "coinGeckoId": "aura-network",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xstaxy/uaura.png"
+    
     },
     "features": [
       "cosmwasm"
