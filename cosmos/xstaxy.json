@@ -25,7 +25,8 @@
         "coinDenom": "AURA",
         "coinMinimalDenom": "uaura",
         "coinDecimals": 6,
-        "coinGeckoId": "aura-network"
+        "coinGeckoId": "aura-network",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xstaxy/uaura.png"
       }
     ],
     "feeCurrencies": [
