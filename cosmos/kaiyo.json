@@ -98,13 +98,13 @@
     {
       "coinDenom": "wAVAX",
       "coinMinimalDenom": "ibc/004EBF085BBED1029326D56BE8A2E67C08CECE670A94AC1947DF413EF5130EB2",
-      "coinDecimals": 6,
+      "coinDecimals": 18,
       "coinGeckoId": "avalanche-2"
     },
     {
       "coinDenom": "wETH",
       "coinMinimalDenom": "ibc/1B38805B1C75352B28169284F96DF56BDEBD9E8FAC005BDCC8CF0378C82AA8E7",
-      "coinDecimals": 6,
+      "coinDecimals": 18,
       "coinGeckoId": "ethereum"
     }
   ],
