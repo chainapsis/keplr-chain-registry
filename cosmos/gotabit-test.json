@@ -1,7 +1,7 @@
 {
     "chainId": "gotabit-test-1",
     "chainName": "GotaBit-test",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gotabit_test/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gotabit-test/chain.png",
     "rpc": "https://rpc-testnet.gotabit.dev:443",
     "rest": "https://rest-testnet.gotabit.dev:443",
     "nodeProvider": {
