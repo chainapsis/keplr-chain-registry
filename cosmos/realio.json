@@ -1,6 +1,6 @@
 {
-  "rpc": "https://rpc-realio.keplr.app",
-  "rest": "https://lcd-realio.keplr.app",
+  "rpc": "https://realio-rpc.genznodes.dev",
+  "rest": "https://realio-api.genznodes.dev",
   "chainId": "realionetwork_3301-1",
   "chainName": "Realio",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/realio/images/rio.png",
