@@ -24,8 +24,7 @@
         {
             "coinDenom": "GTB",
             "coinMinimalDenom": "ugtb",
-            "coinDecimals": 6,
-            "coinGeckoId": "gotabit"
+            "coinDecimals": 6
         }
     ],
     "feeCurrencies": [
@@ -33,7 +32,6 @@
             "coinDenom": "GTB",
             "coinMinimalDenom": "ugtb",
             "coinDecimals": 6,
-            "coinGeckoId": "gotabit",
             "gasPriceStep": {
                 "low": 0.01,
                 "average": 0.025,
@@ -44,8 +42,7 @@
     "stakeCurrency": {
         "coinDenom": "GTB",
         "coinMinimalDenom": "ugtb",
-        "coinDecimals": 6,
-        "coinGeckoId": "gotabit"
+        "coinDecimals": 6
     },
     "features": [
         "cosmwasm"
