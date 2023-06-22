@@ -1,8 +1,8 @@
 {
-  "rpc": "https://api-lb.athens2.zetachain.com:26657/",
-  "rest": "https://api.athens2.zetachain.com/",
+  "rpc": "https://zetachain-athens.blockpi.network/rpc/v1/public",
+  "rest": "https://zetachain-athens.blockpi.network/lcd/v1/public",
   "chainId": "athens_7001-1",
-  "chainName": "ZetaChain Testnet",
+  "chainName": "ZetaChain Athens 3 Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/athens_7001/chain.png",
   "stakeCurrency": {
     "coinDenom": "ZETA",
