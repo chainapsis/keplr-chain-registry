@@ -2,8 +2,8 @@
    "chainId":"migaloo-1",
    "chainName":"Migaloo",
    "chainSymbolImageUrl":"https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/chain.png",
-   "rpc":"https://migaloo.rpc.silknodes.io/",
-   "rest":"https://migaloo.api.silknodes.io/",
+   "rpc":"https://rpc-whitewhale-ia.cosmosia.notional.ventures/",
+   "rest":"https://api-whitewhale-ia.cosmosia.notional.ventures/",
    "nodeProvider":{
       "name":"Silk Nodes",
       "email":"info@silknodes.io",

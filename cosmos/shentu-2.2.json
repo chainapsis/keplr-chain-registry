@@ -8,7 +8,8 @@
     "coinDenom": "CTK",
     "coinMinimalDenom": "uctk",
     "coinDecimals": 6,
-    "coinGeckoId": "certik"
+    "coinGeckoId": "certik",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shentu-2.2/uctk.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/shentu",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/shentu",
@@ -28,7 +29,8 @@
       "coinDenom": "CTK",
       "coinMinimalDenom": "uctk",
       "coinDecimals": 6,
-      "coinGeckoId": "certik"
+      "coinGeckoId": "certik",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shentu-2.2/uctk.png"
     }
   ],
   "feeCurrencies": [
@@ -36,7 +38,8 @@
       "coinDenom": "CTK",
       "coinMinimalDenom": "uctk",
       "coinDecimals": 6,
-      "coinGeckoId": "certik"
+      "coinGeckoId": "certik",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shentu-2.2/uctk.png"
     }
   ],
   "features": []

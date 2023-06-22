@@ -1,8 +1,8 @@
 name: Pull Request Validation
 on:
   pull_request:
-    types: [ opened, synchronize ]
-    branches: [ main ]
+    types: [opened, synchronize]
+    branches: [main]
 
 jobs:
   validation:
@@ -18,7 +18,7 @@ jobs:
       - name: Setup nodejs
         uses: actions/setup-node@v3
         with:
-          node-version: "16"
+          node-version: "18"
 
       - run: npm install --global yarn
       - run: yarn install --frozen-lockfile

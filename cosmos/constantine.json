@@ -10,38 +10,38 @@
   "bip44": {
     "coinType": 118
   },
-  "chainId": "constantine-2",
-  "chainName": "Constantine (Testnet)",
+  "chainId": "constantine-3",
+  "chainName": "Archway (Testnet)",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/constantine/chain.png",
   "currencies": [
     {
-      "coinDecimals": 6,
+      "coinDecimals": 18,
       "coinDenom": "CONST",
       "coinGeckoId": "constantine-network",
-      "coinMinimalDenom": "uconst"
+      "coinMinimalDenom": "aconst"
     }
   ],
   "features": ["cosmwasm"],
   "feeCurrencies": [
     {
-      "coinDecimals": 6,
+      "coinDecimals": 18,
       "coinDenom": "CONST",
       "coinGeckoId": "constantine-network",
-      "coinMinimalDenom": "uconst",
+      "coinMinimalDenom": "aconst",
       "gasPriceStep": {
-        "average": 0.0025,
-        "high": 0.0041,
-        "low": 0.001
+        "low": 1000000000000,
+        "average": 1500000000000,
+        "high": 2000000000000
       }
     }
   ],
-  "rest": "https://api.constantine-2.archway.tech",
-  "rpc": "https://rpc.constantine-2.archway.tech",
+  "rest": "https://api.constantine.archway.tech",
+  "rpc": "https://rpc.constantine.archway.tech",
   "stakeCurrency": {
-    "coinDecimals": 6,
+    "coinDecimals": 18,
     "coinDenom": "CONST",
     "coinGeckoId": "constantine-network",
-    "coinMinimalDenom": "uconst"
+    "coinMinimalDenom": "aconst"
   },
   "nodeProvider": {
     "name": "Phi Labs",

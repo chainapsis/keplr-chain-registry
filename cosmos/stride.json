@@ -8,7 +8,8 @@
     "coinDenom": "STRD",
     "coinMinimalDenom": "ustrd",
     "coinDecimals": 6,
-    "coinGeckoId": "stride"
+    "coinGeckoId": "stride",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/ustrd.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/stride",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/stride",
@@ -28,42 +29,67 @@
       "coinDenom": "STRD",
       "coinMinimalDenom": "ustrd",
       "coinDecimals": 6,
-      "coinGeckoId": "stride"
+      "coinGeckoId": "stride",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/ustrd.png"
     },
     {
       "coinDenom": "stATOM",
       "coinMinimalDenom": "stuatom",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinGeckoId": "stride-staked-atom",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stuatom.png"
     },
     {
       "coinDenom": "stOSMO",
       "coinMinimalDenom": "stuosmo",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinGeckoId": "stride-staked-osmo",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stuosmo.png"
     },
     {
       "coinDenom": "stJUNO",
       "coinMinimalDenom": "stujuno",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinGeckoId": "stride-staked-juno",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stujuno.png"
     },
     {
       "coinDenom": "stSTARS",
       "coinMinimalDenom": "stustars",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinGeckoId": "stride-staked-stars",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stustars.png"
     },
     {
       "coinDenom": "stEVMOS",
       "coinMinimalDenom": "staevmos",
-      "coinDecimals": 18
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/staevmos.png"
     },
     {
       "coinDenom": "stLUNA",
       "coinMinimalDenom": "stuluna",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinGeckoId": "stride-staked-luna",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stuluna.png"
     },
     {
       "coinDenom": "stINJ",
       "coinMinimalDenom": "stinj",
-      "coinDecimals": 18
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stinj.png"
+    },
+    {
+      "coinDenom": "stUMEE",
+      "coinMinimalDenom": "stuumee",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stuumee.png"
+    },
+    {
+      "coinDenom": "stCMDX",
+      "coinMinimalDenom": "stucmdx",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stucmdx.png"
     }
   ],
   "feeCurrencies": [
@@ -72,6 +98,7 @@
       "coinMinimalDenom": "ustrd",
       "coinDecimals": 6,
       "coinGeckoId": "stride",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/ustrd.png",
       "gasPriceStep": {
         "low": 0,
         "average": 0,

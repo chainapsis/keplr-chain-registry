@@ -8,7 +8,8 @@
     "coinDenom": "ROWAN",
     "coinMinimalDenom": "rowan",
     "coinDecimals": 18,
-    "coinGeckoId": "sifchain"
+    "coinGeckoId": "sifchain",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sifchain/rowan.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/sifchain",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/sifchain",
@@ -28,7 +29,8 @@
       "coinDenom": "ROWAN",
       "coinMinimalDenom": "rowan",
       "coinDecimals": 18,
-      "coinGeckoId": "sifchain"
+      "coinGeckoId": "sifchain",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sifchain/rowan.png"
     },
     {
       "coinDenom": "Tether USDT",
@@ -457,6 +459,7 @@
       "coinMinimalDenom": "rowan",
       "coinDecimals": 18,
       "coinGeckoId": "sifchain",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sifchain/rowan.png",
       "gasPriceStep": {
         "low": 1000000000000,
         "average": 1500000000000,

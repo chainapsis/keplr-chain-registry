@@ -8,7 +8,8 @@
     "coinDenom": "AXL",
     "coinMinimalDenom": "uaxl",
     "coinDecimals": 6,
-    "coinGeckoId": "axelar"
+    "coinGeckoId": "axelar",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/uaxl.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/axelar",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/axelar",
@@ -28,7 +29,8 @@
       "coinDenom": "AXL",
       "coinMinimalDenom": "uaxl",
       "coinDecimals": 6,
-      "coinGeckoId": "axelar"
+      "coinGeckoId": "axelar",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/uaxl.png"
     },
     {
       "coinDenom": "ETH",
@@ -40,7 +42,8 @@
       "coinDenom": "USDC",
       "coinMinimalDenom": "uusdc",
       "coinDecimals": 6,
-      "coinGeckoId": "usd-coin"
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/uusdc.png"
     },
     {
       "coinDenom": "FRAX",
@@ -137,6 +140,54 @@
       "coinMinimalDenom": "dot-planck",
       "coinDecimals": 10,
       "coinGeckoId": "polkadot"
+    },
+    {
+      "coinDenom": "WBNB",
+      "coinMinimalDenom": "wbnb-wei",
+      "coinDecimals": 18,
+      "coinGeckoId": "wbnb"
+    },
+    {
+      "coinDenom": "WAVAX",
+      "coinMinimalDenom": "wavax-wei",
+      "coinDecimals": 18,
+      "coinGeckoId": "wrapped-avax"
+    },
+    {
+      "coinDenom": "WFTM",
+      "coinMinimalDenom": "wftm-wei",
+      "coinDecimals": 18,
+      "coinGeckoId": "wrapped-fantom"
+    },
+    {
+      "coinDenom": "rETH",
+      "coinMinimalDenom": "reth-wei",
+      "coinDecimals": 18,
+      "coinGeckoId": "rocket-pool-eth"
+    },
+    {
+      "coinDenom": "wstETH",
+      "coinMinimalDenom": "wsteth-wei",
+      "coinDecimals": 18,
+      "coinGeckoId": "wrapped-steth"
+    },
+    {
+      "coinDenom": "PolygonUSDC",
+      "coinMinimalDenom": "polygon-uusdc",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin"
+    },
+    {
+      "coinDenom": "AvalancheUSDC",
+      "coinMinimalDenom": "avalanche-uusdc",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin"
+    },
+    {
+      "coinDenom": "WMATIC",
+      "coinMinimalDenom": "wmatic-wei",
+      "coinDecimals": 18,
+      "coinGeckoId": "wmatic"
     }
   ],
   "feeCurrencies": [
@@ -145,6 +196,7 @@
       "coinMinimalDenom": "uaxl",
       "coinDecimals": 6,
       "coinGeckoId": "axelar",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/uaxl.png",
       "gasPriceStep": {
         "low": 0.007,
         "average": 0.007,
@@ -152,7 +204,5 @@
       }
     }
   ],
-  "features": [
-    "axelar-evm-bridge"
-  ]
+  "features": ["axelar-evm-bridge"]
 }

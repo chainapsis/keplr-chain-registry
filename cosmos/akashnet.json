@@ -8,7 +8,8 @@
     "coinDenom": "AKT",
     "coinMinimalDenom": "uakt",
     "coinDecimals": 6,
-    "coinGeckoId": "akash-network"
+    "coinGeckoId": "akash-network",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/akashnet/uakt.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/akash",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/akash",
@@ -28,7 +29,8 @@
       "coinDenom": "AKT",
       "coinMinimalDenom": "uakt",
       "coinDecimals": 6,
-      "coinGeckoId": "akash-network"
+      "coinGeckoId": "akash-network",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/akashnet/uakt.png"
     }
   ],
   "feeCurrencies": [
@@ -36,7 +38,8 @@
       "coinDenom": "AKT",
       "coinMinimalDenom": "uakt",
       "coinDecimals": 6,
-      "coinGeckoId": "akash-network"
+      "coinGeckoId": "akash-network",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/akashnet/uakt.png"
     }
   ],
   "features": []

@@ -2,14 +2,10 @@
   "chainId": "likecoin-mainnet-2",
   "chainName": "LikeCoin",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/likecoin-mainnet/chain.png",
-  "rpc": "https://mainnet-node-rpc.like.co",
-  "rest": "https://mainnet-node.like.co",
-  "nodeProvider": {
-    "name": "like.co",
-    "email": "team@like.co",
-    "website":"https://like.co/"
-  },
-  "walletUrlForStaking": "https://dao.like.co/validators/",
+  "rpc": "https://rpc-likecoin.keplr.app",
+  "rest": "https://lcd-likecoin.keplr.app",
+  "walletUrl": "https://wallet.keplr.app/chains/likecoin",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/likecoin",
   "bip44": {
     "coinType": 118
   },
@@ -26,7 +22,8 @@
       "coinDenom": "LIKE",
       "coinMinimalDenom": "nanolike",
       "coinDecimals": 9,
-      "coinGeckoId": "likecoin"
+      "coinGeckoId": "likecoin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/likecoin-mainnet/nanolike.png"
     }
   ],
   "feeCurrencies": [
@@ -35,10 +32,11 @@
       "coinMinimalDenom": "nanolike",
       "coinDecimals": 9,
       "coinGeckoId": "likecoin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/likecoin-mainnet/nanolike.png",
       "gasPriceStep": {
         "low": 1,
-        "average": 10,
-        "high": 1000
+        "average": 2,
+        "high": 3
       }
     }
   ],
@@ -46,8 +44,8 @@
     "coinDenom": "LIKE",
     "coinMinimalDenom": "nanolike",
     "coinDecimals": 9,
-    "coinGeckoId": "likecoin"
+    "coinGeckoId": "likecoin",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/likecoin-mainnet/nanolike.png"
   },
-  "features": [
-  ]
+  "features": []
 }
