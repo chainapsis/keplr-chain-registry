@@ -10,9 +10,9 @@
     "coinDecimals": 18
   },
   "nodeProvider": {
-    "name": "ZetaChain",
-    "email": "help@zetachain.com",
-    "website": "https://zetachain.com/"
+    "name": "BlockPI",
+    "email": "help@blockpi.network",
+    "website": "https://blockpi.network/"
   },
   "bip44": {
     "coinType": 60
@@ -29,8 +29,7 @@
     {
       "coinDenom": "ZETA",
       "coinMinimalDenom": "azeta",
-      "coinDecimals": 18,
-      "coinGeckoId": "zeta"
+      "coinDecimals": 18
     }
   ],
   "feeCurrencies": [
@@ -38,7 +37,6 @@
       "coinDenom": "ZETA",
       "coinMinimalDenom": "azeta",
       "coinDecimals": 18,
-      "coinGeckoId": "zeta",
       "gasPriceStep": {
         "low": 80000000000,
         "average": 80000000000,
