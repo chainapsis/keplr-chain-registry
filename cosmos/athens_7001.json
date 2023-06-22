@@ -11,8 +11,8 @@
   },
   "nodeProvider": {
     "name": "BlockPI",
-    "email": "help@blockpi.network",
-    "website": "https://blockpi.network/"
+    "email": "help@blockpi.io",
+    "website": "https://blockpi.io/"
   },
   "bip44": {
     "coinType": 60
