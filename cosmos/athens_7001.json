@@ -27,14 +27,14 @@
   },
   "currencies": [
     {
-      "coinDenom": "ZETA",
+      "coinDenom": "tZETA",
       "coinMinimalDenom": "azeta",
       "coinDecimals": 18
     }
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "ZETA",
+      "coinDenom": "tZETA",
       "coinMinimalDenom": "azeta",
       "coinDecimals": 18,
       "gasPriceStep": {
