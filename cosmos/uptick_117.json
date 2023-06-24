@@ -13,7 +13,6 @@
 		"coinDenom": "UPTICK",
 		"coinMinimalDenom": "auptick",
 		"coinDecimals": 18,
-		"coinGeckoId": "uptick",
 		"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/uptick_117/auptick.png"
 	},
 	"walletUrl": "https://wallet.keplr.app/chains/uptick",
@@ -33,14 +32,12 @@
 		"coinDenom": "UPTICK",
 		"coinMinimalDenom": "auptick",
 		"coinDecimals": 18,
-		"coinGeckoId": "uptick",
 		"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/uptick_117/auptick.png"
 	}],
 	"feeCurrencies": [{
 		"coinDenom": "UPTICK",
 		"coinMinimalDenom": "auptick",
 		"coinDecimals": 18,
-		"coinGeckoId": "uptick",
 		"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/uptick_117/auptick.png",
 		"gasPriceStep": {
 			"low": 125000000000,
