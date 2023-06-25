@@ -29,7 +29,6 @@
       "coinDenom": "GUU",
       "coinMinimalDenom": "uguu",
       "coinDecimals": 6,
-      "coinGeckoId": "ununifi",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ununifi-beta/uguu.png"
     }
   ],
@@ -38,7 +37,6 @@
       "coinDenom": "GUU",
       "coinMinimalDenom": "uguu",
       "coinDecimals": 6,
-      "coinGeckoId": "ununifi",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ununifi-beta/uguu.png",
       "gasPriceStep": {
         "low": 0.0025,
