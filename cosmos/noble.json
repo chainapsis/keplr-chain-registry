@@ -24,17 +24,20 @@
     {
       "coinDenom": "USDC",
       "coinMinimalDenom": "uusdc",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/USDCoin.png"
     },
     {
       "coinDenom": "STAKE",
       "coinMinimalDenom": "ustake",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/chain.png"
     },
     {
       "coinDenom": "FRNZ",
       "coinMinimalDenom": "ufrienzies",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/frnz.png"
     }
   ],
   "feeCurrencies": [
@@ -42,6 +45,7 @@
       "coinDenom": "USDC",
       "coinMinimalDenom": "uusdc",
       "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/USDCoin.png",
       "gasPriceStep": {
         "low": 0,
         "average": 0,
@@ -52,6 +56,7 @@
       "coinDenom": "ATOM",
       "coinMinimalDenom": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
       "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/uatom.png",
       "gasPriceStep": {
         "low": 0.001,
         "average": 0.001,

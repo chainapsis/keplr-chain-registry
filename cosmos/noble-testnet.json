@@ -29,12 +29,14 @@
     {
       "coinDenom": "USDC",
       "coinMinimalDenom": "uusdc",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/USDCoin.png"
     },
     {
       "coinDenom": "STAKE",
       "coinMinimalDenom": "ustake",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/chain.png"
     },
     {
       "coinDenom": "LOVE",
@@ -47,6 +49,7 @@
       "coinDenom": "USDC",
       "coinMinimalDenom": "uusdc",
       "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/USDCoin.png",
       "gasPriceStep": {
         "low": 0,
         "average": 0,
