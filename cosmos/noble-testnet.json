@@ -1,8 +1,13 @@
 {
-  "rpc": "https://rpc-noble.keplr.app",
-  "rest": "https://lcd-noble.keplr.app",
-  "chainId": "noble-1",
+  "chainId": "grand-1",
   "chainName": "Noble",
+  "rpc": "https://rpc.testnet.noble.strange.love",
+  "rest": "https://api.testnet.noble.strange.love/",
+  "nodeProvider": {
+    "name": "Strangelove",
+    "email": "support@strange.love",
+    "website":"https://strange.love/"
+  },
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/chain.png",
   "stakeCurrency": {
     "coinDenom": "STAKE",
@@ -32,8 +37,8 @@
       "coinDecimals": 6
     },
     {
-      "coinDenom": "FRNZ",
-      "coinMinimalDenom": "ufrienzies",
+      "coinDenom": "LOVE",
+      "coinMinimalDenom": "ulove",
       "coinDecimals": 6
     }
   ],
@@ -47,18 +52,9 @@
         "average": 0,
         "high": 0.01
       }
-    },
-    {
-      "coinDenom": "ATOM",
-      "coinMinimalDenom": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
-      "coinDecimals": 6,
-      "gasPriceStep": {
-        "low": 0.001,
-        "average": 0.001,
-        "high": 0.001
-      }
     }
   ],
   "features": [
     "packet-forward-middleware"
-  ]}
+  ]
+}
