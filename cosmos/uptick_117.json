@@ -15,8 +15,6 @@
 		"coinDecimals": 18,
 		"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/uptick_117/auptick.png"
 	},
-	"walletUrl": "https://wallet.keplr.app/chains/uptick",
-	"walletUrlForStaking": "https://wallet.keplr.app/chains/uptick",
 	"bip44": {
 		"coinType": 60
 	},
