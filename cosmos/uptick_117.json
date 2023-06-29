@@ -4,11 +4,6 @@
 	"rpc": "https://rpc.uptick.network",
 	"rest": "https://rest.uptick.network",
 	"chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/uptick_117/chain.png",
-	 "nodeProvider": {
-	    "name": "xian",
-	    "email": "xyyz1207@163.com",
-	    "website":"https://explorer.uptick.network/"
-	  },
 	"stakeCurrency": {
 		"coinDenom": "UPTICK",
 		"coinMinimalDenom": "auptick",
@@ -43,9 +38,5 @@
 			"high": 150000000000
 		}
 	}],
-	"coinType": 60,
-	"features": [
-		"eth-address-gen",
-		"eth-key-sign"
-	]
+	"features": ["eth-address-gen", "eth-key-sign"]
 }
