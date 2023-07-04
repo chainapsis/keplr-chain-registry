@@ -6,7 +6,7 @@
   "nodeProvider": {
     "name": "Strangelove",
     "email": "support@strange.love",
-    "website":"https://strange.love/"
+    "website": "https://strange.love/"
   },
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/chain.png",
   "stakeCurrency": {
@@ -56,5 +56,6 @@
         "high": 0.01
       }
     }
-  ]
+  ],
+  "features": []
 }
