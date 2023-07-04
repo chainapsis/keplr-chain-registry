@@ -30,13 +30,13 @@
       "coinDenom": "USDC",
       "coinMinimalDenom": "uusdc",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/USDCoin.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/uusdc.png"
     },
     {
       "coinDenom": "STAKE",
       "coinMinimalDenom": "ustake",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/ustake.png"
     },
     {
       "coinDenom": "LOVE",
@@ -49,15 +49,12 @@
       "coinDenom": "USDC",
       "coinMinimalDenom": "uusdc",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/USDCoin.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/uusdc.png",
       "gasPriceStep": {
         "low": 0,
         "average": 0,
         "high": 0.01
       }
     }
-  ],
-  "features": [
-    "packet-forward-middleware"
   ]
 }
