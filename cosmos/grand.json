@@ -8,7 +8,7 @@
     "email": "support@strange.love",
     "website": "https://strange.love/"
   },
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/chain.png",
   "stakeCurrency": {
     "coinDenom": "STAKE",
     "coinMinimalDenom": "ustake",
