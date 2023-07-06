@@ -5,7 +5,7 @@
     "name": "UnUniFi",
     "email": "info@ununifi.io",
     "website":"https://ununifi.io/"
-},
+  },
   "chainId": "ununifi-beta-v1",
   "chainName": "UnUniFi",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ununifi/chain.png",
