@@ -18,8 +18,6 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realio/rio.png"
     }
   ],
-  "walletUrl": "https://wallet.keplr.app/chains/realio",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/realio",
   "bip44": {
     "coinType": 60
   },
