@@ -7,7 +7,7 @@
     "website": "https://genznodes.dev/"
   },
   "chainId": "realionetwork_3301-1",
-  "chainName": "Realioo",
+  "chainName": "Realio",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3301/ario.png",
   "stakeCurrency": {
     "coinDenom": "RIO",
