@@ -1,21 +1,21 @@
 {
   "rpc": "https://realio-rpc.genznodes.dev",
   "rest": "https://realio-api.genznodes.dev",
-  "chainId": "realionetwork_3301-1",
+  "chainId": "realionetwork_3301",
   "chainName": "Realio",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/realio/images/rio.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/realionetwork_3301/images/rio.png",
   "stakeCurrency": [
     {
       "coinDenom": "RST",
       "coinMinimalDenom": "arst",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realio/rst.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3301/rst.png"
     },
     {
       "coinDenom": "RIO",
       "coinMinimalDenom": "ario",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realio/rio.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3301/rio.png"
     }
   ],
   "bip44": {
@@ -34,13 +34,13 @@
       "coinDenom": "RST",
       "coinMinimalDenom": "arst",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realio/rst.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3301/rst.png"
     },
     {
       "coinDenom": "RIO",
       "coinMinimalDenom": "ario",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realio/rio.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3301/rio.png"
     }
   ],
   "feeCurrencies": [
@@ -48,7 +48,7 @@
       "coinDenom": "RIO",
       "coinMinimalDenom": "ario",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realio/rio.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3301/rio.png",
       "gasPriceStep": {
         "low": 4000000000,
         "average": 5000000000,
