@@ -4,20 +4,12 @@
   "chainId": "realionetwork_3301",
   "chainName": "Realio",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/realionetwork_3301/images/rio.png",
-  "stakeCurrency": [
-    {
-      "coinDenom": "RST",
-      "coinMinimalDenom": "arst",
-      "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3301/rst.png"
-    },
-    {
-      "coinDenom": "RIO",
-      "coinMinimalDenom": "ario",
-      "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3301/rio.png"
-    }
-  ],
+  "stakeCurrency": {
+    "coinDenom": "RIO",
+    "coinMinimalDenom": "ario",
+    "coinDecimals": 18,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3301/rio.png"
+  },
   "bip44": {
     "coinType": 60
   },
