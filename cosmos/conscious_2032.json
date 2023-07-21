@@ -1,0 +1,56 @@
+{
+  "rpc": "https://rpc.cvn.io",
+  "rest": "https://api.consciousdao.com",
+  "chainId": "cvn_2032-1",
+  "chainName": "Conscious",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cvn_2032/chain.png",
+  "nodeProvider": {
+    "name": "mars",
+    "email": "mars@consciousdao.com",
+    "website": "https://consciousdao.com/"
+  },
+  "stakeCurrency": {
+    "coinDenom": "CVN",
+    "coinMinimalDenom": "acvn",
+    "coinDecimals": 18,
+    "coinGeckoId": "cvn"
+  },
+  "walletUrl": "https://cvn.io/",
+  "walletUrlForStaking": "https://cvn.io/staking",
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "cvn",
+    "bech32PrefixAccPub": "cvnpub",
+    "bech32PrefixValAddr": "cvnvaloper",
+    "bech32PrefixValPub": "cvnvaloperpub",
+    "bech32PrefixConsAddr": "cvnvalcons",
+    "bech32PrefixConsPub": "cvnvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "CVN",
+      "coinMinimalDenom": "acvn",
+      "coinDecimals": 18,
+      "coinGeckoId": "cvn"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "CVN",
+      "coinMinimalDenom": "acvn",
+      "coinDecimals": 18,
+      "coinGeckoId": "cvn",
+      "gasPriceStep": {
+        "low": 1250000000000,
+        "average": 2500000000000,
+        "high": 3750000000000
+      }
+    }
+  ],
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ]
+}
