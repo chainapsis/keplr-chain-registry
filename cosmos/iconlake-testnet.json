@@ -1,6 +1,11 @@
 {
   "rpc": "https://rpc.testnet.iconlake.com",
   "rest": "https://lcd.testnet.iconlake.com",
+  "nodeProvider": {
+    "name": "iconLake",
+    "email": "support@iconlake.com",
+    "website": "https://iconlake.com/"
+  },
   "chainId": "iconlake-testnet-1",
   "chainName": "iconLake Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iconlake/logo.svg",
