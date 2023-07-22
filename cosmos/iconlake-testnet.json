@@ -3,7 +3,7 @@
   "rest": "https://lcd.testnet.iconlake.com",
   "chainId": "iconlake-testnet-1",
   "chainName": "iconLake Testnet",
-  "chainSymbolImageUrl": "https://cdn.iconlake.com/imgs/logo.svg",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iconlake/logo.svg",
   "bip44": {
     "coinType": 1009
   },
@@ -19,20 +19,20 @@
     "coinDenom": "LAKE",
     "coinMinimalDenom": "ulake",
     "coinDecimals": 6,
-    "coinImageUrl": "https://cdn.iconlake.com/imgs/lake-circle.svg"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iconlake/lake-circle.svg"
   },
   "currencies": [
     {
       "coinDenom": "LAKE",
       "coinMinimalDenom": "ulake",
       "coinDecimals": 6,
-      "coinImageUrl": "https://cdn.iconlake.com/imgs/lake-circle.svg"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iconlake/lake-circle.svg"
     },
     {
       "coinDenom": "DROP",
       "coinMinimalDenom": "udrop",
       "coinDecimals": 4,
-      "coinImageUrl": "https://cdn.iconlake.com/imgs/drop.svg"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iconlake/drop.svg"
     }
   ],
   "feeCurrencies": [
@@ -40,7 +40,7 @@
       "coinDenom": "DROP",
       "coinMinimalDenom": "udrop",
       "coinDecimals": 4,
-      "coinImageUrl": "https://cdn.iconlake.com/imgs/drop.svg",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iconlake/drop.svg",
       "gasPriceStep": {
         "low": 0.01,
         "average": 0.05,
@@ -51,7 +51,7 @@
       "coinDenom": "LAKE",
       "coinMinimalDenom": "ulake",
       "coinDecimals": 6,
-      "coinImageUrl": "https://cdn.iconlake.com/imgs/lake-circle.svg",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iconlake/lake-circle.svg",
       "gasPriceStep": {
         "low": 0.01,
         "average": 0.025,

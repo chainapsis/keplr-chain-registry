@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="62 86 348 348" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{fill:url(#SVGID_3_);}
+	.st3{fill:url(#SVGID_4_);}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="153.0989" y1="289.0923" x2="311.4209" y2="289.0923">
+	<stop  offset="0" style="stop-color:#DC336F"/>
+	<stop  offset="0.1386" style="stop-color:#C13482"/>
+	<stop  offset="0.4203" style="stop-color:#9037A4"/>
+	<stop  offset="0.6681" style="stop-color:#6D39BD"/>
+	<stop  offset="0.8697" style="stop-color:#573ACC"/>
+	<stop  offset="1" style="stop-color:#4F3AD2"/>
+</linearGradient>
+<polygon class="st0" points="174.12,390.15 174.12,166.2 153.1,185.56 153.1,390.15 153.1,411.99 174.12,411.99 287.6,411.99 311.42,390.15"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="224.1273" y1="210.2736" x2="280.5532" y2="210.2736">
+	<stop  offset="0.139" style="stop-color:#02B7F9"/>
+	<stop  offset="0.2408" style="stop-color:#02AAF7"/>
+	<stop  offset="0.5555" style="stop-color:#0187F1"/>
+	<stop  offset="0.8129" style="stop-color:#0171ED"/>
+	<stop  offset="0.9793" style="stop-color:#0169EC"/>
+</linearGradient>
+<polygon class="st1" points="259.64,310.7 259.64,88.01 238.62,107.09 238.62,310.7 238.62,332.54 259.64,332.54 374.41,332.54 398.24,310.7 "/>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="174.1246" y1="249.4441" x2="215.3672" y2="249.4441">
+	<stop  offset="0" style="stop-color:#02B7F9"/>
+	<stop  offset="0.1212" style="stop-color:#02AAF7"/>
+	<stop  offset="0.4957" style="stop-color:#0187F1"/>
+	<stop  offset="0.8019" style="stop-color:#0171ED"/>
+	<stop  offset="1" style="stop-color:#0169EC"/>
+</linearGradient>
+<polygon class="st2" points="195.79,146.34 195.79,146.34 174.12,166.2 174.12,196.86 195.59,177.18 194.34,370.75 215.37,370.75 215.37,159.06 215.37,128.4 215.37,128.14 "/>
+<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="194.3415" y1="340.7286" x2="398.5662" y2="340.7286">
+	<stop  offset="0" style="stop-color:#DC336F"/>
+	<stop  offset="0.1386" style="stop-color:#C13482"/>
+	<stop  offset="0.4203" style="stop-color:#9037A4"/>
+	<stop  offset="0.6681" style="stop-color:#6D39BD"/>
+	<stop  offset="0.8697" style="stop-color:#573ACC"/>
+	<stop  offset="1" style="stop-color:#4F3AD2"/>
+</linearGradient>
+<polygon class="st3" points="365.11,310.7 323.41,348.91 194.34,348.91 194.34,370.75 299.59,370.75 299.13,370.76 332.59,370.76 398.57,310.7 "/>
+</svg>
