@@ -1,0 +1,63 @@
+{
+  "rpc": "https://rpc.testnet.iconlake.com",
+  "rest": "https://lcd.testnet.iconlake.com",
+  "chainId": "iconlake-testnet-1",
+  "chainName": "iconLake Testnet",
+  "chainSymbolImageUrl": "https://cdn.iconlake.com/imgs/logo.svg",
+  "bip44": {
+    "coinType": 1009
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "iconlake",
+    "bech32PrefixAccPub": "iconlakepub",
+    "bech32PrefixValAddr": "iconlakevaloper",
+    "bech32PrefixValPub": "iconlakevaloperpub",
+    "bech32PrefixConsAddr": "iconlakevalcons",
+    "bech32PrefixConsPub": "iconlakevalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "LAKE",
+    "coinMinimalDenom": "ulake",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://cdn.iconlake.com/imgs/lake-circle.svg"
+  },
+  "currencies": [
+    {
+      "coinDenom": "LAKE",
+      "coinMinimalDenom": "ulake",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://cdn.iconlake.com/imgs/lake-circle.svg"
+    },
+    {
+      "coinDenom": "DROP",
+      "coinMinimalDenom": "udrop",
+      "coinDecimals": 4,
+      "coinImageUrl": "https://cdn.iconlake.com/imgs/drop.svg"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "DROP",
+      "coinMinimalDenom": "udrop",
+      "coinDecimals": 4,
+      "coinImageUrl": "https://cdn.iconlake.com/imgs/drop.svg",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.05,
+        "high": 0.1
+      }
+    },
+    {
+      "coinDenom": "LAKE",
+      "coinMinimalDenom": "ulake",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://cdn.iconlake.com/imgs/lake-circle.svg",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "features": []
+}
