@@ -3,13 +3,13 @@
   "rest": "https://api.pulsar3.scrttestnet.com",
   "chainId": "pulsar-3",
   "chainName": "Secret Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/secret/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pulsar/chain.png",
   "stakeCurrency": {
     "coinDenom": "SCRT",
     "coinMinimalDenom": "uscrt",
     "coinDecimals": 6,
     "coinGeckoId": "secret",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/secret/uscrt.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pulsar/uscrt.png"
   },
   "walletUrl": "https://testnet.keplr.app/chains/secret-network",
   "walletUrlForStaking": "https://testnet.keplr.app/chains/secret-network",
@@ -35,7 +35,7 @@
       "coinMinimalDenom": "uscrt",
       "coinDecimals": 6,
       "coinGeckoId": "secret",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/secret/uscrt.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pulsar/uscrt.png"
     }
   ],
   "feeCurrencies": [
@@ -44,7 +44,7 @@
       "coinMinimalDenom": "uscrt",
       "coinDecimals": 6,
       "coinGeckoId": "secret",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/secret/uscrt.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pulsar/uscrt.png",
       "gasPriceStep": {
         "low": 0.0125,
         "average": 0.1,
