@@ -1,0 +1,85 @@
+{
+  "chainId": "joltifyChaindev-1",
+  "chainName": "JoltDev",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/chain.png",
+  "rpc": "https://rpc-dev3.joltify.io",
+  "rest": "https://rest-dev3.joltify.io",
+  "nodeProvider": {
+    "name": "Joltify",
+    "email": "contact@joltify.io",
+    "website":"https://joltify.io"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "jolt",
+    "bech32PrefixAccPub": "joltpub",
+    "bech32PrefixValAddr": "joltvaloper",
+    "bech32PrefixValPub": "joltvaloperpub",
+    "bech32PrefixConsAddr": "joltvalcons",
+    "bech32PrefixConsPub": "joltvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "JOLT",
+      "coinMinimalDenom": "ujolt",
+      "coinDecimals": 6,
+      "coinGeckoId": "joltify"
+    },
+    {
+      "coinDenom": "BNB",
+      "coinMinimalDenom": "abnb",
+      "coinDecimals": 18,
+      "coinGeckoId": "binancecoin"
+    },
+    {
+      "coinDenom": "USDT",
+      "coinMinimalDenom": "ausdt",
+      "coinDecimals": 18,
+      "coinGeckoId": "tether"
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "ausdc",
+      "coinDecimals": 18,
+      "coinGeckoId": "usd-coin"
+    },
+    {
+      "coinDenom": "ATOM",
+      "coinMinimalDenom": "uatom",
+      "coinDecimals": 6,
+      "coinGeckoId": "cosmos"
+    },
+    {
+      "coinDenom": "ETH",
+      "coinMinimalDenom": "aeth",
+      "coinDecimals": 18,
+      "coinGeckoId": "ethereum" 
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "JOLT",
+      "coinMinimalDenom": "ujolt",
+      "coinDecimals": 6,
+      "coinGeckoId": "joltify",
+      "gasPriceStep": {
+        "low": 0,
+        "average": 0,
+        "high": 0.04
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "JOLT",
+    "coinMinimalDenom": "ujolt",
+    "coinDecimals": 6,
+    "coinGeckoId": "joltify"
+  },
+  "walletUrlForStaking": "https://app.joltify.io/gov/validators",
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ]
+}
