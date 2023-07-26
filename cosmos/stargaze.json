@@ -37,6 +37,12 @@
       "coinMinimalDenom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/dust",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stargaze/dust.png"
+    },
+    {
+      "coinDenom": "GAZE",
+      "coinMinimalDenom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/mGAZE",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stargaze/gaze.png"
     }
   ],
   "feeCurrencies": [
