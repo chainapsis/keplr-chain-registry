@@ -3,10 +3,10 @@
     "name": "Stake Source",
     "email": "taariq@stakesource.network"
   },
-  "rpc": "https://rpc.pulsar3.scrttestnet.com",
-  "rest": "https://api.pulsar3.scrttestnet.com",
-  "chainId": "pulsar-3",
-  "chainName": "Secret Testnet",
+  "rpc": "https://rpc.pulsar.scrttestnet.com",
+  "rest": "https://api.pulsar.scrttestnet.com",
+  "chainId": "pulsar-2",
+  "chainName": "Secret pulsar-2 testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pulsar/chain.png",
   "stakeCurrency": {
     "coinDenom": "SCRT",
