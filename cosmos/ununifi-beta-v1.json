@@ -13,7 +13,6 @@
     "coinDenom": "GUU",
     "coinMinimalDenom": "uguu",
     "coinDecimals": 6,
-    "coinGeckoId": "ununifi",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ununifi-beta-v1/uguu.png"
   },
   "walletUrl": "https://ununifi.io/portal",
