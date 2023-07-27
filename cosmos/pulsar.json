@@ -12,7 +12,6 @@
     "coinDenom": "SCRT",
     "coinMinimalDenom": "uscrt",
     "coinDecimals": 6,
-    "coinGeckoId": "secret",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pulsar/uscrt.png"
   },
   "walletUrl": "https://testnet.keplr.app/chains/secret-network",
@@ -38,7 +37,6 @@
       "coinDenom": "SCRT",
       "coinMinimalDenom": "uscrt",
       "coinDecimals": 6,
-      "coinGeckoId": "secret",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pulsar/uscrt.png"
     }
   ],
@@ -47,7 +45,6 @@
       "coinDenom": "SCRT",
       "coinMinimalDenom": "uscrt",
       "coinDecimals": 6,
-      "coinGeckoId": "secret",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pulsar/uscrt.png",
       "gasPriceStep": {
         "low": 0.0125,
