@@ -1,4 +1,8 @@
 {
+  "nodeProvider": {
+    "name": "Stake Source",
+    "email": "taariq@stakesource.network"
+  },
   "rpc": "https://rpc.pulsar3.scrttestnet.com",
   "rest": "https://api.pulsar3.scrttestnet.com",
   "chainId": "pulsar-3",
