@@ -190,7 +190,7 @@
       "coinGeckoId": "wmatic"
     },
     {
-      "coinDenom": "ARB",
+      "coinDenom": "WARB",
       "coinMinimalDenom": "warb-wei",
       "coinDecimals": 18,
       "coinGeckoId": "arbitrum"
