@@ -11,8 +11,6 @@
     "coinGeckoId": "reapchain",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/reapchain/areap.png"
   },
-  "walletUrl": "https://wallet.keplr.app/chains/reapchain",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/reapchain",
   "bip44": {
     "coinType": 60
   },
