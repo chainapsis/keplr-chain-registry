@@ -20,6 +20,10 @@
     "bech32PrefixConsAddr": "seivalcons",
     "bech32PrefixConsPub": "seivalconspub"
   },
+  "nodeProvider": {
+        "name": "Sei",
+        "website":"https://sei.io"
+    },
   "currencies": [
     {
       "coinDenom": "SEI",
