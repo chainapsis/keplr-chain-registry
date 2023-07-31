@@ -22,6 +22,7 @@
   },
   "nodeProvider": {
         "name": "Sei",
+        "email": "ecosystem@seinetwork.io",
         "website":"https://sei.io"
     },
   "currencies": [
