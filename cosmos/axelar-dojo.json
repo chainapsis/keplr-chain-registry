@@ -191,7 +191,7 @@
     },
     {
       "coinDenom": "ARB",
-      "coinMinimalDenom": "warb-wei",
+      "coinMinimalDenom": "arb-wei",
       "coinDecimals": 18,
       "coinGeckoId": "arbitrum"
     }
