@@ -8,13 +8,13 @@
   },
   "chainId": "aggevm",
   "chainName": "Agg",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/cosmostation/chainlist/main/chain/agg/chainImg/_chainImg%28256x256%29.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/cosmostation/chainlist/main/chain/agg/chainImg/_chainImg(256x256).png",
   "stakeCurrency": {
     "coinDenom": "AGG",
     "coinMinimalDenom": "uagg",
     "coinDecimals": 6,
     "coinGeckoId": "agg",
-    "coinImageUrl": "https://raw.githubusercontent.com/cosmostation/chainlist/main/chain/agg/chainImg/_chainImg%28256x256%29.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/cosmostation/chainlist/main/chain/agg/chainImg/_chainImg(256x256).png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/agg",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/agg",
@@ -35,7 +35,7 @@
       "coinMinimalDenom": "uagg",
       "coinDecimals": 6,
       "coinGeckoId": "agg",
-      "coinImageUrl": "https://raw.githubusercontent.com/cosmostation/chainlist/main/chain/agg/chainImg/_chainImg%28256x256%29.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/cosmostation/chainlist/main/chain/agg/chainImg/_chainImg(256x256).png"
     }
   ],
   "feeCurrencies": [
@@ -43,7 +43,7 @@
       "coinDenom": "AGG",
       "coinMinimalDenom": "uagg",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/cosmostation/chainlist/main/chain/agg/chainImg/_chainImg%28256x256%29.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/cosmostation/chainlist/main/chain/agg/chainImg/_chainImg(256x256).png",
       "gasPriceStep": {
         "low": 0.015,
         "average": 0.025,
