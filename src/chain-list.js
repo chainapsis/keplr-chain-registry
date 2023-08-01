@@ -45,6 +45,8 @@ const getKeplrFromWindow = async () => {
   });
 };
 
+// async-end
+
 async function init() {
   const keplr = await getKeplrFromWindow();
 
