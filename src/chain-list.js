@@ -22,6 +22,7 @@ function parse(chainId) {
     return { identifier: split[0], version: parseInt(split[1]) };
   }
 }
+// parse chain-id end
 
 const getKeplrFromWindow = async () => {
   if (window.keplr) {
