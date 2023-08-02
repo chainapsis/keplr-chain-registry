@@ -25,6 +25,7 @@
       "coinDenom": "NTRN",
       "coinMinimalDenom": "untrn",
       "coinDecimals": 6,
+      "coinGeckoId": "neutron",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/untrn.png"
     },
     {
@@ -38,6 +39,7 @@
       "coinDenom": "NTRN",
       "coinMinimalDenom": "untrn",
       "coinDecimals": 6,
+      "coinGeckoId": "neutron",
       "gasPriceStep": {
         "low": 0.01,
         "average": 0.01,

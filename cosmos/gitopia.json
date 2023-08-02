@@ -10,6 +10,7 @@
   "stakeCurrency": {
     "coinDenom": "LORE",
     "coinMinimalDenom": "ulore",
+    "coinGeckoId": "gitopia",
     "coinDecimals": 6
   },
   "bech32Config": {
@@ -24,6 +25,7 @@
     {
       "coinDenom": "LORE",
       "coinMinimalDenom": "ulore",
+      "coinGeckoId": "gitopia",
       "coinDecimals": 6
     }
   ],
@@ -31,6 +33,7 @@
     {
       "coinDenom": "LORE",
       "coinMinimalDenom": "ulore",
+      "coinGeckoId": "gitopia",
       "coinDecimals": 6,
       "gasPriceStep": {
         "low": 0.0012,
