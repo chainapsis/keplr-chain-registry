@@ -24,20 +24,20 @@
     "coinDenom": "LAKE",
     "coinMinimalDenom": "ulake",
     "coinDecimals": 6,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iconlake-testnet/lake-circle.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iconlake-testnet/ulake.png"
   },
   "currencies": [
     {
       "coinDenom": "LAKE",
       "coinMinimalDenom": "ulake",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iconlake-testnet/lake-circle.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iconlake-testnet/ulake.png"
     },
     {
       "coinDenom": "DROP",
       "coinMinimalDenom": "udrop",
       "coinDecimals": 4,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iconlake-testnet/drop.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iconlake-testnet/udrop.png"
     }
   ],
   "feeCurrencies": [
@@ -45,7 +45,7 @@
       "coinDenom": "DROP",
       "coinMinimalDenom": "udrop",
       "coinDecimals": 4,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iconlake-testnet/drop.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iconlake-testnet/udrop.png",
       "gasPriceStep": {
         "low": 0.01,
         "average": 0.05,
@@ -56,7 +56,7 @@
       "coinDenom": "LAKE",
       "coinMinimalDenom": "ulake",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iconlake-testnet/lake-circle.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iconlake-testnet/ulake.png",
       "gasPriceStep": {
         "low": 0.01,
         "average": 0.025,
