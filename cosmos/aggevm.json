@@ -10,14 +10,8 @@
   "chainName": "Agg",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aggevm/chain.png",
   "stakeCurrency": {
-    "coinDenom": "AGG",
-    "coinMinimalDenom": "uagg",
-    "coinDecimals": 6,
-    "coinGeckoId": "agg",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aggevm/chain.png"
   },
-  "walletUrl": "https://wallet.keplr.app/chains/agg",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/agg",
   "bip44": {
     "coinType": 118
   },
@@ -31,10 +25,6 @@
   },
   "currencies": [
     {
-      "coinDenom": "AGG",
-      "coinMinimalDenom": "uagg",
-      "coinDecimals": 6,
-      "coinGeckoId": "agg",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aggevm/chain.png"
     }
   ],
