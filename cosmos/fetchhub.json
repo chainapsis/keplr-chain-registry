@@ -1,0 +1,53 @@
+{  
+    "chainName": "fetchhub",
+    "chainId": "fetchhub-4",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fetchhub/fet.png",
+    "rpc": "https://rpc-fetchhub.fetch.ai:443",
+    "rest": "https://rest-fetchhub.fetch.ai",
+    "nodeProvider": {
+      "name": "fetch.ai",
+      "email": "info@fetchai.foundation",
+      "website":"https://fetch.ai/"
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "fetch",
+      "bech32PrefixAccPub": "fetchpub",
+      "bech32PrefixValAddr": "fetchvaloper",
+      "bech32PrefixValPub": "fetchvaloperpub",
+      "bech32PrefixConsAddr": "fetchvalcons",
+      "bech32PrefixConsPub": "fetchvalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "FET",
+        "coinMinimalDenom": "afet",
+        "coinDecimals": 18,
+        "coinGeckoId": "fetch-ai"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "FET",
+        "coinMinimalDenom": "afet",
+        "coinDecimals": 18,
+        "coinGeckoId": "fetch-ai",
+        "gasPriceStep": {
+          "low": 0.025,
+          "average": 0.025,
+          "high": 0.035
+        }
+      }
+    ],
+    "stakeCurrency": {
+        "coinDenom": "FET",
+        "coinMinimalDenom": "afet",
+        "coinDecimals": 18,
+        "coinGeckoId": "fetch-ai"
+    },
+    "features": [
+      "cosmwasm"
+    ]
+}
