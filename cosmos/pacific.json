@@ -34,7 +34,7 @@
     {
       "coinDenom": "WETH",
       "coinMinimalDenom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/4tLQqCLaoKKfNFuPjA9o39YbKUwhR1F8N29Tz3hEbfP2",
-      "coinDecimals": 6,
+      "coinDecimals": 8,
       "coinGeckoId": "weth"
     },
     {
