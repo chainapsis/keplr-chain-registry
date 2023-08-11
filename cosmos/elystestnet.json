@@ -1,0 +1,48 @@
+{
+  "chainId": "elystestnet-1",
+  "chainName": "elys",
+  "rpc": "https://rpc.testnet.elys.network",
+  "rest": "https://api.testnet.elys.network",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "elys",
+    "bech32PrefixAccPub": "elyspub",
+    "bech32PrefixValAddr": "elysvaloper",
+    "bech32PrefixValPub": "elysvaloperpub",
+    "bech32PrefixConsAddr": "elysvalcons",
+    "bech32PrefixConsPub": "elysvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "ELYS",
+      "coinMinimalDenom": "uelys",
+      "coinDecimals": 6,
+      "coinGeckoId": "elys",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elystestnet-1/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ELYS",
+      "coinMinimalDenom": "uelys",
+      "coinDecimals": 6,
+      "coinGeckoId": "elys",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.03
+      },
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elystestnet-1/chain.png"
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "ELYS",
+    "coinMinimalDenom": "uelys",
+    "coinDecimals": 6,
+    "coinGeckoId": "elys",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elystestnet-1/chain.png"
+  },
+  "features": []
+}
