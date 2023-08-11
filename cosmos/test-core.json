@@ -6,7 +6,7 @@
     "rest": "https://rest.testnet2.persistence.one/",
     "nodeProvider": {
       "name": "Persistence",
-      "email": "",
+      "email": "hello@persistence.one",
       "website":"https://persistence.one/"
     },
     "bip44": {
@@ -40,9 +40,9 @@
         "coinDecimals": 6,
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/test-core/uxprt.png",
         "gasPriceStep": {
-          "low": 0,
-          "average": 0.025,
-          "high": 0.04
+          "low": 0.05,
+          "average": 0.125,
+          "high": 0.2
         }
       }
     ],
