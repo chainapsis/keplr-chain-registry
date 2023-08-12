@@ -88,5 +88,6 @@
         "high": 0.25
       }
     }
-  ]
+  ],
+  "features": ["authz-msg-revoke-fixed"]
 }
