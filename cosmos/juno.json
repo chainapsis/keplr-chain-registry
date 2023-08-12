@@ -57,5 +57,5 @@
       }
     }
   ],
-  "features": ["cosmwasm"]
+  "features": ["cosmwasm", "authz-msg-revoke-fixed"]
 }
