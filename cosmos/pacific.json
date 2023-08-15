@@ -88,7 +88,7 @@
     {
       "coinDenom": "USDCbs",
       "coinMinimalDenom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/3Ri4N719RQfQaudHiB9CMCYACtK3aieoz1q1Ph24VdAb",
-      "coinDecimals": 6,
+      "coinDecimals": 8,
       "coinGeckoId": "usd-coin"
     },
     {
