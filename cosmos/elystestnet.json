@@ -1,7 +1,8 @@
 {
   "chainId": "elystestnet-1",
   "chainName": "elys",
-  "rpc": "https://rpc.testnet.elys.network",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elystestnet/chain.png",
+  "rpc": "http://37.187.154.66:26657",
   "rest": "https://api.testnet.elys.network",
   "bip44": {
     "coinType": 118
@@ -20,7 +21,7 @@
       "coinMinimalDenom": "uelys",
       "coinDecimals": 6,
       "coinGeckoId": "elys",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elystestnet-1/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elystestnet/chain.png"
     }
   ],
   "feeCurrencies": [
@@ -34,7 +35,7 @@
         "average": 0.025,
         "high": 0.03
       },
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elystestnet-1/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elystestnet/chain.png"
     }
   ],
   "stakeCurrency": {
@@ -42,7 +43,7 @@
     "coinMinimalDenom": "uelys",
     "coinDecimals": 6,
     "coinGeckoId": "elys",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elystestnet-1/chain.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elystestnet/chain.png"
   },
   "features": []
 }
