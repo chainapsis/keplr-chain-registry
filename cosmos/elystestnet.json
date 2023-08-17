@@ -4,6 +4,10 @@
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elystestnet/chain.png",
   "rpc": "http://37.187.154.66:26657",
   "rest": "https://api.testnet.elys.network",
+  "nodeProvider": {
+    "name": "Elys Node",
+    "email": "team@elys.network"
+  },
   "bip44": {
     "coinType": 118
   },
