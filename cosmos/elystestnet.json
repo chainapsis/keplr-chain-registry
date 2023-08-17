@@ -20,7 +20,6 @@
       "coinDenom": "ELYS",
       "coinMinimalDenom": "uelys",
       "coinDecimals": 6,
-      "coinGeckoId": "elys",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elystestnet/chain.png"
     }
   ],
@@ -29,7 +28,6 @@
       "coinDenom": "ELYS",
       "coinMinimalDenom": "uelys",
       "coinDecimals": 6,
-      "coinGeckoId": "elys",
       "gasPriceStep": {
         "low": 0.01,
         "average": 0.025,
@@ -42,7 +40,6 @@
     "coinDenom": "ELYS",
     "coinMinimalDenom": "uelys",
     "coinDecimals": 6,
-    "coinGeckoId": "elys",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elystestnet/chain.png"
   },
   "features": []
