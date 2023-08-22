@@ -25,6 +25,7 @@ const main = async () => {
         "axelar-dojo",
         "bostrom",
         "core",
+        "doravota-testnet",
         "emoney",
         "evmos_9001",
         "gravity-bridge",

@@ -1,0 +1,46 @@
+{
+    "rpc": "https://vota-rpc.dorafactory.org",
+    "rest": "https://vota-rest.dorafactory.org",
+    "chainId": "doravota-devnet",
+    "chainName": "Dora Vota Testnet",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/doravota-testnet/chain.png",
+    "stakeCurrency": {
+      "coinDenom": "DORA",
+      "coinMinimalDenom": "uDORA",
+      "coinDecimals": 6,
+      "coinGeckoId": "dora"
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "dora",
+      "bech32PrefixAccPub": "dorapub",
+      "bech32PrefixValAddr": "doravaloper",
+      "bech32PrefixValPub": "doravaloperpub",
+      "bech32PrefixConsAddr": "doravalcons",
+      "bech32PrefixConsPub": "doravalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "DORA",
+        "coinMinimalDenom": "uDORA",
+        "coinDecimals": 6,
+        "coinGeckoId": "dora"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "DORA",
+        "coinMinimalDenom": "uDORA",
+        "coinDecimals": 6,
+        "coinGeckoId": "dora",
+        "gasPriceStep": {
+          "low": 0.001,
+          "average": 0.0025,
+          "high": 0.003
+        }
+      }
+    ],
+    "features": []
+  }
