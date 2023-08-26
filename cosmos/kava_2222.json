@@ -73,6 +73,11 @@
       "coinDenom": "XRPB",
       "coinMinimalDenom": "xrpb",
       "coinDecimals": 8
+    },
+    {
+      "coinDenom": "USDT",
+      "coinMinimalDenom": "erc20/tether/usdt",
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
@@ -88,5 +93,6 @@
         "high": 0.25
       }
     }
-  ]
+  ],
+  "features": ["authz-msg-revoke-fixed"]
 }

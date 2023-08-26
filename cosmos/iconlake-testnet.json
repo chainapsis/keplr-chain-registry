@@ -1,0 +1,68 @@
+{
+  "rpc": "https://rpc.testnet.iconlake.com",
+  "rest": "https://lcd.testnet.iconlake.com",
+  "nodeProvider": {
+    "name": "iconLake",
+    "email": "support@iconlake.com",
+    "website": "https://iconlake.com/"
+  },
+  "chainId": "iconlake-testnet-1",
+  "chainName": "iconLake Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iconlake-testnet/logo.png",
+  "bip44": {
+    "coinType": 1009
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "iconlake",
+    "bech32PrefixAccPub": "iconlakepub",
+    "bech32PrefixValAddr": "iconlakevaloper",
+    "bech32PrefixValPub": "iconlakevaloperpub",
+    "bech32PrefixConsAddr": "iconlakevalcons",
+    "bech32PrefixConsPub": "iconlakevalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "LAKE",
+    "coinMinimalDenom": "ulake",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iconlake-testnet/ulake.png"
+  },
+  "currencies": [
+    {
+      "coinDenom": "LAKE",
+      "coinMinimalDenom": "ulake",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iconlake-testnet/ulake.png"
+    },
+    {
+      "coinDenom": "DROP",
+      "coinMinimalDenom": "udrop",
+      "coinDecimals": 4,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iconlake-testnet/udrop.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "DROP",
+      "coinMinimalDenom": "udrop",
+      "coinDecimals": 4,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iconlake-testnet/udrop.png",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.05,
+        "high": 0.1
+      }
+    },
+    {
+      "coinDenom": "LAKE",
+      "coinMinimalDenom": "ulake",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iconlake-testnet/ulake.png",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "features": []
+}
