@@ -8,6 +8,7 @@
     "coinDenom": "BOOT",
     "coinMinimalDenom": "boot",
     "coinDecimals": 0,
+    "coinGeckoId": "bostrom",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bostrom/boot.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/bostrom",
@@ -28,6 +29,7 @@
       "coinDenom": "BOOT",
       "coinMinimalDenom": "boot",
       "coinDecimals": 0,
+      "coinGeckoId": "bostrom",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bostrom/boot.png"
     },
     {
@@ -56,6 +58,7 @@
       "coinDenom": "BOOT",
       "coinMinimalDenom": "boot",
       "coinDecimals": 0,
+      "coinGeckoId": "bostrom",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bostrom/boot.png",
       "gasPriceStep": {
         "low": 0,

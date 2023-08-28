@@ -67,6 +67,7 @@ const main = async () => {
         "axelar-testnet-lisbon",
         "atlantic",
         "blockspacerace",
+        "mocha",
         "elfagar",
         "osmo-test",
         "pion",
