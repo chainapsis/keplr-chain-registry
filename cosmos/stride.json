@@ -127,7 +127,6 @@
       "coinMinimalDenom": "ibc/D24B4564BCD51D3D02D9987D92571EAC5915676A9BD6D9B0C1D0254CB8A5EA34",
       "coinDecimals": 6,
       "coinGeckoId": "osmosis",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/uosmo.png",
       "gasPriceStep": {
         "low": 0.001,
         "average": 0.01,
