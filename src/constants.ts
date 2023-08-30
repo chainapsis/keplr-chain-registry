@@ -45,7 +45,7 @@ export const nativeTestnetChainIdentifiers: string[] = [
   "atlantic",
   "blockspacerace",
   "mocha",
-  "elfagar",
+  "elgafar",
   "osmo-test",
   "pion",
   "theta-testnet",
