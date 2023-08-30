@@ -1,10 +1,10 @@
 {
-    "rpc": "https://rpc.composable.nodestake.top",
-    "rest": "https://api.composable.nodestake.top",
+    "rpc": "https://composable-rpc.polkachu.com/",
+    "rest": "https://composable-api.polkachu.com/",
     "nodeProvider": {
-      "name": "NodeStake",
-      "email": "info@nodestake.top",
-      "website": "https://nodestake.top/"
+      "name": "Polkachu",
+      "email": "hello@polkachu.com",
+      "website": "https://polkachu.com/"
     },
     "chainId": "centauri-1",
     "chainName": "Composable",
