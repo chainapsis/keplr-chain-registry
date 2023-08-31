@@ -16,7 +16,6 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ununifi-beta-v1/uguu.png"
   },
   "walletUrl": "https://ununifi.io/portal",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/ununifi",
   "bip44": {
     "coinType": 118
   },
