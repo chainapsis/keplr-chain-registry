@@ -33,34 +33,34 @@
     },
     {
       "coinDenom": "qSTARS",
-      "coinMinimalDenom" : "uqstars",
+      "coinMinimalDenom": "uqstars",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/quicksilver/uqstars.png"
     },
     {
       "coinDenom": "qATOM",
-      "coinMinimalDenom" : "uqatom",
+      "coinMinimalDenom": "uqatom",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/quicksilver/uqatom.png"
     },
     {
       "coinDenom": "qREGEN",
-      "coinMinimalDenom" : "uqregen",
+      "coinMinimalDenom": "uqregen",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/quicksilver/uqregen.png"
     },
     {
       "coinDenom": "qOSMO",
-      "coinMinimalDenom" : "uqosmo",
+      "coinMinimalDenom": "uqosmo",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/quicksilver/uqosmo.png"
     },
-     {
+    {
       "coinDenom": "qSOMM",
-      "coinMinimalDenom" : "uqsomm",
+      "coinMinimalDenom": "uqsomm",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/quicksilver/uqsomm.png"
-    }	 	    
+    }
   ],
   "feeCurrencies": [
     {
@@ -76,5 +76,5 @@
       }
     }
   ],
-  "features": []
+  "features": ["authz-msg-revoke-fixed"]
 }
