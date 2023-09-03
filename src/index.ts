@@ -25,7 +25,6 @@ const main = async () => {
         "axelar-dojo",
         "bostrom",
         "core",
-        "doravota-testnet",
         "emoney",
         "evmos_9001",
         "gravity-bridge",
@@ -56,6 +55,7 @@ const main = async () => {
         "neutron",
         "gitopia",
         "likecoin-mainnet",
+        "doravota",
       ];
       const chainIdentifier = ChainIdHelper.parse(chainInfo.chainId).identifier;
 
@@ -73,6 +73,7 @@ const main = async () => {
         "osmo-test",
         "pion",
         "theta-testnet",
+        "doravota-testnet",
       ];
 
       const chainIdentifier = ChainIdHelper.parse(chainInfo.chainId).identifier;
