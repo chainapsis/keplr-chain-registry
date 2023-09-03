@@ -6,7 +6,8 @@
   "rest": "https://api.testnet.elys.network",
   "nodeProvider": {
     "name": "Elys Node",
-    "email": "team@elys.network"
+    "email": "team@elys.network",
+    "website": "https://elys.network"
   },
   "bip44": {
     "coinType": 118

@@ -73,6 +73,13 @@
       "coinDenom": "XRPB",
       "coinMinimalDenom": "xrpb",
       "coinDecimals": 8
+    },
+    {
+      "coinDenom": "USDt",
+      "coinMinimalDenom": "erc20/tether/usdt",
+      "coinDecimals": 6,
+      "coinGeckoId": "tether",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kava_2222/uusdt.png"
     }
   ],
   "feeCurrencies": [
