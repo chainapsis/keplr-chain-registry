@@ -3,12 +3,12 @@
     "rest": "https://vota-testnet-rest.dorafactory.org",
     "nodeProvider": {
       "name": "Dorafactory",
-      "email": "dora",
+      "email": "node-operation@mail.dorafactory.org",
       "website": "https://dorafactory.org"
     },
     "chainId": "doravota-devnet",
     "chainName": "Dora Vota Testnet",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/doravota/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/doravota-devnet/chain.png",
     "stakeCurrency": {
       "coinDenom": "DORA",
       "coinMinimalDenom": "uDORA",

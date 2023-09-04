@@ -3,12 +3,12 @@
     "rest": "https://vota-rest.dorafactory.org",
     "nodeProvider": {
       "name": "Dorafactory",
-      "email": "dora",
+      "email": "node-operation@mail.dorafactory.org",
       "website": "https://dorafactory.org"
     },
     "chainId": "vota-ash",
     "chainName": "Dora Vota",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/doravota/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/vota-ash/chain.png",
     "stakeCurrency": {
       "coinDenom": "DORA",
       "coinMinimalDenom": "peaka",
