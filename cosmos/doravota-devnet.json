@@ -13,7 +13,6 @@
     "coinDenom": "DORA",
     "coinMinimalDenom": "uDORA",
     "coinDecimals": 6,
-    "coinGeckoId": "dora",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/doravota-devnet/udora.png"
   },
   "bip44": {
@@ -32,7 +31,6 @@
       "coinDenom": "DORA",
       "coinMinimalDenom": "uDORA",
       "coinDecimals": 6,
-      "coinGeckoId": "dora",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/doravota-devnet/udora.png"
     }
   ],
@@ -41,7 +39,6 @@
       "coinDenom": "DORA",
       "coinMinimalDenom": "uDORA",
       "coinDecimals": 6,
-      "coinGeckoId": "dora",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/doravota-devnet/udora.png",
       "gasPriceStep": {
         "low": 0.001,
