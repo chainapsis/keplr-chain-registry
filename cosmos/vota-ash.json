@@ -50,8 +50,5 @@
       }
     }
   ],
-  "features": [
-    "cosmwasm",
-    "dora-txfees"
-  ]
+  "features": []
 }
