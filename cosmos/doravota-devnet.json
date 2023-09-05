@@ -8,7 +8,7 @@
     },
     "chainId": "doravota-devnet",
     "chainName": "Dora Vota Testnet",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/doravota-devnet/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/doravota-devnet/uDORA.png",
     "stakeCurrency": {
       "coinDenom": "DORA",
       "coinMinimalDenom": "uDORA",
