@@ -37,7 +37,6 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "neutron",
   "gitopia",
   "likecoin-mainnet",
-  "doravota",
 ];
 
 export const nativeTestnetChainIdentifiers: string[] = [
