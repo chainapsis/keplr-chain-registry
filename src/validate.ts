@@ -151,11 +151,11 @@ const checkCoinGeckoId = async (coinGeckoId: string) => {
     `https://api.coingecko.com/api/v3/coins/${coinGeckoId}`,
   );
 
-  const data = await response.json();
-
   if (!response.ok) {
     throw new Error(`Failed to fetch coinGeckoId ${coinGeckoId}`);
   }
+
+  const data = await response.json();
 
   if (data.hasOwnProperty("error")) {
     throw new Error(`Failed to fetch coinGeckoId ${coinGeckoId}`);
