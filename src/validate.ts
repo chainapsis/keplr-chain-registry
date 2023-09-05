@@ -111,6 +111,29 @@ export const validateChainInfo = async (
     await checkRestConnectivity(chainInfo.chainId, chainInfo.rest);
   }
 
+  // check coinGecko vaild
+  const coinGeckoIds = new Set<string>();
+  for (const currency of chainInfo.currencies) {
+    if (currency.coinGeckoId) {
+      coinGeckoIds.add(currency.coinGeckoId);
+    }
+  }
+
+  for (const currency of chainInfo.feeCurrencies) {
+    if (currency.coinGeckoId) {
+      coinGeckoIds.add(currency.coinGeckoId);
+    }
+  }
+
+  if (chainInfo.stakeCurrency.coinGeckoId) {
+    coinGeckoIds.add(chainInfo.stakeCurrency.coinGeckoId);
+  }
+
+  const checkCoinGeckoIds = Array.from(coinGeckoIds).map((coinGeckoId) =>
+    checkCoinGeckoId(coinGeckoId),
+  );
+  await Promise.all(checkCoinGeckoIds);
+
   return chainInfo;
 };
 
@@ -120,5 +143,21 @@ export const checkImageSize = (path: string) => {
     throw new Error(
       "Image size is not 256x256px. size : " + JSON.stringify(dimensions),
     );
+  }
+};
+
+const checkCoinGeckoId = async (coinGeckoId: string) => {
+  const response = await fetch(
+    `https://api.coingecko.com/api/v3/coins/${coinGeckoId}`,
+  );
+
+  if (!response.ok) {
+    throw new Error(`Failed to fetch coinGeckoId ${coinGeckoId}`);
+  }
+
+  const data = await response.json();
+
+  if (data.hasOwnProperty("error")) {
+    throw new Error(`Failed to fetch coinGeckoId ${coinGeckoId}`);
   }
 };
