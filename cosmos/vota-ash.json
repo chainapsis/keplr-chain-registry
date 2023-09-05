@@ -1,51 +1,54 @@
 {
-    "rpc": "https://vota-rpc.dorafactory.org",
-    "rest": "https://vota-rest.dorafactory.org",
-    "nodeProvider": {
-      "name": "Dorafactory",
-      "email": "node-operation@mail.dorafactory.org",
-      "website": "https://dorafactory.org"
-    },
-    "chainId": "vota-ash",
-    "chainName": "Dora Vota",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/vota-ash/peaka.png",
-    "stakeCurrency": {
+  "rpc": "https://vota-rpc.dorafactory.org",
+  "rest": "https://vota-rest.dorafactory.org",
+  "nodeProvider": {
+    "name": "Dorafactory",
+    "email": "node-operation@mail.dorafactory.org",
+    "website": "https://dorafactory.org"
+  },
+  "chainId": "vota-ash",
+  "chainName": "Dora Vota",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/vota-ash/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "DORA",
+    "coinMinimalDenom": "peaka",
+    "coinDecimals": 18,
+    "coinGeckoId": "dora",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/vota-ash/peaka.png"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "dora",
+    "bech32PrefixAccPub": "dorapub",
+    "bech32PrefixValAddr": "doravaloper",
+    "bech32PrefixValPub": "doravaloperpub",
+    "bech32PrefixConsAddr": "doravalcons",
+    "bech32PrefixConsPub": "doravalconspub"
+  },
+  "currencies": [
+    {
       "coinDenom": "DORA",
       "coinMinimalDenom": "peaka",
       "coinDecimals": 18,
-      "coinGeckoId": "dora"
-    },
-    "bip44": {
-      "coinType": 118
-    },
-    "bech32Config": {
-      "bech32PrefixAccAddr": "dora",
-      "bech32PrefixAccPub": "dorapub",
-      "bech32PrefixValAddr": "doravaloper",
-      "bech32PrefixValPub": "doravaloperpub",
-      "bech32PrefixConsAddr": "doravalcons",
-      "bech32PrefixConsPub": "doravalconspub"
-    },
-    "currencies": [
-      {
-        "coinDenom": "DORA",
-        "coinMinimalDenom": "peaka",
-        "coinDecimals": 18,
-        "coinGeckoId": "dora"
+      "coinGeckoId": "dora",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/vota-ash/peaka.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "DORA",
+      "coinMinimalDenom": "peaka",
+      "coinDecimals": 18,
+      "coinGeckoId": "dora",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/vota-ash/peaka.png",
+      "gasPriceStep": {
+        "low": 0.001,
+        "average": 0.0025,
+        "high": 0.003
       }
-    ],
-    "feeCurrencies": [
-      {
-        "coinDenom": "DORA",
-        "coinMinimalDenom": "peaka",
-        "coinDecimals": 18,
-        "coinGeckoId": "dora",
-        "gasPriceStep": {
-          "low": 0.001,
-          "average": 0.0025,
-          "high": 0.003
-        }
-      }
-    ],
-    "features": []
-  }
+    }
+  ],
+  "features": []
+}
