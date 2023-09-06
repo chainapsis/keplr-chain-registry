@@ -1,10 +1,10 @@
 {
-    "rpc": "https://composable-rpc.polkachu.com/",
-    "rest": "https://composable-api.polkachu.com/",
+    "rpc": "https://rpc-composable-ia.cosmosia.notional.ventures",
+    "rest": "https://api-composable-ia.cosmosia.notional.ventures",
     "nodeProvider": {
-      "name": "Polkachu",
-      "email": "hello@polkachu.com",
-      "website": "https://polkachu.com/"
+      "name": "Notional",
+      "email": "contact@notional.ventures",
+      "website": "https://notional.ventures/"
     },
     "chainId": "centauri-1",
     "chainName": "Composable",
