@@ -1,0 +1,123 @@
+{
+  "rpc": "https://wormchain-rpc.quickapi.com",
+  "rest": "https://wormchain-lcd.quickapi.com",
+  "chainId": "wormchain",
+  "chainName": "Wormhole Gateway",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gateway/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "WORM",
+    "coinMinimalDenom": "uworm",
+    "coinDecimals": 6
+  },
+  "walletUrl": "https://wormhole.com/gateway/",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "wormhole",
+    "bech32PrefixAccPub": "wormholepub",
+    "bech32PrefixValAddr": "wormholevaloper",
+    "bech32PrefixValPub": "wormholevaloperpub",
+    "bech32PrefixConsAddr": "wormholevalcons",
+    "bech32PrefixConsPub": "wormholevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "WORM",
+      "coinMinimalDenom": "uworm",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "SUI",
+      "coinMinimalDenom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/46YEtoSN1AcwgGSRoWruoS6bnVh8XpMp5aQTpKohCJYh",
+      "coinDecimals": 8,
+      "coinGeckoId": "sui",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/_non-cosmos/sui.png"
+    },
+    {
+      "coinDenom": "WETH",
+      "coinMinimalDenom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/5BWqpR48Lubd55szM5i62zK7TFkddckhbT48yy6mNbDp",
+      "coinDecimals": 8,
+      "coinGeckoId": "weth",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/_non-cosmos/weth.png"
+    },
+    {
+      "coinDenom": "wstETH",
+      "coinMinimalDenom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/5TSQTEhJ5Q6r1YqCmCxTRSPiV2pGx5rZUQf6g2XH4e1b",
+      "coinDecimals": 8,
+      "coinGeckoId": "wrapped-steth",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/_non-cosmos/wsteth.png"
+    },
+    {
+      "coinDenom": "APT",
+      "coinMinimalDenom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/5wS2fGojbL9RhGEAeQBdkHPUAciYDxjDTMYvdf9aDn2r",
+      "coinDecimals": 8,
+      "coinGeckoId": "aptos",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/_non-cosmos/aptos.png"
+    },
+    {
+      "coinDenom": "USDT",
+      "coinMinimalDenom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/8iuAc6DSeLvi2JDUtwJxLytsZT8R19itXebZsNReLLNi",
+      "coinDecimals": 6,
+      "coinGeckoId": "tether",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/_non-cosmos/usdt.png"
+    },
+    {
+      "coinDenom": "SOL",
+      "coinMinimalDenom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/8sYgCzLRJC3J7qPn2bNbx6PiGcarhyx8rBhVaNnfvHCA",
+      "coinDecimals": 8,
+      "coinGeckoId": "solana",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/_non-cosmos/solana.png"
+    },
+    {
+      "coinDenom": "BONK",
+      "coinMinimalDenom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/95mnwzvJZJ3fKz77xfGN2nR5to9pZmH8YNvaxgLgw5AR",
+      "coinDecimals": 5,
+      "coinGeckoId": "bonk",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/_non-cosmos/bonk.png"
+    },
+    {
+      "coinDenom": "WBTC",
+      "coinMinimalDenom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/BGkuAcga2WArUghF8L6kt6uCAhAzrxmn1QcbQqi5r5bd",
+      "coinDecimals": 8,
+      "coinGeckoId": "wrapped-bitcoin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/_non-cosmos/wbtc.png"
+    },
+    {
+      "coinDenom": "tBTC",
+      "coinMinimalDenom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/BhqTYfQogyt7jX7cx7x8uHEQP1x9fdtdBZtK4Swghgpw",
+      "coinDecimals": 8,
+      "coinGeckoId": "tbtc",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/_non-cosmos/tbtc.png"
+    },
+    {
+      "coinDenom": "DAI",
+      "coinMinimalDenom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/EKiMEqDnPKokFGcSXDvGMk6Gt1BJ6BC7BDZzTmEpWLH1",
+      "coinDecimals": 8,
+      "coinGeckoId": "dai",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/_non-cosmos/dai.png"
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/GGh9Ufn1SeDGrhzEkMyRKt5568VbbxZK2yvWNsd6PbXt",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/_non-cosmos/usdc.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "TEST",
+      "coinMinimalDenom": "utest",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0,
+        "average": 0,
+        "high": 0
+      }
+    }
+  ],
+  "features": [
+    "cosmwasm"
+  ]
+}
