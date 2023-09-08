@@ -39,8 +39,8 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fxcore/fx.png",
       "gasPriceStep": {
         "low": 4000000000000,
-        "average": 4000000000000,
-        "high": 4100000000000
+        "average": 4200000000000,
+        "high": 5000000000000
       }
     }
   ],
