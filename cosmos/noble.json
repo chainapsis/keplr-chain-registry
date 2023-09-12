@@ -28,12 +28,6 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/uusdc.png"
     },
     {
-      "coinDenom": "STAKE",
-      "coinMinimalDenom": "ustake",
-      "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/ustake.png"
-    },
-    {
       "coinDenom": "FRNZ",
       "coinMinimalDenom": "ufrienzies",
       "coinDecimals": 6,
