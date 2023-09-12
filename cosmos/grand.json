@@ -1,6 +1,6 @@
 {
   "chainId": "grand-1",
-  "chainName": "Noble",
+  "chainName": "Grand",
   "rpc": "https://rpc.testnet.noble.strange.love",
   "rest": "https://api.testnet.noble.strange.love/",
   "nodeProvider": {
