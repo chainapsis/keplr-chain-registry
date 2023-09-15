@@ -55,30 +55,13 @@ export const validateChainInfo = async (
     );
   }
 
+  // Check currencies
+  checkCurrencies(chainInfo);
+
   for (const feature of chainInfo.features ?? []) {
     if (!NonRecognizableChainFeatures.includes(feature)) {
       throw new Error(
         `Only non recognizable feature should be provided: ${feature}`,
-      );
-    }
-  }
-
-  for (const currency of chainInfo.currencies) {
-    if (new DenomHelper(currency.coinMinimalDenom).type !== "native") {
-      throw new Error(
-        `Do not provide not native token to currencies: ${currency.coinMinimalDenom}`,
-      );
-    }
-
-    if (currency.coinMinimalDenom.startsWith("ibc/")) {
-      throw new Error(
-        `Do not provide ibc currency to currencies: ${currency.coinMinimalDenom}`,
-      );
-    }
-
-    if (currency.coinMinimalDenom.startsWith("gravity0x")) {
-      throw new Error(
-        `Do not provide bridged currency to currencies: ${currency.coinMinimalDenom}`,
       );
     }
   }
@@ -159,5 +142,54 @@ const checkCoinGeckoId = async (coinGeckoId: string) => {
 
   if (data.hasOwnProperty("error")) {
     throw new Error(`Failed to fetch coinGeckoId ${coinGeckoId}`);
+  }
+};
+
+export const checkCurrencies = (chainInfo: ChainInfo) => {
+  // Check stake currency
+  if (
+    !chainInfo.currencies.some(
+      (currency) =>
+        currency.coinMinimalDenom === chainInfo.stakeCurrency.coinMinimalDenom,
+    )
+  ) {
+    throw new Error(
+      `Stake Currency must be included in currencies. stakeCurrency: ${chainInfo.stakeCurrency.coinMinimalDenom}`,
+    );
+  }
+
+  // Check fee currency
+  if (
+    !chainInfo.feeCurrencies
+      .filter((feeCurrency) => !feeCurrency.coinMinimalDenom.startsWith("ibc/"))
+      .every((feeCurrency) =>
+        chainInfo.currencies.some(
+          (currency) =>
+            feeCurrency.coinMinimalDenom === currency.coinMinimalDenom,
+        ),
+      )
+  ) {
+    throw new Error(`Fee Currency must be included in currencies`);
+  }
+
+  // Check currencies
+  for (const currency of chainInfo.currencies) {
+    if (new DenomHelper(currency.coinMinimalDenom).type !== "native") {
+      throw new Error(
+        `Do not provide not native token to currencies: ${currency.coinMinimalDenom}`,
+      );
+    }
+
+    if (currency.coinMinimalDenom.startsWith("ibc/")) {
+      throw new Error(
+        `Do not provide ibc currency to currencies: ${currency.coinMinimalDenom}`,
+      );
+    }
+
+    if (currency.coinMinimalDenom.startsWith("gravity0x")) {
+      throw new Error(
+        `Do not provide bridged currency to currencies: ${currency.coinMinimalDenom}`,
+      );
+    }
   }
 };
