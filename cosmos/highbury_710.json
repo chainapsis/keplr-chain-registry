@@ -4,13 +4,11 @@
   "chainId": "highbury_710-1",
   "chainName": "Highbury",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/highbury_710/chain.png",
-  "stakeCurrency": {
-    "coinDenom": "FURY",
-    "coinMinimalDenom": "ufury",
-    "coinDecimals": 6,
-    "coinGeckoId": "fanfury",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/highbury_710/ufury.png"
-  },
+  "nodeProvider": {
+      "name": "Blackfury Genesis Validator",
+      "email": "blackfuryan@skiff.com",
+      "website":"https://fury.black/"
+    },
   "walletUrl": "https://wallet.keplr.app/chains/highbury",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/highbury",
   "bip44": {
@@ -63,9 +61,14 @@
       }
     }
   ],
+  "stakeCurrency": {
+    "coinDenom": "FURY",
+    "coinMinimalDenom": "ufury",
+    "coinDecimals": 6,
+    "coinGeckoId": "fanfury",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/highbury_710/ufury.png"
+  },
   "features": [
-    "ibc-transfer",
-		"ibc-go",
 		"eth-address-gen",
 		"eth-key-sign"
 ]
