@@ -39,7 +39,7 @@
       "coinDenom": "FURY",
       "coinMinimalDenom": "ufury",
       "coinDecimals": 6,
-      "coinGeckoId": "fury",
+      "coinGeckoId": "fanfury",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/highbury_710/ufury.png"
     }
   ],
@@ -48,7 +48,7 @@
       "coinDenom": "FURY",
       "coinMinimalDenom": "ufury",
       "coinDecimals": 6,
-      "coinGeckoId": "fury",
+      "coinGeckoId": "fanfury",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/highbury_710/ufury.png",
       "gasPriceStep": {
         "low": 0.05,
