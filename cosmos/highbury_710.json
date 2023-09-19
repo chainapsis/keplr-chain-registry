@@ -16,8 +16,6 @@
     "coinGeckoId": "fanfury",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/highbury_710/ufury.png"
   },
-  "walletUrl": "https://wallet.keplr.app/chains/highbury",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/highbury",
   "bip44": {
     "coinType": 118
   },
