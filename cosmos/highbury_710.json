@@ -1,5 +1,5 @@
 {
-  "rpc": "https://gridiron.furya.io",
+  "rpc": "https://grdiron.furya.io",
   "rest": "https://api-mainnet.furya.io",
   "chainId": "highbury_710-1",
   "chainName": "Highbury",
@@ -39,7 +39,7 @@
       "coinDenom": "FURY",
       "coinMinimalDenom": "ufury",
       "coinDecimals": 6,
-      "coinGeckoId": "fanfury",
+      "coinGeckoId": "fury",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/highbury_710/ufury.png"
     }
   ],
@@ -48,7 +48,7 @@
       "coinDenom": "FURY",
       "coinMinimalDenom": "ufury",
       "coinDecimals": 6,
-      "coinGeckoId": "fanfury",
+      "coinGeckoId": "fury",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/highbury_710/ufury.png",
       "gasPriceStep": {
         "low": 0.05,
