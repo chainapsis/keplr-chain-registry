@@ -9,9 +9,7 @@
       "email": "blackfuryan@skiff.com",
       "website":"https://fury.black/"
     },
-  "walletUrl": "https://wallet.keplr.app/chains/highbury",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/highbury",
-  "bip44": {
+   "bip44": {
     "coinType": 459
   },
   "alternativeBIP44s": [
