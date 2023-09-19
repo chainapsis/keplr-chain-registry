@@ -9,7 +9,16 @@
       "email": "blackfuryan@skiff.com",
       "website":"https://fury.black/"
     },
-   "bip44": {
+  "stakeCurrency": {
+    "coinDenom": "FURY",
+    "coinMinimalDenom": "ufury",
+    "coinDecimals": 6,
+    "coinGeckoId": "fanfury",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/highbury_710/ufury.png"
+  },
+  "walletUrl": "https://wallet.keplr.app/chains/highbury",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/highbury",
+  "bip44": {
     "coinType": 459
   },
   "alternativeBIP44s": [
@@ -32,17 +41,6 @@
       "coinDecimals": 6,
       "coinGeckoId": "fanfury",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/highbury_710/ufury.png"
-    },
-    {
-      "coinDenom": "JINXY",
-      "coinMinimalDenom": "jinxy",
-      "coinDecimals": 6
-    },
-    {
-      "coinDenom": "JINX",
-      "coinMinimalDenom": "jinx",
-      "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/highbury_710/ujinx.png"
     }
   ],
   "feeCurrencies": [
@@ -53,21 +51,11 @@
       "coinGeckoId": "fanfury",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/highbury_710/ufury.png",
       "gasPriceStep": {
-        "low": 0.01,
-        "average": 0.025,
-        "high": 0.03
+        "low": 0.05,
+        "average": 0.1,
+        "high": 0.25
       }
     }
   ],
-  "stakeCurrency": {
-    "coinDenom": "FURY",
-    "coinMinimalDenom": "ufury",
-    "coinDecimals": 6,
-    "coinGeckoId": "fanfury",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/highbury_710/ufury.png"
-  },
-  "features": [
-		"eth-address-gen",
-		"eth-key-sign"
-]
+  "features": ["authz-msg-revoke-fixed"]
 }
