@@ -35,7 +35,9 @@
     {
       "coinDenom": "IST",
       "coinMinimalDenom": "uist",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinGeckoId": "inter-stable-token",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/agoric/uist.png"    
     }
   ],
   "feeCurrencies": [
