@@ -64,6 +64,7 @@
       "coinDenom": "stEVMOS",
       "coinMinimalDenom": "staevmos",
       "coinDecimals": 18,
+      "coinGeckoId": "stride-staked-evmos",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/staevmos.png"
     },
     {
@@ -77,6 +78,7 @@
       "coinDenom": "stINJ",
       "coinMinimalDenom": "stinj",
       "coinDecimals": 18,
+      "coinGeckoId": "stride-staked-injective",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stinj.png"
     },
     {
