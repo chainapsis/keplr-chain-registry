@@ -29,6 +29,13 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/untrn.png"
     },
     {
+      "coinDenom": "wstETH",
+      "coinMinimalDenom": "factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH",
+      "coinDecimals": 18,
+      "coinGeckoId": "wrapped-steth",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/wstETH.png"
+    },
+    {
       "coinDenom": "STAKE",
       "coinMinimalDenom": "ustake",
       "coinDecimals": 6

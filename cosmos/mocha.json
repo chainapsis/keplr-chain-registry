@@ -1,14 +1,13 @@
 {
   "rpc": "https://rpc-celestia-testnet-mocha.keplr.app",
   "rest": "https://lcd-celestia-testnet-mocha.keplr.app",
-  "chainId": "mocha-3",
+  "chainId": "mocha-4",
   "chainName": "Celestia Mocha Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mocha/chain.png",
   "stakeCurrency": {
     "coinDenom": "TIA",
     "coinMinimalDenom": "utia",
-    "coinDecimals": 6,
-    "coinGeckoId": "celestia"
+    "coinDecimals": 6
   },
   "bip44": {
     "coinType": 118
@@ -25,8 +24,7 @@
     {
       "coinDenom": "TIA",
       "coinMinimalDenom": "utia",
-      "coinDecimals": 6,
-      "coinGeckoId": "celestia"
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
@@ -34,7 +32,6 @@
       "coinDenom": "TIA",
       "coinMinimalDenom": "utia",
       "coinDecimals": 6,
-      "coinGeckoId": "celestia",
       "gasPriceStep": {
         "low": 0.1,
         "average": 0.25,
