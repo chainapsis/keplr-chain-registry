@@ -17,12 +17,12 @@
     "coinType": 118
   },
   "bech32Config": {
-    "bech32PrefixAccAddr": "certik",
-    "bech32PrefixAccPub": "certikpub",
-    "bech32PrefixValAddr": "certikvaloper",
-    "bech32PrefixValPub": "certikvaloperpub",
-    "bech32PrefixConsAddr": "certikvalcons",
-    "bech32PrefixConsPub": "certikvalconspub"
+    "bech32PrefixAccAddr": "shentu",
+    "bech32PrefixAccPub": "shentupub",
+    "bech32PrefixValAddr": "shentuvaloper",
+    "bech32PrefixValPub": "shentuvaloperpub",
+    "bech32PrefixConsAddr": "shentuvalcons",
+    "bech32PrefixConsPub": "shentuvalconspub"
   },
   "currencies": [
     {
