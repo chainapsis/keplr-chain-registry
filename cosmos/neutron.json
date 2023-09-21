@@ -5,7 +5,7 @@
   "chainName": "Neutron",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/chain.png",
   "bip44": {
-    "coinType": 118
+    "coinType": 119
   },
   "bech32Config": {
     "bech32PrefixAccAddr": "neutron",
