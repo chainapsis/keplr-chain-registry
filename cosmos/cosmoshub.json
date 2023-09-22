@@ -31,9 +31,9 @@
       "coinMinimalDenom": "uatom",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/uatom.png",
       "gasPriceStep": {
-        "average": 0.0025,
+        "average": 0.025,
         "high": 0.03,
-        "low": 0.01
+        "low": 0.0013
       }
     }
   ],
