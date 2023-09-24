@@ -1,10 +1,10 @@
 {
-    "rpc": "https://rpc.composable.nodestake.top",
-    "rest": "https://api.composable.nodestake.top",
+    "rpc": "https://rpc-composable-ia.cosmosia.notional.ventures",
+    "rest": "https://api-composable-ia.cosmosia.notional.ventures",
     "nodeProvider": {
-      "name": "NodeStake",
-      "email": "info@nodestake.top",
-      "website": "https://nodestake.top/"
+      "name": "Notional",
+      "email": "contact@notional.ventures",
+      "website": "https://notional.ventures/"
     },
     "chainId": "centauri-1",
     "chainName": "Composable",

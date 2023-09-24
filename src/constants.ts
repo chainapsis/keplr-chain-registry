@@ -49,4 +49,5 @@ export const nativeTestnetChainIdentifiers: string[] = [
   "osmo-test",
   "pion",
   "theta-testnet",
+  "dydx-testnet",
 ];
