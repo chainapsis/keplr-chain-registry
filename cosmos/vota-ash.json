@@ -44,9 +44,9 @@
       "coinGeckoId": "dora",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/vota-ash/peaka.png",
       "gasPriceStep": {
-        "low": 0.001,
-        "average": 0.0025,
-        "high": 0.003
+        "low": 900000000000,
+        "average": 1500000000000,
+        "high": 2000000000000
       }
     }
   ],
