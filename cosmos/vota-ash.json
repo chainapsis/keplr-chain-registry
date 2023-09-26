@@ -13,7 +13,7 @@
     "coinDenom": "DORA",
     "coinMinimalDenom": "peaka",
     "coinDecimals": 18,
-    "coinGeckoId": "dora",
+    "coinGeckoId": "dora-factory-2",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/vota-ash/peaka.png"
   },
   "bip44": {
@@ -32,7 +32,7 @@
       "coinDenom": "DORA",
       "coinMinimalDenom": "peaka",
       "coinDecimals": 18,
-      "coinGeckoId": "dora",
+      "coinGeckoId": "dora-factory-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/vota-ash/peaka.png"
     }
   ],
@@ -41,12 +41,12 @@
       "coinDenom": "DORA",
       "coinMinimalDenom": "peaka",
       "coinDecimals": 18,
-      "coinGeckoId": "dora",
+      "coinGeckoId": "dora-factory-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/vota-ash/peaka.png",
       "gasPriceStep": {
-        "low": 0.001,
-        "average": 0.0025,
-        "high": 0.003
+        "low": 100000000000,
+        "average": 150000000000,
+        "high": 200000000000
       }
     }
   ],
