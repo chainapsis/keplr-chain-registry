@@ -5,9 +5,8 @@
    "rpc":"https://rpc-whitewhale-ia.cosmosia.notional.ventures/",
    "rest":"https://api-whitewhale-ia.cosmosia.notional.ventures/",
    "nodeProvider":{
-      "name":"Silk Nodes",
-      "email":"info@silknodes.io",
-      "website":"https://silknodes.io/"
+      "name":"Notional",
+      "website":"https://notional.ventures/"
    },
    "bip44":{
       "coinType":118
