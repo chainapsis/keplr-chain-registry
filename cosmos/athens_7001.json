@@ -1,6 +1,6 @@
 {
-  "rpc": "https://zetachain-athens.blockpi.network/rpc/v1/public",
-  "rest": "https://zetachain-athens.blockpi.network/lcd/v1/public",
+  "rpc": "https://rpc-archive.athens.zetachain.com:26657",
+  "rest": "https://rpc-archive.athens.zetachain.com:1317",
   "chainId": "athens_7001-1",
   "chainName": "ZetaChain Athens 3 Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/athens_7001/chain.png",
@@ -10,9 +10,9 @@
     "coinDecimals": 18
   },
   "nodeProvider": {
-    "name": "BlockPI",
-    "email": "help@blockpi.io",
-    "website": "https://blockpi.io/"
+    "name": "ZetaChain",
+    "email": "help@zetachain.com",
+    "website": "https://zetachain.com/"
   },
   "bip44": {
     "coinType": 60
