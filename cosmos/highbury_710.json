@@ -50,5 +50,5 @@
       }
     }
   ],
-  "features": ["authz-msg-revoke-fixed"]
+  "features": ["eth-address-gen", "eth-key-sign", "authz-msg-revoke-fixed"]
 }
