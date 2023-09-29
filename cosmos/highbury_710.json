@@ -1,6 +1,6 @@
 {
-  "rpc": "https://rpc.furya.io",
-  "rest": "https://api.furya.io",
+  "rpc": "https://gridiron.furya.io",
+  "rest": "https://api-mainnet.furya.io",
   "chainId": "highbury_710-1",
   "chainName": "Highbury",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/highbury_710/chain.png",
