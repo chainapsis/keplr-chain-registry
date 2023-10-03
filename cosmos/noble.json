@@ -25,6 +25,7 @@
       "coinDenom": "USDC",
       "coinMinimalDenom": "uusdc",
       "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/uusdc.png"
     },
     {
@@ -45,6 +46,7 @@
       "coinDenom": "USDC",
       "coinMinimalDenom": "uusdc",
       "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/uusdc.png",
       "gasPriceStep": {
         "low": 0,
