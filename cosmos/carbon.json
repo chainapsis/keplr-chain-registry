@@ -198,6 +198,28 @@
       }
     },
     {
+      "coinDenom": "EVMOS",
+      "coinMinimalDenom": "ibc/35E771B8682D828173F4B795F6C307780F96DC64D6F914FAE4CC9B4666F66364",
+      "coinDecimals": 18,
+      "coinGeckoId": "evmos",
+      "gasPriceStep": {
+        "low": 230769230769.23077,
+        "average": 288461538461.53846,
+        "high": 346153846153.84615
+      }
+    },
+    {
+      "coinDenom": "IRIS",
+      "coinMinimalDenom": "ibc/4E06CF24FEBFB3F5AF645377DCC0B70AA6183BAF6B918B8B6243FCDEB7D38118",
+      "coinDecimals": 6,
+      "coinGeckoId": "iris-network",
+      "gasPriceStep": {
+        "low": 0.4615384615384616,
+        "average": 0.5769230769230769,
+        "high": 0.6923076923076923
+      }
+    },
+    {
       "coinDenom": "KUJI",
       "coinMinimalDenom": "ibc/662914D0C1CEBCB070C68F061D035E8B10A07C79AB286E7342C85F3BE74612C5",
       "coinDecimals": 6,
@@ -305,6 +327,17 @@
         "low": 76923076923.07692,
         "average": 96153846153.84616,
         "high": 115384615384.61539
+      }
+    },
+    {
+      "coinDenom": "ZIL",
+      "coinMinimalDenom": "zil.1.18.1a4a06",
+      "coinDecimals": 12,
+      "coinGeckoId": "zilliqa",
+      "gasPriceStep": {
+        "low": 4615384.615384616,
+        "average": 5769230.769230769,
+        "high": 6923076.923076923
       }
     }
   ],
