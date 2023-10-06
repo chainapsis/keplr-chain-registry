@@ -262,7 +262,7 @@
       "coinDenom": "ATOM",
       "coinMinimalDenom": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
       "coinDecimals": 6,
-      "coinGeckoId": "cosmos",
+      "coinGeckoId": "cosmos-hub",
       "gasPriceStep": {
         "low": 0.007692307692307693,
         "average": 0.009615384615384616,
