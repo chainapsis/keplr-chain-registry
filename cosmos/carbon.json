@@ -184,7 +184,6 @@
       "coinDenom": "LUNA",
       "coinMinimalDenom": "ibc/2B58B8C147E8718EECCB3713271DF46DEE8A3A00A27242628604E31C2F370EF5",
       "coinDecimals": 6,
-      "coinGeckoId": "terra-luna-2",
       "gasPriceStep": {
         "low": 0.038461538461538464,
         "average": 0.04807692307692308,
