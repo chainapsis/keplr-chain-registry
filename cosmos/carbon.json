@@ -239,7 +239,7 @@
       "coinDenom": "stOSMO",
       "coinMinimalDenom": "ibc/75249A18DEFBEFE55F83B1C70CAD234DF164F174C6BC51682EE92C2C81C18C93",
       "coinDecimals": 6,
-      "coinGeckoId": "osmosis",
+      "coinGeckoId": "osmo",
       "gasPriceStep": {
         "low": 0.11538461538461539,
         "average": 0.14423076923076922,
@@ -282,7 +282,7 @@
       "coinDenom": "OSMO",
       "coinMinimalDenom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
       "coinDecimals": 6,
-      "coinGeckoId": "osmosis",
+      "coinGeckoId": "osmo",
       "gasPriceStep": {
         "low": 0.11538461538461539,
         "average": 0.14423076923076922,
