@@ -65,7 +65,7 @@
     {
       "coinDenom": "USC",
       "coinMinimalDenom": "usc",
-      "coinDecimals": 6,
+      "coinDecimals": 6
     },
     {
       "coinDenom": "USDC",
