@@ -13,7 +13,7 @@
     "coinDenom": "CONE",
     "coinMinimalDenom": "cone",
     "coinDecimals": 0,
-    "coinGeckoId": "cone",
+    "coinGeckoId": "honeywood",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/honeywood/cone.png"
   },
   "bip44": {
@@ -32,14 +32,13 @@
       "coinDenom": "HONEY",
       "coinMinimalDenom": "uhoney",
       "coinDecimals": 6,
-      "coinGeckoId": "honey",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/honeywood/uhoney.png"
     },
     {
       "coinDenom": "CONE",
       "coinMinimalDenom": "cone",
       "coinDecimals": 0,
-      "coinGeckoId": "cone",
+      "coinGeckoId": "honeywood",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/honeywood/cone.png"
     }
   ],
@@ -48,7 +47,6 @@
       "coinDenom": "HONEY",
       "coinMinimalDenom": "uhoney",
       "coinDecimals": 6,
-      "coinGeckoId": "honey",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/honeywood/uhoney.png",
       "gasPriceStep": {
         "low": 0.05,
