@@ -4,6 +4,11 @@
   "chainId": "reapchain_221230-1",
   "chainName": "Reapchain Mainnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/reapchain/chain.png",
+  "nodeProvider": {
+    "name": "Reapchain",
+    "email": "reapchain@reapchain.com",
+    "website": "https://reapchain.com"
+  },
   "stakeCurrency": {
     "coinDenom": "REAP",
     "coinMinimalDenom": "areap",
