@@ -53,5 +53,5 @@
       }
     }
   ],
-  "features": []
+  "features": ["authz-msg-revoke-fixed"]
 }

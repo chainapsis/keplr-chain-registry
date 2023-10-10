@@ -4,7 +4,6 @@
   "chainId": "medasdigital-1",
   "chainName": "Medas Digital",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/medasdigital/chain.png",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/medasdigital",
   "nodeProvider": {
     "name": "Medas Digital",
     "email": "info@medas-digital.io",

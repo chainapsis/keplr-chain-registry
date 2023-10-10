@@ -8,6 +8,7 @@
     "coinDenom": "TGD",
     "coinMinimalDenom": "utgd",
     "coinDecimals": 6,
+    "coinGeckoId": "tgrade",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tgrade-mainnet/utgd.png"
   },
   "bip44": {
@@ -26,6 +27,7 @@
       "coinDenom": "TGD",
       "coinMinimalDenom": "utgd",
       "coinDecimals": 6,
+      "coinGeckoId": "tgrade",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tgrade-mainnet/utgd.png"
     }
   ],
@@ -34,6 +36,7 @@
       "coinDenom": "TGD",
       "coinMinimalDenom": "utgd",
       "coinDecimals": 6,
+      "coinGeckoId": "tgrade",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tgrade-mainnet/utgd.png",
       "gasPriceStep": {
         "low": 0.05,

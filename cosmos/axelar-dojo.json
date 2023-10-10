@@ -188,6 +188,12 @@
       "coinMinimalDenom": "wmatic-wei",
       "coinDecimals": 18,
       "coinGeckoId": "wmatic"
+    },
+    {
+      "coinDenom": "ARB",
+      "coinMinimalDenom": "arb-wei",
+      "coinDecimals": 18,
+      "coinGeckoId": "arbitrum"
     }
   ],
   "feeCurrencies": [
