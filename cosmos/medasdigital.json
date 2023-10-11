@@ -44,5 +44,6 @@
       }
     }
   ],
+  "walletUrlForStaking": "https://app.medas-digital.io:4000"
   "features": []
 }
