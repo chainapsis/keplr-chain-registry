@@ -30,7 +30,8 @@
     {
       "coinDenom": "MEDAS",
       "coinMinimalDenom": "umedas",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/medasdigital/medas.png"
     }
   ],
   "feeCurrencies": [
@@ -42,7 +43,8 @@
         "low": 0.0001,
         "average": 0.0001,
         "high": 0.00025
-      }
+      },
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/medasdigital/medas.png"
     }
   ],
   "walletUrl": "https://app.medas-digital.io:4000",
