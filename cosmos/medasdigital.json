@@ -12,7 +12,8 @@
   "stakeCurrency": {
     "coinDenom": "MEDAS",
     "coinMinimalDenom": "umedas",
-    "coinDecimals": 6
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/medasdigital/medas.png"
   },
   "bip44": {
     "coinType": 118
