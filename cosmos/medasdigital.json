@@ -9,6 +9,8 @@
     "email": "info@medas-digital.io",
     "website":"https://medas-digital.io/"
   },
+  "walletUrl": "https://app.medas-digital.io",
+  "walletUrlForStaking": "https://app.medas-digital.io/delegate",
   "stakeCurrency": {
     "coinDenom": "MEDAS",
     "coinMinimalDenom": "umedas",
@@ -47,7 +49,5 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/medasdigital/umedas.png"
     }
   ],
-  "walletUrl": "https://app.medas-digital.io",
-  "walletUrlForStaking": "https://app.medas-digital.io/delegate",
   "features": []
 }
