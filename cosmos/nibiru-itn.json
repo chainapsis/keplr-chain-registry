@@ -1,7 +1,7 @@
 {
   "chainId": "nibiru-itn-3",
   "chainName": "Nibiru Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-itn/chain.png",
   "rpc": "https://rpc.itn-3.nibiru.fi/",
   "rest": "https://lcd.itn-3.nibiru.fi/",
   "nodeProvider": {
@@ -25,7 +25,7 @@
       "coinDenom": "NIBI",
       "coinMinimalDenom": "unibi",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-itn/chain.png"
     }
   ],
   "feeCurrencies": [
@@ -33,7 +33,7 @@
       "coinDenom": "NIBI",
       "coinMinimalDenom": "unibi",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru/chain.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-itn/chain.png",
       "gasPriceStep": {
         "low": 0.002,
         "average": 0.002,
@@ -45,7 +45,7 @@
     "coinDenom": "NIBI",
     "coinMinimalDenom": "unibi",
     "coinDecimals": 6,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru/chain.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-itn/chain.png"
   },
   "features": [
     "cosmwasm"
