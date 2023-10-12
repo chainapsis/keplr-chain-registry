@@ -35,9 +35,9 @@
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-itn/chain.png",
       "gasPriceStep": {
-        "low": 0.002,
-        "average": 0.002,
-        "high": 0.02
+        "low": 0.05,
+        "average": 0.125,
+        "high": 0.2
       }
     }
   ],
