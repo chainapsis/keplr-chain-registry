@@ -1,0 +1,56 @@
+{
+	"bech32Config": {
+		"bech32PrefixAccAddr": "cudos",
+		"bech32PrefixAccPub": "cudospub",
+		"bech32PrefixConsAddr": "cudosvalcons",
+		"bech32PrefixConsPub": "cudosvalconspub",
+		"bech32PrefixValAddr": "cudosvaloper",
+		"bech32PrefixValPub": "cudosvaloperpub"
+	},
+	"bip44": {
+		"coinType": 118
+	},
+	"chainId": "cudos-1",
+	"chainName": "CUDOS",
+	"chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cudos/chain.png",
+	"currencies": [
+		{
+			"coinDecimals": 18,
+			"coinDenom": "CUDOS",
+			"coinGeckoId": "cudos",
+			"coinMinimalDenom": "acudos",
+			"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cudos/acudos.png"
+		}
+	],
+	"features": [
+		"cosmwasm"
+	],
+	"feeCurrencies": [
+		{
+			"coinDecimals": 18,
+			"coinDenom": "CUDOS",
+			"coinGeckoId": "cudos",
+			"coinMinimalDenom": "acudos",
+			"gasPriceStep": {
+				"low": 3300000000000,
+				"average": 5000000000000,
+				"high": 6600000000000
+			},
+			"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cudos/acudos.png"
+		}
+	],
+	"rest": "https://rest.cudos.org/",
+	"rpc": "https://rpc.cudos.org:443",
+	"stakeCurrency": {
+		"coinDecimals": 18,
+		"coinDenom": "CUDOS",
+		"coinGeckoId": "cudos",
+		"coinMinimalDenom": "acudos",
+		"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cudos/acudos.png"
+	},
+	"nodeProvider": {
+		"name": "Cudo Ventures",
+		"email": "support@cudoventures.com",
+		"website": "https://cudos.org"
+	}
+}
