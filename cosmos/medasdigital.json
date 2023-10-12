@@ -48,6 +48,6 @@
     }
   ],
   "walletUrl": "https://app.medas-digital.io",
-  "walletUrlForStaking": "https://app.medas-digital.io/delegate"
+  "walletUrlForStaking": "https://app.medas-digital.io/delegate",
   "features": []
 }
