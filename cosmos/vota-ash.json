@@ -45,8 +45,8 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/vota-ash/peaka.png",
       "gasPriceStep": {
         "low": 100000000000,
-        "average": 150000000000,
-        "high": 200000000000
+        "average": 100000000000,
+        "high": 100000000000
       }
     }
   ],
