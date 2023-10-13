@@ -72,7 +72,7 @@ const main = async () => {
     if (chainInfo.chainSymbolImageUrl) {
       imageFiles.push(validateImageUrl(chainInfo.chainSymbolImageUrl));
     }
-    if (chainInfo.stakeCurrency.coinImageUrl) {
+    if (chainInfo.stakeCurrency?.coinImageUrl) {
       imageFiles.push(validateImageUrl(chainInfo.stakeCurrency.coinImageUrl));
     }
     for (const currency of chainInfo.currencies) {
