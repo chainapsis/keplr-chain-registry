@@ -108,7 +108,7 @@ export const validateChainInfo = async (
     }
   }
 
-  if (chainInfo.stakeCurrency.coinGeckoId) {
+  if (chainInfo.stakeCurrency?.coinGeckoId) {
     coinGeckoIds.add(chainInfo.stakeCurrency.coinGeckoId);
   }
 
@@ -148,9 +148,10 @@ const checkCoinGeckoId = async (coinGeckoId: string) => {
 export const checkCurrencies = (chainInfo: ChainInfo) => {
   // Check stake currency
   if (
+    chainInfo.stakeCurrency &&
     !chainInfo.currencies.some(
       (currency) =>
-        currency.coinMinimalDenom === chainInfo.stakeCurrency.coinMinimalDenom,
+        currency.coinMinimalDenom === chainInfo.stakeCurrency!.coinMinimalDenom,
     )
   ) {
     throw new Error(
