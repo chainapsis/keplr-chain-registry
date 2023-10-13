@@ -38,9 +38,11 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/uxprt.png"
     },
     {
-      "coinDenom": "STKATOM",
+      "coinDenom": "stkATOM",
       "coinMinimalDenom": "stk/uatom",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinGeckoId": "stkatom",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/stkatom.png"
     }
   ],
   "feeCurrencies": [
