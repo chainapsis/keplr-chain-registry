@@ -38,7 +38,7 @@
 			"coinGeckoId": "cudos",
 			"coinMinimalDenom": "acudos",
 			"gasPriceStep": {
-				"low": 3300000000000,
+				"low": 5000000000000,
 				"average": 5000000000000,
 				"high": 6600000000000
 			},
