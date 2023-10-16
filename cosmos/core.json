@@ -57,6 +57,29 @@
         "average": 0.025,
         "high": 0.04
       }
+    },
+    {
+      "coinDenom": "ATOM",
+      "coinMinimalDenom": "ibc/C8A74ABBE2AF892E15680D916A7C22130585CE5704F9B17A10F184A90D53BECA",
+      "coinDecimals": 6,
+      "coinGeckoId": "cosmos",
+      "gasPriceStep": {
+        "low": 0.0001,
+        "average": 0.001,
+        "high": 0.01
+      }
+    },
+    {   
+      "coinDenom": "stkATOM",
+      "coinMinimalDenom": "stk/uatom",
+      "coinDecimals": 6,
+      "coinGeckoId": "stkatom",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/stkatom.png",
+      "gasPriceStep": {
+        "low": 0.0001,
+        "average": 0.001,
+        "high": 0.01
+      }    
     }
   ],
   "features": []
