@@ -24,8 +24,7 @@
     {
       "coinDenom": "QWOYN",
       "coinMinimalDenom": "uqwoyn",
-      "coinDecimals": 6,
-      "coinGeckoId": "osmosis"
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
@@ -44,8 +43,7 @@
   "stakeCurrency": {
     "coinDenom": "QWOYN",
     "coinMinimalDenom": "uqwoyn",
-    "coinDecimals": 6,
-    "coinGeckoId": "qwoyn"
+    "coinDecimals": 6
   },
   "features": [
   ]
