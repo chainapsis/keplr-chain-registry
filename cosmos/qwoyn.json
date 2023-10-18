@@ -8,7 +8,7 @@
     "coinDenom": "QWOYN",
     "coinMinimalDenom": "uqwoyn",
     "coinDecimals": 6,
-    "coinGeckoId": "",
+    "coinGeckoId": "qwoyn",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qwoyn/qwoyn.png"
   },
   "walletUrl": "",
@@ -29,7 +29,7 @@
       "coinDenom": "QWOYN",
       "coinMinimalDenom": "uqwoyn",
       "coinDecimals": 6,
-      "coinGeckoId": "",
+      "coinGeckoId": "qwoyn",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qwoyn/qwoyn.png"
     }
   ],
