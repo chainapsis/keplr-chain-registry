@@ -1,18 +1,14 @@
 {
-  "rpc": "https://rpc.qwoyn.studio",
-  "rest": "https://api.qwoyn.studio",
   "chainId": "qwoyn-1",
   "chainName": "Qwoyn",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/regen/chain.png",
-  "stakeCurrency": {
-    "coinDenom": "QWOYN",
-    "coinMinimalDenom": "uqwoyn",
-    "coinDecimals": 6,
-    "coinGeckoId": "qwoyn",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qwoyn/qwoyn.png"
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qwoyn/qwoyn.png",
+  "rpc": "https://rpc.qwoyn.studio",
+  "rest": "https://api.qwoyn.studio",
+  "nodeProvider": {
+    "name": "Qwoyn Network",
+    "email": "devops@cosmic-horizon.com",
+    "website":"https://qwoyn.studio/"
   },
-  "walletUrl": "https://wallet.keplr.app/chains/qwoyn",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/qwoyn",
   "bip44": {
     "coinType": 118
   },
@@ -29,23 +25,28 @@
       "coinDenom": "QWOYN",
       "coinMinimalDenom": "uqwoyn",
       "coinDecimals": 6,
-      "coinGeckoId": "qwoyn",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qwoyn/qwoyn.png"
+      "coinGeckoId": "osmosis"
     }
   ],
   "feeCurrencies": [
     {
       "coinDenom": "QWOYN",
-      "coinMinimalDenom": "qwoyn",
+      "coinMinimalDenom": "uqwoyn",
       "coinDecimals": 6,
       "coinGeckoId": "qwoyn",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qwoyn/qwoyn.png",
       "gasPriceStep": {
-        "low": 0.015,
+        "low": 0.01,
         "average": 0.025,
-        "high": 0.04
+        "high": 0.03
       }
     }
   ],
-  "features": []
+  "stakeCurrency": {
+    "coinDenom": "QWOYN",
+    "coinMinimalDenom": "uqwoyn",
+    "coinDecimals": 6,
+    "coinGeckoId": "qwoyn"
+  },
+  "features": [
+  ]
 }
