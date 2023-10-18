@@ -1,0 +1,51 @@
+{
+  "rpc": "https://rpc.qwoyn.studio",
+  "rest": "https://api.qwoyn.studio",
+  "chainId": "qwoyn-1",
+  "chainName": "Qwoyn",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/regen/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "QWOYN",
+    "coinMinimalDenom": "uqwoyn",
+    "coinDecimals": 6,
+    "coinGeckoId": "",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qwoyn/qwoyn.png"
+  },
+  "walletUrl": "",
+  "walletUrlForStaking": "",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "qwoyn",
+    "bech32PrefixAccPub": "qwoynpub",
+    "bech32PrefixValAddr": "qwoynvaloper",
+    "bech32PrefixValPub": "qwoynvaloperpub",
+    "bech32PrefixConsAddr": "qwoynvalcons",
+    "bech32PrefixConsPub": "qwoynvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "QWOYN",
+      "coinMinimalDenom": "uqwoyn",
+      "coinDecimals": 6,
+      "coinGeckoId": "",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qwoyn/qwoyn.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "QWOYN",
+      "coinMinimalDenom": "qwoyn",
+      "coinDecimals": 6,
+      "coinGeckoId": "qwoyn",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qwoyn/qwoyn.png",
+      "gasPriceStep": {
+        "low": 0.015,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "features": []
+}
