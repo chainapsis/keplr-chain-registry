@@ -69,7 +69,7 @@
         "high": 0.01
       }
     },
-    {   
+    {
       "coinDenom": "stkATOM",
       "coinMinimalDenom": "stk/uatom",
       "coinDecimals": 6,
@@ -79,8 +79,22 @@
         "low": 0.0001,
         "average": 0.001,
         "high": 0.01
-      }    
+      }
+    },
+    {
+      "coinDenom": "PSTAKE",
+      "coinMinimalDenom": "ibc/A6E3AF63B3C906416A9AF7A556C59EA4BD50E617EFFE6299B99700CCB780E444",
+      "coinDecimals": 18,
+      "coinGeckoId": "pstake-finance",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006.png",
+      "gasPriceStep": {
+        "low": 100000000000000,
+        "average": 1000000000000000,
+        "high": 10000000000000000
+      }
     }
   ],
-  "features": []
+  "features": [
+    "cosmwasm"
+  ]
 }
