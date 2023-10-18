@@ -32,7 +32,6 @@
       "coinDenom": "QWOYN",
       "coinMinimalDenom": "uqwoyn",
       "coinDecimals": 6,
-      "coinGeckoId": "qwoyn",
       "gasPriceStep": {
         "low": 0.01,
         "average": 0.025,
