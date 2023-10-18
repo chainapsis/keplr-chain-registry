@@ -11,8 +11,8 @@
     "coinGeckoId": "qwoyn",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qwoyn/qwoyn.png"
   },
-  "walletUrl": "",
-  "walletUrlForStaking": "",
+  "walletUrl": "https://wallet.keplr.app/chains/qwoyn",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/qwoyn",
   "bip44": {
     "coinType": 118
   },
