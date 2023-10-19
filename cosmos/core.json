@@ -88,9 +88,9 @@
       "coinGeckoId": "pstake-finance",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006.png",
       "gasPriceStep": {
-        "low": 100000000000000,
-        "average": 1000000000000000,
-        "high": 10000000000000000
+        "low": 100000000,
+        "average": 1000000000,
+        "high": 10000000000
       }
     }
   ],
