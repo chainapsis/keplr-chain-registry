@@ -284,12 +284,6 @@
       "coinMinimalDenom": "gravity0xd8e2F184EedC79A9bdE9Eb7E34B0fF34e98692B7",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/ugraviton.png"
-    },
-    {
-      "coinDenom": "PSTAKE",
-      "coinMinimalDenom": "gravity0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006",
-      "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006.png"
     }
   ],
   "features": []
