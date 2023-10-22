@@ -1,7 +1,7 @@
 {
   "chainId": "qwoyn-1",
   "chainName": "Qwoyn",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/earendel/earendel.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qwoyn/qwoyn.png",
   "rpc": "https://rpc.qwoyn.studio",
   "rest": "https://api.qwoyn.studio",
   "nodeProvider": {
