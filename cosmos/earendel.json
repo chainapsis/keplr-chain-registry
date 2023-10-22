@@ -1,7 +1,7 @@
 {
   "chainId": "earendel-1",
   "chainName": "Qwoyn Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qwoyn/qwoyn.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/earendel/earendel.png",
   "rpc": "https://testnet-rpc.qwoyn.studio",
   "rest": "https://testnet-api.qwoyn.studio",
   "nodeProvider": {
