@@ -28,7 +28,7 @@
 			"coinDenom": "CUDOS",
 			"coinGeckoId": "cudos",
 			"coinMinimalDenom": "acudos",
-			"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cudos/acudos.png"
+			"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cudos/chain.png"
 		}
 	],
 	"feeCurrencies": [
@@ -42,7 +42,7 @@
 				"average": 5000000000000,
 				"high": 6600000000000
 			},
-			"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cudos/acudos.png"
+			"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cudos/chain.png"
 		}
 	],
 	"stakeCurrency": {
@@ -50,7 +50,7 @@
 		"coinDenom": "CUDOS",
 		"coinGeckoId": "cudos",
 		"coinMinimalDenom": "acudos",
-		"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cudos/acudos.png"
+		"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cudos/chain.png"
 	},
 	"features": [
 		"cosmwasm"
