@@ -112,10 +112,7 @@ export const validateChainInfo = async (
     coinGeckoIds.add(chainInfo.stakeCurrency.coinGeckoId);
   }
 
-  const checkCoinGeckoIds = Array.from(coinGeckoIds).map((coinGeckoId) =>
-    checkCoinGeckoId(coinGeckoId),
-  );
-  await Promise.all(checkCoinGeckoIds);
+  await checkCoinGeckoIds(...Array.from(coinGeckoIds));
 
   return chainInfo;
 };
@@ -129,19 +126,29 @@ export const checkImageSize = (path: string) => {
   }
 };
 
-const checkCoinGeckoId = async (coinGeckoId: string) => {
+const checkCoinGeckoIds = async (...coinGeckoIds: string[]) => {
   const response = await fetch(
-    `https://api.coingecko.com/api/v3/coins/${coinGeckoId}`,
+    `https://api.coingecko.com/api/v3/simple/price?vs_currencies=usd&ids=${coinGeckoIds.join(
+      ",",
+    )}`,
   );
 
   if (!response.ok) {
-    throw new Error(`Failed to fetch coinGeckoId ${coinGeckoId}`);
+    throw new Error(`Failed to fetch coinGeckoId ${coinGeckoIds.join(", ")}`);
   }
 
   const data = await response.json();
 
   if (data.hasOwnProperty("error")) {
-    throw new Error(`Failed to fetch coinGeckoId ${coinGeckoId}`);
+    throw new Error(`Failed to fetch coinGeckoId ${coinGeckoIds.join(", ")}`);
+  }
+
+  for (const coinGeckoId of coinGeckoIds) {
+    if (data[coinGeckoId] == null || data[coinGeckoId]["usd"] == null) {
+      throw new Error(
+        `Failed to fetch coinGeckoId ${coinGeckoId} from coin gecko`,
+      );
+    }
   }
 };
 
