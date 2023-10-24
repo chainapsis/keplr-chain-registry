@@ -8,7 +8,7 @@
       "coinDenom": "SOURCE",
       "coinMinimalDenom": "usource",
       "coinDecimals": 6,
-      "coinGeckoId": "",
+      "coinGeckoId": "source-protocol",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/source/source.png"
     },
     "nodeProvider": {
@@ -34,7 +34,7 @@
         "coinDenom": "SOURCE",
         "coinMinimalDenom": "usource",
         "coinDecimals": 6,
-        "coinGeckoId": "",
+        "coinGeckoId": "source-protocol",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/source/source.png"
       }
     ],
@@ -43,7 +43,7 @@
         "coinDenom": "SOURCE",
         "coinMinimalDenom": "usource",
         "coinDecimals": 6,
-        "coinGeckoId": "",
+        "coinGeckoId": "source-protocol",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/source/source.png",
         "gasPriceStep": {
           "low": 0.075,
