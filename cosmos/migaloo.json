@@ -35,9 +35,9 @@
          "coinDecimals":6,
          "coinGeckoId":"white-whale",
          "gasPriceStep":{
-            "low":0.25,
-            "average":0.3,
-            "high":0.35
+            "low":1,
+            "average":1.2,
+            "high":1.4
          }
       }
    ],
