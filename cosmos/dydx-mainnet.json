@@ -1,0 +1,46 @@
+{
+  "rpc": "https://rpc-dydx.keplr.app",
+  "rest": "https://lcd-dydx.keplr.app",
+  "chainId": "dydx-mainnet-1",
+  "chainName": "dYdX",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dydx-mainnet/adydx.png",
+  "stakeCurrency": {
+    "coinDenom": "DYDX",
+    "coinDecimals": 18,
+    "coinMinimalDenom": "adydx",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dydx-mainnet/adydx.png"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "dydx",
+    "bech32PrefixAccPub": "dydxpub",
+    "bech32PrefixValAddr": "dydxvaloper",
+    "bech32PrefixValPub": "dydxvaloperpub",
+    "bech32PrefixConsAddr": "dydxvalcons",
+    "bech32PrefixConsPub": "dydxvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "DYDX",
+      "coinDecimals": 18,
+      "coinMinimalDenom": "adydx",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dydx-mainnet/adydx.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "DYDX",
+      "coinDecimals": 18,
+      "coinMinimalDenom": "adydx",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dydx-mainnet/adydx.png",
+      "gasPriceStep": {
+        "low": 12500000000,
+        "average": 12500000000,
+        "high": 20000000000
+      }
+    }
+  ],
+  "features": []
+}
