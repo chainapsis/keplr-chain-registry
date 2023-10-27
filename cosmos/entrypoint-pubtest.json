@@ -5,7 +5,7 @@
   "rpc": "https://testnet-rpc.entrypoint.zone",
   "rest": "https://testnet-rest.entrypoint.zone",
   "nodeProvider": {
-    "name": "SimplyStaking",
+    "name": "Simply Staking",
     "email": "staking@simplystaking.com",
     "website":"https://simplystaking.com/"
   },
