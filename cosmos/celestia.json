@@ -37,8 +37,8 @@
         }
       }
     ],
-    "rest": "https://api.lunaroasis.net",
-    "rpc": "https://rpc.lunaroasis.net",
+    "rest": "https://api-keplr.lunaroasis.net",
+    "rpc": "https://rpc-keplr.lunaroasis.net",
     "stakeCurrency": {
       "coinDecimals": 6,
       "coinDenom": "TIA",
