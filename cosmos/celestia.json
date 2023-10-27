@@ -31,9 +31,9 @@
         "coinMinimalDenom": "utia",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/celestia/chain.png",
         "gasPriceStep": {
-          "average": 0.1,
-          "high": 0.2,
-          "low": 0.4
+          "low": 0.1,
+          "average": 0.2,
+          "high": 0.4
         }
       }
     ],
