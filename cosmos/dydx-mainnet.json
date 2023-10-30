@@ -52,5 +52,6 @@
       }
     }
   ],
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/dydx",
   "features": []
 }
