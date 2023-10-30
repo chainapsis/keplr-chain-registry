@@ -43,7 +43,7 @@
       "coinDecimals": 6,
       "coinDenom": "TIA",
       "coinGeckoId": "celestia",
-      "coinMinimalDenom": "uatom",
+      "coinMinimalDenom": "utia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/celestia/uatom.png"
     },
     "walletUrlForStaking": "https://wallet.keplr.app/chains/celestia"
