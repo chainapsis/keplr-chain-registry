@@ -4,11 +4,6 @@
   "chainId": "pion-1",
   "chainName": "Neutron Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/chain.png",
-  "stakeCurrency": {
-    "coinDenom": "STAKE",
-    "coinMinimalDenom": "ustake",
-    "coinDecimals": 6
-  },
   "bip44": {
     "coinType": 118
   },
