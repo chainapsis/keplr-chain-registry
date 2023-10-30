@@ -31,7 +31,7 @@
   "feeCurrencies": [
     {
       "coinDenom": "ATOM",
-      "coinMinimalDenom": "ibc/E774302AE43D5FA03522C42B14823288E7DD1B2F54F85DFD3D6FC3E5FCF54645",
+      "coinMinimalDenom": "ibc/8A138BC76D0FB2665F8937EC2BF01B9F6A714F6127221A0E155106A45E09BCC5",
       "coinDecimals": 6,
       "gasPriceStep": {
         "low": 0.01,
