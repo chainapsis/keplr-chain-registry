@@ -1,21 +1,21 @@
 {
-    "rpc": "https://rpc-terp.zenchainlabs.io",
-    "rest": "https://api-terp.zenchainlabs.io",
+    "rpc": "https://terp-mainnet-rpc.itrocket.net",
+    "rest": "https://terp-mainnet-api.itrocket.net",
     "nodeProvider": {
-        "name": "ZenChainLabs",
-        "email": "support@zenchainlabs.io",
-        "website":"https://zenchainlabs.io/"
+        "name": "ITRocket",
+        "email": "terp.network@skiff.com",
+        "website":"https://itrocket.net/"
       },
     "chainId": "morocco-1",
     "chainName": "Terp Network",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/morocco/chain.png",
     "stakeCurrency": {
-      "coinDenom": "TERP",
-      "coinMinimalDenom": "uterp",
+      "coinDenom": "TERPX",
+      "coinMinimalDenom": "uterpx",
       "coinDecimals": 6
     },
-    "walletUrl": "https://dash.terp.network",
-    "walletUrlForStaking": "https://ping.pub/terp/staking",
+    "walletUrl": "https://testnet.itrocket.net",
+    "walletUrlForStaking": "https://testnet.itrocket.net/terp/staking",
     "bip44": {
       "coinType": 118
     },
@@ -29,20 +29,20 @@
     },
     "currencies": [
       {
-        "coinDenom": "TERP",
-        "coinMinimalDenom": "uterp",
+        "coinDenom": "TERPX",
+        "coinMinimalDenom": "uterpx",
         "coinDecimals": 6
       },
       {
-        "coinDenom": "THIOL",
-        "coinMinimalDenom": "uthiol",
+        "coinDenom": "THIOLX",
+        "coinMinimalDenom": "uthioxl",
         "coinDecimals": 6
       }
     ],
     "feeCurrencies": [
       {
-        "coinDenom": "THIOL",
-        "coinMinimalDenom": "uthiol",
+        "coinDenom": "THIOLX",
+        "coinMinimalDenom": "uthiolx",
         "coinDecimals": 6,
         "gasPriceStep": {
             "low": 0.5,
@@ -51,8 +51,8 @@
           }
         },
         {
-          "coinDenom": "TERP",
-          "coinMinimalDenom": "uterp",
+          "coinDenom": "TERPX",
+          "coinMinimalDenom": "uterpx",
           "coinDecimals": 6,
           "gasPriceStep": {
               "low": 0.02,
