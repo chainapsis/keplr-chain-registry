@@ -17,7 +17,6 @@
     {
       "coinDecimals": 6,
       "coinDenom": "TIA",
-      "coinGeckoId": "celestia",
       "coinMinimalDenom": "utia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/celestia/chain.png"
     }
@@ -27,7 +26,6 @@
     {
       "coinDecimals": 6,
       "coinDenom": "TIA",
-      "coinGeckoId": "celestia",
       "coinMinimalDenom": "utia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/celestia/chain.png",
       "gasPriceStep": {
@@ -42,7 +40,6 @@
   "stakeCurrency": {
     "coinDecimals": 6,
     "coinDenom": "TIA",
-    "coinGeckoId": "celestia",
     "coinMinimalDenom": "utia",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/celestia/uatom.png"
   },
