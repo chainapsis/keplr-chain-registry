@@ -6,8 +6,8 @@
         "email": "terp.network@skiff.com",
         "website":"https://itrocket.net/"
       },
-    "chainId": "morocco-1",
-    "chainName": "Terp Network",
+    "chainId": "90u-2",
+    "chainName": "Terp Network Test-Net",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/morocco/chain.png",
     "stakeCurrency": {
       "coinDenom": "TERPX",
