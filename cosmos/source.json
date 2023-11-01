@@ -24,16 +24,14 @@
     {
       "coinDenom": "SOURCE",
       "coinMinimalDenom": "usource",
-      "coinDecimals": 6,
-      "coinGeckoId": "source"
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
     {
       "coinDenom": "SOURCE",
       "coinMinimalDenom": "usource",
-      "coinDecimals": 6,
-      "coinGeckoId": "source",
+      "coinDecimals": 6
       "gasPriceStep": {
         "low": 0.025,
         "average": 0.05,
@@ -44,8 +42,7 @@
   "stakeCurrency": {
     "coinDenom": "SOURCE",
     "coinMinimalDenom": "usource",
-    "coinDecimals": 6,
-    "coinGeckoId": "source"
+    "coinDecimals": 6
   },
   "features": [
     "cosmwasm"
