@@ -1,6 +1,6 @@
 {
-    "rpc": "https://terp-mainnet-rpc.itrocket.net",
-    "rest": "https://terp-mainnet-api.itrocket.net",
+    "rpc": "https://terp-testnet-rpc.itrocket.net",
+    "rest": "https://terp-testnet-api.itrocket.net",
     "nodeProvider": {
         "name": "ITRocket",
         "email": "terp.network@skiff.com",
