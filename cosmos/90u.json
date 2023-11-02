@@ -14,7 +14,6 @@
       "coinMinimalDenom": "uterpx",
       "coinDecimals": 6
     },
-    "walletUrl": "https://testnet.itrocket.net",
     "walletUrlForStaking": "https://testnet.itrocket.net/terp/staking",
     "bip44": {
       "coinType": 118

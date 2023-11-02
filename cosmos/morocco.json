@@ -14,7 +14,6 @@
     "coinMinimalDenom": "uterp",
     "coinDecimals": 6
   },
-  "walletUrl": "https://dash.terp.network",
   "walletUrlForStaking": "https://ping.pub/terp/staking",
   "bip44": {
     "coinType": 118
