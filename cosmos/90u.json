@@ -7,7 +7,7 @@
         "website":"https://itrocket.net/"
       },
     "chainId": "90u-2",
-    "chainName": "Terp Network Test-Net",
+    "chainName": "Terp Testnet",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/90u/chain.png",
     "stakeCurrency": {
       "coinDenom": "TERPX",
