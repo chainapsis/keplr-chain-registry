@@ -1,0 +1,66 @@
+{
+    "rpc": "https://terp-testnet-rpc.itrocket.net",
+    "rest": "https://terp-testnet-api.itrocket.net",
+    "nodeProvider": {
+        "name": "ITRocket",
+        "email": "terp.network@skiff.com",
+        "website":"https://itrocket.net/"
+      },
+    "chainId": "90u-2",
+    "chainName": "Terp Testnet",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/90u/chain.png",
+    "stakeCurrency": {
+      "coinDenom": "TERPX",
+      "coinMinimalDenom": "uterpx",
+      "coinDecimals": 6
+    },
+    "walletUrlForStaking": "https://testnet.itrocket.net/terp/staking",
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "terp",
+      "bech32PrefixAccPub": "terppub",
+      "bech32PrefixValAddr": "terpvaloper",
+      "bech32PrefixValPub": "terpvaloperpub",
+      "bech32PrefixConsAddr": "terpvalcons",
+      "bech32PrefixConsPub": "terpvalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "TERPX",
+        "coinMinimalDenom": "uterpx",
+        "coinDecimals": 6
+      },
+      {
+        "coinDenom": "THIOLX",
+        "coinMinimalDenom": "uthiolx",
+        "coinDecimals": 6
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "THIOLX",
+        "coinMinimalDenom": "uthiolx",
+        "coinDecimals": 6,
+        "gasPriceStep": {
+            "low": 0.5,
+            "average": 0.75,
+            "high": 1.0
+          }
+        },
+        {
+          "coinDenom": "TERPX",
+          "coinMinimalDenom": "uterpx",
+          "coinDecimals": 6,
+          "gasPriceStep": {
+              "low": 0.02,
+              "average": 0.04,
+              "high": 0.075
+            }
+          }
+    ],
+    "features": [
+        "cosmwasm"
+    ]
+  }
