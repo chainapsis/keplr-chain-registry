@@ -24,7 +24,7 @@
     {
       "coinDenom": "SOURCE",
       "coinMinimalDenom": "usource",
-      "coinDecimals": 6,
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
@@ -42,7 +42,7 @@
   "stakeCurrency": {
     "coinDenom": "SOURCE",
     "coinMinimalDenom": "usource",
-    "coinDecimals": 6,
+    "coinDecimals": 6
   },
   "features": [
     "cosmwasm"
