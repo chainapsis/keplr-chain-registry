@@ -67,8 +67,5 @@
       }
     }
   ],
-  "features": [
-    "cosmwasm",
-    "osmosis-txfees"
-  ]
+  "features": ["cosmwasm", "osmosis-txfees", "osmosis-base-fee-beta"]
 }
