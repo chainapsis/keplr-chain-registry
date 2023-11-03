@@ -15,7 +15,6 @@ const main = async () => {
 
   if (gasPriceStep) {
     try {
-
       // Get Osmosis's base fee.
       const response = await fetch(
         "http://104.248.140.198:1317/osmosis/txfees/v1beta1/cur_eip_base_fee",
