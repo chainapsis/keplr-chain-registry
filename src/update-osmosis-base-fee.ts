@@ -24,8 +24,8 @@ const main = async () => {
 
       // Calculate new gas price step.
       const low = new Dec(gasPriceStep.low);
-      let average = baseFee.mul(new Dec(1.2));
-      let high = baseFee.mul(new Dec(3));
+      let average = baseFee.mul(new Dec(1.1));
+      let high = baseFee.mul(new Dec(2));
 
       if (average.lt(low)) {
         average = low;
