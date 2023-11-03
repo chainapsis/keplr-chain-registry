@@ -1,0 +1,37 @@
+name: Osmosis Base Fee Cron Job
+on:
+  schedule:
+    - cron: "*/2 * * * *"
+
+jobs:
+  validation:
+    name: Osmosis Base Fee Cron Job
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup nodejs
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      - run: npm install --global yarn
+      - run: yarn install --frozen-lockfile
+
+      - name: Check chain updates
+        id: check-update
+        continue-on-error: true
+        run: |
+          yarn ts-node src/update-osmosis-base-fee.ts
+
+      - name: Update Git
+        id: update-git
+        if: ${{ steps.check-update.outputs.hasError == false }}
+        run: |
+          git config --global user.name "HeesungB"
+          git config --global user.email "hezo25@naver.com"
+          git add .
+          git commit -m "Update Osmosis Base Fee"
+          git push

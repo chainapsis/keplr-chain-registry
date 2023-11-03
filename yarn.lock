@@ -496,6 +496,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@keplr-wallet/types@npm:0.12.39":
+  version: 0.12.39
+  resolution: "@keplr-wallet/types@npm:0.12.39"
+  dependencies:
+    long: ^4.0.0
+  checksum: a66df27d013c35bfaa48b7bb21f0dc775a2ce8583e5fa3a5d0767698fa9354a356103ec6bcb2718fc0f27ab338a901299d0eabe67656304ec5e47b4fb0988cf9
+  languageName: node
+  linkType: hard
+
 "@keplr-wallet/unit@npm:0.12.34":
   version: 0.12.34
   resolution: "@keplr-wallet/unit@npm:0.12.34"
@@ -504,6 +513,17 @@ __metadata:
     big-integer: ^1.6.48
     utility-types: ^3.10.0
   checksum: 40a62dd5062e4f3975771d289c8b62b9ae625a3fd4407e5288836b3984f5eeed68899dd65e806d49a2eb79a4ad065e7c14b3987f89f8503ea6dcf04c75c6f88d
+  languageName: node
+  linkType: hard
+
+"@keplr-wallet/unit@npm:^0.12.34":
+  version: 0.12.39
+  resolution: "@keplr-wallet/unit@npm:0.12.39"
+  dependencies:
+    "@keplr-wallet/types": 0.12.39
+    big-integer: ^1.6.48
+    utility-types: ^3.10.0
+  checksum: eef63ea7ee1366e5737965a99e92d305ef979e97733a0a249d2c73e5636a2ef15c6b7aea4cb6c1e3bf240bf1126a62e31f0bfcfa1d1d30c8d06af6c7baf3a68f
   languageName: node
   linkType: hard
 
@@ -1678,6 +1698,7 @@ __metadata:
     "@keplr-wallet/common": 0.12.34
     "@keplr-wallet/cosmos": 0.12.34
     "@keplr-wallet/types": 0.12.34
+    "@keplr-wallet/unit": ^0.12.34
     "@types/cors": ^2.8.13
     "@types/eslint": ^8.4.10
     "@types/node": 18.11.17
