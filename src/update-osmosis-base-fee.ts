@@ -3,18 +3,18 @@ import { ChainInfo } from "@keplr-wallet/types";
 import { Dec } from "@keplr-wallet/unit";
 
 const main = async () => {
-  const path = "cosmos/osmosis.json";
-  const file = readFileSync(path, "utf-8");
+  try {
+    const path = "cosmos/osmosis.json";
+    const file = readFileSync(path, "utf-8");
 
-  const chainInfo: ChainInfo = JSON.parse(file);
+    const chainInfo: ChainInfo = JSON.parse(file);
 
-  // Get Osmosis's gas price step.
-  const gasPriceStep = chainInfo.feeCurrencies.find(
-    (currency) => currency.coinMinimalDenom === "uosmo",
-  )?.gasPriceStep;
+    // Get Osmosis's gas price step.
+    const gasPriceStep = chainInfo.feeCurrencies.find(
+      (currency) => currency.coinMinimalDenom === "uosmo",
+    )?.gasPriceStep;
 
-  if (gasPriceStep) {
-    try {
+    if (gasPriceStep) {
       // Get Osmosis's base fee.
       const response = await fetch(
         "http://104.248.140.198:1317/osmosis/txfees/v1beta1/cur_eip_base_fee",
@@ -66,11 +66,11 @@ const main = async () => {
 
       // Write the updated chain info.
       writeFileSync(path, JSON.stringify(newChainInfo, null, 2));
-    } catch (e) {
-      if (e instanceof Error) {
-        console.log(e.message);
-      }
     }
+  } catch (e: any) {
+    console.log(e.message || e.toString());
+
+    process.exit(1);
   }
 };
 
