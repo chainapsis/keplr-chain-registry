@@ -62,8 +62,8 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/uosmo.png",
       "gasPriceStep": {
         "low": 0.0025,
-        "average": 0.02655406869791667,
-        "high": 0.03319258587239584
+        "average": 0.02532614799829261,
+        "high": 0.03165768499786576
       }
     }
   ],
