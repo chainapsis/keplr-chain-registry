@@ -47,7 +47,6 @@
         "coinGeckoId": "six-sgma"
       },
       "features": [
-        "cosmwasm",
-        
+        "cosmwasm"
       ]
     }
