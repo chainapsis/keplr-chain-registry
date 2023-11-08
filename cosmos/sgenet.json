@@ -8,6 +8,7 @@
         "email": "jerome@kingnodes.com",
         "website":"https://www.kingnodes.com/"
       },
+      "walletUrlForStaking": "https://cosmos.leapwallet.io/transact/stake/plain?chain=sge",
       "bip44": {
         "coinType": 118
       },
