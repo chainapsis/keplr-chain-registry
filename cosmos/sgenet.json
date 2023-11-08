@@ -23,8 +23,7 @@
         {
           "coinDenom": "SGE",
           "coinMinimalDenom": "usge",
-          "coinDecimals": 6,
-          "coinGeckoId": "six-sigma"
+          "coinDecimals": 6
         }
       ],
       "feeCurrencies": [
@@ -32,7 +31,6 @@
           "coinDenom": "SGE",
           "coinMinimalDenom": "usge",
           "coinDecimals": 6,
-          "coinGeckoId": "six-sigma",
           "gasPriceStep": {
             "low": 0.1,
             "average": 0.25,
@@ -43,8 +41,7 @@
       "stakeCurrency": {
         "coinDenom": "SGE",
         "coinMinimalDenom": "usge",
-        "coinDecimals": 6,
-        "coinGeckoId": "six-sgma"
+        "coinDecimals": 6
       },
       "features": [
         "cosmwasm"
