@@ -48,6 +48,6 @@
       },
       "features": [
         "cosmwasm",
-        "ibc-transfer"
+        
       ]
     }
