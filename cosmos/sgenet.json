@@ -1,6 +1,6 @@
 {   "chainId": "sgenet-1",
     "chainName": "SGE",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/90u/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sgenet/chain.png",
     "rpc": "https://sge-priv-rpc.kingnodes.com",
     "rest": "https://sge-priv-rest.kingnodes.com",
     "nodeProvider": {
