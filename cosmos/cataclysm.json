@@ -35,9 +35,9 @@
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cataclysm/chain.png",
       "gasPriceStep": {
-        "low": 0.05,
-        "average": 0.125,
-        "high": 0.2
+        "low": 0.025,
+        "average": 0.05,
+        "high": 0.1
       }
     }
   ],
