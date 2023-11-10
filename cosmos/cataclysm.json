@@ -1,6 +1,6 @@
 {
   "chainId": "cataclysm-1",
-  "chainName": "Nibiru Testnet",
+  "chainName": "Nibiru",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cataclysm/chain.png",
   "rpc": "https://rpc.nibiru.fi/",
   "rest": "https://lcd.nibiru.fi/",
