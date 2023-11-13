@@ -1,6 +1,6 @@
 {
   "chainId": "teritori-1",
-  "chainName": "teritori-1",
+  "chainName": "Teritori",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/teritori/chain.png",
   "rpc": "https://rpc.mainnet.teritori.com",
   "rest": "https://rest.mainnet.teritori.com",
