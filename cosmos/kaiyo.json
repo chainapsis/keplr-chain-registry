@@ -25,7 +25,8 @@
       "coinDenom": "KUJI",
       "coinMinimalDenom": "ukuji",
       "coinDecimals": 6,
-      "coinGeckoId": "kujira"
+      "coinGeckoId": "kujira",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/ukuji.png"
     },
     {
       "coinDenom": "USK",
@@ -45,7 +46,8 @@
       "coinDenom": "KUJI",
       "coinMinimalDenom": "ukuji",
       "coinDecimals": 6,
-      "coinGeckoId": "kujira"
+      "coinGeckoId": "kujira",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/ukuji.png"
     },
     {
       "coinDenom": "USK",
@@ -118,7 +120,8 @@
     "coinDenom": "KUJI",
     "coinMinimalDenom": "ukuji",
     "coinDecimals": 6,
-    "coinGeckoId": "kujira"
+    "coinGeckoId": "kujira",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/ukuji.png"
   },
   "features": ["cosmwasm"]
 }
