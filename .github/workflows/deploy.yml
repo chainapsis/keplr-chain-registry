@@ -2,7 +2,7 @@ name: Deploy
 on:
   push:
     branches:
-      - test-lambda
+      - main
 
 jobs:
   publish:
