@@ -65,7 +65,7 @@
       "coinDenom": "ATOM",
       "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
       "coinDecimals": 6,
-      "coinGeckoId": "cosmoshub"
+      "coinGeckoId": "cosmos"
     },
     {
       "coinDenom": "OSMO",
@@ -89,7 +89,7 @@
       "coinDenom": "JUNO",
       "coinMinimalDenom": "ibc/EFF323CC632EC4F747C61BCE238A758EFDB7699C3226565F7C20DA06509D59A5",
       "coinDecimals": 6,
-      "coinGeckoId": "juno"
+      "coinGeckoId": "juno-network"
     },
     {
       "coinDenom": "SCRT",
@@ -101,7 +101,7 @@
       "coinDenom": "STARS",
       "coinMinimalDenom": "ibc/4F393C3FCA4190C0A6756CE7F6D897D5D1BE57D6CCB80D0BC87393566A7B6602",
       "coinDecimals": 6,
-      "coinGeckoId": "stars"
+      "coinGeckoId": "stargaze"
     },
     {
       "coinDenom": "wAVAX",
