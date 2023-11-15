@@ -1,7 +1,7 @@
 {
   "chainId": "mantrachain-testnet-1",
   "chainName": "MANTRA Chain Testnet",
-  "chainSymbolImageUrl": "https://github.com/chainapsis/keplr-chain-registry/blob/main/images/mantrachain-testnet/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantrachain-testnet/chain.png",
   "rpc": "https://rpc.testnet.mantrachain.io",
   "rest": "https://api.testnet.mantrachain.io",
   "nodeProvider": {
