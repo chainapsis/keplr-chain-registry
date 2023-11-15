@@ -34,9 +34,9 @@
       "coinGeckoId": "likecoin",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/likecoin-mainnet/nanolike.png",
       "gasPriceStep": {
-        "low": 1,
-        "average": 10,
-        "high": 1000
+        "low": 1000,
+        "average": 10000,
+        "high": 1000000
       }
     }
   ],
