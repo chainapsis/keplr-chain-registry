@@ -9,6 +9,9 @@
     "email": "dev@finschia.org",
     "website":"https://www.finschia.io"
   },
+  "bip44": {
+    "coinType": 438
+  },
   "bech32Config": {
     "bech32PrefixAccAddr": "tlink",
     "bech32PrefixAccPub": "tlinkpub",
