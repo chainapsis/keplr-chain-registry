@@ -1,0 +1,51 @@
+{
+  "chainId": "ebony-2",
+  "chainName": "Ebony",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ebony/chain.png",
+  "rpc": "https://ebony-rpc.finschia.io",
+  "rest": "https://ebony-api.finschia.io",
+  "nodeProvider": {
+    "name": "Finschia Foundation",
+    "email": "dev@finschia.org",
+    "website":"https://www.finschia.io"
+  },
+  "bip44": {
+    "coinType": 438
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "tlink",
+    "bech32PrefixAccPub": "tlinkpub",
+    "bech32PrefixValAddr": "tlinkvaloper",
+    "bech32PrefixValPub": "tlinkvaloperpub",
+    "bech32PrefixConsAddr": "tlinkvalcons",
+    "bech32PrefixConsPub": "tlinkvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "TFNSA",
+      "coinMinimalDenom": "tcony",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ebony/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "TFNSA",
+      "coinMinimalDenom": "tcony",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ebony/chain.png",
+      "gasPriceStep": {
+        "average": 0.015,
+        "high": 0.015,
+        "low": 0.015
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDecimals": 6,
+    "coinDenom": "TFNSA",
+    "coinMinimalDenom": "tcony",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ebony/chain.png"
+  },
+  "features": ["cosmwasm"]
+}
