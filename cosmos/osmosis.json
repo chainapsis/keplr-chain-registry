@@ -61,10 +61,14 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/uosmo.png",
       "gasPriceStep": {
         "low": 0.0025,
-        "average": 0.025,
-        "high": 0.04
+        "average": 0.04983512396351864,
+        "high": 0.0622939049543983
       }
     }
   ],
-  "features": ["cosmwasm", "osmosis-txfees", "osmosis-base-fee-beta"]
+  "features": [
+    "cosmwasm",
+    "osmosis-txfees",
+    "osmosis-base-fee-beta"
+  ]
 }
