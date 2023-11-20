@@ -32,8 +32,8 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/celestia/chain.png",
       "gasPriceStep": {
         "low": 0.002,
-        "average": 0.2,
-        "high": 0.4
+        "average": 0.004,
+        "high": 0.008
       }
     }
   ],
