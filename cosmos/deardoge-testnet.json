@@ -6,14 +6,14 @@
     "email": "node-operation@mail.dorafactory.org",
     "website": "https://dorafactory.org"
   },
-  "chainId": "vota-flatsat",
+  "chainId": "deardoge-testnet",
   "chainName": "Dear Doge Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/vota-flatsat/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/deardoge-testnet/chain.png",
   "stakeCurrency": {
-    "coinDenom": "DD",
-    "coinMinimalDenom": "uDD",
+    "coinDenom": "DDOG",
+    "coinMinimalDenom": "uddog",
     "coinDecimals": 6,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/vota-flatsat/uDD.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/deardoge-testnet/uddog.png"
   },
   "bip44": {
     "coinType": 118
@@ -28,16 +28,16 @@
   },
   "currencies": [
     {
-      "coinDenom": "DD",
-      "coinMinimalDenom": "uDD",
+      "coinDenom": "DDOG",
+      "coinMinimalDenom": "uddog",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/vota-flatsat/peaka.png"
     }
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "DD",
-      "coinMinimalDenom": "uDD",
+      "coinDenom": "DDOG",
+      "coinMinimalDenom": "uddog",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/vota-flatsat/peaka.png",
       "gasPriceStep": {
