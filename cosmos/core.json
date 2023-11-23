@@ -93,7 +93,6 @@
       }
     }
   ],
-  "features": [
-    "cosmwasm"
-  ]
+  "features": ["cosmwasm"],
+  "isTestnet": true
 }
