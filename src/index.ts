@@ -1,6 +1,10 @@
 import { checkImageSize, validateChainInfoFromPath } from "./validate";
 import libPath from "path";
 import { ChainIdHelper } from "@keplr-wallet/cosmos";
+import {
+  nativeMainnetChainIdentifiers,
+  nativeTestnetChainIdentifiers,
+} from "./constants";
 
 const main = async () => {
   // get file name
@@ -16,66 +20,17 @@ const main = async () => {
     const chainInfo = await validateChainInfoFromPath(path);
 
     const isNativeSupported = (() => {
-      const nativeChains: string[] = [
-        "cosmoshub",
-        "osmosis",
-        "juno",
-        "agoric",
-        "akashnet",
-        "axelar-dojo",
-        "bostrom",
-        "core",
-        "emoney",
-        "evmos_9001",
-        "gravity-bridge",
-        "ixo",
-        "iov-mainnet-ibc",
-        "irishub",
-        "kava_2222",
-        "regen",
-        "secret",
-        "sentinelhub",
-        "shentu-2.2",
-        "sifchain",
-        "sommelier",
-        "stargaze",
-        "stride",
-        "tgrade-mainnet",
-        "umee",
-        "crypto-org-chain-mainnet",
-        "quicksilver",
-        "columbus",
-        "phoenix",
-        "mars",
-        "quasar",
-        "noble",
-        "injective",
-        "omniflixhub",
-        "kyve",
-        "neutron",
-        "gitopia",
-        "likecoin-mainnet",
-      ];
       const chainIdentifier = ChainIdHelper.parse(chainInfo.chainId).identifier;
 
-      return nativeChains.map((s) => s.trim()).includes(chainIdentifier);
+      return nativeMainnetChainIdentifiers
+        .map((s) => s.trim())
+        .includes(chainIdentifier);
     })();
 
     const isTestnetChain = (() => {
-      const testNetChains: string[] = [
-        "ares",
-        "axelar-testnet-lisbon",
-        "atlantic",
-        "blockspacerace",
-        "elfagar",
-        "osmo-test",
-        "pion",
-        "theta-testnet",
-      ];
-
       const chainIdentifier = ChainIdHelper.parse(chainInfo.chainId).identifier;
 
-      return testNetChains
+      return nativeTestnetChainIdentifiers
         .map((s) => s.trim())
         .some((s) => s === chainIdentifier);
     })();
@@ -117,7 +72,7 @@ const main = async () => {
     if (chainInfo.chainSymbolImageUrl) {
       imageFiles.push(validateImageUrl(chainInfo.chainSymbolImageUrl));
     }
-    if (chainInfo.stakeCurrency.coinImageUrl) {
+    if (chainInfo.stakeCurrency?.coinImageUrl) {
       imageFiles.push(validateImageUrl(chainInfo.stakeCurrency.coinImageUrl));
     }
     for (const currency of chainInfo.currencies) {

@@ -2,7 +2,7 @@
   "rpc": "https://rpc-crypto-org.keplr.app",
   "rest": "https://lcd-crypto-org.keplr.app",
   "chainId": "crypto-org-chain-mainnet-1",
-  "chainName": "Crypto.org",
+  "chainName": "Cronos POS",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/crypto-org-chain-mainnet/chain.png",
   "stakeCurrency": {
     "coinDenom": "CRO",
@@ -47,7 +47,7 @@
       }
     }
   ],
-  "features": [],
+  "features": ["authz-msg-revoke-fixed"],
   "alternativeBIP44s": [
     {
       "coinType": 118

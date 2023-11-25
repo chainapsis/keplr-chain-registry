@@ -1,0 +1,54 @@
+{
+  "rpc": "https://rpc.reapchain.org",
+  "rest": "https://lcd.reapchain.org",
+  "chainId": "reapchain_221230-1",
+  "chainName": "Reapchain Mainnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/reapchain_221230/chain.png",
+  "nodeProvider": {
+    "name": "Reapchain",
+    "email": "reapchain@reapchain.com",
+    "website": "https://reapchain.com"
+  },
+  "stakeCurrency": {
+    "coinDenom": "REAP",
+    "coinMinimalDenom": "areap",
+    "coinDecimals": 18,
+    "coinGeckoId": "reapchain",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/reapchain_221230/areap.png"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "reap",
+    "bech32PrefixAccPub": "reappub",
+    "bech32PrefixValAddr": "reapvaloper",
+    "bech32PrefixValPub": "reapvaloperpub",
+    "bech32PrefixConsAddr": "reapvalcons",
+    "bech32PrefixConsPub": "reapvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "REAP",
+      "coinMinimalDenom": "areap",
+      "coinDecimals": 18,
+      "coinGeckoId": "reapchain",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/reapchain_221230/areap.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "REAP",
+      "coinMinimalDenom": "areap",
+      "coinDecimals": 18,
+      "coinGeckoId": "reapchain",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/reapchain_221230/areap.png",
+      "gasPriceStep": {
+        "low": 120000000,
+        "average": 125000000,
+        "high": 130000000
+      }
+    }
+  ],
+  "features": ["eth-address-gen", "eth-key-sign"]
+}

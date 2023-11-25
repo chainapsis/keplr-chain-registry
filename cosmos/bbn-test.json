@@ -7,7 +7,7 @@
   "nodeProvider": {
     "name": "Babylonchain",
     "email": "contact@babylonchain.io",
-    "website":"https://babylonchain.io/"
+    "website": "https://babylonchain.io/"
   },
   "bip44": {
     "coinType": 118
