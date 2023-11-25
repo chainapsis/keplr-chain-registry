@@ -45,7 +45,7 @@
     }
   ],
   "features": [
-    "nft",
-    "dynamic-data-chain"
+    "eth-address-gen",
+    "eth-key-sign"
   ]
 }
