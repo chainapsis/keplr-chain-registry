@@ -41,9 +41,9 @@
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/deardoge-testnet/udear.png",
       "gasPriceStep": {
-        "low": 0.001,
-        "average": 0.001,
-        "high": 0.001
+        "low": 0.25,
+        "average": 0.25,
+        "high": 0.25
       }
     }
   ],
