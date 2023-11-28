@@ -1,6 +1,6 @@
 {
-  "rpc": "https://doge-testnet-rpc.dorafactory.org",
-  "rest": "https://doge-testnet-rest.dorafactory.org",
+  "rpc": "https://testnet-rpc.deardoge.org",
+  "rest": "https://testnet-rest.deardoge.org",
   "nodeProvider": {
     "name": "Dorafactory",
     "email": "node-operation@mail.dorafactory.org",
