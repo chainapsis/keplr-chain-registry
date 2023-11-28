@@ -33,9 +33,9 @@
       "coinMinimalDenom": "utia",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.1,
-        "average": 0.25,
-        "high": 0.4
+        "low": 0.01,
+        "average": 0.02,
+        "high": 0.1
       }
     }
   ],
