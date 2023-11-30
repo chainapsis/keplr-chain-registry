@@ -12,8 +12,7 @@
   "stakeCurrency": {
     "coinDenom": "SIX",
     "coinMinimalDenom": "usix",
-    "coinDecimals": 6,
-    "coinGeckoId": "six-network"
+    "coinDecimals": 6
   },
   "bip44": {
     "coinType": 118
@@ -31,7 +30,6 @@
       "coinDenom": "SIX",
       "coinMinimalDenom": "usix",
       "coinDecimals": 6,
-      "coinGeckoId": "six-network",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fivenet/usix.png"
     }
   ],
@@ -40,7 +38,6 @@
       "coinDenom": "SIX",
       "coinMinimalDenom": "usix",
       "coinDecimals": 6,
-      "coinGeckoId": "six-network",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fivenet/usix.png",
       "gasPriceStep": {
         "low": 1.25,
