@@ -28,9 +28,9 @@
       "coinMinimalDenom": "untrn",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.01,
-        "average": 0.01,
-        "high": 0.01
+        "low": 0.02,
+        "average": 0.02,
+        "high": 0.02
       }
     }
   ],
