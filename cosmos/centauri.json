@@ -1,0 +1,54 @@
+{
+    "rpc": "https://rpc-composable-ia.cosmosia.notional.ventures",
+    "rest": "https://api-composable-ia.cosmosia.notional.ventures",
+    "nodeProvider": {
+      "name": "Notional",
+      "email": "contact@notional.ventures",
+      "website": "https://notional.ventures/"
+    },
+    "chainId": "centauri-1",
+    "chainName": "Composable",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/chain.png",
+    "stakeCurrency": {
+      "coinDenom": "PICA",
+      "coinMinimalDenom": "ppica",
+      "coinDecimals": 12,
+      "coinGeckoId": "picasso",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/ppica.png"
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "centauri",
+      "bech32PrefixAccPub": "centauripub",
+      "bech32PrefixValAddr": "centaurivaloper",
+      "bech32PrefixValPub": "centaurivaloperpub",
+      "bech32PrefixConsAddr": "centaurivalcons",
+      "bech32PrefixConsPub": "centaurivalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "PICA",
+        "coinMinimalDenom": "ppica",
+        "coinDecimals": 12,
+        "coinGeckoId": "picasso",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/ppica.png"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "PICA",
+        "coinMinimalDenom": "ppica",
+        "coinDecimals": 12,
+        "coinGeckoId": "picasso",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/ppica.png",
+        "gasPriceStep": {
+          "low": 0,
+          "average": 0,
+          "high": 0
+        }
+      }
+    ],
+    "features": []
+  }

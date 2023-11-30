@@ -5,14 +5,13 @@
    "rpc":"https://rpc-whitewhale-ia.cosmosia.notional.ventures/",
    "rest":"https://api-whitewhale-ia.cosmosia.notional.ventures/",
    "nodeProvider":{
-      "name":"Silk Nodes",
-      "email":"info@silknodes.io",
-      "website":"https://silknodes.io/"
+      "name":"Notional",
+      "email":"contact@notional.ventures",
+      "website":"https://notional.ventures/"
    },
    "bip44":{
       "coinType":118
    },
-   "coinType":118,
    "bech32Config":{
       "bech32PrefixAccAddr":"migaloo",
       "bech32PrefixAccPub":"migaloopub",
@@ -36,9 +35,9 @@
          "coinDecimals":6,
          "coinGeckoId":"white-whale",
          "gasPriceStep":{
-            "low":0.25,
-            "average":0.3,
-            "high":0.35
+            "low":1,
+            "average":1.2,
+            "high":1.4
          }
       }
    ],

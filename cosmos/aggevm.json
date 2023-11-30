@@ -1,0 +1,51 @@
+{
+  "rpc": "https://aggevm-rpc.web3-idea.xyz",
+  "rest": "https://aggevm-api.web3-idea.xyz",
+  "nodeProvider": {
+    "name": "Web3 Idea",
+    "email": "zhangzhishun1024@gmail.com",
+    "website":"https://web3idea.xyz"
+  },
+  "chainId": "aggevm",
+  "chainName": "Agg",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aggevm/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "AGG",
+    "coinMinimalDenom": "uagg",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aggevm/uagg.png"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "agg",
+    "bech32PrefixAccPub": "aggpub",
+    "bech32PrefixValAddr": "aggvaloper",
+    "bech32PrefixValPub": "aggvaloperpub",
+    "bech32PrefixConsAddr": "aggvalcons",
+    "bech32PrefixConsPub": "aggvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "AGG",
+      "coinMinimalDenom": "uagg",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aggevm/uagg.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "AGG",
+      "coinMinimalDenom": "uagg",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aggevm/uagg.png",
+      "gasPriceStep": {
+        "low": 0.015,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "features": []
+}

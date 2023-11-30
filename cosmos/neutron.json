@@ -4,11 +4,6 @@
   "chainId": "neutron-1",
   "chainName": "Neutron",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/chain.png",
-  "stakeCurrency": {
-    "coinDenom": "STAKE",
-    "coinMinimalDenom": "ustake",
-    "coinDecimals": 6
-  },
   "bip44": {
     "coinType": 118
   },
@@ -25,12 +20,15 @@
       "coinDenom": "NTRN",
       "coinMinimalDenom": "untrn",
       "coinDecimals": 6,
+      "coinGeckoId": "neutron-3",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/untrn.png"
     },
     {
-      "coinDenom": "STAKE",
-      "coinMinimalDenom": "ustake",
-      "coinDecimals": 6
+      "coinDenom": "wstETH",
+      "coinMinimalDenom": "factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH",
+      "coinDecimals": 18,
+      "coinGeckoId": "wrapped-steth",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/wstETH.png"
     }
   ],
   "feeCurrencies": [
@@ -38,6 +36,7 @@
       "coinDenom": "NTRN",
       "coinMinimalDenom": "untrn",
       "coinDecimals": 6,
+      "coinGeckoId": "neutron-3",
       "gasPriceStep": {
         "low": 0.01,
         "average": 0.01,

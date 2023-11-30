@@ -80,9 +80,19 @@ async function init() {
       !registeredChainIds.includes(parse(chainInfo.chainId).identifier),
   );
 
+  const registeredChainInfos = chainInfos.chains
+    .filter((chainInfo) => chainInfo.nodeProvider)
+    .filter((chainInfo) =>
+      registeredChainIds.includes(parse(chainInfo.chainId).identifier),
+    );
+
   if (filteredChainInfos.length > 0) {
     filteredChainInfos.map((chainInfo) => {
       return createChainItem(chainInfo, keplr);
+    });
+
+    registeredChainInfos.map((chainInfo) => {
+      return createChainItem(chainInfo, keplr, true);
     });
   } else {
     const addedAllChainDiv = document.createElement("div");
@@ -106,7 +116,7 @@ function removeChainListChild() {
   }
 }
 
-function createChainItem(chainInfo, keplr) {
+function createChainItem(chainInfo, keplr, registered) {
   const chainItemDiv = document.createElement("div");
   chainItemDiv.className = "chain-item";
 
@@ -114,7 +124,11 @@ function createChainItem(chainInfo, keplr) {
   createChainName(chainItemDiv, chainInfo);
   createChainCurrency(chainItemDiv, chainInfo);
   createNodeProvider(chainItemDiv, chainInfo);
-  createRegisterButton(chainItemDiv, chainInfo, keplr);
+  if (registered) {
+    createRegisteredButton(chainItemDiv);
+  } else {
+    createRegisterButton(chainItemDiv, chainInfo, keplr);
+  }
 
   const chainListDiv = document.getElementById("chain-list");
   chainListDiv.appendChild(chainItemDiv);
@@ -210,6 +224,16 @@ function createRegisterButton(chainItemDiv, chainInfo, keplr) {
   };
 
   chainItemDiv.appendChild(registerButton);
+}
+
+function createRegisteredButton(chainItemDiv) {
+  const registeredButton = document.createElement("button");
+  registeredButton.className = "chain-added";
+
+  const registeredButtonText = document.createTextNode("Added");
+  registeredButton.appendChild(registeredButtonText);
+
+  chainItemDiv.appendChild(registeredButton);
 }
 
 init();

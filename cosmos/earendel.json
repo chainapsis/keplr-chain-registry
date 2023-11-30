@@ -1,0 +1,49 @@
+{
+  "chainId": "earendel-1",
+  "chainName": "Qwoyn Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/earendel/earendel.png",
+  "rpc": "https://testnet-rpc.qwoyn.studio",
+  "rest": "https://testnet-api.qwoyn.studio",
+  "nodeProvider": {
+    "name": "Qwoyn Network",
+    "email": "devops@cosmic-horizon.com",
+    "website":"https://qwoyn.studio/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "qwoyn",
+    "bech32PrefixAccPub": "qwoynpub",
+    "bech32PrefixValAddr": "qwoynvaloper",
+    "bech32PrefixValPub": "qwoynvaloperpub",
+    "bech32PrefixConsAddr": "qwoynvalcons",
+    "bech32PrefixConsPub": "qwoynvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "QWOYN",
+      "coinMinimalDenom": "uqwoyn",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "QWOYN",
+      "coinMinimalDenom": "uqwoyn",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.03
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "QWOYN",
+    "coinMinimalDenom": "uqwoyn",
+    "coinDecimals": 6
+  },
+  "features": [
+  ]
+}

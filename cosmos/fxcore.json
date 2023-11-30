@@ -4,7 +4,6 @@
   "rpc": "https://fx-json.functionx.io",
   "rest": "https://fx-rest.functionx.io",
   "walletUrl": "https://wallet.keplr.app/chains/fxcore",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/fxcore",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fxcore/chain.png",
   "bip44": {
     "coinType": 60
@@ -40,8 +39,8 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fxcore/fx.png",
       "gasPriceStep": {
         "low": 4000000000000,
-        "average": 4000000000000,
-        "high": 4100000000000
+        "average": 4200000000000,
+        "high": 5000000000000
       }
     }
   ],

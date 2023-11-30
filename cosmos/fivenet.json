@@ -1,0 +1,53 @@
+{
+  "rpc": "https://rpc1.fivenet.sixprotocol.net",
+  "rest": "https://api1.fivenet.sixprotocol.net",
+  "nodeProvider": {
+    "name": "SIX NodeOps",
+    "email": "nantanart@six.network",
+    "website":"https://sixprotocol.com/"
+  },
+  "chainId": "fivenet",
+  "chainName": "SIX Protocol Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fivenet/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "SIX",
+    "coinMinimalDenom": "usix",
+    "coinDecimals": 6
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "6x",
+    "bech32PrefixAccPub": "6xpub",
+    "bech32PrefixValAddr": "6xvaloper",
+    "bech32PrefixValPub": "6xvaloperpub",
+    "bech32PrefixConsAddr": "6xvalcons",
+    "bech32PrefixConsPub": "6xvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "SIX",
+      "coinMinimalDenom": "usix",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fivenet/usix.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "SIX",
+      "coinMinimalDenom": "usix",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fivenet/usix.png",
+      "gasPriceStep": {
+        "low": 1.25,
+        "average": 1.5,
+        "high": 1.75
+      }
+    }
+  ],
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ]
+}

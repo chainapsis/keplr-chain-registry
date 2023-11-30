@@ -13,6 +13,7 @@
     "coinDenom": "RIO",
     "coinMinimalDenom": "ario",
     "coinDecimals": 18,
+    "coinGeckoId": "realio-network",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3301/ario.png"
   },
   "bip44": {
@@ -28,16 +29,17 @@
   },
   "currencies": [
     {
+      "coinDenom": "RIO",
+      "coinMinimalDenom": "ario",
+      "coinDecimals": 18,
+      "coinGeckoId": "realio-network",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3301/ario.png"
+    },
+    {
       "coinDenom": "RST",
       "coinMinimalDenom": "arst",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3301/arst.png"
-    },
-    {
-      "coinDenom": "RIO",
-      "coinMinimalDenom": "ario",
-      "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3301/ario.png"
     }
   ],
   "feeCurrencies": [

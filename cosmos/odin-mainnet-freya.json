@@ -12,6 +12,11 @@
   "bip44": {
     "coinType": 118
   },
+  "alternativeBIP44s": [
+    {
+      "coinType": 494
+    }
+  ],
   "bech32Config": {
     "bech32PrefixAccAddr": "odin",
     "bech32PrefixAccPub": "odinpub",
