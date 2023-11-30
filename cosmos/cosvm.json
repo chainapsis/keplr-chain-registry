@@ -1,12 +1,14 @@
 {
+  "rpc": "https://rpc.cosvm.net",
+  "rest": "https://api.cosvm.net",
   "chainId": "cosvm_323-1",
-  "chainName": "CosVM",
+  "chainName": "cosvm",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosvm/chain.png",
   "stakeCurrency": {
-    "coinDenom": "COSVM",
-    "coinMinimalDenom": "acosvm",
+    "coinDenom": "CVM",
+    "coinMinimalDenom": "acvm",
     "coinDecimals": 18,
-    "coinGeckoId": "cosvm",
+    "coinGeckoId": "cvm",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosvm/acosvm.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/cosvm",
@@ -15,12 +17,12 @@
     "coinType": 60
   },
   "bech32Config": {
-    "bech32PrefixAccAddr": "cosvm",
-    "bech32PrefixAccPub": "cosvmpub",
-    "bech32PrefixValAddr": "cosvmvaloper",
-    "bech32PrefixValPub": "cosvmvaloperpub",
-    "bech32PrefixConsAddr": "cosvmvalcons",
-    "bech32PrefixConsPub": "cosvmvalconspub"
+    "bech32PrefixAccAddr": "cvm",
+    "bech32PrefixAccPub": "cvmpub",
+    "bech32PrefixValAddr": "cvmvaloper",
+    "bech32PrefixValPub": "cvmvaloperpub",
+    "bech32PrefixConsAddr": "cvmvalcons",
+    "bech32PrefixConsPub": "cvmvalconspub"
   },
   "currencies": [
     {
