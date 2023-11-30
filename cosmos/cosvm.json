@@ -1,0 +1,49 @@
+{
+  "chainId": "cosvm_323-1",
+  "chainName": "CosVM",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosvm/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "COSVM",
+    "coinMinimalDenom": "acosvm",
+    "coinDecimals": 18,
+    "coinGeckoId": "cosvm",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosvm/acosvm.png"
+  },
+  "walletUrl": "https://wallet.keplr.app/chains/cosvm",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/cosvm",
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "cosvm",
+    "bech32PrefixAccPub": "cosvmpub",
+    "bech32PrefixValAddr": "cosvmvaloper",
+    "bech32PrefixValPub": "cosvmvaloperpub",
+    "bech32PrefixConsAddr": "cosvmvalcons",
+    "bech32PrefixConsPub": "cosvmvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "CVM",
+      "coinMinimalDenom": "acvm",
+      "coinDecimals": 18,
+      "coinGeckoId": "cvm",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosvm/acosvm.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "CVM",
+      "coinMinimalDenom": "acvm",
+      "coinDecimals": 18,
+      "coinGeckoId": "cvm",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosvm/acosvm.png",
+      "gasPriceStep": {
+        "low": 80000000000,
+        "average": 80000000000,
+        "high": 80000000000
+      }
+    }
+  ],
+  "features": ["eth-address-gen", "eth-key-sign"]
+}
