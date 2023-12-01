@@ -1,0 +1,51 @@
+{
+  "rpc": "https://testnet-rpc.deardoge.org",
+  "rest": "https://testnet-rest.deardoge.org",
+  "nodeProvider": {
+    "name": "Dorafactory",
+    "email": "node-operation@mail.dorafactory.org",
+    "website": "https://dorafactory.org"
+  },
+  "chainId": "deardoge-testnet",
+  "chainName": "Dear Doge Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/deardoge-testnet/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "DEAR",
+    "coinMinimalDenom": "udear",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/deardoge-testnet/udear.png"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "deardoge",
+    "bech32PrefixAccPub": "deardogepub",
+    "bech32PrefixValAddr": "deardogevaloper",
+    "bech32PrefixValPub": "deardogevaloperpub",
+    "bech32PrefixConsAddr": "deardogevalcons",
+    "bech32PrefixConsPub": "deardogevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "DEAR",
+      "coinMinimalDenom": "udear",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/deardoge-testnet/udear.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "DEAR",
+      "coinMinimalDenom": "udear",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/deardoge-testnet/udear.png",
+      "gasPriceStep": {
+        "low": 0.25,
+        "average": 0.25,
+        "high": 0.25
+      }
+    }
+  ],
+  "features": []
+}
