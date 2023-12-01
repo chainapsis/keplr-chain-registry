@@ -49,8 +49,5 @@
       }
     }
   ],
-  "features": [
-    "eth-address-gen",
-    "eth-key-sign"
-  ]
+  "features": []
 }
