@@ -4,6 +4,11 @@
   "chainId": "cvm_323-1",
   "chainName": "CVM",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosvm/chain.png",
+  "nodeProvider": {
+    "name": "CosVM Network",
+    "email": "contact@cosvm.network",
+    "website": "https://cosvm.network/"
+  },
   "stakeCurrency": {
     "coinDenom": "CVM",
     "coinMinimalDenom": "ucvm",
