@@ -11,8 +11,6 @@
     "coinGeckoId": "cvm",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosvm/acosvm.png"
   },
-  "walletUrl": "https://wallet.keplr.app/chains/cosvm",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/cosvm",
   "bip44": {
     "coinType": 60
   },
