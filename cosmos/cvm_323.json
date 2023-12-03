@@ -1,8 +1,8 @@
 {
   "rpc": "https://cvm.cosvm.net",
   "rest": "https://api.cosvm.net",
-  "chainId": "cosvm_323-1",
-  "chainName": "CosVM Network",
+  "chainId": "cvm_323-1",
+  "chainName": "CVM",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosvm/chain.png",
   "stakeCurrency": {
     "coinDenom": "CVM",
