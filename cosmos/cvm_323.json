@@ -8,7 +8,6 @@
     "coinDenom": "CVM",
     "coinMinimalDenom": "ucvm",
     "coinDecimals": 18,
-    "coinGeckoId": "cvm",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosvm/acosvm.png"
   },
   "bip44": {
@@ -27,7 +26,6 @@
       "coinDenom": "CVM",
       "coinMinimalDenom": "ucvm",
       "coinDecimals": 18,
-      "coinGeckoId": "cvm",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosvm/acosvm.png"
     }
   ],
@@ -36,7 +34,6 @@
       "coinDenom": "CVM",
       "coinMinimalDenom": "ucvm",
       "coinDecimals": 18,
-      "coinGeckoId": "cvm",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosvm/acosvm.png",
       "gasPriceStep": {
         "low": 80000000000,
