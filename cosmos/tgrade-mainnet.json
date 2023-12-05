@@ -1,6 +1,6 @@
 {
-  "rpc": "https://rpc-tgrade.keplr.app",
-  "rest": "https://lcd-tgrade.keplr.app",
+  "rpc": "https://rpc.tgrade.posthuman.digital/",
+  "rest": "https://lcd.tgrade.posthuman.digital/",
   "chainId": "tgrade-mainnet-1",
   "chainName": "Tgrade",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tgrade-mainnet/chain.png",
