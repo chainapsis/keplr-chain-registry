@@ -1,6 +1,6 @@
 {
-  "rpc": "https://rpc-ixo.keplr.app",
-  "rest": "https://lcd-ixo.keplr.app",
+  "rpc": "https://ixo-rpc.ibs.team",
+  "rest": "https://ixo-api.ibs.team",
   "chainId": "ixo-5",
   "chainName": "ixo",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ixo/chain.png",
@@ -11,8 +11,6 @@
     "coinGeckoId": "ixo",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ixo/uixo.png"
   },
-  "walletUrl": "https://wallet.keplr.app/chains/ixo",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/ixo",
   "bip44": {
     "coinType": 118
   },
