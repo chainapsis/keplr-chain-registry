@@ -1,6 +1,6 @@
 {
-  "rpc": "https://rpc-iov.keplr.app",
-  "rest": "https://lcd-iov.keplr.app",
+  "rpc": "https://rpc.starname.cosmos.iov.one",
+  "rest": "https://api.starname.cosmos.iov.one",
   "chainId": "iov-mainnet-ibc",
   "chainName": "Starname",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iov-mainnet-ibc/chain.png",
@@ -11,8 +11,6 @@
     "coinGeckoId": "starname",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iov-mainnet-ibc/uiov.png"
   },
-  "walletUrl": "https://wallet.keplr.app/chains/starname",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/starname",
   "bip44": {
     "coinType": 234
   },
