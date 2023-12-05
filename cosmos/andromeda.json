@@ -1,13 +1,13 @@
 {
   "chainId": "andromeda-1",
-  "chainName": "andromeda",
+  "chainName": "Andromeda",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/andromeda/andromeda.png",
-  "rpc": "https://andromeda.rpc.kjnodes.com",
-  "rest": "https://andromeda.api.kjnodes.com",
+  "rpc": "https://rpc-andromeda.nodeist.net",
+  "rest": "https://api-andromeda.nodeist.net",
   "nodeProvider": {
-    "name": "KJ Nodes",
-    "email": "stake@kjnodes.com",
-    "website":"https://kjnodes.com/"
+    "name": "Nodeist",
+    "email": "admin@nodeist.net",
+    "website": "https://nodeist.net"
   },
   "bip44": {
     "coinType": 118
@@ -22,28 +22,34 @@
   },
   "currencies": [
     {
+      "coinDecimals": 6,
       "coinDenom": "ANDR",
+      "coinGeckoId": "andromeda",
       "coinMinimalDenom": "uandr",
-      "coinDecimals": 6
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/andromeda/andromeda.png"
     }
   ],
   "feeCurrencies": [
     {
+      "coinDecimals": 6,
       "coinDenom": "ANDR",
       "coinMinimalDenom": "uandr",
-      "coinDecimals": 6,
       "gasPriceStep": {
         "low": 0.03,
         "average": 0.05,
         "high": 0.075
-      }
+      },
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/andromeda/andromeda.png"
     }
   ],
   "stakeCurrency": {
+    "coinDecimals": 6,
     "coinDenom": "ANDR",
+    "coinGeckoId": "andromeda",
     "coinMinimalDenom": "uandr",
-    "coinDecimals": 6
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/andromeda/andromeda.png"
   },
   "features": [
+    "cosmwasm"
   ]
 }
