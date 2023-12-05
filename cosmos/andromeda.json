@@ -1,7 +1,7 @@
 {
   "chainId": "andromeda-1",
   "chainName": "andromeda",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/andromeda/images/andromeda-logo.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/andromeda/andromeda.png",
   "rpc": "https://andromeda.rpc.kjnodes.com",
   "rest": "https://andromeda.api.kjnodes.com",
   "nodeProvider": {
