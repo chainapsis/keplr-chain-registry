@@ -48,7 +48,6 @@
       "coinDenom": "stkOSMO",
       "coinMinimalDenom": "stk/uosmo",
       "coinDecimals": 6,
-      "coinGeckoId": "stkosmo",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/stkosmo.png"
     }
   ],
