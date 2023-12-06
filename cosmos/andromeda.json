@@ -2,12 +2,12 @@
   "chainId": "andromeda-1",
   "chainName": "Andromeda",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/andromeda/andromeda.png",
-  "rpc": "https://rpc-andromeda.nodeist.net",
-  "rest": "https://api-andromeda.nodeist.net",
+  "rpc": "https://andromeda.rpc.kjnodes.com",
+  "rest": "https://andromeda.api.kjnodes.com",
   "nodeProvider": {
-    "name": "Nodeist",
-    "email": "admin@nodeist.net",
-    "website": "https://nodeist.net"
+    "name": "KJ Nodes",
+    "email": "stake@kjnodes.com",
+    "website":"https://kjnodes.com/"
   },
   "bip44": {
     "coinType": 118
@@ -24,7 +24,6 @@
     {
       "coinDecimals": 6,
       "coinDenom": "ANDR",
-      "coinGeckoId": "andromeda",
       "coinMinimalDenom": "uandr",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/andromeda/andromeda.png"
     }
@@ -45,7 +44,6 @@
   "stakeCurrency": {
     "coinDecimals": 6,
     "coinDenom": "ANDR",
-    "coinGeckoId": "andromeda",
     "coinMinimalDenom": "uandr",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/andromeda/andromeda.png"
   },
