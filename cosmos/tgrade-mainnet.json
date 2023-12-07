@@ -2,7 +2,7 @@
   "rpc": "https://rpc.tgrade.posthuman.digital/",
   "rest": "https://lcd.tgrade.posthuman.digital/",
   "nodeProvider": {
-    "name": "POSTHUMAN (Public Provider from chain-registry)",
+    "name": "POSTHUMAN (Public endpoint)",
     "email": "validator@posthuman.digital",
     "website": "https://posthuman.digital"
   },
