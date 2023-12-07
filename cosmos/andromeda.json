@@ -34,7 +34,7 @@
       "coinDenom": "ANDR",
       "coinMinimalDenom": "uandr",
       "gasPriceStep": {
-        "low": 0.03,
+        "low": 0.00,
         "average": 0.05,
         "high": 0.075
       },
