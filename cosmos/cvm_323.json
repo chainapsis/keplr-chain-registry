@@ -1,0 +1,51 @@
+{
+  "rpc": "https://cvm.cosvm.net",
+  "rest": "https://api.cosvm.net",
+  "chainId": "cvm_323-1",
+  "chainName": "CVM",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cvm_323/chain.png",
+  "nodeProvider": {
+    "name": "CosVM Network",
+    "email": "contact@cosvm.network",
+    "website": "https://cosvm.network/"
+  },
+  "stakeCurrency": {
+    "coinDenom": "CVM",
+    "coinMinimalDenom": "ucvm",
+    "coinDecimals": 18,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cvm_323/acvm.png"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "cvm",
+    "bech32PrefixAccPub": "cvmpub",
+    "bech32PrefixValAddr": "cvmvaloper",
+    "bech32PrefixValPub": "cvmvaloperpub",
+    "bech32PrefixConsAddr": "cvmvalcons",
+    "bech32PrefixConsPub": "cvmvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "CVM",
+      "coinMinimalDenom": "ucvm",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cvm_323/acvm.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "CVM",
+      "coinMinimalDenom": "ucvm",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cvm_323/acvm.png",
+      "gasPriceStep": {
+        "low": 80000000000,
+        "average": 80000000000,
+        "high": 80000000000
+      }
+    }
+  ],
+  "features": ["eth-address-gen", "eth-key-sign"]
+}
