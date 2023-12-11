@@ -1,6 +1,6 @@
 {
   "chainId": "ssc-testnet-1",
-  "chainName": "Saga Security Chain Testnet",
+  "chainName": "Saga Testnet",
   "rpc": "https://testnet-ssc.sagarpc.io/",
   "rest": "https://testnet-ssc-lcd.sagarpc.io/",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ssc-testnet/chain.png",
@@ -19,7 +19,8 @@
     {
       "coinDenom": "TSAGA",
       "coinMinimalDenom": "utsaga",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinImageUrl":"https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ssc-testnet/chain.png"
     }
   ],
   "feeCurrencies": [
@@ -31,13 +32,15 @@
         "low": 0.0025,
         "average": 0.025,
         "high": 0.04
-      }
+      },
+      "coinImageUrl":"https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ssc-testnet/chain.png"
     }
   ],
   "stakeCurrency": {
     "coinDenom": "TSAGA",
     "coinMinimalDenom": "utsaga",
-    "coinDecimals": 6
+    "coinDecimals": 6,
+    "coinImageUrl":"https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ssc-testnet/chain.png"
   },
   "nodeProvider": {
     "name": "Saga",
