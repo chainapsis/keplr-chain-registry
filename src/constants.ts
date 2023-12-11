@@ -48,4 +48,5 @@ export const nativeTestnetChainIdentifiers: string[] = [
   "pion",
   "theta-testnet",
   "dydx-testnet",
+  "ssc-testnet",
 ];
