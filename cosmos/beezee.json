@@ -1,0 +1,51 @@
+{
+  "chainId": "beezee-1",
+  "chainName": "BeeZee",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/beezee/chain.png",
+  "rpc": "https://rpc.getbze.com",
+  "rest": "https://rest.getbze.com",
+  "nodeProvider": {
+      "name": "BZE Alpha Team",
+      "email": "alphateam@getbze.com",
+      "website":"https://getbze.com"
+  },
+  "stakeCurrency": {
+      "coinDenom": "BZE",
+      "coinMinimalDenom": "ubze",
+      "coinDecimals": 6,
+      "coinGeckoId": "bzedge",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/beezee/chain.png"
+  },
+  "bip44": {
+      "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "bze",
+    "bech32PrefixAccPub": "bzepub",
+    "bech32PrefixValAddr": "bzevaloper",
+    "bech32PrefixValPub": "bzevaloperpub",
+    "bech32PrefixConsAddr": "bzevalcons",
+    "bech32PrefixConsPub": "bzevalconspub"
+  },
+  "currencies": [{
+      "coinDenom": "BZE",
+      "coinMinimalDenom": "ubze",
+      "coinDecimals": 6,
+      "coinGeckoId": "bzedge",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/beezee/chain.png"
+  }],
+  "feeCurrencies": [{
+      "coinDenom": "BZE",
+      "coinMinimalDenom": "ubze",
+      "coinDecimals": 6,
+      "coinGeckoId": "bzedge",
+      "gasPriceStep": {
+          "low": 0.001,
+          "average": 0.01,
+          "high": 0.1
+      },
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/beezee/chain.png"
+  }],
+  "features": [
+  ]
+}
