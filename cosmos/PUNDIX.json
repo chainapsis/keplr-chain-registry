@@ -9,7 +9,6 @@
     "email": "contact@pundix.com",
     "website": "https://pundix.com/"
   },
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/pundix",
   "bip44": {
     "coinType": 118
   },
