@@ -29,6 +29,20 @@
       "coinDecimals": 18,
       "coinGeckoId": "wrapped-steth",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/wstETH.png"
+    },
+    {
+      "coinDenom": "ASTRO",
+      "coinMinimalDenom": "ibc/5751B8BCDA688FD0A8EC0B292EEF1CDEAB4B766B63EC632778B196D317C40C3A",
+      "coinDecimals": 6,
+      "coinGeckoId": "astroport-fi",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/terra/astro.png"
+    },
+    {
+      "coinDenom": "DYDX",
+      "coinMinimalDenom": "ibc/2CB87BCE0937B1D1DFCEE79BE4501AAF3C265E923509AEAC410AD85D27F35130",
+      "coinDecimals": 18,
+      "coinGeckoId": "dydx-chain",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dydx-mainnet/adydx.png"
     }
   ],
   "feeCurrencies": [
@@ -64,5 +78,7 @@
       }
     }
   ],
-  "features": ["cosmwasm"]
+  "features": [
+    "cosmwasm"
+  ]
 }
