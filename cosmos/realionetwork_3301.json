@@ -1,0 +1,62 @@
+{
+  "rpc": "https://realio-rpc.genznodes.dev",
+  "rest": "https://realio-api.genznodes.dev",
+  "nodeProvider": {
+    "name": "Genznodes",
+    "email": "genzbit@genznodes.dev",
+    "website": "https://genznodes.dev/"
+  },
+  "chainId": "realionetwork_3301-1",
+  "chainName": "Realio",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3301/ario.png",
+  "stakeCurrency": {
+    "coinDenom": "RIO",
+    "coinMinimalDenom": "ario",
+    "coinDecimals": 18,
+    "coinGeckoId": "realio-network",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3301/ario.png"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "realio",
+    "bech32PrefixAccPub": "realiopub",
+    "bech32PrefixValAddr": "realiovaloper",
+    "bech32PrefixValPub": "realiovaloperpub",
+    "bech32PrefixConsAddr": "realiovalcons",
+    "bech32PrefixConsPub": "realiovalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "RIO",
+      "coinMinimalDenom": "ario",
+      "coinDecimals": 18,
+      "coinGeckoId": "realio-network",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3301/ario.png"
+    },
+    {
+      "coinDenom": "RST",
+      "coinMinimalDenom": "arst",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3301/arst.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "RIO",
+      "coinMinimalDenom": "ario",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3301/ario.png",
+      "gasPriceStep": {
+        "low": 4000000000,
+        "average": 5000000000,
+        "high": 8000000000
+      }
+    }
+  ],
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ]
+}

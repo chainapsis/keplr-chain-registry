@@ -1,0 +1,47 @@
+{
+  "rpc": "https://rpc.wallet.arctic-1.sei.io",
+  "rest": "https://rest.wallet.arctic-1.sei.io",
+  "chainId": "arctic-1",
+  "chainName": "Sei Devnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/arctic/chain.png",
+  "bip44": {
+    "coinType": 118
+  },
+  "stakeCurrency": {
+    "coinDenom": "SEI",
+    "coinMinimalDenom": "usei",
+    "coinDecimals": 6
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "sei",
+    "bech32PrefixAccPub": "seipub",
+    "bech32PrefixValAddr": "seivaloper",
+    "bech32PrefixValPub": "seivaloperpub",
+    "bech32PrefixConsAddr": "seivalcons",
+    "bech32PrefixConsPub": "seivalconspub"
+  },
+  "nodeProvider": {
+        "name": "Sei",
+        "email": "ecosystem@seinetwork.io",
+        "website":"https://sei.io"
+    },
+  "currencies": [
+    {
+      "coinDenom": "SEI",
+      "coinMinimalDenom": "usei",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "SEI",
+      "coinMinimalDenom": "usei",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.1,
+        "average": 0.2,
+        "high": 0.3
+      }
+    }
+  ]
+}

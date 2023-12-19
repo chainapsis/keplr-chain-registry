@@ -1,0 +1,38 @@
+{
+  "rpc": "https://rpc-dydx-testnet.keplr.app",
+  "rest": "https://lcd-dydx-testnet.keplr.app",
+  "chainId": "dydx-testnet-4",
+  "chainName": "dydx Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dydx-testnet/chain.png",
+  "bech32Config": {
+    "bech32PrefixAccAddr": "dydx",
+    "bech32PrefixAccPub": "dydxpub",
+    "bech32PrefixValAddr": "dydxvaloper",
+    "bech32PrefixValPub": "dydxvaloperpub",
+    "bech32PrefixConsAddr": "dydxvalcons",
+    "bech32PrefixConsPub": "dydxvalconspub"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "stakeCurrency": {
+    "coinDenom": "DV4TNT",
+    "coinDecimals": 18,
+    "coinMinimalDenom": "adv4tnt"
+  },
+  "currencies": [
+    {
+      "coinDenom": "DV4TNT",
+      "coinDecimals": 18,
+      "coinMinimalDenom": "adv4tnt"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "DV4TNT",
+      "coinDecimals": 18,
+      "coinMinimalDenom": "adv4tnt"
+    }
+  ],
+  "features": []
+}

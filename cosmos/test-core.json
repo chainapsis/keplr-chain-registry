@@ -1,0 +1,63 @@
+{
+    "chainId": "test-core-2",
+    "chainName": "Persistence Testnet 2",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/test-core/chain.png",
+    "rpc": "https://rpc.testnet2.persistence.one/",
+    "rest": "https://rest.testnet2.persistence.one/",
+    "nodeProvider": {
+      "name": "Persistence",
+      "email": "hello@persistence.one",
+      "website":"https://persistence.one/"
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "persistence",
+      "bech32PrefixAccPub": "persistencepub",
+      "bech32PrefixValAddr": "persistencevaloper",
+      "bech32PrefixValPub": "persistencevaloperpub",
+      "bech32PrefixConsAddr": "persistencevalcons",
+      "bech32PrefixConsPub": "persistencevalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "XPRT",
+        "coinMinimalDenom": "uxprt",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/test-core/uxprt.png"
+      },
+      {
+        "coinDenom": "STKATOM",
+        "coinMinimalDenom": "stk/uatom",
+        "coinDecimals": 6
+      },
+      {
+        "coinDenom": "stkOSMO",
+        "coinMinimalDenom": "stk/uosmo",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/test-core/stkosmo.png"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "XPRT",
+        "coinMinimalDenom": "uxprt",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/test-core/uxprt.png",
+        "gasPriceStep": {
+          "low": 0.05,
+          "average": 0.125,
+          "high": 0.2
+        }
+      }
+    ],
+    "stakeCurrency": {
+      "coinDenom": "XPRT",
+      "coinMinimalDenom": "uxprt",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/test-core/uxprt.png"
+    },
+    "features": ["cosmwasm"]
+  }
+

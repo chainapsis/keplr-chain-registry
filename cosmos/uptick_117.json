@@ -1,18 +1,13 @@
 {
 	"chainId": "uptick_117-1",
 	"chainName": "Uptick Network",
+	"chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/uptick_117/chain.png",
 	"rpc": "https://rpc.uptick.network",
 	"rest": "https://rest.uptick.network",
-	"chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/uptick_117/chain.png",
-	 "nodeProvider": {
-	    "name": "fei",
-	    "email": "fei228320@gmail.com",
-	    "website":"https://evm-explorer.uptick.network/"
-	  },
-	"stakeCurrency": {
-		"coinDenom": "UPTICK",
-		"coinMinimalDenom": "auptick",
-		"coinDecimals": 18
+	"nodeProvider": {
+		"name": "xianxian",
+		"email": "xyyz1207@163.com",
+		"website": "https://explorer.uptick.network/"
 	},
 	"bip44": {
 		"coinType": 60
@@ -28,21 +23,25 @@
 	"currencies": [{
 		"coinDenom": "UPTICK",
 		"coinMinimalDenom": "auptick",
-		"coinDecimals": 18
+		"coinDecimals": 18,
+		"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/uptick_117/auptick.png"
 	}],
 	"feeCurrencies": [{
 		"coinDenom": "UPTICK",
 		"coinMinimalDenom": "auptick",
 		"coinDecimals": 18,
+		"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/uptick_117/auptick.png",
 		"gasPriceStep": {
-			"low": 10000000000,
-			"average": 20000000000,
-			"high": 40000000000
+			"low": 125000000000,
+			"average": 130000000000,
+			"high": 150000000000
 		}
 	}],
-	"coinType": 60,
-	"features": [
-		"eth-address-gen",
-		"eth-key-sign"
-	]
+	"stakeCurrency": {
+		"coinDenom": "UPTICK",
+		"coinMinimalDenom": "auptick",
+		"coinDecimals": 18,
+		"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/uptick_117/auptick.png"
+	},
+	"features": ["eth-address-gen", "eth-key-sign"]
 }

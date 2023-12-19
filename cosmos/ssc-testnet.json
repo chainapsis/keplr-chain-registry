@@ -1,0 +1,50 @@
+{
+  "chainId": "ssc-testnet-1",
+  "chainName": "Saga Testnet",
+  "rpc": "https://testnet-keplr.sagarpc.io",
+  "rest": "https://testnet-keplr-lcd.sagarpc.io",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ssc-testnet/chain.png",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "saga",
+    "bech32PrefixAccPub": "sagapub",
+    "bech32PrefixValAddr": "sagavaloper",
+    "bech32PrefixValPub": "sagavaloperpub",
+    "bech32PrefixConsAddr": "sagavalcons",
+    "bech32PrefixConsPub": "sagavalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "TSAGA",
+      "coinMinimalDenom": "utsaga",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ssc-testnet/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "TSAGA",
+      "coinMinimalDenom": "utsaga",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.0025,
+        "average": 0.025,
+        "high": 0.04
+      },
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ssc-testnet/chain.png"
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "TSAGA",
+    "coinMinimalDenom": "utsaga",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ssc-testnet/chain.png"
+  },
+  "nodeProvider": {
+    "name": "Saga",
+    "email": "support@saga.xyz",
+    "website": "https://saga.xyz"
+  }
+}

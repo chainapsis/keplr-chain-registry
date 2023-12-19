@@ -1,0 +1,55 @@
+{
+  "nodeProvider": {
+    "name": "Stake Source",
+    "email": "taariq@stakesource.network"
+  },
+  "rpc": "https://rpc.pulsar.scrttestnet.com",
+  "rest": "https://api.pulsar.scrttestnet.com",
+  "chainId": "pulsar-3",
+  "chainName": "Secret Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pulsar/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "SCRT",
+    "coinMinimalDenom": "uscrt",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pulsar/uscrt.png"
+  },
+  "bip44": {
+    "coinType": 529
+  },
+  "alternativeBIP44s": [
+    {
+      "coinType": 118
+    }
+  ],
+  "bech32Config": {
+    "bech32PrefixAccAddr": "secret",
+    "bech32PrefixAccPub": "secretpub",
+    "bech32PrefixValAddr": "secretvaloper",
+    "bech32PrefixValPub": "secretvaloperpub",
+    "bech32PrefixConsAddr": "secretvalcons",
+    "bech32PrefixConsPub": "secretvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "SCRT",
+      "coinMinimalDenom": "uscrt",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pulsar/uscrt.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "SCRT",
+      "coinMinimalDenom": "uscrt",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pulsar/uscrt.png",
+      "gasPriceStep": {
+        "low": 0.0125,
+        "average": 0.1,
+        "high": 0.25
+      }
+    }
+  ],
+  "features": ["secretwasm"]
+}

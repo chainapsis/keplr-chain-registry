@@ -1,0 +1,58 @@
+{
+  "rpc": "https://dimension-rpc.xpla.dev",
+  "rest": "https://dimension-lcd.xpla.dev",
+  "chainId": "dimension_37-1",
+  "chainName": "XPLA",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dimension_37/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "XPLA",
+    "coinMinimalDenom": "axpla",
+    "coinDecimals": 18,
+    "coinGeckoId": "xpla",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dimension_37/axpla.png"
+  },
+	"nodeProvider": {
+    "name": "XPLA",
+    "email": "xpla_official@xpla.io",
+    "website":"https://xpla.io/"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "xpla",
+    "bech32PrefixAccPub": "xplapub",
+    "bech32PrefixValAddr": "xplavaloper",
+    "bech32PrefixValPub": "xplavaloperpub",
+    "bech32PrefixConsAddr": "xplavalcons",
+    "bech32PrefixConsPub": "xplavalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "XPLA",
+      "coinMinimalDenom": "axpla",
+      "coinDecimals": 18,
+      "coinGeckoId": "xpla",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dimension_37/axpla.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "XPLA",
+      "coinMinimalDenom": "axpla",
+      "coinDecimals": 18,
+      "coinGeckoId": "xpla",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dimension_37/axpla.png",
+      "gasPriceStep": {
+        "low": 850000000000,
+        "average": 1147500000000,
+        "high": 1487500000000
+      }
+    }
+  ],
+  "features": [
+		"eth-address-gen",
+		"eth-key-sign",
+		"cosmwasm"
+  ]
+}
