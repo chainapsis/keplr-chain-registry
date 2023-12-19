@@ -34,6 +34,7 @@
       "coinDenom": "NEWT",
       "coinMinimalDenom": "factory/neutron1p8d89wvxyjcnawmgw72klknr3lg9gwwl6ypxda/newt",
       "coinDecimals": 6,
+      "coinGeckoId": "newt",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/newt.png"
     }
   ],
