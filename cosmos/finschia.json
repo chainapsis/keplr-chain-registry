@@ -33,6 +33,7 @@
       "coinDenom": "FNSA",
       "coinMinimalDenom": "cony",
       "coinDecimals": 6,
+      "coinGeckoId": "link",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/finschia/chain.png",
       "gasPriceStep": {
         "average": 0.015,
@@ -45,6 +46,7 @@
     "coinDecimals": 6,
     "coinDenom": "FNSA",
     "coinMinimalDenom": "cony",
+    "coinGeckoId": "link",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/finschia/chain.png"
   },
   "features": ["cosmwasm"]
