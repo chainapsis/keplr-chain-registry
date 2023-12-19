@@ -2,8 +2,8 @@
     "chainId": "xstaxy-1",
     "chainName": "Aura Network",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xstaxy/chain.png",
-    "rpc": "https://rpc.aura.network",
-    "rest": "https://lcd.aura.network",
+    "rpc": "https://rpc.cosmos.directory/aura",
+    "rest": "https://rest.cosmos.directory/aura",
     "nodeProvider": {
       "name": "Aura Foundation",
       "email": "support@aura.network",
