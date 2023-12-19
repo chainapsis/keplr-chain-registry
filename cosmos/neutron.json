@@ -44,9 +44,9 @@
       "coinDecimals": 6,
       "coinGeckoId": "neutron-3",
       "gasPriceStep": {
-        "low": 0.01,
-        "average": 0.01,
-        "high": 0.01
+        "low": 0.56,
+        "average": 0.56,
+        "high": 0.84
       }
     },
     {
@@ -54,9 +54,9 @@
       "coinMinimalDenom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.005,
-        "average": 0.005,
-        "high": 0.005
+        "low": 0.02,
+        "average": 0.02,
+        "high": 0.03
       }
     },
     {
@@ -64,9 +64,9 @@
       "coinMinimalDenom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.05,
-        "average": 0.05,
-        "high": 0.05
+        "low": 0.2,
+        "average": 0.2,
+        "high": 0.3
       }
     }
   ],
