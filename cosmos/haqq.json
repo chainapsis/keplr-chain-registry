@@ -1,0 +1,59 @@
+{
+  "chainId": "haqq_11235-1",
+  "chainName": "haqq",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/haqq/chain.png",
+  "rpc": "https://rpc.tm.haqq.network",
+  "rest": "https://rest.cosmos.haqq.network",
+  "nodeProvider": {
+    "name": "Haqq Association",
+    "email": "privacy@islamiccoin.net",
+    "website": "https://haqq.network"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "haqq",
+    "bech32PrefixAccPub": "haqqpub",
+    "bech32PrefixValAddr": "haqqvaloper",
+    "bech32PrefixValPub": "haqqvaloperpub",
+    "bech32PrefixConsAddr": "haqqvalcons",
+    "bech32PrefixConsPub": "haqqvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "ISLM",
+      "coinMinimalDenom": "aISLM",
+      "coinDecimals": 18,
+      "coinGeckoId": "islamic-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/haqq/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ISLM",
+      "coinMinimalDenom": "aISLM",
+      "coinDecimals": 18,
+      "coinGeckoId": "islamic-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/haqq/chain.png",
+      "gasPriceStep": {
+        "average": 0.025,
+        "high": 0.03,
+        "low": 0.01
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "ISLM",
+    "coinMinimalDenom": "aISLM",
+    "coinDecimals": 18,
+    "coinGeckoId": "islamic-coin",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/haqq/chain.png"
+  },
+  "features": [
+    "ibc-transfer",
+    "ibc-go",
+    "eth-address-gen",
+    "eth-key-sign"
+  ]
+}
