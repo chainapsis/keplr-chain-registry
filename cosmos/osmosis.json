@@ -79,6 +79,7 @@
       "coinDenom": "CRBRUS",
       "coinMinimalDenom": "ibc/41999DF04D9441DAC0DF5D8291DF4333FBCBA810FFD63FDCE34FDF41EF37B6F7/ucrbrus",
       "coinDecimals": 6,
+      "coinGeckoId": "cerberus-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/crbrus.png"
     }
   ],
