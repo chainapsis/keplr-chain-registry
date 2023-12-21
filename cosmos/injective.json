@@ -45,5 +45,5 @@
       }
     }
   ],
-  "features": ["eth-address-gen", "eth-key-sign"]
+  "features": ["eth-address-gen", "eth-key-sign", "cosmwasm"]
 }
