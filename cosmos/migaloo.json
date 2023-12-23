@@ -25,7 +25,14 @@
          "coinDenom":"WHALE",
          "coinMinimalDenom":"uwhale",
          "coinDecimals":6,
-         "coinGeckoId":"white-whale"
+         "coinGeckoId":"white-whale",
+         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/uwhale.png"
+      },
+      {
+        "coinDenom": "GUPPY",
+        "coinMinimalDenom": "factory/migaloo1etlu2h30tjvv8rfa4fwdc43c92f6ul5w9acxzk/uguppy",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/factory/migaloo1etlu2h30tjvv8rfa4fwdc43c92f6ul5w9acxzk/uguppy.png"
       }
    ],
    "feeCurrencies":[
