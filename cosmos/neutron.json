@@ -42,6 +42,12 @@
       "coinMinimalDenom": "factory/neutron1tklm6cvr2wxg8k65t8gh5ewslnzdfd5fsk0w3f/corgi",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/corgi.png"
+    },
+    {
+      "coinDenom": "ECLIP",
+      "coinMinimalDenom": "factory/neutron10sr06r3qkhn7xzpw3339wuj77hu06mzna6uht0/eclip",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/eclip.png"
     }
   ],
   "feeCurrencies": [
