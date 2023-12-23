@@ -25,7 +25,8 @@
       "coinDenom": "SOURCE",
       "coinMinimalDenom": "usource",
       "coinDecimals": 6,
-      "coinGeckoId": "source"
+      "coinGeckoId": "source",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/source/source.png"
     }
   ],
   "feeCurrencies": [
