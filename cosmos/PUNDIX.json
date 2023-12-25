@@ -30,7 +30,7 @@
     },
     {
       "coinDenom": "PURSE",
-      "coinMinimalDenom": "bsc0x29a63f4b209c29b4dc47f06ffa896f32667dad2c",
+      "coinMinimalDenom": "bsc0x29a63F4B209C29B4DC47f06FFA896F32667DAD2C",
       "coinDecimals": 18,
       "coinGeckoId": "pundi-x-purse",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pundix/purse-token.png"
