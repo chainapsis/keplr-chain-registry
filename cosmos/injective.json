@@ -29,6 +29,12 @@
       "coinMinimalDenom": "inj",
       "coinGeckoId": "injective-protocol",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/inj.png"
+    },
+    {
+      "coinDenom": "WGMI",
+      "coinMinimalDenom": "factory/inj1rmjzj9fn47kdmfk4f3z39qr6czexxe0yjyc546/WGMI",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/wgmi.png"
     }
   ],
   "feeCurrencies": [
