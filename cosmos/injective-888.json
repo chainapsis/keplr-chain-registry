@@ -1,6 +1,6 @@
 {
-  "rpc": "https://k8s.testnet.tm.injective.network",
-  "rest": "https://k8s.testnet.lcd.injective.network",
+  "rpc": "https://testnet.sentry.tm.injective.network:443",
+  "rest": "https://testnet.sentry.lcd.injective.network:443",
   "chainId": "injective-888",
   "chainName": "Injective (Testnet)",
   "nodeProvider": {
