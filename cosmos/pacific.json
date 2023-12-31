@@ -10,7 +10,8 @@
   "stakeCurrency": {
     "coinDenom": "SEI",
     "coinMinimalDenom": "usei",
-    "coinDecimals": 6
+    "coinDecimals": 6,
+    "coinGeckoId": "sei-network"
   },
   "bech32Config": {
     "bech32PrefixAccAddr": "sei",
@@ -21,15 +22,16 @@
     "bech32PrefixConsPub": "seivalconspub"
   },
   "nodeProvider": {
-        "name": "Sei",
-        "email": "ecosystem@seinetwork.io",
-        "website":"https://sei.io"
-    },
+    "name": "Sei",
+    "email": "ecosystem@seinetwork.io",
+    "website": "https://sei.io"
+  },
   "currencies": [
     {
       "coinDenom": "SEI",
       "coinMinimalDenom": "usei",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinGeckoId": "sei-network"
     },
     {
       "coinDenom": "WETH",
@@ -97,7 +99,7 @@
       "coinDecimals": 8,
       "coinGeckoId": "weth"
     },
-        {
+    {
       "coinDenom": "USDTbs",
       "coinMinimalDenom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/871jbn9unTavWsAe83f2Ma9GJWSv6BKsyWYLiQ6z3Pva",
       "coinDecimals": 8,
@@ -109,6 +111,7 @@
       "coinDenom": "SEI",
       "coinMinimalDenom": "usei",
       "coinDecimals": 6,
+      "coinGeckoId": "sei-network",
       "gasPriceStep": {
         "low": 0.1,
         "average": 0.2,
