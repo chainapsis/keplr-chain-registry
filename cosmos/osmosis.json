@@ -68,6 +68,7 @@
       "coinDenom": "CDT",
       "coinMinimalDenom": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt",
       "coinDecimals": 6,
+      "coinGeckoId": "collateralized-debt-token",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt.png"
     },
     {
@@ -92,9 +93,5 @@
       }
     }
   ],
-  "features": [
-    "cosmwasm",
-    "osmosis-txfees",
-    "osmosis-base-fee-beta"
-  ]
+  "features": ["cosmwasm", "osmosis-txfees", "osmosis-base-fee-beta"]
 }
