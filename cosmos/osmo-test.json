@@ -1,6 +1,6 @@
 {
-  "rpc": "https://rpc.osmotest5.osmosis.zone",
-  "rest": "https://lcd.osmotest5.osmosis.zone",
+  "rpc": "https://rpc.testnet.osmosis.zone",
+  "rest": "https://lcd.testnet.osmosis.zone",
   "chainId": "osmo-test-5",
   "chainName": "Osmosis Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/chain.png",
