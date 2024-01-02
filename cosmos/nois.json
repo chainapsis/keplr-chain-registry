@@ -12,6 +12,7 @@
   "stakeCurrency": {
     "coinDenom": "NOIS",
     "coinMinimalDenom": "unois",
+    "coinGeckoId": "nois",
     "coinDecimals": 6
   },
   "bip44": {
@@ -29,6 +30,7 @@
     {
       "coinDenom": "NOIS",
       "coinMinimalDenom": "unois",
+      "coinGeckoId": "nois",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nois/unois.png"
     }
@@ -37,6 +39,7 @@
     {
       "coinDenom": "NOIS",
       "coinMinimalDenom": "unois",
+      "coinGeckoId": "nois",
       "coinDecimals": 6,
       "gasPriceStep": {
         "low": 0.05,
