@@ -35,8 +35,7 @@
     {
       "coinDenom": "NYX",
       "coinMinimalDenom": "unyx",
-      "coinDecimals": 6,
-      "coinGeckoId": "nyx"
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
@@ -49,8 +48,7 @@
     {
       "coinDenom": "nyx",
       "coinMinimalDenom": "unyx",
-      "coinDecimals": 6,
-      "coinGeckoId": "nyx"
+      "coinDecimals": 6
     }
   ],
   "features": ["cosmwasm"]
