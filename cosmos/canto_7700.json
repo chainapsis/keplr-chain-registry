@@ -1,5 +1,5 @@
 {
-  "rpc": "https://rpc.canto.nodestake.top/", 
+  "rpc": "https://rpc.canto.nodestake.top/",
   "rest": "https://mainnode.plexnode.org:1317",
   "chainId": "canto_7700-1",
   "chainName": "Canto",
@@ -7,7 +7,7 @@
   "nodeProvider": {
     "name": "Plex Labs",
     "email": "contact@plex.engineer",
-    "website":"https://plex.engineer/"
+    "website": "https://plex.engineer/"
   },
   "stakeCurrency": {
     "coinDenom": "CANTO",
@@ -41,7 +41,12 @@
       "coinDenom": "CANTO",
       "coinMinimalDenom": "acanto",
       "coinDecimals": 18,
-      "coinGeckoId": "canto"
+      "coinGeckoId": "canto",
+      "gasPriceStep": {
+        "low": 1250000000000,
+        "average": 2500000000000,
+        "high": 3750000000000
+      }
     }
   ],
   "features": [

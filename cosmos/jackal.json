@@ -35,9 +35,9 @@
         "coinDecimals": 6,
         "coinGeckoId": "jackal-protocol",
         "gasPriceStep": {
-          "low": 0.01,
-          "average": 0.025,
-          "high": 0.03
+          "low": 0.002,
+          "average": 0.002,
+          "high": 0.02
         }
       }
     ],

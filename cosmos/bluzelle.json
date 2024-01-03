@@ -6,7 +6,7 @@
     "email": "support@bluzelle.com",
     "website":"https://bluzelle.com/"
   },  
-  "chainId": "bluzelle-8",
+  "chainId": "bluzelle-9",
   "chainName": "Bluzelle",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bluzelle/chain.png",
   "stakeCurrency": {
@@ -15,8 +15,8 @@
       "coinDecimals": 6,
       "coinGeckoId": "bluzelle"
   },
-  "walletUrl": "https://ping.explorer.net.bluzelle.com/bluzelle",
-  "walletUrlForStaking": "https://ping.explorer.net.bluzelle.com/bluzelle/staking",
+  "walletUrl": "https://ping.explorer.net.bluzelle.com/Bluzelle",
+  "walletUrlForStaking": "https://ping.explorer.net.bluzelle.com/Bluzelle/staking",
   "bip44": {
     "coinType": 483
   },
@@ -33,19 +33,17 @@
     "coinDenom": "BLZ",
     "coinMinimalDenom": "ubnt",
     "coinDecimals": 6,
-    "coinGeckoId": "unknown"
+    "coinGeckoId": "bluzelle"
     },
     {
     "coinDenom": "ELT",
     "coinMinimalDenom": "uelt",
-    "coinDecimals": 6,
-    "coinGeckoId": "unknown"
+    "coinDecimals": 6
     },
     {
     "coinDenom": "G4",
     "coinMinimalDenom": "ug4",
-    "coinDecimals": 6,
-    "coinGeckoId": "unknown"
+    "coinDecimals": 6
     }
   ],
   "feeCurrencies": [

@@ -1,0 +1,59 @@
+{
+    "chainId": "xstaxy-1",
+    "chainName": "Aura Network",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xstaxy/chain.png",
+    "rpc": "https://rpc.aura.network",
+    "rest": "https://lcd.aura.network",
+    "nodeProvider": {
+      "name": "Aura Foundation",
+      "email": "support@aura.network",
+      "website":"https://aura.network/"
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "aura",
+      "bech32PrefixAccPub": "aurapub",
+      "bech32PrefixValAddr": "auravaloper",
+      "bech32PrefixValPub": "auravaloperpub",
+      "bech32PrefixConsAddr": "auravalcons",
+      "bech32PrefixConsPub": "auravalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "AURA",
+        "coinMinimalDenom": "uaura",
+        "coinDecimals": 6,
+        "coinGeckoId": "aura-network",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xstaxy/uaura.png"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "AURA",
+        "coinMinimalDenom": "uaura",
+        "coinDecimals": 6,
+        "coinGeckoId": "aura-network",
+        "gasPriceStep": {
+          "low": 0.001,
+          "average": 0.0025,
+          "high": 0.004
+        },
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xstaxy/uaura.png"
+      
+      }
+    ],
+    "stakeCurrency": {
+      "coinDenom": "AURA",
+      "coinMinimalDenom": "uaura",
+      "coinDecimals": 6,
+      "coinGeckoId": "aura-network",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xstaxy/uaura.png"
+    
+    },
+    "features": [
+      "cosmwasm"
+    ],
+    "walletUrlForStaking": "https://aurascan.io/"
+}

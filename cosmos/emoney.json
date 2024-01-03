@@ -1,6 +1,11 @@
 {
-  "rpc": "https://rpc-emoney.keplr.app",
-  "rest": "https://lcd-emoney.keplr.app",
+  "rpc": "https://emoney.validator.network",
+  "rest": "https://emoney.validator.network/api",
+  "nodeProvider": {
+    "name": "Validator Network",
+    "email": "contact@validator.network",
+    "website": "https://twitter.com/validator_net"
+  },
   "chainId": "emoney-3",
   "chainName": "e-Money",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/emoney/chain.png",
@@ -8,10 +13,9 @@
     "coinDenom": "NGM",
     "coinMinimalDenom": "ungm",
     "coinDecimals": 6,
-    "coinGeckoId": "e-money"
+    "coinGeckoId": "e-money",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/emoney/ungm.png"
   },
-  "walletUrl": "https://wallet.keplr.app/chains/e-money",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/e-money",
   "bip44": {
     "coinType": 118
   },
@@ -28,7 +32,8 @@
       "coinDenom": "NGM",
       "coinMinimalDenom": "ungm",
       "coinDecimals": 6,
-      "coinGeckoId": "e-money"
+      "coinGeckoId": "e-money",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/emoney/ungm.png"
     },
     {
       "coinDenom": "EEUR",
@@ -63,6 +68,7 @@
       "coinMinimalDenom": "ungm",
       "coinDecimals": 6,
       "coinGeckoId": "e-money",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/emoney/ungm.png",
       "gasPriceStep": {
         "low": 1,
         "average": 1,

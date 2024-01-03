@@ -7,7 +7,9 @@
   "stakeCurrency": {
     "coinDenom": "UMEE",
     "coinMinimalDenom": "uumee",
-    "coinDecimals": 6
+    "coinDecimals": 6,
+    "coinGeckoId": "umee",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/umee/uumee.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/umee",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/umee",
@@ -26,7 +28,9 @@
     {
       "coinDenom": "UMEE",
       "coinMinimalDenom": "uumee",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinGeckoId": "umee",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/umee/uumee.png"
     }
   ],
   "feeCurrencies": [
@@ -34,12 +38,14 @@
       "coinDenom": "UMEE",
       "coinMinimalDenom": "uumee",
       "coinDecimals": 6,
+      "coinGeckoId": "umee",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/umee/uumee.png",
       "gasPriceStep": {
-        "low": 0.05,
-        "average": 0.06,
-        "high": 0.1
+        "low": 0.06,
+        "average": 0.1,
+        "high": 0.14
       }
     }
   ],
-  "features": []
+  "features": ["authz-msg-revoke-fixed"]
 }

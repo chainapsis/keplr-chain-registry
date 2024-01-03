@@ -8,7 +8,8 @@
     "coinDenom": "AXL",
     "coinMinimalDenom": "uaxl",
     "coinDecimals": 6,
-    "coinGeckoId": "axelar"
+    "coinGeckoId": "axelar",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/uaxl.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/axelar",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/axelar",
@@ -28,115 +29,191 @@
       "coinDenom": "AXL",
       "coinMinimalDenom": "uaxl",
       "coinDecimals": 6,
-      "coinGeckoId": "axelar"
+      "coinGeckoId": "axelar",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/uaxl.png"
     },
     {
-      "coinDenom": "WETH",
+      "coinDenom": "ETH.axl",
       "coinMinimalDenom": "weth-wei",
       "coinDecimals": 18,
-      "coinGeckoId": "weth"
+      "coinGeckoId": "weth",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/weth-wei.png"
     },
     {
-      "coinDenom": "USDC",
+      "coinDenom": "USDC.axl",
       "coinMinimalDenom": "uusdc",
       "coinDecimals": 6,
-      "coinGeckoId": "usd-coin"
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/uusdc.png"
     },
     {
-      "coinDenom": "FRAX",
+      "coinDenom": "FRAX.axl",
       "coinMinimalDenom": "frax-wei",
       "coinDecimals": 18,
-      "coinGeckoId": "frax"
+      "coinGeckoId": "frax",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/frax-wei.png"
     },
     {
-      "coinDenom": "DAI",
+      "coinDenom": "DAI.axl",
       "coinMinimalDenom": "dai-wei",
       "coinDecimals": 18,
-      "coinGeckoId": "dai"
+      "coinGeckoId": "dai",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/dai.png"
     },
     {
-      "coinDenom": "USDT",
+      "coinDenom": "USDT.axl",
       "coinMinimalDenom": "uusdt",
       "coinDecimals": 6,
-      "coinGeckoId": "tether"
+      "coinGeckoId": "tether",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/uusdt.png"
     },
     {
-      "coinDenom": "WBTC",
+      "coinDenom": "WBTC.axl",
       "coinMinimalDenom": "wbtc-satoshi",
       "coinDecimals": 8,
-      "coinGeckoId": "wrapped-bitcoin"
+      "coinGeckoId": "wrapped-bitcoin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/wbtc-satoshi.png"
     },
     {
-      "coinDenom": "LINK",
+      "coinDenom": "LINK.axl",
       "coinMinimalDenom": "link-wei",
       "coinDecimals": 18,
-      "coinGeckoId": "chainlink"
+      "coinGeckoId": "chainlink",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/link-wei.png"
     },
     {
-      "coinDenom": "AAVE",
+      "coinDenom": "AAVE.axl",
       "coinMinimalDenom": "aave-wei",
       "coinDecimals": 18,
-      "coinGeckoId": "aave"
+      "coinGeckoId": "aave",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/aave-wei.png"
     },
     {
-      "coinDenom": "APE",
+      "coinDenom": "APE.axl",
       "coinMinimalDenom": "ape-wei",
       "coinDecimals": 18,
-      "coinGeckoId": "apecoin"
+      "coinGeckoId": "apecoin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/ape-wei.png"
     },
     {
-      "coinDenom": "AXS",
+      "coinDenom": "AXS.axl",
       "coinMinimalDenom": "axs-wei",
       "coinDecimals": 18,
-      "coinGeckoId": "axie-infinity"
+      "coinGeckoId": "axie-infinity",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/axs-wei.png"
     },
     {
-      "coinDenom": "MKR",
+      "coinDenom": "MKR.axl",
       "coinMinimalDenom": "mkr-wei",
       "coinDecimals": 18,
-      "coinGeckoId": "maker"
+      "coinGeckoId": "maker",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/mkr-wei.png"
     },
     {
-      "coinDenom": "RAI",
+      "coinDenom": "RAI.axl",
       "coinMinimalDenom": "rai-wei",
       "coinDecimals": 18,
       "coinGeckoId": "rai"
     },
     {
-      "coinDenom": "SHIB",
+      "coinDenom": "SHIB.axl",
       "coinMinimalDenom": "shib-wei",
       "coinDecimals": 18,
-      "coinGeckoId": "shiba-inu"
+      "coinGeckoId": "shiba-inu",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/shib-wei.png"
     },
     {
-      "coinDenom": "stETH",
+      "coinDenom": "stETH.axl",
       "coinMinimalDenom": "steth-wei",
       "coinDecimals": 18,
-      "coinGeckoId": "staked-ether"
+      "coinGeckoId": "staked-ether",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/steth-wei.png"
     },
     {
-      "coinDenom": "UNI",
+      "coinDenom": "UNI.axl",
       "coinMinimalDenom": "uni-wei",
       "coinDecimals": 18,
-      "coinGeckoId": "uniswap"
+      "coinGeckoId": "uniswap",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/uni-wei.png"
     },
     {
-      "coinDenom": "XCN",
+      "coinDenom": "XCN.axl",
       "coinMinimalDenom": "xcn-wei",
       "coinDecimals": 18,
       "coinGeckoId": "chain-2"
     },
     {
-      "coinDenom": "WGLMR",
+      "coinDenom": "WGLMR.axl",
       "coinMinimalDenom": "wglmr-wei",
       "coinDecimals": 18,
       "coinGeckoId": "wrapped-moonbeam"
     },
     {
-      "coinDenom": "DOT",
+      "coinDenom": "DOT.axl",
       "coinMinimalDenom": "dot-planck",
       "coinDecimals": 10,
-      "coinGeckoId": "polkadot"
+      "coinGeckoId": "polkadot",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/dot-planck.png"
+    },
+    {
+      "coinDenom": "WBNB.axl",
+      "coinMinimalDenom": "wbnb-wei",
+      "coinDecimals": 18,
+      "coinGeckoId": "wbnb",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/wbnb-wei.png"
+    },
+    {
+      "coinDenom": "WAVAX.axl",
+      "coinMinimalDenom": "wavax-wei",
+      "coinDecimals": 18,
+      "coinGeckoId": "wrapped-avax",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/wavax-wei.png"
+    },
+    {
+      "coinDenom": "WFTM.axl",
+      "coinMinimalDenom": "wftm-wei",
+      "coinDecimals": 18,
+      "coinGeckoId": "wrapped-fantom"
+    },
+    {
+      "coinDenom": "rETH.axl",
+      "coinMinimalDenom": "reth-wei",
+      "coinDecimals": 18,
+      "coinGeckoId": "rocket-pool-eth"
+    },
+    {
+      "coinDenom": "wstETH.axl",
+      "coinMinimalDenom": "wsteth-wei",
+      "coinDecimals": 18,
+      "coinGeckoId": "wrapped-steth"
+    },
+    {
+      "coinDenom": "PolygonUSDC.axl",
+      "coinMinimalDenom": "polygon-uusdc",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/polygon-uusdc.png"
+    },
+    {
+      "coinDenom": "AvalancheUSDC.axl",
+      "coinMinimalDenom": "avalanche-uusdc",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/avalanche-uusdc.png"
+    },
+    {
+      "coinDenom": "WMATIC.axl",
+      "coinMinimalDenom": "wmatic-wei",
+      "coinDecimals": 18,
+      "coinGeckoId": "wmatic",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/wmatic-wei.png"
+    },
+    {
+      "coinDenom": "ARB.axl",
+      "coinMinimalDenom": "arb-wei",
+      "coinDecimals": 18,
+      "coinGeckoId": "arbitrum",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/arb-wei.png"
     }
   ],
   "feeCurrencies": [
@@ -145,6 +222,7 @@
       "coinMinimalDenom": "uaxl",
       "coinDecimals": 6,
       "coinGeckoId": "axelar",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/uaxl.png",
       "gasPriceStep": {
         "low": 0.007,
         "average": 0.007,
@@ -152,7 +230,5 @@
       }
     }
   ],
-  "features": [
-    "axelar-evm-bridge"
-  ]
+  "features": ["axelar-evm-bridge"]
 }

@@ -1,0 +1,53 @@
+{
+  "chainId": "messenger",
+  "chainName": "Paloma",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/messenger/chain.png",
+  "rpc": "https://rpc-1.paloma.nodes.guru",
+  "rest": "https://api-1.paloma.nodes.guru",
+  "nodeProvider": {
+    "name": "Nodes.Guru",
+    "email": "support@nodes.guru",
+    "website":"https://nodes.guru/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "paloma",
+    "bech32PrefixAccPub": "palomapub",
+    "bech32PrefixValAddr": "palomavaloper",
+    "bech32PrefixValPub": "palomavaloperpub",
+    "bech32PrefixConsAddr": "palomavalcons",
+    "bech32PrefixConsPub": "palomavalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "GRAIN",
+      "coinMinimalDenom": "ugrain",
+      "coinDecimals": 6,
+      "coinGeckoId": "paloma"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "GRAIN",
+      "coinMinimalDenom": "ugrain",
+      "coinDecimals": 6,
+      "coinGeckoId": "paloma",
+      "gasPriceStep": {
+        "low": 0.00,
+        "average": 0.01,
+        "high": 0.025
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "GRAIN",
+    "coinMinimalDenom": "ugrain",
+    "coinDecimals": 6,
+    "coinGeckoId": "paloma"
+  },
+  "features": [
+    "cosmwasm"
+  ]
+}

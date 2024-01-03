@@ -1,0 +1,58 @@
+{
+  "rpc": "https://rpc-noble.keplr.app",
+  "rest": "https://lcd-noble.keplr.app",
+  "chainId": "noble-1",
+  "chainName": "Noble",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/chain.png",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "noble",
+    "bech32PrefixAccPub": "noblepub",
+    "bech32PrefixValAddr": "noblevaloper",
+    "bech32PrefixValPub": "noblevaloperpub",
+    "bech32PrefixConsAddr": "noblevalcons",
+    "bech32PrefixConsPub": "noblevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "uusdc",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/uusdc.png"
+    },
+    {
+      "coinDenom": "FRNZ",
+      "coinMinimalDenom": "ufrienzies",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/ufrienzies.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "uusdc",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/uusdc.png",
+      "gasPriceStep": {
+        "low": 0.1,
+        "average": 0.1,
+        "high": 0.2
+      }
+    },
+    {
+      "coinDenom": "ATOM",
+      "coinMinimalDenom": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.01,
+        "high": 0.02
+      }
+    }
+  ],
+  "features": []
+}

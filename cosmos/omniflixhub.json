@@ -1,21 +1,17 @@
 {
-  "rpc": "https://rpc.omniflix.network",
-  "rest": "https://rest.omniflix.network",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub/chain.png",
+  "rpc": "https://rpc-omniflixhub.keplr.app",
+  "rest": "https://lcd-omniflixhub.keplr.app",
   "chainId": "omniflixhub-1",
-  "chainName": "OmniFlix Hub",
-  "nodeProvider": {
-    "name": "OmniFlix Node",
-    "email": "info@OmniFlix.network",
-    "website":"https://www.omniflix.network"
-  },
+  "chainName": "OmniFlix",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub/chain.png",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/omniflix",
   "stakeCurrency": {
     "coinDenom": "FLIX",
     "coinMinimalDenom": "uflix",
     "coinDecimals": 6,
-    "coinGeckoId": "omniflix-network"
+    "coinGeckoId": "omniflix-network",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub/uflix.png"
   },
-  "walletUrlForStaking": "https://flix.omniflix.co/stake/",
   "bip44": {
     "coinType": 118
   },
@@ -27,22 +23,28 @@
     "bech32PrefixConsAddr": "omniflixvalcons",
     "bech32PrefixConsPub": "omniflixvalconspub"
   },
-  "currencies": [{
-      "coinDenom": "FLIX",
-      "coinMinimalDenom": "uflix",
-      "coinDecimals": 6,
-      "coinGeckoId": "omniflix-network"
-    }],
-  "feeCurrencies": [{
+  "currencies": [
+    {
       "coinDenom": "FLIX",
       "coinMinimalDenom": "uflix",
       "coinDecimals": 6,
       "coinGeckoId": "omniflix-network",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub/uflix.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "FLIX",
+      "coinMinimalDenom": "uflix",
+      "coinDecimals": 6,
+      "coinGeckoId": "omniflix-network",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub/uflix.png",
       "gasPriceStep": {
         "low": 0.001,
         "average": 0.0025,
         "high": 0.025
       }
-    }],
+    }
+  ],
   "features": []
 }

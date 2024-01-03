@@ -8,7 +8,8 @@
     "coinDenom": "EVMOS",
     "coinMinimalDenom": "aevmos",
     "coinDecimals": 18,
-    "coinGeckoId": "evmos"
+    "coinGeckoId": "evmos",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/evmos_9001/aevmos.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/evmos",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/evmos",
@@ -28,7 +29,8 @@
       "coinDenom": "EVMOS",
       "coinMinimalDenom": "aevmos",
       "coinDecimals": 18,
-      "coinGeckoId": "evmos"
+      "coinGeckoId": "evmos",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/evmos_9001/aevmos.png"
     }
   ],
   "feeCurrencies": [
@@ -37,15 +39,13 @@
       "coinMinimalDenom": "aevmos",
       "coinDecimals": 18,
       "coinGeckoId": "evmos",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/evmos_9001/aevmos.png",
       "gasPriceStep": {
-        "low": 25000000000,
-        "average": 25000000000,
-        "high": 40000000000
+        "low": 80000000000,
+        "average": 80000000000,
+        "high": 80000000000
       }
     }
   ],
-  "features": [
-    "eth-address-gen",
-    "eth-key-sign"
-  ]
+  "features": ["eth-address-gen", "eth-key-sign"]
 }

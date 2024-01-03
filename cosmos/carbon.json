@@ -46,6 +46,11 @@
       "coinGeckoId": "binance-usd"
     },
     {
+      "coinDenom": "CGLP",
+      "coinMinimalDenom": "cglp.1.19.1698d3",
+      "coinDecimals": 18
+    },
+    {
       "coinDenom": "ETH",
       "coinMinimalDenom": "eth.1.19.c3b805",
       "coinDecimals": 18,
@@ -60,8 +65,7 @@
     {
       "coinDenom": "USC",
       "coinMinimalDenom": "usc",
-      "coinDecimals": 6,
-      "coinGeckoId": "carbon-usd"
+      "coinDecimals": 6
     },
     {
       "coinDenom": "USDC",
@@ -80,6 +84,12 @@
       "coinMinimalDenom": "cgt/1",
       "coinDecimals": 18,
       "coinGeckoId": "usd-coin"
+    },
+    {
+      "coinDenom": "ZIL",
+      "coinMinimalDenom": "zil.1.18.1a4a06",
+      "coinDecimals": 12,
+      "coinGeckoId": "zilliqa"
     }
   ],
   "feeCurrencies": [
@@ -128,6 +138,16 @@
       }
     },
     {
+      "coinDenom": "CGLP",
+      "coinMinimalDenom": "cglp.1.19.1698d3",
+      "coinDecimals": 18,
+      "gasPriceStep": {
+        "low": 76923076923.07692,
+        "average": 96153846153.84616,
+        "high": 115384615384.61539
+      }
+    },
+    {
       "coinDenom": "ETH",
       "coinMinimalDenom": "eth.1.19.c3b805",
       "coinDecimals": 18,
@@ -164,7 +184,6 @@
       "coinDenom": "LUNA",
       "coinMinimalDenom": "ibc/2B58B8C147E8718EECCB3713271DF46DEE8A3A00A27242628604E31C2F370EF5",
       "coinDecimals": 6,
-      "coinGeckoId": "terra-luna-2",
       "gasPriceStep": {
         "low": 0.038461538461538464,
         "average": 0.04807692307692308,
@@ -180,6 +199,28 @@
         "low": 0.2461538461538462,
         "average": 0.30769230769230776,
         "high": 0.3692307692307693
+      }
+    },
+    {
+      "coinDenom": "EVMOS",
+      "coinMinimalDenom": "ibc/35E771B8682D828173F4B795F6C307780F96DC64D6F914FAE4CC9B4666F66364",
+      "coinDecimals": 18,
+      "coinGeckoId": "evmos",
+      "gasPriceStep": {
+        "low": 230769230769.23077,
+        "average": 288461538461.53846,
+        "high": 346153846153.84615
+      }
+    },
+    {
+      "coinDenom": "IRIS",
+      "coinMinimalDenom": "ibc/4E06CF24FEBFB3F5AF645377DCC0B70AA6183BAF6B918B8B6243FCDEB7D38118",
+      "coinDecimals": 6,
+      "coinGeckoId": "iris-network",
+      "gasPriceStep": {
+        "low": 0.4615384615384616,
+        "average": 0.5769230769230769,
+        "high": 0.6923076923076923
       }
     },
     {
@@ -230,7 +271,6 @@
       "coinDenom": "stATOM",
       "coinMinimalDenom": "ibc/B7864B03E1B9FD4F049243E92ABD691586F682137037A9F3FCA5222815620B3C",
       "coinDecimals": 6,
-      "coinGeckoId": "stride-staked-atom",
       "gasPriceStep": {
         "low": 0.007692307692307693,
         "average": 0.009615384615384616,
@@ -252,7 +292,6 @@
       "coinDenom": "USC",
       "coinMinimalDenom": "usc",
       "coinDecimals": 6,
-      "coinGeckoId": "carbon-usd",
       "gasPriceStep": {
         "low": 0.07692307692307693,
         "average": 0.09615384615384616,
@@ -290,6 +329,17 @@
         "low": 76923076923.07692,
         "average": 96153846153.84616,
         "high": 115384615384.61539
+      }
+    },
+    {
+      "coinDenom": "ZIL",
+      "coinMinimalDenom": "zil.1.18.1a4a06",
+      "coinDecimals": 12,
+      "coinGeckoId": "zilliqa",
+      "gasPriceStep": {
+        "low": 4615384.615384616,
+        "average": 5769230.769230769,
+        "high": 6923076.923076923
       }
     }
   ],

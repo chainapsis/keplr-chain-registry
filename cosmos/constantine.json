@@ -1,0 +1,51 @@
+{
+  "bech32Config": {
+    "bech32PrefixAccAddr": "archway",
+    "bech32PrefixAccPub": "archwaypub",
+    "bech32PrefixConsAddr": "archwayvalcons",
+    "bech32PrefixConsPub": "archwayvalconspub",
+    "bech32PrefixValAddr": "archwayvaloper",
+    "bech32PrefixValPub": "archwayvaloperpub"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "chainId": "constantine-3",
+  "chainName": "Archway (Testnet)",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/constantine/chain.png",
+  "currencies": [
+    {
+      "coinDecimals": 18,
+      "coinDenom": "CONST",
+      "coinGeckoId": "constantine-network",
+      "coinMinimalDenom": "aconst"
+    }
+  ],
+  "features": ["cosmwasm"],
+  "feeCurrencies": [
+    {
+      "coinDecimals": 18,
+      "coinDenom": "CONST",
+      "coinGeckoId": "constantine-network",
+      "coinMinimalDenom": "aconst",
+      "gasPriceStep": {
+        "low": 1000000000000,
+        "average": 1500000000000,
+        "high": 2000000000000
+      }
+    }
+  ],
+  "rest": "https://api.constantine.archway.tech",
+  "rpc": "https://rpc.constantine.archway.tech",
+  "stakeCurrency": {
+    "coinDecimals": 18,
+    "coinDenom": "CONST",
+    "coinGeckoId": "constantine-network",
+    "coinMinimalDenom": "aconst"
+  },
+  "nodeProvider": {
+    "name": "Phi Labs",
+    "email": "support@philabs.xyz",
+    "website":"https://philabs.xyz"
+  }
+}
