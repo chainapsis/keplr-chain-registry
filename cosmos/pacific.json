@@ -104,6 +104,12 @@
       "coinMinimalDenom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/871jbn9unTavWsAe83f2Ma9GJWSv6BKsyWYLiQ6z3Pva",
       "coinDecimals": 8,
       "coinGeckoId": "tether"
+    },
+    {
+      "coinDenom": "POPEYE",
+      "coinMinimalDenom": "factory/sei1fl8pg59wfsgw2wp4aruk38zqccfnc2g8ptrm24/popeye",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pacific/factory/sei1fl8pg59wfsgw2wp4aruk38zqccfnc2g8ptrm24/popeye.png"
     }
   ],
   "feeCurrencies": [
