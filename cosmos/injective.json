@@ -29,7 +29,14 @@
       "coinMinimalDenom": "inj",
       "coinGeckoId": "injective-protocol",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/inj.png"
-    }
+    },
+    {
+      "coinDenom": "AUTISM",
+      "coinDecimals": 6,
+      "coinMinimalDenom": "factory/inj14lf8xm6fcvlggpa7guxzjqwjmtr24gnvf56hvz/autism",
+      "coinGeckoId": "autism",
+      "coinImageUrl": "https://raw.githubusercontent.com/jlee1997/autism/main/autism.png"
+    },
   ],
   "feeCurrencies": [
     {
