@@ -26,12 +26,19 @@
         "bech32PrefixConsAddr": "chihuahuavalcons",
         "bech32PrefixConsPub": "chihuahuavalconspub"
     },
-    "currencies": [{
+    "currencies": [
+      {
         "coinDenom": "HUAHUA",
         "coinMinimalDenom": "uhuahua",
         "coinDecimals": 6,
         "coinGeckoId": "chihuahua-token"
-    }],
+      },
+      {
+        "coinDenom": "WOOF",
+        "coinMinimalDenom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uwoof",
+        "coinDecimals": 6 
+      }
+    ],
     "feeCurrencies": [{
         "coinDenom": "HUAHUA",
         "coinMinimalDenom": "uhuahua",
