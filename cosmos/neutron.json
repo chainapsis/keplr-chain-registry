@@ -54,7 +54,13 @@
       "coinMinimalDenom": "factory/neutron143wp6g8paqasnuuey6zyapucknwy9rhnld8hkr/bad",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron143wp6g8paqasnuuey6zyapucknwy9rhnld8hkr/bad.png"
-    }
+    },
+    {
+      "coinDenom": "CIRCUS",
+      "coinMinimalDenom": "factory/neutron170v88vrtnedesyfytuku257cggxc79rd7lwt7q/ucircus",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/circus.png"
+    }    
   ],
   "feeCurrencies": [
     {
