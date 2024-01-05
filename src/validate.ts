@@ -47,11 +47,10 @@ export const validateChainInfo = async (
   }
 
   // Check chain identifier
-  if (ChainIdHelper.parse(chainInfo.chainId).identifier !== chainIdentifier) {
+  const parsedChainId = ChainIdHelper.parse(chainInfo.chainId).identifier;
+  if (parsedChainId !== chainIdentifier) {
     throw new Error(
-      `Chain identifier unmatched: (expected: ${chainIdentifier}, actual: ${
-        ChainIdHelper.parse(chainInfo.chainId).identifier
-      })`,
+      `Chain identifier unmatched: (expected: ${parsedChainId}, actual: ${chainIdentifier})`,
     );
   }
 
