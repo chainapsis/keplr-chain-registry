@@ -12,14 +12,14 @@
   },
   "chainId": "provider",
   "chainName": "Cosmoshub Provider Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/provider/chain.png",
   "currencies": [
     {
       "coinDecimals": 6,
       "coinDenom": "ATOM",
       "coinGeckoId": "cosmos",
       "coinMinimalDenom": "uatom",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/uatom.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/provider/uatom.png"
     }
   ],
   "features": [],
@@ -29,7 +29,7 @@
       "coinDenom": "ATOM",
       "coinGeckoId": "cosmos",
       "coinMinimalDenom": "uatom",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/uatom.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/provider/uatom.png",
       "gasPriceStep": {
         "average": 0.025,
         "high": 0.03,
@@ -48,7 +48,7 @@
     "coinDenom": "ATOM",
     "coinGeckoId": "cosmos",
     "coinMinimalDenom": "uatom",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/uatom.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/provider/uatom.png"
   },
   "walletUrlForStaking": "https://wallet.keplr.app/chains/cosmos-hub"
 }
