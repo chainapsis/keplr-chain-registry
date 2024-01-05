@@ -17,7 +17,7 @@
     {
       "coinDecimals": 6,
       "coinDenom": "ATOM",
-      "coinGeckoId": "cosmos",
+
       "coinMinimalDenom": "uatom",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/provider/uatom.png"
     }
@@ -27,7 +27,7 @@
     {
       "coinDecimals": 6,
       "coinDenom": "ATOM",
-      "coinGeckoId": "cosmos",
+
       "coinMinimalDenom": "uatom",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/provider/uatom.png",
       "gasPriceStep": {
@@ -46,7 +46,7 @@
   "stakeCurrency": {
     "coinDecimals": 6,
     "coinDenom": "ATOM",
-    "coinGeckoId": "cosmos",
+
     "coinMinimalDenom": "uatom",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/provider/uatom.png"
   },
