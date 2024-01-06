@@ -26,7 +26,7 @@
       "coinMinimalDenom": "ufury",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/furya/ufury.png",
-      "coinGeckoId": "fanfury"
+      "coinGeckoId": "blackfury-hug"
     }
   ],
   "feeCurrencies": [
@@ -35,7 +35,7 @@
       "coinMinimalDenom": "ufury",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/furya/ufury.png",
       "coinDecimals": 6,
-      "coinGeckoId": "fanfury",
+      "coinGeckoId": "blackfury-hug",
       "gasPriceStep": {
         "low": 0,
         "average": 0.025,
@@ -47,7 +47,7 @@
     "coinDenom": "FURY",
     "coinMinimalDenom": "ufury",
     "coinDecimals": 6,
-    "coinGeckoId": "fanfury",
+    "coinGeckoId": "blackfury-hug",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/furya/ufury.png"
   },
   "features": ["cosmwasm"],
