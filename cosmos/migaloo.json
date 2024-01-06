@@ -2,8 +2,8 @@
    "chainId":"migaloo-1",
    "chainName":"Migaloo",
    "chainSymbolImageUrl":"https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/chain.png",
-   "rpc":"https://rpc-whitewhale-ia.cosmosia.notional.ventures/",
-   "rest":"https://api-whitewhale-ia.cosmosia.notional.ventures/",
+   "rpc":"https://rpc-whitewhale-ia.cosmosia.notional.ventures",
+   "rest":"https://api-whitewhale-ia.cosmosia.notional.ventures",
    "nodeProvider":{
       "name":"Notional",
       "email":"contact@notional.ventures",
@@ -25,7 +25,20 @@
          "coinDenom":"WHALE",
          "coinMinimalDenom":"uwhale",
          "coinDecimals":6,
-         "coinGeckoId":"white-whale"
+         "coinGeckoId":"white-whale",
+         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/uwhale.png"
+      },
+      {
+        "coinDenom": "GUPPY",
+        "coinMinimalDenom": "factory/migaloo1etlu2h30tjvv8rfa4fwdc43c92f6ul5w9acxzk/uguppy",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/factory/migaloo1etlu2h30tjvv8rfa4fwdc43c92f6ul5w9acxzk/uguppy.png"
+      },
+      {
+        "coinDenom": "RAC",
+        "coinMinimalDenom": "factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/urac",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/urac.png"
       }
    ],
    "feeCurrencies":[

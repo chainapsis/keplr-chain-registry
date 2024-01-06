@@ -43,6 +43,12 @@
       "coinDecimals": 6,
       "coinGeckoId": "stkatom",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/stkatom.png"
+    },
+    {
+      "coinDenom": "stkOSMO",
+      "coinMinimalDenom": "stk/uosmo",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/stkosmo.png"
     }
   ],
   "feeCurrencies": [
@@ -90,6 +96,28 @@
         "low": 100000000,
         "average": 1000000000,
         "high": 10000000000
+      }
+    },
+    {
+      "coinDenom": "OSMO",
+      "coinMinimalDenom": "ibc/646315E3B0461F5FA4C5C8968A88FC45D4D5D04A45B98F1B8294DD82F386DD85",
+      "coinDecimals": 6,
+      "coinGeckoId": "osmosis",
+      "gasPriceStep": {
+        "low": 0.0001,
+        "average": 0.001,
+        "high": 0.01
+      }
+    },
+    {
+      "coinDenom": "stkOSMO",
+      "coinMinimalDenom": "stk/uosmo",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/stkosmo.png",
+      "gasPriceStep": {
+        "low": 0.0001,
+        "average": 0.001,
+        "high": 0.01
       }
     }
   ],

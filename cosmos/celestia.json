@@ -31,9 +31,9 @@
       "coinMinimalDenom": "utia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/celestia/chain.png",
       "gasPriceStep": {
-        "low": 0.1,
-        "average": 0.2,
-        "high": 0.4
+        "low": 0.01,
+        "average": 0.02,
+        "high": 0.1
       }
     }
   ],
@@ -44,7 +44,7 @@
     "coinDenom": "TIA",
     "coinGeckoId": "celestia",
     "coinMinimalDenom": "utia",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/celestia/uatom.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/celestia/utia.png"
   },
   "walletUrlForStaking": "https://wallet.keplr.app/chains/celestia"
 }

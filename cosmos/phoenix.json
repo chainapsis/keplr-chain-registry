@@ -37,9 +37,9 @@
       "coinGeckoId": "terra-luna-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/uluna.png",
       "gasPriceStep": {
-        "low": 0.015,
-        "average": 0.025,
-        "high": 0.04
+        "low": 0.15,
+        "average": 0.2,
+        "high": 0.4
       }
     }
   ],

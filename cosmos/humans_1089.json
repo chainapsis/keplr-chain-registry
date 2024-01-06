@@ -1,0 +1,50 @@
+{
+  "rpc": "https://rpc.mainnet.humans.zone",
+  "rest": "https://api.mainnet.humans.zone",
+  "chainId": "humans_1089-1",
+  "chainName": "Humans.ai",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/humans_1089/logo.png",
+  "nodeProvider": {
+    "name": "Humans.ai",
+    "email": "contact@humans.ai",
+    "website": "https://humans.ai/"
+  },
+  "stakeCurrency": {
+    "coinDenom": "HEART",
+    "coinMinimalDenom": "aheart",
+    "coinDecimals": 18,
+    "coinGeckoId": "humans-ai",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/humans_1089/logo.png"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "human",
+    "bech32PrefixAccPub": "humanpub",
+    "bech32PrefixValAddr": "humanvaloper",
+    "bech32PrefixValPub": "humanvaloperpub",
+    "bech32PrefixConsAddr": "humanvalcons",
+    "bech32PrefixConsPub": "humanvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "HEART",
+      "coinMinimalDenom": "aheart",
+      "coinDecimals": 18
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "HEART",
+      "coinMinimalDenom": "aheart",
+      "coinDecimals": 18,
+      "gasPriceStep": {
+        "low": 80000000000,
+        "average": 120000000000,
+        "high": 160000000000
+      }
+    }
+  ],
+  "features": ["eth-address-gen", "eth-key-sign"]
+}
