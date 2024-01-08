@@ -36,7 +36,8 @@
       {
         "coinDenom": "WOOF",
         "coinMinimalDenom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uwoof",
-        "coinDecimals": 6 
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/chihuahua/woof.png"
       }
     ],
     "feeCurrencies": [{
