@@ -55,7 +55,8 @@
       "coinDenom": "LVN",
       "coinMinimalDenom": "factory/osmo1mlng7pz4pnyxtpq0akfwall37czyk9lukaucsrn30ameplhhshtqdvfm5c/ulvn",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/factory/osmo1mlng7pz4pnyxtpq0akfwall37czyk9lukaucsrn30ameplhhshtqdvfm5c/ulvn.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/factory/osmo1mlng7pz4pnyxtpq0akfwall37czyk9lukaucsrn30ameplhhshtqdvfm5c/ulvn.png",
+      "coinGeckoId": "levana-protocol"
     },
     {
       "coinDenom": "MBRN",
@@ -67,7 +68,15 @@
       "coinDenom": "CDT",
       "coinMinimalDenom": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt",
       "coinDecimals": 6,
+      "coinGeckoId": "collateralized-debt-token",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt.png"
+    },
+    {
+      "coinDenom": "milkTIA",
+      "coinMinimalDenom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA",
+      "coinDecimals": 6,
+      "coinGeckoId": "milkyway-staked-tia",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/milktia.png"
     }
   ],
   "feeCurrencies": [
@@ -84,9 +93,5 @@
       }
     }
   ],
-  "features": [
-    "cosmwasm",
-    "osmosis-txfees",
-    "osmosis-base-fee-beta"
-  ]
+  "features": ["cosmwasm", "osmosis-txfees", "osmosis-base-fee-beta"]
 }

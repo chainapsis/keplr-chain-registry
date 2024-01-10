@@ -29,6 +29,31 @@
       "coinDecimals": 18,
       "coinGeckoId": "wrapped-steth",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/wstETH.png"
+    },
+    {
+      "coinDenom": "NEWT",
+      "coinMinimalDenom": "factory/neutron1p8d89wvxyjcnawmgw72klknr3lg9gwwl6ypxda/newt",
+      "coinDecimals": 6,
+      "coinGeckoId": "newt",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/newt.png"
+    },
+    {
+      "coinDenom": "CORGI",
+      "coinMinimalDenom": "factory/neutron1tklm6cvr2wxg8k65t8gh5ewslnzdfd5fsk0w3f/corgi",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/corgi.png"
+    },
+    {
+      "coinDenom": "ECLIP",
+      "coinMinimalDenom": "factory/neutron10sr06r3qkhn7xzpw3339wuj77hu06mzna6uht0/eclip",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/eclip.png"
+    },
+    {
+      "coinDenom": "BAD",
+      "coinMinimalDenom": "factory/neutron143wp6g8paqasnuuey6zyapucknwy9rhnld8hkr/bad",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron143wp6g8paqasnuuey6zyapucknwy9rhnld8hkr/bad.png"
     }
   ],
   "feeCurrencies": [
@@ -38,9 +63,9 @@
       "coinDecimals": 6,
       "coinGeckoId": "neutron-3",
       "gasPriceStep": {
-        "low": 0.01,
-        "average": 0.01,
-        "high": 0.01
+        "low": 0.56,
+        "average": 0.56,
+        "high": 0.84
       }
     },
     {
@@ -48,9 +73,9 @@
       "coinMinimalDenom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.005,
-        "average": 0.005,
-        "high": 0.005
+        "low": 0.02,
+        "average": 0.02,
+        "high": 0.03
       }
     },
     {
@@ -58,9 +83,9 @@
       "coinMinimalDenom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.05,
-        "average": 0.05,
-        "high": 0.05
+        "low": 0.2,
+        "average": 0.2,
+        "high": 0.3
       }
     }
   ],
