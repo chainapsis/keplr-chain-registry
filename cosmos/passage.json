@@ -15,7 +15,6 @@
     "coinGeckoId": "passage",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/passage/upasg.png"
   },
-  "walletUrlForStaking": "https://resolute.vitwit.com/staking/passage",
   "bip44": {
     "coinType": 118
   },
