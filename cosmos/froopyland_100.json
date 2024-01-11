@@ -1,0 +1,51 @@
+{
+  "chainName": "Dymension Froopyland",
+  "rpc": "https://froopyland.blockpi.network/rpc/v1/public",
+  "rest": "https://froopyland.blockpi.network/lcd/v1/public",
+  "chainId": "froopyland_100-1",
+  "currencies": [
+    {
+      "coinMinimalDenom": "udym",
+      "coinDenom": "DYM",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/froopyland_100/chain.png"
+    }
+  ],
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "dym",
+    "bech32PrefixAccPub": "dympub",
+    "bech32PrefixValAddr": "dymvaloper",
+    "bech32PrefixValPub": "dymvaloperpub",
+    "bech32PrefixConsAddr": "dymvalcons",
+    "bech32PrefixConsPub": "dymvalconspub"
+  },
+  "beta": true,
+  "stakeCurrency": {
+    "coinMinimalDenom": "udym",
+    "coinDenom": "DYM",
+    "coinDecimals": 18,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/froopyland_100/chain.png"
+  },
+  "feeCurrencies": [
+    {
+      "coinMinimalDenom": "udym",
+      "coinDenom": "DYM",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/froopyland_100/chain.png",
+      "gasPriceStep": {
+        "average": 0.4,
+        "high": 0.55,
+        "low": 0.25
+      }
+    }
+  ],
+  "features": [
+    "ibc-transfer",
+    "ibc-go",
+    "eth-address-gen",
+    "eth-key-sign"
+  ]
+}
