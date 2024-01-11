@@ -1,8 +1,14 @@
 {
+  "chainId": "froopyland_100-1",
   "chainName": "Dymension Froopyland",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/froopyland_100/chain.png",
   "rpc": "https://froopyland.blockpi.network/rpc/v1/public",
   "rest": "https://froopyland.blockpi.network/lcd/v1/public",
-  "chainId": "froopyland_100-1",
+  "nodeProvider": {
+    "name": "BlockPI",
+    "email": "info@blockpi.io",
+    "website": "https://blockpi.io/"
+  },
   "currencies": [
     {
       "coinMinimalDenom": "udym",
@@ -22,7 +28,6 @@
     "bech32PrefixConsAddr": "dymvalcons",
     "bech32PrefixConsPub": "dymvalconspub"
   },
-  "beta": true,
   "stakeCurrency": {
     "coinMinimalDenom": "udym",
     "coinDenom": "DYM",
