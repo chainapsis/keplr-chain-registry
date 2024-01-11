@@ -1,6 +1,6 @@
 {
   "chainId": "froopyland_100-1",
-  "chainName": "Dymension Froopyland",
+  "chainName": "Dymension Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/froopyland_100/chain.png",
   "rpc": "https://froopyland.blockpi.network/rpc/v1/public",
   "rest": "https://froopyland.blockpi.network/lcd/v1/public",
