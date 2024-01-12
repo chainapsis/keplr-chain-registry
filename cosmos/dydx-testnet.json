@@ -33,9 +33,9 @@
       "coinDecimals": 18,
       "coinMinimalDenom": "adv4tnt",
       "gasPriceStep": {
-        "low": 12500000000,
-        "average": 12500000000,
-        "high": 20000000000
+        "low": 25000000000,
+        "average": 25000000000,
+        "high": 50000000000
       }
     }
   ],
