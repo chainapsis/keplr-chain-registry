@@ -31,7 +31,12 @@
     {
       "coinDenom": "DV4TNT",
       "coinDecimals": 18,
-      "coinMinimalDenom": "adv4tnt"
+      "coinMinimalDenom": "adv4tnt",
+      "gasPriceStep": {
+        "low": 12500000000,
+        "average": 12500000000,
+        "high": 20000000000
+      }
     }
   ],
   "features": []
