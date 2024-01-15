@@ -24,7 +24,7 @@
   "currencies": [
     {
       "coinDenom": "ISLM",
-      "coinMinimalDenom": "aislm",
+      "coinMinimalDenom": "aISLM",
       "coinDecimals": 18,
       "coinGeckoId": "islamic-coin",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/haqq_11235/islm.png"
@@ -33,7 +33,7 @@
   "feeCurrencies": [
     {
       "coinDenom": "ISLM",
-      "coinMinimalDenom": "aislm",
+      "coinMinimalDenom": "aISLM",
       "coinDecimals": 18,
       "coinGeckoId": "islamic-coin",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/haqq_11235/islm.png",
@@ -46,7 +46,7 @@
   ],
   "stakeCurrency": {
     "coinDenom": "ISLM",
-    "coinMinimalDenom": "aislm",
+    "coinMinimalDenom": "aISLM",
     "coinDecimals": 18,
     "coinGeckoId": "islamic-coin",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/haqq_11235/islm.png"
