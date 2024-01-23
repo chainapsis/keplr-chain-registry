@@ -43,7 +43,6 @@
       "coinDenom": "iSEI",
       "coinMinimalDenom": "factory/sei1e3gttzq5e5k49f9f5gzvrl0rltlav65xu6p9xc0aj7e84lantdjqp7cncc/isei",
       "coinDecimals": 6,
-      "coinGeckoId": "iSEI",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pacific/factory/sei1e3gttzq5e5k49f9f5gzvrl0rltlav65xu6p9xc0aj7e84lantdjqp7cncc/iSEI.png"
     },
     {
