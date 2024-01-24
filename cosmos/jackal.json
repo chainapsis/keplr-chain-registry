@@ -25,7 +25,8 @@
         "coinDenom": "JKL",
         "coinMinimalDenom": "ujkl",
         "coinDecimals": 6,
-        "coinGeckoId": "jackal-protocol"
+        "coinGeckoId": "jackal-protocol",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/jackal/chain.png"
       }
     ],
     "feeCurrencies": [
