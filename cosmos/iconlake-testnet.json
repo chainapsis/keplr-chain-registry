@@ -12,6 +12,11 @@
   "bip44": {
     "coinType": 1009
   },
+  "alternativeBIP44s": [
+    {
+      "coinType": 118
+    }
+  ],
   "bech32Config": {
     "bech32PrefixAccAddr": "iconlake",
     "bech32PrefixAccPub": "iconlakepub",
