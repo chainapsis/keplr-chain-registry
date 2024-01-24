@@ -31,7 +31,8 @@
             "coinDenom": "HUAHUA",
             "coinMinimalDenom": "uhuahua",
             "coinDecimals": 6,
-            "coinGeckoId": "chihuahua-token"
+            "coinGeckoId": "chihuahua-token",
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/chihuahua/chain.png"
         },
         {
             "coinDenom": "BADDOG",
