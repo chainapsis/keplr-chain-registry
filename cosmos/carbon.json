@@ -99,9 +99,9 @@
       "coinDecimals": 8,
       "coinGeckoId": "switcheo",
       "gasPriceStep": {
-        "low": 333.3333333333334,
-        "average": 333.3333333333334,
-        "high": 333.3333333333334
+        "low": 33.3333333333334,
+        "average": 33.3333333333334,
+        "high": 33.3333333333334
       }
     },
     {
@@ -110,9 +110,9 @@
       "coinDecimals": 18,
       "coinGeckoId": "binancecoin",
       "gasPriceStep": {
-        "low": 333333333.3333334,
-        "average": 333333333.3333334,
-        "high": 333333333.3333334
+        "low": 33333333.3333334,
+        "average": 33333333.3333334,
+        "high": 33333333.3333334
       }
     },
     {
@@ -121,9 +121,9 @@
       "coinDecimals": 8,
       "coinGeckoId": "neo",
       "gasPriceStep": {
-        "low": 0.5,
-        "average": 0.5,
-        "high": 0.5
+        "low": 0.05,
+        "average": 0.05,
+        "high": 0.05
       }
     },
     {
@@ -132,9 +132,9 @@
       "coinDecimals": 18,
       "coinGeckoId": "binance-usd",
       "gasPriceStep": {
-        "low": 33333333333.33334,
-        "average": 33333333333.33334,
-        "high": 33333333333.33334
+        "low": 3333333333.33334,
+        "average": 3333333333.33334,
+        "high": 3333333333.33334
       }
     },
     {
@@ -142,9 +142,9 @@
       "coinMinimalDenom": "cglp.1.19.1698d3",
       "coinDecimals": 18,
       "gasPriceStep": {
-        "low": 33333333333.33334,
-        "average": 33333333333.33334,
-        "high": 33333333333.33334
+        "low": 3333333333.33334,
+        "average": 3333333333.33334,
+        "high": 3333333333.33334
       }
     },
     {
@@ -153,9 +153,9 @@
       "coinDecimals": 18,
       "coinGeckoId": "ethereum",
       "gasPriceStep": {
-        "low": 33333333.33333334,
-        "average": 33333333.33333334,
-        "high": 33333333.33333334
+        "low": 3333333.33333334,
+        "average": 3333333.33333334,
+        "high": 3333333.33333334
       }
     },
     {
@@ -164,9 +164,9 @@
       "coinDecimals": 18,
       "coinGeckoId": "ethereum",
       "gasPriceStep": {
-        "low": 33333333.33333334,
-        "average": 33333333.33333334,
-        "high": 33333333.33333334
+        "low": 3333333.33333334,
+        "average": 3333333.33333334,
+        "high": 3333333.33333334
       }
     },
     {
@@ -175,9 +175,9 @@
       "coinDecimals": 6,
       "coinGeckoId": "stargaze",
       "gasPriceStep": {
-        "low": 1.166666666667,
-        "average": 1.166666666667,
-        "high": 1.166666666667
+        "low": 0.116666666667,
+        "average": 0.116666666667,
+        "high": 0.116666666667
       }
     },
     {
@@ -185,9 +185,9 @@
       "coinMinimalDenom": "ibc/2B58B8C147E8718EECCB3713271DF46DEE8A3A00A27242628604E31C2F370EF5",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.016666666667,
-        "average": 0.016666666667,
-        "high": 0.016666666667
+        "low": 0.001666666667,
+        "average": 0.001666666667,
+        "high": 0.001666666667
       }
     },
     {
@@ -196,9 +196,9 @@
       "coinDecimals": 6,
       "coinGeckoId": "stride",
       "gasPriceStep": {
-        "low": 0.106666666667,
-        "average": 0.106666666667,
-        "high": 0.106666666667
+        "low": 0.010666666667,
+        "average": 0.010666666667,
+        "high": 0.010666666667
       }
     },
     {
@@ -207,9 +207,9 @@
       "coinDecimals": 18,
       "coinGeckoId": "evmos",
       "gasPriceStep": {
-        "low": 100000000000,
-        "average": 100000000000,
-        "high": 100000000000
+        "low": 10000000000,
+        "average": 10000000000,
+        "high": 10000000000
       }
     },
     {
@@ -218,9 +218,9 @@
       "coinDecimals": 6,
       "coinGeckoId": "iris-network",
       "gasPriceStep": {
-        "low": 0.2,
-        "average": 0.2,
-        "high": 0.2
+        "low": 0.02,
+        "average": 0.02,
+        "high": 0.02
       }
     },
     {
@@ -229,9 +229,9 @@
       "coinDecimals": 6,
       "coinGeckoId": "kujira",
       "gasPriceStep": {
-        "low":  0.05,
-        "average": 0.05,
-        "high":  0.05
+        "low":  0.005,
+        "average": 0.005,
+        "high":  0.005
       }
     },
     {
@@ -240,9 +240,9 @@
       "coinDecimals": 6,
       "coinGeckoId": "osmosis",
       "gasPriceStep": {
-        "low": 0.05,
-        "average": 0.05,
-        "high": 0.05
+        "low": 0.005,
+        "average": 0.005,
+        "high": 0.005
       }
     },
     {
@@ -251,9 +251,9 @@
       "coinDecimals": 18,
       "coinGeckoId": "canto",
       "gasPriceStep": {
-        "low": 66666666666.66667,
-        "average": 66666666666.66667,
-        "high": 66666666666.66667
+        "low": 6666666666.66667,
+        "average": 6666666666.66667,
+        "high": 6666666666.66667
       }
     },
     {
@@ -262,9 +262,9 @@
       "coinDecimals": 6,
       "coinGeckoId": "cosmos",
       "gasPriceStep": {
-        "low": 0.003333333334,
-        "average": 0.003333333334,
-        "high": 0.003333333334
+        "low": 0.000333333334,
+        "average": 0.000333333334,
+        "high": 0.000333333334
       }
     },
     {
@@ -272,9 +272,9 @@
       "coinMinimalDenom": "ibc/B7864B03E1B9FD4F049243E92ABD691586F682137037A9F3FCA5222815620B3C",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.003333333334,
-        "average": 0.003333333334,
-        "high": 0.003333333334
+        "low": 0.000333333334,
+        "average": 0.000333333334,
+        "high": 0.000333333334
       }
     },
     {
@@ -283,9 +283,9 @@
       "coinDecimals": 6,
       "coinGeckoId": "osmosis",
       "gasPriceStep": {
-        "low": 0.05,
-        "average": 0.05,
-        "high": 0.05
+        "low": 0.005,
+        "average": 0.005,
+        "high": 0.005
       }
     },
     {
@@ -293,9 +293,9 @@
       "coinMinimalDenom": "usc",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.033333333334,
-        "average": 0.033333333334,
-        "high": 0.033333333334
+        "low": 0.003333333334,
+        "average": 0.003333333334,
+        "high": 0.003333333334
       }
     },
     {
@@ -304,9 +304,9 @@
       "coinDecimals": 18,
       "coinGeckoId": "usd-coin",
       "gasPriceStep": {
-        "low": 33333333333.33334,
-        "average": 33333333333.33334,
-        "high": 33333333333.33334
+        "low": 3333333333.33334,
+        "average": 3333333333.33334,
+        "high": 3333333333.33334
       }
     },
     {
@@ -315,9 +315,9 @@
       "coinDecimals": 6,
       "coinGeckoId": "usd-coin",
       "gasPriceStep": {
-        "low": 0.03333333333333334,
-        "average": 0.03333333333333334,
-        "high": 0.03333333333333334
+        "low": 0.00333333333333334,
+        "average": 0.00333333333333334,
+        "high": 0.00333333333333334
       }
     },
     {
@@ -326,9 +326,9 @@
       "coinDecimals": 18,
       "coinGeckoId": "usd-coin",
       "gasPriceStep": {
-        "low": 33333333333.33334,
-        "average": 33333333333.33334,
-        "high": 33333333333.33334
+        "low": 3333333333.33334,
+        "average": 3333333333.33334,
+        "high": 3333333333.33334
       }
     },
     {
@@ -337,9 +337,9 @@
       "coinDecimals": 12,
       "coinGeckoId": "zilliqa",
       "gasPriceStep": {
-        "low": 2000000,
-        "average": 2000000,
-        "high": 2000000
+        "low": 200000,
+        "average": 200000,
+        "high": 200000
       }
     }
   ],
