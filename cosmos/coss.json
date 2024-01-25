@@ -13,7 +13,6 @@
     "coinMinimalDenom": "ucgas",
     "coinDecimals": 6
   },
-  "walletUrl": "https://coss.ink",
   "bip44": {
     "coinType": 118
   },
