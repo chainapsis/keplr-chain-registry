@@ -81,6 +81,13 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stinj.png"
     },
     {
+      "coinDenom": "stDYDX",
+      "coinMinimalDenom": "stadydx",
+      "coinDecimals": 18,
+      "coinGeckoId": "stride-staked-dydx",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stinj.png"
+    },
+    {
       "coinDenom": "stUMEE",
       "coinMinimalDenom": "stuumee",
       "coinDecimals": 6,
