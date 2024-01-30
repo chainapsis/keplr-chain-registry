@@ -56,6 +56,12 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron1ume2n42r5j0660gegrr28fzdze7aqf7r5cd9y6/newtroll.png"
     },
     {
+      "coinDenom": "RETRO",
+      "coinMinimalDenom": "factory/neutron1t24nc7whl77relnu3taxyg3p66pjyuk82png2y/uretro",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron1t24nc7whl77relnu3taxyg3p66pjyuk82png2y/retro.png"
+    },
+    {
       "coinDenom": "CIRCUS",
       "coinMinimalDenom": "factory/neutron170v88vrtnedesyfytuku257cggxc79rd7lwt7q/ucircus",
       "coinDecimals": 6,
