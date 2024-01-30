@@ -84,14 +84,12 @@
       "coinDenom": "stDYDX",
       "coinMinimalDenom": "stadydx",
       "coinDecimals": 18,
-      "coinGeckoId": "stride-staked-dydx",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stdydx.png"
     },
     {
       "coinDenom": "stTIA",
       "coinMinimalDenom": "stutia",
       "coinDecimals": 6,
-      "coinGeckoId": "stride-staked-tia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/sttia.png"
     },
     {
