@@ -36,6 +36,13 @@
       "coinMinimalDenom": "factory/inj1xtel2knkt8hmc9dnzpjz6kdmacgcfmlv5f308w/ninja",
       "coinGeckoId": "dog-wif-nuchucks",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/ninja.png"
+    },
+    {
+      "coinDenom": "Talis",
+      "coinDecimals": 6,
+      "coinMinimalDenom": "factory/inj1maeyvxfamtn8lfyxpjca8kuvauuf2qeu6gtxm3/Talis",
+      "coinGeckoId": "talis-protocol",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/talis.webp"
     }
   ],
   "feeCurrencies": [
