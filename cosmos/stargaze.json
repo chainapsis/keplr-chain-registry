@@ -61,6 +61,12 @@
       "coinMinimalDenom": "factory/stars1xx5976njvxpl9n4v8huvff6cudhx7yuu8e7rt4/usneaky",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stargaze/factory/stars1xx5976njvxpl9n4v8huvff6cudhx7yuu8e7rt4/sneaky.png"
+    },
+    {
+      "coinDenom": "ROOM",
+      "coinMinimalDenom": "ibc/CDB886A2F035CB28D23738C6406924E6BED1DB73D7982B7A8175E4245A59B691",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stargaze/room.png"
     }
   ],
   "feeCurrencies": [
