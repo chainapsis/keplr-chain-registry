@@ -2,7 +2,7 @@
   "rpc": "https://rpc.korellia.kyve.network",
   "rest": "https://api.korellia.kyve.network",
   "chainId": "korellia-2",
-  "chainName": "KYVE",
+  "chainName": "Korellia (Devnet)",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/korellia/chain.png",
   "stakeCurrency": {
     "coinDenom": "KYVE",
