@@ -1,10 +1,10 @@
 {
-  "rpc": "https://rpc.starname.cosmos.iov.one",
-  "rest": "https://api.starname.cosmos.iov.one",
+  "rpc": "https://rpc.starname.app",
+  "rest": "https://rest.starname.app",
   "nodeProvider": {
-    "name": "IOV",
-    "email": "contact@iov.one",
-    "website": "https://iov.one"
+    "name": "Chainmasters",
+    "email": "jo.chainmasters@gmail.com",
+    "website": "https://chainmasters.ninja"
   },
   "chainId": "iov-mainnet-ibc",
   "chainName": "Starname",
