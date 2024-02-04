@@ -31,6 +31,12 @@
       "coinDecimals": 6,
       "coinGeckoId": "juno-network",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/juno/ujuno.png"
+    },
+    {
+      "coinDenom": "HAVA",
+      "coinMinimalDenom": "factory/juno195asgku87kxgu48s447z0ryhsyn5rl3yzvfw0d/uhava",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/juno/factory/juno195asgku87kxgu48s447z0ryhsyn5rl3yzvfw0d/hava.png"
     }
   ],
   "feeCurrencies": [
@@ -57,5 +63,8 @@
       }
     }
   ],
-  "features": ["cosmwasm", "authz-msg-revoke-fixed"]
+  "features": [
+    "cosmwasm",
+    "authz-msg-revoke-fixed"
+  ]
 }

@@ -10,7 +10,8 @@
   "stakeCurrency": {
     "coinDenom": "SEI",
     "coinMinimalDenom": "usei",
-    "coinDecimals": 6
+    "coinDecimals": 6,
+    "coinGeckoId": "sei-network"
   },
   "bech32Config": {
     "bech32PrefixAccAddr": "sei",
@@ -21,21 +22,28 @@
     "bech32PrefixConsPub": "seivalconspub"
   },
   "nodeProvider": {
-        "name": "Sei",
-        "email": "ecosystem@seinetwork.io",
-        "website":"https://sei.io"
-    },
+    "name": "Sei",
+    "email": "ecosystem@seinetwork.io",
+    "website": "https://sei.io"
+  },
   "currencies": [
     {
       "coinDenom": "SEI",
       "coinMinimalDenom": "usei",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinGeckoId": "sei-network"
     },
     {
       "coinDenom": "WETH",
       "coinMinimalDenom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/4tLQqCLaoKKfNFuPjA9o39YbKUwhR1F8N29Tz3hEbfP2",
       "coinDecimals": 8,
       "coinGeckoId": "weth"
+    },
+    {
+      "coinDenom": "iSEI",
+      "coinMinimalDenom": "factory/sei1e3gttzq5e5k49f9f5gzvrl0rltlav65xu6p9xc0aj7e84lantdjqp7cncc/isei",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pacific/factory/sei1e3gttzq5e5k49f9f5gzvrl0rltlav65xu6p9xc0aj7e84lantdjqp7cncc/iSEI.png"
     },
     {
       "coinDenom": "USDCet",
@@ -106,7 +114,14 @@
     {
       "coinDenom": "$GNR",
       "coinMinimalDenom": "factory/sei1vrz7ndadkf6gwanf6ccy2d2v706yzrx2957fjd/GOLDENRULES",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pacific/factory/sei1vrz7ndadkf6gwanf6ccy2d2v706yzrx2957fjd/goldenrules.png"
+    },
+    {
+      "coinDenom": "POPEYE",
+      "coinMinimalDenom": "factory/sei1fl8pg59wfsgw2wp4aruk38zqccfnc2g8ptrm24/popeye",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pacific/factory/sei1fl8pg59wfsgw2wp4aruk38zqccfnc2g8ptrm24/popeye.png"
     }
   ],
   "feeCurrencies": [
@@ -114,6 +129,7 @@
       "coinDenom": "SEI",
       "coinMinimalDenom": "usei",
       "coinDecimals": 6,
+      "coinGeckoId": "sei-network",
       "gasPriceStep": {
         "low": 0.1,
         "average": 0.2,

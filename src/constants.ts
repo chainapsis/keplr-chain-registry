@@ -35,6 +35,7 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "likecoin-mainnet",
   "dydx-mainnet",
   "celestia",
+  "passage",
 ];
 
 export const nativeTestnetChainIdentifiers: string[] = [
