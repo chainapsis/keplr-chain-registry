@@ -36,6 +36,7 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "dydx-mainnet",
   "celestia",
   "passage",
+  "dymension_1100",
 ];
 
 export const nativeTestnetChainIdentifiers: string[] = [

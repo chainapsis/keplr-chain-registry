@@ -2,13 +2,8 @@
   "chainId": "dymension_1100-1",
   "chainName": "Dymension",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dymension_1100/chain.png",
-  "rpc": "https://dymension.blockpi.network/rpc/v1/public",
-  "rest": "https://dymension.blockpi.network/lcd/v1/public",
-  "nodeProvider": {
-    "name": "BlockPI",
-    "email": "info@blockpi.io",
-    "website": "https://blockpi.io/"
-  },
+  "rpc": "https://rpc-dymension.keplr.app",
+  "rest": "https://lcd-dymension.keplr.app",
   "currencies": [
     {
       "coinMinimalDenom": "adym",
