@@ -42,5 +42,6 @@
       }
     }
   ],
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/dymension",
   "features": ["eth-address-gen", "eth-key-sign"]
 }
