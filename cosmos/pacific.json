@@ -112,6 +112,12 @@
       "coinGeckoId": "tether"
     },
     {
+      "coinDenom": "$GNR",
+      "coinMinimalDenom": "factory/sei1vrz7ndadkf6gwanf6ccy2d2v706yzrx2957fjd/GOLDENRULES",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pacific/factory/sei1vrz7ndadkf6gwanf6ccy2d2v706yzrx2957fjd/goldenrules.png"
+    },
+    {
       "coinDenom": "POPEYE",
       "coinMinimalDenom": "factory/sei1fl8pg59wfsgw2wp4aruk38zqccfnc2g8ptrm24/popeye",
       "coinDecimals": 6,
