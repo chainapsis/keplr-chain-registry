@@ -38,6 +38,18 @@
       "coinDecimals": 6,
       "coinGeckoId": "geodb"
     },
+{
+      "coinDenom": "doki",
+      "coinMinimalDenom": "udoki",
+      "coinDecimals": 6,
+      "coinGeckoId": ""
+    },
+    {
+      "coinDenom": "myrk",
+      "coinMinimalDenom": "umyrk",
+      "coinDecimals": 6,
+      "coinGeckoId": ""
+    },
     {
       "coinDenom": "O9W",
       "coinMinimalDenom": "mO9W",
