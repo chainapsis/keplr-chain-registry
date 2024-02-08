@@ -64,6 +64,7 @@
       "coinDenom": "stEVMOS",
       "coinMinimalDenom": "staevmos",
       "coinDecimals": 18,
+      "coinGeckoId": "stride-staked-evmos",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/staevmos.png"
     },
     {
@@ -84,24 +85,28 @@
       "coinDenom": "stDYDX",
       "coinMinimalDenom": "stadydx",
       "coinDecimals": 18,
+      "coinGeckoId": "stride-staked-dydx",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stdydx.png"
     },
     {
       "coinDenom": "stTIA",
       "coinMinimalDenom": "stutia",
       "coinDecimals": 6,
+      "coinGeckoId": "stride-staked-tia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/sttia.png"
     },
     {
       "coinDenom": "stUMEE",
       "coinMinimalDenom": "stuumee",
       "coinDecimals": 6,
+      "coinGeckoId": "stride-staked-umee",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stuumee.png"
     },
     {
       "coinDenom": "stCMDX",
       "coinMinimalDenom": "stucmdx",
       "coinDecimals": 6,
+      "coinGeckoId": "stride-staked-comdex",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stucmdx.png"
     },
     {
@@ -151,7 +156,7 @@
         "coinDenom": "stOSMO",
         "coinMinimalDenom": "stuosmo",
         "coinDecimals": 6,
-        "coinGeckoId": "osmosis",
+        "coinGeckoId": "stride-staked-osmo",
         "gasPriceStep": {
           "low": 0.001,
           "average": 0.01,
@@ -206,6 +211,7 @@
         "coinDenom": "stEVMOS",
         "coinMinimalDenom": "staevmos",
         "coinDecimals": 18,
+        "coinGeckoId": "stride-staked-evmos",
         "gasPriceStep": {
           "low": 20000000000,
           "average": 20000000000,
@@ -227,6 +233,7 @@
         "coinDenom": "stTIA",
         "coinMinimalDenom": "stutia",
         "coinDecimals": 6,
+        "coinGeckoId": "stride-staked-tia",
         "gasPriceStep": {
           "low": 0.01,
           "average": 0.01,
@@ -248,6 +255,7 @@
         "coinDenom": "stDYDX",
         "coinMinimalDenom": "stadydx",
         "coinDecimals": 18,
+        "coinGeckoId": "stride-staked-dydx",
         "gasPriceStep": {
           "low": 15000000000,
           "average": 15000000000,
