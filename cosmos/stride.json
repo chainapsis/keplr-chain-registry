@@ -227,6 +227,7 @@
         "coinDenom": "stTIA",
         "coinMinimalDenom": "stutia",
         "coinDecimals": 6,
+        "coinGeckoId": "stride-staked-tia",
         "gasPriceStep": {
           "low": 0.01,
           "average": 0.01,
