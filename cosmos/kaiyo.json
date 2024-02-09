@@ -91,6 +91,12 @@
       "coinDecimals": 6,
       "coinGeckoId": "juno-network"
     },
+      {
+      "coinDenom": "MNTA",
+      "coinMinimalDenom": "factory/kujira1643jxg8wasy5cfcn7xm8rd742yeazcksqlg4d7/umnta",
+      "coinDecimals": 6,
+      "coinGeckoId": "mantadao"
+    },
     {
       "coinDenom": "SCRT",
       "coinMinimalDenom": "ibc/A358D7F19237777AF6D8AD0E0F53268F8B18AE8A53ED318095C14D6D7F3B2DB5",

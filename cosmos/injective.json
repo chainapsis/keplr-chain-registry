@@ -29,6 +29,13 @@
       "coinMinimalDenom": "inj",
       "coinGeckoId": "injective-protocol",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/inj.png"
+    },
+    {
+      "coinDenom": "NINJA",
+      "coinDecimals": 6,
+      "coinMinimalDenom": "factory/inj1xtel2knkt8hmc9dnzpjz6kdmacgcfmlv5f308w/ninja",
+      "coinGeckoId": "dog-wif-nuchucks",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/ninja.png"
     }
   ],
   "feeCurrencies": [
@@ -45,5 +52,5 @@
       }
     }
   ],
-  "features": ["eth-address-gen", "eth-key-sign"]
+  "features": ["eth-address-gen", "eth-key-sign", "cosmwasm"]
 }
