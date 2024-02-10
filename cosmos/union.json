@@ -1,51 +1,43 @@
 {
-  "chainId": "union-testnet-5",
-  "chainName": "Union",
+  "chainId": "union-testnet-6",
+  "chainName": "uniont-testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/union/chain.png",
   "rpc": "https://rpc.testnet.bonlulu.uno",
   "rest": "https://api.testnet.bonlulu.uno",
-  "nodeProvider": {
-    "name": "",
-    "email": "",
-    "website": ""
-  },
   "bip44": {
     "coinType": 118
   },
   "bech32Config": {
     "bech32PrefixAccAddr": "union",
-    "bech32PrefixAccPub": "",
-    "bech32PrefixValAddr": "",
-    "bech32PrefixValPub": "",
-    "bech32PrefixConsAddr": "",
-    "bech32PrefixConsPub": ""
+    "bech32PrefixAccPub": "unionpub",
+    "bech32PrefixValAddr": "unionvaloper",
+    "bech32PrefixValPub": "unionvaloperpub",
+    "bech32PrefixConsAddr": "unionvalcons",
+    "bech32PrefixConsPub": "unionvalconspub"
   },
   "currencies": [
     {
       "coinDenom": "UNO",
       "coinMinimalDenom": "muno",
-      "coinDecimals": 6,
-      "coinGeckoId": ""
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
     {
       "coinDenom": "UNO",
       "coinMinimalDenom": "muno",
-      "coinDecimals": 6,
-      "coinGeckoId": "",
+      "coinDecimals": 6
       "gasPriceStep": {
-        "low": 0,
-        "average": 0,
-        "high": 0
+        "low": 0.0025,
+        "average": 0.025,
+        "high": 0.04
       }
     }
   ],
   "stakeCurrency": {
     "coinDenom": "UNO",
     "coinMinimalDenom": "muno",
-    "coinDecimals": 6,
-    "coinGeckoId": ""
+    "coinDecimals": 6
   },
   "features": [
     "ibc",
