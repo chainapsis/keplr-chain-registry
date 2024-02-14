@@ -1,0 +1,59 @@
+{
+  "chainId": "nyx",
+  "chainName": "Nyx",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nyx/chain.png",
+  "rpc": "https://rpc.nyx.nodes.guru",
+  "rest": "https://api.nyx.nodes.guru/",
+  "nodeProvider": {
+    "name": "NodesGuru",
+    "email": "andreym@nodes.guru",
+    "website":"https://nodes.guru/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "n",
+    "bech32PrefixAccPub": "npub",
+    "bech32PrefixValAddr": "nvaloper",
+    "bech32PrefixValPub": "nvaloperpub",
+    "bech32PrefixConsAddr": "nvalcons",
+    "bech32PrefixConsPub": "nvalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "nyx",
+    "coinMinimalDenom": "unyx",
+    "coinDecimals": 6
+  },
+  "currencies": [
+    {
+      "coinDenom": "NYM",
+      "coinMinimalDenom": "unym",
+      "coinDecimals": 6,
+      "coinGeckoId": "nym"
+    },
+    {
+      "coinDenom": "NYX",
+      "coinMinimalDenom": "unyx",
+      "coinDecimals": 6,
+      "coinGeckoId": "nyx"
+    }
+  ],
+  "feeCurrencies": [
+    {
+        "coinDenom": "nym",
+        "coinMinimalDenom": "unym",
+        "coinDecimals": 6,
+        "coinGeckoId": "nym"
+    },
+    {
+	"coinDenom": "nyx",
+	"coinMinimalDenom": "unyx",
+	"coinDecimals": 6,
+	"coinGeckoId": "nyx"
+    }
+  ],
+  "features": [
+      "cosmwasm"
+  ]
+}

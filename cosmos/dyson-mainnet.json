@@ -1,0 +1,49 @@
+{
+  "chainId": "dyson-mainnet-01",
+  "chainName": "Dyson Protocol",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dyson-mainnet/chain.png",
+  "rpc": "https://dys-tm.dysonprotocol.com/",
+  "rest": "https://dys-api.dysonprotocol.com/",
+  "nodeProvider": {
+        "name": "Dyson Protocol",
+	"email": "dysonprotocol@protonmail.com",
+        "website": "https://dysonprotocol.com/"
+    },
+  "walletUrlForStaking": "https://explorer.dys.dysonprotocol.com/",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "dys",
+    "bech32PrefixAccPub": "dyspub",
+    "bech32PrefixValAddr": "dysvaloper",
+    "bech32PrefixValPub": "dysvaloperpub",
+    "bech32PrefixConsAddr": "dysvalcons",
+    "bech32PrefixConsPub": "dysvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "DYS",
+      "coinMinimalDenom": "dys",
+      "coinDecimals": 0
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "DYS",
+      "coinMinimalDenom": "dys",
+      "coinDecimals": 0,
+      "gasPriceStep": {
+        "low": 0.0001,
+        "average": 0.0002,
+        "high": 0.0003
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "DYS",
+    "coinMinimalDenom": "dys",
+    "coinDecimals": 0
+  },
+  "features": []
+}

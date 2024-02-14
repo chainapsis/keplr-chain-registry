@@ -3,11 +3,13 @@
   "rest": "https://lcd-sommelier.keplr.app",
   "chainId": "sommelier-3",
   "chainName": "Sommelier",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sommelier/chain.png",
   "stakeCurrency": {
     "coinDenom": "SOMM",
     "coinMinimalDenom": "usomm",
     "coinDecimals": 6,
-    "coinGeckoId": "sommelier"
+    "coinGeckoId": "sommelier",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sommelier/usomm.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/sommelier",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/sommelier",
@@ -27,7 +29,8 @@
       "coinDenom": "SOMM",
       "coinMinimalDenom": "usomm",
       "coinDecimals": 6,
-      "coinGeckoId": "sommelier"
+      "coinGeckoId": "sommelier",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sommelier/usomm.png"
     }
   ],
   "feeCurrencies": [
@@ -35,7 +38,8 @@
       "coinDenom": "SOMM",
       "coinMinimalDenom": "usomm",
       "coinDecimals": 6,
-      "coinGeckoId": "sommelier"
+      "coinGeckoId": "sommelier",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sommelier/usomm.png"
     }
   ],
   "features": []

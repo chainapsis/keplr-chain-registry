@@ -1,0 +1,133 @@
+{
+  "chainId": "kaiyo-1",
+  "chainName": "Kujira",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/chain.png",
+  "rpc": "https://kujira-rpc.nodes.defiantlabs.net",
+  "rest": "https://rest.cosmos.directory/kujira/",
+  "nodeProvider": {
+    "name": "PFC",
+    "email": "pfc-validator@protonmail.com",
+    "website": "https://pfc.zone/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "kujira",
+    "bech32PrefixAccPub": "kujirapub",
+    "bech32PrefixValAddr": "kujiravaloper",
+    "bech32PrefixValPub": "kujiravaloperpub",
+    "bech32PrefixConsAddr": "kujiravalcons",
+    "bech32PrefixConsPub": "kujiravalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "KUJI",
+      "coinMinimalDenom": "ukuji",
+      "coinDecimals": 6,
+      "coinGeckoId": "kujira",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/ukuji.png"
+    },
+    {
+      "coinDenom": "USK",
+      "coinMinimalDenom": "factory/kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7/uusk",
+      "coinDecimals": 6,
+      "coinGeckoId": "usk"
+    },
+     {
+      "coinDenom": "MNTA",
+      "coinMinimalDenom": "factory/kujira1643jxg8wasy5cfcn7xm8rd742yeazcksqlg4d7/umnta",
+      "coinDecimals": 6,
+      "coinGeckoId": "mantadao"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "KUJI",
+      "coinMinimalDenom": "ukuji",
+      "coinDecimals": 6,
+      "coinGeckoId": "kujira",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/ukuji.png"
+    },
+    {
+      "coinDenom": "USK",
+      "coinMinimalDenom": "factory/kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7/uusk",
+      "coinDecimals": 6,
+      "coinGeckoId": "usk"
+    },
+    {
+      "coinDenom": "axlUSDC",
+      "coinMinimalDenom": "ibc/295548A78785A1007F232DE286149A6FF512F180AF5657780FC89C009E2C348F",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin"
+    },
+    {
+      "coinDenom": "ATOM",
+      "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+      "coinDecimals": 6,
+      "coinGeckoId": "cosmos"
+    },
+    {
+      "coinDenom": "OSMO",
+      "coinMinimalDenom": "ibc/47BD209179859CDE4A2806763D7189B6E6FE13A17880FE2B42DE1E6C1E329E23",
+      "coinDecimals": 6,
+      "coinGeckoId": "osmosis"
+    },
+    {
+      "coinDenom": "CMDX",
+      "coinMinimalDenom": "ibc/3607EB5B5E64DD1C0E12E07F077FF470D5BC4706AFCBC98FE1BA960E5AE4CE07",
+      "coinDecimals": 6,
+      "coinGeckoId": "comdex"
+    },
+    {
+      "coinDenom": "EVMOS",
+      "coinMinimalDenom": "ibc/F3AA7EF362EC5E791FE78A0F4CCC69FEE1F9A7485EB1A8CAB3F6601C00522F10",
+      "coinDecimals": 6,
+      "coinGeckoId": "evmos"
+    },
+    {
+      "coinDenom": "JUNO",
+      "coinMinimalDenom": "ibc/EFF323CC632EC4F747C61BCE238A758EFDB7699C3226565F7C20DA06509D59A5",
+      "coinDecimals": 6,
+      "coinGeckoId": "juno-network"
+    },
+      {
+      "coinDenom": "MNTA",
+      "coinMinimalDenom": "factory/kujira1643jxg8wasy5cfcn7xm8rd742yeazcksqlg4d7/umnta",
+      "coinDecimals": 6,
+      "coinGeckoId": "mantadao"
+    },
+    {
+      "coinDenom": "SCRT",
+      "coinMinimalDenom": "ibc/A358D7F19237777AF6D8AD0E0F53268F8B18AE8A53ED318095C14D6D7F3B2DB5",
+      "coinDecimals": 6,
+      "coinGeckoId": "secret"
+    },
+    {
+      "coinDenom": "STARS",
+      "coinMinimalDenom": "ibc/4F393C3FCA4190C0A6756CE7F6D897D5D1BE57D6CCB80D0BC87393566A7B6602",
+      "coinDecimals": 6,
+      "coinGeckoId": "stargaze"
+    },
+    {
+      "coinDenom": "wAVAX",
+      "coinMinimalDenom": "ibc/004EBF085BBED1029326D56BE8A2E67C08CECE670A94AC1947DF413EF5130EB2",
+      "coinDecimals": 18,
+      "coinGeckoId": "avalanche-2"
+    },
+    {
+      "coinDenom": "wETH",
+      "coinMinimalDenom": "ibc/1B38805B1C75352B28169284F96DF56BDEBD9E8FAC005BDCC8CF0378C82AA8E7",
+      "coinDecimals": 18,
+      "coinGeckoId": "ethereum"
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "KUJI",
+    "coinMinimalDenom": "ukuji",
+    "coinDecimals": 6,
+    "coinGeckoId": "kujira",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/ukuji.png"
+  },
+  "features": ["cosmwasm"]
+}

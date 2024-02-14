@@ -1,0 +1,68 @@
+{
+  "chainId": "odin-mainnet-freya",
+  "chainName": "ODIN",
+  "rpc": "https://node.odin-freya-website.odinprotocol.io/mainnet/a/",
+  "rest": "https://node.odin-freya-website.odinprotocol.io/mainnet/a/api/",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/odin-mainnet-freya/chain.png",
+  "nodeProvider": {
+    "name": "Odin Protocol",
+    "email": "hello@odinprotocol.io",
+    "website": "https://odinprotocol.io/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "alternativeBIP44s": [
+    {
+      "coinType": 494
+    }
+  ],
+  "bech32Config": {
+    "bech32PrefixAccAddr": "odin",
+    "bech32PrefixAccPub": "odinpub",
+    "bech32PrefixValAddr": "odinvaloper",
+    "bech32PrefixValPub": "odinvaloperpub",
+    "bech32PrefixConsAddr": "odinvalcons",
+    "bech32PrefixConsPub": "odinvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "odin",
+      "coinMinimalDenom": "loki",
+      "coinDecimals": 6,
+      "coinGeckoId": "odin-protocol"
+    },
+    {
+      "coinDenom": "geo",
+      "coinMinimalDenom": "mGeo",
+      "coinDecimals": 6,
+      "coinGeckoId": "geodb"
+    },
+    {
+      "coinDenom": "O9W",
+      "coinMinimalDenom": "mO9W",
+      "coinDecimals": 6,
+      "coinGeckoId": "o9w"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "odin",
+      "coinMinimalDenom": "loki",
+      "coinDecimals": 6,
+      "coinGeckoId": "odin-protocol",
+      "gasPriceStep": {
+        "low": 0.0125,
+        "average": 0.025,
+        "high": 0.03
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "odin",
+    "coinMinimalDenom": "loki",
+    "coinDecimals": 6,
+    "coinGeckoId": "odin-protocol"
+  },
+  "coinType": 118
+}

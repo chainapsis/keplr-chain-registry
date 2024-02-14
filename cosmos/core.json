@@ -3,11 +3,13 @@
   "rest": "https://lcd-persistence.keplr.app",
   "chainId": "core-1",
   "chainName": "Persistence",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/chain.png",
   "stakeCurrency": {
     "coinDenom": "XPRT",
     "coinMinimalDenom": "uxprt",
     "coinDecimals": 6,
-    "coinGeckoId": "persistence"
+    "coinGeckoId": "persistence",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/uxprt.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/persistence",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/persistence",
@@ -32,12 +34,27 @@
       "coinDenom": "XPRT",
       "coinMinimalDenom": "uxprt",
       "coinDecimals": 6,
-      "coinGeckoId": "persistence"
+      "coinGeckoId": "persistence",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/uxprt.png"
     },
     {
-      "coinDenom": "STKATOM",
+      "coinDenom": "stkATOM",
       "coinMinimalDenom": "stk/uatom",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinGeckoId": "stkatom",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/stkatom.png"
+    },
+    {
+      "coinDenom": "stkOSMO",
+      "coinMinimalDenom": "stk/uosmo",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/stkosmo.png"
+    },
+    {
+      "coinDenom": "stkDYDX",
+      "coinMinimalDenom": "stk/adydx",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/stkdydx.png"
     }
   ],
   "feeCurrencies": [
@@ -46,12 +63,71 @@
       "coinMinimalDenom": "uxprt",
       "coinDecimals": 6,
       "coinGeckoId": "persistence",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/uxprt.png",
       "gasPriceStep": {
         "low": 0,
         "average": 0.025,
         "high": 0.04
       }
+    },
+    {
+      "coinDenom": "ATOM",
+      "coinMinimalDenom": "ibc/C8A74ABBE2AF892E15680D916A7C22130585CE5704F9B17A10F184A90D53BECA",
+      "coinDecimals": 6,
+      "coinGeckoId": "cosmos",
+      "gasPriceStep": {
+        "low": 0.0001,
+        "average": 0.001,
+        "high": 0.01
+      }
+    },
+    {
+      "coinDenom": "stkATOM",
+      "coinMinimalDenom": "stk/uatom",
+      "coinDecimals": 6,
+      "coinGeckoId": "stkatom",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/stkatom.png",
+      "gasPriceStep": {
+        "low": 0.0001,
+        "average": 0.001,
+        "high": 0.01
+      }
+    },
+    {
+      "coinDenom": "PSTAKE",
+      "coinMinimalDenom": "ibc/A6E3AF63B3C906416A9AF7A556C59EA4BD50E617EFFE6299B99700CCB780E444",
+      "coinDecimals": 18,
+      "coinGeckoId": "pstake-finance",
+      "gasPriceStep": {
+        "low": 100000000,
+        "average": 1000000000,
+        "high": 10000000000
+      }
+    },
+    {
+      "coinDenom": "OSMO",
+      "coinMinimalDenom": "ibc/646315E3B0461F5FA4C5C8968A88FC45D4D5D04A45B98F1B8294DD82F386DD85",
+      "coinDecimals": 6,
+      "coinGeckoId": "osmosis",
+      "gasPriceStep": {
+        "low": 0.0001,
+        "average": 0.001,
+        "high": 0.01
+      }
+    },
+    {
+      "coinDenom": "stkOSMO",
+      "coinMinimalDenom": "stk/uosmo",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/stkosmo.png",
+      "gasPriceStep": {
+        "low": 0.0001,
+        "average": 0.001,
+        "high": 0.01
+      }
     }
   ],
-  "features": []
+  "features": [
+    "cosmwasm"
+  ]
 }

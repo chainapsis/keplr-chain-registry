@@ -1,16 +1,21 @@
 {
-  "rpc": "https://rpc-iov.keplr.app",
-  "rest": "https://lcd-iov.keplr.app",
+  "rpc": "https://rpc.starname.app",
+  "rest": "https://rest.starname.app",
+  "nodeProvider": {
+    "name": "Chainmasters",
+    "email": "jo.chainmasters@gmail.com",
+    "website": "https://chainmasters.ninja"
+  },
   "chainId": "iov-mainnet-ibc",
   "chainName": "Starname",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iov-mainnet-ibc/chain.png",
   "stakeCurrency": {
     "coinDenom": "IOV",
     "coinMinimalDenom": "uiov",
     "coinDecimals": 6,
-    "coinGeckoId": "starname"
+    "coinGeckoId": "starname",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iov-mainnet-ibc/uiov.png"
   },
-  "walletUrl": "https://wallet.keplr.app/chains/starname",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/starname",
   "bip44": {
     "coinType": 234
   },
@@ -27,7 +32,8 @@
       "coinDenom": "IOV",
       "coinMinimalDenom": "uiov",
       "coinDecimals": 6,
-      "coinGeckoId": "starname"
+      "coinGeckoId": "starname",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iov-mainnet-ibc/uiov.png"
     }
   ],
   "feeCurrencies": [
@@ -36,6 +42,7 @@
       "coinMinimalDenom": "uiov",
       "coinDecimals": 6,
       "coinGeckoId": "starname",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iov-mainnet-ibc/uiov.png",
       "gasPriceStep": {
         "low": 1,
         "average": 2,

@@ -1,6 +1,10 @@
 import { checkImageSize, validateChainInfoFromPath } from "./validate";
 import libPath from "path";
 import { ChainIdHelper } from "@keplr-wallet/cosmos";
+import {
+  nativeMainnetChainIdentifiers,
+  nativeTestnetChainIdentifiers,
+} from "./constants";
 
 const main = async () => {
   // get file name
@@ -16,39 +20,22 @@ const main = async () => {
     const chainInfo = await validateChainInfoFromPath(path);
 
     const isNativeSupported = (() => {
-      const nativeChains: string[] = [
-        "cosmoshub",
-        "osmosis",
-        "juno",
-        "agoric",
-        "akashnet",
-        "axelar-dojo",
-        "bostrom",
-        "core",
-        "emoney",
-        "evmos_9001",
-        "gravity-bridge",
-        "impacthub",
-        "iov-mainnet-ibc",
-        "irishub",
-        "kava_2222",
-        "regen",
-        "secret",
-        "sentinelhub",
-        "shentu-2.2",
-        "sifchain",
-        "sommelier",
-        "stargaze",
-        "stride",
-        "tgrade-mainnet",
-        "umee",
-        "crypto-org-chain-mainnet",
-      ];
       const chainIdentifier = ChainIdHelper.parse(chainInfo.chainId).identifier;
 
-      return nativeChains.map((s) => s.trim()).includes(chainIdentifier);
+      return nativeMainnetChainIdentifiers
+        .map((s) => s.trim())
+        .includes(chainIdentifier);
     })();
-    if (!isNativeSupported && !chainInfo.nodeProvider) {
+
+    const isTestnetChain = (() => {
+      const chainIdentifier = ChainIdHelper.parse(chainInfo.chainId).identifier;
+
+      return nativeTestnetChainIdentifiers
+        .map((s) => s.trim())
+        .some((s) => s === chainIdentifier);
+    })();
+
+    if (!isNativeSupported && !isTestnetChain && !chainInfo.nodeProvider) {
       throw new Error("Node provider should be provided");
     }
 
@@ -56,10 +43,21 @@ const main = async () => {
       throw new Error("chainSymbolImageUrl should be provided");
     }
 
+    if (
+      chainInfo.bip44.coinType === 60 &&
+      (!chainInfo.features?.includes("eth-address-gen") ||
+        !chainInfo.features?.includes("eth-key-sign"))
+    ) {
+      throw new Error(
+        "EVM Chain should add eth-address-gen, eth-key-sign features",
+      );
+    }
+
     const chainIdentifier = libPath.parse(path).name;
 
     const validateImageUrl = (url: string): string => {
       const baseURL = `https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/${chainIdentifier}/`;
+
       if (!url.startsWith(baseURL)) {
         throw new Error(`Invalid image url: ${url}`);
       }
@@ -74,7 +72,7 @@ const main = async () => {
     if (chainInfo.chainSymbolImageUrl) {
       imageFiles.push(validateImageUrl(chainInfo.chainSymbolImageUrl));
     }
-    if (chainInfo.stakeCurrency.coinImageUrl) {
+    if (chainInfo.stakeCurrency?.coinImageUrl) {
       imageFiles.push(validateImageUrl(chainInfo.stakeCurrency.coinImageUrl));
     }
     for (const currency of chainInfo.currencies) {

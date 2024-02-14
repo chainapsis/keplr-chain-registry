@@ -1,0 +1,53 @@
+{
+  "bech32Config": {
+    "bech32PrefixAccAddr": "tp",
+    "bech32PrefixAccPub": "tppub",
+    "bech32PrefixConsAddr": "tpvalcons",
+    "bech32PrefixConsPub": "tpvalconspub",
+    "bech32PrefixValAddr": "tpvaloper",
+    "bech32PrefixValPub": "tpvaloperpub"
+  },
+  "bip44": {
+    "coinType": 1
+  },
+  "chainId": "pio-testnet-1",
+  "chainName": "Provenance Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pio-testnet/chain.png",
+  "currencies": [
+    {
+      "coinDecimals": 9,
+      "coinDenom": "HASH",
+      "coinGeckoId": "provenance-blockchain",
+      "coinMinimalDenom": "nhash"
+    }
+  ],
+  "features": [
+    "cosmwasm"
+  ],
+  "feeCurrencies": [
+    {
+      "coinDecimals": 9,
+      "coinDenom": "HASH",
+      "coinGeckoId": "provenance-blockchain",
+      "coinMinimalDenom": "nhash",
+      "gasPriceStep": {
+        "average": 19050,
+        "high": 25000,
+        "low": 19050
+      }
+    }
+  ],
+  "nodeProvider": {
+    "name": "Provenance",
+    "email": "inbound@provenance.io",
+    "website": "https://test.provenance.io"
+  },
+  "rest": "https://api.test.provenance.io/",
+  "rpc": "https://rpc.test.provenance.io",
+  "stakeCurrency": {
+    "coinDecimals": 9,
+    "coinDenom": "HASH",
+    "coinGeckoId": "provenance-blockchain",
+    "coinMinimalDenom": "nhash"
+  }
+}

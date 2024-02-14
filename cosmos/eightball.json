@@ -1,0 +1,46 @@
+{
+  "chainId": "eightball-1",
+  "chainName": "8ball",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eightball/chain.png",
+  "rpc": "https://rpc.8ball.info",
+  "rest": "https://rest.8ball.info",
+  "nodeProvider": {
+    "name": "8ball",
+    "email": "hi8ball@protonmail.com",
+    "website":"https://8ball.info"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "8ball",
+    "bech32PrefixAccPub": "8ballpub",
+    "bech32PrefixValAddr": "8ballvaloper",
+    "bech32PrefixValPub": "8ballvaloperpub",
+    "bech32PrefixConsAddr": "8ballvalcons",
+    "bech32PrefixConsPub": "8ballvalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "EBL",
+    "coinMinimalDenom": "uebl",
+    "coinDecimals": 6
+  },
+  "currencies": [
+    {
+      "coinDenom": "EBL",
+      "coinMinimalDenom": "uebl",
+      "coinDecimals": 6
+    } 
+  ],
+  "feeCurrencies": [
+    {
+        "coinDenom": "EBL",
+        "coinMinimalDenom": "uebl",
+        "coinDecimals": 6,
+        "coinGeckoId": "8ball"
+    }
+  ],
+  "features": [
+      "cosmwasm"
+  ]
+}

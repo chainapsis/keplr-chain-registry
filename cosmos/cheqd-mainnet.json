@@ -1,0 +1,52 @@
+{
+  "chainId": "cheqd-mainnet-1",
+  "chainName": "Cheqd",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cheqd-mainnet/chain.png",
+  "rpc": "https://rpc.cheqd.net",
+  "rest": "https://api.cheqd.net",
+  "nodeProvider": {
+    "name": "Cheqd Network",
+    "email": "security-github@cheqd.io",
+    "website":"https://cheqd.io/"
+  },
+  "walletUrlForStaking": "https://cheqd.omniflix.co",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "cheqd",
+    "bech32PrefixAccPub": "cheqdpub",
+    "bech32PrefixValAddr": "cheqdvaloper",
+    "bech32PrefixValPub": "cheqdvaloperpub",
+    "bech32PrefixConsAddr": "cheqdvalcons",
+    "bech32PrefixConsPub": "cheqdvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "CHEQ",
+      "coinMinimalDenom": "ncheq",
+      "coinDecimals": 9,
+      "coinGeckoId": "cheqd-network"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "CHEQ",
+      "coinMinimalDenom": "ncheq",
+      "coinDecimals": 9,
+      "coinGeckoId": "cheqd-network",
+      "gasPriceStep": {
+        "low": 25,
+        "average": 50,
+        "high": 100
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "CHEQ",
+    "coinMinimalDenom": "ncheq",
+    "coinDecimals": 9,
+    "coinGeckoId": "cheqd-network"
+  },
+  "features": []
+}

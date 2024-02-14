@@ -3,11 +3,13 @@
   "rest": "https://lcd-sentinel.keplr.app",
   "chainId": "sentinelhub-2",
   "chainName": "Sentinel",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sentinelhub/chain.png",
   "stakeCurrency": {
     "coinDenom": "DVPN",
     "coinMinimalDenom": "udvpn",
     "coinDecimals": 6,
-    "coinGeckoId": "sentinel"
+    "coinGeckoId": "sentinel",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sentinelhub/udvpn.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/sentinel",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/sentinel",
@@ -27,7 +29,8 @@
       "coinDenom": "DVPN",
       "coinMinimalDenom": "udvpn",
       "coinDecimals": 6,
-      "coinGeckoId": "sentinel"
+      "coinGeckoId": "sentinel",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sentinelhub/udvpn.png"
     }
   ],
   "feeCurrencies": [
@@ -36,6 +39,7 @@
       "coinMinimalDenom": "udvpn",
       "coinDecimals": 6,
       "coinGeckoId": "sentinel",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sentinelhub/udvpn.png",
       "gasPriceStep": {
         "low": 0.1,
         "average": 0.25,

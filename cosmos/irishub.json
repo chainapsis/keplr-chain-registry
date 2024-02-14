@@ -3,11 +3,13 @@
   "rest": "https://lcd-iris.keplr.app",
   "chainId": "irishub-1",
   "chainName": "IRISnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/irishub/chain.png",
   "stakeCurrency": {
     "coinDenom": "IRIS",
     "coinMinimalDenom": "uiris",
     "coinDecimals": 6,
-    "coinGeckoId": "iris-network"
+    "coinGeckoId": "iris-network",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/irishub/uiris.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/irisnet",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/irisnet",
@@ -32,7 +34,8 @@
       "coinDenom": "IRIS",
       "coinMinimalDenom": "uiris",
       "coinDecimals": 6,
-      "coinGeckoId": "iris-network"
+      "coinGeckoId": "iris-network",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/irishub/uiris.png"
     }
   ],
   "feeCurrencies": [
@@ -41,6 +44,7 @@
       "coinMinimalDenom": "uiris",
       "coinDecimals": 6,
       "coinGeckoId": "iris-network",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/irishub/uiris.png",
       "gasPriceStep": {
         "low": 0.2,
         "average": 0.3,

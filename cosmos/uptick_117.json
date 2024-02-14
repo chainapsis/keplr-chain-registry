@@ -1,0 +1,47 @@
+{
+	"chainId": "uptick_117-1",
+	"chainName": "Uptick Network",
+	"chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/uptick_117/chain.png",
+	"rpc": "https://rpc.uptick.network",
+	"rest": "https://rest.uptick.network",
+	"nodeProvider": {
+		"name": "xianxian",
+		"email": "xyyz1207@163.com",
+		"website": "https://explorer.uptick.network/"
+	},
+	"bip44": {
+		"coinType": 60
+	},
+	"bech32Config": {
+		"bech32PrefixAccAddr": "uptick",
+		"bech32PrefixAccPub": "uptickpub",
+		"bech32PrefixValAddr": "uptickvaloper",
+		"bech32PrefixValPub": "uptickvaloperpub",
+		"bech32PrefixConsAddr": "uptickvalcons",
+		"bech32PrefixConsPub": "uptickvalconspub"
+	},
+	"currencies": [{
+		"coinDenom": "UPTICK",
+		"coinMinimalDenom": "auptick",
+		"coinDecimals": 18,
+		"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/uptick_117/auptick.png"
+	}],
+	"feeCurrencies": [{
+		"coinDenom": "UPTICK",
+		"coinMinimalDenom": "auptick",
+		"coinDecimals": 18,
+		"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/uptick_117/auptick.png",
+		"gasPriceStep": {
+			"low": 125000000000,
+			"average": 130000000000,
+			"high": 150000000000
+		}
+	}],
+	"stakeCurrency": {
+		"coinDenom": "UPTICK",
+		"coinMinimalDenom": "auptick",
+		"coinDecimals": 18,
+		"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/uptick_117/auptick.png"
+	},
+	"features": ["eth-address-gen", "eth-key-sign"]
+}

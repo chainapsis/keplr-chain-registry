@@ -1,0 +1,53 @@
+{   "chainId": "sgenet-1",
+    "chainName": "SGE",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sgenet/chain.png",
+    "rpc": "https://sge-priv-rpc.kingnodes.com",
+    "rest": "https://sge-priv-rest.kingnodes.com",
+    "nodeProvider": {
+        "name": "kingnodes",
+        "email": "jerome@kingnodes.com",
+        "website":"https://www.kingnodes.com/"
+      },
+      "walletUrlForStaking": "https://cosmos.leapwallet.io/transact/stake/plain?chain=sge",
+      "bip44": {
+        "coinType": 118
+      },
+      "bech32Config": {
+        "bech32PrefixAccAddr": "sge",
+        "bech32PrefixAccPub": "sgepub",
+        "bech32PrefixValAddr": "sgevaloper",
+        "bech32PrefixValPub": "sgevaloperpub",
+        "bech32PrefixConsAddr": "sgevalcons",
+        "bech32PrefixConsPub": "sgevalconspub"
+      },
+      "currencies": [
+        {
+          "coinDenom": "SGE",
+          "coinMinimalDenom": "usge",
+          "coinDecimals": 6,
+          "coinGeckoId": "six-sigma"
+        }
+      ],
+      "feeCurrencies": [
+        {
+          "coinDenom": "SGE",
+          "coinMinimalDenom": "usge",
+          "coinDecimals": 6,
+          "coinGeckoId": "six-sigma",
+          "gasPriceStep": {
+            "low": 0.1,
+            "average": 0.25,
+            "high": 0.5
+          }
+        }
+      ],
+      "stakeCurrency": {
+        "coinDenom": "SGE",
+        "coinMinimalDenom": "usge",
+        "coinDecimals": 6,
+        "coinGeckoId": "six-sigma"
+      },
+      "features": [
+        "cosmwasm"
+      ]
+    }

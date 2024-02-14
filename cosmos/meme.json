@@ -1,0 +1,49 @@
+{
+    "chainId": "meme-1",
+    "chainName": "Meme Network",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/meme/chain.png",
+    "rpc": "https://rpc-meme-1.meme.sx/",
+    "rest": "https://api-meme-1.meme.sx/",
+    "nodeProvider": {
+        "name": "MEME Foundation",
+        "email": "marketing@meme.sx",
+        "website":"https://meme.sx/"
+    },
+    "stakeCurrency": {
+        "coinDenom": "MEME",
+        "coinMinimalDenom": "umeme",
+        "coinDecimals": 6,
+        "coinGeckoId": "meme-network"
+    },
+    "bip44": {
+        "coinType": 118
+    },
+    "bech32Config": {
+        "bech32PrefixAccAddr": "meme",
+        "bech32PrefixAccPub": "memepub",
+        "bech32PrefixValAddr": "memevaloper",
+        "bech32PrefixValPub": "memevaloperpub",
+        "bech32PrefixConsAddr": "memevalcons",
+        "bech32PrefixConsPub": "memevalconspub"
+    },
+    "currencies": [{
+        "coinDenom": "MEME",
+        "coinMinimalDenom": "umeme",
+        "coinDecimals": 6,
+        "coinGeckoId": "meme-netowrk"
+    }],
+    "feeCurrencies": [{
+        "coinDenom": "MEME",
+        "coinMinimalDenom": "umeme",
+        "coinDecimals": 6,
+        "coinGeckoId": "meme-network",
+        "gasPriceStep": {
+          "low": 0.025,
+          "average": 0.035,
+          "high": 0.045
+        }
+    }],
+    "features": [
+    ],
+    "walletUrlForStaking": "https://wallet.meme.sx"
+}

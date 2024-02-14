@@ -1,0 +1,76 @@
+{
+  "rpc": "https://rpc-columbus.keplr.app",
+  "rest": "https://lcd-columbus.keplr.app",
+  "chainId": "columbus-5",
+  "chainName": "Terra Classic",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "LUNC",
+    "coinMinimalDenom": "uluna",
+    "coinDecimals": 6,
+    "coinGeckoId": "terra-luna",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/uluna.png"
+  },
+  "bip44": {
+    "coinType": 330
+  },
+  "alternativeBIP44s": [
+    {
+      "coinType": 118
+    }
+  ],
+  "bech32Config": {
+    "bech32PrefixAccAddr": "terra",
+    "bech32PrefixAccPub": "terrapub",
+    "bech32PrefixValAddr": "terravaloper",
+    "bech32PrefixValPub": "terravaloperpub",
+    "bech32PrefixConsAddr": "terravalcons",
+    "bech32PrefixConsPub": "terravalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "LUNC",
+      "coinMinimalDenom": "uluna",
+      "coinDecimals": 6,
+      "coinGeckoId": "terra-luna",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/uluna.png"
+    },
+    {
+      "coinDenom": "USTC",
+      "coinMinimalDenom": "uusd",
+      "coinDecimals": 6,
+      "coinGeckoId": "terrausd"
+    },
+    {
+      "coinDenom": "KRT",
+      "coinMinimalDenom": "ukrw",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "LUNC",
+      "coinMinimalDenom": "uluna",
+      "coinDecimals": 6,
+      "coinGeckoId": "terra-luna",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/uluna.png",
+      "gasPriceStep": {
+        "low": 28.325,
+        "average": 28.325,
+        "high": 28.325
+      }
+    },
+    {
+      "coinDenom": "USTC",
+      "coinMinimalDenom": "uusd",
+      "coinDecimals": 6,
+      "coinGeckoId": "terrausd",
+      "gasPriceStep": {
+        "low": 0.75,
+        "average": 0.75,
+        "high": 0.75
+      }
+    }
+  ],
+  "features": ["terra-classic-fee"]
+}

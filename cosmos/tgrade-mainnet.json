@@ -1,12 +1,20 @@
 {
-  "rpc": "https://rpc-tgrade.keplr.app",
-  "rest": "https://lcd-tgrade.keplr.app",
+  "rpc": "https://rpc.tgrade.posthuman.digital/",
+  "rest": "https://lcd.tgrade.posthuman.digital/",
+  "nodeProvider": {
+    "name": "POSTHUMAN (Public endpoint)",
+    "email": "validator@posthuman.digital",
+    "website": "https://posthuman.digital"
+  },
   "chainId": "tgrade-mainnet-1",
   "chainName": "Tgrade",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tgrade-mainnet/chain.png",
   "stakeCurrency": {
     "coinDenom": "TGD",
     "coinMinimalDenom": "utgd",
-    "coinDecimals": 6
+    "coinDecimals": 6,
+    "coinGeckoId": "tgrade",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tgrade-mainnet/utgd.png"
   },
   "bip44": {
     "coinType": 118
@@ -23,7 +31,9 @@
     {
       "coinDenom": "TGD",
       "coinMinimalDenom": "utgd",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinGeckoId": "tgrade",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tgrade-mainnet/utgd.png"
     }
   ],
   "feeCurrencies": [
@@ -31,6 +41,8 @@
       "coinDenom": "TGD",
       "coinMinimalDenom": "utgd",
       "coinDecimals": 6,
+      "coinGeckoId": "tgrade",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tgrade-mainnet/utgd.png",
       "gasPriceStep": {
         "low": 0.05,
         "average": 0.05,

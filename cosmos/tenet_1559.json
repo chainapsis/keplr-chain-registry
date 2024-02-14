@@ -1,0 +1,56 @@
+{
+  "rpc": "https://tendermint-1.rpc.tenet.org",
+  "rest": "https://app.rpc.tenet.org",
+  "chainId": "tenet_1559-1",
+  "chainName": "Tenet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tenet_1559/tenet.png",
+  "nodeProvider": {
+    "name": "Tenet Foundation",
+    "website":"https://tenet.org/",
+    "email": "info@tenet.org"
+  },
+  "stakeCurrency": {
+    "coinDenom": "TENET",
+    "coinMinimalDenom": "atenet",
+    "coinDecimals": 18,
+    "coinGeckoId": "tenet-1b000f7b-59cb-4e06-89ce-d62b32d362b9",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tenet_1559/tenet.png"
+  },
+  "walletUrl": "https://wallet.keplr.app/chains/tenet",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/tenet",
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "tenet",
+    "bech32PrefixAccPub": "tenetpub",
+    "bech32PrefixValAddr": "tenetvaloper",
+    "bech32PrefixValPub": "tenetvaloperpub",
+    "bech32PrefixConsAddr": "tenetvalcons",
+    "bech32PrefixConsPub": "tenetvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "TENET",
+      "coinMinimalDenom": "atenet",
+      "coinDecimals": 18,
+      "coinGeckoId": "tenet-1b000f7b-59cb-4e06-89ce-d62b32d362b9",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tenet_1559/tenet.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "TENET",
+      "coinMinimalDenom": "atenet",
+      "coinDecimals": 18,
+      "coinGeckoId": "tenet-1b000f7b-59cb-4e06-89ce-d62b32d362b9",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tenet_1559/tenet.png",
+      "gasPriceStep": {
+        "low": 20000000000,
+        "average": 25000000000,
+        "high": 30000000000
+      }
+    }
+  ],
+  "features": ["eth-address-gen", "eth-key-sign"]
+}

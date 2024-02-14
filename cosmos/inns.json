@@ -1,0 +1,53 @@
+{
+    "chainId": "inns-1",
+    "chainName": "Inns",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/inns/chain.png",
+    "rpc": "https://rpc.inns.fun",
+    "rest": "https://rest.inns.fun",
+    "nodeProvider": {
+      "name": "InnsFun",
+      "email": "inns@inns.fun",
+      "website":"https://www.inns.fun/"
+    },
+    "bip44": {
+        "coinType": 118
+    },
+    "bech32Config": {
+        "bech32PrefixAccAddr": "inns",
+        "bech32PrefixAccPub": "innspub",
+        "bech32PrefixValAddr": "innsvaloper",
+        "bech32PrefixValPub": "innsvaloperpub",
+        "bech32PrefixConsAddr": "innsvalcons",
+        "bech32PrefixConsPub": "innsvalconspub"
+    },
+    "currencies": [
+        {
+          "coinDenom": "INNS",
+          "coinMinimalDenom": "uinns",
+          "coinDecimals": 6,
+          "coinGeckoId": "Inns"
+        }
+    ],
+    "feeCurrencies": [
+        {
+          "coinDenom": "INNS",
+          "coinMinimalDenom": "uinns",
+          "coinDecimals": 6,
+          "coinGeckoId": "Inns",
+          "gasPriceStep": {
+            "low": 0.01,
+            "average": 0.025,
+            "high": 0.04
+          }
+        }
+    ],
+    "stakeCurrency": {
+      "coinDenom": "INNS",
+      "coinMinimalDenom": "uinns",
+      "coinDecimals": 6,
+      "coinGeckoId": "Inns"
+    },
+    "features": [
+      "cosmwasm"
+    ]
+}

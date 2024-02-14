@@ -1,0 +1,51 @@
+{
+  "chainId": "panacea-3",
+  "chainName": "MediBloc",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/panacea/chain.png",
+  "rpc": "https://rpc.gopanacea.org",
+  "rest": "https://api.gopanacea.org",
+  "nodeProvider": {
+    "name": "MediBloc",
+    "email": "blockchain@medibloc.org",
+    "website":"https://medibloc.com"
+  },
+  "bip44": {
+    "coinType": 371
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "panacea",
+    "bech32PrefixAccPub": "panaceapub",
+    "bech32PrefixValAddr": "panaceavaloper",
+    "bech32PrefixValPub": "panaceavaloperpub",
+    "bech32PrefixConsAddr": "panaceavalcons",
+    "bech32PrefixConsPub": "panaceavalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "MED",
+      "coinMinimalDenom": "umed",
+      "coinDecimals": 6,
+      "coinGeckoId": "medibloc"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "MED",
+      "coinMinimalDenom": "umed",
+      "coinDecimals": 6,
+      "coinGeckoId": "medibloc",
+      "gasPriceStep": {
+        "low": 5,
+        "average": 7,
+        "high": 9
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "MED",
+    "coinMinimalDenom": "umed",
+    "coinDecimals": 6,
+    "coinGeckoId": "medibloc"
+  },
+  "features": []
+}

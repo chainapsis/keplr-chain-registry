@@ -3,11 +3,13 @@
   "rest": "https://lcd-kava.keplr.app",
   "chainId": "kava_2222-10",
   "chainName": "Kava",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kava_2222/chain.png",
   "stakeCurrency": {
     "coinDenom": "KAVA",
     "coinMinimalDenom": "ukava",
     "coinDecimals": 6,
-    "coinGeckoId": "kava"
+    "coinGeckoId": "kava",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kava_2222/ukava.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/kava",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/kava",
@@ -32,7 +34,8 @@
       "coinDenom": "KAVA",
       "coinMinimalDenom": "ukava",
       "coinDecimals": 6,
-      "coinGeckoId": "kava"
+      "coinGeckoId": "kava",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kava_2222/ukava.png"
     },
     {
       "coinDenom": "SWP",
@@ -70,6 +73,13 @@
       "coinDenom": "XRPB",
       "coinMinimalDenom": "xrpb",
       "coinDecimals": 8
+    },
+    {
+      "coinDenom": "USDt",
+      "coinMinimalDenom": "erc20/tether/usdt",
+      "coinDecimals": 6,
+      "coinGeckoId": "tether",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kava_2222/uusdt.png"
     }
   ],
   "feeCurrencies": [
@@ -78,6 +88,7 @@
       "coinMinimalDenom": "ukava",
       "coinDecimals": 6,
       "coinGeckoId": "kava",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kava_2222/ukava.png",
       "gasPriceStep": {
         "low": 0.05,
         "average": 0.1,
@@ -85,5 +96,5 @@
       }
     }
   ],
-  "coinType": 459
+  "features": ["authz-msg-revoke-fixed"]
 }

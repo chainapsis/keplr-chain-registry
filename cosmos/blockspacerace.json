@@ -1,0 +1,43 @@
+{
+  "rpc": "https://rpc-blockspacerace.pops.one",
+  "rest": "https://api-blockspacerace.pops.one",
+  "chainId": "blockspacerace-0",
+  "chainName": "Celestia Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet/images/celestia.svg",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "celestia",
+    "bech32PrefixAccPub": "celestiapub",
+    "bech32PrefixConsAddr": "celestiavalcons",
+    "bech32PrefixConsPub": "celestiavalconspub",
+    "bech32PrefixValAddr": "celestiavaloper",
+    "bech32PrefixValPub": "celestiavaloperpub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "TIA",
+    "coinMinimalDenom": "utia",
+    "coinDecimals": 6
+  },
+  "currencies": [
+    {
+      "coinDenom": "TIA",
+      "coinMinimalDenom": "utia",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "TIA",
+      "coinMinimalDenom": "utia",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "features": []
+}

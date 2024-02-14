@@ -1,0 +1,58 @@
+{
+  "rpc": "https://a.client.sentry.net.bluzelle.com:26657",
+  "rest": "https://a.client.sentry.net.bluzelle.com:1317",
+  "nodeProvider": {
+    "name": "Bluzelle",
+    "email": "support@bluzelle.com",
+    "website":"https://bluzelle.com/"
+  },  
+  "chainId": "bluzelle-9",
+  "chainName": "Bluzelle",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bluzelle/chain.png",
+  "stakeCurrency": {
+      "coinDenom": "BNT",
+      "coinMinimalDenom": "ubnt",
+      "coinDecimals": 6,
+      "coinGeckoId": "bluzelle"
+  },
+  "walletUrl": "https://ping.explorer.net.bluzelle.com/Bluzelle",
+  "walletUrlForStaking": "https://ping.explorer.net.bluzelle.com/Bluzelle/staking",
+  "bip44": {
+    "coinType": 483
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "bluzelle",
+    "bech32PrefixAccPub": "bluzellepub",
+    "bech32PrefixValAddr": "bluzellevaloper",
+    "bech32PrefixValPub": "bluzellevaloperpub",
+    "bech32PrefixConsAddr": "bluzellevalcons",
+    "bech32PrefixConsPub": "bluzellevalconspub"
+  },
+  "currencies": [
+    {
+    "coinDenom": "BLZ",
+    "coinMinimalDenom": "ubnt",
+    "coinDecimals": 6,
+    "coinGeckoId": "bluzelle"
+    },
+    {
+    "coinDenom": "ELT",
+    "coinMinimalDenom": "uelt",
+    "coinDecimals": 6
+    },
+    {
+    "coinDenom": "G4",
+    "coinMinimalDenom": "ug4",
+    "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+    "coinDenom": "BNT",
+    "coinMinimalDenom": "ubnt",
+    "coinDecimals": 6,
+    "coinGeckoId": "bluzelle"
+    }
+  ],
+  "features": []
+}

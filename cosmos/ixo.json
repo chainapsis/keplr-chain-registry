@@ -1,0 +1,53 @@
+{
+  "rpc": "https://ixo-rpc.ibs.team",
+  "rest": "https://ixo-api.ibs.team",
+  "nodeProvider": {
+    "name": "Inter Blockchain Services",
+    "email": "contact@ibs.team",
+    "website": "https://ibs.team"
+  },
+  "chainId": "ixo-5",
+  "chainName": "ixo",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ixo/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "IXO",
+    "coinMinimalDenom": "uixo",
+    "coinDecimals": 6,
+    "coinGeckoId": "ixo",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ixo/uixo.png"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "ixo",
+    "bech32PrefixAccPub": "ixopub",
+    "bech32PrefixValAddr": "ixovaloper",
+    "bech32PrefixValPub": "ixovaloperpub",
+    "bech32PrefixConsAddr": "ixovalcons",
+    "bech32PrefixConsPub": "ixovalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "IXO",
+      "coinMinimalDenom": "uixo",
+      "coinDecimals": 6,
+      "coinGeckoId": "ixo",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ixo/uixo.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "IXO",
+      "coinMinimalDenom": "uixo",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ixo/uixo.png",
+      "gasPriceStep": {
+        "low": 0.015,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "features": []
+}

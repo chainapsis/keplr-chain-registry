@@ -1,0 +1,49 @@
+{
+  "chainId": "Neutaro-1",
+  "chainName": "Neutaro",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/Neutaro/chain.png",
+  "rpc": "http://rpc.neutaro.tech:26657/",
+  "rest": "http://api.neutaro.tech:1317/",
+  "nodeProvider": {
+    "name": "Neutaro",
+    "email": "neutaro.chain@gmail.com"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "neutaro",
+    "bech32PrefixAccPub": "neutaropub",
+    "bech32PrefixValAddr": "neutarovaloper",
+    "bech32PrefixValPub": "neutarovaloperpub",
+    "bech32PrefixConsAddr": "neutarovalcons",
+    "bech32PrefixConsPub": "neutarovalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "neutaro",
+      "coinMinimalDenom": "uneutaro",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "neutaro",
+      "coinMinimalDenom": "uneutaro",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.03
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "neutaro",
+    "coinMinimalDenom": "uneutaro",
+    "coinDecimals": 6
+  },
+  "features": [
+    "cosmwasm"
+  ]
+}

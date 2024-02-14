@@ -1,0 +1,68 @@
+{
+    "chainId": "stafihub-1",
+    "chainName": "StaFi Hub",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stafihub/chain.png",
+    "rpc": "https://public-rpc1.stafihub.io",
+    "rest": "https://public-rest-rpc1.stafihub.io",
+    "nodeProvider": {
+        "name": "StaFiHub",
+        "email": "support@stafi.io",
+        "website":"https://www.stafihub.io"
+    },
+    "stakeCurrency": {
+        "coinDenom": "FIS",
+        "coinMinimalDenom": "ufis",
+        "coinDecimals": 6,
+        "coinGeckoId": "stafi"
+    },
+    "bip44": {
+        "coinType": 118
+    },
+    "bech32Config": {
+        "bech32PrefixAccAddr": "stafi",
+        "bech32PrefixAccPub": "stafipub",
+        "bech32PrefixValAddr": "stafivaloper",
+        "bech32PrefixValPub": "stafivaloperpub",
+        "bech32PrefixConsAddr": "stafivalcons",
+        "bech32PrefixConsPub": "stafivalconspub"
+    },
+    "currencies": [
+        {
+            "coinDenom": "FIS",
+            "coinMinimalDenom": "ufis",
+            "coinDecimals": 6,
+            "coinGeckoId": "stafi"
+        },
+        {
+            "coinDenom": "rATOM",
+            "coinMinimalDenom": "uratom",
+            "coinDecimals": 6
+        },
+        {
+            "coinDenom": "rIRIS",
+            "coinMinimalDenom": "uriris",
+            "coinDecimals": 6
+        },
+        {
+            "coinDenom": "rHUAHUA",
+            "coinMinimalDenom": "urhuahua",
+            "coinDecimals": 6
+        },
+        {
+            "coinDenom": "rSWTH",
+            "coinMinimalDenom": "urswth",
+            "coinDecimals": 8
+        }
+    ],
+    "feeCurrencies": [{
+        "coinDenom": "FIS",
+        "coinMinimalDenom": "ufis",
+        "coinDecimals": 6,
+        "coinGeckoId": "stafi",
+        "gasPriceStep": {
+            "low": 0.01,
+            "average": 0.025,
+            "high": 0.04
+        }
+    }]
+}
