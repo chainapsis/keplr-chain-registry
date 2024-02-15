@@ -133,9 +133,9 @@
       "coinGeckoId": "dydx-chain",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/adydx.png",
       "gasPriceStep": {
-        "low": 0.0001,
-        "average": 0.001,
-        "high": 0.01
+        "low": 15000000000,
+        "average": 15000000000,
+        "high": 15000000000
       }
     },
     {
@@ -156,9 +156,9 @@
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/stkdydx.png",
       "gasPriceStep": {
-        "low": 0.0001,
-        "average": 0.001,
-        "high": 0.01
+        "low": 15000000000,
+        "average": 15000000000,
+        "high": 15000000000
       }
     }
   ],
