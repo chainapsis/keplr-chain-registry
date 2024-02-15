@@ -160,7 +160,7 @@
         "average": 0.001,
         "high": 0.01
       }
-    },
+    }
   ],
   "features": [
     "cosmwasm"
