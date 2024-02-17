@@ -1,7 +1,12 @@
 {
   "chainId": "union-testnet-6",
+  "nodeProvider": {
+    "name": "bonlulu",
+    "email": "validator@luelo.dev",
+    "website": "https://testnet.bonlulu.uno"
+  },
   "chainName": "uniont-testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/union/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/union-testnet/chain.png",
   "rpc": "https://rpc.testnet.bonlulu.uno",
   "rest": "https://api.testnet.bonlulu.uno",
   "bip44": {
@@ -26,7 +31,7 @@
     {
       "coinDenom": "UNO",
       "coinMinimalDenom": "muno",
-      "coinDecimals": 6
+      "coinDecimals": 6,
       "gasPriceStep": {
         "low": 0.0025,
         "average": 0.025,
@@ -39,8 +44,5 @@
     "coinMinimalDenom": "muno",
     "coinDecimals": 6
   },
-  "features": [
-    "ibc",
-    "cosmwasm"
-  ]
+  "features": []
 }
