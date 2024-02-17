@@ -1,6 +1,6 @@
 {
-  "rpc": "https://wormchain-rpc.quickapi.com",
-  "rest": "https://wormchain-lcd.quickapi.com",
+  "rpc": "https://tncnt-eu-wormchain-main-01.rpc.p2p.world",
+  "rest": "https://tncnt-eu-wormchain-main-01.rpc.p2p.world/lcd",
   "chainId": "wormchain",
   "chainName": "Wormhole Gateway",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gateway/chain.png",
