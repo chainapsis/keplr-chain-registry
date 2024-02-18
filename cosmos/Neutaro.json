@@ -21,14 +21,14 @@
   },
   "currencies": [
     {
-      "coinDenom": "$NTMPI",
+      "coinDenom": "NTMPI",
       "coinMinimalDenom": "uneutaro",
       "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "$NTMPI",
+      "coinDenom": "NTMPI",
       "coinMinimalDenom": "uneutaro",
       "coinDecimals": 6,
       "gasPriceStep": {
@@ -39,7 +39,7 @@
     }
   ],
   "stakeCurrency": {
-    "coinDenom": "$NTMPI",
+    "coinDenom": "NTMPI",
     "coinMinimalDenom": "uneutaro",
     "coinDecimals": 6
   },
