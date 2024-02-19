@@ -1,6 +1,7 @@
 {
   "name": "chainapsis-suggest-chain",
   "version": "0.0.1",
+  "currency-updater-version": "0.0.2",
   "private": true,
   "description": "",
   "main": "index.js",
