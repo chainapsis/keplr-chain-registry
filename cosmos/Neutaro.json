@@ -6,7 +6,7 @@
   "rest": "http://api.neutaro.tech:1317/",
   "nodeProvider": {
     "name": "Neutaro",
-    "email": "info@neutaro.com"
+    "email": "info@neutaro.com",
     "website":"https://neutaro.com/"
   },
   "bip44": {
