@@ -69,7 +69,7 @@ jobs:
         uses: sergeysova/jq-action@v2
         id: version
         with:
-          cmd: "jq .currency-updater-version package.json -r"
+          cmd: "jq .currencyUpdaterVersion package.json -r"
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
