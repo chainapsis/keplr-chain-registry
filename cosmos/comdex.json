@@ -54,9 +54,9 @@
       "coinDecimals": 6,
       "coinGeckoId": "comdex",
       "gasPriceStep": {
-        "low": 0,
-        "average": 0.025,
-        "high": 0.04
+        "low": 2,
+        "average": 3,
+        "high": 4
       }
     }
   ],
