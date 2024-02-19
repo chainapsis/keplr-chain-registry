@@ -7,6 +7,7 @@
   "nodeProvider": {
     "name": "Neutaro",
     "email": "info@neutaro.com"
+    "website":"https://neutaro.com/"
   },
   "bip44": {
     "coinType": 118
