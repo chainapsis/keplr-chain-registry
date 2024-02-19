@@ -1,0 +1,51 @@
+{
+  "rpc": "https://testnet-rpc.marsprotocol.io",
+  "rest": "https://testnet-rest.marsprotocol.io",
+  "chainId": "ares-1",
+  "chainName": "Mars Hub Testnet",
+  "stakeCurrency": {
+    "coinDenom": "MARS",
+    "coinMinimalDenom": "umars",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mars/umars.png"
+  },
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mars/chain.png",
+  "bip44": {
+    "coinType": 118
+  },
+  "alternativeBIP44s": [
+    {
+      "coinType": 330
+    }
+  ],
+  "bech32Config": {
+    "bech32PrefixAccAddr": "mars",
+    "bech32PrefixAccPub": "marspub",
+    "bech32PrefixValAddr": "marsvaloper",
+    "bech32PrefixValPub": "marsvaloperpub",
+    "bech32PrefixConsAddr": "marsvalcons",
+    "bech32PrefixConsPub": "marsvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "MARS",
+      "coinMinimalDenom": "umars",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mars/umars.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "MARS",
+      "coinMinimalDenom": "umars",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mars/umars.png",
+      "gasPriceStep": {
+        "low": 0,
+        "average": 0,
+        "high": 0.01
+      }
+    }
+  ],
+  "features": []
+}

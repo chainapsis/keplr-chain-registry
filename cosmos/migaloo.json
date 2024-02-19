@@ -1,51 +1,72 @@
 {
-	"chainId": "migaloo-1",
-	"chainName": "Migaloo",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/chain.png",
-	"rpc": "https://migaloo.rpc.silknodes.io/",
-	"rest": "https://migaloo.api.silknodes.io/",
-    "nodeProvider": {
-    "name": "Silk Nodes",
-    "email": "info@silknodes.io",
-    "website":"https://silknodes.io/"
-  },
-	"bip44": {
-		"coinType": 118
-	},
-	"coinType": 118,
-	"bech32Config": {
-		"bech32PrefixAccAddr": "migaloo",
-		"bech32PrefixAccPub": "migaloopub",
-		"bech32PrefixValAddr": "migaloovaloper",
-		"bech32PrefixValPub": "migaloovaloperpub",
-		"bech32PrefixConsAddr": "migaloovalcons",
-		"bech32PrefixConsPub": "migaloovalconspub"
-	},
-	"currencies": [
-		{
-			"coinDenom": "WHALE",
-			"coinMinimalDenom": "uwhale",
-			"coinDecimals": 6,
-			"coinGeckoId": "unknown"
-		}
-	],
-	"feeCurrencies": [
-		{
-			"coinDenom": "WHALE",
-			"coinMinimalDenom": "uwhale",
-			"coinDecimals": 6,
-			"gasPriceStep": {
-			"low": 0.25,
-			"average": 0.3,
-			"high": 0.35
-		      	}
-		}
-	],
-	"stakeCurrency": {
-		"coinDenom": "WHALE",
-		"coinMinimalDenom": "uwhale",
-		"coinDecimals": 6,
-		"coinGeckoId": "unknown"
-	},
-	"features": ["cosmwasm"]
+   "chainId":"migaloo-1",
+   "chainName":"Migaloo",
+   "chainSymbolImageUrl":"https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/chain.png",
+   "rpc":"https://rpc-whitewhale-ia.cosmosia.notional.ventures",
+   "rest":"https://api-whitewhale-ia.cosmosia.notional.ventures",
+   "nodeProvider":{
+      "name":"Notional",
+      "email":"contact@notional.ventures",
+      "website":"https://notional.ventures/"
+   },
+   "bip44":{
+      "coinType":118
+   },
+   "bech32Config":{
+      "bech32PrefixAccAddr":"migaloo",
+      "bech32PrefixAccPub":"migaloopub",
+      "bech32PrefixValAddr":"migaloovaloper",
+      "bech32PrefixValPub":"migaloovaloperpub",
+      "bech32PrefixConsAddr":"migaloovalcons",
+      "bech32PrefixConsPub":"migaloovalconspub"
+   },
+   "currencies":[
+      {
+         "coinDenom":"WHALE",
+         "coinMinimalDenom":"uwhale",
+         "coinDecimals":6,
+         "coinGeckoId":"white-whale",
+         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/uwhale.png"
+      },
+      {
+        "coinDenom": "GUPPY",
+        "coinMinimalDenom": "factory/migaloo1etlu2h30tjvv8rfa4fwdc43c92f6ul5w9acxzk/uguppy",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/factory/migaloo1etlu2h30tjvv8rfa4fwdc43c92f6ul5w9acxzk/uguppy.png"
+      },
+      {
+        "coinDenom": "RAC",
+        "coinMinimalDenom": "factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/urac",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/urac.png"
+      },
+      {
+        "coinDenom": "SHARK",
+        "coinMinimalDenom": "factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/shark",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/shark.png"
+      }
+   ],
+   "feeCurrencies":[
+      {
+         "coinDenom":"WHALE",
+         "coinMinimalDenom":"uwhale",
+         "coinDecimals":6,
+         "coinGeckoId":"white-whale",
+         "gasPriceStep":{
+            "low":1,
+            "average":1.2,
+            "high":1.4
+         }
+      }
+   ],
+   "stakeCurrency":{
+      "coinDenom":"WHALE",
+      "coinMinimalDenom":"uwhale",
+      "coinDecimals":6,
+      "coinGeckoId":"white-whale"
+   },
+   "features":[
+      "cosmwasm"
+   ]
 }

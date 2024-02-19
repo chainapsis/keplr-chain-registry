@@ -1,0 +1,54 @@
+{
+  "rpc": "https://gridiron.furya.io",
+  "rest": "https://api-mainnet.furya.io",
+  "chainId": "highbury_710-1",
+  "chainName": "Highbury",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/highbury_710/chain.png",
+  "nodeProvider": {
+      "name": "Blackfury Genesis Validator",
+      "email": "blackfuryan@skiff.com",
+      "website":"https://fury.black/"
+    },
+  "stakeCurrency": {
+    "coinDenom": "FURY",
+    "coinMinimalDenom": "ufury",
+    "coinDecimals": 6,
+    "coinGeckoId": "fanfury",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/highbury_710/ufury.png"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "fury",
+    "bech32PrefixAccPub": "furypub",
+    "bech32PrefixValAddr": "furyvaloper",
+    "bech32PrefixValPub": "furyvaloperpub",
+    "bech32PrefixConsAddr": "furyvalcons",
+    "bech32PrefixConsPub": "furyvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "FURY",
+      "coinMinimalDenom": "ufury",
+      "coinDecimals": 6,
+      "coinGeckoId": "fanfury",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/highbury_710/ufury.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "FURY",
+      "coinMinimalDenom": "ufury",
+      "coinDecimals": 6,
+      "coinGeckoId": "fanfury",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/highbury_710/ufury.png",
+      "gasPriceStep": {
+        "low": 0.05,
+        "average": 0.1,
+        "high": 0.25
+      }
+    }
+  ],
+  "features": ["eth-address-gen", "eth-key-sign", "authz-msg-revoke-fixed"]
+}

@@ -1,0 +1,54 @@
+{
+  "rpc": "https://testnet.sentry.tm.injective.network",
+  "rest": "https://testnet.sentry.lcd.injective.network",
+  "chainId": "injective-888",
+  "chainName": "Injective (Testnet)",
+  "nodeProvider": {
+    "name": "Injective",
+    "email": "contact@injectivelabs.org"
+  },
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective-888/chain.png",
+  "bech32Config": {
+    "bech32PrefixAccPub": "injpub",
+    "bech32PrefixValPub": "injvaloperpub",
+    "bech32PrefixAccAddr": "inj",
+    "bech32PrefixConsPub": "injvalconspub",
+    "bech32PrefixValAddr": "injvaloper",
+    "bech32PrefixConsAddr": "injvalcons"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "stakeCurrency": {
+    "coinDenom": "INJ (Testnet)",
+    "coinDecimals": 18,
+    "coinMinimalDenom": "inj",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective-888/inj.png"
+  },
+  "currencies": [
+    {
+      "coinDenom": "INJ (Testnet)",
+      "coinDecimals": 18,
+      "coinMinimalDenom": "inj",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective-888/inj.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "INJ (Testnet)",
+      "coinDecimals": 18,
+      "coinMinimalDenom": "inj",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective-888/inj.png",
+      "gasPriceStep": {
+        "low": 500000000,
+        "average": 1000000000,
+        "high": 1500000000
+      }
+    }
+  ],
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign",
+    "cosmwasm"
+  ]
+}

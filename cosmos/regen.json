@@ -8,7 +8,8 @@
     "coinDenom": "REGEN",
     "coinMinimalDenom": "uregen",
     "coinDecimals": 6,
-    "coinGeckoId": "regen"
+    "coinGeckoId": "regen",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/regen/uregen.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/regen",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/regen",
@@ -28,7 +29,8 @@
       "coinDenom": "REGEN",
       "coinMinimalDenom": "uregen",
       "coinDecimals": 6,
-      "coinGeckoId": "regen"
+      "coinGeckoId": "regen",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/regen/uregen.png"
     },
     {
       "coinDenom": "NCT",
@@ -43,6 +45,7 @@
       "coinMinimalDenom": "uregen",
       "coinDecimals": 6,
       "coinGeckoId": "regen",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/regen/uregen.png",
       "gasPriceStep": {
         "low": 0.015,
         "average": 0.025,
@@ -50,5 +53,5 @@
       }
     }
   ],
-  "features": []
+  "features": ["authz-msg-revoke-fixed"]
 }

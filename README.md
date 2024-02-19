@@ -12,15 +12,15 @@
 > READ THE GUIDELINES BELLOW CAREFULLY, PAYING PARTICULAR ATTENTION TO THE "features" IN THE [[REQUIREMENT DETAILS](https://github.com/chainapsis/keplr-chain-registry#requirement-details)].
 
 
-# Guidelines for Community-Driven Suggest Chain Integration
+# Guidelines for Community-Driven Non-Native Chain Integration
 
 Keplr team has always been at the leading edge of building secure and interoperable wallet infrastructure for the blooming cross-chain networks, placing its core mainly at the Cosmos ecosystem.
 
-To help the builders easily plug into Keplr’s wide userbase and the ever-growing Cosmos ecosystem, Keplr has been offering an option of permissionless integration, the so-called “Suggest Chain Integration”. The feature has enabled front-ends to request adding new Cosmos-SDK-based blockchains that aren’t natively integrated into the Keplr extension.
+To help the builders easily plug into Keplr’s wide userbase and the ever-growing Cosmos ecosystem, Keplr has been offering an option of permissionless integration, the so-called “Suggest Chain (Non-Native Chain) Integration”. The feature has enabled front-ends to request adding new Cosmos-SDK-based blockchains that aren’t natively integrated into the Keplr extension.
 
 Keplr team is now introducing a Community-Driven Integration, which enables our users to easily make a request for adding new chains and updating their information. It's an expanded version of the previous suggest chain integration, providing a public API to our users for creating and updating a set integration standard for each chain.
 
-To make a pull request, please carefully read and follow the guideline below. Any contribution is more than welcome!
+To make a pull request, please carefully read and follow the guidelines below. Any contribution is more than welcome!
 
 # Requirements and Preparation
 

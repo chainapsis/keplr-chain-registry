@@ -1,4 +1,16 @@
 function parse(chainId) {
+  // In the case of injective dev/testnet, there is a difficult problem to deal with keplr's chain identifier system...
+  // Fundamentally, keplr's chain identifier system started when the app was created, so too mnay logic depends on chain identifier.
+  // Temporarily deal with it in the way below.
+  // There is a possibility of some kind of problem...
+  // But anyway, it's not a big problem because it's dev/testnet...
+  if (chainId === "injective-777" || chainId === "injective-888") {
+    return {
+      identifier: chainId,
+      version: 0,
+    };
+  }
+
   const split = chainId.split(/(.+)-([\d]+)/).filter(Boolean);
 
   if (split.length !== 2) {
@@ -65,9 +77,19 @@ async function init() {
       !registeredChainIds.includes(parse(chainInfo.chainId).identifier),
   );
 
+  const registeredChainInfos = chainInfos.chains
+    .filter((chainInfo) => chainInfo.nodeProvider)
+    .filter((chainInfo) =>
+      registeredChainIds.includes(parse(chainInfo.chainId).identifier),
+    );
+
   if (filteredChainInfos.length > 0) {
     filteredChainInfos.map((chainInfo) => {
       return createChainItem(chainInfo, keplr);
+    });
+
+    registeredChainInfos.map((chainInfo) => {
+      return createChainItem(chainInfo, keplr, true);
     });
   } else {
     const addedAllChainDiv = document.createElement("div");
@@ -91,7 +113,7 @@ function removeChainListChild() {
   }
 }
 
-function createChainItem(chainInfo, keplr) {
+function createChainItem(chainInfo, keplr, registered) {
   const chainItemDiv = document.createElement("div");
   chainItemDiv.className = "chain-item";
 
@@ -99,7 +121,11 @@ function createChainItem(chainInfo, keplr) {
   createChainName(chainItemDiv, chainInfo);
   createChainCurrency(chainItemDiv, chainInfo);
   createNodeProvider(chainItemDiv, chainInfo);
-  createRegisterButton(chainItemDiv, chainInfo, keplr);
+  if (registered) {
+    createRegisteredButton(chainItemDiv);
+  } else {
+    createRegisterButton(chainItemDiv, chainInfo, keplr);
+  }
 
   const chainListDiv = document.getElementById("chain-list");
   chainListDiv.appendChild(chainItemDiv);
@@ -195,6 +221,16 @@ function createRegisterButton(chainItemDiv, chainInfo, keplr) {
   };
 
   chainItemDiv.appendChild(registerButton);
+}
+
+function createRegisteredButton(chainItemDiv) {
+  const registeredButton = document.createElement("button");
+  registeredButton.className = "chain-added";
+
+  const registeredButtonText = document.createTextNode("Added");
+  registeredButton.appendChild(registeredButtonText);
+
+  chainItemDiv.appendChild(registeredButton);
 }
 
 init();

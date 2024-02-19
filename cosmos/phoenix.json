@@ -7,6 +7,11 @@
   "bip44": {
     "coinType": 330
   },
+  "alternativeBIP44s": [
+    {
+      "coinType": 118
+    }
+  ],
   "bech32Config": {
     "bech32PrefixAccAddr": "terra",
     "bech32PrefixAccPub": "terrapub",
@@ -20,7 +25,8 @@
       "coinDenom": "LUNA",
       "coinMinimalDenom": "uluna",
       "coinDecimals": 6,
-      "coinGeckoId": "terra-luna-2"
+      "coinGeckoId": "terra-luna-2",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/uluna.png"
     }
   ],
   "feeCurrencies": [
@@ -29,9 +35,34 @@
       "coinMinimalDenom": "uluna",
       "coinDecimals": 6,
       "coinGeckoId": "terra-luna-2",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/uluna.png",
       "gasPriceStep": {
         "low": 0.015,
-        "average": 0.025,
+        "average": 0.02,
+        "high": 0.04
+      }
+    },
+    {
+      "coinDenom": "USDC.axl",
+      "coinMinimalDenom": "ibc/B3504E092456BA618CC28AC671A71FB08C6CA0FD0BE7C8A5B5A3E2DD933CC9E4",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/uusdc.png",
+      "gasPriceStep": {
+        "low": 0.018,
+        "average": 0.02,
+        "high": 0.04
+      }
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/uusdc.png",
+      "gasPriceStep": {
+        "low": 0.018,
+        "average": 0.02,
         "high": 0.04
       }
     }
@@ -40,7 +71,8 @@
     "coinDenom": "LUNA",
     "coinMinimalDenom": "uluna",
     "coinDecimals": 6,
-    "coinGeckoId": "terra-luna-2"
+    "coinGeckoId": "terra-luna-2",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/uluna.png"
   },
   "walletUrlForStaking": "https://wallet.keplr.app/chains/terra",
   "features": ["cosmwasm"]

@@ -1,11 +1,11 @@
 {
   "chainId": "cheqd-mainnet-1",
-  "chainName": "cheqd",
+  "chainName": "Cheqd",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cheqd-mainnet/chain.png",
   "rpc": "https://rpc.cheqd.net",
   "rest": "https://api.cheqd.net",
   "nodeProvider": {
-    "name": "cheqd Network",
+    "name": "Cheqd Network",
     "email": "security-github@cheqd.io",
     "website":"https://cheqd.io/"
   },

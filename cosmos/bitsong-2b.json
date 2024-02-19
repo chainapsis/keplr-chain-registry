@@ -1,0 +1,130 @@
+{
+  "rpc": "https://rpc.explorebitsong.com",
+  "rest": "https://lcd.explorebitsong.com",
+  "nodeProvider": {
+    "name": "BitSong",
+    "email": "hello@bitsong.io",
+    "website":"https://bitsong.io/"
+  },
+  "chainId": "bitsong-2b",
+  "chainName": "BitSong",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitsong-2b/image.png",
+  "stakeCurrency": {
+    "coinDenom": "BTSG",
+    "coinMinimalDenom": "ubtsg",
+    "coinDecimals": 6,
+    "coinGeckoId": "bitsong"
+  },
+  "walletUrl": "https://wallet.bitsong.io",
+  "walletUrlForStaking": "https://wallet.bitsong.io/#/validators",
+  "bip44": {
+    "coinType": 639
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "bitsong",
+    "bech32PrefixAccPub": "bitsongpub",
+    "bech32PrefixValAddr": "bitsongvaloper",
+    "bech32PrefixValPub": "bitsongvaloperpub",
+    "bech32PrefixConsAddr": "bitsongvalcons",
+    "bech32PrefixConsPub": "bitsongvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "BTSG",
+      "coinMinimalDenom": "ubtsg",
+      "coinDecimals": 6,
+      "coinGeckoId": "bitsong"
+    },
+    {
+      "coinDenom": "CLAY",
+      "coinMinimalDenom": "ft2D8E7041556CE93E1EFD66C07C45D551A6AAAE09",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "LDON",
+      "coinMinimalDenom": "ft347B1612A2B7659913679CF6CD45B8B130C50A00",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "CMQZ",
+      "coinMinimalDenom": "ftD4B6290EDEE1EC7B97AB5A1DC6C177EFD08ADCC3",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "TESTA",
+      "coinMinimalDenom": "ft4B030260D99E3ABE2B604EA2B33BAF3C085CDA12",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "FASANO",
+      "coinMinimalDenom": "ft25B30C386CDDEBD1413D5AE1180956AE9EB3B9F7",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "D9X",
+      "coinMinimalDenom": "ft575B10B0CEE2C164D9ED6A96313496F164A9607C",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "VIBRA",
+      "coinMinimalDenom": "ft7020C2A8E984EEBCBB383E91CD6FBB067BB2272B",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "RWNE",
+      "coinMinimalDenom": "ftE4903ECC861CA45F2C2BC7EAB8255D2E6E87A33A",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "BJKS",
+      "coinMinimalDenom": "ft52EEB0EE509AC546ED92EAC8591F731F213DDD16",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "FONTI",
+      "coinMinimalDenom": "ft56664FC98A2CF5F4FBAC3566D1A11D891AD88305",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "LOBO",
+      "coinMinimalDenom": "ft24C9FA4F10B0F235F4A815B15FC774E046A2B2EB",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "KARINA",
+      "coinMinimalDenom": "ft2DD67F5D99E9A141142B48474FA7B6B3FF00A3FE",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "N43",
+      "coinMinimalDenom": "ft387C1C279D962ED80C09C1D592A92C4275FD7C5D",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "404DR",
+      "coinMinimalDenom": "ft99091610CCC66F4277C66D14AF2BC4C5EE52E27A",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "ENMODA",
+      "coinMinimalDenom": "ft85AE1716C5E39EA6D64BBD7898C3899A7B500626",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "BTSG",
+      "coinMinimalDenom": "ubtsg",
+      "coinDecimals": 6,
+      "coinGeckoId": "bitsong",
+      "gasPriceStep": {
+        "low": 0.5,
+        "average": 3,
+        "high": 5
+      }
+    }
+  ],
+  "features": [
+    "cosmwasm"
+  ]
+}

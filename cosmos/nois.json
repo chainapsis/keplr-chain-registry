@@ -1,0 +1,49 @@
+{
+  "rpc": "https://nois-rpc.nysa.network",
+  "rest": "https://nois-api.polkachu.com",
+  "chainId": "nois-1",
+  "chainName": "Nois",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nois/chain.png",
+  "nodeProvider": {
+    "name": "nysa.network",
+    "website":"https://nysa.network/",
+    "email": "contact@nysa.network"
+  },
+  "stakeCurrency": {
+    "coinDenom": "NOIS",
+    "coinMinimalDenom": "unois",
+    "coinDecimals": 6
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "nois",
+    "bech32PrefixAccPub": "noispub",
+    "bech32PrefixValAddr": "noisvaloper",
+    "bech32PrefixValPub": "noisvaloperpub",
+    "bech32PrefixConsAddr": "noisvalcons",
+    "bech32PrefixConsPub": "noisvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "NOIS",
+      "coinMinimalDenom": "unois",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nois/unois.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "NOIS",
+      "coinMinimalDenom": "unois",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.05,
+        "average": 0.05,
+        "high": 0.1
+      }
+    }
+  ],
+  "features": []
+}

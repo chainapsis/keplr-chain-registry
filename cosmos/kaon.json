@@ -1,0 +1,43 @@
+{
+  "rpc": "https://rpc-eu-1.kaon.kyve.network",
+  "rest": "https://api-eu-1.kaon.kyve.network",
+  "chainId": "kaon-1",
+  "chainName": "Kaon (Testnet)",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kyve/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "KYVE",
+    "coinMinimalDenom": "tkyve",
+    "coinDecimals": 6
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "kyve",
+    "bech32PrefixAccPub": "kyvepub",
+    "bech32PrefixValAddr": "kyvevaloper",
+    "bech32PrefixValPub": "kyvevaloperpub",
+    "bech32PrefixConsAddr": "kyvevalcons",
+    "bech32PrefixConsPub": "kyvevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "KYVE",
+      "coinMinimalDenom": "tkyve",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "KYVE",
+      "coinMinimalDenom": "tkyve",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.02,
+        "average": 0.03,
+        "high": 0.06
+      }
+    }
+  ],
+  "features": []
+}
