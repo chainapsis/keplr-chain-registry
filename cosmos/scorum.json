@@ -5,7 +5,7 @@
   "rpc": "https://scorum-blockchain-mainnet-rpc-1.scorum.com",
   "rest": "https://scorum-blockchain-mainnet-api-1.scorum.com",
   "nodeProvider": {
-    "name": "Scorum Cosmos Network",
+    "name": "Scorum Network",
     "email": "admin@scorum.com",
     "website": "https://scorum.com"
   },
@@ -24,17 +24,20 @@
     {
       "coinDenom": "SCR",
       "coinMinimalDenom": "nscr",
-      "coinDecimals": 9
+      "coinDecimals": 9,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/scorum/scr.png"
     },
     {
       "coinDenom": "SP",
       "coinMinimalDenom": "nsp",
-      "coinDecimals": 9
+      "coinDecimals": 9,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/scorum/sp.png"
     },
     {
       "coinDenom": "GAS",
       "coinMinimalDenom": "gas",
-      "coinDecimals": 0
+      "coinDecimals": 0,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/scorum/gas.png"
     }
   ],
   "feeCurrencies": [
@@ -42,6 +45,7 @@
       "coinDenom": "GAS",
       "coinMinimalDenom": "gas",
       "coinDecimals": 0,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/scorum/gas.png",
       "gasPriceStep": {
         "low": 1,
         "average": 1,
@@ -52,7 +56,8 @@
   "stakeCurrency": {
     "coinDenom": "SP",
     "coinMinimalDenom": "nsp",
-    "coinDecimals": 9
+    "coinDecimals": 9,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/scorum/sp.png"
   },
   "features": []
 }
