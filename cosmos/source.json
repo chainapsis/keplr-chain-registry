@@ -1,0 +1,53 @@
+{
+  "chainId": "source-1",
+  "chainName": "Source",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/source/source.png",
+  "rpc": "https://rpc.source.tcnetwork.io/",
+  "rest": "https://rest.source.tcnetwork.io/",
+  "nodeProvider": {
+    "name": "tcnetwork",
+    "email": "support@tcnetwork.io",
+    "website":"https://tcnetwork.io/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "source",
+    "bech32PrefixAccPub": "sourcepub",
+    "bech32PrefixValAddr": "sourcevaloper",
+    "bech32PrefixValPub": "sourcevaloperpub",
+    "bech32PrefixConsAddr": "sourcevalcons",
+    "bech32PrefixConsPub": "sourcevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "SOURCE",
+      "coinMinimalDenom": "usource",
+      "coinDecimals": 6,
+      "coinGeckoId": "source"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "SOURCE",
+      "coinMinimalDenom": "usource",
+      "coinDecimals": 6,
+      "coinGeckoId": "source",
+      "gasPriceStep": {
+        "low": 0.025,
+        "average": 0.05,
+        "high": 0.075
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "SOURCE",
+    "coinMinimalDenom": "usource",
+    "coinDecimals": 6,
+    "coinGeckoId": "source"
+  },
+  "features": [
+    "cosmwasm"
+  ]
+}

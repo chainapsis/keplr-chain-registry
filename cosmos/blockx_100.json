@@ -1,0 +1,52 @@
+{
+	"chainId": "blockx_100-1",
+	"chainName": "BlockX",
+	"rpc": "https://rpc.blockxnet.com",
+	"rest": "https://api.blockxnet.com",
+	"chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/blockx_100/chain.png",
+
+	"nodeProvider": {
+	  "name": "BlockX",
+	  "email": "contact@blockxnet.com",
+	  "website":"https://blockxnet.com/"
+	},
+	"bip44": {
+		"coinType": 60
+	},
+	"bech32Config": {
+		"bech32PrefixAccAddr": "blockx",
+		"bech32PrefixAccPub": "blockxpub",
+		"bech32PrefixValAddr": "blockxvaloper",
+		"bech32PrefixValPub": "blockxvaloperpub",
+		"bech32PrefixConsAddr": "blockxvalcons",
+		"bech32PrefixConsPub": "blockxvalconspub"
+	},
+	"currencies": [
+		{
+			"coinDenom": "BCX",
+			"coinMinimalDenom": "abcx",
+			"coinDecimals": 18
+		}
+	],
+	"feeCurrencies": [
+		{
+			"coinDenom": "BCX",
+			"coinMinimalDenom": "abcx",
+			"coinDecimals": 18,
+			"gasPriceStep": {
+				"low": 0.01,
+				"average": 0.025,
+				"high": 0.03
+			}
+		}
+	],
+	"stakeCurrency": {
+		"coinDenom": "BCX",
+		"coinMinimalDenom": "abcx",
+		"coinDecimals": 18
+	},
+	"features": [
+		"eth-address-gen",
+		"eth-key-sign"
+	]
+}

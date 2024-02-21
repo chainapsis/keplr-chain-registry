@@ -1,0 +1,61 @@
+{
+  "chainId": "grand-1",
+  "chainName": "Grand",
+  "rpc": "https://rpc.testnet.noble.strange.love",
+  "rest": "https://api.testnet.noble.strange.love/",
+  "nodeProvider": {
+    "name": "Strangelove",
+    "email": "support@strange.love",
+    "website": "https://strange.love/"
+  },
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "STAKE",
+    "coinMinimalDenom": "ustake",
+    "coinDecimals": 6
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "noble",
+    "bech32PrefixAccPub": "noblepub",
+    "bech32PrefixValAddr": "noblevaloper",
+    "bech32PrefixValPub": "noblevaloperpub",
+    "bech32PrefixConsAddr": "noblevalcons",
+    "bech32PrefixConsPub": "noblevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "uusdc",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/uusdc.png"
+    },
+    {
+      "coinDenom": "STAKE",
+      "coinMinimalDenom": "ustake",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/ustake.png"
+    },
+    {
+      "coinDenom": "LOVE",
+      "coinMinimalDenom": "ulove",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "uusdc",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/uusdc.png",
+      "gasPriceStep": {
+        "low": 0.1,
+        "average": 0.1,
+        "high": 0.2
+      }
+    }
+  ],
+  "features": []
+}

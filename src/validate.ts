@@ -47,38 +47,20 @@ export const validateChainInfo = async (
   }
 
   // Check chain identifier
-  if (ChainIdHelper.parse(chainInfo.chainId).identifier !== chainIdentifier) {
+  const parsedChainId = ChainIdHelper.parse(chainInfo.chainId).identifier;
+  if (parsedChainId !== chainIdentifier) {
     throw new Error(
-      `Chain identifier unmatched: (expected: ${chainIdentifier}, actual: ${
-        ChainIdHelper.parse(chainInfo.chainId).identifier
-      })`,
+      `Chain identifier unmatched: (expected: ${parsedChainId}, actual: ${chainIdentifier})`,
     );
   }
+
+  // Check currencies
+  checkCurrencies(chainInfo);
 
   for (const feature of chainInfo.features ?? []) {
     if (!NonRecognizableChainFeatures.includes(feature)) {
       throw new Error(
         `Only non recognizable feature should be provided: ${feature}`,
-      );
-    }
-  }
-
-  for (const currency of chainInfo.currencies) {
-    if (new DenomHelper(currency.coinMinimalDenom).type !== "native") {
-      throw new Error(
-        `Do not provide not native token to currencies: ${currency.coinMinimalDenom}`,
-      );
-    }
-
-    if (currency.coinMinimalDenom.startsWith("ibc/")) {
-      throw new Error(
-        `Do not provide ibc currency to currencies: ${currency.coinMinimalDenom}`,
-      );
-    }
-
-    if (currency.coinMinimalDenom.startsWith("gravity0x")) {
-      throw new Error(
-        `Do not provide bridged currency to currencies: ${currency.coinMinimalDenom}`,
       );
     }
   }
@@ -111,6 +93,26 @@ export const validateChainInfo = async (
     await checkRestConnectivity(chainInfo.chainId, chainInfo.rest);
   }
 
+  // check coinGecko vaild
+  const coinGeckoIds = new Set<string>();
+  for (const currency of chainInfo.currencies) {
+    if (currency.coinGeckoId) {
+      coinGeckoIds.add(currency.coinGeckoId);
+    }
+  }
+
+  for (const currency of chainInfo.feeCurrencies) {
+    if (currency.coinGeckoId) {
+      coinGeckoIds.add(currency.coinGeckoId);
+    }
+  }
+
+  if (chainInfo.stakeCurrency?.coinGeckoId) {
+    coinGeckoIds.add(chainInfo.stakeCurrency.coinGeckoId);
+  }
+
+  await checkCoinGeckoIds(...Array.from(coinGeckoIds));
+
   return chainInfo;
 };
 
@@ -120,5 +122,81 @@ export const checkImageSize = (path: string) => {
     throw new Error(
       "Image size is not 256x256px. size : " + JSON.stringify(dimensions),
     );
+  }
+};
+
+const checkCoinGeckoIds = async (...coinGeckoIds: string[]) => {
+  const response = await fetch(
+    `https://api.coingecko.com/api/v3/simple/price?vs_currencies=usd&ids=${coinGeckoIds.join(
+      ",",
+    )}`,
+  );
+
+  if (!response.ok) {
+    throw new Error(`Failed to fetch coinGeckoId ${coinGeckoIds.join(", ")}`);
+  }
+
+  const data = await response.json();
+
+  if (data.hasOwnProperty("error")) {
+    throw new Error(`Failed to fetch coinGeckoId ${coinGeckoIds.join(", ")}`);
+  }
+
+  for (const coinGeckoId of coinGeckoIds) {
+    if (data[coinGeckoId] == null || data[coinGeckoId]["usd"] == null) {
+      throw new Error(
+        `Failed to fetch coinGeckoId ${coinGeckoId} from coin gecko`,
+      );
+    }
+  }
+};
+
+export const checkCurrencies = (chainInfo: ChainInfo) => {
+  // Check stake currency
+  if (
+    chainInfo.stakeCurrency &&
+    !chainInfo.currencies.some(
+      (currency) =>
+        currency.coinMinimalDenom === chainInfo.stakeCurrency!.coinMinimalDenom,
+    )
+  ) {
+    throw new Error(
+      `Stake Currency must be included in currencies. stakeCurrency: ${chainInfo.stakeCurrency.coinMinimalDenom}`,
+    );
+  }
+
+  // Check fee currency
+  if (
+    !chainInfo.feeCurrencies
+      .filter((feeCurrency) => !feeCurrency.coinMinimalDenom.startsWith("ibc/"))
+      .every((feeCurrency) =>
+        chainInfo.currencies.some(
+          (currency) =>
+            feeCurrency.coinMinimalDenom === currency.coinMinimalDenom,
+        ),
+      )
+  ) {
+    throw new Error(`Fee Currency must be included in currencies`);
+  }
+
+  // Check currencies
+  for (const currency of chainInfo.currencies) {
+    if (new DenomHelper(currency.coinMinimalDenom).type !== "native") {
+      throw new Error(
+        `Do not provide not native token to currencies: ${currency.coinMinimalDenom}`,
+      );
+    }
+
+    if (currency.coinMinimalDenom.startsWith("ibc/")) {
+      throw new Error(
+        `Do not provide ibc currency to currencies: ${currency.coinMinimalDenom}`,
+      );
+    }
+
+    if (currency.coinMinimalDenom.startsWith("gravity0x")) {
+      throw new Error(
+        `Do not provide bridged currency to currencies: ${currency.coinMinimalDenom}`,
+      );
+    }
   }
 };

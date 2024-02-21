@@ -126,3 +126,7 @@ dist
 
 .DS_Store
 *.pem
+
+build
+bundle
+bundle.zip

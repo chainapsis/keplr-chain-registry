@@ -1,0 +1,140 @@
+{
+  "rpc": "https://rpc.wallet.pacific-1.sei.io",
+  "rest": "https://rest.wallet.pacific-1.sei.io",
+  "chainId": "pacific-1",
+  "chainName": "Sei",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pacific/chain.png",
+  "bip44": {
+    "coinType": 118
+  },
+  "stakeCurrency": {
+    "coinDenom": "SEI",
+    "coinMinimalDenom": "usei",
+    "coinDecimals": 6,
+    "coinGeckoId": "sei-network"
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "sei",
+    "bech32PrefixAccPub": "seipub",
+    "bech32PrefixValAddr": "seivaloper",
+    "bech32PrefixValPub": "seivaloperpub",
+    "bech32PrefixConsAddr": "seivalcons",
+    "bech32PrefixConsPub": "seivalconspub"
+  },
+  "nodeProvider": {
+    "name": "Sei",
+    "email": "ecosystem@seinetwork.io",
+    "website": "https://sei.io"
+  },
+  "currencies": [
+    {
+      "coinDenom": "SEI",
+      "coinMinimalDenom": "usei",
+      "coinDecimals": 6,
+      "coinGeckoId": "sei-network"
+    },
+    {
+      "coinDenom": "WETH",
+      "coinMinimalDenom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/4tLQqCLaoKKfNFuPjA9o39YbKUwhR1F8N29Tz3hEbfP2",
+      "coinDecimals": 8,
+      "coinGeckoId": "weth"
+    },
+    {
+      "coinDenom": "iSEI",
+      "coinMinimalDenom": "factory/sei1e3gttzq5e5k49f9f5gzvrl0rltlav65xu6p9xc0aj7e84lantdjqp7cncc/isei",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pacific/factory/sei1e3gttzq5e5k49f9f5gzvrl0rltlav65xu6p9xc0aj7e84lantdjqp7cncc/iSEI.png"
+    },
+    {
+      "coinDenom": "USDCet",
+      "coinMinimalDenom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/Hq4tuDzhRBnxw3tFA5n6M52NVMVcC19XggbyDiJKCD6H",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin"
+    },
+    {
+      "coinDenom": "USDTet",
+      "coinMinimalDenom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/HktfLoADCk9mnjv7XJiN4YXK9ayE6xinLzt8wzcsR2rY",
+      "coinDecimals": 6,
+      "coinGeckoId": "tether"
+    },
+    {
+      "coinDenom": "WBTC",
+      "coinMinimalDenom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/7omXa4gryZ5NiBmLep7JsTtTtANCVKXwT9vbN91aS1br",
+      "coinDecimals": 8,
+      "coinGeckoId": "bitcoin"
+    },
+    {
+      "coinDenom": "USDCar",
+      "coinMinimalDenom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/7edDfnf4mku8So3t4Do215GNHwASEwCWrdhM5GqD51xZ",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin"
+    },
+    {
+      "coinDenom": "WETHar",
+      "coinMinimalDenom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/9hJDBDaxqQQhF5HhaPUykeLncBa38XQ5uoNxN3tPQu5r",
+      "coinDecimals": 8,
+      "coinGeckoId": "weth"
+    },
+    {
+      "coinDenom": "USDCpo",
+      "coinMinimalDenom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/DUVFMY2neJdL8aE4d3stcpttDDm5aoyfGyVvm29iA9Yp",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin"
+    },
+    {
+      "coinDenom": "USDCop",
+      "coinMinimalDenom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/3VKKYtbQ9iq8f9CaZfgR6Cr3TUj6ypXPAn6kco6wjcAu",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin"
+    },
+    {
+      "coinDenom": "USDCso",
+      "coinMinimalDenom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/9fELvUhFo6yWL34ZaLgPbCPzdk9MD1tAzMycgH45qShH",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin"
+    },
+    {
+      "coinDenom": "USDCbs",
+      "coinMinimalDenom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/3Ri4N719RQfQaudHiB9CMCYACtK3aieoz1q1Ph24VdAb",
+      "coinDecimals": 8,
+      "coinGeckoId": "usd-coin"
+    },
+    {
+      "coinDenom": "WETHbs",
+      "coinMinimalDenom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/9tTHn18vLnfyBvrQaia6N15zwrfRCAebZDshoPZ39ahN",
+      "coinDecimals": 8,
+      "coinGeckoId": "weth"
+    },
+    {
+      "coinDenom": "USDTbs",
+      "coinMinimalDenom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/871jbn9unTavWsAe83f2Ma9GJWSv6BKsyWYLiQ6z3Pva",
+      "coinDecimals": 8,
+      "coinGeckoId": "tether"
+    },
+    {
+      "coinDenom": "$GNR",
+      "coinMinimalDenom": "factory/sei1vrz7ndadkf6gwanf6ccy2d2v706yzrx2957fjd/GOLDENRULES",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pacific/factory/sei1vrz7ndadkf6gwanf6ccy2d2v706yzrx2957fjd/goldenrules.png"
+    },
+    {
+      "coinDenom": "POPEYE",
+      "coinMinimalDenom": "factory/sei1fl8pg59wfsgw2wp4aruk38zqccfnc2g8ptrm24/popeye",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pacific/factory/sei1fl8pg59wfsgw2wp4aruk38zqccfnc2g8ptrm24/popeye.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "SEI",
+      "coinMinimalDenom": "usei",
+      "coinDecimals": 6,
+      "coinGeckoId": "sei-network",
+      "gasPriceStep": {
+        "low": 0.1,
+        "average": 0.2,
+        "high": 0.3
+      }
+    }
+  ]
+}

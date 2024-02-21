@@ -4,11 +4,6 @@
   "chainId": "noble-1",
   "chainName": "Noble",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/chain.png",
-  "stakeCurrency": {
-    "coinDenom": "STAKE",
-    "coinMinimalDenom": "ustake",
-    "coinDecimals": 6
-  },
   "bip44": {
     "coinType": 118
   },
@@ -24,17 +19,15 @@
     {
       "coinDenom": "USDC",
       "coinMinimalDenom": "uusdc",
-      "coinDecimals": 6
-    },
-    {
-      "coinDenom": "STAKE",
-      "coinMinimalDenom": "ustake",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/uusdc.png"
     },
     {
       "coinDenom": "FRNZ",
       "coinMinimalDenom": "ufrienzies",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/ufrienzies.png"
     }
   ],
   "feeCurrencies": [
@@ -42,10 +35,12 @@
       "coinDenom": "USDC",
       "coinMinimalDenom": "uusdc",
       "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/uusdc.png",
       "gasPriceStep": {
-        "low": 0,
-        "average": 0,
-        "high": 0.01
+        "low": 0.1,
+        "average": 0.1,
+        "high": 0.2
       }
     },
     {
@@ -53,9 +48,9 @@
       "coinMinimalDenom": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.001,
-        "average": 0.001,
-        "high": 0.001
+        "low": 0.01,
+        "average": 0.01,
+        "high": 0.02
       }
     }
   ],
