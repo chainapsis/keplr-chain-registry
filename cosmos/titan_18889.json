@@ -1,0 +1,53 @@
+{
+  "rpc": "https://titan-testnet-rpc-1.tokenize-dev.com",
+  "rest": "https://titan-testnet-lcd-1.tokenize-dev.com",
+  "chainId": "titan_18889-1",
+  "chainName": "Titan Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18889/chain.png",
+  "nodeProvider": {
+    "name": "Tokenize",
+    "email": "tranquocphuong@tokenize.exchange",
+    "website": "https://tokenize.exchange/"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "titan",
+    "bech32PrefixAccPub": "titanpub",
+    "bech32PrefixValAddr": "titanvaloper",
+    "bech32PrefixValPub": "titanvaloperpub",
+    "bech32PrefixConsAddr": "titanvalcons",
+    "bech32PrefixConsPub": "titanvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "TKX",
+      "coinMinimalDenom": "atkx",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18889/tkx.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "TKX",
+      "coinMinimalDenom": "atkx",
+      "coinDecimals": 18,
+      "gasPriceStep": {
+        "low": 100000000000,
+        "average": 100000000000,
+        "high": 100000000000
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "TKX",
+    "coinMinimalDenom": "atkx",
+    "coinDecimals": 18
+  },
+  "features": [
+    "cosmwasm",
+    "eth-address-gen",
+    "eth-key-sign"
+  ]
+}
