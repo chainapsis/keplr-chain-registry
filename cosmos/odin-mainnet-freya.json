@@ -37,22 +37,26 @@
       "coinDenom": "GEO",
       "coinMinimalDenom": "mGeo",
       "coinDecimals": 6,
-      "coinGeckoId": "geodb"
+      "coinGeckoId": "geodb",
+      "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/odin-mainnet-freya/geo.png"
     },
 {
       "coinDenom": "DOKI",
       "coinMinimalDenom": "udoki",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/odin-mainnet-freya/doki_Logo.png"
     },
     {
       "coinDenom": "MYRK",
       "coinMinimalDenom": "umyrk",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/odin-mainnet-freya/MYRK_Logo.png"
     },
     {
       "coinDenom": "O9W",
       "coinMinimalDenom": "mO9W",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/odin-mainnet-freya/o9w.png"
     }
   ],
   "feeCurrencies": [
