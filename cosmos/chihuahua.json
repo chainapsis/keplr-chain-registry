@@ -1,14 +1,9 @@
 {
     "chainId": "chihuahua-1",
-    "chainName": "Chihuahua v1.2",
+    "chainName": "Chihuahua",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/chihuahua/chain.png",
-    "rpc": "https://rpc.chihuahua.wtf:443/",
-    "rest": "https://api.chihuahua.wtf:443/",
-    "nodeProvider": {
-        "name": "Chihuahua Node",
-        "email": "chi@huahua.wtf",
-        "website":"https://www.chihuahua.wtf"
-    },
+    "rpc": "https://rpc-chihuahua.keplr.app",
+    "rest": "https://lcd-chihuahua.keplr.app",
     "stakeCurrency": {
         "coinDenom": "HUAHUA",
         "coinMinimalDenom": "uhuahua",
@@ -85,5 +80,5 @@
     "features": [
         "cosmwasm"
     ],
-    "walletUrlForStaking": "https://chihuahua.omniflix.co/stake"
+    "walletUrlForStaking": "https://wallet.keplr.app/chains/chihuahua"
 }
