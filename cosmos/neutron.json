@@ -102,6 +102,18 @@
       "coinMinimalDenom": "factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/GOP",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/GOP.png"
+    },
+    {
+      "coinDenom": "BOY",
+      "coinMinimalDenom": "neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv/boy.png"
+    },
+    {
+      "coinDenom": "CARTEL",
+      "coinMinimalDenom": "factory/neutron1w0pz4mjw7n96kkragj8etgfgakg5vw9lzg77wq/cartel",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron1w0pz4mjw7n96kkragj8etgfgakg5vw9lzg77wq/cartel.png"
     }
   ],
   "feeCurrencies": [
