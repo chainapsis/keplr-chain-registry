@@ -1,8 +1,8 @@
 {
   "chainId": "odin-mainnet-freya",
   "chainName": "ODIN",
-  "rpc": "https://node.odin-freya-website.odinprotocol.io/mainnet/a/",
-  "rest": "https://node.odin-freya-website.odinprotocol.io/mainnet/a/api/",
+  "rpc": "https://rpc.odinprotocol.io/",
+  "rest": "https://api.odinprotocol.io",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/odin-mainnet-freya/chain.png",
   "nodeProvider": {
     "name": "Odin Protocol",
@@ -27,24 +27,25 @@
   },
   "currencies": [
     {
-      "coinDenom": "odin",
+      "coinDenom": "ODIN",
       "coinMinimalDenom": "loki",
       "coinDecimals": 6,
-      "coinGeckoId": "odin-protocol"
+      "coinGeckoId": "odin-protocol",
+       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/odin-mainnet-freya/chain.png"
     },
     {
-      "coinDenom": "geo",
+      "coinDenom": "GEO",
       "coinMinimalDenom": "mGeo",
       "coinDecimals": 6,
       "coinGeckoId": "geodb"
     },
 {
-      "coinDenom": "doki",
+      "coinDenom": "DOKI",
       "coinMinimalDenom": "udoki",
       "coinDecimals": 6
     },
     {
-      "coinDenom": "myrk",
+      "coinDenom": "MYRK",
       "coinMinimalDenom": "umyrk",
       "coinDecimals": 6
     },
@@ -56,7 +57,7 @@
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "odin",
+      "coinDenom": "ODIN",
       "coinMinimalDenom": "loki",
       "coinDecimals": 6,
       "coinGeckoId": "odin-protocol",
@@ -68,10 +69,9 @@
     }
   ],
   "stakeCurrency": {
-    "coinDenom": "odin",
+    "coinDenom": "ODIN",
     "coinMinimalDenom": "loki",
     "coinDecimals": 6,
     "coinGeckoId": "odin-protocol"
-  },
-  "coinType": 118
+  }
 }
