@@ -30,9 +30,9 @@
       "coinGeckoId": "archway",
       "coinMinimalDenom": "aarch",
       "gasPriceStep": {
-        "low": 140000000000,
-        "average": 154000000000,
-        "high": 168000000000
+        "low": 196000000000,
+        "average": 225400000000,
+        "high": 254800000000
       },
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/archway/aarch.png"
     }
