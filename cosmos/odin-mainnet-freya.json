@@ -44,19 +44,19 @@
       "coinDenom": "DOKI",
       "coinMinimalDenom": "udoki",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/odin-mainnet-freya/doki_Logo.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/odin-mainnet-freya/doki_logo.png"
     },
     {
       "coinDenom": "MYRK",
       "coinMinimalDenom": "umyrk",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/odin-mainnet-freya/MYRK_Logo.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/odin-mainnet-freya/myrk_logo.png"
     },
     {
       "coinDenom": "O9W",
       "coinMinimalDenom": "mO9W",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/odin-mainnet-freya/o9w.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/odin-mainnet-freya/o9w_logo.png"
     }
   ],
   "feeCurrencies": [
