@@ -1,6 +1,11 @@
 {
   "rpc": "https://rpc.orai.io",
   "rest": "http://lcd.orai.io",
+  "nodeProvider": {
+    "name": "Oraichain",
+    "email": "contact@orai.io",
+    "website":"https://orai.io/"
+  },
   "chainId": "Oraichain",
   "chainName": "Oraichain",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/oraichain/chain.png",
