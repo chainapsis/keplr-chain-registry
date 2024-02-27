@@ -1,0 +1,38 @@
+{
+  "rpc": "https://rpc-govgen.keplr.app",
+  "rest": "https://lcd-govgen.keplr.app",
+  "chainId": "govgen-1",
+  "chainName": "GovGen",
+  "bip44": {
+    "coinType": 118
+  },
+  "walletUrlForStaking": "https://testnet.keplr.app/chains/govgen",
+  "bech32Config": {
+    "bech32PrefixAccAddr": "govgen",
+    "bech32PrefixAccPub": "govgenpub",
+    "bech32PrefixValAddr": "govgenvaloper",
+    "bech32PrefixValPub": "govgenvaloperpub",
+    "bech32PrefixConsAddr": "govgenvalcons",
+    "bech32PrefixConsPub": "govgenvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "GOVGEN",
+      "coinMinimalDenom": "ugovgen",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "GOVGEN",
+      "coinMinimalDenom": "ugovgen",
+      "coinDecimals": 6
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "GOVGEN",
+    "coinMinimalDenom": "ugovgen",
+    "coinDecimals": 6
+  },
+  "features": []
+}
