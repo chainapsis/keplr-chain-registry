@@ -134,7 +134,7 @@
       "coinDecimals": 6,
       "gasPriceStep": {
         "low": 0.0008,
-        "average": ,
+        "average": 0.0008,
         "high": 0.0008
       }
     },
