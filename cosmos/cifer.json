@@ -1,0 +1,50 @@
+{
+    "chainId": "cifer",
+    "chainName": "Cifer",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cifer/cif.png",
+    "rpc": "https://rpc.mainnet.cifer.ai",
+    "rest": "https://mainnet.cifer.ai",
+    "nodeProvider": {
+      "name": "Cifer",
+      "email": "info@cifer.ai",
+      "website":"https://cif_node.cifer.ai"
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "cife",
+      "bech32PrefixAccPub": "cifepub",
+      "bech32PrefixValAddr": "cifevaloper",
+      "bech32PrefixValPub": "cifevaloperpub",
+      "bech32PrefixConsAddr": "cifevalcons",
+      "bech32PrefixConsPub": "cifevalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "CIF",
+        "coinMinimalDenom": "ucif",
+        "coinDecimals": 6,
+        "coinGeckoId": ""
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "CIF",
+        "coinMinimalDenom": "ucif",
+        "coinDecimals": 6,
+        "coinGeckoId": "",
+        "gasPriceStep": {
+          "low": 0.01,
+          "average": 0.025,
+          "high": 0.03
+        }
+      }
+    ],
+    "stakeCurrency": {
+      "coinDenom": "CIF",
+      "coinMinimalDenom": "ucif",
+      "coinDecimals": 6,
+      "coinGeckoId": ""
+    }
+  }
