@@ -79,12 +79,6 @@
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron1t5qrjtyryh8gzt800qr5vylhh2f8cmx4wmz9mc/ugoddard.png"
     },
-    {
-      "coinDenom": "GDD",
-      "coinMinimalDenom": "factory/neutron1yqj9vcc0y73xfxjzegaj4v8q0zefevnlpuh4rj/GODDARD",
-      "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron1yqj9vcc0y73xfxjzegaj4v8q0zefevnlpuh4rj/gdd.png"
-    },
     { 
       "coinDenom": "APOLLO",
       "coinMinimalDenom": "factory/neutron154gg0wtm2v4h9ur8xg32ep64e8ef0g5twlsgvfeajqwghdryvyqsqhgk8e/APOLLO",
