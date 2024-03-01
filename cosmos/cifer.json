@@ -33,7 +33,7 @@
         "coinDenom": "CIF",
         "coinMinimalDenom": "ucif",
         "coinDecimals": 6,
-        "coinGeckoId": "",
+        "coinGeckoId": "cifer",
         "gasPriceStep": {
           "low": 0.01,
           "average": 0.025,
