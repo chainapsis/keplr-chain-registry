@@ -1,13 +1,13 @@
 {
-  "chainId": "nyx",
-  "chainName": "Nyx",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nyx/chain.png",
-  "rpc": "https://rpc.nyx.nodes.guru",
-  "rest": "https://api.nyx.nodes.guru/",
+  "chainId": "sandbox",
+  "chainName": "sandbox",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sandbox/chain.png",
+  "rpc": "https://rpc.sandbox.nymtech.net",
+  "rest": "https://api.sandbox.nymtech.net",
   "nodeProvider": {
-    "name": "NodesGuru",
-    "email": "andreym@nodes.guru",
-    "website": "https://nodes.guru/"
+    "name": "Nym",
+    "email": "info@nymtech.net",
+    "website": "https://nymtech.net"
   },
   "bip44": {
     "coinType": 118

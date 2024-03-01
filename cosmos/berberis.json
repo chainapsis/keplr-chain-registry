@@ -1,0 +1,51 @@
+{
+  "rpc": "https://rpc-berberis.hedgeblock.io",
+  "rest": "https://lcd-berberis.hedgeblock.io",
+  "nodeProvider": {
+    "name": "Hedge",
+    "email": "support@hedgeblock.io",
+    "website": "https://www.hedgeblock.io/"
+  },
+  "chainId": "berberis-1",
+  "chainName": "Hedge (Testnet)",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/berberis/chain.png",
+  "bech32Config": {
+    "bech32PrefixAccAddr": "hedge",
+    "bech32PrefixAccPub": "hedgepub",
+    "bech32PrefixValAddr": "hedgevaloper",
+    "bech32PrefixValPub": "hedgevaloperpub",
+    "bech32PrefixConsAddr": "hedgevalcons",
+    "bech32PrefixConsPub": "hedgevalconspub"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "stakeCurrency": {
+    "coinDenom": "hedge",
+    "coinDecimals": 6,
+    "coinMinimalDenom": "uhedge",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/berberis/berberis.png"
+  },
+  "currencies": [
+    {
+      "coinDenom": "hedge",
+      "coinDecimals": 6,
+      "coinMinimalDenom": "uhedge",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/berberis/berberis.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "hedge",
+      "coinDecimals": 6,
+      "coinMinimalDenom": "uhedge",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/berberis/berberis.png",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.03
+      }
+    }
+  ],
+  "features": ["cosmwasm"]
+}
