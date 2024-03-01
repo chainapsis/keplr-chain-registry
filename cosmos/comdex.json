@@ -58,6 +58,30 @@
         "average": 3,
         "high": 4
       }
+    },
+    {
+      "coinDenom": "ATOM",
+      "coinMinimalDenom":
+        "ibc/961FA3E54F5DCCA639F37A7C45F7BBE41815579EF1513B5AFBEFCFEB8F256352",
+      "coinDecimals": 6,
+      "coinGeckoId": "cosmos",
+      "gasPriceStep": {
+        "low": 0.0001,
+        "average": 0.001,
+        "high": 0.01
+      }
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom":
+        "ibc/D031367F58DFD5EED54A49ADCB4EFB44AD9ECCAE383708BFDCCACF3CF463B77C",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "gasPriceStep": {
+        "low": 0.0002,
+        "average": 0.0005,
+        "high": 0.0008
+      }
     }
   ],
   "features": [
