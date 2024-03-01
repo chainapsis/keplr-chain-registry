@@ -1,0 +1,54 @@
+{
+  "chainId": "evmos_9000-4",
+  "chainName": "Evmos Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/evmos_9001/chain.png",
+  "rpc": "https://evmos-testnet-rpc.polkachu.com",
+  "rest": "https://evmos-testnet-api.polkachu.com",
+  "nodeProvider": {
+    "name": "Polkachu",
+    "email": "hello@polkachu.com",
+    "website":"https://polkachu.com"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "evmos",
+    "bech32PrefixAccPub": "evmospub",
+    "bech32PrefixValAddr": "evmosvaloper",
+    "bech32PrefixValPub": "evmosvaloperpub",
+    "bech32PrefixConsAddr": "evmosvalcons",
+    "bech32PrefixConsPub": "evmosvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "TEVMOS",
+      "coinMinimalDenom": "atevmos",
+      "coinDecimals": 18,
+      "coinGeckoId": "evmos"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "TEVMOS",
+      "coinMinimalDenom": "atevmos",
+      "coinDecimals": 18,
+      "coinGeckoId": "evmos",
+      "gasPriceStep": {
+        "low": 80000000000,
+        "average": 80000000000,
+        "high": 80000000000
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "TEVMOS",
+    "coinMinimalDenom": "atevmos",
+    "coinDecimals": 18,
+    "coinGeckoId": "evmos"
+  },
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ]
+}
