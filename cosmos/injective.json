@@ -38,10 +38,19 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/ninja.png"
     },
     {
+
+      "coinDenom": "Talis",
+      "coinDecimals": 6,
+      "coinMinimalDenom": "factory/inj1maeyvxfamtn8lfyxpjca8kuvauuf2qeu6gtxm3/Talis",
+      "coinGeckoId": "talis-protocol",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1maeyvxfamtn8lfyxpjca8kuvauuf2qeu6gtxm3/talis.png"
+    },
+    {
       "coinDenom": "HAVA",
       "coinMinimalDenom": "factory/inj1h0ypsdtjfcjynqu3m75z2zwwz5mmrj8rtk2g52/uhava",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1h0ypsdtjfcjynqu3m75z2zwwz5mmrj8rtk2g52/hava.png"
+
     }
   ],
   "feeCurrencies": [

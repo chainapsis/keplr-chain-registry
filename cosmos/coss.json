@@ -33,7 +33,8 @@
     {
       "coinDenom": "CIAS",
       "coinMinimalDenom": "ucias",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinGeckoId": "cias"
     },
     {
       "coinDenom": "COSS",
@@ -46,6 +47,7 @@
       "coinDenom": "CIAS",
       "coinMinimalDenom": "ucias",
       "coinDecimals": 6,
+      "coinGeckoId": "cias",
       "gasPriceStep": {
         "low": 0.025,
         "average": 0.03,
