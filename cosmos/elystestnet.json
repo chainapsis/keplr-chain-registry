@@ -2,7 +2,7 @@
   "chainId": "elystestnet-1",
   "chainName": "elys",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elystestnet/chain.png",
-  "rpc": "http://37.187.154.66:26657",
+  "rpc": "https://rpc.testnet.elys.network",
   "rest": "https://api.testnet.elys.network",
   "nodeProvider": {
     "name": "Elys Node",
