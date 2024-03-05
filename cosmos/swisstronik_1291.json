@@ -32,7 +32,7 @@
     "coinMinimalDenom": "uswtr",
     "coinDenom": "SWTR",
     "coinDecimals": 18,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dymension_1100/chain.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/swisstronik/chain.png"
   },
   "feeCurrencies": [
     {
@@ -42,8 +42,8 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/swisstronik/chain.png",
       "gasPriceStep": {
         "average": 20000000000,
-        "high": 20000000000,
-        "low": 20000000000
+        "high": 25000000000,
+        "low": 30000000000
       }
     }
   ],
