@@ -47,7 +47,7 @@
       "coinGeckoId": "usd-coin",
       "gasPriceStep": {
         "low": 0.01,
-        "average": 0.025,
+        "average": 0.025, 
         "high": 0.03
       },
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/uusdc.png",
@@ -56,7 +56,7 @@
       "coinDenom": "ATOM",
       "coinMinimalDenom": "ibc/E2D2F6ADCC68AA3384B2F5DFACCA437923D137C14E86FB8A10207CF3BED0C8D4",
       "coinDecimals": 6,
-      "coinGeckoId": "cosmos"
+      "coinGeckoId": "cosmos",
       "gasPriceStep": {
         "low": 0.01,
         "average": 0.025,
