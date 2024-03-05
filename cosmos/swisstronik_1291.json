@@ -41,8 +41,8 @@
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/swisstronik/chain.png",
       "gasPriceStep": {
-        "average": 20000000000,
-        "high": 25000000000,
+        "average": 35000000000,
+        "high": 40000000000,
         "low": 30000000000
       }
     }
