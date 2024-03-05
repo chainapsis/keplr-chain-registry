@@ -50,7 +50,7 @@
         "average": 0.025,
         "high": 0.03
       },
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/uusdc.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elystestnet/uusdc.png"
     },
     {
       "coinDenom": "ATOM",
@@ -62,7 +62,7 @@
         "average": 0.025,
         "high": 0.03
       },
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/uatom.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elystestnet/uatom.png"
     }
   ],
   "stakeCurrency": {
