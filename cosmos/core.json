@@ -55,6 +55,12 @@
       "coinMinimalDenom": "stk/adydx",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/stkdydx.png"
+    },
+    {
+      "coinDenom": "stkSTARS",
+      "coinMinimalDenom": "stk/ustars",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/stkstars.png"
     }
   ],
   "feeCurrencies": [
