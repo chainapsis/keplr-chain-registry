@@ -1,7 +1,7 @@
 {
   "chainId": "swisstronik_1291-1",
   "chainName": "Swisstronik",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/alfset/keplr-chain-registry/main/images/swisstronik/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/swisstronik/chain.png",
   "rpc": "https://rpc.testnet.swisstronik.com",
   "rest": "https://api.testnet.swisstronik.com",
   "nodeProvider": {
@@ -14,7 +14,7 @@
       "coinMinimalDenom": "uswtr",
       "coinDenom": "SWTR",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/alfset/keplr-chain-registry/main/images/swisstronik/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/swisstronik/chain.png"
     }
   ],
   "bip44": {
@@ -32,14 +32,14 @@
     "coinMinimalDenom": "uswtr",
     "coinDenom": "SWTR",
     "coinDecimals": 18,
-    "coinImageUrl": "https://raw.githubusercontent.com/alfset/keplr-chain-registry/main/images/swisstronik/chain.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/swisstronik/chain.png"
   },
   "feeCurrencies": [
     {
       "coinMinimalDenom": "uswtr",
       "coinDenom": "SWTR",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/alfset/keplr-chain-registry/main/images/swisstronik/chain.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/swisstronik/chain.png",
       "gasPriceStep": {
         "average": 800,
         "high": 900,
