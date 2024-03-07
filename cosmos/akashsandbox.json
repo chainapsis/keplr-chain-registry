@@ -1,0 +1,43 @@
+{
+  "rpc": "https://rpc.sandbox-01.aksh.pw:443",
+  "rest": "https://api.sandbox-01.aksh.pw:443",
+  "chainId": "sandbox-01",
+  "chainName": "AkashSandbox",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/akashnet/chain.png",
+  "experimental": true,
+  "stakeCurrency": {
+    "coinDenom": "AKT",
+    "coinMinimalDenom": "uakt",
+    "coinDecimals": 6,
+    "coinGeckoId": "akash-network",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/akashnet/uakt.png"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "akash",
+    "bech32PrefixAccPub": "akashpub",
+    "bech32PrefixValAddr": "akashvaloper",
+    "bech32PrefixValPub": "akashvaloperpub",
+    "bech32PrefixConsAddr": "akashvalcons",
+    "bech32PrefixConsPub": "akashvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "AKT",
+      "coinMinimalDenom": "uakt",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/akashnet/uakt.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "AKT",
+      "coinMinimalDenom": "uakt",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/akashnet/uakt.png"
+    }
+  ],
+  "features": []
+}
