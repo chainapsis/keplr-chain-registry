@@ -1,6 +1,6 @@
 {
   "chainId": "fairyring-testnet-1",
-  "chainName": "Fairyring Testnet",
+  "chainName": "Fairblock FairyRing Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fairyring-testnet/chain.png",
   "rpc": "https://testnet-rpc.fairblock.network",
   "rest": "https://testnet-api.fairblock.network",
