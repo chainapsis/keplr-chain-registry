@@ -17,7 +17,7 @@
     {
       "coinDecimals": 18,
       "coinDenom": "CONST",
-      "coinGeckoId": "constantine-network",
+      "coinGeckoId": "archway",
       "coinMinimalDenom": "aconst"
     }
   ],
@@ -26,7 +26,7 @@
     {
       "coinDecimals": 18,
       "coinDenom": "CONST",
-      "coinGeckoId": "constantine-network",
+      "coinGeckoId": "archway",
       "coinMinimalDenom": "aconst",
       "gasPriceStep": {
         "low": 1000000000000,
@@ -35,12 +35,12 @@
       }
     }
   ],
-  "rest": "https://api.constantine.archway.tech",
-  "rpc": "https://rpc.constantine.archway.tech",
+  "rest": "https://api.constantine.archway.io",
+  "rpc": "https://rpc.constantine.archway.io",
   "stakeCurrency": {
     "coinDecimals": 18,
     "coinDenom": "CONST",
-    "coinGeckoId": "constantine-network",
+    "coinGeckoId": "archway",
     "coinMinimalDenom": "aconst"
   },
   "nodeProvider": {
