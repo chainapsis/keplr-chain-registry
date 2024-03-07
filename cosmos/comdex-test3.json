@@ -12,8 +12,7 @@
     "stakeCurrency": {
       "coinDenom": "CMDX",
       "coinMinimalDenom": "ucmdx",
-      "coinDecimals": 6,
-      "coinGeckoId": "comdex"
+      "coinDecimals": 6
     },
     "bip44": {
       "coinType": 118
@@ -49,7 +48,6 @@
         "coinDenom": "CMDX",
         "coinMinimalDenom": "ucmdx",
         "coinDecimals": 6,
-        "coinGeckoId": "comdex",
         "gasPriceStep": {
           "low": 2,
           "average": 3,
@@ -61,7 +59,6 @@
         "coinMinimalDenom":
           "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
         "coinDecimals": 6,
-        "coinGeckoId": "cosmos",
         "gasPriceStep": {
           "low": 0.0001,
           "average": 0.001,
@@ -73,7 +70,6 @@
         "coinMinimalDenom":
           "ibc/96CF88731A06654F8510473865C75200005B81A2A9FECB90389034F787015CA3",
         "coinDecimals": 6,
-        "coinGeckoId": "usd-coin",
         "gasPriceStep": {
           "low": 0.0002,
           "average": 0.0005,
