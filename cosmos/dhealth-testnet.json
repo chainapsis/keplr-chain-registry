@@ -7,7 +7,7 @@
   "nodeProvider": {
     "name": "dHealth Network",
     "email": "son@dhealth.com",
-    "website":"https://dhealth.com/"
+    "website":"https://dhealth.com"
   },
   "bip44": {
     "coinType": 118
