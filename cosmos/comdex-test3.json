@@ -15,8 +15,6 @@
       "coinDecimals": 6,
       "coinGeckoId": "comdex"
     },
-    "walletUrl": "https://testnet.harborprotocol.one",
-    "walletUrlForStaking": "https://test3-explorer.comdex.one/comdex-test3/staking",
     "bip44": {
       "coinType": 118
     },
@@ -33,7 +31,6 @@
         "coinDenom": "CMDX",
         "coinMinimalDenom": "ucmdx",
         "coinDecimals": 6,
-        "coinGeckoId": "comdex",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/comdex-test3/chain.png"
       },
       {
