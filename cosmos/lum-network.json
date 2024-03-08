@@ -13,7 +13,7 @@
     "nodeProvider": {
         "name": "Lum Network",
         "email": "contact@lum.network",
-        "website": "https://lum.network"
+        "website": "https://lum.network/"
     },
     "walletUrlForStaking": "https://wallet.lum.network",
     "bip44": {
