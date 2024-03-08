@@ -4,7 +4,6 @@
   "chainId": "sandbox-01",
   "chainName": "AkashSandbox",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/akashnet/chain.png",
-  "experimental": true,
   "stakeCurrency": {
     "coinDenom": "AKT",
     "coinMinimalDenom": "uakt",
