@@ -259,6 +259,28 @@
           "average": 15000000000,
           "high": 15000000000
         }
+      },
+      {
+        "coinDenom": "DYM",
+        "coinMinimalDenom": "ibc/E1C22332C083574F3418481359733BA8887D171E76C80AD9237422AEABB66018",
+        "coinDecimals": 18,
+        "coinGeckoId": "dymension",
+        "gasPriceStep": {
+          "low": 15000000000,
+          "average": 15000000000,
+          "high": 50000000000
+        }
+      },
+      {
+        "coinDenom": "stDYM",
+        "coinMinimalDenom": "stadym",
+        "coinDecimals": 18,
+        "coinGeckoId": "stride-staked-dym",
+        "gasPriceStep": {
+          "low": 15000000000,
+          "average": 15000000000,
+          "high": 50000000000
+        }
       }
     ],
   "features": []
