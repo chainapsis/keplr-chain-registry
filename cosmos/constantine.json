@@ -17,7 +17,6 @@
     {
       "coinDecimals": 18,
       "coinDenom": "CONST",
-      "coinGeckoId": "constantine-network",
       "coinMinimalDenom": "aconst"
     }
   ],
@@ -26,7 +25,6 @@
     {
       "coinDecimals": 18,
       "coinDenom": "CONST",
-      "coinGeckoId": "constantine-network",
       "coinMinimalDenom": "aconst",
       "gasPriceStep": {
         "low": 140000000000,
@@ -40,7 +38,6 @@
   "stakeCurrency": {
     "coinDecimals": 18,
     "coinDenom": "CONST",
-    "coinGeckoId": "constantine-network",
     "coinMinimalDenom": "aconst"
   },
   "nodeProvider": {
