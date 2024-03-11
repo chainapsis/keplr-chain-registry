@@ -122,6 +122,12 @@
       "coinMinimalDenom": "factory/sei1fl8pg59wfsgw2wp4aruk38zqccfnc2g8ptrm24/popeye",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pacific/factory/sei1fl8pg59wfsgw2wp4aruk38zqccfnc2g8ptrm24/popeye.png"
+    },
+    {
+      "coinDenom": "OOZARU",
+      "coinMinimalDenom": "sei1wlf9j5uv50rcg0u5j6xk00px5tflptzprj39keck27eg8g7qd7hqq6kvda",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pacific/popeye.png"
     }
   ],
   "feeCurrencies": [
