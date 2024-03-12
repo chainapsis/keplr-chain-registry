@@ -113,6 +113,11 @@
       "coinMinimalDenom": "stusomm",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stusomm.png"
+    },
+    {
+      "coinDenom": "stDYM",
+      "coinMinimalDenom": "stadym",
+      "coinDecimals": 18
     }
   ],
     "feeCurrencies": [
@@ -275,7 +280,6 @@
         "coinDenom": "stDYM",
         "coinMinimalDenom": "stadym",
         "coinDecimals": 18,
-        "coinGeckoId": "stride-staked-dym",
         "gasPriceStep": {
           "low": 15000000000,
           "average": 15000000000,
