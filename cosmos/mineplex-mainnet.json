@@ -1,6 +1,6 @@
 {
-  "rpc": "https://tendermint.mineplex.io/",
-  "rest": "https://app.mineplex.io/",
+  "rpc": "https://tendermint-rpc.xfi.ms/",
+  "rest": "https://cosmos-api.xfi.ms/",
   "chainId": "mineplex-mainnet-1",
   "chainName": "MinePlex Mainnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mineplex-mainnet/mineplex.png",
