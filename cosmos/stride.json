@@ -113,6 +113,11 @@
       "coinMinimalDenom": "stusomm",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stusomm.png"
+    },
+    {
+      "coinDenom": "stDYM",
+      "coinMinimalDenom": "stadym",
+      "coinDecimals": 18
     }
   ],
     "feeCurrencies": [
@@ -258,6 +263,27 @@
           "low": 15000000000,
           "average": 15000000000,
           "high": 15000000000
+        }
+      },
+      {
+        "coinDenom": "DYM",
+        "coinMinimalDenom": "ibc/E1C22332C083574F3418481359733BA8887D171E76C80AD9237422AEABB66018",
+        "coinDecimals": 18,
+        "coinGeckoId": "dymension",
+        "gasPriceStep": {
+          "low": 15000000000,
+          "average": 15000000000,
+          "high": 50000000000
+        }
+      },
+      {
+        "coinDenom": "stDYM",
+        "coinMinimalDenom": "stadym",
+        "coinDecimals": 18,
+        "gasPriceStep": {
+          "low": 15000000000,
+          "average": 15000000000,
+          "high": 50000000000
         }
       }
     ],
