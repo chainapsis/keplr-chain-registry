@@ -19,23 +19,20 @@
       {
         "coinDenom": "SEDA",
         "coinMinimalDenom": "aseda",
-        "coinDecimals": 18,
-        "coinGeckoId": "seda"
+        "coinDecimals": 18
       }
     ],
     "feeCurrencies": [
       {
         "coinDenom": "SEDA",
         "coinMinimalDenom": "aseda",
-        "coinDecimals": 18,
-        "coinGeckoId": "seda"
+        "coinDecimals": 18
       }
     ],
     "stakeCurrency": {
       "coinDenom": "SEDA",
       "coinMinimalDenom": "aseda",
-      "coinDecimals": 18,
-      "coinGeckoId": "seda"
+      "coinDecimals": 18
     },
     "features": [
       "cosmwasm"
