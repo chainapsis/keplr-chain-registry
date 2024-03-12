@@ -1,7 +1,7 @@
 {
     "chainId": "seda-1-testnet",
     "chainName": "SEDA",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/seda/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/seda-1-testnet/chain.png",
     "rpc": "https://rpc.testnet.seda.xyz",
     "rest": "https://lcd.testnet.seda.xyz",
     "bip44": {
@@ -19,20 +19,23 @@
       {
         "coinDenom": "SEDA",
         "coinMinimalDenom": "aseda",
-        "coinDecimals": 18
+        "coinDecimals": 18,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/seda-1-testnet/chain.png"
       }
     ],
     "feeCurrencies": [
       {
         "coinDenom": "SEDA",
         "coinMinimalDenom": "aseda",
-        "coinDecimals": 18
+        "coinDecimals": 18,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/seda-1-testnet/chain.png"
       }
     ],
     "stakeCurrency": {
       "coinDenom": "SEDA",
       "coinMinimalDenom": "aseda",
-      "coinDecimals": 18
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/seda-1-testnet/chain.png"
     },
     "features": [
       "cosmwasm"
