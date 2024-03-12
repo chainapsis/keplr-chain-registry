@@ -68,7 +68,7 @@
       {
         "coinDenom": "USDC",
         "coinMinimalDenom":
-          "ibc/96CF88731A06654F8510473865C75200005B81A2A9FECB90389034F787015CA3",
+          "ibc/2658C97FC74B74AB1898982081523C455561BBE3C705E47707021D47F3D94B38",
         "coinDecimals": 6,
         "gasPriceStep": {
           "low": 0.0002,
