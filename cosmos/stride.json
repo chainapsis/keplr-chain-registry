@@ -117,7 +117,8 @@
     {
       "coinDenom": "stDYM",
       "coinMinimalDenom": "stadym",
-      "coinDecimals": 18
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stadym.png"
     }
   ],
     "feeCurrencies": [
