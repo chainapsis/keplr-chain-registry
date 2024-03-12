@@ -3,7 +3,7 @@
   "rest": "https://app.mineplex.io/",
   "chainId": "mineplex-mainnet-1",
   "chainName": "MinePlex Mainnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mineplex/mineplex.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mineplex-mainnet/mineplex.png",
   "nodeProvider": {
     "name": "CrossFi Foundation",
     "website":"https://crossfi.org/",
