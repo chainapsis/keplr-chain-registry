@@ -54,4 +54,5 @@ export const nativeTestnetChainIdentifiers: string[] = [
   "ssc-testnet",
   "test-core",
   "govgen",
+  "seda-1-testnet",
 ];
