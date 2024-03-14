@@ -46,6 +46,15 @@
         "high": 0.075
       }
     },
+    
+    {
+
+      "coinDenom": "Wind",
+      "coinDecimals": 6,
+      "coinMinimalDenom": "factory/juno1h6y8tkceau4d8zyv5aa0fwdj2pa2y0gz2hx0tq/uwind",
+      "coinGeckoId": "",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/juno/factory/juno1h6y8tkceau4d8zyv5aa0fwdj2pa2y0gz2hx0tq/uwind.png"
+    },
     {
       "coinDenom": "ATOM",
       "coinMinimalDenom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
