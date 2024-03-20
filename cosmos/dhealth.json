@@ -10,7 +10,7 @@
     "website":"https://dhealth.com"
   },
   "bip44": {
-    "coinType": 10111
+    "coinType": 118
   },
   "bech32Config": {
     "bech32PrefixAccAddr": "dh",
