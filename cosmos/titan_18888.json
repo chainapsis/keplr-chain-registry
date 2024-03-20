@@ -25,6 +25,7 @@
       "coinDenom": "TKX",
       "coinMinimalDenom": "atkx",
       "coinDecimals": 18,
+      "coinGeckoId": "tokenize-xchange",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18888/tkx.png"
     }
   ],
@@ -33,6 +34,7 @@
       "coinDenom": "TKX",
       "coinMinimalDenom": "atkx",
       "coinDecimals": 18,
+      "coinGeckoId": "tokenize-xchange",
       "gasPriceStep": {
         "low": 100000000000,
         "average": 110000000000,
@@ -43,7 +45,8 @@
   "stakeCurrency": {
     "coinDenom": "TKX",
     "coinMinimalDenom": "atkx",
-    "coinDecimals": 18
+    "coinDecimals": 18,
+    "coinGeckoId": "tokenize-xchange"
   },
   "features": [
     "cosmwasm",
