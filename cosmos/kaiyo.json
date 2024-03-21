@@ -39,6 +39,12 @@
       "coinMinimalDenom": "factory/kujira1643jxg8wasy5cfcn7xm8rd742yeazcksqlg4d7/umnta",
       "coinDecimals": 6,
       "coinGeckoId": "mantadao"
+    },
+    {
+      "coinDenom": "bKUJI",
+      "coinMinimalDenom": "factory/kujira15e8q5wzlk5k38gjxlhse3vu6vqnafysncx2ltexd6y9gx50vuj2qpt7dgv/boneKuji",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/factory/kujira15e8q5wzlk5k38gjxlhse3vu6vqnafysncx2ltexd6y9gx50vuj2qpt7dgv/bKUJI.png"
     }
   ],
   "feeCurrencies": [
@@ -120,12 +126,6 @@
       "coinMinimalDenom": "ibc/1B38805B1C75352B28169284F96DF56BDEBD9E8FAC005BDCC8CF0378C82AA8E7",
       "coinDecimals": 18,
       "coinGeckoId": "ethereum"
-    },
-    {
-      "coinDenom": "bKUJI",
-      "coinMinimalDenom": "factory/kujira15e8q5wzlk5k38gjxlhse3vu6vqnafysncx2ltexd6y9gx50vuj2qpt7dgv/boneKuji",
-      "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/factory/kujira15e8q5wzlk5k38gjxlhse3vu6vqnafysncx2ltexd6y9gx50vuj2qpt7dgv/bKUJI.png"
     }
   ],
   "stakeCurrency": {
