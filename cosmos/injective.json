@@ -74,7 +74,7 @@
     {
       "coinDenom": "NONJA",
       "coinDecimals": 18,
-      "coinMinimalDenom": "inj1fu5u29slsg2xtsj7v5la22vl4mr4ywl7wlqeck",
+      "coinMinimalDenom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1fu5u29slsg2xtsj7v5la22vl4mr4ywl7wlqeck",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1fu5u29slsg2xtsj7v5la22vl4mr4ywl7wlqeck/NONJA.png"
     }
   ],
