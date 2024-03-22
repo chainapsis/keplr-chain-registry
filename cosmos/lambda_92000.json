@@ -8,6 +8,11 @@
     "chainId": 92000,
     "rpc": "https://evm.lambda.im"
   },
+  "nodeProvider": {
+    "name": "NodeStake",
+    "email": "info@nodestake.top",
+    "website": "https://nodestake.top"
+  },
   "stakeCurrency": {
     "coinDenom": "LAMB",
     "coinMinimalDenom": "ulamb",
