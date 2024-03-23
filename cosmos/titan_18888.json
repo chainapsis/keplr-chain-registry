@@ -1,9 +1,9 @@
 {
-  "rpc": "https://titan-testnet-rpc.titanlab.io",
-  "rest": "https://titan-testnet-lcd.titanlab.io",
-  "chainId": "titan_18889-1",
-  "chainName": "Titan Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18889/chain.png",
+  "rpc": "https://titan-rpc.titanlab.io",
+  "rest": "https://titan-lcd.titanlab.io",
+  "chainId": "titan_18888-1",
+  "chainName": "Titan",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18888/chain.png",
   "nodeProvider": {
     "name": "Titanlab",
     "email": "info@titanlab.io",
@@ -25,7 +25,8 @@
       "coinDenom": "TKX",
       "coinMinimalDenom": "atkx",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18889/tkx.png"
+      "coinGeckoId": "tokenize-xchange",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18888/tkx.png"
     }
   ],
   "feeCurrencies": [
@@ -33,6 +34,7 @@
       "coinDenom": "TKX",
       "coinMinimalDenom": "atkx",
       "coinDecimals": 18,
+      "coinGeckoId": "tokenize-xchange",
       "gasPriceStep": {
         "low": 100000000000,
         "average": 110000000000,
@@ -43,7 +45,8 @@
   "stakeCurrency": {
     "coinDenom": "TKX",
     "coinMinimalDenom": "atkx",
-    "coinDecimals": 18
+    "coinDecimals": 18,
+    "coinGeckoId": "tokenize-xchange"
   },
   "features": [
     "cosmwasm",
