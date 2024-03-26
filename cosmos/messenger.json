@@ -31,7 +31,7 @@
     {
       "coinDenom": "GRAIN",
       "coinMinimalDenom": "ugrain",
-      "coinDecimals": 6
+      "coinDecimals": 6,
       "gasPriceStep": {
         "low": 0.00,
         "average": 0.01,
