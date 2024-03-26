@@ -20,7 +20,6 @@
     "coinGeckoId": "lambda",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lambda_92000/lambda.png"
   },
-  "walletUrl": "https://lambda.im/",
   "walletUrlForStaking": "https://app.lambda.im/staking",
   "bip44": {
     "coinType": 60
