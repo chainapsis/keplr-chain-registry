@@ -127,9 +127,7 @@ export const checkImageSize = (path: string) => {
 
 const checkCoinGeckoIds = async (...coinGeckoIds: string[]) => {
   const response = await fetch(
-    `https://api.coingecko.com/api/v3/simple/price?vs_currencies=usd&ids=${coinGeckoIds.join(
-      ",",
-    )}`,
+    `${process.env.PRICE_URL}?vs_currencies=usd&ids=${coinGeckoIds.join(",")}`,
   );
 
   if (!response.ok) {
