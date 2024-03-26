@@ -11,7 +11,6 @@ jobs:
     steps:
       - name: Slack Alert Notification
         uses: slackapi/slack-github-action@v1.25.0
-        if: ${{ steps.check-update.outputs.hasError }}
         with:
           channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
           payload: |
@@ -24,7 +23,7 @@ jobs:
                     {
                       "title": "Error Message",
                       "short": false,
-                      "value": "${{ steps.check-update.outputs.errorMessage }}"
+                      "value": "test"
                     }
                   ]
                 }
