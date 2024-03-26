@@ -2,7 +2,7 @@
   "rpc": "https://rpc-umee.keplr.app",
   "rest": "https://lcd-umee.keplr.app",
   "chainId": "umee-1",
-  "chainName": "Umee",
+  "chainName": "UX",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/umee/chain.png",
   "stakeCurrency": {
     "coinDenom": "UMEE",
