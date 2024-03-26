@@ -5,10 +5,10 @@
   "chainName": "Umee",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/umee/chain.png",
   "stakeCurrency": {
-    "coinDenom": "UMEE",
+    "coinDenom": "UX",
     "coinMinimalDenom": "uumee",
     "coinDecimals": 6,
-    "coinGeckoId": "umee",
+    "coinGeckoId": "uxchain",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/umee/uumee.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/umee",
@@ -26,19 +26,19 @@
   },
   "currencies": [
     {
-      "coinDenom": "UMEE",
+      "coinDenom": "UX",
       "coinMinimalDenom": "uumee",
       "coinDecimals": 6,
-      "coinGeckoId": "umee",
+      "coinGeckoId": "uxchain",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/umee/uumee.png"
     }
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "UMEE",
+      "coinDenom": "UX",
       "coinMinimalDenom": "uumee",
       "coinDecimals": 6,
-      "coinGeckoId": "umee",
+      "coinGeckoId": "uxchain",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/umee/uumee.png",
       "gasPriceStep": {
         "low": 0.06,
