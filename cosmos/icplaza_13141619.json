@@ -12,8 +12,7 @@
   "stakeCurrency": {
     "coinDenom": "ICT",
     "coinMinimalDenom": "uict",
-    "coinDecimals": 18,
-    "coinGeckoId": "ict"
+    "coinDecimals": 18
   },
   "bip44": {
     "coinType": 60
@@ -30,8 +29,7 @@
     {
       "coinDenom": "ICT",
       "coinMinimalDenom": "uict",
-      "coinDecimals": 18,
-      "coinGeckoId": "ict"
+      "coinDecimals": 18
     }
   ],
   "feeCurrencies": [
@@ -39,7 +37,6 @@
       "coinDenom": "ICT",
       "coinMinimalDenom": "uict",
       "coinDecimals": 18,
-      "coinGeckoId": "ict",
       "gasPriceStep": {
         "low": 25000000000,
         "average": 25000000000,

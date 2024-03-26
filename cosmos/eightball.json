@@ -30,14 +30,13 @@
       "coinDenom": "EBL",
       "coinMinimalDenom": "uebl",
       "coinDecimals": 6
-    } 
+    }
   ],
   "feeCurrencies": [
     {
         "coinDenom": "EBL",
         "coinMinimalDenom": "uebl",
-        "coinDecimals": 6,
-        "coinGeckoId": "8ball"
+        "coinDecimals": 6
     }
   ],
   "features": [
