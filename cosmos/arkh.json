@@ -6,7 +6,7 @@
   "rest": "https://api.arkh.nodestake.top",
   "nodeProvider": {
         "name": "NodeStake",
-	"email": "info@nodestake.top",
+	    "email": "info@nodestake.top",
         "website": "https://nodestake.top"
     },
   "walletUrl": "https://wallet.arkhadian.com",
