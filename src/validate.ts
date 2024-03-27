@@ -187,7 +187,10 @@ export const checkCurrencies = (chainInfo: ChainInfo) => {
       );
     }
 
-    if (currency.coinMinimalDenom.startsWith("ibc/")) {
+    if (
+      currency.coinMinimalDenom.startsWith("ibc/") &&
+      ChainIdHelper.parse(chainInfo.chainId).identifier !== "centauri"
+    ) {
       throw new Error(
         `Do not provide ibc currency to currencies: ${currency.coinMinimalDenom}`,
       );
