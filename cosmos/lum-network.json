@@ -1,6 +1,6 @@
 {
-    "rpc": "https://node0.mainnet.lum.network/rpc",
-    "rest": "https://node0.mainnet.lum.network/rest",
+    "rpc": "https://rpc.node0.mainnet.lum.network",
+    "rest": "https://rest.node0.mainnet.lum.network",
     "chainId": "lum-network-1",
     "chainName": "Lum Network",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lum-network/chain.png",
@@ -13,7 +13,7 @@
     "nodeProvider": {
         "name": "Lum Network",
         "email": "contact@lum.network",
-        "website": "https://lum.network"
+        "website": "https://lum.network/"
     },
     "walletUrlForStaking": "https://wallet.lum.network",
     "bip44": {
