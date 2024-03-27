@@ -394,11 +394,6 @@
       "coinDecimals": 9
     },
     {
-      "coinDenom": "ATOM",
-      "coinMinimalDenom": "gravity0x8D983cb9388EaC77af0474fA441C4815500Cb7BB",
-      "coinDecimals": 6
-    },
-    {
       "coinDenom": "GET",
       "coinMinimalDenom": "gravity0x8a854288a5976036A725879164Ca3e91d30c6A1B",
       "coinDecimals": 18
@@ -466,17 +461,6 @@
       "coinDenom": "UMEE",
       "coinMinimalDenom": "gravity0xc0a4Df35568F116C370E6a6A6022Ceb908eedDaC",
       "coinDecimals": 6
-    },
-    {
-      "coinDenom": "ERC20",
-      "coinMinimalDenom": "gravity0xc3761EB917CD790B30dAD99f6Cc5b4Ff93C4F9eA",
-      "coinDecimals": 18
-    },
-    {
-      "coinDenom": "GRAV",
-      "coinMinimalDenom": "gravity0xd8e2F184EedC79A9bdE9Eb7E34B0fF34e98692B7",
-      "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/ugraviton.png"
     }
   ],
   "features": []
