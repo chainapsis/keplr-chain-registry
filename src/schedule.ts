@@ -35,7 +35,10 @@ const main = async () => {
 
   if (errorMessages.length !== 0) {
     core.setOutput("hasError", true);
-    core.setOutput("errorMessage", errorMessages.join("\\n \\n"));
+    core.setOutput(
+      "errorMessage",
+      errorMessages.map((e) => e?.error?.message || e?.error).join("\\n \\n"),
+    );
     process.exit(1);
   }
 };
