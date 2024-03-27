@@ -45,6 +45,13 @@
       "coinMinimalDenom": "factory/kujira15e8q5wzlk5k38gjxlhse3vu6vqnafysncx2ltexd6y9gx50vuj2qpt7dgv/boneKuji",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/factory/kujira15e8q5wzlk5k38gjxlhse3vu6vqnafysncx2ltexd6y9gx50vuj2qpt7dgv/bKUJI.png"
+    },
+    {
+      "coinDenom": "AQLA",
+      "coinMinimalDenom": "factory/kujira1xe0awk5planmtsmjel5xtx2hzhqdw5p8z66yqd/uaqla",
+      "coinDecimals": 6,
+      "coinGeckoId": "aqualibre",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/factory/kujira1xe0awk5planmtsmjel5xtx2hzhqdw5p8z66yqd/AQLA.png"
     }
   ],
   "feeCurrencies": [
