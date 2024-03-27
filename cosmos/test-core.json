@@ -31,7 +31,7 @@
         "coinDenom": "stkATOM",
         "coinMinimalDenom": "stk/uatom",
         "coinDecimals": 6,
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/test-core/stkosmo.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/test-core/stkatom.png"
       },
       {
         "coinDenom": "stkOSMO",
