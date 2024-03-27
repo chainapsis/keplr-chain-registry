@@ -37,7 +37,9 @@ const main = async () => {
     core.setOutput("hasError", true);
     core.setOutput(
       "errorMessage",
-      errorMessages.map((e) => e?.error?.message || e?.error).join("\\n \\n"),
+      errorMessages
+        .map((e) => `${e?.file}: ${e?.error?.message || e?.error}`)
+        .join("\\n \\n"),
     );
     process.exit(1);
   }
