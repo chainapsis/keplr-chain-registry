@@ -2,12 +2,12 @@
   "chainId": "LumenX",
   "chainName": "LumenX",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/LumenX/chain.png",
-  "rpc": "https://lumenx-rpc.kynraze.com",
-  "rest": "https://lumenx-api.kynraze.com",
+  "rpc": "https://rpc-lumenx.cryptonet.pl",
+  "rest": "https://api-lumenx.cryptonet.pl",
   "nodeProvider": {
-        "name": "Kynraze",
-        "email": "support@kynraze.com",
-        "website": "https://kynraze.com"
+        "name": "CryptoNet",
+        "email": "contact@cryptonet.pl",
+        "website": "https://cryptonet.pl"
     },
   "walletUrlForStaking": "https://explorer.kynraze.com/lumenx/staking",
   "bip44": {
