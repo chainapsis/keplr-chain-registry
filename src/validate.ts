@@ -174,7 +174,8 @@ export const checkCurrencies = (chainInfo: ChainInfo) => {
           (currency) =>
             feeCurrency.coinMinimalDenom === currency.coinMinimalDenom,
         ),
-      )
+      ) &&
+    ChainIdHelper.parse(chainInfo.chainId).identifier !== "gravity-bridge"
   ) {
     throw new Error(`Fee Currency must be included in currencies`);
   }
