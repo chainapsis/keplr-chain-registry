@@ -1,5 +1,5 @@
 {
-  "rpc": "https://canto-rpc.plexnode.wtf",
+  "rpc": "http://canto.plexnode.dev:16657",
   "rest": "https://canto-rest.plexnode.wtf",
   "chainId": "canto_7700-1",
   "chainName": "Canto",
