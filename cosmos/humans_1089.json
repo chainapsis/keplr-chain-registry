@@ -1,6 +1,6 @@
 {
-  "rpc": "https://rpc.cosmos.directory/humans",
-  "rest": "https://rest.cosmos.directory/humans",
+  "rpc": "https://humans.rpc.kjnodes.com/",
+  "rest": "https://humans.api.kjnodes.com/",
   "chainId": "humans_1089-1",
   "chainName": "Humans.ai",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/humans_1089/logo.png",
