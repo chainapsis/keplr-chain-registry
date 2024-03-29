@@ -2,7 +2,7 @@
   "chainId": "fxcore",
   "chainName": "f(x)Core",
   "evm": {
-    "chainId": "530",
+    "chainId": 530,
     "rpc": "https://fx-json-web3.functionx.io:8545"
   },
   "rpc": "https://fx-json.functionx.io",
