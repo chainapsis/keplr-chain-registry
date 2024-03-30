@@ -196,11 +196,5 @@ export const checkCurrencies = (chainInfo: ChainInfo) => {
         `Do not provide ibc currency to currencies: ${currency.coinMinimalDenom}`,
       );
     }
-
-    if (currency.coinMinimalDenom.startsWith("gravity0x")) {
-      throw new Error(
-        `Do not provide bridged currency to currencies: ${currency.coinMinimalDenom}`,
-      );
-    }
   }
 };
