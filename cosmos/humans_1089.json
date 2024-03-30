@@ -6,7 +6,7 @@
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/humans_1089/logo.png",
   "nodeProvider": {
     "name": "Humans.ai",
-    "email": "contact@humans.ai",
+    "email": "support@humans.ai",
     "website": "https://humans.ai/"
   },
   "stakeCurrency": {
