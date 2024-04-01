@@ -108,6 +108,24 @@
       "coinMinimalDenom": "neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv/boy.png"
+    },
+    {
+      "coinDenom": "CARTEL",
+      "coinMinimalDenom": "factory/neutron1w0pz4mjw7n96kkragj8etgfgakg5vw9lzg77wq/cartel",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron1w0pz4mjw7n96kkragj8etgfgakg5vw9lzg77wq/cartel.png"
+    },
+    { 
+      "coinDenom": "MOO",
+      "coinMinimalDenom": "factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/MOO",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/MOO.png"
+    },
+    { 
+      "coinDenom": "SCRAP",
+      "coinMinimalDenom": "factory/neutron1qm224945hrkwc5qze40tau499n46ydmulpeagscmsuyxfrds02usf7mnpu/scrap",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron1qm224945hrkwc5qze40tau499n46ydmulpeagscmsuyxfrds02usf7mnpu/SCRAP.png"
     }
   ],
   "feeCurrencies": [
@@ -117,9 +135,9 @@
       "coinDecimals": 6,
       "coinGeckoId": "neutron-3",
       "gasPriceStep": {
-        "low": 0.075,
-        "average": 0.075,
-        "high": 0.1125
+        "low": 0.0053,
+        "average": 0.0053,
+        "high": 0.0053
       }
     },
     {
@@ -127,9 +145,9 @@
       "coinMinimalDenom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.007,
-        "average": 0.007,
-        "high": 0.0105
+        "low": 0.0008,
+        "average": 0.0008,
+        "high": 0.0008
       }
     },
     {
@@ -137,9 +155,9 @@
       "coinMinimalDenom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.08,
-        "average": 0.08,
-        "high": 0.12
+        "low": 0.008,
+        "average": 0.008,
+        "high": 0.008
       }
     },
     {
@@ -147,9 +165,9 @@
       "coinMinimalDenom": "factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH",
       "coinDecimals": 18,
       "gasPriceStep": {
-        "low": 30125586.037,
-        "average": 30125586.037,
-        "high": 45188379.0555
+        "low": 2903231.6597,
+        "average": 2903231.6597,
+        "high": 2903231.6597
       }
     },
     {
@@ -157,9 +175,9 @@
       "coinMinimalDenom": "ibc/2CB87BCE0937B1D1DFCEE79BE4501AAF3C265E923509AEAC410AD85D27F35130",
       "coinDecimals": 18,
       "gasPriceStep": {
-        "low": 25641025641.026,
-        "average": 25641025641.026,
-        "high": 38461538461.5
+        "low": 2564102564.1026,
+        "average": 2564102564.1026,
+        "high": 2564102564.1026
       }
     },
     {
@@ -167,9 +185,9 @@
       "coinMinimalDenom": "ibc/773B4D0A3CD667B2275D5A4A7A2F0909C0BA0F4059C0B9181E680DDF4965DCC7",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.006,
-        "average": 0.006,
-        "high": 0.009
+        "low": 0.0004,
+        "average": 0.0004,
+        "high": 0.0004
       }
     },
     {
@@ -177,9 +195,9 @@
       "coinMinimalDenom": "ibc/B7864B03E1B9FD4F049243E92ABD691586F682137037A9F3FCA5222815620B3C",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.006,
-        "average": 0.006,
-        "high": 0.009
+        "low": 0.0006,
+        "average": 0.0006,
+        "high": 0.0006
       }
     }
   ],

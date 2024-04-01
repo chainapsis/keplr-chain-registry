@@ -1,9 +1,9 @@
 {
-  "chainId": "nibiru-itn-3",
+  "chainId": "nibiru-testnet-1",
   "chainName": "Nibiru Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-itn/chain.png",
-  "rpc": "https://rpc.itn-3.nibiru.fi/",
-  "rest": "https://lcd.itn-3.nibiru.fi/",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-testnet/chain.png",
+  "rpc": "https://rpc.testnet-1.nibiru.fi/",
+  "rest": "https://lcd.testnet-1.nibiru.fi/",
   "nodeProvider": {
     "name": "Nibiru Team",
     "email": "dev@nibiru.fi",
@@ -25,7 +25,7 @@
       "coinDenom": "NIBI",
       "coinMinimalDenom": "unibi",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-itn/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-testnet/chain.png"
     }
   ],
   "feeCurrencies": [
@@ -33,7 +33,7 @@
       "coinDenom": "NIBI",
       "coinMinimalDenom": "unibi",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-itn/chain.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-testnet/chain.png",
       "gasPriceStep": {
         "low": 0.05,
         "average": 0.125,
@@ -45,9 +45,7 @@
     "coinDenom": "NIBI",
     "coinMinimalDenom": "unibi",
     "coinDecimals": 6,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-itn/chain.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-testnet/chain.png"
   },
-  "features": [
-    "cosmwasm"
-  ]
+  "features": ["cosmwasm"]
 }

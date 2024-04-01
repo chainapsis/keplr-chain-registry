@@ -1,10 +1,10 @@
 {
-    "rpc": "https://rpc-composable-ia.cosmosia.notional.ventures",
-    "rest": "https://api-composable-ia.cosmosia.notional.ventures",
+    "rpc": "https://composable-rpc.lavenderfive.com:443",
+    "rest": "https://composable-api.lavenderfive.com:443",
     "nodeProvider": {
-      "name": "Notional",
-      "email": "contact@notional.ventures",
-      "website": "https://notional.ventures/"
+      "name": "Lavender.Five Nodes",
+      "email": "hello@lavenderfive.com",
+      "website": "https://lavenderfive.com/"
     },
     "chainId": "centauri-1",
     "chainName": "Composable",
