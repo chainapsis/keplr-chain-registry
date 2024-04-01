@@ -47,11 +47,10 @@ export const validateChainInfo = async (
   }
 
   // Check chain identifier
-  if (ChainIdHelper.parse(chainInfo.chainId).identifier !== chainIdentifier) {
+  const parsedChainId = ChainIdHelper.parse(chainInfo.chainId).identifier;
+  if (parsedChainId !== chainIdentifier) {
     throw new Error(
-      `Chain identifier unmatched: (expected: ${chainIdentifier}, actual: ${
-        ChainIdHelper.parse(chainInfo.chainId).identifier
-      })`,
+      `Chain identifier unmatched: (expected: ${parsedChainId}, actual: ${chainIdentifier})`,
     );
   }
 
@@ -127,10 +126,10 @@ export const checkImageSize = (path: string) => {
 };
 
 const checkCoinGeckoIds = async (...coinGeckoIds: string[]) => {
+  const priceURL =
+    process.env.PRICE_URL ?? "https://api.coingecko.com/api/v3/simple/price";
   const response = await fetch(
-    `https://api.coingecko.com/api/v3/simple/price?vs_currencies=usd&ids=${coinGeckoIds.join(
-      ",",
-    )}`,
+    `${priceURL}?vs_currencies=usd&ids=${coinGeckoIds.join(",")}`,
   );
 
   if (!response.ok) {
@@ -175,7 +174,8 @@ export const checkCurrencies = (chainInfo: ChainInfo) => {
           (currency) =>
             feeCurrency.coinMinimalDenom === currency.coinMinimalDenom,
         ),
-      )
+      ) &&
+    ChainIdHelper.parse(chainInfo.chainId).identifier !== "gravity-bridge"
   ) {
     throw new Error(`Fee Currency must be included in currencies`);
   }
@@ -188,15 +188,12 @@ export const checkCurrencies = (chainInfo: ChainInfo) => {
       );
     }
 
-    if (currency.coinMinimalDenom.startsWith("ibc/")) {
+    if (
+      currency.coinMinimalDenom.startsWith("ibc/") &&
+      ChainIdHelper.parse(chainInfo.chainId).identifier !== "centauri"
+    ) {
       throw new Error(
         `Do not provide ibc currency to currencies: ${currency.coinMinimalDenom}`,
-      );
-    }
-
-    if (currency.coinMinimalDenom.startsWith("gravity0x")) {
-      throw new Error(
-        `Do not provide bridged currency to currencies: ${currency.coinMinimalDenom}`,
       );
     }
   }
