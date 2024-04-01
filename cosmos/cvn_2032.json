@@ -11,8 +11,8 @@
     "coinGeckoId": "consciousdao",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cvn_2032/acvnt.png"
   },
-  "walletUrl": "",
-  "walletUrlForStaking": "",
+  "walletUrl": "https://cvn.io/",
+  "walletUrlForStaking": "https://cvn.io/staking",
   "bip44": {
     "coinType": 60
   },
