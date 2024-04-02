@@ -48,6 +48,13 @@
         "coinDecimals": 10,
         "coinGeckoId": "polkadot",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/dot.png"
+      },
+      {
+        "coinDenom": "TNKR",
+        "coinMinimalDenom": "ibc/3A0A392E610A8D477851ABFEA74F3D828F36C015AB8E93B0FBB7566A6D13C4D6",
+        "coinDecimals": 12,
+        "coinGeckoId": "tinkernet",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/tnkr.png"
       }
     ],
     "feeCurrencies": [
