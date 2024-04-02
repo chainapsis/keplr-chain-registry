@@ -1,10 +1,6 @@
 {
   "chainId": "fxcore",
   "chainName": "f(x)Core",
-  "evm": {
-    "chainId": 530,
-    "rpc": "https://fx-json-web3.functionx.io:8545"
-  },
   "rpc": "https://fx-json.functionx.io",
   "rest": "https://fx-rest.functionx.io",
   "walletUrl": "https://wallet.keplr.app/chains/fxcore",
