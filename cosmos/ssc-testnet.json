@@ -1,6 +1,6 @@
 {
   "chainId": "ssc-testnet-2",
-  "chainName": "Saga Testnet V2",
+  "chainName": "Saga Testnet v2",
   "rpc": "https://testnet2-keplr.sagarpc.io",
   "rest": "https://testnet2-keplr-lcd.sagarpc.io",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ssc-testnet/chain.png",
