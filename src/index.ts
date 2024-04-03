@@ -57,6 +57,10 @@ const main = async () => {
       );
     }
 
+    if (chainInfo.walletUrl) {
+      throw new Error("walletUrl is deprecated");
+    }
+
     const chainIdentifier = libPath.parse(path).name;
 
     const validateImageUrl = (url: string): string => {
