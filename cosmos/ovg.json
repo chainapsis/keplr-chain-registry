@@ -9,7 +9,6 @@
         "email": "info@overgold.app",
         "website": "https://overgold.io"
     },
-  "walletUrl": "https://overgold.app",
   "walletUrlForStaking": "https://staking.overgold.app",
   "bip44": {
     "coinType": 118
