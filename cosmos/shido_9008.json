@@ -20,8 +20,6 @@
     "email":"info@shido.finance",
     "website":"https://shido.io/"
   },
-  "walletUrl": "https://wallet.keplr.app/chains/shido",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/shido",
   "bip44": {
     "coinType": 60
   },
