@@ -1,6 +1,11 @@
 {
   "rpc": "https://rpc.loop.pfc.zone",
   "rest": "https://api.loop.pfc.zone",
+  "nodeProvider": {
+    "name": "PFC",
+    "website":"https://pfc.zone/",
+    "email": "pfc@pfc.zone"
+  },
   "chainId": "loop-1",
   "chainName": "Loop Fans",
   "stakeCurrency": {
@@ -46,5 +51,5 @@
       }
     }
   ],
-  "features": ["stargate", "ibc-transfer", "no-legacy-stdTx"]
+  "features": ["cosmwasm"]
 }
