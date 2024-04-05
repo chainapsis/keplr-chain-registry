@@ -7,7 +7,6 @@
     "coinDenom": "TOKEN",
     "coinMinimalDenom": "token",
     "coinDecimals": 6,
-    "coinGeckoId": "",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/loop/token.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/loop",
@@ -31,7 +30,6 @@
       "coinDenom": "TOKEN",
       "coinMinimalDenom": "token",
       "coinDecimals": 6,
-      "coinGeckoId": "",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/loop/token.png"
     }
   ],
@@ -40,7 +38,6 @@
       "coinDenom": "TOKEN",
       "coinMinimalDenom": "token",
       "coinDecimals": 6,
-      "coinGeckoId": "",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/loop/token.png",
       "gasPriceStep": {
         "low": 0,
