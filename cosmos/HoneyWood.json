@@ -1,0 +1,59 @@
+{
+  "chainId": "HoneyWood",
+  "chainName": "HoneyWood",
+  "rpc": "https://honeywood.io/node",
+  "rest": "https://honeywood.io/node-rest/",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/HoneyWood/chain.png",
+  "nodeProvider": {
+    "name": "HoneyWood",
+    "email": "media@honeywood.io",
+    "website":"https://honeywood.io/"
+  },
+  "stakeCurrency": {
+    "coinDenom": "CONE",
+    "coinMinimalDenom": "cone",
+    "coinDecimals": 0,
+    "coinGeckoId": "honeywood",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/HoneyWood/cone.png"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "bears",
+    "bech32PrefixAccPub": "bearspub",
+    "bech32PrefixValAddr": "bearsvaloper",
+    "bech32PrefixValPub": "bearsvaloperpub",
+    "bech32PrefixConsAddr": "bearsvalcons",
+    "bech32PrefixConsPub": "bearsvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "HONEY",
+      "coinMinimalDenom": "uhoney",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/HoneyWood/uhoney.png"
+    },
+    {
+      "coinDenom": "CONE",
+      "coinMinimalDenom": "cone",
+      "coinDecimals": 0,
+      "coinGeckoId": "honeywood",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/HoneyWood/cone.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "HONEY",
+      "coinMinimalDenom": "uhoney",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/HoneyWood/uhoney.png",
+      "gasPriceStep": {
+        "low": 0.05,
+        "average": 0.1,
+        "high": 0.15
+      }
+    }
+  ],
+  "features": []
+}

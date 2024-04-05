@@ -1,6 +1,6 @@
 {
-  "rpc": "https://k8s.testnet.tm.injective.network",
-  "rest": "https://k8s.testnet.lcd.injective.network",
+  "rpc": "https://testnet.sentry.tm.injective.network",
+  "rest": "https://testnet.sentry.lcd.injective.network",
   "chainId": "injective-888",
   "chainName": "Injective (Testnet)",
   "nodeProvider": {
@@ -46,5 +46,9 @@
       }
     }
   ],
-  "features": ["eth-address-gen", "eth-key-sign"]
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign",
+    "cosmwasm"
+  ]
 }

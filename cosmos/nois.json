@@ -1,6 +1,6 @@
 {
   "rpc": "https://nois-rpc.nysa.network",
-  "rest": "https://api.noismain.mcbnode.online",
+  "rest": "https://nois-api.polkachu.com",
   "chainId": "nois-1",
   "chainName": "Nois",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nois/chain.png",

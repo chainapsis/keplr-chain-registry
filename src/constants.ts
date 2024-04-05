@@ -7,11 +7,8 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "axelar-dojo",
   "bostrom",
   "core",
-  "emoney",
   "evmos_9001",
   "gravity-bridge",
-  "ixo",
-  "iov-mainnet-ibc",
   "irishub",
   "kava_2222",
   "regen",
@@ -22,7 +19,6 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "sommelier",
   "stargaze",
   "stride",
-  "tgrade-mainnet",
   "umee",
   "crypto-org-chain-mainnet",
   "quicksilver",
@@ -37,6 +33,11 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "neutron",
   "gitopia",
   "likecoin-mainnet",
+  "dydx-mainnet",
+  "celestia",
+  "passage",
+  "dymension_1100",
+  "chihuahua",
 ];
 
 export const nativeTestnetChainIdentifiers: string[] = [
@@ -49,4 +50,9 @@ export const nativeTestnetChainIdentifiers: string[] = [
   "osmo-test",
   "pion",
   "theta-testnet",
+  "dydx-testnet",
+  "ssc-testnet",
+  "test-core",
+  "govgen",
+  "seda-1-testnet",
 ];

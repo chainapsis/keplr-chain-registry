@@ -1,9 +1,14 @@
 {
-  "rpc": "https://rpc-eu-1.kaon.kyve.network",
-  "rest": "https://api-eu-1.kaon.kyve.network",
+  "rpc": "https://rpc-kyve-test.ecostake.com",
+  "rest": "https://rest-kyve-test.ecostake.com",
+  "nodeProvider": {
+    "name": "ecostake",
+    "email": "hello@ecostake.com",
+    "website":"https://www.ecostake.com/"
+  },
   "chainId": "kaon-1",
   "chainName": "Kaon (Testnet)",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kyve/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaon/chain.png",
   "stakeCurrency": {
     "coinDenom": "KYVE",
     "coinMinimalDenom": "tkyve",

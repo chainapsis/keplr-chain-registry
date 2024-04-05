@@ -1,7 +1,7 @@
 {
   "rpc": "https://rpc-celestia-testnet-mocha.keplr.app",
   "rest": "https://lcd-celestia-testnet-mocha.keplr.app",
-  "chainId": "mocha-3",
+  "chainId": "mocha-4",
   "chainName": "Celestia Mocha Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mocha/chain.png",
   "stakeCurrency": {
@@ -33,9 +33,9 @@
       "coinMinimalDenom": "utia",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.1,
-        "average": 0.25,
-        "high": 0.4
+        "low": 0.01,
+        "average": 0.02,
+        "high": 0.1
       }
     }
   ],

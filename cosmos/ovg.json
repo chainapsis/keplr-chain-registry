@@ -1,0 +1,53 @@
+{
+  "chainId": "ovg",
+  "chainName": "ovg",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ovg/chain.png",
+  "rpc": "https://rpc.chain.overgold.app",
+  "rest": "https://api.chain.overgold.app",
+  "nodeProvider": {
+        "name": "Overgold",
+        "email": "info@overgold.app",
+        "website": "https://overgold.io"
+    },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "ovg",
+    "bech32PrefixAccPub": "ovgpub",
+    "bech32PrefixValAddr": "ovgvaloper",
+    "bech32PrefixValPub": "ovgvaloperpub",
+    "bech32PrefixConsAddr": "ovgvalcons",
+    "bech32PrefixConsPub": "ovgvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "OVG",
+      "coinMinimalDenom": "ovg",
+      "coinDecimals": 8
+    },
+    {
+      "coinDenom": "STOVG",
+      "coinMinimalDenom": "stovg",
+      "coinDecimals": 8
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "OVG",
+      "coinMinimalDenom": "ovg",
+      "coinDecimals": 8,
+      "gasPriceStep": {
+        "low": 1,
+        "average": 1,
+        "high": 14
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "STOVG",
+    "coinMinimalDenom": "stovg",
+    "coinDecimals": 8
+  },
+  "features": []
+}

@@ -39,7 +39,11 @@ const main = async () => {
       throw new Error("Node provider should be provided");
     }
 
-    if (!isNativeSupported && !chainInfo.chainSymbolImageUrl) {
+    if (
+      !isNativeSupported &&
+      !isTestnetChain &&
+      !chainInfo.chainSymbolImageUrl
+    ) {
       throw new Error("chainSymbolImageUrl should be provided");
     }
 
@@ -72,7 +76,7 @@ const main = async () => {
     if (chainInfo.chainSymbolImageUrl) {
       imageFiles.push(validateImageUrl(chainInfo.chainSymbolImageUrl));
     }
-    if (chainInfo.stakeCurrency.coinImageUrl) {
+    if (chainInfo.stakeCurrency?.coinImageUrl) {
       imageFiles.push(validateImageUrl(chainInfo.stakeCurrency.coinImageUrl));
     }
     for (const currency of chainInfo.currencies) {

@@ -41,9 +41,9 @@
       "coinDecimals": 18,
       "coinGeckoId": "aioz-network",
       "gasPriceStep": {
-        "low": 1000000000,
-        "average": 1000000000,
-        "high": 1500000000
+        "low": 7000000000,
+        "average": 7000000000,
+        "high": 10000000000
       }
     }
   ],

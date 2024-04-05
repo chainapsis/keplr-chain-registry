@@ -6,7 +6,8 @@
   "rest": "http://api.neutaro.tech:1317/",
   "nodeProvider": {
     "name": "Neutaro",
-    "email": "neutaro.chain@gmail.com"
+    "email": "info@neutaro.com",
+    "website":"https://neutaro.com/"
   },
   "bip44": {
     "coinType": 118
@@ -21,14 +22,14 @@
   },
   "currencies": [
     {
-      "coinDenom": "neutaro",
+      "coinDenom": "NTMPI",
       "coinMinimalDenom": "uneutaro",
       "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "neutaro",
+      "coinDenom": "NTMPI",
       "coinMinimalDenom": "uneutaro",
       "coinDecimals": 6,
       "gasPriceStep": {
@@ -39,7 +40,7 @@
     }
   ],
   "stakeCurrency": {
-    "coinDenom": "neutaro",
+    "coinDenom": "NTMPI",
     "coinMinimalDenom": "uneutaro",
     "coinDecimals": 6
   },

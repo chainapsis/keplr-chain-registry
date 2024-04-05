@@ -1,13 +1,13 @@
 {
-  "chainId": "bbn-test-2",
+  "chainId": "bbn-test-3",
   "chainName": "Babylon Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/chain.png",
-  "rpc": "https://rpc.testnet.babylonchain.io",
-  "rest": "https://lcd.testnet.babylonchain.io",
+  "rpc": "https://rpc.testnet3.babylonchain.io",
+  "rest": "https://lcd.testnet3.babylonchain.io",
   "nodeProvider": {
     "name": "Babylonchain",
     "email": "contact@babylonchain.io",
-    "website":"https://babylonchain.io/"
+    "website": "https://babylonchain.io/"
   },
   "bip44": {
     "coinType": 118
