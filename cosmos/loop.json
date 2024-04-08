@@ -14,8 +14,6 @@
     "coinDecimals": 6,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/loop/token.png"
   },
-  "walletUrl": "https://wallet.keplr.app/chains/loop",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/loop",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/loop/chain.png",
   "bip44": {
     "coinType": 118
