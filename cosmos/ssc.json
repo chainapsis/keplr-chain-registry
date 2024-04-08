@@ -1,8 +1,8 @@
 {
   "chainId": "ssc-1",
   "chainName": "Saga Mainnet",
-  "rpc": "https://mainnet-keplr.sagarpc.io",
-  "rest": "https://mainnet-keplr-lcd.sagarpc.io",
+  "rpc": "https://ssc-rpc.sagarpc.io",
+  "rest": "https://ssc-lcd.sagarpc.io",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ssc-mainnet/chain.png",
   "bip44": {
     "coinType": 118
