@@ -18,8 +18,6 @@
   "bip44": {
     "coinType": 118
   },
-  "alternativeBIP44s": [
-  ],
   "bech32Config": {
     "bech32PrefixAccAddr": "loop",
     "bech32PrefixAccPub": "looppub",
