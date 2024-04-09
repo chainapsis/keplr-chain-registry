@@ -29,6 +29,10 @@ export const validateChainInfoFromPath = async (
   // get json from file
   const chainInfo = fileToChainInfo(path);
 
+  if (chainInfo.hideInUI && chainInfo.chainId !== "wormchain") {
+    throw new Error("Should not hide chain in UI");
+  }
+
   // validate chain info
   return await validateChainInfo(parsed.name, chainInfo);
 };
@@ -174,7 +178,8 @@ export const checkCurrencies = (chainInfo: ChainInfo) => {
           (currency) =>
             feeCurrency.coinMinimalDenom === currency.coinMinimalDenom,
         ),
-      )
+      ) &&
+    ChainIdHelper.parse(chainInfo.chainId).identifier !== "gravity-bridge"
   ) {
     throw new Error(`Fee Currency must be included in currencies`);
   }
@@ -187,15 +192,12 @@ export const checkCurrencies = (chainInfo: ChainInfo) => {
       );
     }
 
-    if (currency.coinMinimalDenom.startsWith("ibc/")) {
+    if (
+      currency.coinMinimalDenom.startsWith("ibc/") &&
+      ChainIdHelper.parse(chainInfo.chainId).identifier !== "centauri"
+    ) {
       throw new Error(
         `Do not provide ibc currency to currencies: ${currency.coinMinimalDenom}`,
-      );
-    }
-
-    if (currency.coinMinimalDenom.startsWith("gravity0x")) {
-      throw new Error(
-        `Do not provide bridged currency to currencies: ${currency.coinMinimalDenom}`,
       );
     }
   }

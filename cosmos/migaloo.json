@@ -2,12 +2,12 @@
    "chainId":"migaloo-1",
    "chainName":"Migaloo",
    "chainSymbolImageUrl":"https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/chain.png",
-   "rpc":"https://rpc-whitewhale-ia.cosmosia.notional.ventures",
-   "rest":"https://api-whitewhale-ia.cosmosia.notional.ventures",
+   "rpc":"https://migaloo-rpc.polkachu.com:443",
+   "rest":"https://migaloo-api.polkachu.com:443",
    "nodeProvider":{
-      "name":"Notional",
-      "email":"contact@notional.ventures",
-      "website":"https://notional.ventures/"
+      "name":"Polkachu",
+      "email":"hello@polkachu.com",
+      "website":"https://polkachu.com/"
    },
    "bip44":{
       "coinType":118
