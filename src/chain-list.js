@@ -58,7 +58,7 @@ async function init() {
   );
   const _chainInfos = await response.json();
   const chainInfos = _chainInfos.chains.filter((chainInfo) => {
-    return !chainInfo.chainId === "wormchain";
+    return !chainInfo.hideInUI;
   });
 
   let registeredChainIds = [];
