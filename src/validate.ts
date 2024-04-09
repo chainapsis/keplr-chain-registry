@@ -29,6 +29,10 @@ export const validateChainInfoFromPath = async (
   // get json from file
   const chainInfo = fileToChainInfo(path);
 
+  if (chainInfo.hideInUI && chainInfo.chainId !== "wormchain") {
+    throw new Error("Should not hide chain in UI");
+  }
+
   // validate chain info
   return await validateChainInfo(parsed.name, chainInfo);
 };
