@@ -9,12 +9,6 @@
   "chainId": "wormchain",
   "chainName": "Wormhole Gateway",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/wormchain/chain.png",
-  "stakeCurrency": {
-    "coinDenom": "WORM",
-    "coinMinimalDenom": "uworm",
-    "coinDecimals": 6
-  },
-  "walletUrl": "https://wormhole.com/gateway/",
   "bip44": {
     "coinType": 118
   },
@@ -27,11 +21,6 @@
     "bech32PrefixConsPub": "wormholevalconspub"
   },
   "currencies": [
-    {
-      "coinDenom": "WORM",
-      "coinMinimalDenom": "uworm",
-      "coinDecimals": 6
-    },
     {
       "coinDenom": "TEST",
       "coinMinimalDenom": "utest",
