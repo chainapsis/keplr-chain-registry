@@ -98,9 +98,8 @@
       "coinDenom": "stSAGA",
       "coinMinimalDenom": "stusaga",
       "coinDecimals": 6,
-      "coinGeckoId": "stride-staked-saga",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stsaga.png"
-      
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stusaga.png"
+
     },
     {
       "coinDenom": "stUMEE",
