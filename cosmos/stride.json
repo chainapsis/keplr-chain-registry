@@ -95,6 +95,13 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/sttia.png"
     },
     {
+      "coinDenom": "stSAGA",
+      "coinMinimalDenom": "stusaga",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stusaga.png"
+
+    },
+    {
       "coinDenom": "stUMEE",
       "coinMinimalDenom": "stuumee",
       "coinDecimals": 6,
