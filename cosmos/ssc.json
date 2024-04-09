@@ -21,6 +21,7 @@
       "coinDenom": "SAGA",
       "coinMinimalDenom": "usaga",
       "coinDecimals": 6,
+      "coinGeckoId": "saga-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ssc/chain.png"
     }
   ],
@@ -34,6 +35,7 @@
         "average": 0.025,
         "high": 0.04
       },
+      "coinGeckoId": "saga-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ssc/chain.png"
     }
   ],
@@ -41,6 +43,7 @@
     "coinDenom": "SAGA",
     "coinMinimalDenom": "usaga",
     "coinDecimals": 6,
+    "coinGeckoId": "saga-2",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ssc/chain.png"
   }
 }
