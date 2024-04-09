@@ -121,9 +121,9 @@
       "coinMinimalDenom": "utest",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0,
-        "average": 0,
-        "high": 0
+        "low": 1,
+        "average": 1,
+        "high": 1
       }
     }
   ],
