@@ -1,9 +1,9 @@
 {
-  "chainId": "mantrachain-testnet-1",
-  "chainName": "MANTRA Chain Testnet",
+  "chainId": "mantra-hongbai-1",
+  "chainName": "MANTRA Hongbai Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantrachain-testnet/chain.png",
-  "rpc": "https://rpc.testnet.mantrachain.io",
-  "rest": "https://api.testnet.mantrachain.io",
+  "rpc": "https://rpc.hongbai.mantrachain.io",
+  "rest": "https://api.hongbai.mantrachain.io",
   "nodeProvider": {
     "name": "MANTRA Chain",
     "email": "contact@mantrachain.io",
@@ -22,15 +22,15 @@
   },
   "currencies": [
     {
-      "coinDenom": "AUM",
-      "coinMinimalDenom": "uaum",
+      "coinDenom": "OM",
+      "coinMinimalDenom": "uom",
       "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "AUM",
-      "coinMinimalDenom": "uaum",
+      "coinDenom": "OM",
+      "coinMinimalDenom": "uom",
       "coinDecimals": 6,
       "gasPriceStep": {
         "low": 0.01,
@@ -40,8 +40,8 @@
     }
   ],
   "stakeCurrency": {
-    "coinDenom": "AUM",
-    "coinMinimalDenom": "uaum",
+    "coinDenom": "OM",
+    "coinMinimalDenom": "uom",
     "coinDecimals": 6
   },
   "features": [
