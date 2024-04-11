@@ -1,0 +1,57 @@
+{
+  "chainId": "galactica_9302-1",
+  "chainName": "Galactica Reticulum Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/galactica_9302/chain.png",
+  "rpc": "https://rpc-reticulum.galactica.com",
+  "rest": "https://lcd-reticulum.galactica.com",
+  "nodeProvider": {
+    "name": "Galactica Network",
+    "email": "support@galactica.com",
+    "website":"https://galactica.com/"
+  },
+  "evm": {
+    "chainId": 9302,
+    "rpc": "https://evm-rpc-http-reticulum.galactica.com"
+  },
+  "stakeCurrency": {
+    "coinDenom": "GALA",
+    "coinMinimalDenom": "agala",
+    "coinDecimals": 18,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/galactica_9302/agala.png"
+  },
+  "walletUrl": "https://wallet.keplr.app/chains/galactica-reticulum",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/galactica-reticulum",
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "gala",
+    "bech32PrefixAccPub": "galapub",
+    "bech32PrefixValAddr": "galavaloper",
+    "bech32PrefixValPub": "galavaloperpub",
+    "bech32PrefixConsAddr": "galavalcons",
+    "bech32PrefixConsPub": "galavalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "GALA",
+      "coinMinimalDenom": "agala",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/galactica_9302/agala.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "GALA",
+      "coinMinimalDenom": "agala",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/galactica_9302/agala.png",
+      "gasPriceStep": {
+        "low": 10000,
+        "average": 500000,
+        "high": 10000000
+      }
+    }
+  ],
+  "features": ["eth-address-gen", "eth-key-sign"]
+}
