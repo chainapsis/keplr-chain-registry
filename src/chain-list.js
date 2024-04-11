@@ -56,7 +56,10 @@ async function init() {
   const response = await fetch(
     "https://keplr-chain-registry.vercel.app/api/chains",
   );
-  const chainInfos = await response.json();
+  const _chainInfos = await response.json();
+  const chainInfos = _chainInfos.chains.filter((chainInfo) => {
+    return !chainInfo.hideInUI;
+  });
 
   let registeredChainIds = [];
   if (keplr) {
@@ -65,19 +68,19 @@ async function init() {
       (chainInfo) => parse(chainInfo.chainId).identifier,
     );
   } else {
-    registeredChainIds = chainInfos.chains
+    registeredChainIds = chainInfos
       .filter((chainInfo) => !chainInfo.nodeProvider)
       .map((chainInfo) => parse(chainInfo.chainId).identifier);
   }
 
   removeChainListChild();
 
-  const filteredChainInfos = chainInfos.chains.filter(
+  const filteredChainInfos = chainInfos.filter(
     (chainInfo) =>
       !registeredChainIds.includes(parse(chainInfo.chainId).identifier),
   );
 
-  const registeredChainInfos = chainInfos.chains
+  const registeredChainInfos = chainInfos
     .filter((chainInfo) => chainInfo.nodeProvider)
     .filter((chainInfo) =>
       registeredChainIds.includes(parse(chainInfo.chainId).identifier),
@@ -153,9 +156,11 @@ function createChainCurrency(chainItemDiv, chainInfo) {
   const chainCurrencyDiv = document.createElement("div");
   chainCurrencyDiv.className = "chain-currency";
 
-  const chainCurrencyText = document.createTextNode(
-    chainInfo.currencies[0].coinDenom,
-  );
+  const chainCurrency = chainInfo.stakeCurrency
+    ? chainInfo.stakeCurrency
+    : chainInfo.currencies[0];
+
+  const chainCurrencyText = document.createTextNode(chainCurrency.coinDenom);
   chainCurrencyDiv.appendChild(chainCurrencyText);
 
   chainItemDiv.appendChild(chainCurrencyDiv);
@@ -184,6 +189,9 @@ function createNodeProvider(chainItemDiv, chainInfo) {
       chainInfo.nodeProvider.email,
     );
     providerEmailDiv.appendChild(providerEmailText);
+    providerEmailDiv.onclick = function () {
+      window.location = `mailto:${chainInfo.nodeProvider.email}`;
+    };
 
     nodeProviderDiv.appendChild(providerLinkA);
     nodeProviderDiv.appendChild(providerEmailDiv);
@@ -192,6 +200,9 @@ function createNodeProvider(chainItemDiv, chainInfo) {
   } else {
     const nodeProviderDiv = document.createElement("div");
     nodeProviderDiv.className = "native-node-provider";
+
+    const providerNameText = document.createTextNode("Keplr Node");
+    nodeProviderDiv.appendChild(providerNameText);
 
     chainItemDiv.appendChild(nodeProviderDiv);
   }
@@ -207,8 +218,16 @@ function createRegisterButton(chainItemDiv, chainInfo, keplr) {
   registerButton.onclick = async () => {
     try {
       if (keplr) {
+        registerButton.classList.add("button-loading");
+        registerButton.textContent = "Loading";
+
         await window.keplr.experimentalSuggestChain(chainInfo);
-        init();
+
+        setTimeout(() => {
+          registerButton.classList.remove("button-loading");
+          registerButton.textContent = "Add to Keplr";
+          init();
+        }, 1000);
       } else {
         const keplrNotInstalledDiv = document.getElementById(
           "keplr-not-installed",
@@ -216,6 +235,11 @@ function createRegisterButton(chainItemDiv, chainInfo, keplr) {
         keplrNotInstalledDiv.style.display = "flex";
       }
     } catch (e) {
+      setTimeout(() => {
+        registerButton.classList.remove("button-loading");
+        registerButton.textContent = "Add to Keplr";
+      }, 300);
+
       console.error(e);
     }
   };

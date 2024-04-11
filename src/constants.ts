@@ -38,6 +38,7 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "passage",
   "dymension_1100",
   "chihuahua",
+  "ssc",
 ];
 
 export const nativeTestnetChainIdentifiers: string[] = [
