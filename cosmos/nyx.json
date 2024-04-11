@@ -43,12 +43,22 @@
       "coinDenom": "nym",
       "coinMinimalDenom": "unym",
       "coinDecimals": 6,
-      "coinGeckoId": "nym"
+      "coinGeckoId": "nym",
+      "gasPriceStep": {
+        "low": 0.025,
+        "average": 0.025,
+        "high": 0.04
+      }
     },
     {
       "coinDenom": "nyx",
       "coinMinimalDenom": "unyx",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.025,
+        "average": 0.025,
+        "high": 0.04
+      }
     }
   ],
   "features": ["cosmwasm"]

@@ -25,6 +25,8 @@ jobs:
         continue-on-error: true
         run: |
           yarn ts-node src/schedule.ts
+        env: 
+          PRICE_URL: ${{ secrets.PRICE_URL }}
 
       - name: Slack Alert Notification
         uses: slackapi/slack-github-action@v1.23.0
