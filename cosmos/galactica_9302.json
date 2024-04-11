@@ -14,10 +14,10 @@
     "rpc": "https://evm-rpc-http-reticulum.galactica.com"
   },
   "stakeCurrency": {
-    "coinDenom": "GALA",
-    "coinMinimalDenom": "agala",
+    "coinDenom": "GNET",
+    "coinMinimalDenom": "agnet",
     "coinDecimals": 18,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/galactica_9302/agala.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/galactica_9302/agnet.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/galactica-reticulum",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/galactica-reticulum",
@@ -34,18 +34,18 @@
   },
   "currencies": [
     {
-      "coinDenom": "GALA",
-      "coinMinimalDenom": "agala",
+      "coinDenom": "GNET",
+      "coinMinimalDenom": "agnet",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/galactica_9302/agala.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/galactica_9302/agnet.png"
     }
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "GALA",
-      "coinMinimalDenom": "agala",
+      "coinDenom": "GNET",
+      "coinMinimalDenom": "agnet",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/galactica_9302/agala.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/galactica_9302/agnet.png",
       "gasPriceStep": {
         "low": 10000,
         "average": 500000,
