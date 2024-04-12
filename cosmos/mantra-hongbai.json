@@ -1,7 +1,7 @@
 {
   "chainId": "mantra-hongbai-1",
   "chainName": "MANTRA Hongbai Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantrachain-testnet/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra-hongbai/chain.png",
   "rpc": "https://rpc.hongbai.mantrachain.io",
   "rest": "https://api.hongbai.mantrachain.io",
   "nodeProvider": {
