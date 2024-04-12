@@ -1,0 +1,50 @@
+{
+  "chainId": "fairyring-testnet-1",
+  "chainName": "Fairblock FairyRing Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fairyring-testnet/chain.png",
+  "rpc": "https://testnet-rpc.fairblock.network",
+  "rest": "https://testnet-api.fairblock.network",
+  "nodeProvider": {
+    "name": "Fairblock",
+    "email": "hello@fairblock.network",
+    "website":"https://fairblock.network"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "fairy",
+    "bech32PrefixAccPub": "fairypub",
+    "bech32PrefixValAddr": "fairyvaloper",
+    "bech32PrefixValPub": "fairyvaloperpub",
+    "bech32PrefixConsAddr": "fairyvalcons",
+    "bech32PrefixConsPub": "fairyvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "FAIRY",
+      "coinMinimalDenom": "ufairy",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "FAIRY",
+      "coinMinimalDenom": "ufairy",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.03
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "FAIRY",
+      "coinMinimalDenom": "ufairy",
+      "coinDecimals": 6
+  },
+  "features": [
+    "cosmwasm"
+  ]
+}

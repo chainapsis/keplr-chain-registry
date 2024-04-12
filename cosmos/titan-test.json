@@ -1,0 +1,57 @@
+{
+  "bech32Config": {
+    "bech32PrefixAccAddr": "titan",
+    "bech32PrefixAccPub": "titanpub",
+    "bech32PrefixConsAddr": "titanvalcons",
+    "bech32PrefixConsPub": "titanvalconspub",
+    "bech32PrefixValAddr": "titanvaloper",
+    "bech32PrefixValPub": "titanvaloperpub"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "chainId": "titan-test-1",
+  "chainName": "Titan Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan-test/chain.png",
+  "currencies": [
+    {
+      "coinDecimals": 6,
+      "coinDenom": "TTNT",
+      "coinMinimalDenom": "uttnt",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan-test/uttnt.png"
+    },
+    {
+      "coinDecimals": 6,
+      "coinDenom": "TNT1",
+      "coinMinimalDenom": "utnt1",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan-test/utnt1.png"
+    }
+  ],
+  "features": [],
+  "feeCurrencies": [
+    {
+      "coinDecimals": 6,
+      "coinDenom": "TTNT",
+      "coinMinimalDenom": "uttnt",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan-test/uttnt.png",
+      "gasPriceStep": {
+        "average": 0.025,
+        "high": 0.03,
+        "low": 0.005
+      }
+    }
+  ],
+  "rest": "http://lcd.titannet.io:1317",
+  "rpc": "http://rpc.titannet.io:26657",
+  "stakeCurrency": {
+    "coinDecimals": 6,
+    "coinDenom": "TTNT",
+    "coinMinimalDenom": "uttnt",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan-test/uttnt.png"
+  },
+  "nodeProvider": {
+    "name": "titan",
+    "email": "info@titannet.io",
+    "website": "https://titannet.io"
+  }
+}

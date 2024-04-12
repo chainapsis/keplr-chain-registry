@@ -38,6 +38,7 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "passage",
   "dymension_1100",
   "chihuahua",
+  "ssc",
 ];
 
 export const nativeTestnetChainIdentifiers: string[] = [
@@ -54,4 +55,5 @@ export const nativeTestnetChainIdentifiers: string[] = [
   "ssc-testnet",
   "test-core",
   "govgen",
+  "seda-1-testnet",
 ];
