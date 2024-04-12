@@ -1,6 +1,6 @@
 {
-  "rpc": "https://rpc-artela-testnet.keplr.app",
-  "rest": "https://lcd-artela-testnet.keplr.app",
+  "rpc": "https://betanet-rpc2.artela.network",
+  "rest": "https://betanet-rpc2.artela.network",
   "chainId": "artela_11822-1",
   "chainName": "Artela Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/artela_11822/chain.png",
