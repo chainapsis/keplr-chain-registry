@@ -72,5 +72,5 @@
       }
     }
   ],
-  "features": ["terra-classic-fee"]
+  "features": ["terra-classic-fee", "cosmwasm"]
 }

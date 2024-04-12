@@ -39,9 +39,9 @@
       "coinGeckoId": "stratos",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stratos/stos.png",
       "gasPriceStep": {
-        "low": 1,
-        "average": 1.1,
-        "high": 1.2
+        "low": 1000000000,
+        "average": 1200000000,
+        "high": 1600000000
       }
     }
   ],

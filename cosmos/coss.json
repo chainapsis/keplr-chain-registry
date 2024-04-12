@@ -39,7 +39,8 @@
     {
       "coinDenom": "COSS",
       "coinMinimalDenom": "ucoss",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinGeckoId": "coss-2"
     }
   ],
   "feeCurrencies": [
@@ -58,6 +59,7 @@
       "coinDenom": "COSS",
       "coinMinimalDenom": "ucoss",
       "coinDecimals": 6,
+      "coinGeckoId": "coss-2",
       "gasPriceStep": {
         "low": 0.025,
         "average": 0.03,
@@ -75,6 +77,5 @@
       }
     }
   ],
-  "features": [
-  ]
+  "features": []
 }
