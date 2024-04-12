@@ -41,8 +41,8 @@
       }
     }
   ],
-  "rest": "http://lcd.titannet.io:1317",
-  "rpc": "http://rpc.titannet.io:26657",
+  "rest": "https://lcd.titannet.io:1317",
+  "rpc": "https://rpc.titannet.io:26657",
   "stakeCurrency": {
     "coinDecimals": 6,
     "coinDenom": "TTNT",
