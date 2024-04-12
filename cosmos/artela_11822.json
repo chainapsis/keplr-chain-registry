@@ -3,7 +3,7 @@
   "rest": "https://lcd-artela-testnet.keplr.app",
   "chainId": "artela_11822-1",
   "chainName": "Artela Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/artela-testnet/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/artela_11822/chain.png",
   "bech32Config": {
     "bech32PrefixAccAddr": "art",
     "bech32PrefixAccPub": "artpub",
