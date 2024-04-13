@@ -3,7 +3,7 @@
   "chainName": "Cifer",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cifer/cif.png",
   "rpc": "http://34.128.114.243:26657",
-  "rest": "https://api.cifer.ai",
+  "rest": "http://34.128.114.243:1317",
   "nodeProvider": {
     "name": "Cifer",
     "email": "info@cifer.ai",
