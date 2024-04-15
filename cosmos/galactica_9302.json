@@ -19,8 +19,6 @@
     "coinDecimals": 18,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/galactica_9302/agnet.png"
   },
-  "walletUrl": "https://wallet.keplr.app/chains/galactica-reticulum",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/galactica-reticulum",
   "bip44": {
     "coinType": 60
   },
