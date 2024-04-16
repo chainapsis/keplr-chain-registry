@@ -3,13 +3,17 @@
   "rest": "https://stride.testnet-1.stridenet.co/api",
   "chainId": "stride-internal-1",
   "chainName": "Stride Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride-testnet/chain.png",
+  "nodeProvider": {
+    "name": "Stride Labs",
+    "email": "hello@stridelabs.co",
+    "website":"https://stride.zone/"
+  },
   "stakeCurrency": {
     "coinDenom": "STRD",
     "coinMinimalDenom": "ustrd",
     "coinDecimals": 6,
-    "coinGeckoId": "stride",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/ustrd.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride-testnet/ustrd.png"
   },
   "bip44": {
     "coinType": 118
@@ -27,8 +31,7 @@
       "coinDenom": "STRD",
       "coinMinimalDenom": "ustrd",
       "coinDecimals": 6,
-      "coinGeckoId": "stride",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/ustrd.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride-testnet/ustrd.png"
     }
   ],
   "feeCurrencies": [
@@ -36,8 +39,7 @@
       "coinDenom": "STRD",
       "coinMinimalDenom": "ustrd",
       "coinDecimals": 6,
-      "coinGeckoId": "stride",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/ustrd.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride-testnet/ustrd.png",
       "gasPriceStep": {
         "low": 0.0005,
         "average": 0.005,
@@ -48,7 +50,6 @@
       "coinDenom": "TIA",
       "coinMinimalDenom": "ibc/1A7653323C1A9E267FF7BEBF40B3EEA8065E8F069F47F2493ABC3E0B621BF793",
       "coinDecimals": 6,
-      "coinGeckoId": "celestia",
       "gasPriceStep": {
         "low": 0.01,
         "average": 0.01,
