@@ -1,6 +1,6 @@
 {
-  "rpc": "https://betanet-rpc2.artela.network/rpc",
-  "rest": "https://betanet-rpc2.artela.network/rest",
+  "rpc": "http://47.251.32.165:9091",
+  "rest": "http://47.251.32.165:1317",
   "chainId": "artela_11822-1",
   "chainName": "Artela Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/artela_11822/chain.png",
