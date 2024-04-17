@@ -1,5 +1,5 @@
 {
-  "rpc": "http://47.251.32.165:9091",
+  "rpc": "http://47.251.32.165:26657",
   "rest": "http://47.251.32.165:1317",
   "chainId": "artela_11822-1",
   "chainName": "Artela Testnet",
