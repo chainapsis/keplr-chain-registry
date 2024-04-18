@@ -56,5 +56,4 @@ export const nativeTestnetChainIdentifiers: string[] = [
   "test-core",
   "govgen",
   "seda-1-testnet",
-  "xion-testnet",
 ];

@@ -10,8 +10,6 @@
     "coinDecimals": 6,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xion-testnet/chain.png"
   },
-  "walletUrl": "https://wallet.keplr.app/chains/xion-testnet",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/xion-testnet",
   "bip44": {
     "coinType": 118
   },
