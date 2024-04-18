@@ -41,12 +41,5 @@
         "high": 3000000000000
       }
     }
-  ],
-  "stakeCurrency": {
-    "coinDenom": "PUNDIX",
-    "coinMinimalDenom": "ibc/55367B7B6572631B78A93C66EF9FDFCE87CDE372CC4ED7848DA78C1EB1DCDD78",
-    "coinDecimals": 18,
-    "coinGeckoId": "pundi-x-2",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pundix/pundi-x-token.png"
-  }
+  ]
 }
