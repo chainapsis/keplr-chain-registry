@@ -44,5 +44,10 @@
   ],
   "features": [
     "cosmwasm"
-  ]
+  ],
+  "nodeProvider": {
+    "name": "Dylan Schultzie",
+    "email": "security@lavenderfive.com",
+    "website": "lavenderfive.com"
+  }
 }
