@@ -1,6 +1,11 @@
 {
   "rpc": "https://rpc.cvn.io",
   "rest": "https://api.cvn.io",
+  "nodeProvider": {
+    "name": "consciousDao",
+    "email": "messages@consciousdao.com",
+    "website":"https://cvn.io"
+  },
   "chainId": "cvn_2032-1",
   "chainName": "conscious",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cvn_2032/chain.png",
