@@ -125,6 +125,12 @@
       "coinMinimalDenom": "factory/osmo1nr8zfakf6jauye3uqa9lrmr5xumee5n42lv92z/toro",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/factory/osmo1nr8zfakf6jauye3uqa9lrmr5xumee5n42lv92z/toro.png"
+    },
+    {
+      "coinDenom": "BERNESE",
+      "coinMinimalDenom": "factory/osmo1s6ht8qrm8x0eg8xag5x3ckx9mse9g4se248yss/BERNESE",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/factory/osmo1s6ht8qrm8x0eg8xag5x3ckx9mse9g4se248yss/BERNESE.png"
     }
   ],
   "feeCurrencies": [
