@@ -25,7 +25,7 @@
         "coinDenom": "c4e",
         "coinMinimalDenom": "uc4e",
         "coinDecimals": 6,
-        "coinGeckoId": "chain4energy",
+        "coinGeckoId": "",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/Perun-1/chain.png"
       }
     ],
