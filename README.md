@@ -156,4 +156,4 @@ Here’s an overview of the structure of the directory. Please provide the infor
 - REST
     - Please check if the REST node is not currently experiencing any issues/errors.
     - Please double-check if your chainId matches the REST node’s chainId.
-- If you provide coinGeckoId, make sure the token is actually available for trading on CoinGecko.
+- Please provide the CoinGecko ID only if the price for the token is available on CoinGecko.
