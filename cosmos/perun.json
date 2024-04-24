@@ -1,7 +1,7 @@
 {
     "chainId": "perun-1",
     "chainName": "Chain4energy",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/Perun/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/perun/chain.png",
     "rpc": "https://rpc-m-c4e.apeironnodes.com",
     "rest": "https://lcd-m-c4e.apeironnodes.com",
     "nodeProvider": {
@@ -25,7 +25,7 @@
         "coinDenom": "c4e",
         "coinMinimalDenom": "uc4e",
         "coinDecimals": 6,
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/Perun/chain.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/perun/chain.png"
       }
     ],
     "feeCurrencies": [
@@ -38,14 +38,14 @@
           "average": 0.025,
           "high": 0.03
         },
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/Perun/chain.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/perun/chain.png"
       }
     ],
     "stakeCurrency": {
       "coinDenom": "c4e",
       "coinMinimalDenom": "uc4e",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/Perun/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/perun/chain.png"
     },
     "features": [
       "cosmwasm"
