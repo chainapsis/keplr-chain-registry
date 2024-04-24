@@ -22,7 +22,7 @@
     },
     "currencies": [
       {
-        "coinDenom": "c4e",
+        "coinDenom": "C4E",
         "coinMinimalDenom": "uc4e",
         "coinDecimals": 6,
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/perun/chain.png"
@@ -30,7 +30,7 @@
     ],
     "feeCurrencies": [
       {
-        "coinDenom": "c4e",
+        "coinDenom": "C4E",
         "coinMinimalDenom": "uc4e",
         "coinDecimals": 6,
         "gasPriceStep": {
@@ -42,7 +42,7 @@
       }
     ],
     "stakeCurrency": {
-      "coinDenom": "c4e",
+      "coinDenom": "C4E",
       "coinMinimalDenom": "uc4e",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/perun/chain.png"
