@@ -3,7 +3,7 @@
   "rest": "https://stride.testnet-1.stridenet.co/api",
   "chainId": "stride-internal-1",
   "chainName": "Stride Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride-testnet/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride-internal/chain.png",
   "nodeProvider": {
     "name": "Stride Labs",
     "email": "hello@stridelabs.co",
@@ -13,7 +13,7 @@
     "coinDenom": "STRD",
     "coinMinimalDenom": "ustrd",
     "coinDecimals": 6,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride-testnet/ustrd.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride-internal/ustrd.png"
   },
   "bip44": {
     "coinType": 118
@@ -31,7 +31,7 @@
       "coinDenom": "STRD",
       "coinMinimalDenom": "ustrd",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride-testnet/ustrd.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride-internal/ustrd.png"
     }
   ],
   "feeCurrencies": [
@@ -39,7 +39,7 @@
       "coinDenom": "STRD",
       "coinMinimalDenom": "ustrd",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride-testnet/ustrd.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride-internal/ustrd.png",
       "gasPriceStep": {
         "low": 0.0005,
         "average": 0.005,
