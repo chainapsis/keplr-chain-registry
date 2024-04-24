@@ -25,7 +25,6 @@
         "coinDenom": "c4e",
         "coinMinimalDenom": "uc4e",
         "coinDecimals": 6,
-        "coinGeckoId": "",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/Perun-1/chain.png"
       }
     ],
@@ -39,7 +38,6 @@
           "average": 0.025,
           "high": 0.03
         },
-        "coinGeckoId": "chain4energy",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/Perun-1/chain.png"
       }
     ],
@@ -47,7 +45,6 @@
       "coinDenom": "c4e",
       "coinMinimalDenom": "uc4e",
       "coinDecimals": 6,
-      "coinGeckoId": "chain4energy",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/Perun-1/chain.png"
     },
     "features": [
