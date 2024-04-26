@@ -25,7 +25,8 @@
         "coinDenom": "FET",
         "coinMinimalDenom": "afet",
         "coinDecimals": 18,
-        "coinGeckoId": "fetch-ai"
+        "coinGeckoId": "fetch-ai",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fetchhub/fet.png"
       }
     ],
     "feeCurrencies": [

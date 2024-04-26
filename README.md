@@ -136,6 +136,7 @@ Here’s an overview of the structure of the directory. Please provide the infor
 - currencies: the list of the supported currencies
 - feeCurrencies: the list of the tokens that are accepted by the validators for fees
 - stakeCurrency: the staking token of the chain
+- coinGeckoId(optional): the active API ID for Keplr to get the price from CoinGecko
 - features: any other features that are additionally supported by the chain
     - cosmwasm: supports CosmWasm smart contracts
     - secretwasm: supports WASM smart contracts of Secret Network
@@ -155,3 +156,4 @@ Here’s an overview of the structure of the directory. Please provide the infor
 - REST
     - Please check if the REST node is not currently experiencing any issues/errors.
     - Please double-check if your chainId matches the REST node’s chainId.
+- Please provide the CoinGecko ID only if the price for the token is available on CoinGecko.

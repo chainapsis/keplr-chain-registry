@@ -1,0 +1,47 @@
+{
+  "rpc": "https://rpc-passage.keplr.app",
+  "rest": "https://lcd-passage.keplr.app",
+  "chainId": "passage-2",
+  "chainName": "Passage",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/passage/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "PASG",
+    "coinMinimalDenom": "upasg",
+    "coinDecimals": 6,
+    "coinGeckoId": "passage",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/passage/upasg.png"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "pasg",
+    "bech32PrefixAccPub": "pasgpub",
+    "bech32PrefixValAddr": "pasgvaloper",
+    "bech32PrefixValPub": "pasgvaloperpub",
+    "bech32PrefixConsAddr": "pasgvalcons",
+    "bech32PrefixConsPub": "pasgvalconspub"
+  },
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/passage",
+  "currencies": [
+    {
+      "coinDenom": "PASG",
+      "coinMinimalDenom": "upasg",
+      "coinDecimals": 6,
+      "coinGeckoId": "passage",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/passage/upasg.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "PASG",
+      "coinMinimalDenom": "upasg",
+      "coinDecimals": 6,
+      "coinGeckoId": "passage",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/passage/upasg.png"
+    }
+  ],
+  "features": [
+    "cosmwasm"
+  ]
+}
