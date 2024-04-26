@@ -45,6 +45,12 @@
       "coinDenom": "KRT",
       "coinMinimalDenom": "ukrw",
       "coinDecimals": 6
+    },
+    {
+      "coinDenom": "FROG",
+      "coinMinimalDenom": "cw20:terra1wez9puj43v4s25vrex7cv3ut3w75w4h6j5e537sujyuxj0r5ne2qp9uwl9",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/FROG.png"
     }
   ],
   "feeCurrencies": [
