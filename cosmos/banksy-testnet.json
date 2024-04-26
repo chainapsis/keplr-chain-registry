@@ -7,7 +7,7 @@
       "website": "https://www.composable.finance/"
     },
     "chainId": "banksy-testnet-5",
-    "chainName": "Banksy",
+    "chainName": "Picasso Testnet",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/banksy-testnet/chain.png",
     "stakeCurrency": {
       "coinDenom": "PICA",
@@ -20,12 +20,12 @@
       "coinType": 118
     },
     "bech32Config": {
-      "bech32PrefixAccAddr": "centauri",
-      "bech32PrefixAccPub": "centauripub",
-      "bech32PrefixValAddr": "centaurivaloper",
-      "bech32PrefixValPub": "centaurivaloperpub",
-      "bech32PrefixConsAddr": "centaurivalcons",
-      "bech32PrefixConsPub": "centaurivalconspub"
+      "bech32PrefixAccAddr": "pica",
+      "bech32PrefixAccPub": "picapub",
+      "bech32PrefixValAddr": "picavaloper",
+      "bech32PrefixValPub": "picavaloperpub",
+      "bech32PrefixConsAddr": "picavalcons",
+      "bech32PrefixConsPub": "picavalconspub"
     },
     "currencies": [
       {
