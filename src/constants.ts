@@ -39,6 +39,7 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "dymension_1100",
   "chihuahua",
   "ssc",
+  "seda",
 ];
 
 export const nativeTestnetChainIdentifiers: string[] = [
