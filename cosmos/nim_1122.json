@@ -3,7 +3,7 @@
     "rest": "https://nim-mainnet-rest.public.blastapi.io",
     "chainId": "nim_1122-1",
     "chainName": "NIM Network",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nim-network/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nim_1122/chain.png",
     "stakeCurrency": {
         "coinDenom": "NIM",
         "coinMinimalDenom": "anim",
