@@ -7,8 +7,7 @@
     "stakeCurrency": {
         "coinDenom": "NIM",
         "coinMinimalDenom": "anim",
-        "coinDecimals": 18,
-        "coinGeckoId": "nim-network"
+        "coinDecimals": 18
     },
     "nodeProvider": {
         "name": "Bware Labs",
@@ -31,8 +30,7 @@
         {
             "coinDenom": "NIM",
             "coinMinimalDenom": "anim",
-            "coinDecimals": 18,
-            "coinGeckoId": "nim-network"
+            "coinDecimals": 18
         }
     ],
     "feeCurrencies": [
@@ -40,7 +38,6 @@
             "coinDenom": "NIM",
             "coinMinimalDenom": "anim",
             "coinDecimals": 18,
-            "coinGeckoId": "nim-network",
             "gasPriceStep": {
                 "average": 20000000000,
                 "high": 20000000000,
