@@ -17,7 +17,7 @@
     },
     "walletUrlForStaking": "https://portal.dymension.xyz/rollapp/nim_1122-1/staking",
     "bip44": {
-        "coinType": 118
+        "coinType": 60
     },
     "bech32Config": {
         "bech32PrefixAccAddr": "nim",
@@ -42,9 +42,9 @@
             "coinDecimals": 18,
             "coinGeckoId": "nim-network",
             "gasPriceStep": {
-                "low": 0.01,
-                "average": 0.025,
-                "high": 0.04
+                "average": 20000000000,
+                "high": 20000000000,
+                "low": 20000000000
             }
         }
     ],
