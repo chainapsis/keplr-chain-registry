@@ -7,7 +7,7 @@
       "website": "https://lavenderfive.com/"
     },
     "chainId": "centauri-1",
-    "chainName": "Composable",
+    "chainName": "Picasso",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/chain.png",
     "stakeCurrency": {
       "coinDenom": "PICA",
@@ -20,12 +20,12 @@
       "coinType": 118
     },
     "bech32Config": {
-      "bech32PrefixAccAddr": "centauri",
-      "bech32PrefixAccPub": "centauripub",
-      "bech32PrefixValAddr": "centaurivaloper",
-      "bech32PrefixValPub": "centaurivaloperpub",
-      "bech32PrefixConsAddr": "centaurivalcons",
-      "bech32PrefixConsPub": "centaurivalconspub"
+      "bech32PrefixAccAddr": "pica",
+      "bech32PrefixAccPub": "picapub",
+      "bech32PrefixValAddr": "picavaloper",
+      "bech32PrefixValPub": "picavaloperpub",
+      "bech32PrefixConsAddr": "picavalcons",
+      "bech32PrefixConsPub": "picavalconspub"
     },
     "currencies": [
       {
@@ -48,7 +48,63 @@
         "coinDecimals": 10,
         "coinGeckoId": "polkadot",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/dot.png"
-      }
+      },
+      {
+        "coinDenom": "ETH",
+        "coinMinimalDenom": "ibc/F9D075D4079FC56A9C49B601E54A45292C319D8B0E8CC0F8439041130AA7166C",
+        "coinDecimals": 18,
+        "coinGeckoId": "ethereum",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/eth.png"
+      },
+      {
+        "coinDenom": "DAI",
+        "coinMinimalDenom": "ibc/A342F6F8D1CDE1D934C50E8EAFF91E813D971E1BFEED7E557F1674E01004A533",
+        "coinDecimals": 18,
+        "coinGeckoId": "dai",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/dai.png"
+      },
+      {
+        "coinDenom": "FXS",
+        "coinMinimalDenom": "ibc/5F9BE030FC355733EC79307409FA98398BBFC747C9430B326C144A74F6808B29",
+        "coinDecimals": 18,
+        "coinGeckoId": "frax-share",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/fxs.png"
+      },
+      {
+        "coinDenom": "FRAX",
+        "coinMinimalDenom": "ibc/4F20D68B51ED559F99C3CD658383E91F45486D884BF546E7B25337A058562CDB",
+        "coinDecimals": 18,
+        "coinGeckoId": "frax",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/frax.png"
+      },
+      {
+        "coinDenom": "frxETH",
+        "coinMinimalDenom": "ibc/458032E654E41DB91EF98F13E2CE4F9E0FE86BA3E0CDBEC074A854E9F5229A90",
+        "coinDecimals": 18,
+        "coinGeckoId": "frax-ether",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/frxeth.png"
+      },
+      {
+        "coinDenom": "sfrxETH",
+        "coinMinimalDenom": "ibc/4E0ECE7819D77B0F2B49F5C34B5E594A02D2BA8B1B0F103208F847B53EBFB69A",
+        "coinDecimals": 18,
+        "coinGeckoId": "staked-frax-ether",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/sfrxeth.png"
+      },
+      {
+        "coinDenom": "sFRAX",
+        "coinMinimalDenom": "ibc/5BD7F23FE150D9CF3BCC944DB829380BCC51A4022A131151C4D13B3AFAC2D1D9",
+        "coinDecimals": 18,
+        "coinGeckoId": "staked-frax",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/sfrax.png"
+      },
+      {
+        "coinDenom": "USDT",
+        "coinMinimalDenom": "ibc/37CC704EA53E96AB09A9C31D79142DE7DB252420F3AB18015F9870AE219947BD",
+        "coinDecimals": 6,
+        "coinGeckoId": "tether",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/usdt.png"
+      } 
     ],
     "feeCurrencies": [
       {
