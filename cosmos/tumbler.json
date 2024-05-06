@@ -25,7 +25,6 @@
       "coinDenom": "GRAIN",
       "coinMinimalDenom": "ugrain",
       "coinDecimals": 6,
-      "coinGeckoId": "paloma"
     }
   ],
   "feeCurrencies": [
@@ -33,7 +32,6 @@
       "coinDenom": "GRAIN",
       "coinMinimalDenom": "ugrain",
       "coinDecimals": 6,
-      "coinGeckoId": "paloma",
       "gasPriceStep": {
         "low": 0.00,
         "average": 0.01,
@@ -45,7 +43,6 @@
     "coinDenom": "GRAIN",
     "coinMinimalDenom": "ugrain",
     "coinDecimals": 6,
-    "coinGeckoId": "paloma"
   },
   "features": [
     "cosmwasm"
