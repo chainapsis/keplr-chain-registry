@@ -24,7 +24,7 @@
     {
       "coinDenom": "GRAIN",
       "coinMinimalDenom": "ugrain",
-      "coinDecimals": 6,
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
@@ -42,7 +42,7 @@
   "stakeCurrency": {
     "coinDenom": "GRAIN",
     "coinMinimalDenom": "ugrain",
-    "coinDecimals": 6,
+    "coinDecimals": 6
   },
   "features": [
     "cosmwasm"
