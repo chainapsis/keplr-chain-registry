@@ -1,5 +1,5 @@
 {
-  "chainId": "union-testnet-7",
+  "chainId": "union-testnet-8",
   "chainName": "Union Testnet",
   "nodeProvider": {
     "name": "bonlulu",

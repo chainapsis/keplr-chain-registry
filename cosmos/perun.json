@@ -2,8 +2,8 @@
     "chainId": "perun-1",
     "chainName": "Chain4Energy",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/perun/chain.png",
-    "rpc": "https://rpc-m-c4e.apeironnodes.com",
-    "rest": "https://lcd-m-c4e.apeironnodes.com",
+    "rpc": "https://rpc.c4e.io",
+    "rest": "https://lcd.c4e.io",
     "nodeProvider": {
       "name": "Apeiron Nodes",
       "email": "support@apeironnodes.com",
