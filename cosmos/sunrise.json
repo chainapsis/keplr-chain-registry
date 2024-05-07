@@ -39,6 +39,7 @@
   "rest": "https://lcd.sunrise-1.cauchye.net:1318",
   "nodeProvider":{
     "name": "Sunrise",
+    "email": "info@sunriselayer.io",
     "website": "https://sunriselayer.io/"
   },
   "stakeCurrency": {
