@@ -1,0 +1,50 @@
+{
+  "bech32Config": {
+    "bech32PrefixAccAddr": "sunrise",
+    "bech32PrefixAccPub": "sunrisepub",
+    "bech32PrefixConsAddr": "sunrisevalcons",
+    "bech32PrefixConsPub": "sunrisevalconspub",
+    "bech32PrefixValAddr": "sunrisevaloper",
+    "bech32PrefixValPub": "sunrisevaloperpub"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "chainId": "sunrise",
+  "chainName": "Sunrise",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sunrise/chain.png",
+  "currencies": [
+    {
+      "coinDecimals": 6,
+      "coinDenom": "SR",
+      "coinMinimalDenom": "usr",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sunrise/chain.png"
+    }
+  ],
+  "features": [],
+  "feeCurrencies": [
+    {
+      "coinDecimals": 6,
+      "coinDenom": "SR",
+      "coinMinimalDenom": "usr",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sunrise/chain.png",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.02,
+        "high": 0.1
+      }
+    }
+  ],
+  "rpc": "https://lcd.sunrise-1.cauchye.net",
+  "rest": "https://lcd.sunrise-1.cauchye.net:1318",
+  "nodeProvider":{
+    "name": "Sunrise",
+    "website": "https://sunriselayer.io/"
+  },
+  "stakeCurrency": {
+    "coinDecimals": 6,
+    "coinDenom": "sr",
+    "coinMinimalDenom": "usr",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sunrise/usr.png"
+  }
+}
