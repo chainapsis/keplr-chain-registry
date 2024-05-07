@@ -1,7 +1,7 @@
 {
-  "chainId": "messenger",
+  "chainId": "tumbler",
   "chainName": "Paloma",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/messenger/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tumbler/chain.png",
   "rpc": "https://rpc-1.paloma.nodes.guru",
   "rest": "https://api-1.paloma.nodes.guru",
   "nodeProvider": {
