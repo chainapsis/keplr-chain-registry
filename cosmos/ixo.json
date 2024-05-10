@@ -3,8 +3,8 @@
   "rest": "https://ixo.api.m.stavr.tech",
   "nodeProvider": {
     "name": "STAVR",
-    "email": "",
-    "website": ""
+    "email": "stavr.tech@gmail.com",
+    "website": "https://stavr-team.gitbook.io/"
   },
   "chainId": "ixo-5",
   "chainName": "ixo",
