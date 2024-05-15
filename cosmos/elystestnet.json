@@ -2,7 +2,7 @@
   "chainId": "elystestnet-1",
   "chainName": "Elys Network Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elystestnet/chain.png",
-  "rpc": "https://rpc.testnet.elys.network:443",
+  "rpc": "https://rpc.testnet.elys.network:443/",
   "rest": "https://api.testnet.elys.network",
   "walletUrl": "https://testnet.elys.network",
   "walletUrlForStaking": "https://testnet.elys.network/earn/staking",
