@@ -1,0 +1,44 @@
+{
+  "rpc": "https://testnet-rpc.pryzm.zone",
+  "rest": "https://testnet-api.pryzm.zone",
+  "nodeProvider": {
+    "name": "PRYZM",
+    "email": "support@pryzm.zone",
+    "website": "https://pryzm.zone/"
+  },
+  "chainId": "indigo-1",
+  "chainName": "pryzmtestnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/indigo/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "PRYZM",
+    "coinMinimalDenom": "upryzm",
+    "coinDecimals": 6
+  },
+  "walletUrlForStaking": "https://testnets.cosmosrun.info/pryzm-indigo-1/staking",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "pryzm",
+    "bech32PrefixAccPub": "pryzmpub",
+    "bech32PrefixValAddr": "pryzmvaloper",
+    "bech32PrefixValPub": "pryzmvaloperpub",
+    "bech32PrefixConsAddr": "pryzmvalcons",
+    "bech32PrefixConsPub": "pryzmvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "PRYZM",
+      "coinMinimalDenom": "upryzm",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "PRYZM",
+      "coinMinimalDenom": "upryzm",
+      "coinDecimals": 6
+    }
+  ],
+  "features": []
+}
