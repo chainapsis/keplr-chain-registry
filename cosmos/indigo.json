@@ -14,7 +14,6 @@
     "coinMinimalDenom": "upryzm",
     "coinDecimals": 6
   },
-  "walletUrl": "https://testnet.pryzm.zone",
   "walletUrlForStaking": "https://testnets.cosmosrun.info/pryzm-indigo-1/staking",
   "bip44": {
     "coinType": 118
