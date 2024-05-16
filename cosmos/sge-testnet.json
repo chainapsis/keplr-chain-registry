@@ -1,5 +1,5 @@
 {   "chainId": "sge-network-4",
-    "chainName": "SGE Testnet",
+    "chainName": "SGE Network Testnet",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sgenet/chain.png",
     "rpc": "https://test-sge-rpc.kingnodes.com/",
     "rest": "https://test-sge-rest.kingnodes.com/",
