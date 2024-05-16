@@ -39,7 +39,11 @@ const main = async () => {
       throw new Error("Node provider should be provided");
     }
 
-    if (!isNativeSupported && !chainInfo.chainSymbolImageUrl) {
+    if (
+      !isNativeSupported &&
+      !isTestnetChain &&
+      !chainInfo.chainSymbolImageUrl
+    ) {
       throw new Error("chainSymbolImageUrl should be provided");
     }
 

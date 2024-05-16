@@ -1,0 +1,51 @@
+{
+  "chainId": "union-testnet-8",
+  "chainName": "Union Testnet",
+  "nodeProvider": {
+    "name": "bonlulu",
+    "email": "validator@luelo.dev",
+    "website": "https://testnet.bonlulu.uno"
+  },
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/union-testnet/chain.png",
+  "rpc": "https://rpc.testnet.bonlulu.uno",
+  "rest": "https://api.testnet.bonlulu.uno",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "union",
+    "bech32PrefixAccPub": "unionpub",
+    "bech32PrefixValAddr": "unionvaloper",
+    "bech32PrefixValPub": "unionvaloperpub",
+    "bech32PrefixConsAddr": "unionvalcons",
+    "bech32PrefixConsPub": "unionvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "UNO",
+      "coinMinimalDenom": "muno",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/union-testnet/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "UNO",
+      "coinMinimalDenom": "muno",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.0025,
+        "average": 0.025,
+        "high": 0.04
+      },
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/union-testnet/chain.png"
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "UNO",
+    "coinMinimalDenom": "muno",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/union-testnet/chain.png"
+  },
+  "features": []
+}

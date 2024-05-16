@@ -1,0 +1,55 @@
+{
+  "chainId": "furya-1",
+  "chainName": "Furya",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/furya/chain.png",
+  "rpc": "https://rpc.furya.xyz",
+  "rest": "https://api.furya.xyz",
+  "nodeProvider": {
+    "name": "Furya",
+    "email": "team@fury.fan",
+    "website": "https://one.furya.xyz/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "furya",
+    "bech32PrefixAccPub": "furyapub",
+    "bech32PrefixValAddr": "furyavaloper",
+    "bech32PrefixValPub": "furyavaloperpub",
+    "bech32PrefixConsAddr": "furyavalcons",
+    "bech32PrefixConsPub": "furyavalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "FURY",
+      "coinMinimalDenom": "ufury",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/furya/ufury.png",
+      "coinGeckoId": "fanfury"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "FURY",
+      "coinMinimalDenom": "ufury",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/furya/ufury.png",
+      "coinDecimals": 6,
+      "coinGeckoId": "fanfury",
+      "gasPriceStep": {
+        "low": 0,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "FURY",
+    "coinMinimalDenom": "ufury",
+    "coinDecimals": 6,
+    "coinGeckoId": "fanfury",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/furya/ufury.png"
+  },
+  "features": ["cosmwasm"],
+  "walletUrlForStaking": "https://one.furya.xyz/staking"
+}

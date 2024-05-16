@@ -1,6 +1,6 @@
 {
   "chainId": "grand-1",
-  "chainName": "Noble",
+  "chainName": "Grand",
   "rpc": "https://rpc.testnet.noble.strange.love",
   "rest": "https://api.testnet.noble.strange.love/",
   "nodeProvider": {
@@ -51,9 +51,9 @@
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/uusdc.png",
       "gasPriceStep": {
-        "low": 0,
-        "average": 0,
-        "high": 0.01
+        "low": 0.1,
+        "average": 0.1,
+        "high": 0.2
       }
     }
   ],
