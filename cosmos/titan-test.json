@@ -25,6 +25,18 @@
       "coinDenom": "TNT1",
       "coinMinimalDenom": "utnt1",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan-test/utnt1.png"
+    },
+    {
+      "coinDecimals": 6,
+      "coinDenom": "TNT2",
+      "coinMinimalDenom": "utnt2",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan-test/utnt1.png"
+    },
+    {
+      "coinDecimals": 6,
+      "coinDenom": "TCP",
+      "coinMinimalDenom": "utcp",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan-test/utnt1.png"
     }
   ],
   "features": [],
