@@ -33,9 +33,9 @@
       "coinMinimalDenom": "uqwoyn",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.01,
-        "average": 0.025,
-        "high": 0.03
+        "low": 0.03,
+        "average": 0.05,
+        "high": 0.075
       }
     }
   ],

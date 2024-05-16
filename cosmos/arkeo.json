@@ -1,0 +1,48 @@
+{
+    "chainId": "arkeo",
+    "chainName": "Arkeo Testnet",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/arkeo/chain.png",
+    "rpc": "http://seed.arkeo.network:26657",
+    "rest": "http://seed.arkeo.network:1317",
+    "nodeProvider": {
+      "name": "Arkeo Protocol",
+      "email": "randy@arkeo.network",
+      "website": "http://arkeo.network"
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "tarkeo",
+      "bech32PrefixAccPub": "tarkeopub",
+      "bech32PrefixValAddr": "tarkeovaloper",
+      "bech32PrefixValPub": "tarkeovaloperpub",
+      "bech32PrefixConsAddr": "tarkeovalcons",
+      "bech32PrefixConsPub": "tarkeovalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "arkeo",
+        "coinMinimalDenom": "uarkeo",
+        "coinDecimals": 6
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "arkeo",
+        "coinMinimalDenom": "uarkeo",
+        "coinDecimals": 6,
+        "gasPriceStep": {
+          "low": 0.01,
+          "average": 0.025,
+          "high": 0.03
+        }
+      }
+    ],
+    "stakeCurrency": {
+      "coinDenom": "arkeo",
+      "coinMinimalDenom": "uarkeo",
+      "coinDecimals": 6
+    },
+    "features": []
+  }

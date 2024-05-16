@@ -1,0 +1,54 @@
+{
+  "bech32Config": {
+    "bech32PrefixAccAddr": "cosmos",
+    "bech32PrefixAccPub": "cosmospub",
+    "bech32PrefixConsAddr": "cosmosvalcons",
+    "bech32PrefixConsPub": "cosmosvalconspub",
+    "bech32PrefixValAddr": "cosmosvaloper",
+    "bech32PrefixValPub": "cosmosvaloperpub"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "chainId": "provider",
+  "chainName": "Cosmoshub Provider Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/provider/chain.png",
+  "currencies": [
+    {
+      "coinDecimals": 6,
+      "coinDenom": "ATOM",
+
+      "coinMinimalDenom": "uatom",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/provider/uatom.png"
+    }
+  ],
+  "features": [],
+  "feeCurrencies": [
+    {
+      "coinDecimals": 6,
+      "coinDenom": "ATOM",
+
+      "coinMinimalDenom": "uatom",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/provider/uatom.png",
+      "gasPriceStep": {
+        "average": 0.025,
+        "high": 0.03,
+        "low": 0.005
+      }
+    }
+  ],
+  "nodeProvider": {
+    "name": "Quicksilver",
+    "email": "chalabi@chandrastation.com"
+  },
+  "rest": "https://lcd.provider.test.quicksilver.zone",
+  "rpc": "https://rpc.provider.test.quicksilver.zone",
+  "stakeCurrency": {
+    "coinDecimals": 6,
+    "coinDenom": "ATOM",
+
+    "coinMinimalDenom": "uatom",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/provider/uatom.png"
+  },
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/cosmos-hub"
+}

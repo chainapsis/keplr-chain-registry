@@ -1,0 +1,61 @@
+{
+  "rpc": "https://rpc.lambda.nodestake.org",
+  "rest": "https://rest.lambda.im",
+  "chainId": "lambda_92000-1",
+  "chainName": "Lambda",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lambda_92000/lambda.png",
+  "evm": {
+    "chainId": 92000,
+    "rpc": "https://evm.lambda.im"
+  },
+  "nodeProvider": {
+    "name": "NodeStake",
+    "email": "info@nodestake.top",
+    "website": "https://nodestake.top"
+  },
+  "stakeCurrency": {
+    "coinDenom": "LAMB",
+    "coinMinimalDenom": "ulamb",
+    "coinDecimals": 18,
+    "coinGeckoId": "lambda",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lambda_92000/lambda.png"
+  },
+  "walletUrlForStaking": "https://app.lambda.im/staking",
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "lamb",
+    "bech32PrefixAccPub": "lambpub",
+    "bech32PrefixValAddr": "lambvaloper",
+    "bech32PrefixValPub": "lambvaloperpub",
+    "bech32PrefixConsAddr": "lambvalcons",
+    "bech32PrefixConsPub": "lambvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "LAMB",
+      "coinMinimalDenom": "ulamb",
+      "coinDecimals": 18,
+      "coinGeckoId": "lambda",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lambda_92000/lambda.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "LAMB",
+      "coinMinimalDenom": "ulamb",
+      "coinDecimals": 18,
+      "coinGeckoId": "lambda",
+      "gasPriceStep": {
+        "low": 3750000000000,
+        "average": 3750000000000,
+        "high": 6000000000000
+      }
+    }
+  ],
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ]
+}

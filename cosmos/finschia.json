@@ -1,0 +1,54 @@
+{
+  "chainId": "finschia-2",
+  "chainName": "Finschia",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/finschia/chain.png",
+  "rpc": "https://finschia-rpc.finschia.io/",
+  "rest": "https://finschia-api.finschia.io",
+  "nodeProvider": {
+    "name": "Finschia Foundation",
+    "email": "dev@finschia.org",
+    "website":"https://www.finschia.io"
+  },
+  "bip44": {
+    "coinType": 438
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "link",
+    "bech32PrefixAccPub": "linkpub",
+    "bech32PrefixValAddr": "linkvaloper",
+    "bech32PrefixValPub": "linkvaloperpub",
+    "bech32PrefixConsAddr": "linkvalcons",
+    "bech32PrefixConsPub": "linkvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "FNSA",
+      "coinMinimalDenom": "cony",
+      "coinDecimals": 6,
+      "coinGeckoId": "link",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/finschia/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "FNSA",
+      "coinMinimalDenom": "cony",
+      "coinDecimals": 6,
+      "coinGeckoId": "link",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/finschia/chain.png",
+      "gasPriceStep": {
+        "average": 0.015,
+        "high": 0.015,
+        "low": 0.015
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDecimals": 6,
+    "coinDenom": "FNSA",
+    "coinMinimalDenom": "cony",
+    "coinGeckoId": "link",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/finschia/chain.png"
+  },
+  "features": ["cosmwasm"]
+}
