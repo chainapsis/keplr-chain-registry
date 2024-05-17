@@ -104,7 +104,28 @@
         "coinDecimals": 6,
         "coinGeckoId": "tether",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/usdt.png"
-      } 
+      },
+      {
+        "coinDenom": "USDe",
+        "coinMinimalDenom": "ibc/FFD9EB71B4480ED4D73F7370A2AEBDB48447A0AAE27265F8060A957F0FF71983",
+        "coinDecimals": 18,
+        "coinGeckoId": "ethena-usde",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/usde.png"
+      },
+      {
+        "coinDenom": "ENA",
+        "coinMinimalDenom": "ibc/B089810D5A6316AD5E9C7808733DC4AB11C7BA3033221D28711FC7206BACB929",
+        "coinDecimals": 18,
+        "coinGeckoId": "ethena",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/ena.png"
+      },
+      {
+        "coinDenom": "wSOL",
+        "coinMinimalDenom": "ibc/2CC39C8141F257EBBA250F65B9D0F31DC8D153C225E51EC192DE6E3F65D43F0C",
+        "coinDecimals": 9,
+        "coinGeckoId": "solana",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/sol.png"
+      }
     ],
     "feeCurrencies": [
       {
