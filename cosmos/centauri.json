@@ -121,7 +121,7 @@
       },
       {
         "coinDenom": "wSOL",
-        "coinMinimalDenom": "ibc/37CC704EA53E96AB09A9C31D79142DE7DB252420F3AB18015F9870AE219947BD",
+        "coinMinimalDenom": "ibc/2CC39C8141F257EBBA250F65B9D0F31DC8D153C225E51EC192DE6E3F65D43F0C",
         "coinDecimals": 9,
         "coinGeckoId": "solana",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/sol.png"
