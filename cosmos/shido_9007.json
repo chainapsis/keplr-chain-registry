@@ -1,0 +1,56 @@
+{
+    "rpc": "https://testnet-tendermint.shidoscan.com",
+    "rest": "https://testnet-swagger.shidoscan.com",
+    "chainId": "shido_9007-1",
+    "chainName": "Shido-Testnet",
+    "evm": {
+      "chainId": 9007,
+      "rpc": "https://rpc-testnet-nodes.shidoscan.com"
+    },
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shido_9007/chain.png",
+    "stakeCurrency": {
+      "coinDenom": "SHIDO",
+      "coinMinimalDenom": "shido",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shido_9007/shido.png"
+    },
+    "nodeProvider":{
+      "name":"Shido",
+      "email":"info@shido.finance",
+      "website":"https://shido.io/"
+    },
+    "bip44": {
+      "coinType": 60
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "shido",
+      "bech32PrefixAccPub": "shidopub",
+      "bech32PrefixValAddr": "shidovaloper",
+      "bech32PrefixValPub": "shidovaloperpub",
+      "bech32PrefixConsAddr": "shidovalcons",
+      "bech32PrefixConsPub": "shidovalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "SHIDO",
+        "coinMinimalDenom": "shido",
+        "coinDecimals": 18,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shido_9007/shido.png"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "SHIDO",
+        "coinMinimalDenom": "shido",
+        "coinDecimals": 18,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shido_9007/shido.png",
+        "gasPriceStep": {
+          "low": 80000000000,
+          "average": 80000000000,
+          "high": 80000000000
+        }
+      }
+    ],
+    "features": ["eth-address-gen", "eth-key-sign","cosmwasm"]
+  }
+  
