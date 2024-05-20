@@ -1,13 +1,9 @@
 {
-  "rpc": "https://rpc.pryzm.zone",
-  "rest": "https://api.pryzm.zone",
-  "nodeProvider": {
-    "name": "PRYZM",
-    "email": "support@pryzm.zone",
-    "website": "https://pryzm.zone/"
-  },
+  "rpc": "https://rpc-pryzm.keplr.app",
+  "rest": "https://lcd-pryzm.keplr.app",
   "chainId": "pryzm-1",
-  "chainName": "pryzm",
+  "chainName": "Pryzm",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/pryzm",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pryzm/chain.png",
   "stakeCurrency": {
     "coinDenom": "PRYZM",

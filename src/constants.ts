@@ -41,6 +41,7 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "ssc",
   "seda",
   "dimension_37",
+  "pryzm",
 ];
 
 export const nativeTestnetChainIdentifiers: string[] = [
