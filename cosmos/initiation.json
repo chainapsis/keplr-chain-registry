@@ -2,7 +2,7 @@
   "rpc": "https://rpc-initia-testnet.keplr.app",
   "rest": "https://lcd-initia-testnet.keplr.app",
   "chainId": "initiation-1",
-  "chainName": "Initia",
+  "chainName": "Initia Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/initiation/chain.png",
   "walletUrlForStaking": "https://testnet.keplr.app/chains/initia",
   "bip44": {
@@ -36,8 +36,8 @@
       "coinDecimals": 6,
       "gasPriceStep": {
         "low": 0.15,
-        "average": 0.15,
-        "high": 0.15
+        "average": 0.30,
+        "high": 1
       }
     }
   ]
