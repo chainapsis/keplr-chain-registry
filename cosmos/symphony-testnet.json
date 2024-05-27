@@ -1,0 +1,48 @@
+{
+  "chainId": "symphony-testnet-1",
+  "chainName": "Symphony",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony/chain.png",
+  "rpc": "",
+  "rest": "",
+  "nodeProvider": {
+    "name": "",
+    "email": "",
+    "website": ""
+  },
+  "bip44": {
+    "coinType": 
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "",
+    "bech32PrefixAccPub": "",
+    "bech32PrefixValAddr": "",
+    "bech32PrefixValPub": "",
+    "bech32PrefixConsAddr": "",
+    "bech32PrefixConsPub": ""
+  },
+  "currencies": [
+    {
+      "coinDenom": "MLD",
+      "coinMinimalDenom": "note",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "MLD",
+      "coinMinimalDenom": "note",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": ,
+        "average": ,
+        "high": 
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "MLD",
+    "coinMinimalDenom": "note",
+    "coinDecimals": 6,
+  },
+  "features": ["cosmwasm", "osmosis-txfees"]
+}
