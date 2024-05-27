@@ -13,12 +13,12 @@
     "coinType": 
   },
   "bech32Config": {
-    "bech32PrefixAccAddr": "",
-    "bech32PrefixAccPub": "",
-    "bech32PrefixValAddr": "",
-    "bech32PrefixValPub": "",
-    "bech32PrefixConsAddr": "",
-    "bech32PrefixConsPub": ""
+    "bech32PrefixAccAddr": "symphony",
+    "bech32PrefixAccPub": "symphonypub",
+    "bech32PrefixValAddr": "symphonyvaloper",
+    "bech32PrefixValPub": "symphonyvaloperpub",
+    "bech32PrefixConsAddr": "symphonyvalcons",
+    "bech32PrefixConsPub": "symphonyvalconspub"
   },
   "currencies": [
     {
@@ -33,16 +33,16 @@
       "coinMinimalDenom": "note",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": ,
-        "average": ,
-        "high": 
+        "low": 0.0025,
+        "average": 0.025,
+        "high": 0.04
       }
     }
   ],
   "stakeCurrency": {
     "coinDenom": "MLD",
     "coinMinimalDenom": "note",
-    "coinDecimals": 6,
+    "coinDecimals": 6
   },
   "features": ["cosmwasm", "osmosis-txfees"]
 }
