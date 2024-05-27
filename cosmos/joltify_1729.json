@@ -16,7 +16,6 @@
     "coinGeckoId": "joltify",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/joltify_1729/ujolt.png"
   },
-  "walletUrl": "https://app.joltify.io/assets",
   "walletUrlForStaking": "https://app.joltify.io/gov/validators",
   "bip44": {
     "coinType": 118
