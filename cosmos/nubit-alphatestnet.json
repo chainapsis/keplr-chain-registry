@@ -1,6 +1,6 @@
 {
     "chainId": "nubit-alphatestnet-1",
-    "chainName": "Nubit Alphatestnet",
+    "chainName": "Nubit Alpha Testnet",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nubit-alphatestnet/chain.png",
     "rpc": "https://validator.nubit-alphatestnet-1.com:26657",
     "rest": "https://validator.nubit-alphatestnet-1.com:1317",
