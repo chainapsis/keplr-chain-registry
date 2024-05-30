@@ -15,6 +15,16 @@ const role = new aws.iam.Role(`chain-registry-lambda-role-${stack}`, {
         Effect: "Allow",
         Sid: "",
       },
+      {
+        Effect: "Deny",
+        Action: ["logs:*"],
+        Resource: "arn:aws:logs:*:*:*",
+      },
+      {
+        Effect: "Deny",
+        Action: ["s3:GetObject", "s3:PutObject"],
+        Resource: "arn:aws:s3:::*",
+      },
     ],
   },
 });
