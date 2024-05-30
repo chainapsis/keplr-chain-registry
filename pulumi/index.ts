@@ -15,13 +15,15 @@ const role = new aws.iam.Role(`chain-registry-lambda-role-${stack}`, {
         Effect: "Allow",
         Sid: "",
       },
+    ],
+  },
+});
+const policy = new aws.iam.Policy(`chain-registry-lambda-policy-${stack}`, {
+  policy: {
+    Version: "2012-10-17",
+    Statement: [
       {
-        Effect: "Deny",
-        Action: ["logs:*"],
-        Resource: "arn:aws:logs:*:*:*",
-      },
-      {
-        Effect: "Deny",
+        Effect: "Allow",
         Action: ["s3:GetObject", "s3:PutObject"],
         Resource: "arn:aws:s3:::*",
       },
@@ -32,7 +34,7 @@ new aws.iam.RolePolicyAttachment(
   `chain-registry-lambda-role-attachment-${stack}`,
   {
     role,
-    policyArn: aws.iam.ManagedPolicies.AWSLambdaExecute,
+    policyArn: policy.arn,
   },
 );
 
