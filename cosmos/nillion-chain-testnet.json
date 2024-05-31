@@ -7,7 +7,7 @@
     "website": "https://www.lavenderfive.com/"
   },
   "chainId": "nillion-chain-testnet-1",
-  "chainName": "Nilchain Testnet",
+  "chainName": "Nillion Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nillion-chain-testnet/nil.png",
   "stakeCurrency": {
     "coinDenom": "NIL",
