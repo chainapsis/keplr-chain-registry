@@ -37,16 +37,6 @@
   },
   "feeCurrencies": [
     {
-      "coinDenom": "INIT",
-      "coinMinimalDenom": "uinit",
-      "coinDecimals": 6,
-      "gasPriceStep": {
-        "low": 0.15,
-        "average": 0.3,
-        "high": 1
-      }
-    },
-    {
       "coinDenom": "GAS",
       "coinMinimalDenom": "move/944f8dd8dc49f96c25fea9849f16436dcfa6d564eec802f3ef7f8b3ea85368ff",
       "coinDecimals": 6,
