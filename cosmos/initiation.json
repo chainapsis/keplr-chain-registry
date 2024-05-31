@@ -27,7 +27,7 @@
       "coinDenom": "GAS",
       "coinMinimalDenom": "move/944f8dd8dc49f96c25fea9849f16436dcfa6d564eec802f3ef7f8b3ea85368ff",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/testnets/initia/images/GAS.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/initiation/gas.png"
     }
   ],
   "stakeCurrency": {
