@@ -1,7 +1,7 @@
 {
-    "chainId": "xstaxy-1",
+    "chainId": "aura_6322-2",
     "chainName": "Aura Network",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xstaxy/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aura_6322/chain.png",
     "rpc": "https://rpc.aura.network",
     "rest": "https://lcd.aura.network",
     "nodeProvider": {
@@ -26,7 +26,7 @@
         "coinMinimalDenom": "uaura",
         "coinDecimals": 6,
         "coinGeckoId": "aura-network",
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xstaxy/uaura.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aura_6322/uaura.png"
       }
     ],
     "feeCurrencies": [
@@ -40,7 +40,7 @@
           "average": 0.0025,
           "high": 0.004
         },
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xstaxy/uaura.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aura_6322/uaura.png"
       
       }
     ],
@@ -49,7 +49,7 @@
       "coinMinimalDenom": "uaura",
       "coinDecimals": 6,
       "coinGeckoId": "aura-network",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xstaxy/uaura.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aura_6322/uaura.png"
     
     },
     "features": [
