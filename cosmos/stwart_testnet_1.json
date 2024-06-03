@@ -1,6 +1,11 @@
 {
   "rpc": "https://rpc.testnet.stalwart.dev",
   "rest": "https://api.testnet.stalwart.dev",
+  "nodeProvider": {
+    "name": "Algoritmic Lab",
+    "email": "snemesh@algoritmiclab.ai",
+    "website":"https://www.algoritmiclab.ai"
+  },
   "chainId": "stwart_testnet_1",
   "chainName": "Stalwart Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stwart_testnet_1/chain.png",
