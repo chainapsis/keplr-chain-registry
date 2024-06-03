@@ -3,7 +3,7 @@
   "rest": "https://api.testnet.stalwart.dev",
   "chainId": "stwart_testnet_1",
   "chainName": "Stalwart Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stwart_testnet/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stwart_testnet_1/chain.png",
   "bip44": {
     "coinType": 118
   },
@@ -19,20 +19,20 @@
     "coinDenom": "STW",
     "coinMinimalDenom": "stw",
     "coinDecimals": 8,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stwart_testnet/stw.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stwart_testnet_1/stw.png"
   },
   "currencies": [
     {
       "coinDenom": "STW",
       "coinMinimalDenom": "stw",
       "coinDecimals": 8,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stwart_testnet/stw.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stwart_testnet_1/stw.png"
     },
     {
       "coinDenom": "SSC",
       "coinMinimalDenom": "ssc",
       "coinDecimals": 8,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stwart_testnet/ssc.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stwart_testnet_1/ssc.png"
     }
   ],
   "feeCurrencies": [
@@ -40,7 +40,7 @@
       "coinDenom": "STW",
       "coinMinimalDenom": "stw",
       "coinDecimals": 8,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stwart_testnet/stw.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stwart_testnet_1/stw.png",
       "gasPriceStep": {
         "low": 0.25,
         "average": 2.5,
