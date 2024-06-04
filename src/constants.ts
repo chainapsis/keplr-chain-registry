@@ -60,4 +60,5 @@ export const nativeTestnetChainIdentifiers: string[] = [
   "govgen",
   "seda-1-testnet",
   "initiation",
+  "nillion-chain-testnet",
 ];
