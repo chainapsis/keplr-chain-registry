@@ -2,15 +2,15 @@
   "chainId": "symphony-testnet-1",
   "chainName": "Symphony",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony/chain.png",
-  "rpc": "",
-  "rest": "",
+  "rpc": "rpc.testnet.node2.symphonychain.org",
+  "rest": "lcd.testnet.node2.symphonychain.org",
   "nodeProvider": {
-    "name": "",
-    "email": "",
-    "website": ""
+    "name": "Orchestra Labs",
+    "email": "dblackstone@orchestralabs.org",
+    "website": "orchestralabs.org"
   },
   "bip44": {
-    "coinType": 
+    "coinType": 118
   },
   "bech32Config": {
     "bech32PrefixAccAddr": "symphony",
