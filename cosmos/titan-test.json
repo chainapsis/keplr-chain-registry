@@ -25,6 +25,24 @@
       "coinDenom": "TNT1",
       "coinMinimalDenom": "utnt1",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan-test/utnt1.png"
+    },
+    {
+      "coinDecimals": 6,
+      "coinDenom": "TNT2",
+      "coinMinimalDenom": "utnt2",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan-test/utnt1.png"
+    },
+    {
+      "coinDecimals": 6,
+      "coinDenom": "TCP",
+      "coinMinimalDenom": "utcp",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan-test/utnt1.png"
+    },
+    {
+      "coinDecimals": 6,
+      "coinDenom": "TGCTC",
+      "coinMinimalDenom": "utgctc",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan-test/utnt1.png"
     }
   ],
   "features": [],
@@ -41,8 +59,8 @@
       }
     }
   ],
-  "rest": "http://lcd.titannet.io:1317",
-  "rpc": "http://rpc.titannet.io:26657",
+  "rest": "https://lcd.titannet.io",
+  "rpc": "https://rpc.titannet.io",
   "stakeCurrency": {
     "coinDecimals": 6,
     "coinDenom": "TTNT",

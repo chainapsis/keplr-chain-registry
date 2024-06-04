@@ -1,0 +1,55 @@
+{
+  "rpc": "https://rpc.joltify.io",
+  "rest": "https://lcd.joltify.io",
+  "nodeProvider": {
+    "name": "Joltify",
+    "email": "contact@joltify.io",
+    "website":"https://joltify.io"
+  },
+  "chainId": "joltify_1729-1",
+  "chainName": "Joltify",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/joltify_1729/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "JOLT",
+    "coinMinimalDenom": "ujolt",
+    "coinDecimals": 6,
+    "coinGeckoId": "joltify",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/joltify_1729/ujolt.png"
+  },
+  "walletUrlForStaking": "https://app.joltify.io/gov/validators",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "jolt",
+    "bech32PrefixAccPub": "joltpub",
+    "bech32PrefixValAddr": "joltvaloper",
+    "bech32PrefixValPub": "joltvaloperpub",
+    "bech32PrefixConsAddr": "joltvalcons",
+    "bech32PrefixConsPub": "joltvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "JOLT",
+      "coinMinimalDenom": "ujolt",
+      "coinDecimals": 6,
+      "coinGeckoId": "joltify",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/joltify_1729/ujolt.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "JOLT",
+      "coinMinimalDenom": "ujolt",
+      "coinDecimals": 6,
+      "coinGeckoId": "joltify",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/joltify_1729/ujolt.png",
+      "gasPriceStep": {
+        "low": 0,
+        "average": 0,
+        "high": 0.075
+      }
+    }
+  ],
+  "features": []
+}
