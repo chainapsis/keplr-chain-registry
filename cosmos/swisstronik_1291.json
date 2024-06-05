@@ -11,7 +11,7 @@
   },
   "currencies": [
     {
-      "coinMinimalDenom": "uswtr",
+      "coinMinimalDenom": "aswtr",
       "coinDenom": "SWTR",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/swisstronik_1291/chain.png"
@@ -29,14 +29,14 @@
     "bech32PrefixConsPub": "swtrvalconspub"
   },
   "stakeCurrency": {
-    "coinMinimalDenom": "uswtr",
+    "coinMinimalDenom": "aswtr",
     "coinDenom": "SWTR",
     "coinDecimals": 18,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/swisstronik_1291/chain.png"
   },
   "feeCurrencies": [
     {
-      "coinMinimalDenom": "uswtr",
+      "coinMinimalDenom": "aswtr",
       "coinDenom": "SWTR",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/swisstronik_1291/chain.png",
