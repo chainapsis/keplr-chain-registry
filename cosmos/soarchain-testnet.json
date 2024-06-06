@@ -1,0 +1,57 @@
+{   
+    "rpc": "https://rpc1.testnet.soarchain.com",
+    "rest": "https://rpc1.testnet.soarchain.com/api",
+    "chainId": "soarchaintestnet",
+    "chainName": "Soarchain Testnet",
+    "nodeProvider": {
+        "name": "soarchain",
+        "email": "alperen@soarrobotics.com",
+        "website":"https://www.soarchain.com"
+      },
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/soarchain-testnet/chain.png",
+    "walletUrl": "https://wallet.keplr.app/chains/soarchaintestnet",
+    "walletUrlForStaking": "https://wallet.keplr.app/chains/soarchaintestnet",
+    "bip44": {
+        "coinType": 118
+    },
+    "bech32Config": {
+        "bech32PrefixAccAddr": "soar",
+        "bech32PrefixAccPub": "soarpub",
+        "bech32PrefixValAddr": "soarvaloper",
+        "bech32PrefixValPub": "soarvaloperpub",
+        "bech32PrefixConsAddr": "soarvalcons",
+        "bech32PrefixConsPub": "soarvalconspub"
+    },
+    "currencies": [
+        {
+            "coinDenom": "TSOAR",
+            "coinMinimalDenom": "utsoar",
+            "coinDecimals": 6,
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/soarchain-testnet/chain.png"
+        
+            }
+    ],
+    "feeCurrencies": [
+        {
+            "coinDenom": "TSOAR",
+            "coinMinimalDenom": "utsoar",
+            "coinDecimals": 6,
+            "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.03
+            },            
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/soarchain-testnet/chain.png"
+
+        }
+    ],
+    "stakeCurrency": {
+        "coinDenom": "TSOAR",
+        "coinMinimalDenom": "utsoar",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/soarchain-testnet/chain.png"
+    },
+    "features": [
+        "cosmwasm"
+    ]
+}
