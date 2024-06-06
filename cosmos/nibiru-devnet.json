@@ -1,9 +1,9 @@
 {
-  "chainId": "nibiru-testnet-1",
-  "chainName": "nibirutestnet",
+  "chainId": "nibiru-devnet-1",
+  "chainName": "nibirudevnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru/chain.png",
-  "rpc": "https://rpc.testnet-1.nibiru.fi/",
-  "rest": "https://lcd.testnet-1.nibiru.fi/",
+  "rpc": "https://rpc.devnet-1.nibiru.fi/",
+  "rest": "https://lcd.devnet-1.nibiru.fi/",
   "nodeProvider": {
     "name": "Nibiru Team",
     "email": "dev@nibiru.fi",
