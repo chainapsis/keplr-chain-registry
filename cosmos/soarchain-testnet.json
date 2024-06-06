@@ -9,7 +9,6 @@
         "website":"https://www.soarchain.com"
       },
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/soarchain-testnet/chain.png",
-    "walletUrl": "https://wallet.keplr.app/chains/soarchaintestnet",
     "walletUrlForStaking": "https://wallet.keplr.app/chains/soarchaintestnet",
     "bip44": {
         "coinType": 118
