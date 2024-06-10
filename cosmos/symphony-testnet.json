@@ -1,0 +1,48 @@
+{
+  "chainId": "symphony-testnet-1",
+  "chainName": "Symphony",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/chain.png",
+  "rpc": "http://rpc.testnet.symphonychain.org",
+  "rest": "http://lcd.testnet.symphonychain.org",
+  "nodeProvider": {
+    "name": "Orchestra Labs",
+    "email": "dblackstone@orchestralabs.org",
+    "website": "https://www.orchestralabs.org"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "symphony",
+    "bech32PrefixAccPub": "symphonypub",
+    "bech32PrefixValAddr": "symphonyvaloper",
+    "bech32PrefixValPub": "symphonyvaloperpub",
+    "bech32PrefixConsAddr": "symphonyvalcons",
+    "bech32PrefixConsPub": "symphonyvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "MLD",
+      "coinMinimalDenom": "note",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "MLD",
+      "coinMinimalDenom": "note",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.0025,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "MLD",
+    "coinMinimalDenom": "note",
+    "coinDecimals": 6
+  },
+  "features": ["cosmwasm", "osmosis-txfees"]
+}
