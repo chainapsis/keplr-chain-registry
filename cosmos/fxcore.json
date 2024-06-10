@@ -28,6 +28,13 @@
       "coinDecimals": 18,
       "coinGeckoId": "fx-coin",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fxcore/fx.png"
+    },
+    {
+      "coinDenom": "PUNDIX",
+      "coinMinimalDenom": "eth0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38",
+      "coinDecimals": 18,
+      "coinGeckoId": "pundi-x-2",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fxcore/pundix.png"
     }
   ],
   "feeCurrencies": [
