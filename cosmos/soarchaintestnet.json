@@ -1,6 +1,6 @@
 {   
-    "rpc": "https://rpc1.testnet.soarchain.com",
-    "rest": "https://rpc1.testnet.soarchain.com/api",
+    "rpc": "https://soarchain-testnet.rpc.kjnodes.com",
+    "rest": "https://soarchain-testnet.api.kjnodes.com",
     "chainId": "soarchaintestnet",
     "chainName": "Soarchain Testnet",
     "nodeProvider": {
@@ -8,8 +8,7 @@
         "email": "alperen@soarrobotics.com",
         "website":"https://www.soarchain.com"
       },
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/soarchain-testnet/chain.png",
-    "walletUrlForStaking": "https://wallet.keplr.app/chains/soarchaintestnet",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/soarchaintestnet/chain.png",
     "bip44": {
         "coinType": 118
     },
@@ -26,7 +25,7 @@
             "coinDenom": "TSOAR",
             "coinMinimalDenom": "utsoar",
             "coinDecimals": 6,
-            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/soarchain-testnet/chain.png"
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/soarchaintestnet/chain.png"
         
             }
     ],
@@ -40,7 +39,7 @@
                 "average": 0.025,
                 "high": 0.03
             },            
-            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/soarchain-testnet/chain.png"
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/soarchaintestnet/chain.png"
 
         }
     ],
@@ -48,7 +47,7 @@
         "coinDenom": "TSOAR",
         "coinMinimalDenom": "utsoar",
         "coinDecimals": 6,
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/soarchain-testnet/chain.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/soarchaintestnet/chain.png"
     },
     "features": [
         "cosmwasm"
