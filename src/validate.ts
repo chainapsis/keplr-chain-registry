@@ -81,6 +81,15 @@ export const validateChainInfo = async (
     throw new Error("Should not set 'beta' field");
   }
 
+  if (
+    chainInfo.rpc.startsWith("http://") ||
+    chainInfo.rest.startsWith("http://")
+  ) {
+    throw new Error(
+      "RPC, LCD endpoints cannot be set as HTTP, please set them as HTTPS",
+    );
+  }
+
   // check RPC alive
   await checkRPCConnectivity(
     chainInfo.chainId,
