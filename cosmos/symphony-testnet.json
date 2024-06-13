@@ -2,8 +2,8 @@
   "chainId": "symphony-testnet-1",
   "chainName": "Symphony Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/chain.png",
-  "rpc": "http://rpc.testnet.symphonychain.org",
-  "rest": "http://lcd.testnet.symphonychain.org",
+  "rpc": "https://rpc.testnet.symphonychain.org",
+  "rest": "https://lcd.testnet.symphonychain.org",
   "nodeProvider": {
     "name": "Orchestra Labs",
     "email": "dblackstone@orchestralabs.org",
