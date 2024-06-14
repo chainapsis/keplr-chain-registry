@@ -29,6 +29,10 @@ export const validateChainInfoFromPath = async (
   // get json from file
   const chainInfo = fileToChainInfo(path);
 
+  if (chainInfo.hideInUI && chainInfo.chainId !== "wormchain") {
+    throw new Error("Should not hide chain in UI");
+  }
+
   // validate chain info
   return await validateChainInfo(parsed.name, chainInfo);
 };
@@ -75,6 +79,15 @@ export const validateChainInfo = async (
 
   if (chainInfo.beta != null) {
     throw new Error("Should not set 'beta' field");
+  }
+
+  if (
+    chainInfo.rpc.startsWith("http://") ||
+    chainInfo.rest.startsWith("http://")
+  ) {
+    throw new Error(
+      "RPC, LCD endpoints cannot be set as HTTP, please set them as HTTPS",
+    );
   }
 
   // check RPC alive
@@ -126,10 +139,10 @@ export const checkImageSize = (path: string) => {
 };
 
 const checkCoinGeckoIds = async (...coinGeckoIds: string[]) => {
+  const priceURL =
+    process.env.PRICE_URL ?? "https://api.coingecko.com/api/v3/simple/price";
   const response = await fetch(
-    `https://api.coingecko.com/api/v3/simple/price?vs_currencies=usd&ids=${coinGeckoIds.join(
-      ",",
-    )}`,
+    `${priceURL}?vs_currencies=usd&ids=${coinGeckoIds.join(",")}`,
   );
 
   if (!response.ok) {
@@ -174,7 +187,8 @@ export const checkCurrencies = (chainInfo: ChainInfo) => {
           (currency) =>
             feeCurrency.coinMinimalDenom === currency.coinMinimalDenom,
         ),
-      )
+      ) &&
+    ChainIdHelper.parse(chainInfo.chainId).identifier !== "gravity-bridge"
   ) {
     throw new Error(`Fee Currency must be included in currencies`);
   }
@@ -187,15 +201,12 @@ export const checkCurrencies = (chainInfo: ChainInfo) => {
       );
     }
 
-    if (currency.coinMinimalDenom.startsWith("ibc/")) {
+    if (
+      currency.coinMinimalDenom.startsWith("ibc/") &&
+      ChainIdHelper.parse(chainInfo.chainId).identifier !== "centauri"
+    ) {
       throw new Error(
         `Do not provide ibc currency to currencies: ${currency.coinMinimalDenom}`,
-      );
-    }
-
-    if (currency.coinMinimalDenom.startsWith("gravity0x")) {
-      throw new Error(
-        `Do not provide bridged currency to currencies: ${currency.coinMinimalDenom}`,
       );
     }
   }

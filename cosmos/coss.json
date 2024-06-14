@@ -1,0 +1,81 @@
+{
+  "rpc": "https://coss-rpc.coss.ink",
+  "rest": "https://coss-rest.coss.ink",
+  "chainId": "coss-1",
+  "chainName": "Coss",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/coss/chain.png",
+  "nodeProvider": {
+    "name": "Coss Node",
+    "email": "coss.inscription@gmail.com"
+  },
+  "stakeCurrency": {
+    "coinDenom": "CGAS",
+    "coinMinimalDenom": "ucgas",
+    "coinDecimals": 6
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "coss",
+    "bech32PrefixAccPub": "cosspub",
+    "bech32PrefixValAddr": "cossvaloper",
+    "bech32PrefixValPub": "cossvaloperpub",
+    "bech32PrefixConsAddr": "cossvalcons",
+    "bech32PrefixConsPub": "cossvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "CGAS",
+      "coinMinimalDenom": "ucgas",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "CIAS",
+      "coinMinimalDenom": "ucias",
+      "coinDecimals": 6,
+      "coinGeckoId": "cias"
+    },
+    {
+      "coinDenom": "COSS",
+      "coinMinimalDenom": "ucoss",
+      "coinDecimals": 6,
+      "coinGeckoId": "coss-2"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "CIAS",
+      "coinMinimalDenom": "ucias",
+      "coinDecimals": 6,
+      "coinGeckoId": "cias",
+      "gasPriceStep": {
+        "low": 0.025,
+        "average": 0.03,
+        "high": 0.04
+      }
+    },
+    {
+      "coinDenom": "COSS",
+      "coinMinimalDenom": "ucoss",
+      "coinDecimals": 6,
+      "coinGeckoId": "coss-2",
+      "gasPriceStep": {
+        "low": 0.025,
+        "average": 0.03,
+        "high": 0.04
+      }
+    },
+    {
+      "coinDenom": "CGAS",
+      "coinMinimalDenom": "ucgas",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.025,
+        "average": 0.03,
+        "high": 0.04
+      }
+    }
+  ],
+  "features": []
+}

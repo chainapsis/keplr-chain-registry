@@ -35,6 +35,13 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "likecoin-mainnet",
   "dydx-mainnet",
   "celestia",
+  "passage",
+  "dymension_1100",
+  "chihuahua",
+  "ssc",
+  "seda",
+  "dimension_37",
+  "pryzm",
 ];
 
 export const nativeTestnetChainIdentifiers: string[] = [
@@ -49,4 +56,9 @@ export const nativeTestnetChainIdentifiers: string[] = [
   "theta-testnet",
   "dydx-testnet",
   "ssc-testnet",
+  "test-core",
+  "govgen",
+  "seda-1-testnet",
+  "initiation",
+  "nillion-chain-testnet",
 ];

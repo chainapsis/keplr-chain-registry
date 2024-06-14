@@ -30,7 +30,8 @@
         "coinDenom": "BCNA",
         "coinMinimalDenom": "ubcna",
         "coinDecimals": 6,
-        "coinGeckoId": "bitcanna"
+        "coinGeckoId": "bitcanna",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitcanna/chain.png"
     }],
     "feeCurrencies": [{
         "coinDenom": "BCNA",

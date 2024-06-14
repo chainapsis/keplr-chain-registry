@@ -49,6 +49,30 @@
       "coinMinimalDenom": "stk/uosmo",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/stkosmo.png"
+    },
+    {
+      "coinDenom": "stkDYDX",
+      "coinMinimalDenom": "stk/adydx",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/stkdydx.png"
+    },
+    {
+      "coinDenom": "stkSTARS",
+      "coinMinimalDenom": "stk/ustars",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/stkstars.png"
+    },
+    {
+      "coinDenom": "stkHUAHUA",
+      "coinMinimalDenom": "stk/uhuahua",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/stkhuahua.png"
+    },
+    {
+      "coinDenom": "stkXPRT",
+      "coinMinimalDenom": "stk/uxprt",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/stkxprt.png"
     }
   ],
   "feeCurrencies": [
@@ -118,6 +142,41 @@
         "low": 0.0001,
         "average": 0.001,
         "high": 0.01
+      }
+    },
+    {
+      "coinDenom": "DYDX",
+      "coinMinimalDenom": "ibc/23DC3FF0E4CBB53A1915E4C62507CB7796956E84C68CA49707787CB8BDE90A1E",
+      "coinDecimals": 18,
+      "coinGeckoId": "dydx-chain",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/adydx.png",
+      "gasPriceStep": {
+        "low": 15000000000,
+        "average": 15000000000,
+        "high": 15000000000
+      }
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "ibc/B3792E4A62DF4A934EF2DF5968556DB56F5776ED25BDE11188A4F58A7DD406F0",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/uusdc.png",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.05,
+        "high": 0.1
+      }
+    },
+    {
+      "coinDenom": "stkDYDX",
+      "coinMinimalDenom": "stk/adydx",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/stkdydx.png",
+      "gasPriceStep": {
+        "low": 15000000000,
+        "average": 15000000000,
+        "high": 15000000000
       }
     }
   ],

@@ -40,6 +40,12 @@
       "coinGeckoId": "weth"
     },
     {
+      "coinDenom": "iSEI",
+      "coinMinimalDenom": "factory/sei1e3gttzq5e5k49f9f5gzvrl0rltlav65xu6p9xc0aj7e84lantdjqp7cncc/isei",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pacific/factory/sei1e3gttzq5e5k49f9f5gzvrl0rltlav65xu6p9xc0aj7e84lantdjqp7cncc/iSEI.png"
+    },
+    {
       "coinDenom": "USDCet",
       "coinMinimalDenom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/Hq4tuDzhRBnxw3tFA5n6M52NVMVcC19XggbyDiJKCD6H",
       "coinDecimals": 6,
@@ -104,6 +110,12 @@
       "coinMinimalDenom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/871jbn9unTavWsAe83f2Ma9GJWSv6BKsyWYLiQ6z3Pva",
       "coinDecimals": 8,
       "coinGeckoId": "tether"
+    },
+    {
+      "coinDenom": "$GNR",
+      "coinMinimalDenom": "factory/sei1vrz7ndadkf6gwanf6ccy2d2v706yzrx2957fjd/GOLDENRULES",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pacific/factory/sei1vrz7ndadkf6gwanf6ccy2d2v706yzrx2957fjd/goldenrules.png"
     },
     {
       "coinDenom": "POPEYE",

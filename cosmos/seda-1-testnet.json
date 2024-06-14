@@ -1,0 +1,46 @@
+{
+  "chainId": "seda-1-testnet",
+  "chainName": "SEDA (TESTNET)",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/seda-1-testnet/chain.png",
+  "rpc": "https://rpc.testnet.seda.xyz",
+  "rest": "https://lcd.testnet.seda.xyz",
+  "nodeProvider": {
+    "name": "SEDA",
+    "email": "info@seda.xyz",
+    "website": "https://www.seda.xyz/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "seda",
+    "bech32PrefixAccPub": "sedapub",
+    "bech32PrefixValAddr": "sedavaloper",
+    "bech32PrefixValPub": "sedavaloperpub",
+    "bech32PrefixConsAddr": "sedavalcons",
+    "bech32PrefixConsPub": "sedavalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "SEDA",
+      "coinMinimalDenom": "aseda",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/seda-1-testnet/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "SEDA",
+      "coinMinimalDenom": "aseda",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/seda-1-testnet/chain.png"
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "SEDA",
+    "coinMinimalDenom": "aseda",
+    "coinDecimals": 18,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/seda-1-testnet/chain.png"
+  },
+  "features": ["cosmwasm"]
+}

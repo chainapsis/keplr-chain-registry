@@ -1,0 +1,51 @@
+{
+    "rpc": "https://rpc-testnet5.composable-cosmos.composablenodes.tech",
+    "rest": "https://api-testnet5.composable-cosmos.composablenodes.tech",
+    "nodeProvider": {
+      "name": "Composable",
+      "email": "jafar@composable.finance",
+      "website": "https://www.picasso.network/"
+    },
+    "chainId": "banksy-testnet-5",
+    "chainName": "Picasso Testnet",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/banksy-testnet/chain.png",
+    "stakeCurrency": {
+      "coinDenom": "PICA",
+      "coinMinimalDenom": "ppica",
+      "coinDecimals": 12,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/banksy-testnet/ppica.png"
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "pica",
+      "bech32PrefixAccPub": "picapub",
+      "bech32PrefixValAddr": "picavaloper",
+      "bech32PrefixValPub": "picavaloperpub",
+      "bech32PrefixConsAddr": "picavalcons",
+      "bech32PrefixConsPub": "picavalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "PICA",
+        "coinMinimalDenom": "ppica",
+        "coinDecimals": 12,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/banksy-testnet/ppica.png"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "PICA",
+        "coinMinimalDenom": "ppica",
+        "coinDecimals": 12,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/banksy-testnet/ppica.png",
+        "gasPriceStep": {
+          "low": 0,
+          "average": 0,
+          "high": 0
+        }
+      }
+    ],
+    "features": []
+  }
