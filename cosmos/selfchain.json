@@ -1,7 +1,7 @@
 {
     "chainId": "self-1",
     "chainName": "Self Chain",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/selfchain/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/self-1/chain.png",
     "rpc": "https://rpc.selfchain.io:26657",
     "rest": "https://api.selfchain.io",
     "nodeProvider": {
