@@ -1,7 +1,7 @@
 {
     "chainId": "self-1",
     "chainName": "Self Chain",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/self-1/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/self/chain.png",
     "rpc": "https://rpc.selfchain.io:26657",
     "rest": "https://api.selfchain.io",
     "nodeProvider": {
@@ -24,7 +24,8 @@
     {
         "coinDenom": "SLF",
         "coinMinimalDenom": "uslf",
-        "coinDecimals": 6    }
+        "coinDecimals": 6    
+    }
     ],
     "feeCurrencies": [
     {
