@@ -24,16 +24,13 @@
     {
         "coinDenom": "SLF",
         "coinMinimalDenom": "uslf",
-        "coinDecimals": 6,
-        "coinGeckoId": "self-chain",
-    }
+        "coinDecimals": 6    }
     ],
     "feeCurrencies": [
     {
         "coinDenom": "SLF",
         "coinMinimalDenom": "uslf",
         "coinDecimals": 6,
-        "coinGeckoId": "self-chain",
         "gasPriceStep": {
             "low": 0.005,
             "average": 0.025,
@@ -44,8 +41,7 @@
     "stakeCurrency": {
         "coinDenom": "SLF",
         "coinMinimalDenom": "uslf",
-        "coinDecimals": 6,
-        "coinGeckoId": "self-chain"
+        "coinDecimals": 6
     },
     "features": []
 }
