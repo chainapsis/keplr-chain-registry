@@ -42,7 +42,6 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "seda",
   "dimension_37",
   "pryzm",
-  "cataclysm",
 ];
 
 export const nativeTestnetChainIdentifiers: string[] = [
@@ -62,5 +61,4 @@ export const nativeTestnetChainIdentifiers: string[] = [
   "seda-1-testnet",
   "initiation",
   "nillion-chain-testnet",
-  "nibiru",
 ];
