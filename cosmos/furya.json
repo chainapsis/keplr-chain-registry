@@ -2,12 +2,12 @@
   "chainId": "furya-1",
   "chainName": "Furya",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/furya/chain.png",
-  "rpc": "https://rpc.furya.xyz",
-  "rest": "https://api.furya.xyz",
+  "rpc": "https://furya.rpc.nodeshub.online",
+  "rest": "https://furya.api.nodeshub.online",
   "nodeProvider": {
     "name": "Furya",
-    "email": "team@fury.fan",
-    "website": "https://one.furya.xyz/"
+    "email": "team@furya.network",
+    "website": "https://docs.furya.network"
   },
   "bip44": {
     "coinType": 118
@@ -51,5 +51,5 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/furya/ufury.png"
   },
   "features": ["cosmwasm"],
-  "walletUrlForStaking": "https://one.furya.xyz/staking"
+  "walletUrlForStaking": "https://explorer.furya.network/furya-1/staking"
 }
