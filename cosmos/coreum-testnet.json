@@ -1,6 +1,6 @@
 {
     "chainId": "coreum-testnet-1",
-    "chainName": "Coreum",
+    "chainName": "Coreum Testnet",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/coreum-testnet/chain.png",
     "rpc": "https://full-node.testnet-1.coreum.dev:26657",
     "rest": "https://full-node.testnet-1.coreum.dev:1317",
