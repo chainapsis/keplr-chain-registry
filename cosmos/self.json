@@ -24,7 +24,8 @@
     {
         "coinDenom": "SLF",
         "coinMinimalDenom": "uslf",
-        "coinDecimals": 6    
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/self/chain.png"
     }
     ],
     "feeCurrencies": [
@@ -32,6 +33,7 @@
         "coinDenom": "SLF",
         "coinMinimalDenom": "uslf",
         "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/self/chain.png",
         "gasPriceStep": {
             "low": 0.005,
             "average": 0.025,
@@ -42,7 +44,8 @@
     "stakeCurrency": {
         "coinDenom": "SLF",
         "coinMinimalDenom": "uslf",
-        "coinDecimals": 6
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/self/chain.png"
     },
     "features": []
 }
