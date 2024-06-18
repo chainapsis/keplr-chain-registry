@@ -22,7 +22,7 @@
     },
     "currencies": [
       {
-        "coinDenom": "COREUM",
+        "coinDenom": "TESTCORE",
         "coinMinimalDenom": "utestcore",
         "coinDecimals": 6,
         "coinGeckoId": "coreum"
@@ -30,7 +30,7 @@
     ],
     "feeCurrencies": [
       {
-        "coinDenom": "COREUM",
+        "coinDenom": "TESTCORE",
         "coinMinimalDenom": "utestcore",
         "coinDecimals": 6,
         "coinGeckoId": "coreum",
@@ -42,7 +42,7 @@
       }
     ],
     "stakeCurrency": {
-      "coinDenom": "COREUM",
+      "coinDenom": "TESTCORE",
       "coinMinimalDenom": "utestcore",
       "coinDecimals": 6,
       "coinGeckoId": "coreum"
