@@ -170,7 +170,7 @@ export const checkCurrencies = (chainInfo: ChainInfo) => {
     chainInfo.stakeCurrency &&
     !chainInfo.currencies.some(
       (currency) =>
-        currency.coinMinimalDenom === chainInfo.stakeCurrency!.coinMinimalDenom,
+        currency.coinMinimalDenom === chainInfo.stakeCurrency?.coinMinimalDenom,
     )
   ) {
     throw new Error(
