@@ -65,6 +65,12 @@
       "coinMinimalDenom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/ucorso",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/chihuahua/factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/corso.png"
+    },
+    {
+      "coinDenom": "ashHUAHUA",
+      "coinMinimalDenom": "factory/chihuahua1hplyuj2hzxd75q8686g9vm3uzrrny9ggvt8aza2csupgdp98vg2sp0e3h0/uhuahua.ash",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/chihuahua/factory/chihuahua1hplyuj2hzxd75q8686g9vm3uzrrny9ggvt8aza2csupgdp98vg2sp0e3h0/uhuahua.ash.png"
     }
   ],
   "feeCurrencies": [
