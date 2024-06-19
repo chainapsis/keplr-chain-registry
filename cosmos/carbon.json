@@ -349,5 +349,9 @@
     "coinDecimals": 8,
     "coinGeckoId": "switcheo"
   },
+  "evm": {
+    "chainId": 9790,
+    "rpc": "https://evm-api.carbon.network"
+  },
   "features": []
 }
