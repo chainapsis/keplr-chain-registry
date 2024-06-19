@@ -1,6 +1,6 @@
 {
     "chainId": "coreum-testnet-1",
-    "chainName": "Coreum",
+    "chainName": "Coreum Testnet",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/coreum-testnet/chain.png",
     "rpc": "https://full-node.testnet-1.coreum.dev:26657",
     "rest": "https://full-node.testnet-1.coreum.dev:1317",
@@ -13,7 +13,7 @@
       "coinType": 990
     },
     "bech32Config": {
-      "bech32PrefixAccAddr": "core",
+      "bech32PrefixAccAddr": "testcore",
       "bech32PrefixAccPub": "corepub",
       "bech32PrefixValAddr": "corevaloper",
       "bech32PrefixValPub": "corevaloperpub",
@@ -22,7 +22,7 @@
     },
     "currencies": [
       {
-        "coinDenom": "COREUM",
+        "coinDenom": "TESTCORE",
         "coinMinimalDenom": "utestcore",
         "coinDecimals": 6,
         "coinGeckoId": "coreum"
@@ -30,7 +30,7 @@
     ],
     "feeCurrencies": [
       {
-        "coinDenom": "COREUM",
+        "coinDenom": "TESTCORE",
         "coinMinimalDenom": "utestcore",
         "coinDecimals": 6,
         "coinGeckoId": "coreum",
@@ -42,7 +42,7 @@
       }
     ],
     "stakeCurrency": {
-      "coinDenom": "COREUM",
+      "coinDenom": "TESTCORE",
       "coinMinimalDenom": "utestcore",
       "coinDecimals": 6,
       "coinGeckoId": "coreum"
