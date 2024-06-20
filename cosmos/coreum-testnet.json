@@ -13,7 +13,7 @@
       "coinType": 990
     },
     "bech32Config": {
-      "bech32PrefixAccAddr": "testcore",
+      "bech32PrefixAccAddr": "testcoree",
       "bech32PrefixAccPub": "corepub",
       "bech32PrefixValAddr": "corevaloper",
       "bech32PrefixValPub": "corevaloperpub",
