@@ -13,12 +13,12 @@
       "coinType": 990
     },
     "bech32Config": {
-      "bech32PrefixAccAddr": "core",
-      "bech32PrefixAccPub": "corepub",
-      "bech32PrefixValAddr": "corevaloper",
-      "bech32PrefixValPub": "corevaloperpub",
-      "bech32PrefixConsAddr": "corevalcons",
-      "bech32PrefixConsPub": "corevalconspub"
+      "bech32PrefixAccAddr": "testcore",
+      "bech32PrefixAccPub": "testcorepub",
+      "bech32PrefixValAddr": "testcorevaloper",
+      "bech32PrefixValPub": "testcorevaloperpub",
+      "bech32PrefixConsAddr": "testcorevalcons",
+      "bech32PrefixConsPub": "testcorevalconspub"
     },
     "currencies": [
       {
