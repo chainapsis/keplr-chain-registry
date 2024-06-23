@@ -1,13 +1,13 @@
 {
-  "rpc": "https://rpc.testnet.iconlake.com",
-  "rest": "https://lcd.testnet.iconlake.com",
+  "rpc": "https://rpc.iconlake.com",
+  "rest": "https://lcd.iconlake.com",
   "nodeProvider": {
     "name": "iconLake",
     "email": "support@iconlake.com",
     "website": "https://iconlake.com/"
   },
-  "chainId": "iconlake-testnet-1",
-  "chainName": "iconLake Testnet",
+  "chainId": "iconlake-1",
+  "chainName": "iconLake",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iconlake/logo.png",
   "bip44": {
     "coinType": 1009
