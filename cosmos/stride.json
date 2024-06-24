@@ -125,6 +125,12 @@
       "coinMinimalDenom": "stadym",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stadym.png"
+    },
+    {
+      "coinDenom": "stISLM",
+      "coinMinimalDenom": "staISLM",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/staISLM.png"
     }
   ],
   "feeCurrencies": [
