@@ -2,8 +2,8 @@
   "chainId": "bluechip_1",
   "chainName": "BlueChip",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bluechip/bluechip.png",
-  "rpc": "http://67.218.8.88:26660/",
-  "rest": "http://67.28.8.88:1318/",
+  "rpc": "https://67.218.8.88:26660/",
+  "rest": "https://67.28.8.88:1318/",
   "nodeProvider": {
     "name": "CryptoDungeon",
     "email": "support@cryptodungeon.org",
