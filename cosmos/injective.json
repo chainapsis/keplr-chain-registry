@@ -63,6 +63,7 @@
       "coinDenom": "HDRO",
       "coinMinimalDenom": "factory/inj1etz0laas6h7vemg3qtd67jpr6lh8v7xz7gfzqw/hdro",
       "coinDecimals": 6,
+      "coinGeckoId": "injective-quants",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1etz0laas6h7vemg3qtd67jpr6lh8v7xz7gfzqw/hdro.png"
       },
     {
