@@ -33,6 +33,12 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/uusdc.png"
     },
     {
+      "coinDenom": "USDY",
+      "coinMinimalDenom": "ausdy",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/ausdy.png"
+    },
+    {
       "coinDenom": "STAKE",
       "coinMinimalDenom": "ustake",
       "coinDecimals": 6,
