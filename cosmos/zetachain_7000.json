@@ -40,5 +40,5 @@
     }
   ],
   "features": ["eth-address-gen", "eth-key-sign"],
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/passage"
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/zetachain"
 }
