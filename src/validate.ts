@@ -2,6 +2,7 @@ import sizeOf from "image-size";
 import { readFileSync } from "fs";
 import { ChainInfo } from "@keplr-wallet/types";
 import {
+  checkEvmRpcConnectivity,
   checkRestConnectivity,
   checkRPCConnectivity,
   NonRecognizableChainFeatures,
@@ -96,6 +97,10 @@ export const validateChainInfo = async (
     chainInfo.rpc,
     (url) => new WebSocket(url),
   );
+
+  if (chainInfo.evm) {
+    await checkEvmRpcConnectivity(chainInfo.evm.chainId, chainInfo.evm.rpc);
+  }
 
   // check REST alive
   if (
