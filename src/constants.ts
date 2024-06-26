@@ -42,6 +42,7 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "seda",
   "dimension_37",
   "pryzm",
+  "zetachain_7000",
 ];
 
 export const nativeTestnetChainIdentifiers: string[] = [
