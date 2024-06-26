@@ -1,0 +1,45 @@
+{
+  "chainId": "PUNDIX",
+  "chainName": "Pundi X Chain",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pundix/chain.png",
+  "rpc": "https://px-json.pundix.com",
+  "rest": "https://px-rest.pundix.com",
+  "nodeProvider": {
+    "name": "Pundi X Chain",
+    "email": "contact@pundix.com",
+    "website": "https://pundix.com/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "px",
+    "bech32PrefixAccPub": "pxpub",
+    "bech32PrefixValAddr": "pxvaloper",
+    "bech32PrefixValPub": "pxvaloperpub",
+    "bech32PrefixConsAddr": "pxvalcons",
+    "bech32PrefixConsPub": "pxvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "PURSE",
+      "coinMinimalDenom": "bsc0x29a63F4B209C29B4DC47f06FFA896F32667DAD2C",
+      "coinDecimals": 18,
+      "coinGeckoId": "pundi-x-purse",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pundix/purse-token.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "PUNDIX",
+      "coinMinimalDenom": "ibc/55367B7B6572631B78A93C66EF9FDFCE87CDE372CC4ED7848DA78C1EB1DCDD78",
+      "coinDecimals": 18,
+      "coinGeckoId": "pundi-x-2",
+      "gasPriceStep": {
+        "low": 2000000000000,
+        "average": 2500000000000,
+        "high": 3000000000000
+      }
+    }
+  ]
+}
