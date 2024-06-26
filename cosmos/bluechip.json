@@ -43,7 +43,6 @@
     "coinDenom": "BCP",
     "coinMinimalDenom": "ubluechip",
     "coinDecimals": 6,
-    "coinGeckoId": "bluechip"
   },
   "features": [
     "cosmwasm"
