@@ -1,0 +1,50 @@
+{
+	"chainId": "testnet",
+	"chainName": "allora-testnet",
+	"rpc": "https://allora-rpc.testnet.allora.network",
+	"rest": "https://allora-api.testnet.allora.network",
+	"bip44": {
+		"coinType": 118
+	},
+	"coinType": 118,
+	"bech32Config": {
+		"bech32PrefixAccAddr": "allo",
+		"bech32PrefixAccPub": "allopub",
+		"bech32PrefixValAddr": "allovaloper",
+		"bech32PrefixValPub": "allovaloperpub",
+		"bech32PrefixConsAddr": "allovalcons",
+		"bech32PrefixConsPub": "allovalconspub"
+	},
+	"currencies": [
+		{
+			"coinDenom": "ALLO",
+			"coinMinimalDenom": "uallo",
+			"coinDecimals": 18,
+			"coinGeckoId": "unknown"
+		}
+	],
+	"feeCurrencies": [
+		{
+			"coinDenom": "ALLO",
+			"coinMinimalDenom": "uallo",
+			"coinDecimals": 18,
+			"coinGeckoId": "unknown",
+			"gasPriceStep": {
+				"low": 0.01,
+				"average": 0.025,
+				"high": 0.03
+			}
+		}
+	],
+	"gasPriceStep": {
+		"low": 0.01,
+		"average": 0.025,
+		"high": 0.03
+	},
+	"stakeCurrency": {
+		"coinDenom": "ALLO",
+		"coinMinimalDenom": "uallo",
+		"coinDecimals": 18,
+		"coinGeckoId": "unknown"
+	},
+	"features": []
