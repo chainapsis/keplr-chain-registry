@@ -26,7 +26,7 @@
         "coinMinimalDenom": "uheli",
         "coinDecimals": 6,
         "coinGeckoId": "helichain",
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/heli/uheli.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/helichain/uheli.png"
       }
     ],
     "feeCurrencies": [
@@ -40,7 +40,7 @@
           "average": 0.0025,
           "high": 0.004
         },
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/heli/uheli.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/helichain/uheli.png"
       
       }
     ],
@@ -49,7 +49,7 @@
       "coinMinimalDenom": "uheli",
       "coinDecimals": 6,
       "coinGeckoId": "helichain",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/heli/uheli.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/helichain/uheli.png"
     
     },
     "features": [
