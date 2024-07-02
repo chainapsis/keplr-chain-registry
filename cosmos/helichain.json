@@ -1,7 +1,7 @@
 {
     "chainId": "helichain",
     "chainName": "HeliChain",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/heli/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/helichain/chain.png",
     "rpc": "https://rpc.helichain.com",
     "rest": "https://lcd.helichain.com",
     "nodeProvider": {
