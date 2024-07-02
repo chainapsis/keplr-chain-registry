@@ -59,6 +59,12 @@
       "coinDecimals": 6,
       "coinGeckoId": "nami-protocol",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/factory/kujira13x2l25mpkhwnwcwdzzd34cr8fyht9jlj7xu9g4uffe36g3fmln8qkvm3qn/unami.png"
+    },
+    {
+      "coinDenom": "CORAL",
+      "coinMinimalDenom": "factory/kujira18uqsnxsvxdzg4lfz60tah2k0mdjg6scj8dxggk/CORAL",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/factory/kujira18uqsnxsvxdzg4lfz60tah2k0mdjg6scj8dxggk/CORAL.png"
     }
   ],
   "feeCurrencies": [
