@@ -62,4 +62,5 @@ export const nativeTestnetChainIdentifiers: string[] = [
   "seda-1-testnet",
   "initiation",
   "nillion-chain-testnet",
+  "athens_7001",
 ];
