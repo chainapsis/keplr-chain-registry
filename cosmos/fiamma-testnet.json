@@ -22,16 +22,16 @@
     },
     "currencies": [
       {
-        "coinDenom": "FIM",
-        "coinMinimalDenom": "ufim",
+        "coinDenom": "FIA",
+        "coinMinimalDenom": "ufia",
         "coinDecimals": 6,
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fiamma-testnet/chain.png"
       }
     ],
     "feeCurrencies": [
       {
-        "coinDenom": "FIM",
-        "coinMinimalDenom": "ufim",
+        "coinDenom": "FIA",
+        "coinMinimalDenom": "ufia",
         "coinDecimals": 6,
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fiamma-testnet/chain.png",
         "gasPriceStep": {
@@ -42,8 +42,8 @@
       }
     ],
     "stakeCurrency": {
-      "coinDenom": "FIM",
-      "coinMinimalDenom": "ufim",
+      "coinDenom": "FIA",
+      "coinMinimalDenom": "ufia",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fiamma-testnet/chain.png"
     },
