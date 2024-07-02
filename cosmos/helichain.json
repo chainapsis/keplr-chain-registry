@@ -1,0 +1,59 @@
+{
+    "chainId": "helichain",
+    "chainName": "HeliChain",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/helichain/chain.png",
+    "rpc": "https://rpc.helichain.com",
+    "rest": "https://lcd.helichain.com",
+    "nodeProvider": {
+      "name": "HeliChain",
+      "email": "support@helichain.com",
+      "website":"https://helichain.com/"
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "heli",
+      "bech32PrefixAccPub": "helipub",
+      "bech32PrefixValAddr": "helivaloper",
+      "bech32PrefixValPub": "helivaloperpub",
+      "bech32PrefixConsAddr": "helivalcons",
+      "bech32PrefixConsPub": "helivalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "HELI",
+        "coinMinimalDenom": "uheli",
+        "coinDecimals": 6,
+        "coinGeckoId": "helichain",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/helichain/uheli.png"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "HELI",
+        "coinMinimalDenom": "uheli",
+        "coinDecimals": 6,
+        "coinGeckoId": "helichain",
+        "gasPriceStep": {
+          "low": 0.001,
+          "average": 0.0025,
+          "high": 0.004
+        },
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/helichain/uheli.png"
+      
+      }
+    ],
+    "stakeCurrency": {
+      "coinDenom": "HELI",
+      "coinMinimalDenom": "uheli",
+      "coinDecimals": 6,
+      "coinGeckoId": "helichain",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/helichain/uheli.png"
+    
+    },
+    "features": [
+      "cosmwasm"
+    ],
+    "walletUrlForStaking": "https://explorer.helichain.com/Helichain/"
+}
