@@ -51,19 +51,34 @@
       "coinDenom": "ATOM",
       "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
       "coinDecimals": 6,
-      "coinGeckoId": "cosmos"
+      "coinGeckoId": "cosmos",
+      "gasPriceStep": {
+        "low": 0.0025,
+        "average": 0.003,
+        "high": 0.004
+      }
     },
     {
       "coinDenom": "OSMO",
       "coinMinimalDenom": "ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B",
       "coinDecimals": 6,
-      "coinGeckoId": "osmosis"
+      "coinGeckoId": "osmosis",
+      "gasPriceStep": {
+        "low": 0.025,
+        "average": 0.03,
+        "high": 0.04
+      }
     },
     {
       "coinDenom": "INJ",
       "coinMinimalDenom": "ibc/DE63D8AC34B752FB7D4CAA7594145EDE1C9FC256AC6D4043D0F12310EB8FC255",
       "coinDecimals": 18,
-      "coinGeckoId": "injective-protocol"
+      "coinGeckoId": "injective-protocol",
+      "gasPriceStep": {
+        "low": 500000000,
+        "average": 600000000,
+        "high": 700000000
+      }
     },
     {
       "coinDenom": "TIA",
