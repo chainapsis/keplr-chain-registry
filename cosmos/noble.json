@@ -24,6 +24,13 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/uusdc.png"
     },
     {
+      "coinDenom": "USDY",
+      "coinMinimalDenom": "ausdy",
+      "coinDecimals": 18,
+      "coinGeckoId": "ondo-us-dollar-yield",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/ausdy.png"
+    },
+    {
       "coinDenom": "FRNZ",
       "coinMinimalDenom": "ufrienzies",
       "coinDecimals": 6,
