@@ -1,6 +1,6 @@
 {
   "chainId": "empe-testnet-2",
-  "chainName": "Empe",
+  "chainName": "Empe Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/empe/empe.png",
   "rpc": "https://rpc-testnet.empe.io/",
   "rest": "https://lcd-testnet.empe.io/",
