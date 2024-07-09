@@ -3,12 +3,12 @@
   "rest": "https://lcd-beta1.turablockchain.com",
   "chainId": "mainnet-tura",
   "chainName": "Tura",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/agoric/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mainnet-tura/chain.png",
   "stakeCurrency": {
     "coinDenom": "TURA",
     "coinMinimalDenom": "utura",
     "coinDecimals": 8,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/agoric/utura.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mainnet-tura/utura.png"
   },
   "nodeProvider": {
     "name": "TuraBlockchain",
@@ -31,7 +31,7 @@
       "coinDenom": "TURA",
       "coinMinimalDenom": "utura",
       "coinDecimals": 8,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/agoric/utura.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mainnet-tura/utura.png"
     },
     {
       "coinDenom": "TAGS",
@@ -44,7 +44,7 @@
       "coinDenom": "TURA",
       "coinMinimalDenom": "utura",
       "coinDecimals": 8,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/agoric/utura.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mainnet-tura/utura.png",
       "gasPriceStep": {
         "low": 0.01,
         "average": 0.025,
