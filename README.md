@@ -133,9 +133,9 @@ Here’s an overview of the structure of the directory. Please provide the infor
 - walletUrlForStaking(optional): the URL where the users are directed when they click on Staking button of the Keplr Wallet
 - bip44: BIP-44 coin type (118 highly recommended)
 - bech32Config: prefix used at the beginning of the address
-- currencies: the list of the supported currencies
+- currencies: the list of the supported currencies. If your chain uses replicated security, please place your main native token at the top of the currencies list.
 - feeCurrencies: the list of the tokens that are accepted by the validators for fees
-- stakeCurrency: the staking token of the chain
+- stakeCurrency: the staking token of the chain. Remove this item  if your chain does not support native staking (e.g. your chain uses replicated security) or does not have a staking token.
 - coinGeckoId(optional): the active API ID for Keplr to get the price from CoinGecko
 - features: any other features that are additionally supported by the chain
     - cosmwasm: supports CosmWasm smart contracts
