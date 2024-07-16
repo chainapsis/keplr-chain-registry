@@ -13,6 +13,11 @@
   "chainId": "mutelandia1",
   "chainName": "Mutelandia Network",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mutelandia1/chain.png",
+  "nodeProvider": {
+    "name": "Mutelandia",
+    "email": "mutecoin@proton.me",
+    "website":"https://app.mutelandia.xyz"
+  },
   "currencies": [
     {
       "coinDecimals": 6,
