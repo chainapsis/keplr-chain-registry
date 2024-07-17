@@ -44,6 +44,8 @@
   "rest": "https://api.mutelandia.xyz/",
   "stakeCurrency": {
     "coinDecimals": 6,
-    "coinDenom": "MUTE"
+    "coinDenom": "MUTE",
+    "coinMinimalDenom": "umute",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mutelandia1/chain.png"
   }
 }
