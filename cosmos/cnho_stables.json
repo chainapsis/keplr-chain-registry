@@ -1,5 +1,5 @@
 {
-  "rpc": "https://rpc.cnho.io",
+  "rpc": "https://159.138.232.248",
   "rest": "https://api.cnho.io",
   "nodeProvider": {
     "name": "CNHO",
