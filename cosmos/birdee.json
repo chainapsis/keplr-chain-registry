@@ -5,6 +5,11 @@
   "chainName": "Tucana Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tucana/chain.png",
   "walletUrlForStaking": "https://testnet.keplr.app/chains/tucana",
+  "nodeProvider": {
+    "name": "Tucana",
+    "email": "infra@tucana.zone",
+    "website":"https://tucana.zone"
+  },
   "bip44": {
     "coinType": 118
   },
@@ -20,14 +25,14 @@
     "coinDecimals": 6,
     "coinDenom": "TUC",
     "coinMinimalDenom": "utuc",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tucana/tucana.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tucana/chain.png"
   },
   "currencies": [
     {
       "coinDecimals": 6,
       "coinDenom": "TUC",
       "coinMinimalDenom": "utuc",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tucana/tucana.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tucana/chain.png"
     }
   ],
   "feeCurrencies": [
@@ -35,7 +40,7 @@
       "coinDenom": "TUC",
       "coinMinimalDenom": "utuc",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tucana/tucana.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tucana/chain.png",
       "gasPriceStep": {
         "low": 0.15,
         "average": 0.3,
