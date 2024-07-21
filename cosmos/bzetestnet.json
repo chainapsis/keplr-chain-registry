@@ -40,7 +40,7 @@
       "coinMinimalDenom": "factory/testbz1z3mkcr2jz424w6m49frgjmy9uhlrx69p4cvrgf/vidulum",
       "coinDecimals": 6,
       "coinGeckoId": "vidulum",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/beezee/factory/bze13gzq40che93tgfm9kzmkpjamah5nj0j73pyhqk/uvdl.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bzetestnet/factory/testbz1z3mkcr2jz424w6m49frgjmy9uhlrx69p4cvrgf/vidulum.png"
     }
   ],
   "feeCurrencies": [{
