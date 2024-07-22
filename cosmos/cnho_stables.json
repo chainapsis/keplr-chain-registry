@@ -44,8 +44,8 @@
  
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cnho_stables/chain.png",
       "gasPriceStep": {
-        "low": 0.005,
-        "average": 0.01,
+        "low": 0.000005,
+        "average": 0.00001,
         "high": 0.02
       }
     }
