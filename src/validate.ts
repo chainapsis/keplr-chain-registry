@@ -265,6 +265,9 @@ const checkCoinGeckoIds = async (...coinGeckoIds: string[]) => {
     `${priceURL}?vs_currencies=usd&ids=${coinGeckoIds.join(",")}`,
   );
 
+  console.log(priceURL, coinGeckoIds.join(","));
+  console.log(response);
+
   if (!response.ok) {
     throw new Error(`Failed to fetch coinGeckoId ${coinGeckoIds.join(", ")}`);
   }
