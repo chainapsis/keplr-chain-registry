@@ -1,5 +1,5 @@
 import { readdirSync } from "fs";
-import { validateChainInfoFromPath } from "./validate";
+import { validateCosmosChainInfoFromPath } from "./validate";
 import * as core from "@actions/core";
 
 const main = async () => {
@@ -15,7 +15,7 @@ const main = async () => {
   )[] = await Promise.all(
     jsonFiles.map(async (file) => {
       try {
-        await validateChainInfoFromPath(`cosmos/${file}`);
+        await validateCosmosChainInfoFromPath(`cosmos/${file}`);
       } catch (e) {
         return {
           file,
