@@ -32,5 +32,5 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:81457/blast-native.png"
     }
   ],
-  "features": ["eth-address-gen", "eth-key-sign", "op-stack-l1-data-fee"]
+  "features": []
 }

@@ -32,5 +32,5 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:42161/arbitrum-native.png"
     }
   ],
-  "features": ["eth-address-gen", "eth-key-sign"]
+  "features": []
 }

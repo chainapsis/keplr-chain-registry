@@ -26,7 +26,7 @@
   "feeCurrencies": [
     {
       "coinDenom": "AVAX",
-      "coinMinimalDenom": "wei",
+      "coinMinimalDenom": "avalanche-native",
       "coinDecimals": 18,
       "coinGeckoId": "avalanche-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:43114/avalanche-native.png"
