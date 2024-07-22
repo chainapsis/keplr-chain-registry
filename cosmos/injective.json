@@ -87,7 +87,7 @@
     },
     {
       "coinDenom": "SYN",
-      "coinDecimals": 18,
+      "coinDecimals": 6,
       "coinMinimalDenom": "factory/inj1a6xdezq7a94qwamec6n6cnup02nvewvjtz6h6e/SYN",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1a6xdezq7a94qwamec6n6cnup02nvewvjtz6h6e/SYN.png"
     }
