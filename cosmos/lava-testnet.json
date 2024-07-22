@@ -27,7 +27,6 @@
       "coinDenom": "LAVA",
       "coinMinimalDenom": "ulava",
       "coinDecimals": 6,
-      "coinGeckoId": "lava-network",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lava/ulava.png"
     }
   ],
@@ -36,7 +35,6 @@
       "coinDenom": "LAVA",
       "coinMinimalDenom": "ulava",
       "coinDecimals": 6,
-      "coinGeckoId": "lava-network",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lava/ulava.png",
       "gasPriceStep": {
         "low": 0.00002,
