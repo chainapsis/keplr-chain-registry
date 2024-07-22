@@ -43,6 +43,7 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "dimension_37",
   "pryzm",
   "zetachain_7000",
+  "eip155:1",
 ];
 
 export const nativeTestnetChainIdentifiers: string[] = [
