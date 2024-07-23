@@ -38,5 +38,3 @@ jobs:
               yarn ts-node src/index.ts $file
             fi
           done
-        env:
-          PRICE_URL: ${{ secrets.PRICE_URL }}

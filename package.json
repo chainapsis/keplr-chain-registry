@@ -14,8 +14,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "build:server": "tsc -p ./server/tsconfig.json && mkdir -p ./server/build/static && cp -r ./cosmos ./server/build/static",
-    "bundle:server": "rm -rf ./server/bundle && esbuild ./server/src/index.ts --bundle --minify --sourcemap --platform=node --target=node18 --outdir=./server/bundle && mkdir -p ./server/bundle/static && cp -r ./cosmos ./server/bundle/static",
+    "build:server": "tsc -p ./server/tsconfig.json && mkdir -p ./server/build/static && cp -r ./cosmos ./server/build/static && cp -r ./evm ./server/build/static",
+    "bundle:server": "rm -rf ./server/bundle && esbuild ./server/src/index.ts --bundle --minify --sourcemap --platform=node --target=node18 --outdir=./server/bundle && mkdir -p ./server/bundle/static && cp -r ./cosmos ./server/bundle/static && cp -r ./evm ./server/bundle/static",
     "bundle:zip": "cd ./server && zip -r ../bundle.zip ./bundle"
   },
   "pre-commit": [

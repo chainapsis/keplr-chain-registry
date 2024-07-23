@@ -260,7 +260,7 @@ export const checkImageSize = (path: string) => {
 
 const checkCoinGeckoIds = async (...coinGeckoIds: string[]) => {
   const priceURL =
-    process.env.PRICE_URL ?? "https://api.coingecko.com/api/v3/simple/price";
+    process.env.PRICE_URL || "https://api.coingecko.com/api/v3/simple/price";
   const response = await fetch(
     `${priceURL}?vs_currencies=usd&ids=${coinGeckoIds.join(",")}`,
   );
