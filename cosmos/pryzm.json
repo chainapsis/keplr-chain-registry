@@ -112,6 +112,36 @@
         "average": 0.03,
         "high": 0.04
       }
+    },
+    {
+      "coinDenom": "DYDX",
+      "coinMinimalDenom": "ibc/F8CA5236869F819BC006EEF088E67889A26E4140339757878F0F4E229CDDA858",
+      "coinDecimals": 18,
+      "gasPriceStep": {
+        "low": 10000000000,
+        "average": 12000000000,
+        "high": 14000000000
+      }
+    },
+    {
+      "coinDenom": "stTIA",
+      "coinMinimalDenom": "ibc/FA78980867B7E87F382CDA00275C55DDC248CABC7DEE27AC6868CCF97DD5E02F",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.002,
+        "average": 0.003,
+        "high": 0.004
+      }
+    },
+    {
+      "coinDenom": "stDYDX",
+      "coinMinimalDenom": "ibc/120DC39B61CC121E91525C1D51624E41BBE74C537D7B0BE50BBFF9A00E37B6EE",
+      "coinDecimals": 18,
+      "gasPriceStep": {
+        "low": 10000000000,
+        "average": 12000000000,
+        "high": 14000000000
+      }
     }
   ],
   "features": [
