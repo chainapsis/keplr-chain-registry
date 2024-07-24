@@ -278,7 +278,7 @@ const checkCoinGeckoIds = async (...coinGeckoIds: string[]) => {
   for (const coinGeckoId of coinGeckoIds) {
     if (data[coinGeckoId] == null || data[coinGeckoId]["usd"] == null) {
       throw new Error(
-        `Failed to fetch coinGeckoId ${coinGeckoId} from coin gecko`,
+        `Failed to fetch coinGeckoId ${coinGeckoId} from coingecko`,
       );
     }
   }
