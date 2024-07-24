@@ -11,7 +11,6 @@
     "coinGeckoId": "lava-network",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lava/ulava.png"
   },
-  "walletUrl": "https://lavanet.xyz",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/lava",
   "bip44": {
     "coinType": 118
