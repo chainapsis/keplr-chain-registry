@@ -131,6 +131,12 @@
       "coinMinimalDenom": "staISLM",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/staISLM.png"
+    },
+    {
+      "coinDenom": "stBAND",
+      "coinMinimalDenom": "stuband",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stuband.png"
     }
   ],
   "feeCurrencies": [
