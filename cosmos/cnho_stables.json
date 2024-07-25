@@ -46,7 +46,7 @@
       "gasPriceStep": {
         "low": 0.000005,
         "average": 0.00001,
-        "high": 0.02
+        "high": 0.025
       }
     }
   ],
