@@ -4,6 +4,10 @@
   "chainId": "eip155:80084",
   "chainName": "Berachain bArtio Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80084/chain.png",
+  "nodeProvider": {
+    "name": "Berachain",
+    "website": "https://berachain.com"
+  },
   "bip44": {
     "coinType": 60
   },
