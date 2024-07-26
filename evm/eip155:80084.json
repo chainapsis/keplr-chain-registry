@@ -12,21 +12,18 @@
       "coinDenom": "BERA",
       "coinMinimalDenom": "berachain-native",
       "coinDecimals": 18,
-      "coinGeckoId": "bera-coin",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80084/berachain-native.png"
     },
     {
       "coinDenom": "BGT",
       "coinMinimalDenom": "erc20:0xbDa130737BDd9618301681329bF2e46A016ff9Ad",
       "coinDecimals": 18,
-      "coinGeckoId": "bgt-coin",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80084/erc20/0xbDa130737BDd9618301681329bF2e46A016ff9Ad.png"
     },
     {
       "coinDenom": "HONEY",
       "coinMinimalDenom": "erc20:0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03",
       "coinDecimals": 18,
-      "coinGeckoId": "honey-coin",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80084/erc20/0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03.png"
     }
   ],
@@ -35,7 +32,6 @@
       "coinDenom": "BERA",
       "coinMinimalDenom": "berachain-native",
       "coinDecimals": 18,
-      "coinGeckoId": "bera-coin",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80084/berachain-native.png"
     }
   ],
