@@ -99,6 +99,12 @@ export const validateCosmosChainInfo = async (
   );
 
   if (chainInfo.evm) {
+    if (chainInfo.evm.chainId === 1329) {
+      throw new Error(
+        "Cannot set `evm` field for Sei chain. There is a config of EVM version of Sei chain in /evm/eip155:1329.json",
+      );
+    }
+
     await checkEvmRpcConnectivity(chainInfo.evm.chainId, chainInfo.evm.rpc);
   }
 
