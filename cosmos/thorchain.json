@@ -2,8 +2,8 @@
   "chainId": "thorchain",
   "chainName": "THORChain",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/chain.png",
-  "rpc": "https://v1.cosmos.network/rpc/v0.45.1",
-  "rest": "https://thornode.thorchain.info",
+  "rpc": "https://thornode-v1.ninerealms.com/",
+  "rest": "https://thornode.ninerealms.com/thorchain/",
   "nodeProvider": {
     "name": "THORChain",
     "email": "dev@thorchain.org",
