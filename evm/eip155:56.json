@@ -28,6 +28,13 @@
       "coinDecimals": 18,
       "coinGeckoId": "weth",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:56/erc20/0x2170ed0880ac9a755fd29b2688956bd959f933f8.png"
+    },
+    {
+      "coinDenom": "USDT",
+      "coinMinimalDenom": "erc20:0x55d398326f99059fF775485246999027B3197955",
+      "coinDecimals": 6,
+      "coinGeckoId": "tether",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:56/erc20/0x55d398326f99059fF775485246999027B3197955.png"
     }
   ],
   "feeCurrencies": [
