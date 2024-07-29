@@ -1,9 +1,9 @@
 {
-  "chainId": "thorchain",
+  "chainId": "thorchain-mainnet-v1",
   "chainName": "THORChain",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/chain.png",
-  "rpc": "https://thornode-v1.ninerealms.com/",
-  "rest": "https://thornode.ninerealms.com/thorchain/",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain-mainnet-v1/chain.png",
+  "rpc": "https://rpc.ninerealms.com:443",
+  "rest": "https://thornode.ninerealms.com/",
   "nodeProvider": {
     "name": "THORChain",
     "email": "dev@thorchain.org",
@@ -26,7 +26,7 @@
       "coinMinimalDenom": "rune",
       "coinDecimals": 8,
       "coinGeckoId": "thorchain",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/rune.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain-mainnet-v1/rune.png"
     }
   ],
   "feeCurrencies": [
@@ -35,7 +35,7 @@
       "coinMinimalDenom": "rune",
       "coinDecimals": 8,
       "coinGeckoId": "thorchain",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/rune.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain-mainnet-v1/rune.png",
       "gasPriceStep": {
         "low": 0.01,
         "average": 0.025,
@@ -48,7 +48,7 @@
     "coinMinimalDenom": "rune",
     "coinDecimals": 8,
     "coinGeckoId": "thorchain",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/rune.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain-mainnet-v1/rune.png"
   },
   "features": []
 }
