@@ -21,6 +21,13 @@
       "coinDecimals": 18,
       "coinGeckoId": "usdb",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:81457/erc20/0x4300000000000000000000000000000000000003.png"
+    },
+    {
+      "coinDenom": "WETH",
+      "coinMinimalDenom": "erc20:0x4300000000000000000000000000000000000004",
+      "coinDecimals": 18,
+      "coinGeckoId": "weth",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:81457/erc20/0x4300000000000000000000000000000000000004.png"
     }
   ],
   "feeCurrencies": [
