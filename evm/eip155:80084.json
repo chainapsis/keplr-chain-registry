@@ -6,7 +6,8 @@
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80084/chain.png",
   "nodeProvider": {
     "name": "Berachain",
-    "website": "https://berachain.com"
+    "website": "https://berachain.com",
+    "discord": "https://discord.com/invite/berachain"
   },
   "bip44": {
     "coinType": 60
