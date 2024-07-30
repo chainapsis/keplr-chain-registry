@@ -7,7 +7,7 @@
   },
   "chainId": "eip155:9790",
   "chainName": "Carbon EVM",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/carbon/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:9790/chain.png",
   "bip44": {
     "coinType": 60
   },
