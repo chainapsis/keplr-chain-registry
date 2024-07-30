@@ -18,7 +18,7 @@
     {
       "coinDenom": "USDC",
       "coinMinimalDenom": "erc20:0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
-      "coinDecimals": 6,
+      "coinDecimals": 18,
       "coinGeckoId": "usd-coin",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:56/erc20/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
     },
