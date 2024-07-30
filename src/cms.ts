@@ -77,7 +77,7 @@ const main = async () => {
                   .replace(/(\ |\.)/g, "-"),
                 "chain-identifier": chainIdentifier,
                 token: chainInfo.currencies[0].coinDenom,
-                "short-address": chainInfo.bech32Config.bech32PrefixAccAddr,
+                "short-address": chainInfo.bech32Config?.bech32PrefixAccAddr,
                 label: {
                   url: chainInfo?.chainSymbolImageUrl,
                 },
@@ -103,7 +103,7 @@ const main = async () => {
                 name: chainInfo.chainName,
                 "chain-identifier": chainIdentifier,
                 token: chainInfo.currencies[0].coinDenom,
-                "short-address": chainInfo.bech32Config.bech32PrefixAccAddr,
+                "short-address": chainInfo.bech32Config?.bech32PrefixAccAddr,
                 label: {
                   url: chainInfo?.chainSymbolImageUrl,
                 },
