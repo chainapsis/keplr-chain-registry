@@ -1,0 +1,51 @@
+{
+  "rpc": "https://lava.tendermintrpc.lava.build",
+  "rest": "https://lava.rest.lava.build",
+  "chainId": "lava-mainnet-1",
+  "chainName": "Lava",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lava-mainnet/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "LAVA",
+    "coinMinimalDenom": "ulava",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lava-mainnet/ulava.png"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "lava@",
+    "bech32PrefixAccPub": "lava@pub",
+    "bech32PrefixValAddr": "lava@valoper",
+    "bech32PrefixValPub": "lava@valoperpub",
+    "bech32PrefixConsAddr": "lava@valcons",
+    "bech32PrefixConsPub": "lava@valconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "LAVA",
+      "coinMinimalDenom": "ulava",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lava-mainnet/ulava.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "LAVA",
+      "coinMinimalDenom": "ulava",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lava-mainnet/ulava.png",
+      "gasPriceStep": {
+        "low": 0.00002,
+        "average": 0.025,
+        "high": 0.05
+      }
+    }
+  ],
+  "features": [],
+  "nodeProvider": {
+    "name": "Lava",
+    "website": "https://www.lavanet.xyz/",
+    "email": "amir@lava.foundation"
+  }
+}
