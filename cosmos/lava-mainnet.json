@@ -1,6 +1,6 @@
 {
-  "rpc": "https://lava.tendermintrpc.lava.build",
-  "rest": "https://lava.rest.lava.build",
+  "rpc": "https://rpc-lava.keplr.app",
+  "rest": "https://lcd-lava.keplr.app",
   "chainId": "lava-mainnet-1",
   "chainName": "Lava",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lava-mainnet/chain.png",
@@ -46,9 +46,5 @@
     }
   ],
   "features": [],
-  "nodeProvider": {
-    "name": "Lava",
-    "website": "https://www.lavanet.xyz/",
-    "email": "amir@lava.foundation"
-  }
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/lava"
 }
