@@ -1,6 +1,5 @@
 {
   "rpc": "https://bartio.rpc.berachain.com",
-  "websocket": "",
   "chainId": "eip155:80084",
   "chainName": "Berachain bArtio Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80084/chain.png",
