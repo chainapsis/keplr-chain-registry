@@ -1,0 +1,36 @@
+{
+  "rpc": "https://evm-1.keplr.app",
+  "websocket": "wss://evm-1.keplr.app/websocket",
+  "chainId": "eip155:1",
+  "chainName": "Ethereum",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "ETH",
+      "coinMinimalDenom": "ethereum-native",
+      "coinDecimals": 18,
+      "coinGeckoId": "ethereum",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/ethereum-native.png"
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "erc20:0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/erc20/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ETH",
+      "coinMinimalDenom": "ethereum-native",
+      "coinDecimals": 18,
+      "coinGeckoId": "ethereum",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/ethereum-native.png"
+    }
+  ],
+  "features": []
+}

@@ -1,13 +1,13 @@
 {
-    "rpc": "https://rpc-composable-ia.cosmosia.notional.ventures",
-    "rest": "https://api-composable-ia.cosmosia.notional.ventures",
+    "rpc": "https://composable-rpc.lavenderfive.com:443",
+    "rest": "https://composable-api.lavenderfive.com:443",
     "nodeProvider": {
-      "name": "Notional",
-      "email": "contact@notional.ventures",
-      "website": "https://notional.ventures/"
+      "name": "Lavender.Five Nodes",
+      "email": "hello@lavenderfive.com",
+      "website": "https://lavenderfive.com/"
     },
     "chainId": "centauri-1",
-    "chainName": "Composable",
+    "chainName": "Picasso",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/chain.png",
     "stakeCurrency": {
       "coinDenom": "PICA",
@@ -20,12 +20,12 @@
       "coinType": 118
     },
     "bech32Config": {
-      "bech32PrefixAccAddr": "centauri",
-      "bech32PrefixAccPub": "centauripub",
-      "bech32PrefixValAddr": "centaurivaloper",
-      "bech32PrefixValPub": "centaurivaloperpub",
-      "bech32PrefixConsAddr": "centaurivalcons",
-      "bech32PrefixConsPub": "centaurivalconspub"
+      "bech32PrefixAccAddr": "pica",
+      "bech32PrefixAccPub": "picapub",
+      "bech32PrefixValAddr": "picavaloper",
+      "bech32PrefixValPub": "picavaloperpub",
+      "bech32PrefixConsAddr": "picavalcons",
+      "bech32PrefixConsPub": "picavalconspub"
     },
     "currencies": [
       {
@@ -48,6 +48,153 @@
         "coinDecimals": 10,
         "coinGeckoId": "polkadot",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/dot.png"
+      },
+      {
+        "coinDenom": "ETH",
+        "coinMinimalDenom": "ibc/F9D075D4079FC56A9C49B601E54A45292C319D8B0E8CC0F8439041130AA7166C",
+        "coinDecimals": 18,
+        "coinGeckoId": "ethereum",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/eth.png"
+      },
+      {
+        "coinDenom": "DAI",
+        "coinMinimalDenom": "ibc/A342F6F8D1CDE1D934C50E8EAFF91E813D971E1BFEED7E557F1674E01004A533",
+        "coinDecimals": 18,
+        "coinGeckoId": "dai",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/dai.png"
+      },
+      {
+        "coinDenom": "FXS",
+        "coinMinimalDenom": "ibc/5F9BE030FC355733EC79307409FA98398BBFC747C9430B326C144A74F6808B29",
+        "coinDecimals": 18,
+        "coinGeckoId": "frax-share",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/fxs.png"
+      },
+      {
+        "coinDenom": "FRAX",
+        "coinMinimalDenom": "ibc/4F20D68B51ED559F99C3CD658383E91F45486D884BF546E7B25337A058562CDB",
+        "coinDecimals": 18,
+        "coinGeckoId": "frax",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/frax.png"
+      },
+      {
+        "coinDenom": "frxETH",
+        "coinMinimalDenom": "ibc/458032E654E41DB91EF98F13E2CE4F9E0FE86BA3E0CDBEC074A854E9F5229A90",
+        "coinDecimals": 18,
+        "coinGeckoId": "frax-ether",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/frxeth.png"
+      },
+      {
+        "coinDenom": "sfrxETH",
+        "coinMinimalDenom": "ibc/4E0ECE7819D77B0F2B49F5C34B5E594A02D2BA8B1B0F103208F847B53EBFB69A",
+        "coinDecimals": 18,
+        "coinGeckoId": "staked-frax-ether",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/sfrxeth.png"
+      },
+      {
+        "coinDenom": "sFRAX",
+        "coinMinimalDenom": "ibc/5BD7F23FE150D9CF3BCC944DB829380BCC51A4022A131151C4D13B3AFAC2D1D9",
+        "coinDecimals": 18,
+        "coinGeckoId": "staked-frax",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/sfrax.png"
+      },
+      {
+        "coinDenom": "USDT",
+        "coinMinimalDenom": "ibc/37CC704EA53E96AB09A9C31D79142DE7DB252420F3AB18015F9870AE219947BD",
+        "coinDecimals": 6,
+        "coinGeckoId": "tether",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/usdt.png"
+      },
+      {
+        "coinDenom": "USDe",
+        "coinMinimalDenom": "ibc/FFD9EB71B4480ED4D73F7370A2AEBDB48447A0AAE27265F8060A957F0FF71983",
+        "coinDecimals": 18,
+        "coinGeckoId": "ethena-usde",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/usde.png"
+      },
+      {
+        "coinDenom": "ENA",
+        "coinMinimalDenom": "ibc/B089810D5A6316AD5E9C7808733DC4AB11C7BA3033221D28711FC7206BACB929",
+        "coinDecimals": 18,
+        "coinGeckoId": "ethena",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/ena.png"
+      },
+      {
+        "coinDenom": "wSOL",
+        "coinMinimalDenom": "ibc/2CC39C8141F257EBBA250F65B9D0F31DC8D153C225E51EC192DE6E3F65D43F0C",
+        "coinDecimals": 9,
+        "coinGeckoId": "solana",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/sol.png"
+      },
+      {
+        "coinDenom": "mSOL",
+        "coinMinimalDenom": "ibc/C280CB39B97E7CD33A0BF149CFD392C2A3F95FF896AFF89CFF2FA181479BED8D",
+        "coinDecimals": 9,
+        "coinGeckoId": "msol",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/msol.png"
+      },
+      {
+        "coinDenom": "jitoSOL",
+        "coinMinimalDenom": "ibc/91A2FE07F8BDFC0552B1C9972FCCBF2CFD067DDE5F496D81E5132CE57762B0F2",
+        "coinDecimals": 9,
+        "coinGeckoId": "jito-staked-sol",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/jitosol.png"
+      },
+      {
+        "coinDenom": "bSOL",
+        "coinMinimalDenom": "ibc/F52A71607B3AA7BBA8A222A9176E9939E92AB3656A094289CD218907D45DB716",
+        "coinDecimals": 9,
+        "coinGeckoId": "blazestake-staked-sol",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/bsol.png"
+      },
+      {
+        "coinDenom": "LST",
+        "coinMinimalDenom": "ibc/55F5B582483FEFA5422794292B079B4D49A5BAB9881E7C801F9F271F1D234F1D",
+        "coinDecimals": 9,
+        "coinGeckoId": "liquid-staking-token",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/lst.png"
+      },
+      {
+        "coinDenom": "edgeSOL",
+        "coinMinimalDenom": "ibc/BADB5950C4A81AC201696EBCB33CD295137FA86F0AA620CDDE946D3700E0208C",
+        "coinDecimals": 9,
+        "coinGeckoId": "edgevana-staked-sol",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/edgesol.png"
+      },
+      {
+        "coinDenom": "hSOL",
+        "coinMinimalDenom": "ibc/531C52D572698BCBA29F44D959E73CD2148EE6542A3118F9E56621A28E1FF4C6",
+        "coinDecimals": 9,
+        "coinGeckoId": "helius-staked-sol",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/hsol.png"
+      },
+      {
+        "coinDenom": "jupSOL",
+        "coinMinimalDenom": "ibc/6976998E24F1CFC373A9F799C9CE901F5EC32C3E33B2B09384A05774D9339626",
+        "coinDecimals": 9,
+        "coinGeckoId": "jupiter-staked-sol",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/jupsol.png"
+      },
+      {
+        "coinDenom": "WIF",
+        "coinMinimalDenom": "ibc/BA34EAA22BBDA46C228DC70E4ED7E42A0867D5B051D625F953CC7B1CEF58C071",
+        "coinDecimals": 6,
+        "coinGeckoId": "dogwifcoin",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/wif.png"
+      },
+      {
+        "coinDenom": "BONK",
+        "coinMinimalDenom": "ibc/A09E5A2B0DE6CB5E8EC67F1662C7EE4202CEC192923DA1D4FCAEA078B4FCF5AC",
+        "coinDecimals": 5,
+        "coinGeckoId": "bonk",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/bonk.png"
+      },
+      {
+        "coinDenom": "USDT",
+        "coinMinimalDenom": "ibc/D105950618E47CA2AEC314282BC401625025F80A4F812808DEEBB1941C685575",
+        "coinDecimals": 6,
+        "coinGeckoId": "tether",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/centauri/usdt.png"
       }
     ],
     "feeCurrencies": [

@@ -34,11 +34,37 @@
       "coinDecimals": 6,
       "coinGeckoId": "usk"
     },
-     {
+    {
       "coinDenom": "MNTA",
       "coinMinimalDenom": "factory/kujira1643jxg8wasy5cfcn7xm8rd742yeazcksqlg4d7/umnta",
       "coinDecimals": 6,
       "coinGeckoId": "mantadao"
+    },
+    {
+      "coinDenom": "bKUJI",
+      "coinMinimalDenom": "factory/kujira15e8q5wzlk5k38gjxlhse3vu6vqnafysncx2ltexd6y9gx50vuj2qpt7dgv/boneKuji",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/factory/kujira15e8q5wzlk5k38gjxlhse3vu6vqnafysncx2ltexd6y9gx50vuj2qpt7dgv/bKUJI.png"
+    },
+    {
+      "coinDenom": "AQLA",
+      "coinMinimalDenom": "factory/kujira1xe0awk5planmtsmjel5xtx2hzhqdw5p8z66yqd/uaqla",
+      "coinDecimals": 6,
+      "coinGeckoId": "aqualibre",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/factory/kujira1xe0awk5planmtsmjel5xtx2hzhqdw5p8z66yqd/AQLA.png"
+    },
+    {
+      "coinDenom": "NAMI",
+      "coinMinimalDenom": "factory/kujira13x2l25mpkhwnwcwdzzd34cr8fyht9jlj7xu9g4uffe36g3fmln8qkvm3qn/unami",
+      "coinDecimals": 6,
+      "coinGeckoId": "nami-protocol",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/factory/kujira13x2l25mpkhwnwcwdzzd34cr8fyht9jlj7xu9g4uffe36g3fmln8qkvm3qn/unami.png"
+    },
+    {
+      "coinDenom": "CORAL",
+      "coinMinimalDenom": "factory/kujira18uqsnxsvxdzg4lfz60tah2k0mdjg6scj8dxggk/CORAL",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/factory/kujira18uqsnxsvxdzg4lfz60tah2k0mdjg6scj8dxggk/CORAL.png"
     }
   ],
   "feeCurrencies": [
@@ -91,7 +117,7 @@
       "coinDecimals": 6,
       "coinGeckoId": "juno-network"
     },
-      {
+    {
       "coinDenom": "MNTA",
       "coinMinimalDenom": "factory/kujira1643jxg8wasy5cfcn7xm8rd742yeazcksqlg4d7/umnta",
       "coinDecimals": 6,
@@ -129,5 +155,7 @@
     "coinGeckoId": "kujira",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/ukuji.png"
   },
-  "features": ["cosmwasm"]
+  "features": [
+    "cosmwasm"
+  ]
 }
