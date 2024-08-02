@@ -30,7 +30,7 @@
         "coinDenom": "CMDX",
         "coinMinimalDenom": "ucmdx",
         "coinDecimals": 6,
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/comdex-test-4/chain.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/comdex-test/chain.png"
       },
       {
         "coinDenom": "CMST",
