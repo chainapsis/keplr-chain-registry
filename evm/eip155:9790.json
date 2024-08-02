@@ -5,11 +5,19 @@
     "email": "info@switcheo.network",
     "website": "https://www.switcheo.com/"
   },
-  "chainId": "eip155:9790",
+  "chainId": "9790",
   "chainName": "Carbon EVM",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:9790/chain.png",
   "bip44": {
-    "coinType": 60
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "swth",
+    "bech32PrefixAccPub": "swthpub",
+    "bech32PrefixValAddr": "swthvaloper",
+    "bech32PrefixValPub": "swthvaloperpub",
+    "bech32PrefixConsAddr": "swthvalcons",
+    "bech32PrefixConsPub": "swthvalconspub"
   },
   "currencies": [
     {
