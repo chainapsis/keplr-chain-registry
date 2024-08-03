@@ -1,13 +1,13 @@
 {
-  "chainId": "symphony-testnet-1",
+  "chainId": "symphony-testnet-2",
   "chainName": "Symphony Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/chain.png",
-  "rpc": "https://rpc.testnet.symphonychain.org",
-  "rest": "https://lcd.testnet.symphonychain.org",
+  "rpc": "https://symphony-rpc.kleomedes.network",
+  "rest": "https://symphony-api.kleomedes.network",
   "nodeProvider": {
-    "name": "Orchestra Labs",
-    "email": "dblackstone@orchestralabs.org",
-    "website": "https://www.orchestralabs.org"
+    "name": "Kleomedes",
+    "email": "marco@kleomed.es",
+    "website": "https://www.kleomed.es"
   },
   "bip44": {
     "coinType": 118
