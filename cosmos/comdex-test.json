@@ -1,9 +1,9 @@
 {
-    "rpc": "https://test3-rpc.comdex.one",
-    "rest": "https://test3-rest.comdex.one",
-    "chainId": "comdex-test3",
+    "rpc": "https://testnet-rpc.comdex.one",
+    "rest": "https://testnet-rest.comdex.one/",
+    "chainId": "comdex-test-4",
     "chainName": "Comdex Testnet",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/comdex-test3/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/comdex-test/chain.png",
     "nodeProvider": {
       "name": "Comdex Testnet Node",
       "email": "info@comdex.one",
@@ -30,7 +30,7 @@
         "coinDenom": "CMDX",
         "coinMinimalDenom": "ucmdx",
         "coinDecimals": 6,
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/comdex-test3/chain.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/comdex-test/chain.png"
       },
       {
         "coinDenom": "CMST",
@@ -57,7 +57,7 @@
       {
         "coinDenom": "ATOM",
         "coinMinimalDenom":
-          "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+          "ibc/9117A26BA81E29FA4F78F57DC2BD90CD3D26848101BA880445F119B22A1E254E",
         "coinDecimals": 6,
         "gasPriceStep": {
           "low": 0.0001,
@@ -68,7 +68,7 @@
       {
         "coinDenom": "USDC",
         "coinMinimalDenom":
-          "ibc/2658C97FC74B74AB1898982081523C455561BBE3C705E47707021D47F3D94B38",
+          "ibc/BFAAB7870A9AAABF64A7366DAAA0B8E5065EAA1FCE762F45677DC24BE796EF65",
         "coinDecimals": 6,
         "gasPriceStep": {
           "low": 0.0002,
