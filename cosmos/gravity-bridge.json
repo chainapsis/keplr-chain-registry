@@ -1,5 +1,5 @@
 {
-  "rpc": "https://gravity-rpc.staketab.org/",
+  "rpc": "https://gravity-rpc.staketab.org",
   "rest": "https://gravity-rest.staketab.org",
   "nodeProvider": {
     "name": "Staketab",
