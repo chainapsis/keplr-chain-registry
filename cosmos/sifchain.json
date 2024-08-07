@@ -1,10 +1,10 @@
 {
-  "rpc": "https://sifchain-rpc.polkachu.com",
-  "rest": "https://sifchain-api.polkachu.com",
+  "rpc": "https://sifchain.rpc.m.stavr.tech",
+  "rest": "https://sifchain.api.m.stavr.tech",
   "nodeProvider": {
-    "name": "Polkachu",
-    "email": "hello@polkachu.com",
-    "website": "https://polkachu.com"
+    "name": "STAVR",
+    "email": "stavr.tech@gmail.com ",
+    "website": "https://explorer.stavr.tech"
   },
   "chainId": "sifchain-1",
   "chainName": "Sifchain",
