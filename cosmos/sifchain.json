@@ -3,7 +3,7 @@
   "rest": "https://sifchain.api.m.stavr.tech",
   "nodeProvider": {
     "name": "STAVR",
-    "email": "stavr.tech@gmail.com ",
+    "email": "stavr.tech@gmail.com",
     "website": "https://explorer.stavr.tech"
   },
   "chainId": "sifchain-1",
