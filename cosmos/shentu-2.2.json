@@ -3,7 +3,7 @@
   "rest": "https://rest.noopsbycertik.com",
   "nodeProvider": {
     "name": "Shentu",
-    "telegram": "https://t.me/shentu_chain",
+    "discord": "https://discord.com/invite/6nfAk956NH",
     "website": "https://www.shentu.org/"
   },
   "chainId": "shentu-2.2",
