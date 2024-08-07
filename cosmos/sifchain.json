@@ -1,6 +1,11 @@
 {
-  "rpc": "https://rpc-sifchain.keplr.app",
-  "rest": "https://lcd-sifchain.keplr.app",
+  "rpc": "https://sifchain.rpc.m.stavr.tech",
+  "rest": "https://sifchain.api.m.stavr.tech",
+  "nodeProvider": {
+    "name": "STAVR",
+    "email": "stavr.tech@gmail.com",
+    "website": "https://explorer.stavr.tech"
+  },
   "chainId": "sifchain-1",
   "chainName": "Sifchain",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sifchain/chain.png",
@@ -11,8 +16,6 @@
     "coinGeckoId": "sifchain",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sifchain/rowan.png"
   },
-  "walletUrl": "https://wallet.keplr.app/chains/sifchain",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/sifchain",
   "bip44": {
     "coinType": 118
   },
