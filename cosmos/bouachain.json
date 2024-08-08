@@ -4,8 +4,6 @@
   "chainId": "bouachain",
   "chainName": "bouachain",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bouachain/chain.png",
-  "walletUrl": "https://wallet.keplr.app/chains/bouachain",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/bouachain",
   "nodeProvider": {
     "name": "BouaValidator",
     "email": "dev@bouachain.com",
