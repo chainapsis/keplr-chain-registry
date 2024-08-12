@@ -1,0 +1,31 @@
+{
+    "rpc": "https://public-en.node.kaia.io",
+    "nodeProvider": {
+      "name": "Kaia DLT Foundation",
+      "email": "contact@kaia.io",
+      "website": "https://kaia.io"
+    },
+    "chainId": "eip155:8217",
+    "chainName": "Kaia Mainnet",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:8217/chain.png",
+    "bip44": {
+      "coinType": 8217
+    },
+    "currencies": [
+        {
+          "coinDenom": "KAIA",
+          "coinMinimalDenom": "kei",
+          "coinDecimals": 18,
+          "coinGeckoId": "klay-token"
+        }
+      ],
+      "feeCurrencies": [
+        {
+          "coinDenom": "KAIA",
+          "coinMinimalDenom": "kei",
+          "coinDecimals": 18,
+          "coinGeckoId": "klay-token"
+        }
+      ],
+    "features": []
+  }

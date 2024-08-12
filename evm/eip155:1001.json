@@ -1,0 +1,31 @@
+{
+    "rpc": "https://public-en-kairos.node.kaia.io",
+    "nodeProvider": {
+      "name": "Kaia DLT Foundation",
+      "email": "contact@kaia.io",
+      "website": "https://kaia.io"
+    },
+    "chainId": "eip155:1001",
+    "chainName": "Kaia Testnet Kairos",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:8217/chain.png",
+    "bip44": {
+      "coinType": 1
+    },
+    "currencies": [
+        {
+          "coinDenom": "KAIA",
+          "coinMinimalDenom": "kei",
+          "coinDecimals": 18,
+          "coinGeckoId": "klay-token"
+        }
+      ],
+      "feeCurrencies": [
+        {
+          "coinDenom": "KAIA",
+          "coinMinimalDenom": "kei",
+          "coinDecimals": 18,
+          "coinGeckoId": "klay-token"
+        }
+      ],
+    "features": []
+  }
