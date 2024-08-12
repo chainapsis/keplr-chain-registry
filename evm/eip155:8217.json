@@ -14,7 +14,7 @@
     "currencies": [
         {
           "coinDenom": "KAIA",
-          "coinMinimalDenom": "kei",
+          "coinMinimalDenom": "kaia-native",
           "coinDecimals": 18,
           "coinGeckoId": "klay-token"
         }
@@ -22,7 +22,7 @@
       "feeCurrencies": [
         {
           "coinDenom": "KAIA",
-          "coinMinimalDenom": "kei",
+          "coinMinimalDenom": "kaia-native",
           "coinDecimals": 18,
           "coinGeckoId": "klay-token"
         }
