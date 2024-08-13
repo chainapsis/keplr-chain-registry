@@ -15,16 +15,14 @@
         {
           "coinDenom": "KAIA",
           "coinMinimalDenom": "kaia-native",
-          "coinDecimals": 18,
-          "coinGeckoId": "klay-token"
+          "coinDecimals": 18
         }
       ],
       "feeCurrencies": [
         {
           "coinDenom": "KAIA",
           "coinMinimalDenom": "kaia-native",
-          "coinDecimals": 18,
-          "coinGeckoId": "klay-token"
+          "coinDecimals": 18
         }
       ],
     "features": []
