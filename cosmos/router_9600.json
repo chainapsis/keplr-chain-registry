@@ -12,7 +12,7 @@
     "coinDenom": "ROUTE",
     "coinMinimalDenom": "route",
     "coinDecimals": 18,
-    "coinGeckoId": "route",
+    "coinGeckoId": "router-protocol-2",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/router_9600/chain.png"
   },
   "walletUrlForStaking": "https://hub.routerprotocol.com/staking",
@@ -30,7 +30,7 @@
       "coinDenom": "ROUTE",
       "coinMinimalDenom": "route",
       "coinDecimals": 18,
-      "coinGeckoId": "route",
+      "coinGeckoId": "router-protocol-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/router_9600/chain.png"
     }
   ],
@@ -39,7 +39,7 @@
       "coinDenom": "ROUTE",
       "coinMinimalDenom": "route",
       "coinDecimals": 18,
-      "coinGeckoId": "route",
+      "coinGeckoId": "router-protocol-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/router_9600/chain.png",
       "gasPriceStep": {
         "low": 5000000000,
