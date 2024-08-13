@@ -68,4 +68,5 @@ export const nativeTestnetChainIdentifiers: string[] = [
   "initiation",
   "nillion-chain-testnet",
   "athens_7001",
+  "eip155:80084",
 ];
