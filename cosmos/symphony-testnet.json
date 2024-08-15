@@ -1,13 +1,13 @@
 {
-  "chainId": "symphony-testnet-2",
+  "chainId": "symphony-testnet-3",
   "chainName": "Symphony Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/chain.png",
-  "rpc": "https://symphony-rpc.kleomedes.network",
-  "rest": "https://symphony-api.kleomedes.network",
+  "rpc": "https://rpc-symphony.vinjan.xyz",
+  "rest": "https://api-symphony.vinjan.xyz",
   "nodeProvider": {
-    "name": "Kleomedes",
-    "email": "marco@kleomed.es",
-    "website": "https://www.kleomed.es"
+    "name": "Vinjan.Inc",
+    "email": "wijaton23@gmail.com",
+    "website": "https://service.vinjan.xyz"
   },
   "bip44": {
     "coinType": 118
