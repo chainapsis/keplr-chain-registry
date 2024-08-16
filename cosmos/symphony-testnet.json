@@ -1,13 +1,13 @@
 {
-  "chainId": "symphony-testnet-2",
+  "chainId": "symphony-testnet-3",
   "chainName": "Symphony Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/chain.png",
-  "rpc": "https://symphony-rpc.kleomedes.network",
-  "rest": "https://symphony-api.kleomedes.network",
+  "rpc": "https://symphony.test.rpc.nodeshub.online/",
+  "rest": "https://symphony.test.api.nodeshub.online/",
   "nodeProvider": {
-    "name": "Kleomedes",
-    "email": "marco@kleomed.es",
-    "website": "https://www.kleomed.es"
+    "name": "Nodes Hub",
+    "email": "contact@nodeshub.online",
+    "website": "https://nodeshub.online"
   },
   "bip44": {
     "coinType": 118
