@@ -15,6 +15,7 @@
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/developer/chain.png",
   "nodeProvider": {
     "name":"Developer Network",
+    "email": "s@devtoken.xyz",
     "website":"https://devtoken.xyz"
   },
   "currencies": [
