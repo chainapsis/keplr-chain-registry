@@ -182,8 +182,8 @@
       "coinGeckoId": "stride-staked-osmo",
       "gasPriceStep": {
         "low": 0.001,
-        "average": 0.01,
-        "high": 0.1
+        "average": 0.002,
+        "high": 0.004
       }
     },
     {
@@ -193,8 +193,8 @@
       "coinGeckoId": "stride-staked-atom",
       "gasPriceStep": {
         "low": 0.0001,
-        "average": 0.001,
-        "high": 0.01
+        "average": 0.002,
+        "high": 0.005
       }
     },
     {
@@ -215,8 +215,8 @@
       "coinGeckoId": "stride-staked-injective",
       "gasPriceStep": {
         "low": 500000000,
-        "average": 500000000,
-        "high": 500000000
+        "average": 700000000,
+        "high": 900000000
       }
     },
     {
@@ -236,8 +236,8 @@
       "coinDecimals": 18,
       "gasPriceStep": {
         "low": 20000000000,
-        "average": 20000000000,
-        "high": 20000000000
+        "average": 25000000000,
+        "high": 40000000000
       }
     },
     {
@@ -258,8 +258,8 @@
       "coinGeckoId": "stride-staked-tia",
       "gasPriceStep": {
         "low": 0.01,
-        "average": 0.01,
-        "high": 0.01
+        "average": 0.02,
+        "high": 0.1
       }
     },
     {
@@ -281,7 +281,7 @@
       "gasPriceStep": {
         "low": 15000000000,
         "average": 15000000000,
-        "high": 15000000000
+        "high": 20000000000
       }
     },
     {
@@ -302,7 +302,7 @@
       "gasPriceStep": {
         "low": 15000000000,
         "average": 15000000000,
-        "high": 50000000000
+        "high": 20000000000
       }
     },
     {
@@ -311,8 +311,8 @@
       "coinDecimals": 6,
       "gasPriceStep": {
         "low": 0.01,
-        "average": 0.01,
-        "high": 0.01
+        "average": 0.015,
+        "high": 0.03
       }
     },
     {
