@@ -1,0 +1,52 @@
+{
+  "chainId": "poktroll",
+  "chainName": "Pocket Network",
+  "chainSymbolImageUrl": "https://github.com/user-attachments/assets/9a968a15-037e-432c-9a43-0230133f4896",
+  "rpc": "https://shannon-testnet-grove-seed-rpc.poktroll.com",
+  "grpc": "https://shannon-testnet-grove-seed-grpc.poktroll.com",
+  "rest": "https://shannon-testnet-grove-seed-api.poktroll.com",
+  "nodeProvider": {
+    "name": "Grove",
+    "email": "hello@grove.city",
+    "website": "https://grove.city"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "pokt",
+    "bech32PrefixAccPub": "poktpub",
+    "bech32PrefixValAddr": "poktvaloper",
+    "bech32PrefixValPub": "poktvaloperpub",
+    "bech32PrefixConsAddr": "poktvalcons",
+    "bech32PrefixConsPub": "poktvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "POKT",
+      "coinMinimalDenom": "upokt",
+      "coinDecimals": 6,
+      "coinGeckoId": "pocket-network"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "POKT",
+      "coinMinimalDenom": "upokt",
+      "coinDecimals": 6,
+      "coinGeckoId": "pocket-network",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.01,
+        "high": 0.01
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "POKT",
+    "coinMinimalDenom": "upokt",
+    "coinDecimals": 6,
+    "coinGeckoId": "pocket-network"
+  },
+  "features": []
+}
