@@ -1,7 +1,7 @@
 {
     "chainId": "self-dev-1",
     "chainName": "Self Chain Dev",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/self-dev-1/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/self-dev/chain.png",
     "rpc": "https://rpc-devnet.selfchain.xyz",
     "rest": "https://api-devnet.selfchain.xyz/",
     "nodeProvider": {
@@ -25,7 +25,7 @@
         "coinDenom": "SELF",
         "coinMinimalDenom": "uself",
         "coinDecimals": 6,
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/self-dev-1/chain.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/self-dev/chain.png"
     }
     ],
     "feeCurrencies": [
@@ -33,7 +33,7 @@
         "coinDenom": "SELF",
         "coinMinimalDenom": "uself",
         "coinDecimals": 6,
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/self-dev-1/chain.png",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/self-dev/chain.png",
         "gasPriceStep": {
             "low": 0.005,
             "average": 0.025,
@@ -45,7 +45,7 @@
         "coinDenom": "SELF",
         "coinMinimalDenom": "uself",
         "coinDecimals": 6,
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/self-dev-1/chain.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/self-dev/chain.png"
     },
     "features": []
 }
