@@ -3,7 +3,6 @@
   "chainName": "Pocket Network",
   "chainSymbolImageUrl": "https://github.com/user-attachments/assets/9a968a15-037e-432c-9a43-0230133f4896",
   "rpc": "https://shannon-testnet-grove-seed-rpc.poktroll.com",
-  "grpc": "https://shannon-testnet-grove-seed-grpc.poktroll.com",
   "rest": "https://shannon-testnet-grove-seed-api.poktroll.com",
   "nodeProvider": {
     "name": "Grove",
