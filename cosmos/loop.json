@@ -37,7 +37,6 @@
       "coinDenom": "POA",
       "coinMinimalDenom": "upoa",
       "coinDecimals": 6,
-      "coinGeckoId": "unknown"
     }
   ],
   "feeCurrencies": [
@@ -45,7 +44,6 @@
       "coinDenom": "POA",
       "coinMinimalDenom": "upoa",
       "coinDecimals": 6,
-      "coinGeckoId": "unknown",
       "gasPriceStep": {
         "low": 0.0,
         "average": 0.0,
