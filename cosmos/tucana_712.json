@@ -5,7 +5,7 @@
   "chainName": "Tucana Testnet",
   "evm": {
     "chainId": 712,
-    "rpc": "https://rpc.birdee-2.tucana.zone"
+    "rpc": "https://evm-rpc.birdee-2.tucana.zone"
   },
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/birdee/chain.png",
   "walletUrlForStaking": "https://testnet.keplr.app/chains/tucana",
