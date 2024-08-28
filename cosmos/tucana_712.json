@@ -7,7 +7,7 @@
     "chainId": 712,
     "rpc": "https://evm-rpc.birdee-2.tucana.zone"
   },
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/birdee/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tucana_712/chain.png",
   "walletUrlForStaking": "https://testnet.keplr.app/chains/tucana",
   "nodeProvider": {
     "name": "Tucana",
@@ -29,14 +29,14 @@
     "coinDecimals": 18,
     "coinDenom": "TUC",
     "coinMinimalDenom": "atuc",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/birdee/chain.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tucana_712/chain.png"
   },
   "currencies": [
     {
       "coinDecimals": 18,
       "coinDenom": "TUC",
       "coinMinimalDenom": "atuc",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/birdee/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tucana_712/chain.png"
     }
   ],
   "feeCurrencies": [
@@ -44,7 +44,7 @@
       "coinDenom": "TUC",
       "coinMinimalDenom": "atuc",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/birdee/chain.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tucana_712/chain.png",
       "gasPriceStep": {
         "low": 5000000000,
         "average": 25000000000,
