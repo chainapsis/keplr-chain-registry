@@ -61,6 +61,12 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/factory/kujira13x2l25mpkhwnwcwdzzd34cr8fyht9jlj7xu9g4uffe36g3fmln8qkvm3qn/unami.png"
     },
     {
+      "coinDenom": "NAUSD",
+      "coinMinimalDenom": "factory/kujira18thffdpuz8tm3mwwun4uhks8a2v7ye0jmw3fllqhklma82lqkpms20gh9c/unausd",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/factory/kujira18thffdpuz8tm3mwwun4uhks8a2v7ye0jmw3fllqhklma82lqkpms20gh9c/unausd.png"
+    },
+    {
       "coinDenom": "CORAL",
       "coinMinimalDenom": "factory/kujira18uqsnxsvxdzg4lfz60tah2k0mdjg6scj8dxggk/CORAL",
       "coinDecimals": 6,
