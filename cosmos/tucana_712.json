@@ -8,7 +8,6 @@
     "rpc": "https://evm-rpc.birdee-2.tucana.zone"
   },
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tucana_712/chain.png",
-  "walletUrlForStaking": "https://testnet.keplr.app/chains/tucana",
   "nodeProvider": {
     "name": "Tucana",
     "email": "infra@tucana.zone",
