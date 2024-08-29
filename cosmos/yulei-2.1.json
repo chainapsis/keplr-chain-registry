@@ -1,20 +1,19 @@
 {
-  "rpc": "https://rpc.shentu.org",
-  "rest": "https://rest.shentu.org",
+  "rpc": "https://yulei-rpc.shentu.org",
+  "rest": "https://yulei-rest.shentu.org",
   "nodeProvider": {
     "name": "Shentu",
     "discord": "https://discord.com/invite/6nfAk956NH",
     "website": "https://www.shentu.org/"
   },
-  "chainId": "shentu-2.2",
-  "chainName": "Shentu",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shentu-2.2/chain.png",
+  "chainId": "yulei-2.1",
+  "chainName": "Shentu Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/yulei-2.1/chain.png",
   "stakeCurrency": {
     "coinDenom": "CTK",
     "coinMinimalDenom": "uctk",
     "coinDecimals": 6,
-    "coinGeckoId": "certik",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shentu-2.2/uctk.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/yulei-2.1/uctk.png"
   },
   "bip44": {
     "coinType": 118
@@ -32,8 +31,7 @@
       "coinDenom": "CTK",
       "coinMinimalDenom": "uctk",
       "coinDecimals": 6,
-      "coinGeckoId": "certik",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shentu-2.2/uctk.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/yulei-2.1/uctk.png"
     }
   ],
   "feeCurrencies": [
@@ -41,8 +39,7 @@
       "coinDenom": "CTK",
       "coinMinimalDenom": "uctk",
       "coinDecimals": 6,
-      "coinGeckoId": "certik",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shentu-2.2/uctk.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/yulei-2.1/uctk.png"
     }
   ],
   "features": []
