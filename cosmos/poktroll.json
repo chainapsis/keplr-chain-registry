@@ -1,7 +1,7 @@
 {
   "chainId": "poktroll",
   "chainName": "Pocket Network",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pokt-testnet/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/poktroll/chain.png",
   "rpc": "https://shannon-testnet-grove-seed-rpc.poktroll.com",
   "rest": "https://shannon-testnet-grove-seed-api.poktroll.com",
   "nodeProvider": {
