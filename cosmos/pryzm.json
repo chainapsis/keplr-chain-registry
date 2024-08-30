@@ -142,6 +142,16 @@
         "average": 12000000000,
         "high": 14000000000
       }
+    },
+    {
+      "coinDenom": "dATOM",
+      "coinMinimalDenom": "ibc/EA6E1E8BA2EB9F681C4BD12C8C81A46530A62934F2BD561B120A00F46946CE87",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.0025,
+        "average": 0.003,
+        "high": 0.004
+      }
     }
   ],
   "features": [
