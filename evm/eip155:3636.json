@@ -9,7 +9,7 @@
     "chainName": "Botanix Testnet",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:3636/chain.png",
     "bip44": {
-      "coinType": 1
+      "coinType": 60
     },
     "currencies": [
         {
