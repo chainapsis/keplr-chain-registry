@@ -2,8 +2,13 @@
   "chainId": "gitopia",
   "chainName": "Gitopia",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gitopia/chain.png",
-  "rpc": "https://rpc-gitopia.keplr.app",
-  "rest": "https://lcd-gitopia.keplr.app",
+  "rpc": "https://gitopia.rpc.kjnodes.com",
+  "rest": "https://gitopia.api.kjnodes.com",
+  "nodeProvider": {
+    "name": "kjnodes",
+    "email": "stake@kjnodes.com",
+    "website": "https://kjnodes.com/"
+  },
   "bip44": {
     "coinType": 118
   },

@@ -119,6 +119,7 @@
       "coinDenom": "LAB",
       "coinMinimalDenom": "factory/osmo17fel472lgzs87ekt9dvk0zqyh5gl80sqp4sk4n/LAB",
       "coinDecimals": 6,
+      "coinGeckoId": "mad-scientists",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/factory/osmo17fel472lgzs87ekt9dvk0zqyh5gl80sqp4sk4n/LAB.png"
     },
     {

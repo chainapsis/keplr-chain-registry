@@ -10,7 +10,7 @@
   "bip44": {
     "coinType": 118
   },
-  "chainId": "titan-test-1",
+  "chainId": "titan-test-3",
   "chainName": "Titan Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan-test/chain.png",
   "currencies": [

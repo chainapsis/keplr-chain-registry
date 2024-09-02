@@ -29,7 +29,7 @@
     },
     {
       "coinDenom": "dATOM",
-      "coinMinimalDenom": "factory/neutron1wgtjgeprg53wthczzlzpg0vrytuvfl9j59lpf87qd3mtj2dq6xysxvwcxd/drop",
+      "coinMinimalDenom": "factory/neutron16l0qfrrahy5mve5x9nnw6zs9vv30k7rk55h6aaypq88ljwg57uxsxcg6y6/udatom",
       "coinDecimals": 6
     }
   ],
