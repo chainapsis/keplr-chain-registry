@@ -17,7 +17,7 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cnho_stables/chain.png"
   },
   "bip44": {
-    "coinType": 60
+    "coinType": 118
   },
   "bech32Config": {
     "bech32PrefixAccAddr": "cnho",
@@ -51,8 +51,6 @@
     }
   ],
   "features": [
-  	 
-  	"eth-address-gen",
-  	"eth-key-sign"
+	
   ]
 }
