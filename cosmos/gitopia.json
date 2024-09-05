@@ -2,12 +2,12 @@
   "chainId": "gitopia",
   "chainName": "Gitopia",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gitopia/chain.png",
-  "rpc": "https://gitopia.rpc.kjnodes.com",
-  "rest": "https://gitopia.api.kjnodes.com",
+  "rpc": "https://gitopia-rpc.polkachu.com",
+  "rest": "https://gitopia-api.polkachu.com",
   "nodeProvider": {
-    "name": "kjnodes",
-    "email": "stake@kjnodes.com",
-    "website": "https://kjnodes.com/"
+    "name": "Polkachu",
+    "email": "hello@polkachu.com",
+    "website": "https://polkachu.com/"
   },
   "bip44": {
     "coinType": 118
