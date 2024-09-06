@@ -9,11 +9,6 @@
     "website": "https://polkachu.com"
   },
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/chain.png",
-  "stakeCurrency": {
-    "coinDenom": "STAKE",
-    "coinMinimalDenom": "ustake",
-    "coinDecimals": 6
-  },
   "bip44": {
     "coinType": 118
   },
@@ -37,12 +32,6 @@
       "coinMinimalDenom": "ausdy",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/ausdy.png"
-    },
-    {
-      "coinDenom": "STAKE",
-      "coinMinimalDenom": "ustake",
-      "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/ustake.png"
     },
     {
       "coinDenom": "LOVE",
