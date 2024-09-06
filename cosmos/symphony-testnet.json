@@ -26,6 +26,24 @@
       "coinMinimalDenom": "note",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/melody.png"
+    },
+    {
+      "coinDenom": "HUSD",
+      "coinMinimalDenom": "uusd",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/melody.png"
+    },
+    {
+      "coinDenom": "HKHD",
+      "coinMinimalDenom": "ukhd",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/melody.png"
+    },
+    {
+      "coinDenom": "HVND",
+      "coinMinimalDenom": "uvnd",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/melody.png"
     }
   ],
   "feeCurrencies": [
