@@ -24,7 +24,7 @@ currencies: [
         coinDenom: "UWU",
         coinMinimalDenom: "uwunicorn",
         coinDecimals: 6,
-        coinImageUrl: "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/unicorn/chain.pn",
+        coinImageUrl: "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/unicorn/chain.png",
       },
     ],
     feeCurrencies: [
