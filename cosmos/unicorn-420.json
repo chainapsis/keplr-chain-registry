@@ -1,7 +1,7 @@
 {
   "chainId": "unicorn-420",
   "chainName": "Unicorn",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/unicorn/chain.webp",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/unicorn/chain.png",
   "rpc": "https://rpc.unicorn.meme",
   "rest": "https://rest.unicorn.meme",
   "nodeProvider": {
@@ -24,8 +24,7 @@ currencies: [
         coinDenom: "UWU",
         coinMinimalDenom: "uwunicorn",
         coinDecimals: 6,
-        coinImageUrl:
-          "https://bafkreid2zugjmwborka6qt4mxlb3vepnnxj344dtyaf4gmdsogzd2dh2a4.ipfs.w3s.link",
+        coinImageUrl: "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/unicorn/chain.pn",
       },
     ],
     feeCurrencies: [
