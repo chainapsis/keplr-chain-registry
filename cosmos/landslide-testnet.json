@@ -1,0 +1,51 @@
+{
+  "chainId": "landslide-testnet",
+  "chainName": "Landslide Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/landslide/chain.png",
+  "rpc": "https://cometrpc.testnet.landslide.network",
+  "rest": "https://rpc.testnet.landslide.network",
+  "nodeProvider": {
+    "name": "Landslide Network",
+    "email": "support@landslide.network",
+    "website": "https://landslide.network"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "wasm",
+    "bech32PrefixAccPub": "wasmpub",
+    "bech32PrefixValAddr": "wasmvaloper",
+    "bech32PrefixValPub": "wasmvaloperpub",
+    "bech32PrefixConsAddr": "wasmvalcons",
+    "bech32PrefixConsPub": "wasmvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "STAKE",
+      "coinMinimalDenom": "stake",
+      "coinDecimals": 6,
+      "coinGeckoId": "stake"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "STAKE",
+      "coinMinimalDenom": "stake",
+      "coinDecimals": 6,
+      "coinGeckoId": "stake",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.03
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "STAKE",
+    "coinMinimalDenom": "stake",
+    "coinDecimals": 6,
+    "coinGeckoId": "stake"
+  },
+  "features": []
+}
