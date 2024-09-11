@@ -34,6 +34,12 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/ausdy.png"
     },
     {
+      "coinDenom": "EURe",
+      "coinMinimalDenom": "ueure",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/ueure.png"
+    },
+    {
       "coinDenom": "LOVE",
       "coinMinimalDenom": "ulove",
       "coinDecimals": 6
