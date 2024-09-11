@@ -25,6 +25,7 @@
       "coinDenom": "SCR",
       "coinMinimalDenom": "nscr",
       "coinDecimals": 9,
+      "coinGeckoId": "scorum",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/scorum/scr.png"
     },
     {

@@ -2,13 +2,13 @@
   "chainId": "union-testnet-8",
   "chainName": "Union Testnet",
   "nodeProvider": {
-    "name": "bonlulu",
-    "email": "validator@luelo.dev",
-    "website": "https://testnet.bonlulu.uno"
+    "name": "union",
+    "email": "ben@union.build",
+    "website": "https://explorer.testnet-8.union.build"
   },
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/union-testnet/chain.png",
-  "rpc": "https://rpc.testnet.bonlulu.uno",
-  "rest": "https://api.testnet.bonlulu.uno",
+  "rest": "https://rest.testnet-8.union.build",
+  "rpc": "https://rpc.testnet-8.union.build",
   "bip44": {
     "coinType": 118
   },

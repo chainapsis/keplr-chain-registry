@@ -27,6 +27,12 @@
       "coinDecimals": 6,
       "coinGeckoId": "terra-luna-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/uluna.png"
+    },
+    {
+      "coinDenom": "ashLUNA",
+      "coinMinimalDenom": "factory/terra1f5cfm48gcezl3cx25l64ngc4yktnmx7rcpj3kggu6v273742sqqs5yn5ks/luna.ash",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/factory/terra1f5cfm48gcezl3cx25l64ngc4yktnmx7rcpj3kggu6v273742sqqs5yn5ks/luna.ash.png"
     }
   ],
   "feeCurrencies": [
