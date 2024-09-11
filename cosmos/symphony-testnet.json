@@ -1,6 +1,6 @@
 {
   "chainId": "symphony-testnet-3",
-  "chainName": "Symphony Testnet",
+  "chainName": "symphonytestnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/chain.png",
   "rpc": "https://symphony.test.rpc.nodeshub.online/",
   "rest": "https://symphony.test.api.nodeshub.online/",
@@ -31,19 +31,19 @@
       "coinDenom": "HUSD",
       "coinMinimalDenom": "uusd",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/melody.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/husd.png"
     },
     {
       "coinDenom": "HKHD",
       "coinMinimalDenom": "ukhd",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/melody.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/hhkd.png"
     },
     {
       "coinDenom": "HVND",
       "coinMinimalDenom": "uvnd",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/melody.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/hvnd.png"
     }
   ],
   "feeCurrencies": [
