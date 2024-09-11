@@ -1,13 +1,13 @@
 {
-  "chainId": "bluechip_1",
-  "chainName": "BlueChip",
+  "chainId": "bluechip-2",
+  "chainName": "bluechip",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bluechip/bluechip.png",
-  "rpc": "https://67.218.8.88:26660/",
-  "rest": "https://67.28.8.88:1318/",
+  "rpc": "https://bluechip.rpc.bluechip.link",
+  "rest": "https://bluechip.api.bluechip.link",
   "nodeProvider": {
-    "name": "CryptoDungeon",
-    "email": "support@cryptodungeon.org",
-    "website":"https://cryptodungeon.org/"
+    "name": "BluechipNode",
+    "email": "nickdavisbc@gmail.com",
+    "website":"https://www.bluechip.link/"
   },
   "bip44": {
     "coinType": 118
@@ -42,7 +42,7 @@
   "stakeCurrency": {
     "coinDenom": "BCP",
     "coinMinimalDenom": "ubluechip",
-    "coinDecimals": 6,
+    "coinDecimals": 6
   },
   "features": [
     "cosmwasm"
