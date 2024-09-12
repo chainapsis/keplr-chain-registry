@@ -31,6 +31,19 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/ausdy.png"
     },
     {
+      "coinDenom": "USYC",
+      "coinMinimalDenom": "uusyc",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/uusyc.png"
+    },
+    {
+      "coinDenom": "EURe",
+      "coinMinimalDenom": "ueure",
+      "coinDecimals": 6,
+      "coinGeckoId": "monerium-eur-money",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/ueure.png"
+    },
+    {
       "coinDenom": "FRNZ",
       "coinMinimalDenom": "ufrienzies",
       "coinDecimals": 6,
