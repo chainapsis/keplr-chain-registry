@@ -61,7 +61,9 @@ async function init() {
     return !chainInfo.hideInUI;
   });
 
-  const isOnKeplrMobile = /android|iphone/g.test(navigator.userAgent);
+  const isOnKeplrMobile = /KeplrWalletMobile|Android|iPhone/g.test(
+    navigator.userAgent,
+  );
 
   let registeredChainIds = [];
   if (keplr) {
