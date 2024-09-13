@@ -79,24 +79,31 @@ async function init() {
 
   removeChainListChild();
 
-  const filteredChainInfos = chainInfos.filter(
-    (chainInfo) =>
-      !registeredChainIds
-        .includes(parse(chainInfo.chainId).identifier)
-        .filter(
-          (chainInfo) =>
-            isOnKeplrMobile && chainInfo.chainId.startsWith("eip155:"),
-        ),
-  );
+  const filteredChainInfos = chainInfos
+    .filter(
+      (chainInfo) =>
+        !registeredChainIds.includes(parse(chainInfo.chainId).identifier),
+    )
+    .filter((chainInfo) => {
+      if (isOnKeplrMobile) {
+        return !chainInfo.chainId.startsWith("eip155:");
+      } else {
+        return true;
+      }
+    });
 
   const registeredChainInfos = chainInfos
     .filter((chainInfo) => chainInfo.nodeProvider)
     .filter((chainInfo) =>
       registeredChainIds.includes(parse(chainInfo.chainId).identifier),
     )
-    .filter(
-      (chainInfo) => isOnKeplrMobile && chainInfo.chainId.startsWith("eip155:"),
-    );
+    .filter((chainInfo) => {
+      if (isOnKeplrMobile) {
+        return !chainInfo.chainId.startsWith("eip155:");
+      } else {
+        return true;
+      }
+    });
 
   if (filteredChainInfos.length > 0) {
     filteredChainInfos.map((chainInfo) => {
