@@ -96,6 +96,12 @@
       "coinMinimalDenom": "factory/inj1ej2f3lmpxj4djsmmuxvnfuvplrut7zmwrq7zj8/syn.ash",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1ej2f3lmpxj4djsmmuxvnfuvplrut7zmwrq7zj8/syn.ash.png"
+    },
+    {
+      "coinDenom": "DRUGS",
+      "coinMinimalDenom": "factory/inj1sklcy2px26jj73ffs2f7fmxw77zsts66prrqxr/DRUGS",
+      "coinDecimals": 9,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/factory/inj1sklcy2px26jj73ffs2f7fmxw77zsts66prrqxr/drugs.png"
     }
   ],
   "feeCurrencies": [
