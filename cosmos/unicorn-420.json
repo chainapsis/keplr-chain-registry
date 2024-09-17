@@ -6,7 +6,8 @@
   "rest": "https://rest.unicorn.meme",
   "nodeProvider": {
     "name": "Unicorn",
-    "website": "https://x.com/unicornandmemes"
+    "website": "https://x.com/unicornandmemes",
+    "email": "team@unicorn.meme"
   },
   "bip44": {
     "coinType": 118
