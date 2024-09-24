@@ -9,10 +9,10 @@
   },
   "currencies": [
     {
-      "coinDenom": "MATIC",
+      "coinDenom": "POL",
       "coinMinimalDenom": "polygon-native",
       "coinDecimals": 18,
-      "coinGeckoId": "matic-network",
+      "coinGeckoId": "polygon-ecosystem-token",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:137/polygon-native.png"
     },
     {
@@ -25,10 +25,10 @@
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "MATIC",
+      "coinDenom": "POL",
       "coinMinimalDenom": "polygon-native",
       "coinDecimals": 18,
-      "coinGeckoId": "matic-network",
+      "coinGeckoId": "polygon-ecosystem-token",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:137/polygon-native.png"
     }
   ],
