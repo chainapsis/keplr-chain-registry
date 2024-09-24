@@ -60,6 +60,7 @@ export const nativeTestnetChainIdentifiers: string[] = [
   "osmo-test",
   "pion",
   "theta-testnet",
+  "provider",
   "dydx-testnet",
   "ssc-testnet",
   "test-core",
