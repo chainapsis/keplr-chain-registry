@@ -3,7 +3,7 @@
   "chainName": "Landslide Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/landslide/chain.png",
   "rpc": "https://cometrpc.testnet.landslide.network",
-  "rest": "https://rpc.testnet.landslide.network",
+  "rest": "https://api.testnet.landslide.network",
   "nodeProvider": {
     "name": "Landslide Network",
     "email": "support@landslide.network",
