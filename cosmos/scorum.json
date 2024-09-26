@@ -29,12 +29,6 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/scorum/scr.png"
     },
     {
-      "coinDenom": "SP",
-      "coinMinimalDenom": "nsp",
-      "coinDecimals": 9,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/scorum/sp.png"
-    },
-    {
       "coinDenom": "GAS",
       "coinMinimalDenom": "gas",
       "coinDecimals": 0,
@@ -55,10 +49,10 @@
     }
   ],
   "stakeCurrency": {
-    "coinDenom": "SP",
-    "coinMinimalDenom": "nsp",
+    "coinDenom": "SCR",
+    "coinMinimalDenom": "nscr",
     "coinDecimals": 9,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/scorum/sp.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/scorum/scr.png"
   },
   "features": []
 }
