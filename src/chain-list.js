@@ -61,6 +61,10 @@ async function init() {
     return !chainInfo.hideInUI;
   });
 
+  const isOnKeplrMobile = /KeplrWalletMobile|Android|iPhone/g.test(
+    navigator.userAgent,
+  );
+
   let registeredChainIds = [];
   if (keplr) {
     const registeredResponse = await keplr.getChainInfosWithoutEndpoints();
@@ -75,16 +79,31 @@ async function init() {
 
   removeChainListChild();
 
-  const filteredChainInfos = chainInfos.filter(
-    (chainInfo) =>
-      !registeredChainIds.includes(parse(chainInfo.chainId).identifier),
-  );
+  const filteredChainInfos = chainInfos
+    .filter(
+      (chainInfo) =>
+        !registeredChainIds.includes(parse(chainInfo.chainId).identifier),
+    )
+    .filter((chainInfo) => {
+      if (isOnKeplrMobile) {
+        return !chainInfo.chainId.startsWith("eip155:");
+      } else {
+        return true;
+      }
+    });
 
   const registeredChainInfos = chainInfos
     .filter((chainInfo) => chainInfo.nodeProvider)
     .filter((chainInfo) =>
       registeredChainIds.includes(parse(chainInfo.chainId).identifier),
-    );
+    )
+    .filter((chainInfo) => {
+      if (isOnKeplrMobile) {
+        return !chainInfo.chainId.startsWith("eip155:");
+      } else {
+        return true;
+      }
+    });
 
   if (filteredChainInfos.length > 0) {
     filteredChainInfos.map((chainInfo) => {
@@ -182,19 +201,30 @@ function createNodeProvider(chainItemDiv, chainInfo) {
     );
     providerLinkA.appendChild(providerNameText);
 
-    const providerEmailDiv = document.createElement("div");
-    providerEmailDiv.className = "provider-email";
+    const providerContactDiv = document.createElement("div");
+    providerContactDiv.className = "provider-email";
 
-    const providerEmailText = document.createTextNode(
-      chainInfo.nodeProvider.email,
+    const isEmail = chainInfo.nodeProvider.email != null;
+    const isDiscord = chainInfo.nodeProvider.discord != null;
+
+    const providerContactText = document.createTextNode(
+      isEmail
+        ? chainInfo.nodeProvider.email
+        : isDiscord
+        ? chainInfo.nodeProvider.discord
+        : "",
     );
-    providerEmailDiv.appendChild(providerEmailText);
-    providerEmailDiv.onclick = function () {
-      window.location = `mailto:${chainInfo.nodeProvider.email}`;
+    providerContactDiv.appendChild(providerContactText);
+    providerContactDiv.onclick = function () {
+      window.location = isEmail
+        ? `mailto:${chainInfo.nodeProvider.email}`
+        : isDiscord
+        ? chainInfo.nodeProvider.discord
+        : "";
     };
 
     nodeProviderDiv.appendChild(providerLinkA);
-    nodeProviderDiv.appendChild(providerEmailDiv);
+    nodeProviderDiv.appendChild(providerContactDiv);
 
     chainItemDiv.appendChild(nodeProviderDiv);
   } else {

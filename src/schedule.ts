@@ -1,9 +1,13 @@
 import { readdirSync } from "fs";
-import { validateChainInfoFromPath } from "./validate";
+import {
+  validateCosmosChainInfoFromPath,
+  validateEvmChainInfoFromPath,
+} from "./validate";
 import * as core from "@actions/core";
 
 const main = async () => {
-  const jsonFiles = readdirSync("cosmos");
+  const cosmosJsonFiles = readdirSync("cosmos");
+  const evmJsonFiles = readdirSync("evm");
   core.setOutput("hasError", false);
 
   let errorMessages: (
@@ -13,18 +17,32 @@ const main = async () => {
       }
     | undefined
   )[] = await Promise.all(
-    jsonFiles.map(async (file) => {
-      try {
-        await validateChainInfoFromPath(`cosmos/${file}`);
-      } catch (e) {
-        return {
-          file,
-          error: e,
-        };
-      }
+    cosmosJsonFiles
+      .map(async (file) => {
+        try {
+          await validateCosmosChainInfoFromPath(`cosmos/${file}`);
+        } catch (e) {
+          return {
+            file,
+            error: e,
+          };
+        }
 
-      return undefined;
-    }),
+        return undefined;
+      })
+      .concat(
+        evmJsonFiles.map(async (file) => {
+          try {
+            await validateEvmChainInfoFromPath(`evm/${file}`);
+          } catch (e) {
+            return {
+              file,
+              error: e,
+            };
+          }
+          return undefined;
+        }),
+      ),
   );
 
   errorMessages = errorMessages.filter((e) => e != null);

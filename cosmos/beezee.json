@@ -27,13 +27,28 @@
     "bech32PrefixConsAddr": "bzevalcons",
     "bech32PrefixConsPub": "bzevalconspub"
   },
-  "currencies": [{
+  "currencies": [
+    {
       "coinDenom": "BZE",
       "coinMinimalDenom": "ubze",
       "coinDecimals": 6,
       "coinGeckoId": "bzedge",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/beezee/chain.png"
-  }],
+    },
+		{
+      "coinDenom": "VDL",
+      "coinMinimalDenom": "factory/bze13gzq40che93tgfm9kzmkpjamah5nj0j73pyhqk/uvdl",
+      "coinDecimals": 6,
+      "coinGeckoId": "vidulum",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/beezee/factory/bze13gzq40che93tgfm9kzmkpjamah5nj0j73pyhqk/uvdl.png"
+    },
+		{
+      "coinDenom": "C2M",
+      "coinMinimalDenom": "factory/bze15pqjgk4la0mfphwddce00d05n3th3u66n3ptcv/2MARS",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/beezee/factory/bze15pqjgk4la0mfphwddce00d05n3th3u66n3ptcv/c2m.png"
+    }
+	],
   "feeCurrencies": [{
       "coinDenom": "BZE",
       "coinMinimalDenom": "ubze",

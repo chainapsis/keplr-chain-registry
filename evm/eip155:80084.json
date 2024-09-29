@@ -1,0 +1,43 @@
+{
+  "rpc": "https://bartio.rpc.berachain.com",
+  "chainId": "eip155:80084",
+  "chainName": "Berachain bArtio Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80084/chain.png",
+  "nodeProvider": {
+    "name": "Berachain",
+    "website": "https://berachain.com",
+    "discord": "https://discord.com/invite/berachain"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "BERA",
+      "coinMinimalDenom": "berachain-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80084/berachain-native.png"
+    },
+    {
+      "coinDenom": "BGT",
+      "coinMinimalDenom": "erc20:0xbDa130737BDd9618301681329bF2e46A016ff9Ad",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80084/erc20/0xbDa130737BDd9618301681329bF2e46A016ff9Ad.png"
+    },
+    {
+      "coinDenom": "HONEY",
+      "coinMinimalDenom": "erc20:0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80084/erc20/0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "BERA",
+      "coinMinimalDenom": "berachain-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80084/berachain-native.png"
+    }
+  ],
+  "features": []
+}

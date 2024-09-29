@@ -229,9 +229,9 @@
       "coinDecimals": 6,
       "coinGeckoId": "kujira",
       "gasPriceStep": {
-        "low":  0.005,
+        "low": 0.005,
         "average": 0.005,
-        "high":  0.005
+        "high": 0.005
       }
     },
     {
@@ -348,10 +348,6 @@
     "coinMinimalDenom": "swth",
     "coinDecimals": 8,
     "coinGeckoId": "switcheo"
-  },
-  "evm": {
-    "chainId": 9790,
-    "rpc": "https://evm-api.carbon.network"
   },
   "features": []
 }

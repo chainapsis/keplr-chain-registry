@@ -1,0 +1,29 @@
+{
+    "rpc": "https://poa-node.botanixlabs.dev",
+    "nodeProvider": {
+      "name": "Botanix testnet",
+      "email": "feedback@botanixlabs.xyz",
+      "website": "https://botanixlabs.xyz"
+    },
+    "chainId": "eip155:3636",
+    "chainName": "Botanix Testnet",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:3636/chain.png",
+    "bip44": {
+      "coinType": 60
+    },
+    "currencies": [
+        {
+          "coinDenom": "BTC",
+          "coinMinimalDenom": "Botanix",
+          "coinDecimals": 18
+        }
+      ],
+      "feeCurrencies": [
+        {
+          "coinDenom": "BTC",
+          "coinMinimalDenom": "Botanix",
+          "coinDecimals": 18
+        }
+      ],
+    "features": []
+  }

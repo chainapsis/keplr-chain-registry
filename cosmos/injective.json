@@ -78,8 +78,25 @@
       "coinDecimals": 6,
       "coinMinimalDenom": "factory/inj1nccncwqx5q22lf4uh83dhe89e3f0sh8kljf055/HOUND",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1nccncwqx5q22lf4uh83dhe89e3f0sh8kljf055/HOUND.png"
+    },
+    {
+      "coinDenom": "bINJ",
+      "coinDecimals": 18,
+      "coinMinimalDenom": "factory/inj1dxp690rd86xltejgfq2fa7f2nxtgmm5cer3hvu/bINJ",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1dxp690rd86xltejgfq2fa7f2nxtgmm5cer3hvu/bINJ.png"
+    },
+    {
+      "coinDenom": "SYN",
+      "coinDecimals": 6,
+      "coinMinimalDenom": "factory/inj1a6xdezq7a94qwamec6n6cnup02nvewvjtz6h6e/SYN",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1a6xdezq7a94qwamec6n6cnup02nvewvjtz6h6e/syn.png"
+    },
+    {
+      "coinDenom": "ashSYN",
+      "coinMinimalDenom": "factory/inj1ej2f3lmpxj4djsmmuxvnfuvplrut7zmwrq7zj8/syn.ash",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1ej2f3lmpxj4djsmmuxvnfuvplrut7zmwrq7zj8/syn.ash.png"
     }
-    
   ],
   "feeCurrencies": [
     {

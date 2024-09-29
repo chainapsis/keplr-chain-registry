@@ -1,0 +1,57 @@
+{
+  "rpc": "https://sentry.tm.rpc.routerprotocol.com",
+  "rest": "https://sentry.lcd.routerprotocol.com",
+  "chainId": "router_9600-1",
+  "chainName": "Router",
+  "evm": {
+    "chainId": 9600,
+    "rpc": "https://sentry.evm.rpc.routerprotocol.com"
+  },
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/router_9600/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "ROUTE",
+    "coinMinimalDenom": "route",
+    "coinDecimals": 18,
+    "coinGeckoId": "router-protocol-2",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/router_9600/chain.png"
+  },
+  "walletUrlForStaking": "https://hub.routerprotocol.com/staking",
+  "bip44": { "coinType": 60 },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "router",
+    "bech32PrefixAccPub": "routerpub",
+    "bech32PrefixValAddr": "routervaloper",
+    "bech32PrefixValPub": "routervaloperpub",
+    "bech32PrefixConsAddr": "routervalcons",
+    "bech32PrefixConsPub": "routervalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "ROUTE",
+      "coinMinimalDenom": "route",
+      "coinDecimals": 18,
+      "coinGeckoId": "router-protocol-2",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/router_9600/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ROUTE",
+      "coinMinimalDenom": "route",
+      "coinDecimals": 18,
+      "coinGeckoId": "router-protocol-2",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/router_9600/chain.png",
+      "gasPriceStep": {
+        "low": 5000000000,
+        "average": 25000000000,
+        "high": 50000000000
+      }
+    }
+  ],
+  "nodeProvider": {
+    "name": "Router Node",
+    "email": "siva@routerprotocol.com",
+    "website": "https://www.routerprotocol.com"
+  },
+  "features": ["eth-address-gen", "eth-key-sign"]
+}

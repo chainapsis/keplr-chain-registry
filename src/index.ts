@@ -1,4 +1,8 @@
-import { checkImageSize, validateChainInfoFromPath } from "./validate";
+import {
+  checkImageSize,
+  validateCosmosChainInfoFromPath,
+  validateEvmChainInfoFromPath,
+} from "./validate";
 import libPath from "path";
 import { ChainIdHelper } from "@keplr-wallet/cosmos";
 import {
@@ -17,7 +21,11 @@ const main = async () => {
 
     const path = args[0];
 
-    const chainInfo = await validateChainInfoFromPath(path);
+    const isEVMOnlyChain = path.includes("eip155:");
+
+    const chainInfo = isEVMOnlyChain
+      ? await validateEvmChainInfoFromPath(path)
+      : await validateCosmosChainInfoFromPath(path);
 
     const isNativeSupported = (() => {
       const chainIdentifier = ChainIdHelper.parse(chainInfo.chainId).identifier;
