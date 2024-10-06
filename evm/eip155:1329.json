@@ -9,7 +9,7 @@
   "chainName": "Sei EVM",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1329/chain.png",
   "bip44": {
-    "coinType": 60
+    "coinType": 118
   },
   "stakeCurrency": {
     "coinDenom": "SEI",
