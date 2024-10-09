@@ -7,6 +7,11 @@
   "bip44": {
     "coinType": 118
   },
+  "alternativeBIP44s": [
+    {
+      "coinType": 60
+    }
+  ],
   "stakeCurrency": {
     "coinDenom": "SEI",
     "coinMinimalDenom": "usei",
