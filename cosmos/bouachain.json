@@ -22,28 +22,28 @@
   },
   "stakeCurrency": {
     "coinDecimals": 8,
-    "coinDenom": "Bouacoin",
-    "coinMinimalDenom": "bouacoin",
+    "coinDenom": "bouacoin",
+    "coinMinimalDenom": "ubouacoin",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bouachain/chain.png"
   },
   "currencies": [
     {
       "coinDecimals": 8,
-      "coinDenom": "Bouacoin",
-      "coinMinimalDenom": "bouacoin",
+      "coinDenom": "bouacoin",
+      "coinMinimalDenom": "ubouacoin",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bouachain/chain.png"
     }
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "Bouacoin",
-      "coinMinimalDenom": "bouacoin",
+      "coinDenom": "bouacoin",
+      "coinMinimalDenom": "ubouacoin",
       "coinDecimals": 8,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bouachain/chain.png",
       "gasPriceStep": {
-        "low": 0.15,
-        "average": 0.3,
-        "high": 1
+        "low": 0.0006,
+        "average": 0.012,
+        "high": 0.04
       }
     }
   ],
