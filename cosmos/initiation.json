@@ -1,7 +1,7 @@
 {
   "rpc": "https://rpc-initia-testnet.keplr.app",
   "rest": "https://lcd-initia-testnet.keplr.app",
-  "chainId": "initiation-1",
+  "chainId": "initiation-2",
   "chainName": "Initia Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/initiation/chain.png",
   "walletUrlForStaking": "https://testnet.keplr.app/chains/initia",
