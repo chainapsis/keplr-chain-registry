@@ -18,11 +18,23 @@ const role = new aws.iam.Role(`chain-registry-lambda-role-${stack}`, {
     ],
   },
 });
+const policy = new aws.iam.Policy(`chain-registry-lambda-policy-${stack}`, {
+  policy: {
+    Version: "2012-10-17",
+    Statement: [
+      {
+        Effect: "Allow",
+        Action: ["s3:GetObject", "s3:PutObject"],
+        Resource: "arn:aws:s3:::*",
+      },
+    ],
+  },
+});
 new aws.iam.RolePolicyAttachment(
   `chain-registry-lambda-role-attachment-${stack}`,
   {
     role,
-    policyArn: aws.iam.ManagedPolicies.AWSLambdaExecute,
+    policyArn: policy.arn,
   },
 );
 

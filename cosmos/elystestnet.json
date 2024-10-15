@@ -1,13 +1,14 @@
 {
   "chainId": "elystestnet-1",
-  "chainName": "elys",
+  "chainName": "Elys Network Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elystestnet/chain.png",
-  "rpc": "https://elys-testnet-rpc.staketab.org:443",
-  "rest": "https://elys-testnet-rest.staketab.org",
+  "rpc": "https://rpc.testnet.elys.network:443",
+  "rest": "https://api.testnet.elys.network",
+  "walletUrlForStaking": "https://testnet.elys.network/earn/staking",
   "nodeProvider": {
-    "name": "Staketab",
-    "email": "support@staketab.com",
-    "website": "https://staketab.org/"
+    "name": "Elys Network",
+    "email": "team@elys.network",
+    "website": "https://elys.network"
   },
   "bip44": {
     "coinType": 118

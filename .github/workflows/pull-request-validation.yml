@@ -29,6 +29,7 @@ jobs:
         with:
           files: |
             cosmos/**
+            evm/**
 
       - name: Validate changed files
         run: |

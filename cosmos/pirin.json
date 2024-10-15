@@ -1,6 +1,6 @@
 {
-  "rpc": "https://nolus-rpc.lavenderfive.com:443",
-  "rest": "https://nolus-api.lavenderfive.com:443",
+  "rpc": "https://pirin-cl.nolus.network:26657",
+  "rest": "https://pirin-cl.nolus.network:1317",
   "nodeProvider": {
     "name": "Nolus",
     "email": "register@nolus.io",

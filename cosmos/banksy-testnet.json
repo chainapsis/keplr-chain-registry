@@ -4,7 +4,7 @@
     "nodeProvider": {
       "name": "Composable",
       "email": "jafar@composable.finance",
-      "website": "https://www.composable.finance/"
+      "website": "https://www.picasso.network/"
     },
     "chainId": "banksy-testnet-5",
     "chainName": "Picasso Testnet",
@@ -13,7 +13,6 @@
       "coinDenom": "PICA",
       "coinMinimalDenom": "ppica",
       "coinDecimals": 12,
-      "coinGeckoId": "picasso",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/banksy-testnet/ppica.png"
     },
     "bip44": {
@@ -32,7 +31,6 @@
         "coinDenom": "PICA",
         "coinMinimalDenom": "ppica",
         "coinDecimals": 12,
-        "coinGeckoId": "picasso",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/banksy-testnet/ppica.png"
       }
     ],
@@ -41,7 +39,6 @@
         "coinDenom": "PICA",
         "coinMinimalDenom": "ppica",
         "coinDecimals": 12,
-        "coinGeckoId": "picasso",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/banksy-testnet/ppica.png",
         "gasPriceStep": {
           "low": 0,

@@ -39,7 +39,12 @@
       "coinMinimalDenom": "uakt",
       "coinDecimals": 6,
       "coinGeckoId": "akash-network",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/akashnet/uakt.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/akashnet/uakt.png",
+      "gasPriceStep": {
+        "low": 0.00025,
+        "average": 0.0025,
+        "high": 0.025
+      }
     }
   ],
   "features": []

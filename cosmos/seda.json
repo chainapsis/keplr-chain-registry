@@ -20,6 +20,7 @@
       "coinDenom": "SEDA",
       "coinMinimalDenom": "aseda",
       "coinDecimals": 18,
+      "coinGeckoId": "seda-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/seda/chain.png"
     }
   ],
@@ -28,6 +29,7 @@
       "coinDenom": "SEDA",
       "coinMinimalDenom": "aseda",
       "coinDecimals": 18,
+      "coinGeckoId": "seda-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/seda/chain.png",
       "gasPriceStep": {
         "low": 10000000000,
@@ -40,6 +42,7 @@
     "coinDenom": "SEDA",
     "coinMinimalDenom": "aseda",
     "coinDecimals": 18,
+    "coinGeckoId": "seda-2",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/seda/chain.png"
   },
   "walletUrlForStaking": "https://wallet.keplr.app/chains/seda",
