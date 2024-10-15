@@ -1,0 +1,53 @@
+{
+    "chainId": "dungeon-1",
+    "chainName": "Dungeonchain",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png",
+    "rpc": "http://dungeonrpc.apeironnodes.com:33001",
+    "rest": "http://dungeonlcd.apeironnodes.com:33005",
+    "nodeProvider": {
+      "name": "Apeiron Nodes",
+      "email": "support@apeironnodes.com",
+      "website":"https://apeironnodes.com"
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "dgn",
+      "bech32PrefixAccPub": "dgnpub",
+      "bech32PrefixValAddr": "dgnvaloper",
+      "bech32PrefixValPub": "dgnvaloperpub",
+      "bech32PrefixConsAddr": "dgnvalcons",
+      "bech32PrefixConsPub": "dgnvalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "DGN",
+        "coinMinimalDenom": "udgn",
+        "coinDecimals": 6,
+        "coinImageUrl": ""
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "DGN",
+        "coinMinimalDenom": "udgn",
+        "coinDecimals": 6,
+        "gasPriceStep": {
+          "low": 0.01,
+          "average": 0.025,
+          "high": 0.03
+        },
+        "coinImageUrl": ""
+      }
+    ],
+    "stakeCurrency": {
+      "coinDenom": "DGN",
+      "coinMinimalDenom": "udgn",
+      "coinDecimals": 6,
+      "coinImageUrl": ""
+    },
+    "features": [
+      "cosmwasm"
+    ]
+  }
