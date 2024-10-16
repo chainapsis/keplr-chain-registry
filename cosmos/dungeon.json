@@ -25,7 +25,7 @@
         "coinDenom": "DGN",
         "coinMinimalDenom": "udgn",
         "coinDecimals": 6,
-        "coinImageUrl": ""
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png"
       }
     ],
     "feeCurrencies": [
@@ -38,14 +38,14 @@
           "average": 0.025,
           "high": 0.03
         },
-        "coinImageUrl": ""
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png"
       }
     ],
     "stakeCurrency": {
       "coinDenom": "DGN",
       "coinMinimalDenom": "udgn",
       "coinDecimals": 6,
-      "coinImageUrl": ""
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png"
     },
     "features": [
       "cosmwasm"
