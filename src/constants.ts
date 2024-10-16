@@ -40,6 +40,7 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "pryzm",
   "zetachain_7000",
   "lava-mainnet",
+  "mantra",
   "eip155:1",
   "eip155:10",
   "eip155:56",
@@ -69,4 +70,5 @@ export const nativeTestnetChainIdentifiers: string[] = [
   "initiation",
   "nillion-chain-testnet",
   "athens_7001",
+  "mantra-dukong",
 ];
