@@ -3,7 +3,7 @@
     "rest": "https://beta.arka.network/rest",
     "chainId": "arka-devnet-1",
     "chainName": "ARKA",
-    "chainSymbolImageUrl": "https://santa.arka.network/santa.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/deepan95dev/keplr-chain-registry/refs/heads/main/images/arka/chain.png",
     "bech32Config": {
       "bech32PrefixAccAddr": "arka",
       "bech32PrefixAccPub": "arkapub",
