@@ -29,10 +29,9 @@
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "OSMO",
-      "coinMinimalDenom": "uosmo",
+      "coinDenom": "PRYSM",
+      "coinMinimalDenom": "uprysm",
       "coinDecimals": 6,
-      "coinGeckoId": "osmosis",
       "gasPriceStep": {
         "low": 0.0001,
         "average": 0.00025,
