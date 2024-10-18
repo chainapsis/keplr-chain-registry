@@ -1,0 +1,55 @@
+{
+    "chainId": "kima_network",
+    "chainName": "kimanetwork",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kimanetwork/chain.png",
+    "rpc": "https://rpc.kima.network/",
+    "rest": "https://api.kima.network/",
+    "nodeProvider": {
+      "name": "Kima Network",
+      "email": "support@kima.network",
+      "website": "https://kima.network/"
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "kima",
+      "bech32PrefixAccPub": "kimapub",
+      "bech32PrefixValAddr": "kimavaloper",
+      "bech32PrefixValPub": "kimavaloperpub",
+      "bech32PrefixConsAddr": "kimavalcons",
+      "bech32PrefixConsPub": "kimavalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "KIMA",
+        "coinMinimalDenom": "uKIMA",
+        "coinDecimals": 6,
+        "coinGeckoId": "kima"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "KIMA",
+        "coinMinimalDenom": "uKIMA",
+        "coinDecimals": 6,
+        "coinGeckoId": "kima",
+        "gasPriceStep": {
+          "low": 0.001,
+          "average": 0.0025,
+          "high": 0.004
+        }
+      }
+    ],
+    "stakeCurrency": {
+      "coinDenom": "KIMA",
+      "coinMinimalDenom": "uKIMA",
+      "coinDecimals": 6,
+      "coinGeckoId": "kima"
+    },
+    "features": ["ibc-transfer"],
+    "additionalEndpoints": {
+      "archive": "https://archive.kima.network/genesis.json",
+      "grpc": "https://grpc.kima.network/"
+    }
+  }
