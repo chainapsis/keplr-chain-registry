@@ -1,6 +1,6 @@
 {
     "chainId": "kima_network",
-    "chainName": "Kima",
+    "chainName": "kimanetwork",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kima/chain.png",
     "rpc": "https://rpc.kima.network/",
     "rest": "https://api.kima.network/",
@@ -35,9 +35,9 @@
         "coinDecimals": 6,
         "coinGeckoId": "kima",
         "gasPriceStep": {
-          "low": 0.01,
-          "average": 0.025,
-          "high": 0.03
+          "low": 0.001,
+          "average": 0.0025,
+          "high": 0.004
         }
       }
     ],
