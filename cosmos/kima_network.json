@@ -1,9 +1,9 @@
 {
-    "chainId": "kima_testnet",
-    "chainName": "kimanetworktestnet",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kimanetworktestnet/chain.png",
-    "rpc": "https://rpc-testnet.kima.finance/",
-    "rest": "https://api-testnet.kima.finance/",
+    "chainId": "kima_network",
+    "chainName": "Kima Network",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kimanetwork/chain.png",
+    "rpc": "https://rpc.kima.network/",
+    "rest": "https://api.kima.network/",
     "nodeProvider": {
       "name": "Kima Network",
       "email": "support@kima.network",
@@ -49,7 +49,7 @@
     },
     "features": ["ibc-transfer"],
     "additionalEndpoints": {
-      "archive": "http://data-testnet.kima.finance/genesis.json",
-      "grpc": "https://grpc-testnet.kima.finance"
+      "archive": "https://archive.kima.network/genesis.json",
+      "grpc": "https://grpc.kima.network/"
     }
   }
