@@ -1,7 +1,7 @@
 {
     "chainId": "kima_testnet",
     "chainName": "kimanetworktestnet",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kima/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kimanetworktestnet/chain.png",
     "rpc": "https://rpc-testnet.kima.finance/",
     "rest": "https://api-testnet.kima.finance/",
     "nodeProvider": {
