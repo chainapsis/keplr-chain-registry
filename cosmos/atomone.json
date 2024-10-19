@@ -4,6 +4,11 @@
   "chainId": "atomone-1",
   "chainName": "AtomOne",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/atomone/chain.png",
+  "nodeProvider": {
+    "name": "AllInBits",
+    "email": "security@allinbits.com",
+    "website": "https://allinbits.com/"
+  },
   "bip44": {
     "coinType": 118
   },
