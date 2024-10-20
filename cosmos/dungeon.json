@@ -2,8 +2,8 @@
     "chainId": "dungeon-1",
     "chainName": "Dungeonchain",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png",
-    "rpc": "http://dungeonrpc.apeironnodes.com:33001",
-    "rest": "http://dungeonlcd.apeironnodes.com:33005",
+    "rpc": "https://rpc-dungeonchain.apeironnodes.com:443",
+    "rest": "https://api-dungeonchain.apeironnodes.com:443",
     "nodeProvider": {
       "name": "Apeiron Nodes",
       "email": "support@apeironnodes.com",
