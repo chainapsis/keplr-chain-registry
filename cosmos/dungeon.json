@@ -13,12 +13,12 @@
       "coinType": 118
     },
     "bech32Config": {
-      "bech32PrefixAccAddr": "dgn",
-      "bech32PrefixAccPub": "dgnpub",
-      "bech32PrefixValAddr": "dgnvaloper",
-      "bech32PrefixValPub": "dgnvaloperpub",
-      "bech32PrefixConsAddr": "dgnvalcons",
-      "bech32PrefixConsPub": "dgnvalconspub"
+      "bech32PrefixAccAddr": "dungeon",
+      "bech32PrefixAccPub": "dungeonpub",
+      "bech32PrefixValAddr": "dungeonvaloper",
+      "bech32PrefixValPub": "dungeonvaloperpub",
+      "bech32PrefixConsAddr": "dungeonvalcons",
+      "bech32PrefixConsPub": "dungeonvalconspub"
     },
     "currencies": [
       {
