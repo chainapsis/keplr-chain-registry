@@ -3,7 +3,7 @@
   "websocket": "wss://ws.flame.dawn-1.astria.org",
   "nodeProvider": {
     "name": "Astria",
-    "email": "support@astria.org",
+    "email": "noreply@astria.org",
     "website": "https://astria.org"
   },
   "chainId": "eip155:16604737732183",
