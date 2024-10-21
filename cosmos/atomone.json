@@ -14,12 +14,12 @@
   },
   "walletUrlForStaking": "https://wallet.keplr.app/chains/atomone",
   "bech32Config": {
-    "bech32PrefixAccAddr": "atomone",
-    "bech32PrefixAccPub": "atomonepub",
-    "bech32PrefixValAddr": "atomonevaloper",
-    "bech32PrefixValPub": "atomonevaloperpub",
-    "bech32PrefixConsAddr": "atomonevalcons",
-    "bech32PrefixConsPub": "atomonevalconspub"
+    "bech32PrefixAccAddr": "atone",
+    "bech32PrefixAccPub": "atonepub",
+    "bech32PrefixValAddr": "atonevaloper",
+    "bech32PrefixValPub": "atonevaloperpub",
+    "bech32PrefixConsAddr": "atonevalcons",
+    "bech32PrefixConsPub": "atonevalconspub"
   },
   "currencies": [
     {
