@@ -28,8 +28,6 @@
     }
   ],
   "features": [
-    "ibc-go",
-    "ibc-transfer",
     "eth-address-gen",
     "eth-key-sign"
   ],
