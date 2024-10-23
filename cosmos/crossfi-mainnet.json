@@ -19,7 +19,7 @@
   "bip44": {
     "coinType": 60
   },
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/crossfi-evm-testnet/crossfi.png",
+  "chainSymbolImageUrl": "https://crossfi.org/icon-version-color-cross-finance",
   "currencies": [
     {
       "coinDecimals": 18,
