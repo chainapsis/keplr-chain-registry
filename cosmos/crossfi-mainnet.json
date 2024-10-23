@@ -19,7 +19,7 @@
   "bip44": {
     "coinType": 60
   },
-  "chainSymbolImageUrl": "https://crossfi.org/icon-version-color-cross-finance",
+  "chainSymbolImageUrl": "https://assets.coingecko.com/coins/images/31913/standard/Token-Icon-Stylization-round-bg-XFI.png",
   "currencies": [
     {
       "coinDecimals": 18,
