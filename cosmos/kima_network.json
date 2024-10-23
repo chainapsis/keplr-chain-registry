@@ -47,9 +47,5 @@
       "coinDecimals": 6,
       "coinGeckoId": "kima"
     },
-    "features": ["ibc-transfer"],
-    "additionalEndpoints": {
-      "archive": "https://archive.kima.network/genesis.json",
-      "grpc": "https://grpc.kima.network/"
-    }
+    "features": ["ibc-transfer"]
   }
