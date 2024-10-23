@@ -7,6 +7,11 @@
     "bech32PrefixValAddr": "mxvaloper",
     "bech32PrefixValPub": "mxvaloperpub"
   },
+  "nodeProvider": {
+    "name": "Crossfi",
+    "email": "info@crossfi.org",
+    "website":"https://crossfi.org/"
+  },
   "rpc": "https://xficonsole.com/cosmos-rpc/api",
   "rest": "https://xficonsole.com/cosmos-rest/api",
   "chainId": "crossfi-mainnet-1",
