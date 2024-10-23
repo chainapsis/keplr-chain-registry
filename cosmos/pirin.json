@@ -1,6 +1,6 @@
 {
-  "rpc": "https://pirin-cl.nolus.network:26657",
-  "rest": "https://pirin-cl.nolus.network:1317",
+  "rpc": "https://rpc.nolus.network",
+  "rest": "https://lcd.nolus.network",
   "nodeProvider": {
     "name": "Nolus",
     "email": "register@nolus.io",
