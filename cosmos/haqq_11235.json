@@ -33,6 +33,7 @@
       "coinDenom": "DEEN",
       "coinMinimalDenom": "erc20/0x4FEBDDe47Ab9a76200e57eFcC80b212a07b3e6cE",
       "coinDecimals": 6,
+      "coinGeckoId": "deenar-gold",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/haqq_11235/deen.png"
     }
   ],
