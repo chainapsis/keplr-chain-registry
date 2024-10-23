@@ -17,7 +17,6 @@
       "coinDenom": "TIA",
       "coinMinimalDenom": "flame-native",
       "coinDecimals": 18,
-      "coinGeckoId": "celestia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:16604737732183/utia.png"
     }
   ],
@@ -26,7 +25,6 @@
       "coinDenom": "TIA",
       "coinMinimalDenom": "flame-native",
       "coinDecimals": 18,
-      "coinGeckoId": "celestia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:16604737732183/utia.png"
     }
   ],
