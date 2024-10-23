@@ -30,7 +30,6 @@
   "features": [
     "ibc-go",
     "ibc-transfer",
-    "query:/cosmos/bank/v1beta1/spendable_balances",
     "eth-address-gen",
     "eth-key-sign"
   ],
