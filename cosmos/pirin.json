@@ -1,11 +1,6 @@
 {
-  "rpc": "https://rpc.nolus.network",
-  "rest": "https://lcd.nolus.network",
-  "nodeProvider": {
-    "name": "Nolus",
-    "email": "register@nolus.io",
-    "website":"https://nolus.io/"
-  },
+  "rpc": "https://rpc-pirin.keplr.app",
+  "rest": "https://lcd-pirin.keplr.app",
   "chainId": "pirin-1",
   "chainName": "Nolus",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pirin/nolus.png",
@@ -50,7 +45,5 @@
       }
     }
   ],
-  "features": [
-    "cosmwasm"
-  ]
+  "features": ["cosmwasm"]
 }

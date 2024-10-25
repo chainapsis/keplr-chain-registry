@@ -41,6 +41,7 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "zetachain_7000",
   "lava-mainnet",
   "mantra",
+  "pirin",
   "eip155:1",
   "eip155:10",
   "eip155:56",
