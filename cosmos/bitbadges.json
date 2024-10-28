@@ -1,5 +1,5 @@
 {
-  "rpc": "https://node.bitbadges.io",
+  "rpc": "https://node.bitbadges.io/rpc",
   "rest": "https://node.bitbadges.io/api",
   "chainId": "bitbadges-1",
   "chainName": "BitBadges",
