@@ -46,6 +46,5 @@
       "coinMinimalDenom": "uKIMA",
       "coinDecimals": 6,
       "coinGeckoId": "kima"
-    },
-    "features": ["ibc-transfer"]
+    }
   }
