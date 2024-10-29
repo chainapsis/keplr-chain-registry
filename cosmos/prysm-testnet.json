@@ -1,0 +1,51 @@
+{
+	"chainId": "prysm-devnet-1",
+	"chainName": "prysm",
+	"rpc": "https://prysm-testnet-rpc.polkachu.com",
+	"rest": "https://prysm-testnet-api.polkachu.com",
+	"bip44": {
+		"coinType": "118"
+	},
+	"coinType": "118",
+	"bech32Config": {
+		"bech32PrefixAccAddr": "prysm",
+		"bech32PrefixAccPub": "prysmpub",
+		"bech32PrefixValAddr": "prysmvaloper",
+		"bech32PrefixValPub": "prysmvaloperpub",
+		"bech32PrefixConsAddr": "prysmvalcons",
+		"bech32PrefixConsPub": "prysmvalconspub"
+	},
+	"currencies": [
+		{
+			"coinDenom": "prysm",
+			"coinMinimalDenom": "uprysm",
+			"coinDecimals": "6",
+			"coinGeckoId": "PRYSM"
+		}
+	],
+	"feeCurrencies": [
+		{
+			"coinDenom": "prysm",
+			"coinMinimalDenom": "uprysm",
+			"coinDecimals": "6",
+			"coinGeckoId": "prysm",
+			"gasPriceStep": {
+				"low": 0.01,
+				"average": 0.025,
+				"high": 0.03
+			}
+		}
+	],
+	"gasPriceStep": {
+		"low": 0.01,
+		"average": 0.025,
+		"high": 0.03
+	},
+	"stakeCurrency": {
+		"coinDenom": "prysm",
+		"coinMinimalDenom": "uprysm",
+		"coinDecimals": "6",
+		"coinGeckoId": "prysm"
+	},
+	"features": ["cosmwasm"]
+}
