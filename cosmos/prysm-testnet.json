@@ -34,7 +34,7 @@
 		{
 			"coinDenom": "prysm",
 			"coinMinimalDenom": "uprysm",
-			"coinDecimals": "6",
+			"coinDecimals": 6,
 			"coinGeckoId": "prysm",
 			"gasPriceStep": {
 				"low": 0.01,
