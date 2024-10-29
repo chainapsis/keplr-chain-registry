@@ -1,12 +1,19 @@
 {
-	"chainId": "prysm-devnet-1",
-	"chainName": "Prysm",
 	"rpc": "https://prysm-testnet-rpc.polkachu.com",
 	"rest": "https://prysm-testnet-api.polkachu.com",
+	"chainId": "prysm-devnet-1",
+	"chainName": "Prysm",
+	"walletUrlForStaking": "../images/prysm/prysm.svg",
+ 	"chainSymbolImageUrl": "../images/prysm/prysm.svg",
+  	"stakeCurrency": {
+    	"coinDenom": "Prysm",
+    	"coinMinimalDenom": "upryzm",
+    	"coinImageUrl": "../images/prysm/prysm.svg",
+    	"coinDecimals": 6
+  },
 	"bip44": {
-		"coinType": "118"
+	  "coinType": "118"
 	},
-	"coinType": "118",
 	"bech32Config": {
 		"bech32PrefixAccAddr": "prysm",
 		"bech32PrefixAccPub": "prysmpub",
