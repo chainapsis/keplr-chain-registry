@@ -2,7 +2,7 @@
 	"rpc": "https://prysm-testnet-rpc.polkachu.com",
 	"rest": "https://prysm-testnet-api.polkachu.com",
 	"chainId": "prysm-devnet-1",
-	"chainName": "Prysm",
+	"chainName": "Prysm Testnet",
 	"walletUrlForStaking": "../images/prysm/prysm.svg",
  	"chainSymbolImageUrl": "../images/prysm/prysm.svg",
   	"stakeCurrency": {
