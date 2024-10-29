@@ -1,6 +1,6 @@
 {
 	"chainId": "prysm-devnet-1",
-	"chainName": "prysm",
+	"chainName": "Prysm",
 	"rpc": "https://prysm-testnet-rpc.polkachu.com",
 	"rest": "https://prysm-testnet-api.polkachu.com",
 	"bip44": {
