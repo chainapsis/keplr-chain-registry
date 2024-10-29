@@ -7,7 +7,7 @@
  	"chainSymbolImageUrl": "../images/prysm/prysm.svg",
   	"stakeCurrency": {
     	"coinDenom": "Prysm",
-    	"coinMinimalDenom": "upryzm",
+    	"coinMinimalDenom": "uprysm",
     	"coinImageUrl": "../images/prysm/prysm.svg",
     	"coinDecimals": 6
   },
