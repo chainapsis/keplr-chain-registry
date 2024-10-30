@@ -332,6 +332,15 @@ export const checkCurrencies = (chainInfo: ChainInfo) => {
       currency.coinMinimalDenom.startsWith("ibc/") &&
       ChainIdHelper.parse(chainInfo.chainId).identifier !== "centauri"
     ) {
+      // 오스모시스 위의 페넘브라는 일단 봐준다.
+      if (
+        ChainIdHelper.parse(chainInfo.chainId).identifier === "osmosis" &&
+        currency.coinMinimalDenom ===
+          "ibc/0FA9232B262B89E77D1335D54FB1E1F506A92A7E4B51524B400DC69C68D28372"
+      ) {
+        continue;
+      }
+
       throw new Error(
         `Do not provide ibc currency to currencies: ${currency.coinMinimalDenom}`,
       );

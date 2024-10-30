@@ -175,6 +175,13 @@
       "coinDecimals": 9,
       "coinGeckoId": "the-open-network",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/factory/osmo12lnwf54yd30p6amzaged2atln8k0l32n7ncxf04ctg7u7ymnsy7qkqgsw4/alloyed/allTON.png"
+    },
+    {
+      "coinDenom": "UM",
+      "coinMinimalDenom": "ibc/0FA9232B262B89E77D1335D54FB1E1F506A92A7E4B51524B400DC69C68D28372",
+      "coinDecimals": 6,
+      "coinGeckoId": "penumbra",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/ibc/0FA9232B262B89E77D1335D54FB1E1F506A92A7E4B51524B400DC69C68D28372.png"
     }
   ],
   "feeCurrencies": [
