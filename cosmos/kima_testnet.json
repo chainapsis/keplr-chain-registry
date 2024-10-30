@@ -32,7 +32,6 @@
         "coinDenom": "KIMA",
         "coinMinimalDenom": "uKIMA",
         "coinDecimals": 6,
-        "coinGeckoId": "kima",
         "gasPriceStep": {
           "low": 0.001,
           "average": 0.0025,
@@ -43,7 +42,6 @@
     "stakeCurrency": {
       "coinDenom": "KIMA",
       "coinMinimalDenom": "uKIMA",
-      "coinDecimals": 6,
-      "coinGeckoId": "kima"
+      "coinDecimals": 6
     }
   }

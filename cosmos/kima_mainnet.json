@@ -1,7 +1,7 @@
 {
     "chainId": "kima_mainnet",
     "chainName": "Kima Network",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kimamainnet/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kima_mainnet/chain.png",
     "rpc": "https://rpc.kima.network/",
     "rest": "https://api.kima.network/",
     "nodeProvider": {
@@ -32,7 +32,6 @@
         "coinDenom": "KIMA",
         "coinMinimalDenom": "uKIMA",
         "coinDecimals": 6,
-        "coinGeckoId": "kima",
         "gasPriceStep": {
           "low": 0.001,
           "average": 0.0025,
@@ -43,7 +42,6 @@
     "stakeCurrency": {
       "coinDenom": "KIMA",
       "coinMinimalDenom": "uKIMA",
-      "coinDecimals": 6,
-      "coinGeckoId": "kima"
+      "coinDecimals": 6
     }
   }
