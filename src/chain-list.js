@@ -7,12 +7,12 @@ function parse(chainId) {
 if (
   chainId === "injective-777" ||
   chainId === "injective-888" ||
-  chainId.includes("nibiru-testnet-1") ||
-  chainId.includes("nibiru-testnet-2") ||
-  chainId.includes("nibiru-testnet-3") ||
-  chainId.includes("nibiru-devnet-1") ||
-  chainId.includes("nibiru-devnet-2") ||
-  chainId.includes("nibiru-devnet-3")
+  chainId === "nibiru-testnet-1" ||
+  chainId === "nibiru-testnet-2" ||
+  chainId === "nibiru-testnet-3" ||
+  chainId === "nibiru-devnet-1" ||
+  chainId === "nibiru-devnet-2" ||
+  chainId === "nibiru-devnet-3"
 ) {
   return {
     identifier: chainId,
