@@ -166,7 +166,9 @@ export const validateEvmChainInfo = async (
 ): Promise<ChainInfo> => {
   // Check chain identifier
   const parsedChainId = ChainIdHelper.parse(evmChainInfo.chainId).identifier;
-  if (parsedChainId !== chainIdentifier) {
+  const parsedVersion = ChainIdHelper.parse(evmChainInfo.chainId).version;
+  const parsedChainIdFull = `${parsedChainId}${"-" + parsedVersion}`
+  if (parsedChainIdFull !== chainIdentifier) {
     throw new Error(
       `Chain identifier unmatched: (expected: ${parsedChainId}, actual: ${chainIdentifier})`,
     );
