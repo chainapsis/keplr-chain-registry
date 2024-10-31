@@ -1,5 +1,5 @@
 {
-  "chainId": "nibiru-devnet-3",
+  "chainId": "nibiru-devnet3",
   "chainName": "Nibiru Devnet 3",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-devnet/chain.png",
   "rpc": "https://rpc.devnet-3.nibiru.fi/",
