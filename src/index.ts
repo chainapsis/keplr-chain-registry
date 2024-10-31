@@ -99,7 +99,7 @@ const main = async () => {
     }
 
     for (const imageFile of imageFiles) {
-      checkImageSize(`images/${chainIdentifier}/${imageFile}`);
+      checkImageSize(`images/${ChainIdHelper.parse(chainIdentifier).identifier}/${imageFile}`);
     }
   } catch (error: any) {
     console.log(error?.message || error);
