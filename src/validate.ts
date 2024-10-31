@@ -170,7 +170,7 @@ export const validateEvmChainInfo = async (
   const parsedChainIdFull = `${parsedChainId}${"-" + parsedVersion}`
   if (parsedChainIdFull !== chainIdentifier) {
     throw new Error(
-      `Chain identifier unmatched: (expected: ${parsedChainId}, actual: ${chainIdentifier})`,
+      `Chain identifier unmatched: (expected: ${parsedChainIdFull}, actual: ${chainIdentifier})`,
     );
   }
 
