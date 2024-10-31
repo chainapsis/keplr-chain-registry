@@ -53,7 +53,10 @@ export const validateCosmosChainInfo = async (
 
   // Check chain identifier
   const parsedChainId = ChainIdHelper.parse(chainInfo.chainId).identifier;
-  if (parsedChainId !== chainIdentifier) {
+  const parsedVersion = ChainIdHelper.parse(chainInfo.chainId).version;
+  const parsedChainIdFull = `${parsedChainId}-${parsedVersion}`
+  
+  if (parsedChainIdFull !== chainIdentifier) {
     throw new Error(
       `Chain identifier unmatched: (expected: ${parsedChainId}, actual: ${chainIdentifier})`,
     );
