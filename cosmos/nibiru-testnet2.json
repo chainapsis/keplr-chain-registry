@@ -1,5 +1,5 @@
 {
-  "chainId": "nibiru-testnet2",
+  "chainId": "nibiru-testnet-2",
   "chainName": "Nibiru Testnet 2",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-testnet/chain.png",
   "rpc": "https://rpc.testnet-2.nibiru.fi/",
