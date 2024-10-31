@@ -10,6 +10,7 @@ import {
   nativeTestnetChainIdentifiers,
 } from "./constants";
 
+
 const main = async () => {
   // get file name
   const args = process.argv.slice(2);
@@ -68,7 +69,7 @@ const main = async () => {
     const chainIdentifier = libPath.parse(path).name;
 
     const validateImageUrl = (url: string): string => {
-      const baseURL = `https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/${chainIdentifier}/`;
+      const baseURL = `https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/${ChainIdHelper.parse(chainIdentifier).identifier;}/`;
 
       if (!url.startsWith(baseURL)) {
         throw new Error(`Invalid image url: ${url}`);
