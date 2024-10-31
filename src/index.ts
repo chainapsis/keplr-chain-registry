@@ -9,6 +9,7 @@ import {
   nativeMainnetChainIdentifiers,
   nativeTestnetChainIdentifiers,
 } from "./constants";
+import { ChainIdHelper } from "@keplr-wallet/cosmos";
 
 const main = async () => {
   // get file name
