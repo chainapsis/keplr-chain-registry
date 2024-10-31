@@ -182,6 +182,12 @@
       "coinDecimals": 6,
       "coinGeckoId": "penumbra",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/ibc/0FA9232B262B89E77D1335D54FB1E1F506A92A7E4B51524B400DC69C68D28372.png"
+    },
+    {
+      "coinDenom": "Spice",
+      "coinMinimalDenom": "factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/uspice",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/spice.png"
     }
   ],
   "feeCurrencies": [
