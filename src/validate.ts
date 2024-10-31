@@ -54,7 +54,7 @@ export const validateCosmosChainInfo = async (
   // Check chain identifier
   const parsedChainId = ChainIdHelper.parse(chainInfo.chainId).identifier;
   const parsedVersion = ChainIdHelper.parse(chainInfo.chainId).version;
-  const parsedChainIdFull = `${parsedChainId}-${parsedVersion}`
+  const parsedChainIdFull = `${parsedChainId}${"-" + parsedVersion}`
   
   if (parsedChainIdFull !== chainIdentifier) {
     throw new Error(
