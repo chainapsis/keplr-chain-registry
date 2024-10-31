@@ -10,7 +10,6 @@ import {
   nativeTestnetChainIdentifiers,
 } from "./constants";
 
-
 const main = async () => {
   // get file name
   const args = process.argv.slice(2);
