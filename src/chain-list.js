@@ -6,7 +6,7 @@ function parse(chainId) {
   // But anyway, it's not a big problem because it's dev/testnet...
 if (
   chainId === "injective-777" ||
-  chainId === "injective-888" ||
+  chainId === "injective-888"
 ) {
   return {
     identifier: chainId,
