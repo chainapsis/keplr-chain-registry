@@ -3,11 +3,11 @@
 	"rest": "https://prysm-testnet-api.polkachu.com",
 	"chainId": "prysm-devnet-1",
 	"chainName": "Prysm Testnet",
- 	"chainSymbolImageUrl": "../images/prysm/prysm.svg",
+ 	"chainSymbolImageUrl": "../images/prysm/prysm.png",
   	"stakeCurrency": {
     	"coinDenom": "Prysm",
     	"coinMinimalDenom": "uprysm",
-    	"coinImageUrl": "../images/prysm/prysm.svg",
+    	"coinImageUrl": "../images/prysm/prysm.png",
     	"coinDecimals": 6
   },
 	"bip44": {
@@ -26,7 +26,6 @@
 			"coinDenom": "prysm",
 			"coinMinimalDenom": "uprysm",
 			"coinDecimals": 6,
-			"coinGeckoId": "PRYSM"
 		}
 	],
 	"feeCurrencies": [
@@ -34,7 +33,6 @@
 			"coinDenom": "prysm",
 			"coinMinimalDenom": "uprysm",
 			"coinDecimals": 6,
-			"coinGeckoId": "prysm",
 			"gasPriceStep": {
 				"low": 0.01,
 				"average": 0.025,
@@ -45,8 +43,7 @@
 	"stakeCurrency": {
 		"coinDenom": "prysm",
 		"coinMinimalDenom": "uprysm",
-		"coinDecimals": 6,
-		"coinGeckoId": "prysm"
+		"coinDecimals": 6
 	},
 	"features": ["cosmwasm"]
 }
