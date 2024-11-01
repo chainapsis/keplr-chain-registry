@@ -53,10 +53,7 @@ export const validateCosmosChainInfo = async (
 
   // Check chain identifier
   const parsedChainId = ChainIdHelper.parse(chainInfo.chainId).identifier;
-  const parsedVersion = ChainIdHelper.parse(chainInfo.chainId).version;
-  const parsedChainIdFull = `${parsedChainId}${"-" + parsedVersion}`
-  
-  if (parsedChainIdFull !== chainIdentifier) {
+  if (parsedChainId !== chainIdentifier) {
     throw new Error(
       `Chain identifier unmatched: (expected: ${parsedChainId}, actual: ${chainIdentifier})`,
     );
@@ -166,11 +163,9 @@ export const validateEvmChainInfo = async (
 ): Promise<ChainInfo> => {
   // Check chain identifier
   const parsedChainId = ChainIdHelper.parse(evmChainInfo.chainId).identifier;
-  const parsedVersion = ChainIdHelper.parse(evmChainInfo.chainId).version;
-  const parsedChainIdFull = `${parsedChainId}${"-" + parsedVersion}`
-  if (parsedChainIdFull !== chainIdentifier) {
+  if (parsedChainId !== chainIdentifier) {
     throw new Error(
-      `Chain identifier unmatched: (expected: ${parsedChainIdFull}, actual: ${chainIdentifier})`,
+      `Chain identifier unmatched: (expected: ${parsedChainId}, actual: ${chainIdentifier})`,
     );
   }
 
