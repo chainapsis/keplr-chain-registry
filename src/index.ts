@@ -68,7 +68,7 @@ const main = async () => {
     const chainIdentifier = libPath.parse(path).name;
 
     const validateImageUrl = (url: string): string => {
-      const baseURL = `https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/${ChainIdHelper.parse(chainIdentifier).identifier}/`;
+      const baseURL = `https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/${chainIdentifier}/`;
 
       if (!url.startsWith(baseURL)) {
         throw new Error(`Invalid image url: ${url}`);
@@ -99,7 +99,7 @@ const main = async () => {
     }
 
     for (const imageFile of imageFiles) {
-      checkImageSize(`images/${ChainIdHelper.parse(chainIdentifier).identifier}/${imageFile}`);
+      checkImageSize(`images/${chainIdentifier}/${imageFile}`);
     }
   } catch (error: any) {
     console.log(error?.message || error);
