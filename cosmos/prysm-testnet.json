@@ -25,7 +25,7 @@
 		{
 			"coinDenom": "prysm",
 			"coinMinimalDenom": "uprysm",
-			"coinDecimals": "6",
+			"coinDecimals": 6,
 			"coinGeckoId": "PRYSM"
 		}
 	],
@@ -45,7 +45,7 @@
 	"stakeCurrency": {
 		"coinDenom": "prysm",
 		"coinMinimalDenom": "uprysm",
-		"coinDecimals": "6",
+		"coinDecimals": 6,
 		"coinGeckoId": "prysm"
 	},
 	"features": ["cosmwasm"]
