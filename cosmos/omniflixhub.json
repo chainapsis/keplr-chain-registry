@@ -30,6 +30,12 @@
       "coinDecimals": 6,
       "coinGeckoId": "omniflix-network",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub/uflix.png"
+    },
+     {
+      "coinDenom": "ygata",
+      "coinMinimalDenom": "factory/omniflix1fwphj5p6qd8gtkehkzfgac38eur4uqzgz97uwvf6hsc0vjl004gqfj0xnv/ygata",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub/ygata.png"
     }
   ],
   "feeCurrencies": [
