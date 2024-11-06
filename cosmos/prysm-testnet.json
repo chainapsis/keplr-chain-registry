@@ -11,7 +11,7 @@
     	"coinDecimals": 6
   },
 	"bip44": {
-	  "coinType": "118"
+	  "coinType": 118
 	},
 	"bech32Config": {
 		"bech32PrefixAccAddr": "prysm",
