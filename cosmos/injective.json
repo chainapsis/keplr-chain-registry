@@ -105,6 +105,7 @@
     {
       "coinDenom": "XIII",
       "coinMinimalDenom": "factory/inj18flmwwaxxqj8m8l5zl8xhjrnah98fcjp3gcy3e/XIII",
+      "coinGeckoId": "xiiicoin",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj18flmwwaxxqj8m8l5zl8xhjrnah98fcjp3gcy3e/XIII.png"
     }
