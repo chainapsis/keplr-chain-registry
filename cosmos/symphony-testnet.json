@@ -2,12 +2,12 @@
   "chainId": "symphony-testnet-4",
   "chainName": "Symphony Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/chain.png",
-  "rpc": "https://symphony.test.rpc.nodeshub.online/",
-  "rest": "https://symphony.test.api.nodeshub.online/",
+  "rpc": "https://rpc-symphonyd.vinjan.xyz/",
+  "rest": "https://api-symphonyd.vinjan.xyz/",
   "nodeProvider": {
-    "name": "Nodes Hub",
-    "email": "contact@nodeshub.online",
-    "website": "https://nodeshub.online"
+    "name": "Vinjan.Inc",
+    "email": "wijaton23@gmail.com",
+    "website": "https://service.vinjan.xyz/"
   },
   "bip44": {
     "coinType": 118
@@ -52,9 +52,9 @@
       "coinMinimalDenom": "note",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.0025,
-        "average": 0.025,
-        "high": 0.04
+        "low": 0.0001,
+        "average": 0.001,
+        "high": 0.01
       },
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/melody.png"
     }
