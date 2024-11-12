@@ -52,9 +52,9 @@
       "coinMinimalDenom": "note",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.0001,
-        "average": 0.001,
-        "high": 0.01
+        "low": 0.0025,
+        "average": 0.025,
+        "high": 0.04
       },
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/melody.png"
     }
