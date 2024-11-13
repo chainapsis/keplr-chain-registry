@@ -1,0 +1,65 @@
+
+{
+  "chainId": "haqq_11235-1",
+  "chainName": "HAQQ Network",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/haqq_11235/chain.png",
+  "rpc": "https://rpc.tm.haqq.network",
+  "rest": "https://rest.cosmos.haqq.network",
+  "nodeProvider": {
+    "name": "Haqq Association",
+    "email": "privacy@islamiccoin.net",
+    "website": "https://haqq.network"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "haqq",
+    "bech32PrefixAccPub": "haqqpub",
+    "bech32PrefixValAddr": "haqqvaloper",
+    "bech32PrefixValPub": "haqqvaloperpub",
+    "bech32PrefixConsAddr": "haqqvalcons",
+    "bech32PrefixConsPub": "haqqvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "ISLM",
+      "coinMinimalDenom": "aISLM",
+      "coinDecimals": 18,
+      "coinGeckoId": "islamic-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/haqq_11235/islm.png"
+    },
+    {
+      "coinDenom": "DEEN",
+      "coinMinimalDenom": "erc20/0x4FEBDDe47Ab9a76200e57eFcC80b212a07b3e6cE",
+      "coinDecimals": 6,
+      "coinGeckoId": "deenar-gold",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/haqq_11235/deen.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ISLM",
+      "coinMinimalDenom": "aISLM",
+      "coinDecimals": 18,
+      "coinGeckoId": "islamic-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/haqq_11235/islm.png",
+      "gasPriceStep": {
+        "average": 25000000000,
+        "high": 40000000000,
+        "low": 20000000000
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "ISLM",
+    "coinMinimalDenom": "aISLM",
+    "coinDecimals": 18,
+    "coinGeckoId": "islamic-coin",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/haqq_11235/islm.png"
+  },
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ]
+}

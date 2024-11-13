@@ -12,6 +12,11 @@
   "bip44": {
     "coinType": 1009
   },
+  "alternativeBIP44s": [
+    {
+      "coinType": 118
+    }
+  ],
   "bech32Config": {
     "bech32PrefixAccAddr": "iconlake",
     "bech32PrefixAccPub": "iconlakepub",
@@ -47,9 +52,9 @@
       "coinDecimals": 4,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/iconlake-testnet/udrop.png",
       "gasPriceStep": {
-        "low": 0.01,
-        "average": 0.05,
-        "high": 0.1
+        "low": 0.1,
+        "average": 0.5,
+        "high": 1
       }
     },
     {

@@ -1,0 +1,34 @@
+{
+    "rpc": "https://flare-api.flare.network/ext/C/rpc",
+    "websocket": "wss://flare-api.flare.network/ext/bc/C/ws",
+    "nodeProvider": {
+      "name": "Flare",
+      "website": "https://flare.network/",
+      "discord": "https://discord.com/invite/flarenetwork"
+    },
+    "chainId": "eip155:14",
+    "chainName": "Flare",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:14/chain.png",
+    "bip44": {
+      "coinType": 60
+    },
+    "currencies": [
+      {
+        "coinDenom": "FLR",
+        "coinMinimalDenom": "flare-native",
+        "coinDecimals": 18,
+        "coinGeckoId": "flare-networks",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:14/flare-native.png"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "FLR",
+        "coinMinimalDenom": "flare-native",
+        "coinDecimals": 18,
+        "coinGeckoId": "flare-networks",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:14/flare-native.png"
+      }
+    ],
+    "features": []
+  }

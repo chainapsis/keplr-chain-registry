@@ -2,6 +2,7 @@ import sizeOf from "image-size";
 import { readFileSync } from "fs";
 import { ChainInfo } from "@keplr-wallet/types";
 import {
+  checkEvmRpcConnectivity,
   checkRestConnectivity,
   checkRPCConnectivity,
   NonRecognizableChainFeatures,
@@ -18,7 +19,7 @@ export const fileToChainInfo = (filePath: string) => {
   return chainInfo;
 };
 
-export const validateChainInfoFromPath = async (
+export const validateCosmosChainInfoFromPath = async (
   path: string,
 ): Promise<ChainInfo> => {
   const parsed = libPath.parse(path);
@@ -29,11 +30,15 @@ export const validateChainInfoFromPath = async (
   // get json from file
   const chainInfo = fileToChainInfo(path);
 
+  if (chainInfo.hideInUI && chainInfo.chainId !== "wormchain") {
+    throw new Error("Should not hide chain in UI");
+  }
+
   // validate chain info
-  return await validateChainInfo(parsed.name, chainInfo);
+  return await validateCosmosChainInfo(parsed.name, chainInfo);
 };
 
-export const validateChainInfo = async (
+export const validateCosmosChainInfo = async (
   chainIdentifier: string,
   chainInfo: ChainInfo,
 ): Promise<ChainInfo> => {
@@ -47,11 +52,10 @@ export const validateChainInfo = async (
   }
 
   // Check chain identifier
-  if (ChainIdHelper.parse(chainInfo.chainId).identifier !== chainIdentifier) {
+  const parsedChainId = ChainIdHelper.parse(chainInfo.chainId).identifier;
+  if (parsedChainId !== chainIdentifier) {
     throw new Error(
-      `Chain identifier unmatched: (expected: ${chainIdentifier}, actual: ${
-        ChainIdHelper.parse(chainInfo.chainId).identifier
-      })`,
+      `Chain identifier unmatched: (expected: ${parsedChainId}, actual: ${chainIdentifier})`,
     );
   }
 
@@ -78,12 +82,31 @@ export const validateChainInfo = async (
     throw new Error("Should not set 'beta' field");
   }
 
+  if (
+    chainInfo.rpc.startsWith("http://") ||
+    chainInfo.rest.startsWith("http://")
+  ) {
+    throw new Error(
+      "RPC, LCD endpoints cannot be set as HTTP, please set them as HTTPS",
+    );
+  }
+
   // check RPC alive
   await checkRPCConnectivity(
     chainInfo.chainId,
     chainInfo.rpc,
     (url) => new WebSocket(url),
   );
+
+  if (chainInfo.evm) {
+    if (chainInfo.evm.chainId === 1329) {
+      throw new Error(
+        "Cannot set `evm` field for Sei chain. There is a config of EVM version of Sei chain in /evm/eip155:1329.json",
+      );
+    }
+
+    await checkEvmRpcConnectivity(chainInfo.evm.chainId, chainInfo.evm.rpc);
+  }
 
   // check REST alive
   if (
@@ -108,14 +131,126 @@ export const validateChainInfo = async (
     }
   }
 
-  if (chainInfo.stakeCurrency.coinGeckoId) {
+  if (chainInfo.stakeCurrency?.coinGeckoId) {
     coinGeckoIds.add(chainInfo.stakeCurrency.coinGeckoId);
   }
 
-  const checkCoinGeckoIds = Array.from(coinGeckoIds).map((coinGeckoId) =>
-    checkCoinGeckoId(coinGeckoId),
-  );
-  await Promise.all(checkCoinGeckoIds);
+  await checkCoinGeckoIds(...Array.from(coinGeckoIds));
+
+  return chainInfo;
+};
+
+export const validateEvmChainInfoFromPath = async (
+  path: string,
+): Promise<ChainInfo> => {
+  const parsed = libPath.parse(path);
+  if (parsed.ext !== ".json") {
+    throw new Error("File is not json");
+  }
+
+  // get json from file
+  const file = readFileSync(path, "utf-8");
+  const chainInfo: Omit<ChainInfo, "rest"> & { websocket: string } =
+    JSON.parse(file);
+
+  // validate chain info
+  return await validateEvmChainInfo(parsed.name, chainInfo);
+};
+
+export const validateEvmChainInfo = async (
+  chainIdentifier: string,
+  evmChainInfo: Omit<ChainInfo, "rest"> & { websocket: string },
+): Promise<ChainInfo> => {
+  // Check chain identifier
+  const parsedChainId = ChainIdHelper.parse(evmChainInfo.chainId).identifier;
+  if (parsedChainId !== chainIdentifier) {
+    throw new Error(
+      `Chain identifier unmatched: (expected: ${parsedChainId}, actual: ${chainIdentifier})`,
+    );
+  }
+
+  const evmChainId = parseInt(parsedChainId.replace("eip155:", ""));
+  if (isNaN(evmChainId)) {
+    throw new Error(
+      "Invalid chain identifier. It should be eip155:{integer greater-than-zero}",
+    );
+  }
+
+  const { websocket, features, ...restEVMChainInfo } = evmChainInfo;
+  const chainInfoCandidate = {
+    ...restEVMChainInfo,
+    rest: evmChainInfo.rpc,
+    evm: {
+      chainId: evmChainId,
+      rpc: evmChainInfo.rpc,
+      websocket,
+    },
+    features: ["eth-address-gen", "eth-key-sign"].concat(features ?? []),
+  };
+  const prev = sortedJsonByKeyStringify(chainInfoCandidate);
+  // validate chain information
+  const chainInfo = await (async () => {
+    try {
+      return await validateBasicChainInfoType(chainInfoCandidate);
+    } catch (e: any) {
+      // Ignore bech32Config error
+      if (e.message === `"bech32Config" is required`) {
+        return chainInfoCandidate;
+      } else {
+        throw e;
+      }
+    }
+  })();
+  if (sortedJsonByKeyStringify(chainInfo) !== prev) {
+    throw new Error("Chain info has unknown field");
+  }
+
+  if (chainInfo.evm == null) {
+    throw new Error("Something went wrong with 'evm' field");
+  }
+
+  // Check currencies
+  checkCurrencies(chainInfo);
+
+  for (const feature of chainInfo.features ?? []) {
+    if (!NonRecognizableChainFeatures.includes(feature)) {
+      throw new Error(
+        `Only non recognizable feature should be provided: ${feature}`,
+      );
+    }
+  }
+
+  if (chainInfo.beta != null) {
+    throw new Error("Should not set 'beta' field");
+  }
+
+  if (chainInfo.rpc.startsWith("http://")) {
+    throw new Error(
+      "RPC endpoints cannot be set as HTTP, please set them as HTTPS",
+    );
+  }
+
+  await checkEvmRpcConnectivity(chainInfo.evm.chainId, chainInfo.rpc);
+
+  // check coinGecko vaild
+  const coinGeckoIds = new Set<string>();
+  for (const currency of chainInfo.currencies) {
+    if (currency.coinGeckoId) {
+      coinGeckoIds.add(currency.coinGeckoId);
+    }
+  }
+
+  for (const currency of chainInfo.feeCurrencies) {
+    if (currency.coinGeckoId) {
+      coinGeckoIds.add(currency.coinGeckoId);
+    }
+  }
+
+  if (chainInfo.stakeCurrency?.coinGeckoId) {
+    coinGeckoIds.add(chainInfo.stakeCurrency.coinGeckoId);
+  }
+
+  await checkCoinGeckoIds(...Array.from(coinGeckoIds));
 
   return chainInfo;
 };
@@ -129,28 +264,39 @@ export const checkImageSize = (path: string) => {
   }
 };
 
-const checkCoinGeckoId = async (coinGeckoId: string) => {
+const checkCoinGeckoIds = async (...coinGeckoIds: string[]) => {
+  const priceURL =
+    process.env.PRICE_URL || "https://api.coingecko.com/api/v3/simple/price";
   const response = await fetch(
-    `https://api.coingecko.com/api/v3/coins/${coinGeckoId}`,
+    `${priceURL}?vs_currencies=usd&ids=${coinGeckoIds.join(",")}`,
   );
 
   if (!response.ok) {
-    throw new Error(`Failed to fetch coinGeckoId ${coinGeckoId}`);
+    throw new Error(`Failed to fetch coinGeckoId ${coinGeckoIds.join(", ")}`);
   }
 
   const data = await response.json();
 
   if (data.hasOwnProperty("error")) {
-    throw new Error(`Failed to fetch coinGeckoId ${coinGeckoId}`);
+    throw new Error(`Failed to fetch coinGeckoId ${coinGeckoIds.join(", ")}`);
+  }
+
+  for (const coinGeckoId of coinGeckoIds) {
+    if (data[coinGeckoId] == null || data[coinGeckoId]["usd"] == null) {
+      throw new Error(
+        `Failed to fetch coinGeckoId ${coinGeckoId} from coingecko`,
+      );
+    }
   }
 };
 
 export const checkCurrencies = (chainInfo: ChainInfo) => {
   // Check stake currency
   if (
+    chainInfo.stakeCurrency &&
     !chainInfo.currencies.some(
       (currency) =>
-        currency.coinMinimalDenom === chainInfo.stakeCurrency.coinMinimalDenom,
+        currency.coinMinimalDenom === chainInfo.stakeCurrency?.coinMinimalDenom,
     )
   ) {
     throw new Error(
@@ -167,28 +313,36 @@ export const checkCurrencies = (chainInfo: ChainInfo) => {
           (currency) =>
             feeCurrency.coinMinimalDenom === currency.coinMinimalDenom,
         ),
-      )
+      ) &&
+    ChainIdHelper.parse(chainInfo.chainId).identifier !== "gravity-bridge"
   ) {
     throw new Error(`Fee Currency must be included in currencies`);
   }
 
   // Check currencies
   for (const currency of chainInfo.currencies) {
-    if (new DenomHelper(currency.coinMinimalDenom).type !== "native") {
+    const denomHelper = new DenomHelper(currency.coinMinimalDenom);
+    if (denomHelper.type !== "native" && denomHelper.type !== "erc20") {
       throw new Error(
-        `Do not provide not native token to currencies: ${currency.coinMinimalDenom}`,
+        `Do not provide not native token or ERC20 token to currencies: ${currency.coinMinimalDenom}`,
       );
     }
 
-    if (currency.coinMinimalDenom.startsWith("ibc/")) {
+    if (
+      currency.coinMinimalDenom.startsWith("ibc/") &&
+      ChainIdHelper.parse(chainInfo.chainId).identifier !== "centauri"
+    ) {
+      // 오스모시스 위의 페넘브라는 일단 봐준다.
+      if (
+        ChainIdHelper.parse(chainInfo.chainId).identifier === "osmosis" &&
+        currency.coinMinimalDenom ===
+          "ibc/0FA9232B262B89E77D1335D54FB1E1F506A92A7E4B51524B400DC69C68D28372"
+      ) {
+        continue;
+      }
+
       throw new Error(
         `Do not provide ibc currency to currencies: ${currency.coinMinimalDenom}`,
-      );
-    }
-
-    if (currency.coinMinimalDenom.startsWith("gravity0x")) {
-      throw new Error(
-        `Do not provide bridged currency to currencies: ${currency.coinMinimalDenom}`,
       );
     }
   }

@@ -27,6 +27,31 @@
       "coinDecimals": 6,
       "coinGeckoId": "terra-luna-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/uluna.png"
+    },
+    {
+      "coinDenom": "ashLUNA",
+      "coinMinimalDenom": "factory/terra1f5cfm48gcezl3cx25l64ngc4yktnmx7rcpj3kggu6v273742sqqs5yn5ks/luna.ash",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/factory/terra1f5cfm48gcezl3cx25l64ngc4yktnmx7rcpj3kggu6v273742sqqs5yn5ks/luna.ash.png"
+    },
+    {
+      "coinDenom": "ROAR",
+      "coinMinimalDenom": "terra1lxx40s29qvkrcj8fsa3yzyehy7w50umdvvnls2r830rys6lu2zns63eelv",
+      "coinDecimals": 6,
+      "coinGeckoId": "lion-dao",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/ROAR.png"
+    },
+    {
+      "coinDenom": "ampROAR",
+      "coinMinimalDenom": "factory/terra1vklefn7n6cchn0u962w3gaszr4vf52wjvd4y95t2sydwpmpdtszsqvk9wy/ampROAR",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/ROAR.png"
+    },
+    {
+      "coinDenom": "MOAR",
+      "coinMinimalDenom": "factory/terra1dndhtdr2v7ca8rrn67chlqw3cl3xhm3m2uxls62vghcg3fsh5tpss5xmcu/MOAR",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/MOAR.png"
     }
   ],
   "feeCurrencies": [
@@ -37,8 +62,32 @@
       "coinGeckoId": "terra-luna-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/uluna.png",
       "gasPriceStep": {
-        "low": 0.015,
-        "average": 0.025,
+        "low": 0.02,
+        "average": 0.02,
+        "high": 0.04
+      }
+    },
+    {
+      "coinDenom": "USDC.axl",
+      "coinMinimalDenom": "ibc/B3504E092456BA618CC28AC671A71FB08C6CA0FD0BE7C8A5B5A3E2DD933CC9E4",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/uusdc.png",
+      "gasPriceStep": {
+        "low": 0.018,
+        "average": 0.02,
+        "high": 0.04
+      }
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/uusdc.png",
+      "gasPriceStep": {
+        "low": 0.018,
+        "average": 0.02,
         "high": 0.04
       }
     }

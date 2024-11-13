@@ -31,9 +31,9 @@
       "coinGeckoId": "provenance-blockchain",
       "coinMinimalDenom": "nhash",
       "gasPriceStep": {
-        "average": 1905,
-        "high": 2500,
-        "low": 1905
+        "average": 19050,
+        "high": 25000,
+        "low": 19050
       }
     }
   ],

@@ -1,0 +1,52 @@
+{
+  "bech32Config": {
+    "bech32PrefixAccAddr": "synt",
+    "bech32PrefixAccPub": "syntpub",
+    "bech32PrefixConsAddr": "syntvalcons",
+    "bech32PrefixConsPub": "syntvalconspub",
+    "bech32PrefixValAddr": "syntvaloper",
+    "bech32PrefixValPub": "syntvaloperpub"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "chainId": "synternet-1",
+  "chainName": "synternet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/synternet/synt.png",
+  "currencies": [
+    {
+      "coinDecimals": 6,
+      "coinDenom": "SYNT",
+      "coinMinimalDenom": "usynt",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/synternet/synt.png"
+    }
+  ],
+  "features": [],
+  "feeCurrencies": [
+    {
+      "coinDecimals": 6,
+      "coinDenom": "SYNT",
+      "coinMinimalDenom": "usynt",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/synternet/synt.png",
+      "gasPriceStep": {
+        "average": 0.025,
+        "high": 0.03,
+        "low": 0.01
+      }
+    }
+  ],
+  "rest": "https://api.synternet.com",
+  "rpc": "https://rpc.synternet.com",
+  "nodeProvider": {
+    "name": "Synternet",
+    "email": "info@synternet.com",
+    "website": "https://synternet.com/"
+  },
+  "stakeCurrency": {
+    "coinDecimals": 6,
+    "coinDenom": "SYNT",
+    "coinMinimalDenom": "usynt",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/synternet/synt.png"
+  },
+  "walletUrlForStaking": "https://staking.synternet.com"
+}

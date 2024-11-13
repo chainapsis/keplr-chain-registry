@@ -1,0 +1,58 @@
+{
+	"chainId": "cudos-1",
+	"chainName": "CUDOS",
+	"chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cudos/chain.png",
+	"rest": "https://rest.cudos.org/",
+	"rpc": "https://rpc.cudos.org:443",
+	"nodeProvider": {
+		"name": "Cudo Ventures",
+		"email": "support@cudoventures.com",
+		"website": "https://cudos.org"
+	},
+	"walletUrl": "https://dashboard.cudos.org/",
+	"walletUrlForStaking": "https://dashboard.cudos.org/staking",
+	"bip44": {
+		"coinType": 118
+	},
+	"bech32Config": {
+		"bech32PrefixAccAddr": "cudos",
+		"bech32PrefixAccPub": "cudospub",
+		"bech32PrefixConsAddr": "cudosvalcons",
+		"bech32PrefixConsPub": "cudosvalconspub",
+		"bech32PrefixValAddr": "cudosvaloper",
+		"bech32PrefixValPub": "cudosvaloperpub"
+	},
+	"currencies": [
+		{
+			"coinDecimals": 18,
+			"coinDenom": "CUDOS",
+			"coinGeckoId": "cudos",
+			"coinMinimalDenom": "acudos",
+			"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cudos/chain.png"
+		}
+	],
+	"feeCurrencies": [
+		{
+			"coinDecimals": 18,
+			"coinDenom": "CUDOS",
+			"coinGeckoId": "cudos",
+			"coinMinimalDenom": "acudos",
+			"gasPriceStep": {
+				"low": 5000000000000,
+				"average": 5000000000000,
+				"high": 6600000000000
+			},
+			"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cudos/chain.png"
+		}
+	],
+	"stakeCurrency": {
+		"coinDecimals": 18,
+		"coinDenom": "CUDOS",
+		"coinGeckoId": "cudos",
+		"coinMinimalDenom": "acudos",
+		"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cudos/chain.png"
+	},
+	"features": [
+		"cosmwasm"
+	]
+}

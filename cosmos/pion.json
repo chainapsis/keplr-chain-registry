@@ -3,12 +3,7 @@
   "rest": "https://rest-palvus.pion-1.ntrn.tech",
   "chainId": "pion-1",
   "chainName": "Neutron Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/chain.png",
-  "stakeCurrency": {
-    "coinDenom": "STAKE",
-    "coinMinimalDenom": "ustake",
-    "coinDecimals": 6
-  },
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pion/chain.png",
   "bip44": {
     "coinType": 118
   },
@@ -25,6 +20,17 @@
       "coinDenom": "NTRN",
       "coinMinimalDenom": "untrn",
       "coinDecimals": 6
+    },
+    {
+      "coinDenom": "amATOM",
+      "coinMinimalDenom": "factory/neutron15lku24mqhvy4v4gryrqs4662n9v9q4ux9tayn89cmdzldjcgawushxvm76/amatom",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pion/factory/neutron15lku24mqhvy4v4gryrqs4662n9v9q4ux9tayn89cmdzldjcgawushxvm76/amATOM.png"
+    },
+    {
+      "coinDenom": "dATOM",
+      "coinMinimalDenom": "factory/neutron16l0qfrrahy5mve5x9nnw6zs9vv30k7rk55h6aaypq88ljwg57uxsxcg6y6/udatom",
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
@@ -33,9 +39,9 @@
       "coinMinimalDenom": "untrn",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.01,
-        "average": 0.01,
-        "high": 0.01
+        "low": 0.02,
+        "average": 0.02,
+        "high": 0.02
       }
     }
   ],

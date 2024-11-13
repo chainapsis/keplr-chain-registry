@@ -1,6 +1,11 @@
 {
-  "rpc": "https://rpc-ixo.keplr.app",
-  "rest": "https://lcd-ixo.keplr.app",
+  "rpc": "https://ixo.rpc.m.stavr.tech",
+  "rest": "https://ixo.api.m.stavr.tech",
+  "nodeProvider": {
+    "name": "STAVR",
+    "email": "stavr.tech@gmail.com",
+    "website": "https://stavr-team.gitbook.io/"
+  },
   "chainId": "ixo-5",
   "chainName": "ixo",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ixo/chain.png",
@@ -11,8 +16,6 @@
     "coinGeckoId": "ixo",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ixo/uixo.png"
   },
-  "walletUrl": "https://wallet.keplr.app/chains/ixo",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/ixo",
   "bip44": {
     "coinType": 118
   },

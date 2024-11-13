@@ -2,17 +2,16 @@
    "chainId":"migaloo-1",
    "chainName":"Migaloo",
    "chainSymbolImageUrl":"https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/chain.png",
-   "rpc":"https://rpc-whitewhale-ia.cosmosia.notional.ventures/",
-   "rest":"https://api-whitewhale-ia.cosmosia.notional.ventures/",
+   "rpc":"https://migaloo-rpc.polkachu.com:443",
+   "rest":"https://migaloo-api.polkachu.com:443",
    "nodeProvider":{
-      "name":"Silk Nodes",
-      "email":"info@silknodes.io",
-      "website":"https://silknodes.io/"
+      "name":"Polkachu",
+      "email":"hello@polkachu.com",
+      "website":"https://polkachu.com/"
    },
    "bip44":{
       "coinType":118
    },
-   "coinType":118,
    "bech32Config":{
       "bech32PrefixAccAddr":"migaloo",
       "bech32PrefixAccPub":"migaloopub",
@@ -26,7 +25,50 @@
          "coinDenom":"WHALE",
          "coinMinimalDenom":"uwhale",
          "coinDecimals":6,
-         "coinGeckoId":"white-whale"
+         "coinGeckoId":"white-whale",
+         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/uwhale.png"
+      },
+      {
+        "coinDenom": "GUPPY",
+        "coinMinimalDenom": "factory/migaloo1etlu2h30tjvv8rfa4fwdc43c92f6ul5w9acxzk/uguppy",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/factory/migaloo1etlu2h30tjvv8rfa4fwdc43c92f6ul5w9acxzk/uguppy.png"
+      },
+      {
+        "coinDenom": "RAC",
+        "coinMinimalDenom": "factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/urac",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/urac.png"
+      },
+      {
+        "coinDenom": "SHARK",
+        "coinMinimalDenom": "factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/shark",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/shark.png"
+      },
+      {
+        "coinDenom": "bWHALE",
+        "coinMinimalDenom": "factory/migaloo1mf6ptkssddfmxvhdx0ech0k03ktp6kf9yk59renau2gvht3nq2gqdhts4u/boneWhale",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/factory/migaloo1mf6ptkssddfmxvhdx0ech0k03ktp6kf9yk59renau2gvht3nq2gqdhts4u/bWHALE.png"
+      },
+      {
+         "coinDenom": "RSTK",
+         "coinMinimalDenom": "factory/migaloo1d0uma9qzcts4fzt7ml39xp44aut5k6qyjfzz4asalnecppppr3rsl52vvv/rstk",
+         "coinDecimals": 6,
+         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/factory/migaloo1d0uma9qzcts4fzt7ml39xp44aut5k6qyjfzz4asalnecppppr3rsl52vvv/rstk.png"
+      },
+      {
+        "coinDenom": "GRAC",
+        "coinMinimalDenom": "factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/ugrac",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/grac.png"
+      },
+      {
+        "coinDenom": "ampGASH",
+        "coinMinimalDenom": "factory/migaloo1nsskhvvh0msm7d5ke2kfg24a8d4jecsnxd28s27h0uz5kf9ap60shlqmcl/ampGASH",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/factory/migaloo1nsskhvvh0msm7d5ke2kfg24a8d4jecsnxd28s27h0uz5kf9ap60shlqmcl/ampGASH.png"
       }
    ],
    "feeCurrencies":[
@@ -36,9 +78,9 @@
          "coinDecimals":6,
          "coinGeckoId":"white-whale",
          "gasPriceStep":{
-            "low":0.25,
-            "average":0.3,
-            "high":0.35
+            "low":1,
+            "average":1.2,
+            "high":1.4
          }
       }
    ],

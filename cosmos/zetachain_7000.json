@@ -1,0 +1,55 @@
+{
+  "rpc": "https://rpc-zetachain.keplr.app",
+  "rest": "https://lcd-zetachain.keplr.app",
+  "evm": {
+    "chainId": 7000,
+    "rpc": "https://evm-zetachain.keplr.app",
+    "websocket": "wss://ws-evm-zetachain.keplr.app"
+  },
+  "chainId": "zetachain_7000-1",
+  "chainName": "ZetaChain",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zetachain_7000/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "ZETA",
+    "coinMinimalDenom": "azeta",
+    "coinDecimals": 18,
+    "coinGeckoId": "zetachain",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zetachain_7000/chain.png"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "zeta",
+    "bech32PrefixAccPub": "zetapub",
+    "bech32PrefixValAddr": "zetavaloper",
+    "bech32PrefixValPub": "zetavaloperpub",
+    "bech32PrefixConsAddr": "ezetaalcons",
+    "bech32PrefixConsPub": "zetavalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "ZETA",
+      "coinMinimalDenom": "azeta",
+      "coinDecimals": 18,
+      "coinGeckoId": "zetachain",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zetachain_7000/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ZETA",
+      "coinMinimalDenom": "azeta",
+      "coinDecimals": 18,
+      "coinGeckoId": "zetachain",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zetachain_7000/chain.png",
+      "gasPriceStep": {
+        "low": 80000000000,
+        "average": 80000000000,
+        "high": 80000000000
+      }
+    }
+  ],
+  "features": ["eth-address-gen", "eth-key-sign"],
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/zetachain"
+}

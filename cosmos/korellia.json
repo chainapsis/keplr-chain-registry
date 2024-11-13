@@ -1,0 +1,51 @@
+{
+  "rpc": "https://rpc.korellia.kyve.network",
+  "rest": "https://api.korellia.kyve.network",
+  "chainId": "korellia-2",
+  "chainName": "Korellia (Devnet)",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/korellia/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "KYVE",
+    "coinMinimalDenom": "tkyve",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/korellia/tkyve.png"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "kyve",
+    "bech32PrefixAccPub": "kyvepub",
+    "bech32PrefixValAddr": "kyvevaloper",
+    "bech32PrefixValPub": "kyvevaloperpub",
+    "bech32PrefixConsAddr": "kyvevalcons",
+    "bech32PrefixConsPub": "kyvevalconspub"
+  },
+  "nodeProvider": {
+    "name": "KYVE",
+    "email": "info@kyve.network",
+    "website": "https://kyve.network"
+  },
+  "currencies": [
+    {
+      "coinDenom": "KYVE",
+      "coinMinimalDenom": "tkyve",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/korellia/tkyve.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "KYVE",
+      "coinMinimalDenom": "tkyve",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/korellia/tkyve.png",
+      "gasPriceStep": {
+        "low": 0.02,
+        "average": 0.03,
+        "high": 0.06
+      }
+    }
+  ],
+  "features": []
+}

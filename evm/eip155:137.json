@@ -1,0 +1,36 @@
+{
+  "rpc": "https://evm-137.keplr.app",
+  "websocket": "wss://evm-137.keplr.app/websocket",
+  "chainId": "eip155:137",
+  "chainName": "Polygon",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:137/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "POL",
+      "coinMinimalDenom": "polygon-native",
+      "coinDecimals": 18,
+      "coinGeckoId": "polygon-ecosystem-token",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:137/polygon-native.png"
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "erc20:0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:137/erc20/0x3c499c542cef5e3811e1192ce70d8cc03d5c3359.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "POL",
+      "coinMinimalDenom": "polygon-native",
+      "coinDecimals": 18,
+      "coinGeckoId": "polygon-ecosystem-token",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:137/polygon-native.png"
+    }
+  ],
+  "features": []
+}

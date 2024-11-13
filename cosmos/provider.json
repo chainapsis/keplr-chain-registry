@@ -1,0 +1,49 @@
+{
+  "chainId": "provider",
+  "chainName": "Cosmoshub Provider Testnet",
+  "rest": "https://rest.provider-sentry-01.ics-testnet.polypore.xyz",
+  "rpc": "https://rpc.provider-sentry-01.ics-testnet.polypore.xyz",
+  "bech32Config": {
+    "bech32PrefixAccAddr": "cosmos",
+    "bech32PrefixAccPub": "cosmospub",
+    "bech32PrefixConsAddr": "cosmosvalcons",
+    "bech32PrefixConsPub": "cosmosvalconspub",
+    "bech32PrefixValAddr": "cosmosvaloper",
+    "bech32PrefixValPub": "cosmosvaloperpub"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/provider/chain.png",
+  "currencies": [
+    {
+      "coinDecimals": 6,
+      "coinDenom": "ATOM",
+
+      "coinMinimalDenom": "uatom",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/provider/uatom.png"
+    }
+  ],
+  "features": [],
+  "feeCurrencies": [
+    {
+      "coinDecimals": 6,
+      "coinDenom": "ATOM",
+
+      "coinMinimalDenom": "uatom",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/provider/uatom.png",
+      "gasPriceStep": {
+        "average": 0.025,
+        "high": 0.03,
+        "low": 0.005
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDecimals": 6,
+    "coinDenom": "ATOM",
+
+    "coinMinimalDenom": "uatom",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/provider/uatom.png"
+  }
+}

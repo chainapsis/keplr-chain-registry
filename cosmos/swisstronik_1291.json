@@ -1,0 +1,52 @@
+{
+  "chainId": "swisstronik_1291-1",
+  "chainName": "Swisstronik",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/swisstronik_1291/chain.png",
+  "rpc": "https://rpc.testnet.swisstronik.com",
+  "rest": "https://api.testnet.swisstronik.com",
+  "nodeProvider": {
+    "name": "Swisstronik Node",
+    "email": "contact@swisstronik.com",
+    "website": "https://www.swisstronik.com"
+  },
+  "currencies": [
+    {
+      "coinMinimalDenom": "aswtr",
+      "coinDenom": "SWTR",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/swisstronik_1291/chain.png"
+    }
+  ],
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "swtr",
+    "bech32PrefixAccPub": "swtrpub",
+    "bech32PrefixValAddr": "swtraloper",
+    "bech32PrefixValPub": "swtrvaloperpub",
+    "bech32PrefixConsAddr": "swtrvalcons",
+    "bech32PrefixConsPub": "swtrvalconspub"
+  },
+  "stakeCurrency": {
+    "coinMinimalDenom": "aswtr",
+    "coinDenom": "SWTR",
+    "coinDecimals": 18,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/swisstronik_1291/chain.png"
+  },
+  "feeCurrencies": [
+    {
+      "coinMinimalDenom": "aswtr",
+      "coinDenom": "SWTR",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/swisstronik_1291/chain.png",
+      "gasPriceStep": {
+        "average": 30000000000,
+        "high": 30000000000,
+        "low": 30000000000
+      }
+    }
+  ],
+  "walletUrlForStaking": "https://explorer-cosmos.testnet.swisstronik.com/swisstronik/staking",
+  "features": ["eth-address-gen", "eth-key-sign"]
+}
