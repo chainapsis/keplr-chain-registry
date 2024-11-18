@@ -114,6 +114,37 @@
       "coinMinimalDenom": "factory/neutron1w0pz4mjw7n96kkragj8etgfgakg5vw9lzg77wq/cartel",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron1w0pz4mjw7n96kkragj8etgfgakg5vw9lzg77wq/cartel.png"
+    },
+    { 
+      "coinDenom": "MOO",
+      "coinMinimalDenom": "factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/MOO",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/MOO.png"
+    },
+    { 
+      "coinDenom": "SCRAP",
+      "coinMinimalDenom": "factory/neutron1qm224945hrkwc5qze40tau499n46ydmulpeagscmsuyxfrds02usf7mnpu/scrap",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron1qm224945hrkwc5qze40tau499n46ydmulpeagscmsuyxfrds02usf7mnpu/SCRAP.png"
+    },
+    { 
+      "coinDenom": "WEIRD",
+      "coinMinimalDenom": "factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/WEIRD",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/WEIRD.png"
+    },
+    { 
+      "coinDenom": "SIN",
+      "coinMinimalDenom": "factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/sin",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/sinToken.png"
+    },
+    {
+      "coinDenom": "dATOM",
+      "coinMinimalDenom": "factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom",
+      "coinDecimals": 6,
+      "coinGeckoId": "drop-staked-atom",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/datom.png"
     }
   ],
   "feeCurrencies": [

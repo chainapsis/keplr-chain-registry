@@ -13,7 +13,7 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: "18"
           registry-url: "https://registry.npmjs.org"
       - run: npm install --global yarn
       - name: Get yarn cache directory path
@@ -51,8 +51,8 @@ jobs:
           AWS_REGION: us-west-2
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      - run: yarn ts-node src/cms.ts
-        env: 
-          WEBFLOW_TOKEN: ${{ secrets.WEBFLOW_TOKEN }}
-          WEBFLOW_COLLECTION_ID: ${{ secrets.WEBFLOW_COLLECTION_ID }}
-
+      # Disable temporarily
+      # - run: yarn ts-node src/cms.ts
+      #   env:
+      #     WEBFLOW_TOKEN: ${{ secrets.WEBFLOW_TOKEN }}
+      #     WEBFLOW_COLLECTION_ID: ${{ secrets.WEBFLOW_COLLECTION_ID }}

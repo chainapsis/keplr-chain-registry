@@ -1,0 +1,57 @@
+{
+  "rpc": "https://rpc.testnet.stalwart.dev",
+  "rest": "https://api.testnet.stalwart.dev",
+  "nodeProvider": {
+    "name": "Algoritmic Lab",
+    "email": "snemesh@algoritmiclab.ai",
+    "website":"https://www.algoritmiclab.ai"
+  },
+  "chainId": "stwart_testnet_1",
+  "chainName": "Stalwart Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stwart_testnet_1/chain.png",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "stwart",
+    "bech32PrefixAccPub": "stwartpub",
+    "bech32PrefixValAddr": "stwartvaloper",
+    "bech32PrefixValPub": "stwartvaloperpub",
+    "bech32PrefixConsAddr": "stwartvalcons",
+    "bech32PrefixConsPub": "stwartvalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "STW",
+    "coinMinimalDenom": "stw",
+    "coinDecimals": 8,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stwart_testnet_1/stw.png"
+  },
+  "currencies": [
+    {
+      "coinDenom": "STW",
+      "coinMinimalDenom": "stw",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stwart_testnet_1/stw.png"
+    },
+    {
+      "coinDenom": "SSC",
+      "coinMinimalDenom": "ssc",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stwart_testnet_1/ssc.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "STW",
+      "coinMinimalDenom": "stw",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stwart_testnet_1/stw.png",
+      "gasPriceStep": {
+        "low": 0.25,
+        "average": 2.5,
+        "high": 4.0
+      }
+    }
+  ],
+  "features": []
+}

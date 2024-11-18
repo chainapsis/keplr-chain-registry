@@ -1,10 +1,10 @@
 {
-  "rpc": "https://ixo-rpc.ibs.team",
-  "rest": "https://ixo-api.ibs.team",
+  "rpc": "https://ixo.rpc.m.stavr.tech",
+  "rest": "https://ixo.api.m.stavr.tech",
   "nodeProvider": {
-    "name": "Inter Blockchain Services",
-    "email": "contact@ibs.team",
-    "website": "https://ibs.team"
+    "name": "STAVR",
+    "email": "stavr.tech@gmail.com",
+    "website": "https://stavr-team.gitbook.io/"
   },
   "chainId": "ixo-5",
   "chainName": "ixo",

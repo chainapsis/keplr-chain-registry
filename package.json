@@ -14,8 +14,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "build:server": "tsc -p ./server/tsconfig.json && mkdir -p ./server/build/static && cp -r ./cosmos ./server/build/static",
-    "bundle:server": "rm -rf ./server/bundle && esbuild ./server/src/index.ts --bundle --minify --sourcemap --platform=node --target=node18 --outdir=./server/bundle && mkdir -p ./server/bundle/static && cp -r ./cosmos ./server/bundle/static",
+    "build:server": "tsc -p ./server/tsconfig.json && mkdir -p ./server/build/static && cp -r ./cosmos ./server/build/static && cp -r ./evm ./server/build/static",
+    "bundle:server": "rm -rf ./server/bundle && esbuild ./server/src/index.ts --bundle --minify --sourcemap --platform=node --target=node18 --outdir=./server/bundle && mkdir -p ./server/bundle/static && cp -r ./cosmos ./server/bundle/static && cp -r ./evm ./server/bundle/static",
     "bundle:zip": "cd ./server && zip -r ../bundle.zip ./bundle"
   },
   "pre-commit": [
@@ -25,10 +25,11 @@
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
-    "@keplr-wallet/chain-validator": "0.12.42",
-    "@keplr-wallet/common": "0.12.42",
-    "@keplr-wallet/cosmos": "0.12.42",
-    "@keplr-wallet/types": "0.12.42",
+    "@actions/core": "^1.10.1",
+    "@keplr-wallet/chain-validator": "v0.12.118-rc.0",
+    "@keplr-wallet/common": "v0.12.118-rc.0",
+    "@keplr-wallet/cosmos": "v0.12.118-rc.0",
+    "@keplr-wallet/types": "v0.12.118-rc.0",
     "axios": "^0.27.2",
     "cors": "^2.8.5",
     "esbuild": "^0.19.5",

@@ -27,13 +27,16 @@
   },
   "currencies": [
     {
+      "coinDenom": "MPX",
+      "coinMinimalDenom": "mpx",
+      "coinDecimals": 18
+    },{
       "coinDenom": "XFI",
       "coinMinimalDenom": "xfi",
       "coinDecimals": 18
-    },
-    {
-      "coinDenom": "MPX",
-      "coinMinimalDenom": "mpx",
+    },{
+      "coinDenom": "XFT",
+      "coinMinimalDenom": "xft",
       "coinDecimals": 18
     }
   ],
@@ -53,9 +56,9 @@
       "coinMinimalDenom": "mpx",
       "coinDecimals": 18,
       "gasPriceStep": {
-        "low": 20000000000,
-        "average": 25000000000,
-        "high": 30000000000
+        "low": 10000000000000,
+        "average": 15000000000000,
+        "high": 20000000000000
       }
     }
   ],

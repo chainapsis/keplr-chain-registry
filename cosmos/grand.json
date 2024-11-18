@@ -1,19 +1,14 @@
 {
   "chainId": "grand-1",
   "chainName": "Grand",
-  "rpc": "https://rpc.testnet.noble.strange.love",
-  "rest": "https://api.testnet.noble.strange.love/",
+  "rpc": "https://noble-testnet-rpc.polkachu.com",
+  "rest": "https://noble-testnet-api.polkachu.com",
   "nodeProvider": {
-    "name": "Strangelove",
-    "email": "support@strange.love",
-    "website": "https://strange.love/"
+    "name": "Polkachu",
+    "email": "hello@polkachu.com",
+    "website": "https://polkachu.com"
   },
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/chain.png",
-  "stakeCurrency": {
-    "coinDenom": "STAKE",
-    "coinMinimalDenom": "ustake",
-    "coinDecimals": 6
-  },
   "bip44": {
     "coinType": 118
   },
@@ -33,10 +28,22 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/uusdc.png"
     },
     {
-      "coinDenom": "STAKE",
-      "coinMinimalDenom": "ustake",
+      "coinDenom": "USDY",
+      "coinMinimalDenom": "ausdy",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/ausdy.png"
+    },
+    {
+      "coinDenom": "USYC",
+      "coinMinimalDenom": "uusyc",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/ustake.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/uusyc.png"
+    },
+    {
+      "coinDenom": "EURe",
+      "coinMinimalDenom": "ueure",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/ueure.png"
     },
     {
       "coinDenom": "LOVE",
