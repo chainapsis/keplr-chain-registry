@@ -3,15 +3,15 @@
 	"rest": "https://prysm-testnet-api.polkachu.com",
 	"chainId": "prysm-devnet-1",
 	"chainName": "Prysm Testnet",
- 	"chainSymbolImageUrl": "https://github.com/LightLABS-Dev/keplr-chain-registry/blob/1bf875dae7d1adcb30e1228bec7a01b136a4f583/images/Prysm/Prysm.png",
-  	"stakeCurrency": {
-    	"coinDenom": "Prysm",
-    	"coinMinimalDenom": "uprysm",
-    	"coinImageUrl": "https://github.com/LightLABS-Dev/keplr-chain-registry/blob/1bf875dae7d1adcb30e1228bec7a01b136a4f583/images/Prysm/Prysm.png",
-    	"coinDecimals": 6
-  },
+	"chainSymbolImageUrl": "https://raw.githubusercontent.com/LightLABS-Dev/keplr-chain-registry/main/images/Prysm/Prysm.png",
+	"stakeCurrency": {
+		"coinDenom": "Prysm",
+		"coinMinimalDenom": "uprysm",
+		"coinImageUrl": "https://raw.githubusercontent.com/LightLABS-Dev/keplr-chain-registry/main/images/Prysm/Prysm.png",
+		"coinDecimals": 6
+	},
 	"bip44": {
-	  "coinType": 118
+		"coinType": 118
 	},
 	"bech32Config": {
 		"bech32PrefixAccAddr": "prysm",
@@ -40,10 +40,5 @@
 			}
 		}
 	],
-	"stakeCurrency": {
-		"coinDenom": "prysm",
-		"coinMinimalDenom": "uprysm",
-		"coinDecimals": 6
-	},
 	"features": ["cosmwasm"]
 }
