@@ -7,7 +7,7 @@
   "nodeProvider": {
     "name": "Medas Digital 2.0",
     "email": "info@medas-digital.io",
-    "website":"https://medas-digital.io"
+    "website":"https://medas-digital.io/"
   },
   "walletUrl": "https://app.medas-digital.io",
   "walletUrlForStaking": "https://app.medas-digital.io/delegate",
