@@ -1,11 +1,11 @@
 {
   "rpc": "https://rpc.medas-digital.io:26657",
   "rest": "https://lcd.medas-digital.io:1317",
-  "chainId": "medasdigital-1",
-  "chainName": "Medas Digital",
+  "chainId": "medasdigital-2",
+  "chainName": "Medas Digital 2.0",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/medasdigital/chain.png",
   "nodeProvider": {
-    "name": "Medas Digital",
+    "name": "Medas Digital 2.0",
     "email": "info@medas-digital.io",
     "website":"https://medas-digital.io/"
   },
