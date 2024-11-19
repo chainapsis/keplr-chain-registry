@@ -1,6 +1,6 @@
 {
-  "chainId": "symphony-testnet-3",
-  "chainName": "symphonytestnet",
+  "chainId": "symphony-testnet-4",
+  "chainName": "Symphony Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/chain.png",
   "rpc": "https://symphony.test.rpc.nodeshub.online/",
   "rest": "https://symphony.test.api.nodeshub.online/",
