@@ -1,6 +1,6 @@
 {
     "chainId": "ggezchain",
-    "chainName": "GGEZ1",
+    "chainName": "GGEZ1 Chain",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ggezchain/chain.png",
     "rpc": "https://bc.ggez.one:8443",
     "rest": "https://rest.ggez.one",
