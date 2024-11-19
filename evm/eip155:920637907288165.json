@@ -17,7 +17,7 @@
             "coinMinimalDenom": "ethereum-native",
             "coinDecimals": 18,
             "coinGeckoId": "ethereum",
-            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/ethereum-native.png"
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:920637907288165/kakarot-native.png"
         }
     ],
     "feeCurrencies": [
@@ -26,7 +26,7 @@
             "coinMinimalDenom": "ethereum-native",
             "coinDecimals": 18,
             "coinGeckoId": "ethereum",
-            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/ethereum-native.png"
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:920637907288165/kakarot-native.png"
         }
     ],
     "features": []
