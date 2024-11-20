@@ -1,6 +1,6 @@
 {
     "chainId": "ggezchain",
-    "chainName": "GGEZ1",
+    "chainName": "GGEZ1 Chain",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ggezchain/chain.png",
     "rpc": "https://bc.ggez.one:8443",
     "rest": "https://rest.ggez.one",
@@ -40,9 +40,9 @@
         "coinMinimalDenom": "uggez1",
         "coinDecimals": 6,
         "gasPriceStep": {
-          "low": 0.025,
-          "average": 0.05,
-          "high": 0.1
+          "low": 0.4,
+          "average": 0.5,
+          "high": 0.75
         },
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ggezchain/ggez1.png"
       },
