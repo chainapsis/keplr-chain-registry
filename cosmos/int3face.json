@@ -1,8 +1,15 @@
 {
   "chainId": "int3face-1",
-  "chainName": "int3face",
+  "chainName": "Int3face",
   "rpc": "https://rpc.mainnet.int3face.zone",
   "rest": "https://api.mainnet.int3face.zone",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "INT3",
+    "coinMinimalDenom": "uint3",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/uint3.png"
+  },
   "bip44": {
     "coinType": 118
   },
@@ -19,7 +26,7 @@
       "coinDenom": "INT3",
       "coinMinimalDenom": "uint3",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/int3.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/uint3.png"
     },
     {
       "coinDenom": "int3DOGE",
@@ -51,7 +58,7 @@
       "coinDenom": "INT3",
       "coinMinimalDenom": "uint3",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/int3.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/uint3.png",
       "gasPriceStep": {
         "low": 0.01,
         "average": 0.025,
@@ -103,11 +110,6 @@
       }
     }
   ],
-  "stakeCurrency": {
-    "coinDenom": "INT3",
-    "coinMinimalDenom": "uint3",
-    "coinDecimals": 6
-  },
   "features": [
     "ibc-transfer"
   ]
