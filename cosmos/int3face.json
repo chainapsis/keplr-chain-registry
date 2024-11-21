@@ -29,25 +29,25 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/uint3.png"
     },
     {
-      "coinDenom": "int3DOGE",
+      "coinDenom": "DOGE.int3",
       "coinMinimalDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/dogecoin-doge",
       "coinDecimals": 8,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/int3-doge.png"
     },
     {
-      "coinDenom": "int3BCH",
+      "coinDenom": "BCH.int3",
       "coinMinimalDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-cash-bch",
       "coinDecimals": 8,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/int3-bch.png"
     },
     {
-      "coinDenom": "int3LTC",
+      "coinDenom": "LTC.int3",
       "coinMinimalDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/litecoin-ltc",
       "coinDecimals": 8,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/int3-ltc.png"
     },
     {
-      "coinDenom": "int3BTC",
+      "coinDenom": "BTC.int3",
       "coinMinimalDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-btc",
       "coinDecimals": 8,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/int3-btc.png"
@@ -66,7 +66,7 @@
       }
     },
     {
-      "coinDenom": "int3BTC",
+      "coinDenom": "BTC.int3",
       "coinMinimalDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-btc",
       "coinDecimals": 8,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/int3-btc.png",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "coinDenom": "int3BCH",
+      "coinDenom": "BCH.int3",
       "coinMinimalDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-cash-bch",
       "coinDecimals": 8,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/int3-bch.png",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "coinDenom": "int3LTC",
+      "coinDenom": "LTC.int3",
       "coinMinimalDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/litecoin-ltc",
       "coinDecimals": 8,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/int3-ltc.png",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "coinDenom": "int3DOGE",
+      "coinDenom": "DOGE.int3",
       "coinMinimalDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/dogecoin-doge",
       "coinDecimals": 8,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/int3-doge.png",
