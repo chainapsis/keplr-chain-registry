@@ -110,7 +110,5 @@
       }
     }
   ],
-  "features": [
-    "ibc-transfer"
-  ]
+  "features": []
 }
