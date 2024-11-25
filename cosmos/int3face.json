@@ -3,6 +3,11 @@
   "chainName": "Int3face",
   "rpc": "https://rpc.mainnet.int3face.zone",
   "rest": "https://api.mainnet.int3face.zone",
+  "nodeProvider": {
+    "name": "Int3face",
+    "email": "support@int3face.io",
+    "website": "https://int3face.zone"
+  },
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/chain.png",
   "stakeCurrency": {
     "coinDenom": "INT3",
