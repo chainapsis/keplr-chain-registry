@@ -1,0 +1,51 @@
+{
+  "bech32Config": {
+    "bech32PrefixAccAddr": "aaron",
+    "bech32PrefixAccPub": "aaronpub",
+    "bech32PrefixConsAddr": "aaronvalcons",
+    "bech32PrefixConsPub": "aaronvalconspub",
+    "bech32PrefixValAddr": "aaronvaloper",
+    "bech32PrefixValPub": "aaronvaloperpub"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "chainId": "aaronetwork",
+  "chainName": "Aaron Network",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aaronetwork/chain.png",
+  "nodeProvider": {
+    "name":"Aaron Network",
+    "email": "aaronetwork@proton.me",
+    "website":"https://aaronetwork.xyz"
+  },
+  "currencies": [
+    {
+      "coinDecimals": 6,
+      "coinDenom": "AARON",
+      "coinMinimalDenom": "uaaron",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aaronetwork/chain.png"
+    }
+  ],
+  "features": [],
+  "feeCurrencies": [
+    {
+      "coinDecimals": 6,
+      "coinDenom": "AARON",
+      "coinMinimalDenom": "uaaron",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aaronetwork/chain.png",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.02,
+        "high": 0.1
+      }
+    }
+  ],
+  "rpc": "https://mainnet-rpc.aaronetwork.xyz",
+  "rest": "https://mainnet-api.aaronetwork.xyz",
+  "stakeCurrency": {
+    "coinDecimals": 6,
+    "coinDenom": "AARON",
+    "coinMinimalDenom": "uaaron",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aaronetwork/chain.png"
+  }
+}
