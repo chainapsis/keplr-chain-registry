@@ -42,8 +42,8 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/althea/althea_token.png",
       "gasPriceStep": {
         "low": 0.03,
-        "average": 0.04,
-        "high": 0.075
+        "average": 0.0375,
+        "high": 0.045
       }
     }
   ],
