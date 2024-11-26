@@ -41,9 +41,9 @@
       "coinGeckoId": "althea",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/althea/althea_token.png",
       "gasPriceStep": {
-        "low": 0.03,
-        "average": 0.0375,
-        "high": 0.045
+        "low": 100000000000,
+        "average": 125000000000,
+        "high": 250000000000
       }
     }
   ],
