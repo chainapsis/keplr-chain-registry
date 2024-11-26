@@ -1,0 +1,58 @@
+{
+  "chainId": "althea_258432-1",
+  "chainName": "Althea",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/althea/althea_token.png",
+  "rpc": "https://rpc.althea.zone:26657",
+  "rest": "https://rpc.althea.zone:1317",
+  "nodeProvider": {
+    "name": "Althea L1",
+    "email": "hello@althea.net",
+    "website": "https://althea.net/"
+  },
+  "evm": {
+    "chainId": 258432,
+    "rpc": "https://rpc.althea.zone:26657"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "althea",
+    "bech32PrefixAccPub": "altheapub",
+    "bech32PrefixValAddr": "altheavaloper",
+    "bech32PrefixValPub": "altheavaloperpub",
+    "bech32PrefixConsAddr": "altheavalcons",
+    "bech32PrefixConsPub": "altheavalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "ALTHEA",
+      "coinMinimalDenom": "aalthea",
+      "coinDecimals": 18,
+      "coinGeckoId": "althea",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/althea/althea_token.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ALTHEA",
+      "coinMinimalDenom": "aalthea",
+      "coinDecimals": 18,
+      "coinGeckoId": "althea",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/althea/althea_token.png",
+      "gasPriceStep": {
+        "low": 0.03,
+        "average": 0.04,
+        "high": 0.075
+      }
+    }
+  ],
+   "stakeCurrency": {
+    "coinDenom": "ALTHEA",
+    "coinMinimalDenom": "aalthea",
+    "coinDecimals": 18,
+    "coinGeckoId": "althea",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/althea/althea_token.png"
+  },
+  "features": ["eth-address-gen", "eth-key-sign"]
+}
