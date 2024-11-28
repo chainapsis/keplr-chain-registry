@@ -7,6 +7,7 @@
     "nodeProvider": {
       "name": "Zenrock",
       "discord": "https://discord.gg/zenrockfoundation",
+      "email": "support@zenrocklabs.io",
       "website": "https://zenrocklabs.io/"
     },
     "bip44": {
