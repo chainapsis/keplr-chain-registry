@@ -24,6 +24,7 @@
       {
         "coinDenom": "DGN",
         "coinMinimalDenom": "udgn",
+        "coinGeckoId": "dragon-coin-2",
         "coinDecimals": 6,
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png"
       }
