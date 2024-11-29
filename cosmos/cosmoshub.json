@@ -20,6 +20,12 @@
       "coinGeckoId": "cosmos",
       "coinMinimalDenom": "uatom",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/uatom.png"
+    },
+    {
+      "coinDenom": "CROWDP",
+      "coinMinimalDenom": "ibc/74C4FE1EC3BDD66B02C691496371DDBB86DDE512C5BC072D76262C6C9B4B20D1",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/evmos_9001/CROWDP.png"
     }
   ],
   "features": [],

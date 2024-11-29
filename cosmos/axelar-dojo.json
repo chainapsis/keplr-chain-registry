@@ -220,6 +220,12 @@
       "coinMinimalDenom": "yum-wei",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/yum-wei.png"
+    },
+    {
+      "coinDenom": "CROWDP",
+      "coinMinimalDenom": "ibc/53046FFF6CAD109D8F9B2C7C9913853AD241928CD05CDDE419343D176025DA74",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/evmos_9001/CROWDP.png"
     }
   ],
   "feeCurrencies": [
