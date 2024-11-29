@@ -122,7 +122,7 @@
       "coinDenom": "CROWDP",
       "coinMinimalDenom": "ibc/D29FF5FFE7B9A5C6CE595FF963F7C93F2B8603586645C39B13E1D336847863C3",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/evmos_9001/CROWDP.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stargaze/CROWDP.png"
     }
   ],
   "features": []

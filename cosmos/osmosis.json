@@ -207,7 +207,7 @@
       "coinDenom": "CROWDP",
       "coinMinimalDenom": "ibc/5EC896BED3EBCB2CB6F1C167582E4EFA3F6FA3385F28BA5EA92D4A489DA010C5",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/evmos_9001/CROWDP.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/CROWDP.png"
     }
   ],
   "features": ["cosmwasm", "osmosis-txfees", "osmosis-base-fee-beta"]
