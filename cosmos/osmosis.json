@@ -188,6 +188,12 @@
       "coinMinimalDenom": "factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/uspice",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/spice.png"
+    },
+    {
+      "coinDenom": "Sherpa",
+      "coinMinimalDenom": "factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/usherpa",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/sherpa.png"
     }
   ],
   "feeCurrencies": [
