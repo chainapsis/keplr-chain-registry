@@ -103,12 +103,6 @@
       "coinMinimalDenom": "factory/stars1ur79p98rmpn456esgzjernaxy7v25mlwqsv8uhymzxahfw77427syk2h9j/bglUSDC",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stargaze/factory/stars1ur79p98rmpn456esgzjernaxy7v25mlwqsv8uhymzxahfw77427syk2h9j/bglUSDC.png"
-    },
-    {
-      "coinDenom": "CROWDP",
-      "coinMinimalDenom": "ibc/D29FF5FFE7B9A5C6CE595FF963F7C93F2B8603586645C39B13E1D336847863C3",
-      "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/evmos_9001/CROWDP.png"
     }
   ],
   "feeCurrencies": [
@@ -123,6 +117,12 @@
         "average": 1.1,
         "high": 1.2
       }
+    },
+    {
+      "coinDenom": "CROWDP",
+      "coinMinimalDenom": "ibc/D29FF5FFE7B9A5C6CE595FF963F7C93F2B8603586645C39B13E1D336847863C3",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/evmos_9001/CROWDP.png"
     }
   ],
   "features": []

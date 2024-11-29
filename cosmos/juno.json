@@ -31,12 +31,6 @@
       "coinDecimals": 6,
       "coinGeckoId": "juno-network",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/juno/ujuno.png"
-    },
-    {
-      "coinDenom": "CROWDP",
-      "coinMinimalDenom": "ibc/B4B81727559DC69159ED8BECD4452D555235CA0D11FADD3ADE121395A7E2833E",
-      "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/evmos_9001/CROWDP.png"
     }
   ],
   "feeCurrencies": [
@@ -61,6 +55,12 @@
         "average": 0.003,
         "high": 0.003
       }
+    },
+    {
+      "coinDenom": "CROWDP",
+      "coinMinimalDenom": "ibc/B4B81727559DC69159ED8BECD4452D555235CA0D11FADD3ADE121395A7E2833E",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/evmos_9001/CROWDP.png"
     }
   ],
   "features": [
