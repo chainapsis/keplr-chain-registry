@@ -55,6 +55,12 @@
         "average": 0.003,
         "high": 0.003
       }
+    },
+    {
+      "coinDenom": "Wind",
+      "coinDecimals": 6,
+      "coinMinimalDenom": "factory/juno1h6y8tkceau4d8zyv5aa0fwdj2pa2y0gz2hx0tq/uwind",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/juno/factory/juno1h6y8tkceau4d8zyv5aa0fwdj2pa2y0gz2hx0tq/uwind.png"
     }
   ],
   "features": [
