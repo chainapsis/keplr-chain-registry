@@ -1,7 +1,7 @@
 {
   "chainId": "althea_258432-1",
   "chainName": "Althea",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/althea/althea_token.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/althea/althea256x256.png",
   "rpc": "https://rpc.althea.zone:26657",
   "rest": "https://rpc.althea.zone:1317",
   "nodeProvider": {
@@ -29,8 +29,7 @@
       "coinDenom": "ALTHEA",
       "coinMinimalDenom": "aalthea",
       "coinDecimals": 18,
-      "coinGeckoId": "althea",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/althea/althea_token.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/althea/althea256x256.png"
     }
   ],
   "feeCurrencies": [
@@ -38,8 +37,7 @@
       "coinDenom": "ALTHEA",
       "coinMinimalDenom": "aalthea",
       "coinDecimals": 18,
-      "coinGeckoId": "althea",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/althea/althea_token.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/althea/althea256x256.png",
       "gasPriceStep": {
         "low": 100000000000,
         "average": 125000000000,
@@ -51,8 +49,7 @@
     "coinDenom": "ALTHEA",
     "coinMinimalDenom": "aalthea",
     "coinDecimals": 18,
-    "coinGeckoId": "althea",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/althea/althea_token.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/althea/althea256x256.png"
   },
   "features": ["eth-address-gen", "eth-key-sign"]
 }
