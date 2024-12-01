@@ -1,0 +1,43 @@
+{
+  "rpc": "http://47.251.32.165:26657",
+  "rest": "http://47.251.32.165:1317",
+  "chainId": "artela_11822-1",
+  "chainName": "Artela Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/artela_11822/chain.png",
+  "bech32Config": {
+    "bech32PrefixAccAddr": "art",
+    "bech32PrefixAccPub": "artpub",
+    "bech32PrefixValAddr": "artvaloper",
+    "bech32PrefixValPub": "artvaloperpub",
+    "bech32PrefixConsAddr": "artvalcons",
+    "bech32PrefixConsPub": "artvalconspub"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "stakeCurrency": {
+    "coinDenom": "ART",
+    "coinDecimals": 18,
+    "coinMinimalDenom": "uart"
+  },
+  "currencies": [
+    {
+      "coinDenom": "ART",
+      "coinDecimals": 18,
+      "coinMinimalDenom": "uart"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ART",
+      "coinDecimals": 18,
+      "coinMinimalDenom": "uart",
+      "gasPriceStep": {
+        "low": 80000000000,
+        "average": 80000000000,
+        "high": 80000000000
+      }
+    }
+  ],
+  "features": ["eth-address-gen", "eth-key-sign"]
+}
