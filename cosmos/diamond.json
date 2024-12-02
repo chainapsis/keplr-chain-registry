@@ -1,7 +1,7 @@
 {
     "chainId": "diamond-1",
     "chainName": "Zenrock",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zenrock/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/diamond/chain.png",
     "rpc": "https://rpc.diamond.zenrocklabs.io",
     "rest": "https://api.diamond.zenrocklabs.io",
     "nodeProvider": {
