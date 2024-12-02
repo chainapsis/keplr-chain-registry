@@ -99,7 +99,7 @@
       "coinDenom": "CROWDP",
       "coinMinimalDenom": "ibc/D4F1F74C6B90168E05B974F2EBB5938D18704B73DE273CAACF7E96F7821B2C3D",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kava_2222/CROWDP.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kava_2222/crowdp.png"
     }
   ],
   "features": ["authz-msg-revoke-fixed"]
