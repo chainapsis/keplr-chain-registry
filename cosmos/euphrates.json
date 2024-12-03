@@ -1,7 +1,7 @@
 {
-  "chainId": "bbn-dev-5",
+  "chainId": "euphrates-0.5.0",
   "chainName": "Babylon Devnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-dev/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/euphrates/chain.png",
   "rpc": "https://rpc-euphrates.devnet.babylonlabs.io:443",
   "rest": "https://lcd-euphrates.devnet.babylonlabs.io:443",
   "nodeProvider": {
@@ -25,7 +25,7 @@
       "coinDenom": "BBN",
       "coinMinimalDenom": "ubbn",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-dev/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/euphrates/chain.png"
     }
   ],
   "feeCurrencies": [
@@ -33,7 +33,7 @@
       "coinDenom": "BBN",
       "coinMinimalDenom": "ubbn",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-dev/chain.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/euphrates/chain.png",
       "gasPriceStep": {
         "low": 0.007,
         "average": 0.007,
@@ -45,7 +45,7 @@
     "coinDenom": "BBN",
     "coinMinimalDenom": "ubbn",
     "coinDecimals": 6,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-dev/chain.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/euphrates/chain.png"
   },
   "features": ["cosmwasm"]
 }
