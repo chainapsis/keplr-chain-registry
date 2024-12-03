@@ -24,7 +24,8 @@
       {
         "coinDenom": "KIMA",
         "coinMinimalDenom": "uKIMA",
-        "coinDecimals": 6
+        "coinDecimals": 6,
+        "coinGeckoId": "kima"
       }
     ],
     "feeCurrencies": [
@@ -42,6 +43,7 @@
     "stakeCurrency": {
       "coinDenom": "KIMA",
       "coinMinimalDenom": "uKIMA",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinGeckoId": "kima"
     }
   }
