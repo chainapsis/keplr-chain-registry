@@ -55,12 +55,6 @@
         "average": 0.003,
         "high": 0.003
       }
-    },
-    {
-      "coinDenom": "CROWDP",
-      "coinMinimalDenom": "ibc/B4B81727559DC69159ED8BECD4452D555235CA0D11FADD3ADE121395A7E2833E",
-      "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/juno/crowdp.png"
     }
   ],
   "features": [

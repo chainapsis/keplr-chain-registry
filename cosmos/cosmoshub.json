@@ -35,12 +35,6 @@
         "high": 0.03,
         "low": 0.005
       }
-    },
-    {
-      "coinDenom": "CROWDP",
-      "coinMinimalDenom": "ibc/74C4FE1EC3BDD66B02C691496371DDBB86DDE512C5BC072D76262C6C9B4B20D1",
-      "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/crowdp.png"
     }
   ],
   "rest": "https://lcd-cosmoshub.keplr.app",
