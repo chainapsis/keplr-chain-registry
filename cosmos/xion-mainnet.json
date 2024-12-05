@@ -2,7 +2,7 @@
   "rpc": "https://rpc-xion.keplr.app",
   "rest": "https://lcd-xion.keplr.app",
   "chainId": "xion-mainnet-1",
-  "chainName": "Xion",
+  "chainName": "XION",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xion-mainnet/chain.png",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/xion",
   "stakeCurrency": {
