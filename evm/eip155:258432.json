@@ -1,6 +1,6 @@
 {
   "rpc": "https://rpc.althea.zone",
-  "websocket": "wss://rpc.althea.zone/websocket/",
+  "websocket": "wss://rpc.althea.zone:8546",
   "nodeProvider": {
     "name": "Althea L1",
     "email": "hello@althea.net",
