@@ -1,5 +1,5 @@
 {
-  "rpc": "https://rpc.althea.zone",
+  "rpc": "https://rpc.althea.zone:443",
   "websocket": "wss://rpc.althea.zone:8546",
   "nodeProvider": {
     "name": "Althea L1",
