@@ -10,7 +10,7 @@
     "website": "https://althea.net/"
   },
   "evm": {
-    "chainId": 258432,
+    "chainId": "258432",
     "rpc": "https://rpc.althea.zone:26657"
   },
   "bip44": {
@@ -37,7 +37,7 @@
       "coinDenom": "ALTHEA",
       "coinMinimalDenom": "aalthea",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/althea_258432/althea258432.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/althea_258432/althea_258432.png",
       "gasPriceStep": {
         "low": 100000000000,
         "average": 125000000000,
