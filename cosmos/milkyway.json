@@ -4,6 +4,10 @@
   "chainId": "milkyway",
   "chainName": "MilkyWay",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/chain.png",
+  "nodeProvider": {
+    "name": "MilkyWay Labs",
+    "email": "development@milkyway.zone"
+  },
   "stakeCurrency": {
     "coinDenom": "MILK",
     "coinMinimalDenom": "umilk",
