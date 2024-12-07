@@ -42,6 +42,7 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "lava-mainnet",
   "mantra",
   "pirin",
+  "xion-mainnet",
   "eip155:1",
   "eip155:10",
   "eip155:56",
