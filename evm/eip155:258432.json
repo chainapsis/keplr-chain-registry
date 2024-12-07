@@ -1,0 +1,32 @@
+{
+  "rpc": "https://rpc.althea.zone:443",
+  "websocket": "wss://rpc.althea.zone:8546",
+  "nodeProvider": {
+    "name": "Althea L1",
+    "email": "hello@althea.net",
+    "website": "https://althea.net"
+  },
+  "chainId": "eip155:258432",
+  "chainName": "Althea",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:258432/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "ALTHEA",
+      "coinMinimalDenom": "althea-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:258432/althea-native.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ALTHEA",
+      "coinMinimalDenom": "althea-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:258432/althea-native.png"
+    }
+  ],
+  "features": []
+}
