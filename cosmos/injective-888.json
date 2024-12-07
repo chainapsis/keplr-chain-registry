@@ -31,6 +31,24 @@
       "coinDecimals": 18,
       "coinMinimalDenom": "inj",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective-888/inj.png"
+    },
+    {
+      "coinDenom": "USDT (Testnet)",
+      "coinDecimals": 6,
+      "coinMinimalDenom": "peggy0x87aB3B4C8661e07D6372361211B96ed4Dc36B1B5",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective-888/peggy0x87aB3B4C8661e07D6372361211B96ed4Dc36B1B5.png"
+    },
+    {
+      "coinDenom": "USDC (Testnet)",
+      "coinDecimals": 6,
+      "coinMinimalDenom": "factory/inj17vytdwqczqz72j65saukplrktd4gyfme5agf6c/usdc",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective-888/factory/inj17vytdwqczqz72j65saukplrktd4gyfme5agf6c/usdc.png"
+    },
+    {
+      "coinDenom": "ATOM (Testnet)",
+      "coinDecimals": 8,
+      "coinMinimalDenom": "factory/inj17vytdwqczqz72j65saukplrktd4gyfme5agf6c/atom",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective-888/factory/inj17vytdwqczqz72j65saukplrktd4gyfme5agf6c/atom.png"
     }
   ],
   "feeCurrencies": [

@@ -24,6 +24,7 @@
       {
         "coinDenom": "KIMA",
         "coinMinimalDenom": "uKIMA",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kima_testnet/chain.png",
         "coinDecimals": 6
       }
     ],
@@ -32,6 +33,7 @@
         "coinDenom": "KIMA",
         "coinMinimalDenom": "uKIMA",
         "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kima_testnet/chain.png",
         "gasPriceStep": {
           "low": 0.001,
           "average": 0.0025,
@@ -42,6 +44,7 @@
     "stakeCurrency": {
       "coinDenom": "KIMA",
       "coinMinimalDenom": "uKIMA",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kima_testnet/chain.png"
     }
   }
