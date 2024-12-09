@@ -10,7 +10,7 @@
   "bip44": {
     "coinType": 118
   },
-  "chainId": "titan-test-3",
+  "chainId": "titan-test-4",
   "chainName": "Titan Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan-test/chain.png",
   "currencies": [
@@ -42,6 +42,12 @@
       "coinDecimals": 6,
       "coinDenom": "TGCTC",
       "coinMinimalDenom": "utgctc",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan-test/utnt1.png"
+    },
+    {
+      "coinDecimals": 1,
+      "coinDenom": "TNT4",
+      "coinMinimalDenom": "utnt4",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan-test/utnt1.png"
     }
   ],
