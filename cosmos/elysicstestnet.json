@@ -1,7 +1,7 @@
 {
   "chainId": "elysicstestnet-1",
   "chainName": "Elys Network Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elystestnet/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elysicstestnet/chain.png",
   "rpc": "https://rpc.testnet.elys.network:443",
   "rest": "https://api.testnet.elys.network",
   "walletUrlForStaking": "https://testnet.elys.network/earn/staking",
@@ -26,7 +26,7 @@
       "coinDenom": "ELYS",
       "coinMinimalDenom": "uelys",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elystestnet/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elysicstestnet/chain.png"
     }
   ],
   "feeCurrencies": [
@@ -39,7 +39,7 @@
         "average": 0.025,
         "high": 0.03
       },
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elystestnet/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elysicstestnet/chain.png"
     },
     {
       "coinDenom": "USDC",
@@ -51,7 +51,7 @@
         "average": 0.025,
         "high": 0.03
       },
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elystestnet/uusdc.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elysicstestnet/uusdc.png"
     },
     {
       "coinDenom": "ATOM",
@@ -63,14 +63,14 @@
         "average": 0.025,
         "high": 0.03
       },
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elystestnet/uatom.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elysicstestnet/uatom.png"
     }
   ],
   "stakeCurrency": {
     "coinDenom": "ELYS",
     "coinMinimalDenom": "uelys",
     "coinDecimals": 6,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elystestnet/chain.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elysicstestnet/chain.png"
   },
   "features": []
 }
