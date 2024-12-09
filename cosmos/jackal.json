@@ -2,13 +2,9 @@
     "chainId": "jackal-1",
     "chainName": "Jackal",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/jackal/chain.png",
-    "rpc": "https://rpc.jackalprotocol.com",
-    "rest": "https://api.jackalprotocol.com",
-    "nodeProvider": {
-      "name": "Jackal Labs",
-      "email": "devadmin@jackallabs.io",
-      "website":"https://jackalprotocol.com/"
-    },
+    "rpc": "https://rpc-jackal.keplr.app",
+    "rest": "https://lcd-jackal.keplr.app",
+    "walletUrlForStaking": "https://wallet.keplr.app/chains/jackal",
     "bip44": {
       "coinType": 118
     },
@@ -25,7 +21,8 @@
         "coinDenom": "JKL",
         "coinMinimalDenom": "ujkl",
         "coinDecimals": 6,
-        "coinGeckoId": "jackal-protocol"
+        "coinGeckoId": "jackal-protocol",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/jackal/chain.png"
       }
     ],
     "feeCurrencies": [
@@ -34,6 +31,7 @@
         "coinMinimalDenom": "ujkl",
         "coinDecimals": 6,
         "coinGeckoId": "jackal-protocol",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/jackal/chain.png",
         "gasPriceStep": {
           "low": 0.002,
           "average": 0.004,
@@ -45,7 +43,8 @@
       "coinDenom": "JKL",
       "coinMinimalDenom": "ujkl",
       "coinDecimals": 6,
-      "coinGeckoId": "jackal-protocol"
+      "coinGeckoId": "jackal-protocol",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/jackal/chain.png"
     },
     "features": [
       "cosmwasm"
