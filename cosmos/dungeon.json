@@ -3,7 +3,7 @@
     "chainName": "Dungeonchain",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png",
     "rpc": "https://rpc-dungeonchain.apeironnodes.com:443",
-    "rest": "https://api-dungeonchain.apeironnodes.com:443",
+    "rest": "https://rest.cosmos.directory/dungeon",
     "nodeProvider": {
       "name": "Apeiron Nodes",
       "email": "support@apeironnodes.com",
@@ -46,6 +46,7 @@
       "coinDenom": "DGN",
       "coinMinimalDenom": "udgn",
       "coinDecimals": 6,
+      "coinGeckoId": "dragon-coin-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png"
     },
     "features": [
