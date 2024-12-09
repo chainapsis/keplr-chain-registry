@@ -4,15 +4,12 @@ function parse(chainId) {
   // Temporarily deal with it in the way below.
   // There is a possibility of some kind of problem...
   // But anyway, it's not a big problem because it's dev/testnet...
-if (
-  chainId === "injective-777" ||
-  chainId === "injective-888"
-) {
-  return {
-    identifier: chainId,
-    version: 0,
+  if (chainId === "injective-777" || chainId === "injective-888") {
+    return {
+      identifier: chainId,
+      version: 0,
+    };
   }
-}
 
   const split = chainId.split(/(.+)-([\d]+)/).filter(Boolean);
 
