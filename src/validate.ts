@@ -340,6 +340,20 @@ export const checkCurrencies = (chainInfo: ChainInfo) => {
       ) {
         continue;
       }
+      if (
+        ChainIdHelper.parse(chainInfo.chainId).identifier === "neutron" &&
+        currency.coinMinimalDenom ===
+          "ibc/9598CDEB7C6DB7FC21E746C8E0250B30CD5154F39CA111A9D4948A4362F638BD"
+      ) {
+        continue;
+      }
+      if (
+        ChainIdHelper.parse(chainInfo.chainId).identifier === "osmosis" &&
+        currency.coinMinimalDenom ===
+          "ibc/573FCD90FACEE750F55A8864EF7D38265F07E5A9273FA0E8DAFD39951332B580"
+      ) {
+        continue;
+      }
 
       throw new Error(
         `Do not provide ibc currency to currencies: ${currency.coinMinimalDenom}`,
