@@ -27,6 +27,13 @@
         "coinDecimals": 18,
         "coinGeckoId": "fetch-ai",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fetchhub/fet.png"
+      },
+      {
+        "coinDenom": "MOBX",
+        "coinMinimalDenom": "nanomobx",
+        "coinDecimals": 9,
+        "coinGeckoId": "mobix",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fetchhub/mobix.png"
       }
     ],
     "feeCurrencies": [
