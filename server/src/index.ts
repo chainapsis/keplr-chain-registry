@@ -8,10 +8,18 @@ import { ChainInfo } from "@keplr-wallet/types";
 type SearchOption = "all" | "cosmos" | "evm";
 type FilterOption = "all" | "chain" | "token";
 
+let allChains: ChainInfo[] | undefined;
+let cosmosChainInfos: ChainInfo[] | undefined;
+let evmChainInfos: ChainInfo[] | undefined;
+
 const app = new Koa();
 app.use(serve(Path.resolve(__dirname, "static")));
 
 const loadChains = async () => {
+  if (allChains && cosmosChainInfos && evmChainInfos) {
+    return { allChains, cosmosChainInfos, evmChainInfos };
+  }
+
   const cosmosChainsDirectory = Path.join(__dirname, "static", "cosmos");
   const cosmosChainFiles = await fs.readdir(cosmosChainsDirectory);
   const cosmosChainContents = await Promise.all(
@@ -19,9 +27,7 @@ const loadChains = async () => {
       fs.readFile(Path.join(cosmosChainsDirectory, fileName), "utf8"),
     ),
   );
-  const cosmosChainInfos: ChainInfo[] = cosmosChainContents.map((content) =>
-    JSON.parse(content),
-  );
+  cosmosChainInfos = cosmosChainContents.map((content) => JSON.parse(content));
 
   const evmChainsDirectory = Path.join(__dirname, "static", "evm");
   const evmChainFiles = await fs.readdir(evmChainsDirectory);
@@ -30,7 +36,7 @@ const loadChains = async () => {
       fs.readFile(Path.join(evmChainsDirectory, fileName), "utf8"),
     ),
   );
-  const evmChainInfos: ChainInfo[] = evmChainContents.map((content) => {
+  evmChainInfos = evmChainContents.map((content) => {
     const evmChainInfo = JSON.parse(content);
     const chainId = parseInt(evmChainInfo.chainId.replace("eip155:", ""), 10);
     return {
@@ -49,7 +55,7 @@ const loadChains = async () => {
     };
   });
 
-  const allChains = [...cosmosChainInfos, ...evmChainInfos];
+  allChains = [...cosmosChainInfos, ...evmChainInfos];
 
   return { allChains, cosmosChainInfos, evmChainInfos };
 };
