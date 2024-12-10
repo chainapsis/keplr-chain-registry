@@ -56,6 +56,12 @@
       "coinMinimalDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-btc",
       "coinDecimals": 8,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/int3-btc.png"
+    },
+    {
+      "coinDenom": "TON.int3",
+      "coinMinimalDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/ton-ton",
+      "coinDecimals": 9,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/int3-ton.png"
     }
   ],
   "feeCurrencies": [
@@ -112,6 +118,17 @@
         "low": 0.001,
         "average": 0.0025,
         "high": 0.004
+      }
+    },
+    {
+      "coinDenom": "TON.int3",
+      "coinMinimalDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/ton-ton",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/int3-ton.png",
+      "gasPriceStep": {
+        "low": 0.0001,
+        "average": 0.00025,
+        "high": 0.0004
       }
     }
   ],
