@@ -6,7 +6,7 @@ import fs from "fs/promises";
 import { ChainInfo } from "@keplr-wallet/types";
 
 type SearchOption = "all" | "cosmos" | "evm";
-type FilterOption = "all" | "chainName" | "tokenDenom";
+type FilterOption = "all" | "chain" | "token";
 
 const app = new Koa();
 app.use(serve(Path.resolve(__dirname, "static")));
@@ -62,6 +62,7 @@ const filterChains = (
   if (searchText.length === 0) return chainInfos;
 
   return chainInfos.filter((chainInfo) => {
+    const chainId = chainInfo.chainId.toLowerCase();
     const chainName = chainInfo.chainName.toLowerCase();
     const tokenDenoms = chainInfo.currencies.map((currency) =>
       currency.coinDenom.toLowerCase(),
@@ -71,11 +72,12 @@ const filterChains = (
       case "all":
         return (
           chainName.includes(searchText) ||
+          chainId.includes(searchText) ||
           tokenDenoms.some((denom) => denom.includes(searchText))
         );
-      case "chainName":
-        return chainName.includes(searchText);
-      case "tokenDenom":
+      case "chain":
+        return chainName.includes(searchText) || chainId.includes(searchText);
+      case "token":
         return tokenDenoms.some((denom) => denom.includes(searchText));
       default:
         return false;
@@ -116,13 +118,6 @@ app.use(async (ctx) => {
       case "evm":
         filteredChains = filterChains(
           evmChainInfos,
-          filterOption,
-          trimmedSearchText,
-        );
-        break;
-      default:
-        filteredChains = filterChains(
-          allChains,
           filterOption,
           trimmedSearchText,
         );
