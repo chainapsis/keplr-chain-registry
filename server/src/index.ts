@@ -55,7 +55,16 @@ const loadChains = async () => {
     };
   });
 
-  allChains = [...cosmosChainInfos, ...evmChainInfos];
+  cosmosChainInfos = cosmosChainInfos.sort((a, b) =>
+    a.chainName.localeCompare(b.chainName),
+  );
+  evmChainInfos = evmChainInfos.sort((a, b) =>
+    a.chainName.localeCompare(b.chainName),
+  );
+
+  allChains = [...cosmosChainInfos, ...evmChainInfos].sort((a, b) =>
+    a.chainName.localeCompare(b.chainName),
+  );
 
   return { allChains, cosmosChainInfos, evmChainInfos };
 };
