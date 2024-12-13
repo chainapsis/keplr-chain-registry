@@ -1,10 +1,10 @@
 {
-    "rpc": "https://composable-rpc.lavenderfive.com:443",
-    "rest": "https://composable-api.lavenderfive.com:443",
+    "rpc": "https://picasso-rpc.polkachu.com:443",
+    "rest": "https://picasso-api.polkachu.com:443",
     "nodeProvider": {
-      "name": "Lavender.Five Nodes",
-      "email": "hello@lavenderfive.com",
-      "website": "https://lavenderfive.com/"
+      "name": "Polkachu",
+      "email": "hello@polkachu.com",
+      "website": "https://polkachu.com/"
     },
     "chainId": "centauri-1",
     "chainName": "Picasso",
