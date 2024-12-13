@@ -7,7 +7,7 @@
     "website": "https://stavr-team.gitbook.io/"
   },
   "chainId": "ixo-5",
-  "chainName": "ixo",
+  "chainName": "impacthub",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ixo/chain.png",
   "stakeCurrency": {
     "coinDenom": "IXO",
