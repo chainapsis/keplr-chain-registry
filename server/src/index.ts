@@ -6,7 +6,7 @@ import fs from "fs/promises";
 import { ChainInfo } from "@keplr-wallet/types";
 
 type SearchOption = "all" | "cosmos" | "evm";
-type FilterOption = "all" | "chain" | "token";
+type FilterOption = "all" | "chain" | "token" | "chainNameAndToken";
 
 let allChains: ChainInfo[] | undefined;
 let cosmosChainInfos: ChainInfo[] | undefined;
@@ -14,6 +14,15 @@ let evmChainInfos: ChainInfo[] | undefined;
 
 const app = new Koa();
 app.use(serve(Path.resolve(__dirname, "static")));
+
+const isEvmOnlyChain = (chainInfo: ChainInfo): boolean => {
+  const chainIdLikeCAIP2 = chainInfo.chainId.split(":");
+  return (
+    chainInfo.evm != null &&
+    chainIdLikeCAIP2.length === 2 &&
+    chainIdLikeCAIP2[0] === "eip155"
+  );
+};
 
 const loadChains = async () => {
   if (allChains && cosmosChainInfos && evmChainInfos) {
@@ -79,21 +88,27 @@ const filterChains = (
   return chainInfos.filter((chainInfo) => {
     const chainId = chainInfo.chainId.toLowerCase();
     const chainName = chainInfo.chainName.toLowerCase();
-    const tokenDenoms = chainInfo.currencies.map((currency) =>
-      currency.coinDenom.toLowerCase(),
-    );
+    const mainCurrencyDenom = chainInfo.currencies[0].coinDenom.toLowerCase();
+    const stakeCurrencyDenom = chainInfo.stakeCurrency?.coinDenom.toLowerCase();
+    const tokenDenom = isEvmOnlyChain(chainInfo)
+      ? mainCurrencyDenom
+      : stakeCurrencyDenom || mainCurrencyDenom;
 
     switch (filterOption) {
       case "all":
         return (
           chainName.includes(searchText) ||
           chainId.includes(searchText) ||
-          tokenDenoms.some((denom) => denom.includes(searchText))
+          tokenDenom.includes(searchText)
         );
       case "chain":
         return chainName.includes(searchText) || chainId.includes(searchText);
       case "token":
-        return tokenDenoms.some((denom) => denom.includes(searchText));
+        return tokenDenom.includes(searchText);
+      case "chainNameAndToken":
+        return (
+          chainName.includes(searchText) || tokenDenom.includes(searchText)
+        );
       default:
         return false;
     }
