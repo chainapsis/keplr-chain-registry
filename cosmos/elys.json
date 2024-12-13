@@ -1,7 +1,7 @@
 {
   "chainId": "elys-1",
   "chainName": "Elys Network",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elysicstestnet/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elys/chain.png",
   "rpc": "https://rpc.elys.network:443",
   "rest": "https://api.elys.network",
   "walletUrlForStaking": "https://explorer.elys.network/earn/staking",
