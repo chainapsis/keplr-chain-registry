@@ -6,7 +6,7 @@ import fs from "fs/promises";
 import { ChainInfo } from "@keplr-wallet/types";
 
 type SearchOption = "all" | "cosmos" | "evm";
-type FilterOption = "all" | "chain" | "token";
+type FilterOption = "all" | "chain" | "token" | "chainNameAndToken";
 
 let allChains: ChainInfo[] | undefined;
 let cosmosChainInfos: ChainInfo[] | undefined;
@@ -105,6 +105,10 @@ const filterChains = (
         return chainName.includes(searchText) || chainId.includes(searchText);
       case "token":
         return tokenDenom.includes(searchText);
+      case "chainNameAndToken":
+        return (
+          chainName.includes(searchText) || tokenDenom.includes(searchText)
+        );
       default:
         return false;
     }
