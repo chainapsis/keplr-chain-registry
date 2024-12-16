@@ -25,43 +25,43 @@
         "coinDenom": "XKP",
         "coinMinimalDenom": "ukopi",
         "coinDecimals": 6,
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kopi/chain.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/luwak/chain.png"
      },
      {
         "coinDenom": "KUSD",
         "coinMinimalDenom": "ukusd",
         "coinDecimals": 6,
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kopi/kUSD.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/luwak/kUSD.png"
      },
      {
         "coinDenom": "CKUSD",
         "coinMinimalDenom": "uckusd",
         "coinDecimals": 6,
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kopi/kUSD.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/luwak/kUSD.png"
      },
      {
         "coinDenom": "CUSDC",
         "coinMinimalDenom": "ucusdc",
         "coinDecimals": 6,
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kopi/USDC.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/luwak/USDC.png"
      },
      {
         "coinDenom": "ASUSDC",
         "coinMinimalDenom": "uasusdc",
         "coinDecimals": 6,
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kopi/USDC.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/luwak/USDC.png"
      },
      {
         "coinDenom": "CUSDT.inj",
         "coinMinimalDenom": "ucusdtinj",
         "coinDecimals": 6,
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kopi/USDT.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/luwak/USDT.png"
      },
      {
         "coinDenom": "ASUSDT.inj",
         "coinMinimalDenom": "uasusdtinj",
         "coinDecimals": 6,
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kopi/USDT.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/luwak/USDT.png"
      }
      
   ],
