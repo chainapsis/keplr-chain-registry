@@ -1,13 +1,13 @@
 {
   "chainId": "luwak-1",
   "chainName": "kopi",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kopi/chain.png",
-  "rpc": "https://kopi-rpc.polkachu.com",
-  "rest": "https://kopi-api.polkachu.com",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/luwak/chain.png",
+  "rpc": "https://rpc.kopi.money",
+  "rest": "https://rest.kopi.money",
   "nodeProvider":{
-     "name":"Polkachu",
-     "email":"hello@polkachu.com",
-     "website":"https://polkachu.com/"
+     "name":"Kopi Foundation",
+     "email":"dev@kopi.money",
+     "website":"https://kopi.money/"
   },
   "bip44": {
      "coinType": 118
