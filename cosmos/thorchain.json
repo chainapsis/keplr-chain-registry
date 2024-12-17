@@ -37,8 +37,8 @@
       "coinGeckoId": "thorchain",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/rune.png",
       "gasPriceStep": {
-        "low": 0.01,
-        "average": 0.025,
+        "low": 0.02,
+        "average": 0.02,
         "high": 0.03
       }
     }
