@@ -184,17 +184,29 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/ibc/0FA9232B262B89E77D1335D54FB1E1F506A92A7E4B51524B400DC69C68D28372.png"
     },
     {
-      "coinDenom": "Spice",
+      "coinDenom": "SPICE",
       "coinMinimalDenom": "factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/uspice",
       "coinDecimals": 6,
       "coinGeckoId": "spice-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/spice.png"
     },
     {
-      "coinDenom": "Sherpa",
+      "coinDenom": "SHERPA",
       "coinMinimalDenom": "factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/usherpa",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/sherpa.png"
+    },
+    {
+      "coinDenom": "ckBTC",
+      "coinMinimalDenom": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/sICP-icrc-ckBTC",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/sICP-icrc-ckBTC.png"
+    },
+    {
+      "coinDenom": "ICP",
+      "coinMinimalDenom": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/sICP-native-ICP",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/sICP-native-ICP.png"
     }
   ],
   "feeCurrencies": [
