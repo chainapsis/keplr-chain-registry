@@ -6,7 +6,7 @@
     "rest": "https://api-alphatestnet.surge.dev",
     "nodeProvider": {
         "name": "Surge",
-        "email": "dev@surge.build",
+        "email": "contact@surge.build",
         "website": "https://surge.build/"
     },
     "bip44": {
