@@ -94,6 +94,15 @@ const filterChains = (
       ? mainCurrencyDenom
       : stakeCurrencyDenom || mainCurrencyDenom;
 
+    // search text가 eth 또는 eth~ethereum일 경우 evm 체인은 모두 보여준다.
+    if (searchText.startsWith("eth")) {
+      const isEVM = !("bech32Config" in chainInfo);
+
+      if (isEVM) {
+        return true;
+      }
+    }
+
     switch (filterOption) {
       case "all":
         return (
