@@ -42,9 +42,9 @@
       "coinGeckoId": "router-protocol-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/router_9600/chain.png",
       "gasPriceStep": {
-        "low": 5000000000,
-        "average": 25000000000,
-        "high": 50000000000
+        "low": 7,
+        "average": 7,
+        "high": 10
       }
     }
   ],
