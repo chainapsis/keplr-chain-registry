@@ -1,0 +1,52 @@
+{
+  "chainId": "ignite_186-1",
+  "chainName": "Pell Network Testnet",
+  "rpc": "http://34.87.39.12:26657",
+  "rest": "http://34.87.39.12:1317",
+  "stakeCurrency": {
+    "coinDenom": "PELL",
+    "coinMinimalDenom": "apell",
+    "coinDecimals": 18,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pell/chain.png"
+  },
+ "nodeProvider": {
+    "name": "Sebatian Validator",
+    "website":"https://sebatian.org/",
+    "email": "sebatian9x@gmail.com"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "pell",
+    "bech32PrefixAccPub": "pellpub",
+    "bech32PrefixValAddr": "pellvaloper",
+    "bech32PrefixValPub": "pellvaloperpub",
+    "bech32PrefixConsAddr": "pellvalcons",
+    "bech32PrefixConsPub": "pellvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "PELL",
+      "coinMinimalDenom": "apell",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pell/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "PELL",
+      "coinMinimalDenom": "apell",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pell/chain.png"
+    }
+  ],
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pell/chain.png",
+  "features": [
+    "stargate",
+    "ibc-transfer",
+    "no-legacy-stdTx",
+    "eth-address-gen",
+    "eth-key-sign"
+  ]
+}
