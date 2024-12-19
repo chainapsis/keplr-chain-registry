@@ -9,6 +9,11 @@
     "coinDecimals": 18,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pell/chain.png"
   },
+ "nodeProvider": {
+    "name": "Sebatian Validator",
+    "website":"https://sebatian.org/",
+    "email": "sebatian9x@gmail.com"
+  },
   "bip44": {
     "coinType": 118
   },
