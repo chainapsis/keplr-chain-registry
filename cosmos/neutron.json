@@ -24,6 +24,12 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/untrn.png"
     },
     {
+      "coinDenom": "dTIA",
+      "coinMinimalDenom": "factory/neutron1ut4c6pv4u6vyu97yw48y8g7mle0cat54848v6m97k977022lzxtsaqsgmq/udtia",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron1ut4c6pv4u6vyu97yw48y8g7mle0cat54848v6m97k977022lzxtsaqsgmq/dtia.png"
+    },
+    {
       "coinDenom": "wstETH",
       "coinMinimalDenom": "factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH",
       "coinDecimals": 18,
@@ -239,5 +245,7 @@
       }
     }
   ],
-  "features": ["cosmwasm"]
+  "features": [
+    "cosmwasm"
+  ]
 }
