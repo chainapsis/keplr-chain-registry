@@ -43,12 +43,5 @@
       }
     }
   ],
-  "stakeCurrency": {
-    "coinDenom": "RUNE",
-    "coinMinimalDenom": "rune",
-    "coinDecimals": 8,
-    "coinGeckoId": "thorchain",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/rune.png"
-  },
   "features": []
 }
