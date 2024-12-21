@@ -15,15 +15,17 @@
 
 # Guidelines for Community-Driven Non-Native Chain Integration
 
-Keplr team has always been at the leading edge of building secure and interoperable wallet infrastructure for the blooming cross-chain networks, placing its core mainly at the Cosmos ecosystem.
+Keplr team has always been at the leading edge of building secure and interoperable wallet infrastructure for the blooming cross-chain networks. While Keplr initially focused its core efforts on the Cosmos ecosystem (collectively known as the "interchain ecosystem"), it has since expanded to support EVM-compatible chains and Starknet, with plans to further extend into other ecosystems, leveraging thoughtfully designed UI/UX for enhanced compatibility across technologies.
 
-To help the builders easily plug into Keplr’s wide userbase and the ever-growing Cosmos ecosystem, Keplr has been offering an option of permissionless integration, the so-called “Suggest Chain (Non-Native Chain) Integration”. The feature has enabled front-ends to request adding new Cosmos-SDK-based blockchains that aren’t natively integrated into the Keplr extension.
+To help the builders easily plug into Keplr’s wide userbase and the ever-growing crypto ecosystems, Keplr has been offering an option of permissionless integration, the so-called “Suggest (Non-Native) Chain Integration”. The feature has enabled front-ends to request adding new blockchains that aren’t natively integrated into the Keplr extension.
 
 Keplr team is now introducing a Community-Driven Integration, which enables our users to easily make a request for adding new chains and updating their information. It's an expanded version of the previous suggest chain integration, providing a public API to our users for creating and updating a set integration standard for each chain.
 
 To make a pull request, please carefully read and follow the guidelines below. Any contribution is more than welcome!
 
-# Requirements and Preparation
+# Cosmos-SDK-based Chains
+
+## Requirements and Preparation
 
 This section outlines the basic information that is required for registering a chain to Keplr wallet. Please note that your request does not always guarantee integrations and updates; upon your submission, Keplr team will go through a minimal verification process to see if there is any security issue or any missing information.
 
@@ -143,6 +145,18 @@ Here’s an overview of the structure of the directory. Please provide the infor
   - axelar-evm-bridge: supports EVM bridge provided by Axelar Network
   - osmosis-txfees: supports paying fees in other currencies on Osmosis
 
+
+# EVM-based Chains
+## Requirements and Preparation
+
+This section outlines the basic information that is required for registering a chain to Keplr wallet. Please note that your request does not always guarantee integrations and updates; upon your submission, Keplr team will go through a minimal verification process to see if there is any security issue or any missing information.
+
+Once approved, the Keplr browser extension will show the tag “Community-Driven” on the chain connection page, to let the users be aware that the integration was requested and implemented by the community and the Keplr team has gone through the verification process.
+
+<p align="center">
+  <img src="https://i.imgur.com/f9UEOIR.png" alt="Sample Image"/>
+</p>
+
 ## EVM-based Chain Registration Directory Structure
 
 EVM-based chain identifier is consisted of eip155:{eip155-chain-id} which follows [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/main/CAIPs/caip-2.md)
@@ -239,8 +253,8 @@ Here’s an overview of the structure of the directory. Please provide the infor
 
 ## NOTE:
 
-- please check if the chain information file is in JSON format.
-- Chain logos should be in PNG format in 256x256px resolution. Please also note that the images will be automatically cropped into a circle to be displayed on the wallet (See the sample image above)
+- Please check if the chain information file is in JSON format.
+- Chain logos should be in PNG format in 256x256px resolution. Please also note that the images will be automatically cropped into a circle to be displayed on the wallet (See the sample image above.)
 - RPC / WebSocket
   - Please check if the RPC node is not currently experiencing any issues/errors.
   - Please double-check if your chainId matches the RPC node’s chainId.
