@@ -4,7 +4,7 @@
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elys/chain.png",
   "rpc": "https://rpc.elys.network:443",
   "rest": "https://api.elys.network",
-  "walletUrlForStaking": "https://explorer.elys.network/earn/staking",
+  "walletUrlForStaking": "https://app.elys.network/earn/staking",
   "nodeProvider": {
     "name": "Elys Network",
     "email": "team@elys.network",
@@ -26,6 +26,7 @@
       "coinDenom": "ELYS",
       "coinMinimalDenom": "uelys",
       "coinDecimals": 6,
+      "coinGeckoId": "elys-network",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elys/chain.png"
     }
   ],
