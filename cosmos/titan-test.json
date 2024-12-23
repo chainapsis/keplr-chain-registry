@@ -45,7 +45,7 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan-test/utnt1.png"
     },
     {
-      "coinDecimals": 1,
+      "coinDecimals": 2,
       "coinDenom": "TNT4",
       "coinMinimalDenom": "utnt4",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan-test/utnt1.png"
