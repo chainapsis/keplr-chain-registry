@@ -1,0 +1,51 @@
+{
+  "rpc": "https://rpc.testnet.hippo-protocol.com",
+  "rest": "https://api.testnet.hippo-protocol.com",
+  "chainId": "hippo-protocol-testnet-1",
+  "chainName": "Hippo Protocol Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/hippo-protocol-testnet/chain.png",
+  "nodeProvider": {
+    "name": "Hippocrat",
+    "email": "support@hippocrat.io",
+    "website": "https://hippocrat.io/"
+  },
+  "bip44": {
+    "coinType": 0
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "hippo",
+    "bech32PrefixAccPub": "hippopub",
+    "bech32PrefixValAddr": "hippovaloper",
+    "bech32PrefixValPub": "hippovaloperpub",
+    "bech32PrefixConsAddr": "hippovalcons",
+    "bech32PrefixConsPub": "hippovalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "HP",
+      "coinMinimalDenom": "ahp",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/hippo-protocol-testnet/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "HP",
+      "coinMinimalDenom": "ahp",
+      "coinDecimals": 18,
+      "coinImageUrl":  "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/hippo-protocol-testnet/chain.png",
+      "gasPriceStep": {
+        "low": 4000000000000,
+        "average": 5000000000000,
+        "high": 10000000000000
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "HP",
+    "coinMinimalDenom": "ahp",
+    "coinDecimals": 18,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/hippo-protocol-testnet/chain.png"
+  },
+  "features": []
+}
