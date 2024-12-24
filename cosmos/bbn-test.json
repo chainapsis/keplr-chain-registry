@@ -1,13 +1,13 @@
 {
-  "chainId": "bbn-test-3",
-  "chainName": "Babylon Testnet",
+  "chainId": "bbn-test-5",
+  "chainName": "Babylon Phase-2 Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/chain.png",
-  "rpc": "https://rpc.testnet3.babylonchain.io",
-  "rest": "https://lcd.testnet3.babylonchain.io",
+  "rpc": "https://babylon-testnet-rpc.nodes.guru",
+  "rest": "https://babylon-testnet-api.nodes.guru",
   "nodeProvider": {
-    "name": "Babylonchain",
-    "email": "contact@babylonchain.io",
-    "website": "https://babylonchain.io/"
+    "name": "NodesGuru",
+    "email": "security@nodes.guru",
+    "website": "https://nodes.guru/"
   },
   "bip44": {
     "coinType": 118
@@ -22,7 +22,7 @@
   },
   "currencies": [
     {
-      "coinDenom": "BBN",
+      "coinDenom": "BABY",
       "coinMinimalDenom": "ubbn",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/chain.png"
@@ -30,7 +30,7 @@
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "BBN",
+      "coinDenom": "BABY",
       "coinMinimalDenom": "ubbn",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/chain.png",
@@ -42,7 +42,7 @@
     }
   ],
   "stakeCurrency": {
-    "coinDenom": "BBN",
+    "coinDenom": "BABY",
     "coinMinimalDenom": "ubbn",
     "coinDecimals": 6,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/chain.png"
