@@ -26,6 +26,7 @@
       "coinDenom": "ELYS",
       "coinMinimalDenom": "uelys",
       "coinDecimals": 6,
+      "coinGeckoId": "elys-network",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elys/chain.png"
     }
   ],
@@ -70,6 +71,7 @@
     "coinDenom": "ELYS",
     "coinMinimalDenom": "uelys",
     "coinDecimals": 6,
+    "coinGeckoId": "elys-network",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elys/chain.png"
   },
   "features": []
