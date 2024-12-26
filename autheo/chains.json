@@ -1,0 +1,48 @@
+{
+  "rpc": "https://testnet-rpc1.autheo.com/",
+  "chainId": "autheo_785-1",
+  "chainName": "Autheo",
+  "evm": {
+    "chainId": 785,
+    "rpc": "https://testnet-rpc1.autheo.com/"
+  },
+  "chainSymbolImageUrl": "https://brown-changing-smelt-819.mypinata.cloud/ipfs/QmTNRXRnfr4z7bBYtZiSdVyQCBZkSwXzv9WPjnJJ8uQ5qe/logo.png",
+  "stakeCurrency": {
+    "coinDenom": "AAUTH",
+    "coinMinimalDenom": "aauth",
+    "coinDecimals": 18,
+    "coinGeckoId": "autheo",
+    "coinImageUrl": "https://brown-changing-smelt-819.mypinata.cloud/ipfs/QmTNRXRnfr4z7bBYtZiSdVyQCBZkSwXzv9WPjnJJ8uQ5qe/logo.png"
+  },
+  
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "autheo",
+    "bech32PrefixAccPub": "autheopub",
+    "bech32PrefixValAddr": "autheovaloper",
+    "bech32PrefixValPub": "autheovaloperpub",
+    "bech32PrefixConsAddr": "autheovalcons",
+    "bech32PrefixConsPub": "autheovalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "AAUTH",
+      "coinMinimalDenom": "aauth",
+      "coinDecimals": 18,
+      "coinGeckoId": "autheo",
+      "coinImageUrl": "https://brown-changing-smelt-819.mypinata.cloud/ipfs/QmTNRXRnfr4z7bBYtZiSdVyQCBZkSwXzv9WPjnJJ8uQ5qe/logo.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "AAUTH",
+      "coinMinimalDenom": "aauth",
+      "coinDecimals": 18,
+      "coinGeckoId": "autheo",
+      "coinImageUrl": "https://brown-changing-smelt-819.mypinata.cloud/ipfs/QmTNRXRnfr4z7bBYtZiSdVyQCBZkSwXzv9WPjnJJ8uQ5qe/logo.png"
+    }
+  ],
+  "features": ["eth-address-gen", "eth-key-sign"]
+}
