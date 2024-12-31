@@ -2,7 +2,7 @@
     "chainId": "dungeon-1",
     "chainName": "Dungeonchain",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png",
-    "rpc": "https://rpc.cosmos.directory/dungeon",
+    "rpc": "https://dungeon-rpc.ibs.team:443",
     "rest": "https://rest.cosmos.directory/dungeon",
     "nodeProvider": {
       "name": "Apeiron Nodes",
