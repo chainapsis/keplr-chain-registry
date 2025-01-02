@@ -15,7 +15,7 @@
     "email": "sebatian9x@gmail.com"
   },
   "bip44": {
-    "coinType": 118
+    "coinType": 60
   },
   "bech32Config": {
     "bech32PrefixAccAddr": "pell",
