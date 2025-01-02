@@ -25,7 +25,6 @@
       "coinDenom": "VCTR",
       "coinMinimalDenom": "uvctr",
       "coinDecimals": 6,
-      "coinGeckoId": "vector-chain",
       "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/vector/images/vector-light-logo.svg"
     }
   ],
