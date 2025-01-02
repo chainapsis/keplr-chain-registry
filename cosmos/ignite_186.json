@@ -7,7 +7,7 @@
     "coinDenom": "PELL",
     "coinMinimalDenom": "apell",
     "coinDecimals": 18,
-    "coinImageUrl": "https://raw.githubusercontent.com/Sebatian1/keplr-chain-registry/main/images/pell_testnet/chain.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pell_testnet/chain.png"
   },
  "nodeProvider": {
     "name": "Sebatian Validator",
@@ -30,7 +30,7 @@
       "coinDenom": "PELL",
       "coinMinimalDenom": "apell",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/Sebatian1/keplr-chain-registry/main/images/pell_testnet/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pell_testnet/chain.png"
     }
   ],
   "feeCurrencies": [
@@ -38,10 +38,10 @@
       "coinDenom": "PELL",
       "coinMinimalDenom": "apell",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/Sebatian1/keplr-chain-registry/main/images/pell_testnet/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pell_testnet/chain.png"
     }
   ],
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/Sebatian1/keplr-chain-registry/main/images/pell_testnet/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pell_testnet/chain.png",
   "features": [
     "eth-address-gen",
     "eth-key-sign"
