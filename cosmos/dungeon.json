@@ -2,12 +2,12 @@
     "chainId": "dungeon-1",
     "chainName": "Dungeonchain",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png",
-    "rpc": "https://rpc-dungeonchain.apeironnodes.com:443",
-    "rest": "https://rest.cosmos.directory/dungeon",
+    "rpc": "https://dungeon.rpc.quasarstaking.ai:443",
+    "rest": "https://dungeon.api.quasarstaking.ai",
     "nodeProvider": {
-      "name": "Apeiron Nodes",
-      "email": "support@apeironnodes.com",
-      "website":"https://apeironnodes.com"
+      "name": "Quasar",
+      "email": "validator@quasarstaking.ai",
+      "website":"https://quasarstaking.ai"
     },
     "bip44": {
       "coinType": 118
