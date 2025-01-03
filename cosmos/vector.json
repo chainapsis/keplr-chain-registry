@@ -33,7 +33,6 @@
       "coinDenom": "VCTR",
       "coinMinimalDenom": "uvctr",
       "coinDecimals": 6,
-      "coinGeckoId": "vector-chain",
       "gasPriceStep": {
         "low": 1,
         "average": 1,
@@ -45,7 +44,6 @@
     "coinDenom": "VCTR",
     "coinMinimalDenom": "uvctr",
     "coinDecimals": 6,
-    "coinGeckoId": "vector-chain"
   },
   "features": [
     "cosmwasm"
