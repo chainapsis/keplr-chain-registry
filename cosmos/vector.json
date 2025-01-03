@@ -1,7 +1,7 @@
 {
   "chainId": "vector-1",
   "chainName": "vector",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/vector/images/vector-light-logo.svg",
+  "chainSymbolImageUrl": "https://github.com/vector-org/vector-chain/blob/main/vector-light-logo.svg",
   "rpc": "https://archive-rpc-1.playonvector.com:443",
   "rest": "https://archive-api-1.playonvector.com:443",
   "nodeProvider": {
@@ -25,7 +25,7 @@
       "coinDenom": "VCTR",
       "coinMinimalDenom": "uvctr",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/vector/images/vector-light-logo.svg"
+      "coinImageUrl": "https://github.com/vector-org/vector-chain/blob/main/vector-light-logo.svg"
     }
   ],
   "feeCurrencies": [
