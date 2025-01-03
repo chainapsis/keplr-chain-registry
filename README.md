@@ -37,7 +37,7 @@ This guildline outlines the basic information that is required for registering a
 Once approved, the Keplr browser extension will show the tag “Community-Driven” on the chain connection page, to let the users be aware that the integration was requested and implemented by the community and the Keplr team has gone through the verification process.
 
 <p align="center">
-  <img src="https://i.imgur.com/Zp2pthD.png" alt="Sample Image"/>
+  <img src="https://i.imgur.com/Zp2pthD.png" alt="Sample Image" style="width: 350px;"/>
 </p>
 
 # Cosmos-SDK-based Chains
