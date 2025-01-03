@@ -11,7 +11,7 @@
 > yarn validate evm/{your file.json}
 > ```
 >
-> READ THE GUIDELINES BELLOW CAREFULLY, PAYING PARTICULAR ATTENTION TO THE "features" IN THE [[REQUIREMENT DETAILS](https://github.com/chainapsis/keplr-chain-registry#requirement-details)].
+> READ THE GUIDELINES BELLOW CAREFULLY, PAYING PARTICULAR ATTENTION TO THE "features" IN THE [[REQUIREMENT DETAILS for Cosmos-based chains](#cosmos-sdk-based-chain-registration-form-requirement-details)] and [[REQUIREMENT DETAILS for EVM-based chains](#evm-based-chain-registration-form-requirement-details)].
 
 # Guidelines for Community-Driven Non-Native Chain Integration
 
@@ -23,17 +23,24 @@ Keplr team is now introducing a Community-Driven Integration, which enables our 
 
 To make a pull request, please carefully read and follow the guidelines below. Any contribution is more than welcome!
 
-# Cosmos-SDK-based Chains
+# Table of Contents
 
-## Requirements and Preparation
+- [Requirements and Preparation](#requirements-and-preparation)
+- [Cosmos-SDK-based Chains](#cosmos-sdk-based-chains)
+- [EVM-based Chains](#evm-based-chains)
+- [Notes](#note)
 
-This section outlines the basic information that is required for registering a chain to Keplr wallet. Please note that your request does not always guarantee integrations and updates; upon your submission, Keplr team will go through a minimal verification process to see if there is any security issue or any missing information.
+# Requirements and Preparation
+
+This guildline outlines the basic information that is required for registering a chain to Keplr wallet. Please note that your request does not always guarantee integrations and updates; upon your submission, Keplr team will go through a minimal verification process to see if there is any security issue or any missing information.
 
 Once approved, the Keplr browser extension will show the tag “Community-Driven” on the chain connection page, to let the users be aware that the integration was requested and implemented by the community and the Keplr team has gone through the verification process.
 
 <p align="center">
   <img src="https://i.imgur.com/Zp2pthD.png" alt="Sample Image"/>
 </p>
+
+# Cosmos-SDK-based Chains
 
 ## Cosmos-SDK-based Chain Registration Directory Structure
 
@@ -145,17 +152,7 @@ Here’s an overview of the structure of the directory. Please provide the infor
   - axelar-evm-bridge: supports EVM bridge provided by Axelar Network
   - osmosis-txfees: supports paying fees in other currencies on Osmosis
 
-
 # EVM-based Chains
-## Requirements and Preparation
-
-This section outlines the basic information that is required for registering a chain to Keplr wallet. Please note that your request does not always guarantee integrations and updates; upon your submission, Keplr team will go through a minimal verification process to see if there is any security issue or any missing information.
-
-Once approved, the Keplr browser extension will show the tag “Community-Driven” on the chain connection page, to let the users be aware that the integration was requested and implemented by the community and the Keplr team has gone through the verification process.
-
-<p align="center">
-  <img src="https://i.imgur.com/Zp2pthD.png" alt="Sample Image"/>
-</p>
 
 ## EVM-based Chain Registration Directory Structure
 
