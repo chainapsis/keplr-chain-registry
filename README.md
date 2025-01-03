@@ -32,7 +32,7 @@ This section outlines the basic information that is required for registering a c
 Once approved, the Keplr browser extension will show the tag “Community-Driven” on the chain connection page, to let the users be aware that the integration was requested and implemented by the community and the Keplr team has gone through the verification process.
 
 <p align="center">
-  <img src="https://i.imgur.com/f9UEOIR.png" alt="Sample Image"/>
+  <img src="https://i.imgur.com/Zp2pthD.png" alt="Sample Image"/>
 </p>
 
 ## Cosmos-SDK-based Chain Registration Directory Structure
@@ -154,7 +154,7 @@ This section outlines the basic information that is required for registering a c
 Once approved, the Keplr browser extension will show the tag “Community-Driven” on the chain connection page, to let the users be aware that the integration was requested and implemented by the community and the Keplr team has gone through the verification process.
 
 <p align="center">
-  <img src="https://i.imgur.com/f9UEOIR.png" alt="Sample Image"/>
+  <img src="https://i.imgur.com/Zp2pthD.png" alt="Sample Image"/>
 </p>
 
 ## EVM-based Chain Registration Directory Structure
