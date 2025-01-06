@@ -2,8 +2,8 @@
     "chainId": "dungeon-1",
     "chainName": "Dungeonchain",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png",
-    "rpc": "https://dungeon.rpc.quasarstaking.ai:443",
-    "rest": "https://dungeon.api.quasarstaking.ai",
+    "rpc": "https://dungeon-wallet.rpc.quasarstaking.ai:443",
+    "rest": "https://dungeon-wallet.api.quasarstaking.ai",
     "nodeProvider": {
       "name": "Quasar",
       "email": "validator@quasarstaking.ai",
