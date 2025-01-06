@@ -207,7 +207,14 @@
       "coinMinimalDenom": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/sICP-native-ICP",
       "coinDecimals": 8,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/sICP-native-ICP.png"
+    },
+    {
+      "coinDenom": "WLF",
+      "coinMinimalDenom": "ibc/3D00ACF371FC6B7BC871399B1909DDE18749FA19DE6B7A4F74E1D96BC073B3BC",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/ibc/3D00ACF371FC6B7BC871399B1909DDE18749FA19DE6B7A4F74E1D96BC073B3BC.png"
     }
+
   ],
   "feeCurrencies": [
     {
