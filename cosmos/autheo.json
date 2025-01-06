@@ -1,5 +1,6 @@
 {
   "rpc": "https://testnet-rpc1.autheo.com/",
+  "rest": "https://testnet-rpc2.autheo.com/",
   "chainId": "autheo_785-1",
   "chainName": "Autheo",
   "evm": {
