@@ -1,0 +1,34 @@
+{
+  "rpc": "https://evm-rpc.nibiru.fi",
+  "websocket": "wss://evm-rpc-ws.nibiru.fi",
+  "nodeProvider": {
+    "name": "Nibiru",
+    "email": "hello@nibiru.fi",
+    "website": "https://nibiru.fi"
+  },
+  "chainId": "eip155:6900",
+  "chainName": "cataclysm-1",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:6900/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "NIBI",
+      "coinMinimalDenom": "NIBI",
+      "coinDecimals": 18,
+      "coinGeckoId": "nibiru",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:6900/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "NIBI",
+      "coinMinimalDenom": "NIBI",
+      "coinDecimals": 18,
+      "coinGeckoId": "nibiru",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:6900/chain.png"
+    }
+  ],
+  "features": []
+}
