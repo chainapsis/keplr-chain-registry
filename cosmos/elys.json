@@ -2,14 +2,9 @@
   "chainId": "elys-1",
   "chainName": "Elys Network",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elys/chain.png",
-  "rpc": "https://rpc.elys.network:443",
-  "rest": "https://api.elys.network",
-  "walletUrlForStaking": "https://app.elys.network/earn/staking",
-  "nodeProvider": {
-    "name": "Elys Network",
-    "email": "team@elys.network",
-    "website": "https://elys.network"
-  },
+  "rpc": "https://rpc-elys.keplr.app",
+  "rest": "https://lcd-elys.keplr.app",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/elys-network",
   "bip44": {
     "coinType": 118
   },
