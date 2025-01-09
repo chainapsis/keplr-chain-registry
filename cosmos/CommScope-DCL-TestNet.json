@@ -1,0 +1,43 @@
+{
+  "chainId": "testnet-2.0",
+  "chainName": "DCL Chain",
+  "rpc": "https://testnet.iotledger.io/rpc",
+  "rest": "https://testnet.iotledger.io/api",
+  "stakeCurrency": {
+    "coinDenom": "DCL",
+    "coinMinimalDenom": "DCL",
+    "coinDecimals": 6
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "cosmos",
+    "bech32PrefixAccPub": "cosmospub",
+    "bech32PrefixValAddr": "cosmosvaloper",
+    "bech32PrefixValPub": "cosmosvaloperpub",
+    "bech32PrefixConsAddr": "cosmosvalcons",
+    "bech32PrefixConsPub": "cosmosvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "DCL",
+      "coinMinimalDenom": "DCL",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "DCL",
+      "coinMinimalDenom": "DCL",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0,
+        "average": 0,
+        "high": 0
+      }
+    }
+  ],
+  "beta": true
+}
+
