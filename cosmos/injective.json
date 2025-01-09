@@ -120,6 +120,18 @@
       "coinMinimalDenom": "factory/inj1v3a4zznudwpukpr8y987pu5gnh4xuf7v36jhva/nept",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1v3a4zznudwpukpr8y987pu5gnh4xuf7v36jhva/nept.png"
+    },
+        {
+      "coinDenom": "nUSDT",
+      "coinMinimalDenom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1cy9hes20vww2yr6crvs75gxy5hpycya2hmjg9s",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1cy9hes20vww2yr6crvs75gxy5hpycya2hmjg9s/nusdt.png"
+    },
+        {
+      "coinDenom": "nUSDC",
+      "coinMinimalDenom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1dafy7fv7qczzatd98dv8hekx6ssckrflswpjaz",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1dafy7fv7qczzatd98dv8hekx6ssckrflswpjaz/nusdc.png"
     }
   ],
   "feeCurrencies": [
