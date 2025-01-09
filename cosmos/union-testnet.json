@@ -1,14 +1,14 @@
 {
-  "chainId": "union-testnet-8",
+  "chainId": "union-testnet-9",
   "chainName": "Union Testnet",
   "nodeProvider": {
     "name": "union",
     "email": "ben@union.build",
-    "website": "https://explorer.testnet-8.union.build"
+    "website": "https://explorer.testnet-9.union.build"
   },
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/union-testnet/chain.png",
-  "rest": "https://rest.testnet-8.union.build",
-  "rpc": "https://rpc.testnet-8.union.build",
+  "rest": "https://rest.testnet-9.union.build",
+  "rpc": "https://rpc.testnet-9.union.build",
   "bip44": {
     "coinType": 118
   },
