@@ -27,6 +27,7 @@
       "coinDenom": "dTIA",
       "coinMinimalDenom": "factory/neutron1ut4c6pv4u6vyu97yw48y8g7mle0cat54848v6m97k977022lzxtsaqsgmq/udtia",
       "coinDecimals": 6,
+      "coinGeckoId": "drop-staked-tia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron1ut4c6pv4u6vyu97yw48y8g7mle0cat54848v6m97k977022lzxtsaqsgmq/dtia.png"
     },
     {
