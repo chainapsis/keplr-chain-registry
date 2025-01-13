@@ -65,9 +65,9 @@
       "coinGeckoId": "milkyway-staked-tia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/milktia.png",
       "gasPriceStep": {
-        "low": 0.0025,
-        "average": 0.003,
-        "high": 0.004
+        "low": 0.0002,
+        "average": 0.00025,
+        "high": 0.0003
       }
     },
     {
