@@ -8,7 +8,7 @@
   },
   "chainId": "eip155:7200",
   "chainName": "cataclysm-1",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:6900/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:7200/chain.png",
   "bip44": {
     "coinType": 60
   },
@@ -18,7 +18,7 @@
       "coinMinimalDenom": "NIBI",
       "coinDecimals": 18,
       "coinGeckoId": "nibiru",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:6900/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:7200/chain.png"
     }
   ],
   "feeCurrencies": [
@@ -27,7 +27,7 @@
       "coinMinimalDenom": "NIBI",
       "coinDecimals": 18,
       "coinGeckoId": "nibiru",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:6900/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:7200/chain.png"
     }
   ],
   "features": []
