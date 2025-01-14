@@ -1,7 +1,7 @@
 {
-    "chainId": "kima_network",
-    "chainName": "Kima",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kima/chain.png",
+    "chainId": "kima_mainnet",
+    "chainName": "Kima Network",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kima_mainnet/chain.png",
     "rpc": "https://rpc.kima.network/",
     "rest": "https://api.kima.network/",
     "nodeProvider": {
@@ -25,6 +25,7 @@
         "coinDenom": "KIMA",
         "coinMinimalDenom": "uKIMA",
         "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kima_mainnet/chain.png",
         "coinGeckoId": "kima"
       }
     ],
@@ -33,11 +34,11 @@
         "coinDenom": "KIMA",
         "coinMinimalDenom": "uKIMA",
         "coinDecimals": 6,
-        "coinGeckoId": "kima",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kima_mainnet/chain.png",
         "gasPriceStep": {
-          "low": 0.01,
-          "average": 0.025,
-          "high": 0.03
+          "low": 0.001,
+          "average": 0.0025,
+          "high": 0.004
         }
       }
     ],
@@ -45,11 +46,7 @@
       "coinDenom": "KIMA",
       "coinMinimalDenom": "uKIMA",
       "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kima_mainnet/chain.png",
       "coinGeckoId": "kima"
-    },
-    "features": ["ibc-transfer"],
-    "additionalEndpoints": {
-      "archive": "https://archive.kima.network/genesis.json",
-      "grpc": "https://grpc.kima.network/"
     }
   }

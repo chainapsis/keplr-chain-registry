@@ -1,6 +1,6 @@
 {
   "rpc": "https://rpc.orai.io",
-  "rest": "http://lcd.orai.io",
+  "rest": "https://lcd.orai.io",
   "nodeProvider": {
     "name": "Oraichain",
     "email": "contact@orai.io",

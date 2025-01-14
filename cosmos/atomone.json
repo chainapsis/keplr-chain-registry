@@ -1,0 +1,52 @@
+{
+  "rpc": "https://atomone-rpc.allinbits.com",
+  "rest": "https://atomone-api.allinbits.com",
+  "chainId": "atomone-1",
+  "chainName": "AtomOne",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/atomone/chain.png",
+  "nodeProvider": {
+    "name": "AllInBits",
+    "email": "security@allinbits.com",
+    "website": "https://allinbits.com/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/atomone",
+  "bech32Config": {
+    "bech32PrefixAccAddr": "atone",
+    "bech32PrefixAccPub": "atonepub",
+    "bech32PrefixValAddr": "atonevaloper",
+    "bech32PrefixValPub": "atonevaloperpub",
+    "bech32PrefixConsAddr": "atonevalcons",
+    "bech32PrefixConsPub": "atonevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "ATONE",
+      "coinMinimalDenom": "uatone",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/atomone/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ATONE",
+      "coinMinimalDenom": "uatone",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/atomone/chain.png",
+      "gasPriceStep": {
+        "low": 0.006,
+        "average": 0.006,
+        "high": 0.009
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "ATONE",
+    "coinMinimalDenom": "uatone",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/atomone/chain.png"
+  },
+  "features": []
+}
