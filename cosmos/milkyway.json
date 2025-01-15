@@ -41,9 +41,9 @@
       "coinGeckoId": "celestia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/utia.png",
       "gasPriceStep": {
-        "low": 0.0025,
-        "average": 0.003,
-        "high": 0.004
+        "low": 0.0002,
+        "average": 0.00025,
+        "high": 0.0003
       }
     },
     {
@@ -53,9 +53,9 @@
       "coinGeckoId": "celestia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/utia.png",
       "gasPriceStep": {
-        "low": 0.0025,
-        "average": 0.003,
-        "high": 0.004
+        "low": 0.00002,
+        "average": 0.000025,
+        "high": 0.00003
       }
     },
     {
@@ -65,9 +65,9 @@
       "coinGeckoId": "milkyway-staked-tia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/milktia.png",
       "gasPriceStep": {
-        "low": 0.0002,
-        "average": 0.00025,
-        "high": 0.0003
+        "low": 0.00002,
+        "average": 0.000025,
+        "high": 0.00003
       }
     },
     {
@@ -77,9 +77,9 @@
       "coinGeckoId": "stride-staked-tia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/sttia.png",
       "gasPriceStep": {
-        "low": 0.0025,
-        "average": 0.025,
-        "high": 0.04
+        "low": 0.00002,
+        "average": 0.000025,
+        "high": 0.00003
       }
     },
     {
@@ -89,9 +89,9 @@
       "coinGeckoId": "drop-staked-tia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/dtia.png",
       "gasPriceStep": {
-        "low": 0.0025,
-        "average": 0.025,
-        "high": 0.04
+        "low": 0.00002,
+        "average": 0.000025,
+        "high": 0.00003
       }
     }
   ],
