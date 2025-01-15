@@ -1,0 +1,53 @@
+{
+    "chainId": "cysicmint_9001-1",
+    "chainName": "Cysic Network Testnet",  
+    "chainSymbolImageUrl": "https://api-testnet.prover.xyz/images/9881edffcf89bf66d7a796f5f6900f6153c4cb7138e1244dd0eab3634edf9613.svg",
+    "rpc": "https://rpc-testnet.prover.xyz",
+    "rest": "https://api-testnet.prover.xyz",
+    "walletUrlForStaking": "https://wallet.keplr.app/chains/cysic",
+    "bip44": {
+      "coinType": 60
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "cysic",
+      "bech32PrefixAccPub": "cysicpub",
+      "bech32PrefixValAddr": "cysicvaloper",
+      "bech32PrefixValPub": "cysicvaloperpub",
+      "bech32PrefixConsAddr": "cysicvalcons",
+      "bech32PrefixConsPub": "cysicvalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "CYS",
+        "coinMinimalDenom": "CYS",
+        "coinDecimals": 18,
+        "coinImageUrl": "https://api-testnet.prover.xyz/images/696535e032a6f52949bc731394dd8658f29adc5108fa0208c089388a44d1c398.svg"
+      },
+      {
+        "coinDenom": "CGT",
+        "coinMinimalDenom": "CGT",
+        "coinDecimals": 18,
+        "coinImageUrl": "https://api-testnet.prover.xyz/images/7b76c687de084455c51a5bb5077a26b702df9c8f54a1e208974ec6b4ac685bc8.svg"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "CYS",
+        "coinMinimalDenom": "CYS",
+        "coinDecimals": 18,
+        "coinImageUrl": "https://api-testnet.prover.xyz/images/696535e032a6f52949bc731394dd8658f29adc5108fa0208c089388a44d1c398.svg",
+        "gasPriceStep": {
+          "low": 25000000000,
+          "average": 25000000000,
+          "high": 50000000000
+        }
+      }
+    ],
+    "stakeCurrency": {
+      "coinDenom": "CGT",
+      "coinMinimalDenom": "CGT",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://api-testnet.prover.xyz/images/7b76c687de084455c51a5bb5077a26b702df9c8f54a1e208974ec6b4ac685bc8.svg"
+    },
+    "features": ["eth-address-gen"]
+  }
