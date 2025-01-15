@@ -4,7 +4,7 @@
     "chainSymbolImageUrl": "https://api-testnet.prover.xyz/images/9881edffcf89bf66d7a796f5f6900f6153c4cb7138e1244dd0eab3634edf9613.svg",
     "rpc": "https://rpc-testnet.prover.xyz",
     "rest": "https://api-testnet.prover.xyz",
-    "walletUrlForStaking": "https://wallet.keplr.app/chains/cysic",
+    "walletUrlForStaking": "https://testnet.cysic.xyz/m/stake/cgt",
     "bip44": {
       "coinType": 60
     },
