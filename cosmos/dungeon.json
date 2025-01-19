@@ -5,9 +5,9 @@
     "rpc": "https://dungeon-wallet.rpc.quasarstaking.ai:443",
     "rest": "https://dungeon-wallet.api.quasarstaking.ai",
     "nodeProvider": {
-      "name": "Quasar",
-      "email": "validator@quasarstaking.ai",
-      "website":"https://quasarstaking.ai"
+      "name": "Crypto Dungeon",
+      "email": "cryptodungeonma@gmail.com",
+      "website":"https://www.cryptodungeon.org/"
     },
     "bip44": {
       "coinType": 118

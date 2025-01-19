@@ -1,7 +1,7 @@
 {
   "chainId": "vector-1",
   "chainName": "vector",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/vector/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/vector/vector-logo.png",
   "rpc": "https://archive-rpc-1.playonvector.com",
   "rest": "https://archive-api-1.playonvector.com",
   "nodeProvider": {
@@ -25,7 +25,7 @@
       "coinDenom": "VCTR",
       "coinMinimalDenom": "uvctr",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/vector/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/vector/vector-logo.png"
     }
   ],
   "feeCurrencies": [
