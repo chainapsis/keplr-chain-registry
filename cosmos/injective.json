@@ -121,13 +121,37 @@
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1v3a4zznudwpukpr8y987pu5gnh4xuf7v36jhva/nept.png"
     },
-        {
+    {
+      "coinDenom": "BITCOIN",
+      "coinMinimalDenom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/BITCOIN",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/bitcoin.png"
+    },
+    {
+      "coinDenom": "BRICS",
+      "coinMinimalDenom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/BRICS",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/brics.png"
+    },
+    {
+      "coinDenom": "CRYPTO",
+      "coinMinimalDenom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/CRYPTO",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/crypto.png"
+    },
+    {
+      "coinDenom": "INC",
+      "coinMinimalDenom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/INC",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/inc.png"
+     },
+     {
       "coinDenom": "nUSDT",
       "coinMinimalDenom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1cy9hes20vww2yr6crvs75gxy5hpycya2hmjg9s",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1cy9hes20vww2yr6crvs75gxy5hpycya2hmjg9s/nusdt.png"
     },
-        {
+    {
       "coinDenom": "nUSDC",
       "coinMinimalDenom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1dafy7fv7qczzatd98dv8hekx6ssckrflswpjaz",
       "coinDecimals": 6,
