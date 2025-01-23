@@ -1,6 +1,6 @@
 {
     "chainId": "lefeef-testnet",
-    "chainName": "Lefeef Network",
+    "chainName": "Lefeef Testnet",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lefeef-testnet/chain.png",
     "rpc": "https://drpc.lefeef.network:7443",
     "rest": "https://drest.lefeef.network:6443",
