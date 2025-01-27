@@ -98,7 +98,7 @@
       "coinDenom": "USDC",
       "coinMinimalDenom": "ibc/F5FABF52B54E65064B57BF6DBD8E5FAD22CEE9F4B8A57ADBB20CCD0173AA72A4",
       "coinDecimals": 6,
-      "coinGeckoId": "usdc",
+      "coinGeckoId": "usd-coin",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/uusdc.png",
       "gasPriceStep": {
         "low": 0.00002,
