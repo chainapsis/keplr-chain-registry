@@ -16,7 +16,7 @@
     },
     "walletUrlForStaking": "https://playground.dymension.xyz/rollapps/allingaming_229036-1/staking",
     "bip44": {
-        "coinType": 118
+        "coinType": 60
     },
     "bech32Config": {
         "bech32PrefixAccAddr": "allin",
@@ -39,9 +39,9 @@
             "coinMinimalDenom": "ibc/FECACB927EB3102CCCB240FFB3B6FCCEEB8D944C6FEA8DFF079650FEFF59781D",
             "coinDecimals": 18,
             "gasPriceStep": {
-                "average": 1000000000,
-                "high": 2000000000,
-                "low": 3000000000
+                "average": 2000000000,
+                "high": 3000000000,
+                "low": 1000000000
             }
         }
     ],
