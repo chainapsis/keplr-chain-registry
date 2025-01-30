@@ -20,18 +20,33 @@
   "currencies": [
     {
       "coinDenom": "DRV",
-      "coinMinimalDenom": "drv-native",
+      "coinMinimalDenom": "derive-drv",
       "coinDecimals": 18,
-      "coinGeckoId": "derive"
+      "coinGeckoId": "derive",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:957/derive-drv.png"
+    },
+    {
+      "coinDenom": "stDRV",
+      "coinMinimalDenom": "derive-stdrv",
+      "coinDecimals": 18,
+      "coinGeckoId": "derive",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:957/derive-stdrv.png"
+    },
+    {
+      "coinDenom": "ETH",
+      "coinMinimalDenom": "derive-ethereum",
+      "coinDecimals": 18,
+      "coinGeckoId": "ethereum",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:957/derive-ethereum.png"
     }
   ],
   "feeCurrencies": [
     {
       "coinDenom": "ETH",
-      "coinMinimalDenom": "derive-native",
+      "coinMinimalDenom": "derive-ethereum",
       "coinDecimals": 18,
       "coinGeckoId": "ethereum",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:957/derive-native.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:957/derive-ethereum.png"
     }
   ],
   "features": []
