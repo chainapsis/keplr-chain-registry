@@ -13,9 +13,10 @@
   },
   "stakeCurrency": {
     "coinDenom": "stDRV",
-    "coinMinimalDenom": "stdrv-native",
+    "coinMinimalDenom": "derive-stdrv",
     "coinDecimals": 18,
-    "coinGeckoId": "derive"
+    "coinGeckoId": "derive",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:957/derive-stdrv.png"
   },
   "currencies": [
     {
