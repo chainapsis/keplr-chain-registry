@@ -55,7 +55,7 @@
     },
     {
       "coinDenom": "SPACEX",
-      "coinMinimalDenom": "factory/terra1s9tq7cv62drscngamaatfuwpnwkft8stlrkxk6tg2g9e4nst3u6s625xah/SPACEX",
+      "coinMinimalDenom": "terra1s9tq7cv62drscngamaatfuwpnwkft8stlrkxk6tg2g9e4nst3u6s625xah",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/SPACEX.png"
     }
