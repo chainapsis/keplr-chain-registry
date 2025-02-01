@@ -1,6 +1,6 @@
 {
-    "rpc": "https://nim-mainnet-tendermint.public.blastapi.io",
-    "rest": "https://nim-mainnet-rest.public.blastapi.io",
+    "rpc": "https://rpc.mainnet.nimnet.tech",
+    "rest": "https://rest.mainnet.nimnet.tech",
     "chainId": "nim_1122-1",
     "chainName": "NIM Network",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nim_1122/chain.png",
@@ -10,9 +10,9 @@
         "coinDecimals": 18
     },
     "nodeProvider": {
-        "name": "Bware Labs",
-        "email": "contact@bwarelabs.com",
-        "website": "https://bwarelabs.com"
+        "name": "NIM Foundation",
+        "email": "contact@nim.network",
+        "website": "https://nim.network"
     },
     "walletUrlForStaking": "https://portal.dymension.xyz/rollapp/nim_1122-1/staking",
     "bip44": {

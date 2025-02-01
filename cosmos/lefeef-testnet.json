@@ -1,0 +1,52 @@
+{
+    "chainId": "lefeef-testnet",
+    "chainName": "Lefeef Testnet",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lefeef-testnet/chain.png",
+    "rpc": "https://drpc.lefeef.network:7443",
+    "rest": "https://drest.lefeef.network:6443",
+    "nodeProvider": {
+      "name": "Lefeef",
+      "email": "info@lefeef.com",
+      "website": "https://lefeef.net"
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "lefeef",
+      "bech32PrefixAccPub": "lefeefpub",
+      "bech32PrefixValAddr": "lefeefvaloper",
+      "bech32PrefixValPub": "lefeefvaloperpub",
+      "bech32PrefixConsAddr": "lefeefvalcons",
+      "bech32PrefixConsPub": "lefeefvalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "LEFEEF",
+        "coinMinimalDenom": "ulefeef",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lefeef-testnet/chain.png"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "LEFEEF",
+        "coinMinimalDenom": "ulefeef",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lefeef-testnet/chain.png",
+        "coinDecimals": 6,
+        "gasPriceStep": {
+          "low": 0.01,
+          "average": 0.025,
+          "high": 0.03
+        }
+      }
+    ],
+    "stakeCurrency": {
+      "coinDenom": "LEFEEF",
+      "coinMinimalDenom": "ulefeef",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lefeef-testnet/chain.png"
+    },
+    "features": ["cosmwasm"]
+  }
+  
