@@ -52,6 +52,12 @@
       "coinMinimalDenom": "factory/terra1dndhtdr2v7ca8rrn67chlqw3cl3xhm3m2uxls62vghcg3fsh5tpss5xmcu/MOAR",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/MOAR.png"
+    },
+    {
+      "coinDenom": "SPACEX",
+      "coinMinimalDenom": "factory/terra1s9tq7cv62drscngamaatfuwpnwkft8stlrkxk6tg2g9e4nst3u6s625xah/SPACEX",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://github.com/spacelover15/keplr-chain-registry/blob/efe7fb447f94b9d34bc9f38c6fe2c005173cb0fb/images/phoenix/SPACEX.png?raw=true"
     }
   ],
   "feeCurrencies": [
@@ -60,7 +66,7 @@
       "coinMinimalDenom": "uluna",
       "coinDecimals": 6,
       "coinGeckoId": "terra-luna-2",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/uluna.png",
+      "coinImageUrl": "https://i.ibb.co/sJpd3JkQ/spacex.png",
       "gasPriceStep": {
         "low": 0.02,
         "average": 0.02,
@@ -100,5 +106,7 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/uluna.png"
   },
   "walletUrlForStaking": "https://wallet.keplr.app/chains/terra",
-  "features": ["cosmwasm"]
+  "features": [
+    "cosmwasm"
+  ]
 }
