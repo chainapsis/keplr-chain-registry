@@ -3,6 +3,7 @@
     "chainName": "Manifest",
     "chainSymbolImageUrl": "https://github.com/cosmos/chain-registry/blob/master/testnets/manifesttestnet/images/manifest.svg",
     "rpc": "https://nodes.liftedinit.tech/manifest/testnet/rpc",
+    "websocket": "wss://nodes.liftedinit.tech/manifest/testnet/websocket",
     "rest": "https://nodes.liftedinit.tech/manifest/testnet/api",
     "nodeProvider": {
       "name": "Lifted Initiative",
