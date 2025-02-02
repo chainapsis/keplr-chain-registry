@@ -26,6 +26,12 @@
         "coinMinimalDenom": "umfx",
         "coinDecimals": 6,
         "coinGeckoId": "manifest"
+      },
+      {
+        "coinDenom": "POA",
+        "coinMinimalDenom": "upoa",
+        "coinDecimals": 6,
+        "coinGeckoId": "poa"
       }
     ],
     "feeCurrencies": [
