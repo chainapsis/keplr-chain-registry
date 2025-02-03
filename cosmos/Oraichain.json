@@ -41,6 +41,12 @@
       "coinMinimalDenom": "factory/orai1lus0f0rhx8s03gdllx2n6vhkmf0536dv57wfge/oraix",
       "coinGeckoId": "oraidex",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/Oraichain/factory/orai1lus0f0rhx8s03gdllx2n6vhkmf0536dv57wfge/oraix.png"
+    },
+    {
+      "coinDenom": "SAM",
+      "coinDecimals": 6,
+      "coinMinimalDenom": "factory/orai15rmny3cxv33rnzdr2lfdhjtslyzmrr0vdd28kp/SAM",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/Oraichain/factory/orai15rmny3cxv33rnzdr2lfdhjtslyzmrr0vdd28kp/sam.png"
     }
   ],
   "feeCurrencies": [
