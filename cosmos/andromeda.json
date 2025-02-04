@@ -2,8 +2,8 @@
   "chainId": "andromeda-1",
   "chainName": "Andromeda",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/andromeda/andromeda.png",
-  "rpc": "https://api.andromedaprotocol.io/rpc/mainnet",
-  "rest": "https://api.andromedaprotocol.io/rest/mainnet",
+  "rpc": "https://andromeda-rpc.polkachu.com",
+  "rest": "https://andromeda-api.polkachu.com",
   "nodeProvider": {
     "name": "Polkachu",
     "email": "hello@polkachu.com",
