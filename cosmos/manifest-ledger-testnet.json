@@ -1,7 +1,7 @@
 {
     "chainId": "manifest-ledger-testnet",
     "chainName": "Manifest",
-    "chainSymbolImageUrl": "https://github.com/cosmos/chain-registry/blob/master/testnets/manifesttestnet/images/manifest.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
     "rpc": "https://nodes.liftedinit.tech/manifest/testnet/rpc",
     "rest": "https://nodes.liftedinit.tech/manifest/testnet/api",
     "nodeProvider": {
@@ -24,14 +24,12 @@
       {
         "coinDenom": "MFX",
         "coinMinimalDenom": "umfx",
-        "coinDecimals": 6,
-        "coinGeckoId": "manifest"
+        "coinDecimals": 6
       },
       {
         "coinDenom": "POA",
         "coinMinimalDenom": "upoa",
-        "coinDecimals": 6,
-        "coinGeckoId": "poa"
+        "coinDecimals": 6
       }
     ],
     "feeCurrencies": [
@@ -39,7 +37,6 @@
         "coinDenom": "MFX",
         "coinMinimalDenom": "umfx",
         "coinDecimals": 6,
-        "coinGeckoId": "manifest",
         "gasPriceStep": {
           "low": 0.01,
           "average": 0.025,
@@ -50,8 +47,7 @@
     "stakeCurrency": {
       "coinDenom": "POA",
       "coinMinimalDenom": "upoa",
-      "coinDecimals": 6,
-      "coinGeckoId": "poa"
+      "coinDecimals": 6
     },
     "features": []
   }
