@@ -2,12 +2,12 @@
   "chainId": "andromeda-1",
   "chainName": "Andromeda",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/andromeda/andromeda.png",
-  "rpc": "https://andromeda.rpc.kjnodes.com",
-  "rest": "https://andromeda.api.kjnodes.com",
+  "rpc": "https://api.andromedaprotocol.io/rpc/mainnet",
+  "rest": "https://api.andromedaprotocol.io/rest/mainnet",
   "nodeProvider": {
-    "name": "KJ Nodes",
-    "email": "stake@kjnodes.com",
-    "website":"https://kjnodes.com/"
+    "name": "Polkachu",
+    "email": "hello@polkachu.com",
+    "website": "https://polkachu.com/"
   },
   "bip44": {
     "coinType": 118
