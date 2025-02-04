@@ -14,18 +14,18 @@
   },
   "currencies": [
     {
-      "coinDenom": "ETH",
-      "coinMinimalDenom": "derive-ethereum",
-      "coinDecimals": 18,
-      "coinGeckoId": "ethereum",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:957/derive-ethereum.png"
-    },
-    {
       "coinDenom": "DRV",
       "coinMinimalDenom": "erc20:0xb1d1eae60eea9525032a6dcb4c1ce336a1de71be",
       "coinDecimals": 18,
       "coinGeckoId": "derive",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:957/derive-drv.png"
+    },
+    {
+      "coinDenom": "ETH",
+      "coinMinimalDenom": "derive-ethereum",
+      "coinDecimals": 18,
+      "coinGeckoId": "ethereum",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:957/derive-ethereum.png"
     },
     {
       "coinDenom": "stDRV",
