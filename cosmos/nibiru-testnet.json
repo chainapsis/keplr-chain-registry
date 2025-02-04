@@ -1,13 +1,13 @@
 {
   "chainId": "nibiru-testnet-1",
-  "chainName": "Nibiru Testnet",
+  "chainName": "Nibiru Testnet 1",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-testnet/chain.png",
   "rpc": "https://rpc.testnet-1.nibiru.fi/",
   "rest": "https://lcd.testnet-1.nibiru.fi/",
   "nodeProvider": {
     "name": "Nibiru Team",
     "email": "dev@nibiru.fi",
-    "website": "https://app.nibiru.fi"
+    "website": "https://nibiru.fi"
   },
   "bip44": {
     "coinType": 118

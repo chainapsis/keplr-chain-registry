@@ -59,6 +59,18 @@
       "coinDecimals": 6,
       "coinGeckoId": "nami-protocol",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/factory/kujira13x2l25mpkhwnwcwdzzd34cr8fyht9jlj7xu9g4uffe36g3fmln8qkvm3qn/unami.png"
+    },
+    {
+      "coinDenom": "NAUSD",
+      "coinMinimalDenom": "factory/kujira18thffdpuz8tm3mwwun4uhks8a2v7ye0jmw3fllqhklma82lqkpms20gh9c/unausd",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/factory/kujira18thffdpuz8tm3mwwun4uhks8a2v7ye0jmw3fllqhklma82lqkpms20gh9c/unausd.png"
+    },
+    {
+      "coinDenom": "CORAL",
+      "coinMinimalDenom": "factory/kujira18uqsnxsvxdzg4lfz60tah2k0mdjg6scj8dxggk/CORAL",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/factory/kujira18uqsnxsvxdzg4lfz60tah2k0mdjg6scj8dxggk/CORAL.png"
     }
   ],
   "feeCurrencies": [
@@ -140,6 +152,12 @@
       "coinMinimalDenom": "ibc/1B38805B1C75352B28169284F96DF56BDEBD9E8FAC005BDCC8CF0378C82AA8E7",
       "coinDecimals": 18,
       "coinGeckoId": "ethereum"
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "ibc/FE98AAD68F02F03565E9FA39A5E627946699B2B07115889ED812D8BA639576A9",
+      "coinDecimals": 6,
+      "coinGeckoId": "usdc"
     }
   ],
   "stakeCurrency": {

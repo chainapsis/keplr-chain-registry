@@ -1,0 +1,51 @@
+{
+  "chainId": "vector-1",
+  "chainName": "vector",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/vector/vector-logo.png",
+  "rpc": "https://archive-rpc-1.playonvector.com",
+  "rest": "https://archive-api-1.playonvector.com",
+  "nodeProvider": {
+    "name": "Stratsone",
+    "email": "hello@vectorchain.zone",
+    "website": "https://playonvector.com/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "vector",
+    "bech32PrefixAccPub": "vectorpub",
+    "bech32PrefixValAddr": "vectorvaloper",
+    "bech32PrefixValPub": "vectorvaloperpub",
+    "bech32PrefixConsAddr": "vectorvalcons",
+    "bech32PrefixConsPub": "vectorvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "VCTR",
+      "coinMinimalDenom": "uvctr",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/vector/vector-logo.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "VCTR",
+      "coinMinimalDenom": "uvctr",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 1,
+        "average": 1,
+        "high": 1
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "VCTR",
+    "coinMinimalDenom": "uvctr",
+    "coinDecimals": 6
+  },
+  "features": [
+    "cosmwasm"
+  ]
+}

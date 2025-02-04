@@ -1,6 +1,11 @@
 {
-  "rpc": "https://rpc-gravity-bridge.keplr.app",
-  "rest": "https://lcd-gravity-bridge.keplr.app",
+  "rpc": "https://gravity-rpc.polkachu.com",
+  "rest": "https://gravity-api.polkachu.com",
+  "nodeProvider": {
+    "name": "Polkachu",
+    "email": "hello@polkachu.com",
+    "website": "https://polkachu.com/"
+  },
   "chainId": "gravity-bridge-3",
   "chainName": "Gravity Bridge",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/chain.png",
@@ -11,8 +16,6 @@
     "coinGeckoId": "graviton",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/ugraviton.png"
   },
-  "walletUrl": "https://wallet.keplr.app/chains/gravity-bridge",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/gravity-bridge",
   "bip44": {
     "coinType": 118
   },

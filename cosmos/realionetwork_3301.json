@@ -40,6 +40,12 @@
       "coinMinimalDenom": "arst",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3301/arst.png"
+    },
+    {
+      "coinDenom": "LMX",
+      "coinMinimalDenom": "almx",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3301/almx.png"
     }
   ],
   "feeCurrencies": [

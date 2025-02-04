@@ -26,6 +26,11 @@
       "coinMinimalDenom": "factory/neutron15lku24mqhvy4v4gryrqs4662n9v9q4ux9tayn89cmdzldjcgawushxvm76/amatom",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pion/factory/neutron15lku24mqhvy4v4gryrqs4662n9v9q4ux9tayn89cmdzldjcgawushxvm76/amATOM.png"
+    },
+    {
+      "coinDenom": "dATOM",
+      "coinMinimalDenom": "factory/neutron16l0qfrrahy5mve5x9nnw6zs9vv30k7rk55h6aaypq88ljwg57uxsxcg6y6/udatom",
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [

@@ -1,0 +1,69 @@
+{
+  "chainId": "symphony-testnet-4",
+  "chainName": "Symphony Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/chain.png",
+  "rpc": "https://symphony.test.rpc.nodeshub.online/",
+  "rest": "https://symphony.test.api.nodeshub.online/",
+  "nodeProvider": {
+    "name": "Nodes Hub",
+    "email": "contact@nodeshub.online",
+    "website": "https://nodeshub.online"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "symphony",
+    "bech32PrefixAccPub": "symphonypub",
+    "bech32PrefixValAddr": "symphonyvaloper",
+    "bech32PrefixValPub": "symphonyvaloperpub",
+    "bech32PrefixConsAddr": "symphonyvalcons",
+    "bech32PrefixConsPub": "symphonyvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "MLD",
+      "coinMinimalDenom": "note",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/melody.png"
+    },
+    {
+      "coinDenom": "HUSD",
+      "coinMinimalDenom": "uusd",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/husd.png"
+    },
+    {
+      "coinDenom": "HKHD",
+      "coinMinimalDenom": "ukhd",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/hhkd.png"
+    },
+    {
+      "coinDenom": "HVND",
+      "coinMinimalDenom": "uvnd",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/hvnd.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "MLD",
+      "coinMinimalDenom": "note",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.0025,
+        "average": 0.025,
+        "high": 0.04
+      },
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/melody.png"
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "MLD",
+    "coinMinimalDenom": "note",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony-testnet/melody.png"
+  },
+  "features": ["cosmwasm", "osmosis-txfees"]
+}

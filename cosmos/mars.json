@@ -1,6 +1,6 @@
 {
-  "rpc": "https://rpc-mars.keplr.app",
-  "rest": "https://lcd-mars.keplr.app",
+  "rpc": "https://mars-rpc.publicnode.com",
+  "rest": "https://mars-rest.publicnode.com",
   "chainId": "mars-1",
   "chainName": "Mars Hub",
   "stakeCurrency": {

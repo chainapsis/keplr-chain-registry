@@ -1,11 +1,11 @@
 {
-  "rpc": "https://tendermint.shidoscan.com",
-  "rest": "https://swagger.shidoscan.com",
+  "rpc": "https://rpc-delta-tendermint.shidoscan.com",
+  "rest": "https://rpc-delta-swagger.shidoscan.com",
   "chainId": "shido_9008-1",
   "chainName": "Shido",
   "evm": {
     "chainId": 9008,
-    "rpc": "https://rpc-nodes.shidoscan.com"
+    "rpc": "https://rpc-delta-nodes.shidoscan.com"
   },
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shido_9008/chain.png",
   "stakeCurrency": {

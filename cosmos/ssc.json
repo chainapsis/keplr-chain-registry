@@ -45,5 +45,6 @@
     "coinDecimals": 6,
     "coinGeckoId": "saga-2",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ssc/chain.png"
-  }
+  },
+  "features": ["authz-msg-revoke-fixed"]
 }

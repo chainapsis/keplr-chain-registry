@@ -1,7 +1,7 @@
 {
   "rpc": "https://rpc-initia-testnet.keplr.app",
   "rest": "https://lcd-initia-testnet.keplr.app",
-  "chainId": "initiation-1",
+  "chainId": "initiation-2",
   "chainName": "Initia Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/initiation/chain.png",
   "walletUrlForStaking": "https://testnet.keplr.app/chains/initia",
@@ -37,13 +37,13 @@
   },
   "feeCurrencies": [
     {
-      "coinDenom": "GAS",
-      "coinMinimalDenom": "move/944f8dd8dc49f96c25fea9849f16436dcfa6d564eec802f3ef7f8b3ea85368ff",
+      "coinDenom": "INIT",
+      "coinMinimalDenom": "uinit",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.15,
-        "average": 0.3,
-        "high": 1
+        "low": 0.015,
+        "average": 0.02,
+        "high": 0.3
       }
     }
   ]

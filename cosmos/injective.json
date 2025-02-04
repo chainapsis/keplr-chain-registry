@@ -31,6 +31,13 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/inj.png"
     },
     {
+      "coinDenom": "USDT",
+      "coinDecimals": 6,
+      "coinMinimalDenom": "peggy0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "coinGeckoId": "tether",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/peggy0xdAC17F958D2ee523a2206206994597C13D831ec7.png"
+    },
+    {
       "coinDenom": "NINJA",
       "coinDecimals": 6,
       "coinMinimalDenom": "factory/inj1xtel2knkt8hmc9dnzpjz6kdmacgcfmlv5f308w/ninja",
@@ -38,7 +45,6 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/ninja.png"
     },
     {
-
       "coinDenom": "Talis",
       "coinDecimals": 6,
       "coinMinimalDenom": "factory/inj1maeyvxfamtn8lfyxpjca8kuvauuf2qeu6gtxm3/Talis",
@@ -50,7 +56,6 @@
       "coinMinimalDenom": "factory/inj1h0ypsdtjfcjynqu3m75z2zwwz5mmrj8rtk2g52/uhava",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1h0ypsdtjfcjynqu3m75z2zwwz5mmrj8rtk2g52/hava.png"
-
     },
     {
       "coinDenom": "KIRA",
@@ -63,12 +68,14 @@
       "coinDenom": "HDRO",
       "coinMinimalDenom": "factory/inj1etz0laas6h7vemg3qtd67jpr6lh8v7xz7gfzqw/hdro",
       "coinDecimals": 6,
+      "coinGeckoId": "hydro-protocol-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1etz0laas6h7vemg3qtd67jpr6lh8v7xz7gfzqw/hdro.png"
-      },
+    },
     {
       "coinDenom": "QUNT",
       "coinDecimals": 6,
       "coinMinimalDenom": "factory/inj127l5a2wmkyvucxdlupqyac3y0v6wqfhq03ka64/qunt",
+      "coinGeckoId": "injective-quants",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj127l5a2wmkyvucxdlupqyac3y0v6wqfhq03ka64/QUNT.png"
     },
     {
@@ -76,8 +83,86 @@
       "coinDecimals": 6,
       "coinMinimalDenom": "factory/inj1nccncwqx5q22lf4uh83dhe89e3f0sh8kljf055/HOUND",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1nccncwqx5q22lf4uh83dhe89e3f0sh8kljf055/HOUND.png"
+    },
+    {
+      "coinDenom": "bINJ",
+      "coinDecimals": 18,
+      "coinMinimalDenom": "factory/inj1dxp690rd86xltejgfq2fa7f2nxtgmm5cer3hvu/bINJ",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1dxp690rd86xltejgfq2fa7f2nxtgmm5cer3hvu/bINJ.png"
+    },
+    {
+      "coinDenom": "SYN",
+      "coinDecimals": 6,
+      "coinMinimalDenom": "factory/inj1a6xdezq7a94qwamec6n6cnup02nvewvjtz6h6e/SYN",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1a6xdezq7a94qwamec6n6cnup02nvewvjtz6h6e/syn.png"
+    },
+    {
+      "coinDenom": "ashSYN",
+      "coinMinimalDenom": "factory/inj1ej2f3lmpxj4djsmmuxvnfuvplrut7zmwrq7zj8/syn.ash",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1ej2f3lmpxj4djsmmuxvnfuvplrut7zmwrq7zj8/syn.ash.png"
+    },
+    {
+      "coinDenom": "XIII",
+      "coinMinimalDenom": "factory/inj18flmwwaxxqj8m8l5zl8xhjrnah98fcjp3gcy3e/XIII",
+      "coinGeckoId": "xiiicoin",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj18flmwwaxxqj8m8l5zl8xhjrnah98fcjp3gcy3e/XIII.png"
+    },
+    {
+      "coinDenom": "SHROOM",
+      "coinDecimals": 18,
+      "coinMinimalDenom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1300xcg9naqy00fujsr9r8alwk7dh65uqu87xm8",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1300xcg9naqy00fujsr9r8alwk7dh65uqu87xm8/shroom.png"
+    },
+    {
+      "coinDenom": "NEPT",
+      "coinMinimalDenom": "factory/inj1v3a4zznudwpukpr8y987pu5gnh4xuf7v36jhva/nept",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1v3a4zznudwpukpr8y987pu5gnh4xuf7v36jhva/nept.png"
+    },
+    {
+      "coinDenom": "BITCOIN",
+      "coinMinimalDenom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/BITCOIN",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/bitcoin.png"
+    },
+    {
+      "coinDenom": "BRICS",
+      "coinMinimalDenom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/BRICS",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/brics.png"
+    },
+    {
+      "coinDenom": "CRYPTO",
+      "coinMinimalDenom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/CRYPTO",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/crypto.png"
+    },
+    {
+      "coinDenom": "INC",
+      "coinMinimalDenom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/INC",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/inc.png"
+     },
+     {
+      "coinDenom": "nUSDT",
+      "coinMinimalDenom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1cy9hes20vww2yr6crvs75gxy5hpycya2hmjg9s",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1cy9hes20vww2yr6crvs75gxy5hpycya2hmjg9s/nusdt.png"
+    },
+    {
+      "coinDenom": "nUSDC",
+      "coinMinimalDenom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1dafy7fv7qczzatd98dv8hekx6ssckrflswpjaz",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1dafy7fv7qczzatd98dv8hekx6ssckrflswpjaz/nusdc.png"
+    },
+    {
+      "coinDenom": "NBZ",
+      "coinMinimalDenom": "factory/inj1llr45x92t7jrqtxvc02gpkcqhqr82dvyzkr4mz/NBZ",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1llr45x92t7jrqtxvc02gpkcqhqr82dvyzkr4mz/nbz.png"
     }
-    
   ],
   "feeCurrencies": [
     {

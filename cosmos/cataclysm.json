@@ -25,7 +25,14 @@
       "coinDenom": "NIBI",
       "coinMinimalDenom": "unibi",
       "coinDecimals": 6,
+      "coinGeckoId": "nibiru",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cataclysm/chain.png"
+    },
+    {
+      "coinDenom": "AXV",
+      "coinMinimalDenom": "tf/nibi1vetfuua65frvf6f458xgtjerf0ra7wwjykrdpuyn0jur5x07awxsfka0ga/axv",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cataclysm/tf/nibi1vetfuua65frvf6f458xgtjerf0ra7wwjykrdpuyn0jur5x07awxsfka0ga/axv.png"
     }
   ],
   "feeCurrencies": [
@@ -33,6 +40,7 @@
       "coinDenom": "NIBI",
       "coinMinimalDenom": "unibi",
       "coinDecimals": 6,
+      "coinGeckoId": "nibiru",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cataclysm/chain.png",
       "gasPriceStep": {
         "low": 0.025,
@@ -45,6 +53,7 @@
     "coinDenom": "NIBI",
     "coinMinimalDenom": "unibi",
     "coinDecimals": 6,
+    "coinGeckoId": "nibiru",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cataclysm/chain.png"
   },
   "features": [
