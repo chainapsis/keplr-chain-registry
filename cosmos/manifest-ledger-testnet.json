@@ -1,7 +1,7 @@
 {
     "chainId": "manifest-ledger-testnet",
     "chainName": "Manifest",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/manifest-ledger-testnet/chain.png",
     "rpc": "https://nodes.liftedinit.tech/manifest/testnet/rpc",
     "rest": "https://nodes.liftedinit.tech/manifest/testnet/api",
     "nodeProvider": {
