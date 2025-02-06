@@ -11,7 +11,8 @@
       "coinDenom": "BERA",
       "coinMinimalDenom": "berachain-native",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80094/berachain-native.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80094/berachain-native.png",
+      "coinGeckoId": "berachain-bera"
     },
     {
       "coinDenom": "BGT",
