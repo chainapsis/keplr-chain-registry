@@ -69,6 +69,12 @@
         "coinMinimalDenom": "factory/migaloo1nsskhvvh0msm7d5ke2kfg24a8d4jecsnxd28s27h0uz5kf9ap60shlqmcl/ampGASH",
         "coinDecimals": 6,
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/factory/migaloo1nsskhvvh0msm7d5ke2kfg24a8d4jecsnxd28s27h0uz5kf9ap60shlqmcl/ampGASH.png"
+      },
+            {
+        "coinDenom": "uwhalex",
+        "coinMinimalDenom": "factory/migaloo1zsptvkg5aeg4tjksgv7vp4x5s9p5euqrh9jl3sfdv48wtnrhftlszsvmu5/uwhalex",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/migaloo/factory/migaloo1zsptvkg5aeg4tjksgv7vp4x5s9p5euqrh9jl3sfdv48wtnrhftlszsvmu5/logo-whaleX.png"
       }
    ],
    "feeCurrencies":[
