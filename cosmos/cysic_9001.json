@@ -1,7 +1,7 @@
 {
     "chainId": "cysicmint_9001-1",
     "chainName": "Cysic Network Testnet",  
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cysic-testnet/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cysic_9001/chain.png",
     "rpc": "https://rpc-testnet.prover.xyz",
     "rest": "https://api-testnet.prover.xyz",
     "walletUrlForStaking": "https://testnet.cysic.xyz/m/stake/cgt",
@@ -26,13 +26,13 @@
         "coinDenom": "CYS",
         "coinMinimalDenom": "CYS",
         "coinDecimals": 18,
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cysic-testnet/cys.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cysic_9001/cys.png"
       },
       {
         "coinDenom": "CGT",
         "coinMinimalDenom": "CGT",
         "coinDecimals": 18,
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cysic-testnet/cgt.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cysic_9001/cgt.png"
       }
     ],
     "feeCurrencies": [
@@ -40,7 +40,7 @@
         "coinDenom": "CYS",
         "coinMinimalDenom": "CYS",
         "coinDecimals": 18,
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cysic-testnet/cys.png",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cysic_9001/cys.png",
         "gasPriceStep": {
           "low": 25000000000,
           "average": 25000000000,
@@ -52,7 +52,7 @@
       "coinDenom": "CGT",
       "coinMinimalDenom": "CGT",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cysic-testnet/cgt.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cysic_9001/cgt.png"
     },
     "features": ["eth-address-gen"]
   }
