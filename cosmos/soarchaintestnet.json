@@ -1,0 +1,55 @@
+{   
+    "rpc": "https://soarchain-testnet.rpc.kjnodes.com",
+    "rest": "https://soarchain-testnet.api.kjnodes.com",
+    "chainId": "soarchaintestnet",
+    "chainName": "Soarchain Testnet",
+    "nodeProvider": {
+        "name": "soarchain",
+        "email": "alperen@soarrobotics.com",
+        "website":"https://www.soarchain.com"
+      },
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/soarchaintestnet/chain.png",
+    "bip44": {
+        "coinType": 118
+    },
+    "bech32Config": {
+        "bech32PrefixAccAddr": "soar",
+        "bech32PrefixAccPub": "soarpub",
+        "bech32PrefixValAddr": "soarvaloper",
+        "bech32PrefixValPub": "soarvaloperpub",
+        "bech32PrefixConsAddr": "soarvalcons",
+        "bech32PrefixConsPub": "soarvalconspub"
+    },
+    "currencies": [
+        {
+            "coinDenom": "TSOAR",
+            "coinMinimalDenom": "utsoar",
+            "coinDecimals": 6,
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/soarchaintestnet/chain.png"
+        
+            }
+    ],
+    "feeCurrencies": [
+        {
+            "coinDenom": "TSOAR",
+            "coinMinimalDenom": "utsoar",
+            "coinDecimals": 6,
+            "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.03
+            },            
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/soarchaintestnet/chain.png"
+
+        }
+    ],
+    "stakeCurrency": {
+        "coinDenom": "TSOAR",
+        "coinMinimalDenom": "utsoar",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/soarchaintestnet/chain.png"
+    },
+    "features": [
+        "cosmwasm"
+    ]
+}

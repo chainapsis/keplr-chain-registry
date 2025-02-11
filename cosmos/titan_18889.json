@@ -1,13 +1,13 @@
 {
-  "rpc": "https://titan-testnet-rpc-1.tokenize-dev.com",
-  "rest": "https://titan-testnet-lcd-1.tokenize-dev.com",
+  "rpc": "https://titan-testnet-rpc.titanlab.io",
+  "rest": "https://titan-testnet-lcd.titanlab.io",
   "chainId": "titan_18889-1",
   "chainName": "Titan Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18889/chain.png",
   "nodeProvider": {
-    "name": "Tokenize",
-    "email": "tranquocphuong@tokenize.exchange",
-    "website": "https://tokenize.exchange/"
+    "name": "Titanlab",
+    "email": "info@titanlab.io",
+    "website": "https://titanlab.io"
   },
   "bip44": {
     "coinType": 60
@@ -26,6 +26,12 @@
       "coinMinimalDenom": "atkx",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18889/tkx.png"
+    },
+    {
+      "coinDenom": "BTC",
+      "coinMinimalDenom": "factory/titan1uvt40rsp68wtas0y75w34qdn5h0g5eyefy5gmvzftdnupyv7q7vq7jfynw/w-btc",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18889/factory/titan1uvt40rsp68wtas0y75w34qdn5h0g5eyefy5gmvzftdnupyv7q7vq7jfynw/btc.png"
     }
   ],
   "feeCurrencies": [

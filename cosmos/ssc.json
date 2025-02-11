@@ -1,0 +1,50 @@
+{
+  "chainId": "ssc-1",
+  "chainName": "Saga",
+  "rpc": "https://rpc-saga.keplr.app",
+  "rest": "https://lcd-saga.keplr.app",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ssc/chain.png",
+  "bip44": {
+    "coinType": 118
+  },
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/saga",
+  "bech32Config": {
+    "bech32PrefixAccAddr": "saga",
+    "bech32PrefixAccPub": "sagapub",
+    "bech32PrefixValAddr": "sagavaloper",
+    "bech32PrefixValPub": "sagavaloperpub",
+    "bech32PrefixConsAddr": "sagavalcons",
+    "bech32PrefixConsPub": "sagavalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "SAGA",
+      "coinMinimalDenom": "usaga",
+      "coinDecimals": 6,
+      "coinGeckoId": "saga-2",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ssc/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "SAGA",
+      "coinMinimalDenom": "usaga",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.04
+      },
+      "coinGeckoId": "saga-2",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ssc/chain.png"
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "SAGA",
+    "coinMinimalDenom": "usaga",
+    "coinDecimals": 6,
+    "coinGeckoId": "saga-2",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ssc/chain.png"
+  },
+  "features": ["authz-msg-revoke-fixed"]
+}

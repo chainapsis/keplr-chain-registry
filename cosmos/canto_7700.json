@@ -1,6 +1,6 @@
 {
-  "rpc": "https://rpc.canto.nodestake.top/",
-  "rest": "https://mainnode.plexnode.org:1317",
+  "rpc": "http://canto.plexnode.dev:16657",
+  "rest": "https://canto-rest.plexnode.wtf",
   "chainId": "canto_7700-1",
   "chainName": "Canto",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/canto_7700/chain.png",

@@ -1,0 +1,48 @@
+{
+    "chainId": "nubit-alphatestnet-1",
+    "chainName": "Nubit Alpha Testnet",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nubit-alphatestnet/chain.png",
+    "rpc": "https://validator.nubit-alphatestnet-1.com:26657",
+    "rest": "https://validator.nubit-alphatestnet-1.com:1317",
+    "nodeProvider": {
+      "name": "Nubit",
+      "email": "developers@riema.xyz",
+      "website": "https://nubit.org"
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "nubit",
+      "bech32PrefixAccPub": "nubitpub",
+      "bech32PrefixValAddr": "nubitvaloper",
+      "bech32PrefixValPub": "nubitvaloperpub",
+      "bech32PrefixConsAddr": "nubitvalcons",
+      "bech32PrefixConsPub": "nubitvalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "NUB",
+        "coinMinimalDenom": "unub",
+        "coinDecimals": 6
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "NUB",
+        "coinMinimalDenom": "unub",
+        "coinDecimals": 6,
+        "gasPriceStep": {
+          "low": 0.01,
+          "average": 0.02,
+          "high": 0.1
+        }
+      }
+    ],
+    "stakeCurrency": {
+      "coinDenom": "NUB",
+      "coinMinimalDenom": "unub",
+      "coinDecimals": 6
+    },
+    "features": []
+}

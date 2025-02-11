@@ -1,0 +1,54 @@
+{
+    "chainId": "manifest-ledger-testnet",
+    "chainName": "Manifest Testnet",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/manifest-ledger-testnet/chain.png",
+    "rpc": "https://nodes.liftedinit.tech/manifest/testnet/rpc",
+    "rest": "https://nodes.liftedinit.tech/manifest/testnet/api",
+    "nodeProvider": {
+      "name": "Lifted Initiative",
+      "email": "infra@liftedinit.org",
+      "website": "https://liftedinit.org/"
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "manifest",
+      "bech32PrefixAccPub": "manifestpub",
+      "bech32PrefixValAddr": "manifestvaloper",
+      "bech32PrefixValPub": "manifestvaloperpub",
+      "bech32PrefixConsAddr": "manifestvalcons",
+      "bech32PrefixConsPub": "manifestvalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "MFX",
+        "coinMinimalDenom": "umfx",
+        "coinDecimals": 6
+      },
+      {
+        "coinDenom": "POA",
+        "coinMinimalDenom": "upoa",
+        "coinDecimals": 6
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "MFX",
+        "coinMinimalDenom": "umfx",
+        "coinDecimals": 6,
+        "gasPriceStep": {
+          "low": 0.01,
+          "average": 0.025,
+          "high": 0.03
+        }
+      }
+    ],
+    "stakeCurrency": {
+      "coinDenom": "POA",
+      "coinMinimalDenom": "upoa",
+      "coinDecimals": 6
+    },
+    "features": []
+  }
+  

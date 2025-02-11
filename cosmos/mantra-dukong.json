@@ -1,0 +1,51 @@
+{
+  "chainId": "mantra-dukong-1",
+  "chainName": "MANTRA Dukong Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra-dukong/chain.png",
+  "rpc": "https://rpc.dukong.mantrachain.io",
+  "rest": "https://api.dukong.mantrachain.io",
+  "nodeProvider": {
+    "name": "MANTRA Chain Association",
+    "email": "security@mantrachain.io",
+    "website": "https://mantrachain.io/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "mantra",
+    "bech32PrefixAccPub": "mantrapub",
+    "bech32PrefixValAddr": "mantravaloper",
+    "bech32PrefixValPub": "mantravaloperpub",
+    "bech32PrefixConsAddr": "mantravalcons",
+    "bech32PrefixConsPub": "mantravalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "OM",
+      "coinMinimalDenom": "uom",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra-dukong/om.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "OM",
+      "coinMinimalDenom": "uom",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra-dukong/om.png",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.03
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "OM",
+    "coinMinimalDenom": "uom",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra-dukong/om.png"
+  },
+  "features": ["cosmwasm"]
+}

@@ -28,10 +28,16 @@
       "coinGeckoId": "switcheo"
     },
     {
-      "coinDenom": "BNB",
-      "coinMinimalDenom": "bnb.1.6.773edb",
+      "coinDenom": "USC",
+      "coinMinimalDenom": "usc",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin"
+    },
+    {
+      "coinDenom": "USD",
+      "coinMinimalDenom": "cgt/1",
       "coinDecimals": 18,
-      "coinGeckoId": "binancecoin"
+      "coinGeckoId": "usd-coin"
     },
     {
       "coinDenom": "bNEO",
@@ -40,50 +46,66 @@
       "coinGeckoId": "neo"
     },
     {
+      "coinDenom": "BNB",
+      "coinMinimalDenom": "brdg/1768794901f8a19c2ec795a5402653cef6cbfe6b3ec6398d39fc37de963cb667",
+      "coinDecimals": 18,
+      "coinGeckoId": "binancecoin"
+    },
+    {
+      "coinDenom": "cmETH",
+      "coinMinimalDenom": "brdg/235ea1e9c215addc00464bfbb7f69c23100e38f3d5b8512b2a1e2fb1da1d7453",
+      "coinDecimals": 18,
+      "coinGeckoId": "mantle-restaked-eth"
+    },
+    {
       "coinDenom": "BUSD",
-      "coinMinimalDenom": "busd.1.6.754a80",
+      "coinMinimalDenom": "brdg/452281b506e82a21c2eedfd593d30883848ddec29cd5747e8e80720cc14e8b84",
       "coinDecimals": 18,
       "coinGeckoId": "binance-usd"
     },
     {
-      "coinDenom": "CGLP",
-      "coinMinimalDenom": "cglp.1.19.1698d3",
+      "coinDenom": "COOK",
+      "coinMinimalDenom": "brdg/4fa6adda16fd1ac1c08c18bf76c137b863637ad96f026ca468015119dcc7da1c",
+      "coinDecimals": 18,
+      "coinGeckoId": "meth-protocol"
+    },
+    {
+      "coinDenom": "PTcmETH_13FEB2025",
+      "coinMinimalDenom": "brdg/5c60cfe79717c68b665f67ed621fa73c0fc438504bec2daaae9e4880de346e04",
       "coinDecimals": 18
     },
     {
-      "coinDenom": "ETH",
-      "coinMinimalDenom": "eth.1.19.c3b805",
+      "coinDenom": "FBTC",
+      "coinMinimalDenom": "brdg/714a79c1875208b0e2a64e463caa10291726be5292ba014c3a67746804fea502",
+      "coinDecimals": 8,
+      "coinGeckoId": "ignition-fbtc"
+    },
+    {
+      "coinDenom": "mETH",
+      "coinMinimalDenom": "brdg/7e922ad42da37c2fcffa49aafae1d0cc61d9f1bff7a6cbacd0be9bbc80d05e99",
       "coinDecimals": 18,
-      "coinGeckoId": "ethereum"
+      "coinGeckoId": "mantle-staked-ether"
     },
     {
-      "coinDenom": "ETH",
-      "coinMinimalDenom": "eth.1.2.942d87",
+      "coinDenom": "SY-cmETH-13FEB2025",
+      "coinMinimalDenom": "brdg/8778ab94871c0cb440959a06ce245b5dc06fe5f79df11004ad97e9098a6ec16a",
+      "coinDecimals": 18
+    },
+    {
+      "coinDenom": "MNT",
+      "coinMinimalDenom": "brdg/a02afc2c1edf77cc023eefa25fc036c184612faf9365cda9c1daa3b1675ebf8f",
       "coinDecimals": 18,
-      "coinGeckoId": "ethereum"
+      "coinGeckoId": "wrapped-mantle"
     },
     {
-      "coinDenom": "USC",
-      "coinMinimalDenom": "usc",
-      "coinDecimals": 6
+      "coinDenom": "cGLP",
+      "coinMinimalDenom": "brdg/c29c043c95498c4fc25d8d008e4735f7717a14b06581d8197726ad877c9e567e",
+      "coinDecimals": 18
     },
     {
-      "coinDenom": "USDC",
-      "coinMinimalDenom": "usdc.1.2.343151",
-      "coinDecimals": 6,
-      "coinGeckoId": "usd-coin"
-    },
-    {
-      "coinDenom": "USDC",
-      "coinMinimalDenom": "usdc.1.6.53ff75",
-      "coinDecimals": 18,
-      "coinGeckoId": "usd-coin"
-    },
-    {
-      "coinDenom": "USD",
-      "coinMinimalDenom": "cgt/1",
-      "coinDecimals": 18,
-      "coinGeckoId": "usd-coin"
+      "coinDenom": "LPcmETH_13FEB2025",
+      "coinMinimalDenom": "brdg/cb2cdde14b5ab81cb400650d00e47ab5085dd5fa3fa904ec7904e2488ecdfd6c",
+      "coinDecimals": 18
     },
     {
       "coinDenom": "ZIL",
@@ -105,14 +127,25 @@
       }
     },
     {
-      "coinDenom": "BNB",
-      "coinMinimalDenom": "bnb.1.6.773edb",
-      "coinDecimals": 18,
-      "coinGeckoId": "binancecoin",
+      "coinDenom": "USC",
+      "coinMinimalDenom": "usc",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
       "gasPriceStep": {
-        "low": 33333333.3333334,
-        "average": 33333333.3333334,
-        "high": 33333333.3333334
+        "low": 0.0033333333334,
+        "average": 0.0033333333334,
+        "high": 0.0033333333334
+      }
+    },
+    {
+      "coinDenom": "USD",
+      "coinMinimalDenom": "cgt/1",
+      "coinDecimals": 18,
+      "coinGeckoId": "usd-coin",
+      "gasPriceStep": {
+        "low": 3333333333.3333335,
+        "average": 3333333333.3333335,
+        "high": 3333333333.3333335
       }
     },
     {
@@ -127,67 +160,164 @@
       }
     },
     {
+      "coinDenom": "BNB",
+      "coinMinimalDenom": "brdg/1768794901f8a19c2ec795a5402653cef6cbfe6b3ec6398d39fc37de963cb667",
+      "coinDecimals": 18,
+      "coinGeckoId": "binancecoin",
+      "gasPriceStep": {
+        "low": 33333333.33333334,
+        "average": 33333333.33333334,
+        "high": 33333333.33333334
+      }
+    },
+    {
+      "coinDenom": "cmETH",
+      "coinMinimalDenom": "brdg/235ea1e9c215addc00464bfbb7f69c23100e38f3d5b8512b2a1e2fb1da1d7453",
+      "coinDecimals": 18,
+      "coinGeckoId": "mantle-restaked-eth",
+      "gasPriceStep": {
+        "low": 1042905.3333333334,
+        "average": 1042905.3333333334,
+        "high": 1042905.3333333334
+      }
+    },
+    {
       "coinDenom": "BUSD",
-      "coinMinimalDenom": "busd.1.6.754a80",
+      "coinMinimalDenom": "brdg/452281b506e82a21c2eedfd593d30883848ddec29cd5747e8e80720cc14e8b84",
       "coinDecimals": 18,
       "coinGeckoId": "binance-usd",
       "gasPriceStep": {
-        "low": 3333333333.33334,
-        "average": 3333333333.33334,
-        "high": 3333333333.33334
+        "low": 3333333333.3333335,
+        "average": 3333333333.3333335,
+        "high": 3333333333.3333335
       }
     },
     {
-      "coinDenom": "CGLP",
-      "coinMinimalDenom": "cglp.1.19.1698d3",
+      "coinDenom": "COOK",
+      "coinMinimalDenom": "brdg/4fa6adda16fd1ac1c08c18bf76c137b863637ad96f026ca468015119dcc7da1c",
+      "coinDecimals": 18,
+      "coinGeckoId": "meth-protocol",
+      "gasPriceStep": {
+        "low": 147048497100,
+        "average": 147048497100,
+        "high": 147048497100
+      }
+    },
+    {
+      "coinDenom": "PTcmETH_13FEB2025",
+      "coinMinimalDenom": "brdg/5c60cfe79717c68b665f67ed621fa73c0fc438504bec2daaae9e4880de346e04",
       "coinDecimals": 18,
       "gasPriceStep": {
-        "low": 3333333333.33334,
-        "average": 3333333333.33334,
-        "high": 3333333333.33334
+        "low": 1114300,
+        "average": 1114300,
+        "high": 1114300
       }
     },
     {
-      "coinDenom": "ETH",
-      "coinMinimalDenom": "eth.1.19.c3b805",
-      "coinDecimals": 18,
-      "coinGeckoId": "ethereum",
+      "coinDenom": "FBTC",
+      "coinMinimalDenom": "brdg/714a79c1875208b0e2a64e463caa10291726be5292ba014c3a67746804fea502",
+      "coinDecimals": 8,
+      "coinGeckoId": "ignition-fbtc",
       "gasPriceStep": {
-        "low": 3333333.33333334,
-        "average": 3333333.33333334,
-        "high": 3333333.33333334
+        "low": 0.0000038190667,
+        "average": 0.0000038190667,
+        "high": 0.0000038190667
       }
     },
     {
-      "coinDenom": "ETH",
-      "coinMinimalDenom": "eth.1.2.942d87",
+      "coinDenom": "mETH",
+      "coinMinimalDenom": "brdg/7e922ad42da37c2fcffa49aafae1d0cc61d9f1bff7a6cbacd0be9bbc80d05e99",
       "coinDecimals": 18,
-      "coinGeckoId": "ethereum",
+      "coinGeckoId": "mantle-staked-ether",
       "gasPriceStep": {
-        "low": 3333333.33333334,
-        "average": 3333333.33333334,
-        "high": 3333333.33333334
+        "low": 1040504.3333333334,
+        "average": 1040504.3333333334,
+        "high": 1040504.3333333334
       }
     },
     {
-      "coinDenom": "STARS",
-      "coinMinimalDenom": "ibc/07FA7831E1920D0C87C9388F86B0108677F6ED0C9DE7E4063F05ED675192405C",
+      "coinDenom": "SY-cmETH-13FEB2025",
+      "coinMinimalDenom": "brdg/8778ab94871c0cb440959a06ce245b5dc06fe5f79df11004ad97e9098a6ec16a",
+      "coinDecimals": 18,
+      "gasPriceStep": {
+        "low": 537766.6666666666,
+        "average": 537766.6666666666,
+        "high": 537766.6666666666
+      }
+    },
+    {
+      "coinDenom": "MNT",
+      "coinMinimalDenom": "brdg/a02afc2c1edf77cc023eefa25fc036c184612faf9365cda9c1daa3b1675ebf8f",
+      "coinDecimals": 18,
+      "coinGeckoId": "wrapped-mantle",
+      "gasPriceStep": {
+        "low": 4805476033.333333,
+        "average": 4805476033.333333,
+        "high": 4805476033.333333
+      }
+    },
+    {
+      "coinDenom": "cGLP",
+      "coinMinimalDenom": "brdg/c29c043c95498c4fc25d8d008e4735f7717a14b06581d8197726ad877c9e567e",
+      "coinDecimals": 18,
+      "gasPriceStep": {
+        "low": 3333333333.3333335,
+        "average": 3333333333.3333335,
+        "high": 3333333333.3333335
+      }
+    },
+    {
+      "coinDenom": "LPcmETH_13FEB2025",
+      "coinMinimalDenom": "brdg/cb2cdde14b5ab81cb400650d00e47ab5085dd5fa3fa904ec7904e2488ecdfd6c",
+      "coinDecimals": 18,
+      "gasPriceStep": {
+        "low": 537766.6666666666,
+        "average": 537766.6666666666,
+        "high": 537766.6666666666
+      }
+    },
+    {
+      "coinDenom": "ZIL",
+      "coinMinimalDenom": "zil.1.18.1a4a06",
+      "coinDecimals": 12,
+      "coinGeckoId": "zilliqa",
+      "gasPriceStep": {
+        "low": 200000,
+        "average": 200000,
+        "high": 200000
+      }
+    },
+    {
+      "coinDenom": "milkTIA",
+      "coinMinimalDenom": "ibc/16065EE5282C5217685C8F084FC44864C25C706AC37356B0D62811D50B96920F",
       "coinDecimals": 6,
-      "coinGeckoId": "stargaze",
+      "coinGeckoId": "milkyway-staked-tia",
       "gasPriceStep": {
-        "low": 0.116666666667,
-        "average": 0.116666666667,
-        "high": 0.116666666667
+        "low": 0.00025,
+        "average": 0.00025,
+        "high": 0.00025
       }
     },
     {
       "coinDenom": "LUNA",
       "coinMinimalDenom": "ibc/2B58B8C147E8718EECCB3713271DF46DEE8A3A00A27242628604E31C2F370EF5",
       "coinDecimals": 6,
+      "coinGeckoId": "terra-luna-2",
       "gasPriceStep": {
-        "low": 0.001666666667,
-        "average": 0.001666666667,
-        "high": 0.001666666667
+        "low": 0.0016666666667,
+        "average": 0.0016666666667,
+        "high": 0.0016666666667
+      }
+    },
+    {
+      "coinDenom": "stINJ",
+      "coinMinimalDenom": "ibc/2B9D089E73AC096934CD6BBBC71A1CD5DD2A4F8E94CC37CE7F861AC674044002",
+      "coinDecimals": 18,
+      "coinGeckoId": "stride-staked-injective",
+      "gasPriceStep": {
+        "low": 66666666.66666667,
+        "average": 66666666.66666667,
+        "high": 66666666.66666667
       }
     },
     {
@@ -196,9 +326,9 @@
       "coinDecimals": 6,
       "coinGeckoId": "stride",
       "gasPriceStep": {
-        "low": 0.010666666667,
-        "average": 0.010666666667,
-        "high": 0.010666666667
+        "low": 0.0106666666667,
+        "average": 0.0106666666667,
+        "high": 0.0106666666667
       }
     },
     {
@@ -224,14 +354,46 @@
       }
     },
     {
+      "coinDenom": "DYM",
+      "coinMinimalDenom": "ibc/50345B6B85884DC41E831047EEE01805B289171DBF105AB3EA42BCC72B3926CC",
+      "coinDecimals": 18,
+      "coinGeckoId": "dymension",
+      "gasPriceStep": {
+        "low": 666666666.6666666,
+        "average": 666666666.6666666,
+        "high": 666666666.6666666
+      }
+    },
+    {
+      "coinDenom": "stTIA",
+      "coinMinimalDenom": "ibc/6569E05DEE32B339D9286A52BE33DFCEFC97267F23EF9CFDE0C055140967A9A5",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.00025,
+        "average": 0.00025,
+        "high": 0.00025
+      }
+    },
+    {
       "coinDenom": "KUJI",
       "coinMinimalDenom": "ibc/662914D0C1CEBCB070C68F061D035E8B10A07C79AB286E7342C85F3BE74612C5",
       "coinDecimals": 6,
       "coinGeckoId": "kujira",
       "gasPriceStep": {
-        "low":  0.005,
+        "low": 0.005,
         "average": 0.005,
-        "high":  0.005
+        "high": 0.005
+      }
+    },
+    {
+      "coinDenom": "TIA",
+      "coinMinimalDenom": "ibc/6C349F0EB135C5FA99301758F35B87DB88403D690E5E314AB080401FEE4066E5",
+      "coinDecimals": 6,
+      "coinGeckoId": "celestia",
+      "gasPriceStep": {
+        "low": 0.00025,
+        "average": 0.00025,
+        "high": 0.00025
       }
     },
     {
@@ -246,14 +408,24 @@
       }
     },
     {
+      "coinDenom": "stSTARS",
+      "coinMinimalDenom": "ibc/8D749C5FB0213DF002E8FDCCB5B01E35DA241397EF825048C530C7EAE43BCE80",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.05,
+        "average": 0.05,
+        "high": 0.05
+      }
+    },
+    {
       "coinDenom": "CANTO",
       "coinMinimalDenom": "ibc/92E974290AF9E2BC3AEEEC35305C8FD76AC5A22A74CF8D91270FDF5A1C41E861",
       "coinDecimals": 18,
       "coinGeckoId": "canto",
       "gasPriceStep": {
-        "low": 6666666666.66667,
-        "average": 6666666666.66667,
-        "high": 6666666666.66667
+        "low": 6666666666.666667,
+        "average": 6666666666.666667,
+        "high": 6666666666.666667
       }
     },
     {
@@ -262,19 +434,30 @@
       "coinDecimals": 6,
       "coinGeckoId": "cosmos",
       "gasPriceStep": {
-        "low": 0.000333333334,
-        "average": 0.000333333334,
-        "high": 0.000333333334
+        "low": 0.0003333333334,
+        "average": 0.0003333333334,
+        "high": 0.0003333333334
       }
     },
     {
       "coinDenom": "stATOM",
       "coinMinimalDenom": "ibc/B7864B03E1B9FD4F049243E92ABD691586F682137037A9F3FCA5222815620B3C",
       "coinDecimals": 6,
+      "coinGeckoId": "stride-staked-atom",
       "gasPriceStep": {
-        "low": 0.000333333334,
-        "average": 0.000333333334,
-        "high": 0.000333333334
+        "low": 0.0003333333334,
+        "average": 0.0003333333334,
+        "high": 0.0003333333334
+      }
+    },
+    {
+      "coinDenom": "stDYDX",
+      "coinMinimalDenom": "ibc/BAA1D21893B1D36865C6CA44D18F4ACF08BAD70CB6863C4722E0A61703808F77",
+      "coinDecimals": 18,
+      "gasPriceStep": {
+        "low": 1666666666.6666667,
+        "average": 1666666666.6666667,
+        "high": 1666666666.6666667
       }
     },
     {
@@ -286,60 +469,6 @@
         "low": 0.005,
         "average": 0.005,
         "high": 0.005
-      }
-    },
-    {
-      "coinDenom": "USC",
-      "coinMinimalDenom": "usc",
-      "coinDecimals": 6,
-      "gasPriceStep": {
-        "low": 0.003333333334,
-        "average": 0.003333333334,
-        "high": 0.003333333334
-      }
-    },
-    {
-      "coinDenom": "USD",
-      "coinMinimalDenom": "cgt/1",
-      "coinDecimals": 18,
-      "coinGeckoId": "usd-coin",
-      "gasPriceStep": {
-        "low": 3333333333.33334,
-        "average": 3333333333.33334,
-        "high": 3333333333.33334
-      }
-    },
-    {
-      "coinDenom": "USDC",
-      "coinMinimalDenom": "usdc.1.2.343151",
-      "coinDecimals": 6,
-      "coinGeckoId": "usd-coin",
-      "gasPriceStep": {
-        "low": 0.00333333333333334,
-        "average": 0.00333333333333334,
-        "high": 0.00333333333333334
-      }
-    },
-    {
-      "coinDenom": "USDC",
-      "coinMinimalDenom": "usdc.1.6.53ff75",
-      "coinDecimals": 18,
-      "coinGeckoId": "usd-coin",
-      "gasPriceStep": {
-        "low": 3333333333.33334,
-        "average": 3333333333.33334,
-        "high": 3333333333.33334
-      }
-    },
-    {
-      "coinDenom": "ZIL",
-      "coinMinimalDenom": "zil.1.18.1a4a06",
-      "coinDecimals": 12,
-      "coinGeckoId": "zilliqa",
-      "gasPriceStep": {
-        "low": 200000,
-        "average": 200000,
-        "high": 200000
       }
     }
   ],
