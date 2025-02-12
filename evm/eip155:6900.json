@@ -1,4 +1,4 @@
-{
+{t
   "rpc": "https://evm-rpc.nibiru.fi",
   "websocket": "wss://evm-rpc-ws.nibiru.fi",
   "nodeProvider": {
