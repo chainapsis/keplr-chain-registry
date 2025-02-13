@@ -1,10 +1,10 @@
 {
-  "rpc": "https://gravity-rpc.staketab.org",
-  "rest": "https://gravity-rest.staketab.org",
+  "rpc": "https://gravity-rpc.polkachu.com",
+  "rest": "https://gravity-api.polkachu.com",
   "nodeProvider": {
-    "name": "Staketab",
-    "email": "support@staketab.com",
-    "website": "https://staketab.com/"
+    "name": "Polkachu",
+    "email": "hello@polkachu.com",
+    "website": "https://polkachu.com/"
   },
   "chainId": "gravity-bridge-3",
   "chainName": "Gravity Bridge",

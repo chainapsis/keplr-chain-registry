@@ -1,0 +1,88 @@
+{
+  "chainId": "luwak-1",
+  "chainName": "kopi",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/luwak/chain.png",
+  "rpc": "https://rpc.kopi.money",
+  "rest": "https://rest.kopi.money",
+  "nodeProvider":{
+     "name":"Kopi Foundation",
+     "email":"dev@kopi.money",
+     "website":"https://kopi.money/"
+  },
+  "bip44": {
+     "coinType": 118
+  },
+  "bech32Config": {
+     "bech32PrefixAccAddr": "kopi",
+     "bech32PrefixAccPub": "kopipub",
+     "bech32PrefixValAddr": "kopivaloper",
+     "bech32PrefixValPub": "kopivaloperpub",
+     "bech32PrefixConsAddr": "kopivalcons",
+     "bech32PrefixConsPub": "kopivalconspub"
+  },
+  "currencies": [
+     {
+        "coinDenom": "XKP",
+        "coinMinimalDenom": "ukopi",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/luwak/chain.png"
+     },
+     {
+        "coinDenom": "KUSD",
+        "coinMinimalDenom": "ukusd",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/luwak/kUSD.png"
+     },
+     {
+        "coinDenom": "CKUSD",
+        "coinMinimalDenom": "uckusd",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/luwak/cKUSD.png"
+     },
+     {
+        "coinDenom": "CUSDC",
+        "coinMinimalDenom": "ucusdc",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/luwak/cUSDC.png"
+     },
+     {
+        "coinDenom": "ASUSDC",
+        "coinMinimalDenom": "uasusdc",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/luwak/asUSDC.png"
+     },
+     {
+        "coinDenom": "CUSDT.inj",
+        "coinMinimalDenom": "ucusdtinj",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/luwak/cUSDT.png"
+     },
+     {
+        "coinDenom": "ASUSDT.inj",
+        "coinMinimalDenom": "uasusdtinj",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/luwak/asUSDT.png"
+     }
+     
+  ],
+  "feeCurrencies": [
+     {
+        "coinDenom": "XKP",
+        "coinMinimalDenom": "ukopi",
+        "coinDecimals": 6,
+        "gasPriceStep": {
+           "low": 0.01,
+           "average": 0.025,
+           "high": 0.03
+        }
+     }
+  ],
+  "stakeCurrency": {
+     "coinDenom": "XKP",
+     "coinMinimalDenom": "ukopi",
+     "coinDecimals": 6
+  },
+  "features": [
+     "cosmwasm"
+  ]
+}

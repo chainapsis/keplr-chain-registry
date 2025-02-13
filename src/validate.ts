@@ -332,6 +332,29 @@ export const checkCurrencies = (chainInfo: ChainInfo) => {
       currency.coinMinimalDenom.startsWith("ibc/") &&
       ChainIdHelper.parse(chainInfo.chainId).identifier !== "centauri"
     ) {
+      // 오스모시스 위의 페넘브라는 일단 봐준다.
+      if (
+        ChainIdHelper.parse(chainInfo.chainId).identifier === "osmosis" &&
+        currency.coinMinimalDenom ===
+          "ibc/0FA9232B262B89E77D1335D54FB1E1F506A92A7E4B51524B400DC69C68D28372"
+      ) {
+        continue;
+      }
+      if (
+        ChainIdHelper.parse(chainInfo.chainId).identifier === "neutron" &&
+        currency.coinMinimalDenom ===
+          "ibc/9598CDEB7C6DB7FC21E746C8E0250B30CD5154F39CA111A9D4948A4362F638BD"
+      ) {
+        continue;
+      }
+      if (
+        ChainIdHelper.parse(chainInfo.chainId).identifier === "osmosis" &&
+        currency.coinMinimalDenom ===
+          "ibc/573FCD90FACEE750F55A8864EF7D38265F07E5A9273FA0E8DAFD39951332B580"
+      ) {
+        continue;
+      }
+
       throw new Error(
         `Do not provide ibc currency to currencies: ${currency.coinMinimalDenom}`,
       );

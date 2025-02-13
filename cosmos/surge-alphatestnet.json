@@ -1,0 +1,48 @@
+{
+    "chainId": "surge-alphatestnet-1",
+    "chainName": "Surge Alpha Testnet",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/surge-alphatestnet/chain.png",
+    "rpc": "https://alphatestnet.surge.dev",
+    "rest": "https://api-alphatestnet.surge.dev",
+    "nodeProvider": {
+        "name": "Surge",
+        "email": "contact@surge.build",
+        "website": "https://surge.build/"
+    },
+    "bip44": {
+        "coinType": 118
+    },
+    "bech32Config": {
+        "bech32PrefixAccAddr": "srg",
+        "bech32PrefixAccPub": "srgpub",
+        "bech32PrefixValAddr": "srgvaloper",
+        "bech32PrefixValPub": "srgvaloperpub",
+        "bech32PrefixConsAddr": "srgvalcons",
+        "bech32PrefixConsPub": "srgvalconspub"
+    },
+    "currencies": [
+        {
+            "coinDenom": "SURG",
+            "coinMinimalDenom": "usurg",
+            "coinDecimals": 6
+        }
+    ],
+    "feeCurrencies": [
+        {
+            "coinDenom": "SURG",
+            "coinMinimalDenom": "usurg",
+            "coinDecimals": 6,
+            "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.02,
+                "high": 0.1
+            }
+        }
+    ],
+    "stakeCurrency": {
+        "coinDenom": "SURG",
+        "coinMinimalDenom": "usurg",
+        "coinDecimals": 6
+    },
+    "features": []
+}

@@ -35,6 +35,12 @@
       "coinDecimals": 18,
       "coinGeckoId": "evmos",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/evmos_9001/aevmos.png"
+    },
+    {
+      "coinDenom": "CROWDP",
+      "coinMinimalDenom": "erc20/0xfbF4318d24a93753F11d365A6dcF8b830e98Ab0F",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/evmos_9001/erc20/0xfbF4318d24a93753F11d365A6dcF8b830e98Ab0F.png"
     }
   ],
   "feeCurrencies": [

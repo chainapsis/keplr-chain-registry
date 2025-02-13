@@ -31,6 +31,19 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/ausdy.png"
     },
     {
+      "coinDenom": "USYC",
+      "coinMinimalDenom": "uusyc",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/uusyc.png"
+    },
+    {
+      "coinDenom": "EURe",
+      "coinMinimalDenom": "ueure",
+      "coinDecimals": 6,
+      "coinGeckoId": "monerium-eur-money",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/ueure.png"
+    },
+    {
       "coinDenom": "FRNZ",
       "coinMinimalDenom": "ufrienzies",
       "coinDecimals": 6,
@@ -47,7 +60,19 @@
       "gasPriceStep": {
         "low": 0.1,
         "average": 0.1,
-        "high": 0.2
+        "high": 0.1
+      }
+    },
+    {
+      "coinDenom": "EURe",
+      "coinMinimalDenom": "ueure",
+      "coinDecimals": 6,
+      "coinGeckoId": "monerium-eur-money",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/ueure.png",
+      "gasPriceStep": {
+        "low": 0.09,
+        "average": 0.09,
+        "high": 0.09
       }
     },
     {
@@ -57,7 +82,7 @@
       "gasPriceStep": {
         "low": 0.01,
         "average": 0.01,
-        "high": 0.02
+        "high": 0.01
       }
     }
   ],

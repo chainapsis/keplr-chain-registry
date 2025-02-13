@@ -1,0 +1,55 @@
+{
+  "chainId": "diamond-1",
+  "chainName": "Zenrock",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/diamond/chain.png",
+  "rpc": "https://rpc.diamond.zenrocklabs.io",
+  "rest": "https://api.diamond.zenrocklabs.io",
+  "nodeProvider": {
+    "name": "Zenrock",
+    "discord": "https://discord.gg/zenrockfoundation",
+    "email": "support@zenrocklabs.io",
+    "website": "https://zenrocklabs.io/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "zen",
+    "bech32PrefixAccPub": "zenpub",
+    "bech32PrefixValAddr": "zenvaloper",
+    "bech32PrefixValPub": "zenvaloperpub",
+    "bech32PrefixConsAddr": "zenvalcons",
+    "bech32PrefixConsPub": "zenvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "ROCK",
+      "coinMinimalDenom": "urock",
+      "coinDecimals": 6,
+      "coinGeckoId": "zenrock",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/diamond/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ROCK",
+      "coinMinimalDenom": "urock",
+      "coinDecimals": 6,
+      "coinGeckoId": "zenrock",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/diamond/chain.png",
+      "gasPriceStep": {
+        "low": 0.5,
+        "average": 0.55,
+        "high": 0.6
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "ROCK",
+    "coinMinimalDenom": "urock",
+    "coinDecimals": 6,
+    "coinGeckoId": "zenrock",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/diamond/chain.png"
+  },
+  "features": ["cosmwasm"]
+}

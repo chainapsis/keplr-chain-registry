@@ -26,6 +26,12 @@
       "coinMinimalDenom": "atkx",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18889/tkx.png"
+    },
+    {
+      "coinDenom": "BTC",
+      "coinMinimalDenom": "factory/titan1uvt40rsp68wtas0y75w34qdn5h0g5eyefy5gmvzftdnupyv7q7vq7jfynw/w-btc",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18889/factory/titan1uvt40rsp68wtas0y75w34qdn5h0g5eyefy5gmvzftdnupyv7q7vq7jfynw/btc.png"
     }
   ],
   "feeCurrencies": [
