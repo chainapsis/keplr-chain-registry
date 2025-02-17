@@ -3,6 +3,7 @@
   "rest": "https://lcd-pirin.keplr.app",
   "chainId": "pirin-1",
   "chainName": "Nolus",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/nolus",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pirin/nolus.png",
   "stakeCurrency": {
     "coinDenom": "NLS",

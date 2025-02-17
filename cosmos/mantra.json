@@ -1,6 +1,7 @@
 {
   "chainId": "mantra-1",
   "chainName": "MANTRA",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/mantra",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra/chain.png",
   "rpc": "https://rpc-mantra.keplr.app",
   "rest": "https://lcd-mantra.keplr.app",
