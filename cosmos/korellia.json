@@ -41,9 +41,9 @@
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/korellia/tkyve.png",
       "gasPriceStep": {
-        "low": 0.02,
-        "average": 0.03,
-        "high": 0.06
+        "low": 2,
+        "average": 3,
+        "high": 6
       }
     }
   ],
