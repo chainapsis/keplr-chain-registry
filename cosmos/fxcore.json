@@ -30,7 +30,7 @@
       "coinDenom": "PUNDIAI",
       "coinMinimalDenom": "apundiai",
       "coinDecimals": 18,
-      "coinGeckoId": "fx-coin",
+      "coinGeckoId": "pundi-aifx",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fxcore/pundiai.png"
     }
   ],
@@ -39,7 +39,7 @@
       "coinDenom": "PUNDIAI",
       "coinMinimalDenom": "apundiai",
       "coinDecimals": 18,
-      "coinGeckoId": "fx-coin",
+      "coinGeckoId": "pundi-aifx",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fxcore/pundiai.png",
       "gasPriceStep": {
         "low": 5000000000,
@@ -52,7 +52,7 @@
     "coinDenom": "PUNDIAI",
     "coinMinimalDenom": "apundiai",
     "coinDecimals": 18,
-    "coinGeckoId": "fx-coin",
+    "coinGeckoId": "pundi-aifx",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fxcore/pundiai.png"
   },
   "features": [
