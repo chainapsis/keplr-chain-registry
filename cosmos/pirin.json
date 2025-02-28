@@ -3,6 +3,7 @@
   "rest": "https://lcd-pirin.keplr.app",
   "chainId": "pirin-1",
   "chainName": "Nolus",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/nolus",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pirin/nolus.png",
   "stakeCurrency": {
     "coinDenom": "NLS",
@@ -39,9 +40,59 @@
       "coinGeckoId": "nolus",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pirin/nolus.png",
       "gasPriceStep": {
-        "low": 0.01,
-        "average": 0.025,
-        "high": 0.05
+        "low": 0.025,
+        "average": 0.05,
+        "high": 0.075
+      }
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "ibc/F5FABF52B54E65064B57BF6DBD8E5FAD22CEE9F4B8A57ADBB20CCD0173AA72A4",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.025,
+        "average": 0.05,
+        "high": 0.075
+      }
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "ibc/18161D8EFBD00FF5B7683EF8E923B8913453567FBE3FB6672D75712B0DEB6682",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.008,
+        "average": 0.008,
+        "high": 0.008
+      }
+    },
+    {
+      "coinDenom": "ATOM",
+      "coinMinimalDenom": "ibc/6CDD4663F2F09CD62285E2D45891FC149A3568E316CE3EBBE201A71A78A69388",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.0029,
+        "average": 0.005,
+        "high": 0.007
+      }
+    },
+    {
+      "coinDenom": "OSMO",
+      "coinMinimalDenom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.044,
+        "average": 0.065,
+        "high": 0.085
+      }
+    },
+    {
+      "coinDenom": "NTRN",
+      "coinMinimalDenom": "ibc/3D6BC6E049CAEB905AC97031A42800588C58FB471EBDC7A3530FFCD0C3DC9E09",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.05,
+        "average": 0.075,
+        "high": 0.09
       }
     }
   ],

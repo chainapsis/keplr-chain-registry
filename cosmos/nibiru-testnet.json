@@ -1,6 +1,6 @@
 {
   "chainId": "nibiru-testnet-1",
-  "chainName": "nibirutestnet",
+  "chainName": "Nibiru Testnet 1",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-testnet/chain.png",
   "rpc": "https://rpc.testnet-1.nibiru.fi/",
   "rest": "https://lcd.testnet-1.nibiru.fi/",
@@ -26,6 +26,12 @@
       "coinMinimalDenom": "unibi",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-testnet/chain.png"
+    },
+    {
+      "coinDenom": "stNIBI",
+      "coinMinimalDenom": "tf/nibi1xsvylys33m0y3dpyz6he3xuv2rcdwtk843wg2xdvqhdty8wmr0wq9au5px/ampNIBIT",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-testnet/tf/nibi1xsvylys33m0y3dpyz6he3xuv2rcdwtk843wg2xdvqhdty8wmr0wq9au5px/ampNIBIT.png"
     }
   ],
   "feeCurrencies": [

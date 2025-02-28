@@ -3,7 +3,8 @@
   "rest": "https://lcd-injective.keplr.app",
   "chainId": "injective-1",
   "chainName": "Injective",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/chain.png",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/injective",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/inj.png",
   "bech32Config": {
     "bech32PrefixAccPub": "injpub",
     "bech32PrefixValPub": "injvaloperpub",
@@ -144,8 +145,8 @@
       "coinMinimalDenom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/INC",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/inc.png"
-     },
-     {
+    },
+    {
       "coinDenom": "nUSDT",
       "coinMinimalDenom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1cy9hes20vww2yr6crvs75gxy5hpycya2hmjg9s",
       "coinDecimals": 6,
@@ -156,6 +157,18 @@
       "coinMinimalDenom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1dafy7fv7qczzatd98dv8hekx6ssckrflswpjaz",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1dafy7fv7qczzatd98dv8hekx6ssckrflswpjaz/nusdc.png"
+    },
+    {
+      "coinDenom": "NBZ",
+      "coinMinimalDenom": "factory/inj1llr45x92t7jrqtxvc02gpkcqhqr82dvyzkr4mz/NBZ",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1llr45x92t7jrqtxvc02gpkcqhqr82dvyzkr4mz/nbz.png"
+    },
+    {
+      "coinDenom": "JNI",
+      "coinMinimalDenom": "factory/inj1fefpnm6pklz3av6zzjmr5z070779a9m4sx384v/jni",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1fefpnm6pklz3av6zzjmr5z070779a9m4sx384v/jni.png"
     }
   ],
   "feeCurrencies": [
@@ -172,9 +185,5 @@
       }
     }
   ],
-  "features": [
-    "eth-address-gen",
-    "eth-key-sign",
-    "cosmwasm"
-  ]
+  "features": ["eth-address-gen", "eth-key-sign", "cosmwasm"]
 }
