@@ -1,12 +1,12 @@
 {
   "chainId": "grand-1",
-  "chainName": "Grand",
-  "rpc": "https://noble-testnet-rpc.polkachu.com",
-  "rest": "https://noble-testnet-api.polkachu.com",
+  "chainName": "Noble Testnet",
+  "rpc": "https://rpc.testnet.noble.xyz",
+  "rest": "https://api.testnet.noble.xyz",
   "nodeProvider": {
-    "name": "Polkachu",
-    "email": "hello@polkachu.com",
-    "website": "https://polkachu.com"
+    "name": "Noble",
+    "email": "hello@nobleassets.xyz",
+    "website": "https://www.noble.xyz"
   },
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/chain.png",
   "bip44": {
@@ -46,9 +46,10 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/ueure.png"
     },
     {
-      "coinDenom": "LOVE",
-      "coinMinimalDenom": "ulove",
-      "coinDecimals": 6
+      "coinDenom": "USDN",
+      "coinMinimalDenom": "uusdn",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/uusdn.png"
     }
   ],
   "feeCurrencies": [

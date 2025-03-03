@@ -48,11 +48,14 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "eip155:1",
   "eip155:10",
   "eip155:56",
+  "eip155:130",
   "eip155:137",
+  "eip155:1514",
   "eip155:8453",
   "eip155:42161",
   "eip155:43114",
   "eip155:81457",
+  "eip155:80094",
 ];
 
 export const nativeTestnetChainIdentifiers: string[] = [
@@ -75,4 +78,5 @@ export const nativeTestnetChainIdentifiers: string[] = [
   "nillion-chain-testnet",
   "athens_7001",
   "mantra-dukong",
+  "grand",
 ];

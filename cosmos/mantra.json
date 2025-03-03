@@ -1,6 +1,7 @@
 {
   "chainId": "mantra-1",
   "chainName": "MANTRA",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/mantra",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra/chain.png",
   "rpc": "https://rpc-mantra.keplr.app",
   "rest": "https://lcd-mantra.keplr.app",
@@ -22,6 +23,12 @@
       "coinDecimals": 6,
       "coinGeckoId": "mantra-dao",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra/om.png"
+    },
+    {
+      "coinDenom": "BIKE",
+      "coinMinimalDenom": "factory/mantra1vtpg8z82gz9qe3adf7t9z0qwuvkpzmqu9ds4ej/BIKE",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra/factory/mantra1vtpg8z82gz9qe3adf7t9z0qwuvkpzmqu9ds4ej/BIKE.png"
     }
   ],
   "feeCurrencies": [

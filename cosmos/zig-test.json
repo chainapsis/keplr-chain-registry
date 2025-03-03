@@ -1,0 +1,46 @@
+{
+  "chainId": "zig-test-1",
+  "chainName": "ZIGChain Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zig-test/chain.png",
+  "rpc": "https://testnet-rpc.zigchain.com",
+  "rest": "https://testnet-api.zigchain.com",
+  "nodeProvider": {
+    "name": "ZIGChain",
+    "email": "hello@zigchain.com",
+    "website": "https://zigchain.com/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "zig",
+    "bech32PrefixAccPub": "zigpub",
+    "bech32PrefixValAddr": "zigvaloper",
+    "bech32PrefixValPub": "zigvaloperpub",
+    "bech32PrefixConsAddr": "zigvalcons",
+    "bech32PrefixConsPub": "zigvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "ZIG",
+      "coinMinimalDenom": "uzig",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zig-test/uzig.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ZIG",
+      "coinMinimalDenom": "uzig",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zig-test/uzig.png"
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "ZIG",
+    "coinMinimalDenom": "uzig",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zig-test/uzig.png"
+  },
+  "features": ["cosmwasm"]
+}
