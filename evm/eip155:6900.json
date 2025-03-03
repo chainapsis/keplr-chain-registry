@@ -7,7 +7,7 @@
     "website": "https://nibiru.fi"
   },
   "chainId": "eip155:6900",
-  "chainName": "cataclysm-1",
+  "chainName": "Nibiru EVM",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:6900/chain.png",
   "bip44": {
     "coinType": 60
