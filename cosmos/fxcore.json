@@ -3,7 +3,8 @@
   "chainName": "Pundi AIFX",
   "rpc": "https://fx-json.functionx.io",
   "rest": "https://fx-rest.functionx.io",
-  "walletUrl": "https://wallet.keplr.app/chains/fxcore",
+  "walletUrl": "https://functionx.io/pundiwallet",
+  "walletUrlForStaking": "https://pundiscan.io/validators",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fxcore/chain.png",
   "bip44": {
     "coinType": 60
