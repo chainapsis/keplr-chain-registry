@@ -24,6 +24,13 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/uusdc.png"
     },
     {
+      "coinDenom": "USDN",
+      "coinMinimalDenom": "uusdn",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/uusdn.png"
+    },
+    {
       "coinDenom": "USDY",
       "coinMinimalDenom": "ausdy",
       "coinDecimals": 18,
