@@ -24,7 +24,8 @@
       "coinDenom": "HONEY",
       "coinMinimalDenom": "erc20:0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80094/erc20/0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80094/erc20/0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce.png",
+      "coinGeckoId": "honey-3"
     }
   ],
   "feeCurrencies": [
@@ -32,7 +33,8 @@
       "coinDenom": "BERA",
       "coinMinimalDenom": "berachain-native",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80094/berachain-native.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80094/berachain-native.png",
+      "coinGeckoId": "berachain-bera"
     }
   ],
   "features": []

@@ -78,4 +78,5 @@ export const nativeTestnetChainIdentifiers: string[] = [
   "nillion-chain-testnet",
   "athens_7001",
   "mantra-dukong",
+  "grand",
 ];

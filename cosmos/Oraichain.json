@@ -46,6 +46,7 @@
       "coinDenom": "SAM",
       "coinDecimals": 6,
       "coinMinimalDenom": "factory/orai15rmny3cxv33rnzdr2lfdhjtslyzmrr0vdd28kp/SAM",
+      "coinGeckoId": "sam-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/Oraichain/factory/orai15rmny3cxv33rnzdr2lfdhjtslyzmrr0vdd28kp/sam.png"
     }
   ],
