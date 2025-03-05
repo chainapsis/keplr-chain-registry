@@ -36,9 +36,9 @@
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/atomone/chain.png",
       "gasPriceStep": {
-        "low": 0.1,
-        "average": 0.3,
-        "high": 0.6
+        "low": 0.025,
+        "average": 0.04,
+        "high": 0.08
       }
     }
   ],
