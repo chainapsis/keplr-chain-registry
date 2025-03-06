@@ -1,6 +1,6 @@
 {
-    "rpc": "https://rpc-bfhevm.xyz:8443/",
-    "rest": "https://rest-testnet-bfhevm.xyz:4431/swagger/#/",
+    "rpc": "https://rpc-bfhevm.xyz:8443",
+    "rest": "https://rest-testnet-bfhevm.xyz:4431",
     "chainId": "bfhevm_777-1",
     "chainName": "BFHEVM Testnet",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bfhevm_777/bfhevm.png",
