@@ -40,7 +40,7 @@
       "coinGeckoId": "xion-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xion-mainnet/chain.png",
       "gasPriceStep": {
-        "low": 0.0005,
+        "low": 0.001,
         "average": 0.001,
         "high": 0.002
       }
