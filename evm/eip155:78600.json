@@ -3,7 +3,7 @@
     "websocket": "wss://ws-vanguard.vanarchain.com",
     "nodeProvider": {
       "name": "Vanguard",
-      "email": "",
+      "email": "support@vanarchain.com",
       "website": "https://vanarchain.com"
     },
     "chainId": "eip155:78600",
@@ -17,7 +17,6 @@
         "coinDenom": "VANRY",
         "coinMinimalDenom": "VANRY",
         "coinDecimals": 18,
-        "coinGeckoId": "",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:78600/vanguard-native.png"
       }
     ],
@@ -26,7 +25,6 @@
         "coinDenom": "VANRY",
         "coinMinimalDenom": "VANRY",
         "coinDecimals": 18,
-        "coinGeckoId": "",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:78600/vanguard-native.png"
       }
     ],

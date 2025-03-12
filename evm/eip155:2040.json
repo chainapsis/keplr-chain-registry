@@ -3,7 +3,7 @@
     "websocket": "wss://ws.vanarchain.com",
     "nodeProvider": {
       "name": "Vanar",
-      "email": "",
+      "email": "support@vanarchain.com",
       "website": "https://vanarchain.com"
     },
     "chainId": "eip155:2040",
