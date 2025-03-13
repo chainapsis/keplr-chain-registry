@@ -1,8 +1,8 @@
 {
-  "chainId": "int3face-1",
+  "chainId": "int3-test-2",
   "chainName": "Int3face",
-  "rpc": "https://rpc.mainnet.int3face.zone",
-  "rest": "https://api.mainnet.int3face.zone",
+  "rpc": "https://rpc.testnet.int3face.zone",
+  "rest": "https://api.testnet.int3face.zone",
   "nodeProvider": {
     "name": "Int3face",
     "email": "support@int3face.io",
