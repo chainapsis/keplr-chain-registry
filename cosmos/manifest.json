@@ -7,7 +7,7 @@
     "nodeProvider": {
       "name": "Lifted Initiative",
       "email": "infra@liftedinit.org",
-      "website": "manifestai.org"
+      "website": "https://manifestai.org"
     },
     "bip44": {
       "coinType": 118
