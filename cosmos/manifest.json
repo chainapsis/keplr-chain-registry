@@ -1,9 +1,9 @@
 {
-    "chainId": "manifest-ledger-testnet",
-    "chainName": "Manifest Testnet",
+    "chainId": "manifest-ledger-mainnet",
+    "chainName": "Manifest Mainnet",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/manifest-ledger-testnet/chain.png",
-    "rpc": "https://nodes.liftedinit.tech/manifest/testnet/rpc",
-    "rest": "https://nodes.liftedinit.tech/manifest/testnet/api",
+    "rpc": "https://nodes.liftedinit.tech/manifest/rpc",
+    "rest": "https://nodes.liftedinit.tech/manifest/api",
     "nodeProvider": {
       "name": "Lifted Initiative",
       "email": "infra@liftedinit.org",
@@ -38,9 +38,9 @@
         "coinMinimalDenom": "umfx",
         "coinDecimals": 6,
         "gasPriceStep": {
-          "low": 0.01,
-          "average": 0.025,
-          "high": 0.03
+          "low": 0.5,
+          "average": 1.0,
+          "high": 5.0
         }
       }
     ],
