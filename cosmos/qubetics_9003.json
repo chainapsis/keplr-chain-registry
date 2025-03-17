@@ -2,7 +2,7 @@
     "rpc": "https://alphatestnet-rpc.qubetics.work/",
     "rest": "https://alphatestnet-swagger.qubetics.work/",
     "chainId": "qubetics_9003-1",
-    "chainName": "Qubetics-Testnet",
+    "chainName": "Qubetics-AlphaTestnet",
     "evm": {
       "chainId": 9003,
       "rpc": "https://alphatestnet-evm-rpc.qubetics.work"
