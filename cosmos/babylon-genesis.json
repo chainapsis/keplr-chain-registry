@@ -1,0 +1,53 @@
+{
+  "chainId": "TODO BY BABYLON",
+  "chainName": "Babylon Genesis",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/babylon/chain.png",
+  "rpc": "TODO BY KEPLR",
+  "rest": "TODO BY KEPLR",
+  "nodeProvider": {
+    "name": "TODO BY KEPLR",
+    "email": "TODO BY KEPLR",
+    "website": "TODO BY KEPLR"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "bbn",
+    "bech32PrefixAccPub": "bbnpub",
+    "bech32PrefixValAddr": "bbnvaloper",
+    "bech32PrefixValPub": "bbnvaloperpub",
+    "bech32PrefixConsAddr": "bbnvalcons",
+    "bech32PrefixConsPub": "bbnvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "BABY",
+      "coinMinimalDenom": "ubbn",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/babylon/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "BABY",
+      "coinMinimalDenom": "ubbn",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/babylon/chain.png",
+      "gasPriceStep": {
+        "low": 0.007,
+        "average": 0.007,
+        "high": 0.01
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "BABY",
+    "coinMinimalDenom": "ubbn",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/babylon/chain.png"
+  },
+  "features": [
+    "cosmwasm"
+  ]
+}
