@@ -8,12 +8,12 @@
     "email": "support@int3face.io",
     "website": "https://int3face.zone"
   },
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3-test/chain.png",
   "stakeCurrency": {
     "coinDenom": "INT3",
     "coinMinimalDenom": "uint3",
     "coinDecimals": 6,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/uint3.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3-test/uint3.png"
   },
   "bip44": {
     "coinType": 118
@@ -31,37 +31,37 @@
       "coinDenom": "INT3",
       "coinMinimalDenom": "uint3",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/uint3.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3-test/uint3.png"
     },
     {
       "coinDenom": "DOGE.int3",
       "coinMinimalDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/dogecoin-doge",
       "coinDecimals": 8,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/int3-doge.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3-test/int3-doge.png"
     },
     {
       "coinDenom": "BCH.int3",
       "coinMinimalDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-cash-bch",
       "coinDecimals": 8,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/int3-bch.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3-test/int3-bch.png"
     },
     {
       "coinDenom": "LTC.int3",
       "coinMinimalDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/litecoin-ltc",
       "coinDecimals": 8,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/int3-ltc.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3-test/int3-ltc.png"
     },
     {
       "coinDenom": "BTC.int3",
       "coinMinimalDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-btc",
       "coinDecimals": 8,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/int3-btc.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3-test/int3-btc.png"
     },
     {
       "coinDenom": "TON.int3",
       "coinMinimalDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/ton-ton",
       "coinDecimals": 9,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/int3-ton.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3-test/int3-ton.png"
     }
   ],
   "feeCurrencies": [
@@ -69,7 +69,7 @@
       "coinDenom": "INT3",
       "coinMinimalDenom": "uint3",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/uint3.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3-test/uint3.png",
       "gasPriceStep": {
         "low": 0.01,
         "average": 0.025,
@@ -80,7 +80,7 @@
       "coinDenom": "BTC.int3",
       "coinMinimalDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-btc",
       "coinDecimals": 8,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/int3-btc.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3-test/int3-btc.png",
       "gasPriceStep": {
         "low": 0.0000001,
         "average": 0.0000025,
@@ -91,7 +91,7 @@
       "coinDenom": "BCH.int3",
       "coinMinimalDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-cash-bch",
       "coinDecimals": 8,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/int3-bch.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3-test/int3-bch.png",
       "gasPriceStep": {
         "low": 0.000001,
         "average": 0.000025,
@@ -102,7 +102,7 @@
       "coinDenom": "LTC.int3",
       "coinMinimalDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/litecoin-ltc",
       "coinDecimals": 8,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/int3-ltc.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3-test/int3-ltc.png",
       "gasPriceStep": {
         "low": 0.000001,
         "average": 0.000025,
@@ -113,7 +113,7 @@
       "coinDenom": "DOGE.int3",
       "coinMinimalDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/dogecoin-doge",
       "coinDecimals": 8,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/int3-doge.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3-test/int3-doge.png",
       "gasPriceStep": {
         "low": 0.001,
         "average": 0.0025,
@@ -124,7 +124,7 @@
       "coinDenom": "TON.int3",
       "coinMinimalDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/ton-ton",
       "coinDecimals": 9,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3face/int3-ton.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3-test/int3-ton.png",
       "gasPriceStep": {
         "low": 0.0001,
         "average": 0.00025,
