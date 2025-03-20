@@ -1,6 +1,6 @@
 {
-  "rpc": "https://eth-sepolia.g.alchemy.com/v2/demo",
-  "websocket": "wss://ethereum-sepolia-rpc.publicnode.com",
+  "rpc": "https://sepolia.drpc.org",
+  "websocket": "wss://sepolia.drpc.org",
   "chainId": "eip155:11155111",
   "chainName": "Ethereum Sepolia",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:11155111/chain.png",
