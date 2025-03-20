@@ -1,0 +1,27 @@
+{
+  "rpc": "https://eth-sepolia.g.alchemy.com/v2/demo",
+  "websocket": "wss://ethereum-sepolia-rpc.publicnode.com",
+  "chainId": "eip155:11155111",
+  "chainName": "Ethereum Sepolia",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:11155111/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "ETH",
+      "coinMinimalDenom": "ethereum-sepolia-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:11155111/ethereum-sepolia-native.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ETH",
+      "coinMinimalDenom": "ethereum-sepolia-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:11155111/ethereum-sepolia-native.png"
+    }
+  ],
+  "features": []
+}
