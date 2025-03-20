@@ -1,13 +1,13 @@
 {
-  "chainId": "bbn-test-5",
-  "chainName": "Babylon Phase-2 Testnet",
+  "chainId": "TODO BY BABYLON",
+  "chainName": "Babylon Genesis",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/chain.png",
-  "rpc": "https://babylon-testnet-rpc.nodes.guru",
-  "rest": "https://babylon-testnet-api.nodes.guru",
+  "rpc": "TODO BY KEPLR",
+  "rest": "TODO BY KEPLR",
   "nodeProvider": {
-    "name": "NodesGuru",
-    "email": "security@nodes.guru",
-    "website": "https://nodes.guru/"
+    "name": "TODO BY KEPLR",
+    "email": "TODO BY KEPLR",
+    "website": "TODO BY KEPLR"
   },
   "bip44": {
     "coinType": 118
