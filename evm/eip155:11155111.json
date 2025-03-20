@@ -1,6 +1,11 @@
 {
   "rpc": "https://sepolia.drpc.org",
   "websocket": "wss://sepolia.drpc.org",
+  "nodeProvider": {
+    "name": "dRPC",
+    "website": "https://drpc.org/",
+    "discord": "https://discord.com/invite/Kyu3zt42bJ"
+  },
   "chainId": "eip155:11155111",
   "chainName": "Ethereum Sepolia",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:11155111/chain.png",
