@@ -20,6 +20,7 @@
     {
       "coinDenom": "NIL",
       "coinMinimalDenom": "unil",
+      "coinGeckoId": "nillion",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nillion/nil.png"
     }
@@ -27,6 +28,7 @@
   "stakeCurrency": {
     "coinDenom": "NIL",
     "coinMinimalDenom": "unil",
+    "coinGeckoId": "nillion",
     "coinDecimals": 6,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nillion/nil.png"
   },
@@ -34,6 +36,7 @@
     {
       "coinDenom": "NIL",
       "coinMinimalDenom": "unil",
+      "coinGeckoId": "nillion",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nillion/nil.png",
       "gasPriceStep": {
