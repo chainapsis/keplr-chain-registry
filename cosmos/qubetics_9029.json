@@ -1,18 +1,18 @@
 {
-    "rpc": "https://alphatestnet-rpc.qubetics.work/",
-    "rest": "https://alphatestnet-swagger.qubetics.work/",
-    "chainId": "qubetics_9003-1",
-    "chainName": "Qubetics-AlphaTestnet",
+    "rpc": "https://tendermint-testnet.qubetics.work/",
+    "rest": "https://swagger-testnet.qubetics.work/",
+    "chainId": "qubetics_9029-1",
+    "chainName": "Qubetics-Testnet",
     "evm": {
-      "chainId": 9003,
-      "rpc": "https://alphatestnet-evm-rpc.qubetics.work"
+      "chainId": 9029,
+      "rpc": "https://rpc-testnet.qubetics.work"
     },
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qubetics_9003/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qubetics_9029/chain.png",
     "stakeCurrency": {
       "coinDenom": "TICS",
       "coinMinimalDenom": "tics",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qubetics_9003/tics.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qubetics_9029/tics.png"
     },
     "nodeProvider":{
       "name":"Qubetics",
@@ -35,7 +35,7 @@
         "coinDenom": "TICS",
         "coinMinimalDenom": "tics",
         "coinDecimals": 18,
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qubetics_9003/tics.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qubetics_9029/tics.png"
       }
     ],
     "feeCurrencies": [
@@ -43,7 +43,7 @@
         "coinDenom": "TICS",
         "coinMinimalDenom": "tics",
         "coinDecimals": 18,
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qubetics_9003/tics.png",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qubetics_9029/tics.png",
         "gasPriceStep": {
           "low": 80000000000,
           "average": 80000000000,

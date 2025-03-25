@@ -42,5 +42,5 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stargaze/ustars.png"
     }
   ],
-  "features": []
+  "features": ["cosmwasm"]
 }

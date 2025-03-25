@@ -45,6 +45,7 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "xion-mainnet",
   "jackal",
   "elys",
+  "nillion",
   "eip155:1",
   "eip155:10",
   "eip155:56",

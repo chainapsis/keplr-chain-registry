@@ -1,0 +1,32 @@
+{
+    "rpc": "https://rpc-vanguard.vanarchain.com",
+    "websocket": "wss://ws-vanguard.vanarchain.com",
+    "nodeProvider": {
+      "name": "Vanguard",
+      "email": "support@vanarchain.com",
+      "website": "https://vanarchain.com"
+    },
+    "chainId": "eip155:78600",
+    "chainName": "Vanguard",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:78600/chain.png",
+    "bip44": {
+      "coinType": 60
+    },
+    "currencies": [
+      {
+        "coinDenom": "VANRY",
+        "coinMinimalDenom": "VANRY",
+        "coinDecimals": 18,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:78600/vanguard-native.png"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "VANRY",
+        "coinMinimalDenom": "VANRY",
+        "coinDecimals": 18,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:78600/vanguard-native.png"
+      }
+    ],
+    "features": []
+  }

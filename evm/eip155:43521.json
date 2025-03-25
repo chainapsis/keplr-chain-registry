@@ -1,0 +1,38 @@
+{
+  "rpc": "https://rpc.formicarium.memecore.net",
+  "websocket": "wss://ws.formicarium.memecore.net",
+  "chainId": "eip155:43521",
+  "chainName": "MemeCore Formicarium",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:43521/chain.png",
+  "nodeProvider": {
+    "name": "MemeCore",
+    "email": "tech@memecore.org",
+    "website": "https://memecore.com/"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "M",
+      "coinMinimalDenom": "memecore-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:43521/memecore-native.png"
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "erc20:0x0AD724259D1993C8E07C639FE07DA740cd51A70b",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:43521/erc20/0x0AD724259D1993C8E07C639FE07DA740cd51A70b.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "M",
+      "coinMinimalDenom": "memecore-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:43521/memecore-native.png"
+    }
+  ],
+  "features": []
+}
