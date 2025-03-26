@@ -18,8 +18,7 @@
       "coinDenom": "BGT",
       "coinMinimalDenom": "erc20:0x656b95E550C07a9ffe548bd4085c72418Ceb1dba",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80094/erc20/0x656b95E550C07a9ffe548bd4085c72418Ceb1dba.png",
-      "coinGeckoId": "berachain-governance-token"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80094/erc20/0x656b95E550C07a9ffe548bd4085c72418Ceb1dba.png"
     },
     {
       "coinDenom": "HONEY",
