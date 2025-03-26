@@ -64,9 +64,12 @@ export const validateCosmosChainInfo = async (
 
   for (const feature of chainInfo.features ?? []) {
     if (!NonRecognizableChainFeatures.includes(feature)) {
-      throw new Error(
-        `Only non recognizable feature should be provided: ${feature}`,
-      );
+      // Pass validation for ibc-v2
+      if (feature !== "ibc-v2") {
+        throw new Error(
+          `Only non recognizable feature should be provided: ${feature}`,
+        );
+      }
     }
   }
 
@@ -214,9 +217,12 @@ export const validateEvmChainInfo = async (
 
   for (const feature of chainInfo.features ?? []) {
     if (!NonRecognizableChainFeatures.includes(feature)) {
-      throw new Error(
-        `Only non recognizable feature should be provided: ${feature}`,
-      );
+      // Pass validation for ibc-v2
+      if (feature !== "ibc-v2") {
+        throw new Error(
+          `Only non recognizable feature should be provided: ${feature}`,
+        );
+      }
     }
   }
 
