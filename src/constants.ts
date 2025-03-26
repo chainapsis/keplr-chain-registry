@@ -21,7 +21,6 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "quicksilver",
   "columbus",
   "phoenix",
-  "mars",
   "quasar",
   "noble",
   "injective",
@@ -60,7 +59,6 @@ export const nativeMainnetChainIdentifiers: string[] = [
 ];
 
 export const nativeTestnetChainIdentifiers: string[] = [
-  "ares",
   "axelar-testnet-lisbon",
   "atlantic",
   "blockspacerace",
