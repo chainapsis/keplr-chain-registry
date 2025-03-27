@@ -26,10 +26,10 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@actions/core": "^1.10.1",
-    "@keplr-wallet/chain-validator": "v0.12.210-rc.0",
-    "@keplr-wallet/common": "v0.12.210-rc.0",
-    "@keplr-wallet/cosmos": "v0.12.210-rc.0",
-    "@keplr-wallet/types": "v0.12.210-rc.0",
+    "@keplr-wallet/chain-validator": "v0.12.210",
+    "@keplr-wallet/common": "v0.12.210",
+    "@keplr-wallet/cosmos": "v0.12.210",
+    "@keplr-wallet/types": "v0.12.210",
     "axios": "^0.27.2",
     "cors": "^2.8.5",
     "esbuild": "^0.19.5",
@@ -69,7 +69,6 @@
     "eslint-plugin-unicorn": "^45.0.1",
     "pre-commit": "^1.2.2",
     "prettier": "^2.7.1",
-    "starknet": "=6.11.0",
     "ts-node": "^10.9.1",
     "typescript": "^4.8.4"
   },
