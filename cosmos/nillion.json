@@ -40,9 +40,9 @@
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nillion/nil.png",
       "gasPriceStep": {
-        "low": 0.025,
-        "average": 0.025,
-        "high": 0.1
+        "low": 0.0001,
+        "average": 0.0001,
+        "high": 0.00025
       }
     }
   ],
