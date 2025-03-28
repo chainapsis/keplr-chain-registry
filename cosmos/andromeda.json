@@ -2,12 +2,12 @@
   "chainId": "andromeda-1",
   "chainName": "Andromeda",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/andromeda/andromeda.png",
-  "rpc": "https://andromeda-rpc.lavenderfive.com",
-  "rest": "https://andromeda-api.lavenderfive.com",
+  "rpc": "https://api.andromedaprotocol.io/rpc/mainnet",
+  "rest": "https://api.andromedaprotocol.io/rest/mainnet",
   "nodeProvider": {
-    "name": "Lavender.Five",
-    "email": "hello@lavenderfive.com",
-    "website": "https://www.lavenderfive.com/"
+    "name": "Andromeda Protocol",
+    "email": "support@andromedaprotocol.io",
+    "website": "https://www.andromedaprotocol.io"
   },
   "bip44": {
     "coinType": 118
