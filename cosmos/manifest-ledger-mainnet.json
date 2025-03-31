@@ -1,7 +1,7 @@
 {
     "chainId": "manifest-ledger-mainnet",
     "chainName": "Manifest Mainnet",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/manifest-ledger-testnet/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/manifest-ledger-mainnet/chain.svg",
     "rpc": "https://nodes.liftedinit.app/manifest/rpc",
     "rest": "https://nodes.liftedinit.app/manifest/api",
     "nodeProvider": {
