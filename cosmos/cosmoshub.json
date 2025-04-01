@@ -22,7 +22,7 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/uatom.png"
     }
   ],
-  "features": [],
+  "features": ["ibc-v2"],
   "feeCurrencies": [
     {
       "coinDecimals": 6,

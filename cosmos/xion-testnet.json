@@ -1,7 +1,7 @@
 {
-  "rpc": "https://rpc.xion-testnet-1.burnt.com/",
-  "rest": "https://api.xion-testnet-1.burnt.com/",
-  "chainId": "xion-testnet-1",
+  "rpc": "https://rpc.xion-testnet-2.burnt.com/",
+  "rest": "https://api.xion-testnet-2.burnt.com/",
+  "chainId": "xion-testnet-2",
   "chainName": "Xion Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xion-testnet/chain.png",
   "stakeCurrency": {
@@ -36,9 +36,9 @@
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xion-testnet/chain.png",
       "gasPriceStep": {
-        "low": 0.005,
-        "average": 0.01,
-        "high": 0.02
+        "low": 0.0005,
+        "average": 0.001,
+        "high": 0.002
       }
     }
   ],
@@ -46,8 +46,8 @@
     "cosmwasm"
   ],
   "nodeProvider": {
-    "name": "Dylan Schultzie",
-    "email": "security@lavenderfive.com",
-    "website": "https://lavenderfive.com"
+    "name": "🔥BurntLabs🔥",
+    "email": "security@burnt.com",
+    "website": "https://xion.burnt.com"
   }
 }

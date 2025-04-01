@@ -26,7 +26,6 @@
         "coinMinimalDenom": "uarkeo",
         "coinDecimals": 8,
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/arkeo-main-v1/chain.png"
-
       }
     ],
     "feeCurrencies": [

@@ -22,7 +22,7 @@
   },
   "currencies": [
     {
-      "coinDenom": "BABY",
+      "coinDenom": "tBABY",
       "coinMinimalDenom": "ubbn",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/chain.png"
@@ -30,7 +30,7 @@
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "BABY",
+      "coinDenom": "tBABY",
       "coinMinimalDenom": "ubbn",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/chain.png",
@@ -42,7 +42,7 @@
     }
   ],
   "stakeCurrency": {
-    "coinDenom": "BABY",
+    "coinDenom": "tBABY",
     "coinMinimalDenom": "ubbn",
     "coinDecimals": 6,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/chain.png"
