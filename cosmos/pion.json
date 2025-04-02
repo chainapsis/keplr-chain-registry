@@ -45,5 +45,5 @@
       }
     }
   ],
-  "features": []
+  "features": ["cosmwasm"]
 }
