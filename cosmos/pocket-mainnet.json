@@ -1,9 +1,10 @@
 {
-  "chainId": "poktroll",
+
+  "chainId": "pocket",
   "chainName": "Pocket Network",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/poktroll/chain.png",
-  "rpc": "https://shannon-testnet-grove-seed-rpc.poktroll.com",
-  "rest": "https://shannon-testnet-grove-seed-api.poktroll.com",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pocket/chain.jpg",
+  "rpc": "https://shannon-grove-rpc.mainnet.poktroll.com",
+  "rest": "https://shannon-grove-api.mainnet.poktroll.com",
   "nodeProvider": {
     "name": "Grove",
     "email": "hello@grove.city",
