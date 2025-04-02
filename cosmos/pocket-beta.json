@@ -1,6 +1,6 @@
 {
 
-  "chainId": "pocket",
+  "chainId": "pocket-beta",
   "chainName": "Pocket Network",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pocket/chain.jpg",
   "rpc": "https://shannon-testnet-grove-rpc.beta.poktroll.com",
