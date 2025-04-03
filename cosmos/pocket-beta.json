@@ -2,7 +2,7 @@
 
   "chainId": "pocket-beta",
   "chainName": "Pocket Network Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pocket-testnet/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pocket-beta/chain.png",
   "rpc": "https://shannon-testnet-grove-rpc.beta.poktroll.com",
   "rest": "https://shannon-testnet-grove-api.beta.poktroll.com",
   "nodeProvider": {
