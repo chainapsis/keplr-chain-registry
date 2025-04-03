@@ -26,7 +26,13 @@
       "coinMinimalDenom": "ubbn",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/chain.png"
-    }
+    },
+    {
+      "coinDenom": "eBABY",
+      "coinMinimalDenom": "ebbn",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/ohadbachner/keplr-chain-registry/refs/heads/main/images/bbn-test/eBABY.svg"
+    },
   ],
   "feeCurrencies": [
     {
@@ -46,11 +52,6 @@
     "coinMinimalDenom": "ubbn",
     "coinDecimals": 6,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/chain.png"
-  },{
-      "coinDenom": "eBABY",
-      "coinMinimalDenom": "ebbn",
-      "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/ohadbachner/keplr-chain-registry/refs/heads/main/images/bbn-test/eBABY.svg"
-    },
+  },
   "features": ["cosmwasm"]
 }
