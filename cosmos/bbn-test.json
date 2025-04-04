@@ -32,7 +32,7 @@
       "coinMinimalDenom": "ebbn",
       "coinDecimals": 6,
       "coinImageUrl": "https://github.com/ohadbachner/keplr-chain-registry/blob/main/images/bbn-test/eBABY%20-%20new.png"
-    },
+    }
   ],
   "feeCurrencies": [
     {
