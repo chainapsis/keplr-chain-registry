@@ -26,7 +26,7 @@
       "coinDenom": "POKT",
       "coinMinimalDenom": "upokt",
       "coinDecimals": 6,
-      "coinGeckoId": "pokt",
+      "coinGeckoId": "pocket-network",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pocket/chain.jpg"
     }
   ],
