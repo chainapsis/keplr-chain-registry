@@ -2,7 +2,7 @@
 
   "chainId": "pocket",
   "chainName": "Pocket Network",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pocket/chain.jpg",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pocket/chain.png",
   "rpc": "https://shannon-grove-rpc.mainnet.poktroll.com",
   "rest": "https://shannon-grove-api.mainnet.poktroll.com",
   "nodeProvider": {
@@ -27,7 +27,7 @@
       "coinMinimalDenom": "upokt",
       "coinDecimals": 6,
       "coinGeckoId": "pocket-network",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pocket/chain.jpg"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pocket/chain.png"
     }
   ],
   "feeCurrencies": [
