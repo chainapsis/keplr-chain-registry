@@ -1,9 +1,10 @@
 {
-  "chainId": "poktroll",
-  "chainName": "Pocket Network",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/poktroll/chain.png",
-  "rpc": "https://shannon-testnet-grove-seed-rpc.poktroll.com",
-  "rest": "https://shannon-testnet-grove-seed-api.poktroll.com",
+
+  "chainId": "pocket-beta",
+  "chainName": "Pocket Network Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pocket-beta/chain.png",
+  "rpc": "https://shannon-testnet-grove-rpc.beta.poktroll.com",
+  "rest": "https://shannon-testnet-grove-api.beta.poktroll.com",
   "nodeProvider": {
     "name": "Grove",
     "email": "hello@grove.city",
@@ -24,7 +25,8 @@
     {
       "coinDenom": "POKT",
       "coinMinimalDenom": "upokt",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pocket-beta/chain.png"
     }
   ],
   "feeCurrencies": [
