@@ -1,0 +1,51 @@
+{
+    "rpc": "https://rpc.xrpl.cumulo.com.es/",
+    "rest": "https://api.xrpl.cumulo.com.es/",
+    "chainId": "xrplevm_1449000-1",
+    "chainName": "XRPLEVM Testnet",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xrplevm_1449000/chain.png",
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "ethm",
+      "bech32PrefixAccPub": "ethmpub",
+      "bech32PrefixValAddr": "ethmvaloper",
+      "bech32PrefixValPub": "ethmvaloperpub",
+      "bech32PrefixConsAddr": "ethmvalcons",
+      "bech32PrefixConsPub": "ethmvalcons"
+    },
+    "nodeProvider": {
+      "name": "Peersyst",
+      "email": "info@peersyst.com",
+      "website": "https://peersyst.com"
+    },
+    "currencies": [
+      {
+        "coinDenom": "XRP",
+        "coinMinimalDenom": "axrp",
+        "coinGeckoId": "ripple",
+        "coinDecimals": 18,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xrplevm_1449000/xrp-logo.png"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "XRP",
+        "coinMinimalDenom": "axrp",
+        "coinGeckoId": "ripple",
+        "coinDecimals": 18,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xrplevm_1449000/xrp-logo.png",
+        "gasPriceStep": {
+          "low": 200,
+          "average": 250,
+          "high": 400
+        }
+      }
+    ],
+    "features": [
+    "eth-address-gen",
+    "eth-key-sign",
+    "axelar-evm-bridge"
+  ]
+}
