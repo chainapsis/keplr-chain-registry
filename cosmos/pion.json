@@ -7,6 +7,11 @@
   "bip44": {
     "coinType": 118
   },
+  "stakeCurrency": {
+    "coinDenom": "NTRN",
+    "coinMinimalDenom": "untrn",
+    "coinDecimals": 6
+  },
   "bech32Config": {
     "bech32PrefixAccAddr": "neutron",
     "bech32PrefixAccPub": "neutronpub",
@@ -45,5 +50,5 @@
       }
     }
   ],
-  "features": []
+  "features": ["cosmwasm"]
 }
