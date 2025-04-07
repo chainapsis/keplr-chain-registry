@@ -37,9 +37,9 @@
         "coinDecimals": 18,
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xrplevm_1449000/xrp-logo.png",
         "gasPriceStep": {
-          "low": 200,
-          "average": 250,
-          "high": 400
+          "low": 200000000000,
+          "average": 250000000000,
+          "high": 400000000000
         }
       }
     ],
