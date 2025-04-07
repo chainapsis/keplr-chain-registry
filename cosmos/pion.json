@@ -7,6 +7,7 @@
   "bip44": {
     "coinType": 118
   },
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/neutron",
   "stakeCurrency": {
     "coinDenom": "NTRN",
     "coinMinimalDenom": "untrn",
