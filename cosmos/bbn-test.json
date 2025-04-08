@@ -32,6 +32,12 @@
       "coinMinimalDenom": "ebbn",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/eBABY.png"
+    },
+    {
+      "coinDenom": "LBTC",
+      "coinMinimalDenom": "uclbtc",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lombardledger/LBTC.png"
     }
   ],
   "feeCurrencies": [
