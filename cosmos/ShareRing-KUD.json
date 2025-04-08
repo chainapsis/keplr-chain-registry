@@ -3,7 +3,7 @@
     "chainName": "Shareledger Public Testnet",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ShareRing-VoyagerNet/chain.png",
     "rpc": "https://rpc-testnet.shareri.ng",
-    "rest": "https://rpc-testnet.shareri.ng",
+    "rest": "https://lcd-testnet.shareri.ng",
     "nodeProvider": {
         "name": "ShareRing",
         "email": "hello@sharering.network",
