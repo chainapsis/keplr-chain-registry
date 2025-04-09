@@ -1,7 +1,7 @@
 {
     "chainId": "ShareRing-KUD",
     "chainName": "Shareledger Public Testnet",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ShareRing-VoyagerNet/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ShareRing-KUD/chain.png",
     "rpc": "https://rpc-testnet.shareri.ng",
     "rest": "https://lcd-testnet.shareri.ng",
     "nodeProvider": {
@@ -25,7 +25,7 @@
             "coinDenom": "SHR",
             "coinMinimalDenom": "nshr",
             "coinDecimals": 9
-            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ShareRing-VoyagerNet/chain.png"
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ShareRing-KUD/chain.png"
         }
     ],
     "feeCurrencies": [
@@ -33,7 +33,7 @@
             "coinDenom": "SHR",
             "coinMinimalDenom": "nshr",
             "coinDecimals": 9,
-            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ShareRing-VoyagerNet/chain.png"
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ShareRing-KUD/chain.png"
             "gasPriceStep": {
                 "low": 30000,
                 "average": 40000,
@@ -47,7 +47,7 @@
         "coinDenom": "shr",
         "coinMinimalDenom": "nshr",
         "coinDecimals": 9
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ShareRing-VoyagerNet/chain.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ShareRing-KUD/chain.png"
     },
     "features": [
         "cosmwasm"
