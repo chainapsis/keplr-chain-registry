@@ -25,6 +25,7 @@
             "coinDenom": "SHR",
             "coinMinimalDenom": "nshr",
             "coinDecimals": 9
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ShareRing-VoyagerNet/chain.png"
         }
     ],
     "feeCurrencies": [
@@ -32,17 +33,21 @@
             "coinDenom": "SHR",
             "coinMinimalDenom": "nshr",
             "coinDecimals": 9,
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ShareRing-VoyagerNet/chain.png"
             "gasPriceStep": {
                 "low": 30000,
                 "average": 40000,
                 "high": 50000
+                
             }
+            
         }
     ],
     "stakeCurrency": {
         "coinDenom": "shr",
         "coinMinimalDenom": "nshr",
         "coinDecimals": 9
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ShareRing-VoyagerNet/chain.png"
     },
     "features": [
         "cosmwasm"
