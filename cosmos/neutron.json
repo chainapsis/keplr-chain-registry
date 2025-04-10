@@ -16,6 +16,13 @@
     "bech32PrefixConsAddr": "neutronvalcons",
     "bech32PrefixConsPub": "neutronvalconspub"
   },
+  "stakeCurrency": {
+    "coinDenom": "NTRN",
+    "coinMinimalDenom": "untrn",
+    "coinDecimals": 6,
+    "coinGeckoId": "neutron-3",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/untrn.png"
+  },
   "currencies": [
     {
       "coinDenom": "NTRN",
