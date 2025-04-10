@@ -2,7 +2,7 @@
     "rpc": "https://rpc.xrpl.cumulo.com.es/",
     "rest": "https://api.xrpl.cumulo.com.es/",
     "chainId": "xrplevm_1449000-1",
-    "chainName": "XRPLEVM Testnet",
+    "chainName": "XRPL EVM Testnet",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xrplevm_1449000/chain.png",
     "bip44": {
       "coinType": 118
@@ -24,7 +24,6 @@
       {
         "coinDenom": "XRP",
         "coinMinimalDenom": "axrp",
-        "coinGeckoId": "ripple",
         "coinDecimals": 18,
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xrplevm_1449000/xrp-logo.png"
       }
@@ -33,7 +32,6 @@
       {
         "coinDenom": "XRP",
         "coinMinimalDenom": "axrp",
-        "coinGeckoId": "ripple",
         "coinDecimals": 18,
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xrplevm_1449000/xrp-logo.png",
         "gasPriceStep": {
