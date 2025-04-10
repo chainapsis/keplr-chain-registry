@@ -7,6 +7,7 @@
   "bip44": {
     "coinType": 118
   },
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/neutron",
   "bech32Config": {
     "bech32PrefixAccAddr": "neutron",
     "bech32PrefixAccPub": "neutronpub",
@@ -246,7 +247,5 @@
       }
     }
   ],
-  "features": [
-    "cosmwasm"
-  ]
+  "features": ["cosmwasm"]
 }
