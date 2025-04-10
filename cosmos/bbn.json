@@ -21,7 +21,6 @@
       "coinDenom": "BABY",
       "coinMinimalDenom": "ubbn",
       "coinDecimals": 6,
-      "coinGeckoId": "babylon",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn/chain.png"
     },
     {
@@ -36,7 +35,6 @@
       "coinDenom": "BABY",
       "coinMinimalDenom": "ubbn",
       "coinDecimals": 6,
-      "coinGeckoId": "babylon",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn/chain.png",
       "gasPriceStep": {
         "low": 0.007,
@@ -49,7 +47,6 @@
     "coinDenom": "BABY",
     "coinMinimalDenom": "ubbn",
     "coinDecimals": 6,
-    "coinGeckoId": "babylon",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn/chain.png"
   },
   "features": [
