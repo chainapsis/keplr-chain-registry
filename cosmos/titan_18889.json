@@ -32,6 +32,12 @@
       "coinMinimalDenom": "factory/titan14jwu2vsu4xuefce0xjyk2t58awth4v42lvwxslqe6vszac66y4tqe4sjm5/w-btc",
       "coinDecimals": 8,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18889/factory/titan14jwu2vsu4xuefce0xjyk2t58awth4v42lvwxslqe6vszac66y4tqe4sjm5/btc.png"
+    },
+    {
+      "coinDenom": "ETH",
+      "coinMinimalDenom": "factory/titan16gyvmp43st00s220zypex4lgvwqc3ve8l4657rhxj8myeadswmkq75slkc/eth",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18889/factory/titan16gyvmp43st00s220zypex4lgvwqc3ve8l4657rhxj8myeadswmkq75slkc/eth.png"
     }
   ],
   "feeCurrencies": [
