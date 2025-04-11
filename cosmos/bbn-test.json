@@ -38,6 +38,12 @@
       "coinMinimalDenom": "ibc/13A78C8607F1ABD49DA5EC474262E3D69312A797FB0026BC4F9961D74EB6E066",
       "coinDecimals": 8,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/LBTC.png"
+    },
+    {
+      "coinDenom": "tcBABY",
+      "coinMinimalDenom": "cbbn",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/tcBABY.png"
     }
   ],
   "feeCurrencies": [
