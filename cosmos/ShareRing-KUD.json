@@ -24,7 +24,7 @@
         {
             "coinDenom": "SHR",
             "coinMinimalDenom": "nshr",
-            "coinDecimals": 9
+            "coinDecimals": 9,
             "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ShareRing-KUD/chain.png"
         }
     ],
@@ -33,7 +33,7 @@
             "coinDenom": "SHR",
             "coinMinimalDenom": "nshr",
             "coinDecimals": 9,
-            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ShareRing-KUD/chain.png"
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ShareRing-KUD/chain.png",
             "gasPriceStep": {
                 "low": 30000,
                 "average": 40000,
@@ -46,7 +46,7 @@
     "stakeCurrency": {
         "coinDenom": "shr",
         "coinMinimalDenom": "nshr",
-        "coinDecimals": 9
+        "coinDecimals": 9,
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ShareRing-KUD/chain.png"
     },
     "features": [
