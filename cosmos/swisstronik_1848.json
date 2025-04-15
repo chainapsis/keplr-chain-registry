@@ -1,0 +1,60 @@
+{
+  "chainId": "swisstronik_1848-1",
+  "chainName": "Swisstronik Mainnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/swisstronik_1848/chain.png",
+  "rpc": "https://rpc.mainnet.swisstronik.com",
+  "rest": "https://api.mainnet.swisstronik.com",
+  "evm": {
+    "chainId": 1848,
+    "rpc": "https://json-rpc.mainnet.swisstronik.com/unencrypted/",
+    "websocket": "wss://ws-rpc.mainnet.swisstronik.com/"
+  },
+  "nodeProvider": {
+    "name": "Swisstronik Node",
+    "email": "contact@swisstronik.com",
+    "website": "https://www.swisstronik.com"
+  },
+  "currencies": [
+    {
+      "coinMinimalDenom": "aswtr",
+      "coinDenom": "SWTR",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/swisstronik_1848/chain.png",
+      "coinGeckoId": "swisstronik"
+    }
+  ],
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "swtr",
+    "bech32PrefixAccPub": "swtrpub",
+    "bech32PrefixValAddr": "swtraloper",
+    "bech32PrefixValPub": "swtrvaloperpub",
+    "bech32PrefixConsAddr": "swtrvalcons",
+    "bech32PrefixConsPub": "swtrvalconspub"
+  },
+  "stakeCurrency": {
+    "coinMinimalDenom": "aswtr",
+    "coinDenom": "SWTR",
+    "coinDecimals": 18,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/swisstronik_1848/chain.png",
+    "coinGeckoId": "swisstronik"
+  },
+  "feeCurrencies": [
+    {
+      "coinMinimalDenom": "aswtr",
+      "coinDenom": "SWTR",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/swisstronik_1848/chain.png",
+      "coinGeckoId": "swisstronik",
+      "gasPriceStep": {
+        "average": 70,
+        "high": 200,
+        "low": 500
+      }
+    }
+  ],
+  "walletUrlForStaking": "https://explorer-cosmos.mainnet.swisstronik.com/swisstronik/staking",
+  "features": ["eth-address-gen", "eth-key-sign"]
+}

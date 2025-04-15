@@ -1,6 +1,6 @@
 {
   "chainId": "swisstronik_1291-1",
-  "chainName": "Swisstronik",
+  "chainName": "Swisstronik Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/swisstronik_1291/chain.png",
   "rpc": "https://rpc.testnet.swisstronik.com",
   "rest": "https://api.testnet.swisstronik.com",
