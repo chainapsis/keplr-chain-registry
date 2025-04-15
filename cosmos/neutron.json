@@ -7,6 +7,7 @@
   "bip44": {
     "coinType": 118
   },
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/neutron",
   "bech32Config": {
     "bech32PrefixAccAddr": "neutron",
     "bech32PrefixAccPub": "neutronpub",
@@ -15,6 +16,13 @@
     "bech32PrefixConsAddr": "neutronvalcons",
     "bech32PrefixConsPub": "neutronvalconspub"
   },
+  "stakeCurrency": {
+    "coinDenom": "NTRN",
+    "coinMinimalDenom": "untrn",
+    "coinDecimals": 6,
+    "coinGeckoId": "neutron-3",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/untrn.png"
+  },
   "currencies": [
     {
       "coinDenom": "NTRN",
@@ -22,6 +30,12 @@
       "coinDecimals": 6,
       "coinGeckoId": "neutron-3",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/untrn.png"
+    },
+    {
+      "coinDenom": "dNTRN",
+      "coinMinimalDenom": "factory/neutron1frc0p5czd9uaaymdkug2njz7dc7j65jxukp9apmt9260a8egujkspms2t2/udntrn",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron1frc0p5czd9uaaymdkug2njz7dc7j65jxukp9apmt9260a8egujkspms2t2/udntrn.png"
     },
     {
       "coinDenom": "dTIA",
@@ -246,7 +260,5 @@
       }
     }
   ],
-  "features": [
-    "cosmwasm"
-  ]
+  "features": ["cosmwasm"]
 }

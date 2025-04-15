@@ -21,7 +21,6 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "quicksilver",
   "columbus",
   "phoenix",
-  "mars",
   "quasar",
   "noble",
   "injective",
@@ -45,6 +44,8 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "xion-mainnet",
   "jackal",
   "elys",
+  "nillion",
+  "bbn",
   "eip155:1",
   "eip155:10",
   "eip155:56",
@@ -59,7 +60,6 @@ export const nativeMainnetChainIdentifiers: string[] = [
 ];
 
 export const nativeTestnetChainIdentifiers: string[] = [
-  "ares",
   "axelar-testnet-lisbon",
   "atlantic",
   "blockspacerace",
