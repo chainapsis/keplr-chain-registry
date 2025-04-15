@@ -4,6 +4,11 @@
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/swisstronik_1848/chain.png",
   "rpc": "https://rpc.mainnet.swisstronik.com",
   "rest": "https://api.mainnet.swisstronik.com",
+  "evm": {
+    "chainId": 1848,
+    "rpc": "https://json-rpc.mainnet.swisstronik.com/unencrypted/",
+    "websocket": "wss://ws-rpc.mainnet.swisstronik.com"
+  },
   "nodeProvider": {
     "name": "Swisstronik Node",
     "email": "contact@swisstronik.com",
