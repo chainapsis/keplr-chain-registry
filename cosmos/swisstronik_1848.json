@@ -49,9 +49,9 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/swisstronik_1848/chain.png",
       "coinGeckoId": "swisstronik",
       "gasPriceStep": {
-        "average": 70,
-        "high": 200,
-        "low": 500
+        "low": 70,
+        "average": 200,
+        "high": 500
       }
     }
   ],
