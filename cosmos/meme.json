@@ -7,7 +7,7 @@
     "nodeProvider": {
         "name": "MEME Foundation",
         "email": "marketing@meme.sx",
-        "website":"https://meme.sx/"
+        "website":"https://memenetwork.io"
     },
     "stakeCurrency": {
         "coinDenom": "MEME",
