@@ -7,7 +7,7 @@
   "evm": {
     "chainId": 1848,
     "rpc": "https://json-rpc.mainnet.swisstronik.com/unencrypted/",
-    "websocket": "wss://ws-rpc.mainnet.swisstronik.com/"
+    "websocket": "wss://ws-rpc.mainnet.swisstronik.com"
   },
   "nodeProvider": {
     "name": "Swisstronik Node",
