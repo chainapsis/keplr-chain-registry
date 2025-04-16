@@ -34,6 +34,20 @@
       "coinDecimals": 8,
       "coinGeckoId": "bitcoin",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18888/factory/titan1eyfccmjm6732k7wp4p6gdjwhxjwsvje44j0hfx8nkgrm8fs7vqfsalaj2e/btc.png"
+    },
+    {
+      "coinDenom": "ETH",
+      "coinMinimalDenom": "factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/eth",
+      "coinDecimals": 18,
+      "coinGeckoId": "ethereum",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18888/factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/eth.png"
+    },
+    {
+      "coinDenom": "USDT",
+      "coinMinimalDenom": "factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/usdt",
+      "coinDecimals": 6,
+      "coinGeckoId": "tether",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18888/factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/usdt.png"
     }
   ],
   "feeCurrencies": [
@@ -44,7 +58,7 @@
       "coinGeckoId": "tokenize-xchange",
       "gasPriceStep": {
         "low": 100000000000,
-        "average": 110000000000,
+        "average": 101000000000,
         "high": 200000000000
       }
     }
