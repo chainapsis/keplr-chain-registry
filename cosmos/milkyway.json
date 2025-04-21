@@ -47,9 +47,9 @@
       "coinGeckoId": "celestia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/utia.png",
       "gasPriceStep": {
-        "low": 0.02,
-        "average": 0.025,
-        "high": 0.03
+        "low": 0.002,
+        "average": 0.0025,
+        "high": 0.003
       }
     },
     {
@@ -59,9 +59,9 @@
       "coinGeckoId": "celestia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/utia.png",
       "gasPriceStep": {
-        "low": 0.02,
-        "average": 0.025,
-        "high": 0.03
+        "low": 0.002,
+        "average": 0.0025,
+        "high": 0.003
       }
     },
     {
@@ -71,9 +71,9 @@
       "coinGeckoId": "milkyway-staked-tia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/milktia.png",
       "gasPriceStep": {
-        "low": 0.02,
-        "average": 0.025,
-        "high": 0.03
+        "low": 0.002,
+        "average": 0.0025,
+        "high": 0.003
       }
     },
     {
@@ -83,9 +83,9 @@
       "coinGeckoId": "stride-staked-tia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/sttia.png",
       "gasPriceStep": {
-        "low": 0.02,
-        "average": 0.025,
-        "high": 0.03
+        "low": 0.002,
+        "average": 0.0025,
+        "high": 0.003
       }
     },
     {
@@ -95,9 +95,9 @@
       "coinGeckoId": "drop-staked-tia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/dtia.png",
       "gasPriceStep": {
-        "low": 0.02,
-        "average": 0.025,
-        "high": 0.03
+        "low": 0.002,
+        "average": 0.0025,
+        "high": 0.003
       }
     },
     {
@@ -107,9 +107,9 @@
       "coinGeckoId": "usd-coin",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/uusdc.png",
       "gasPriceStep": {
-        "low": 0.02,
-        "average": 0.025,
-        "high": 0.03
+        "low": 0.002,
+        "average": 0.0025,
+        "high": 0.003
       }
     },
     {
@@ -118,9 +118,9 @@
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/milk.png",
       "gasPriceStep": {
-        "low": 0.02,
-        "average": 0.025,
-        "high": 0.03
+        "low": 0.01,
+        "average": 0.015,
+        "high": 0.02
       }
     },
     {
@@ -129,9 +129,9 @@
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/milkbaby.png",
       "gasPriceStep": {
-        "low": 0.02,
-        "average": 0.025,
-        "high": 0.03
+        "low": 0.002,
+        "average": 0.0025,
+        "high": 0.003
       }
     }
   ],
