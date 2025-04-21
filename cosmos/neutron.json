@@ -35,6 +35,7 @@
       "coinDenom": "dNTRN",
       "coinMinimalDenom": "factory/neutron1frc0p5czd9uaaymdkug2njz7dc7j65jxukp9apmt9260a8egujkspms2t2/udntrn",
       "coinDecimals": 6,
+      "coinGeckoId": "drop-staked-ntrn",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron1frc0p5czd9uaaymdkug2njz7dc7j65jxukp9apmt9260a8egujkspms2t2/udntrn.png"
     },
     {
