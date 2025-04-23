@@ -4,12 +4,10 @@
   "chainId": "cube_47-5",
   "chainName": "xplatestnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cube_47/chain.png",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/xpla",
   "stakeCurrency": {
     "coinDenom": "XPLA",
     "coinMinimalDenom": "axpla",
     "coinDecimals": 18,
-    "coinGeckoId": "xpla",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cube_47/axpla.png"
   },
   "bip44": {
@@ -28,7 +26,6 @@
       "coinDenom": "XPLA",
       "coinMinimalDenom": "axpla",
       "coinDecimals": 18,
-      "coinGeckoId": "xpla",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cube_47/axpla.png"
     }
   ],
@@ -37,7 +34,6 @@
       "coinDenom": "XPLA",
       "coinMinimalDenom": "axpla",
       "coinDecimals": 18,
-      "coinGeckoId": "xpla",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cube_47/axpla.png",
       "gasPriceStep": {
         "low": 280000000000,
