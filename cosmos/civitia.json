@@ -1,10 +1,9 @@
 {
-  "rpc": "https://rpc.initia.xyz",
-  "rest": "https://rest.initia.xyz",
-  "chainId": "interwoven-1",
+  "rpc": "https://rpc-civitia-1.anvil.asia-southeast.initia.xyz",
+  "rest": "https://rest-civitia-1.anvil.asia-southeast.initia.xyz",
+  "chainId": "civitia-1",
   "chainName": "Initia",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/interwoven/chain.png",
-  "walletUrlForStaking": "https://testnet.keplr.app/chains/initia",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/civitia/chain.png",
   "bip44": {
     "coinType": 60
   },
@@ -19,28 +18,22 @@
   "currencies": [
     {
       "coinDenom": "INIT",
-      "coinMinimalDenom": "uinit",
+      "coinMinimalDenom": "l2/2b2d36f666e98b9eecf70d6ec24b882b79f2c8e2af73f54f97b8b670dbb87605",
       "coinDecimals": 6,
       "coinGeckoId": "initia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/interwoven/chain.png"
     }
   ],
-  "stakeCurrency": {
-    "coinDenom": "INIT",
-    "coinMinimalDenom": "uinit",
-    "coinDecimals": 6,
-    "coinGeckoId": "initia"
-  },
   "feeCurrencies": [
     {
       "coinDenom": "INIT",
-      "coinMinimalDenom": "uinit",
+      "coinMinimalDenom": "l2/2b2d36f666e98b9eecf70d6ec24b882b79f2c8e2af73f54f97b8b670dbb87605",
       "coinDecimals": 6,
       "coinGeckoId": "initia",
       "gasPriceStep": {
         "low": 0.015,
         "average": 0.015,
-        "high": 0.04
+        "high": 0.015
       }
     }
   ]
