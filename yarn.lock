@@ -767,54 +767,54 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@keplr-wallet/chain-validator@npm:v0.12.210":
-  version: 0.12.210
-  resolution: "@keplr-wallet/chain-validator@npm:0.12.210"
+"@keplr-wallet/chain-validator@npm:v0.12.222":
+  version: 0.12.222
+  resolution: "@keplr-wallet/chain-validator@npm:0.12.222"
   dependencies:
     "@ethersproject/abi": ^5.7.0
-    "@keplr-wallet/cosmos": 0.12.210
-    "@keplr-wallet/simple-fetch": 0.12.210
-    "@keplr-wallet/types": 0.12.210
+    "@keplr-wallet/cosmos": 0.12.222
+    "@keplr-wallet/simple-fetch": 0.12.222
+    "@keplr-wallet/types": 0.12.222
     joi: ^17.5.0
     utility-types: ^3.10.0
-  checksum: f6bb34b00b79fdd5bc35bbdfb1ded50ee11d2c965ed9160b11bfe000be57b959f440d69db03c0c5e33503af6d7db61a2b32e3f5dafd3b4b6f2fc7ea5d9059afd
+  checksum: 1390784f6682858ca8f5cc9d1e2b36bf2298d49cb72c33fe46efedf9be6fdfe09cd7c963714bb0aa24730cf8694021086a1842ee9c77f739c18ea062b0ff2d52
   languageName: node
   linkType: hard
 
-"@keplr-wallet/common@npm:0.12.210, @keplr-wallet/common@npm:v0.12.210":
-  version: 0.12.210
-  resolution: "@keplr-wallet/common@npm:0.12.210"
+"@keplr-wallet/common@npm:0.12.222, @keplr-wallet/common@npm:v0.12.222":
+  version: 0.12.222
+  resolution: "@keplr-wallet/common@npm:0.12.222"
   dependencies:
-    "@keplr-wallet/crypto": 0.12.210
-    "@keplr-wallet/types": 0.12.210
+    "@keplr-wallet/crypto": 0.12.222
+    "@keplr-wallet/types": 0.12.222
     buffer: ^6.0.3
     delay: ^4.4.0
-  checksum: 4e827293c989a754b12b4b5b6743e4754a2d63d47b8105a585c6170fe5d8ef2a0c2266962625c253ddbcaecd41be9189201cb775d41a1ebf0bed0326de4dcbd0
+  checksum: 38c96e4cf92f61c1b6b993c12227f966ee613f7167c2e91f6bb6ed0f8173df79d27d0208ce67313074e03eeba8fbdf120ed8ee9645d2ec325a2df12bfa38a73c
   languageName: node
   linkType: hard
 
-"@keplr-wallet/cosmos@npm:0.12.210, @keplr-wallet/cosmos@npm:v0.12.210":
-  version: 0.12.210
-  resolution: "@keplr-wallet/cosmos@npm:0.12.210"
+"@keplr-wallet/cosmos@npm:0.12.222, @keplr-wallet/cosmos@npm:v0.12.222":
+  version: 0.12.222
+  resolution: "@keplr-wallet/cosmos@npm:0.12.222"
   dependencies:
     "@ethersproject/address": ^5.6.0
-    "@keplr-wallet/common": 0.12.210
-    "@keplr-wallet/crypto": 0.12.210
-    "@keplr-wallet/proto-types": 0.12.210
-    "@keplr-wallet/simple-fetch": 0.12.210
-    "@keplr-wallet/types": 0.12.210
-    "@keplr-wallet/unit": 0.12.210
+    "@keplr-wallet/common": 0.12.222
+    "@keplr-wallet/crypto": 0.12.222
+    "@keplr-wallet/proto-types": 0.12.222
+    "@keplr-wallet/simple-fetch": 0.12.222
+    "@keplr-wallet/types": 0.12.222
+    "@keplr-wallet/unit": 0.12.222
     bech32: ^1.1.4
     buffer: ^6.0.3
     long: ^4.0.0
     protobufjs: ^6.11.2
-  checksum: 5632d8e1fef4a8c9d489e22e3a5403820a04157e0a12e975a151e7cd30a35bdafc981afd95cabf5301f5eb1f730d6a38d6823c4b22f50e027043c0aff1eb23b0
+  checksum: 59a0c9a0eb06a1c628e7ce6bee7b771f81451143398c8ed081b858927b33e5b8e192e1ba32400169a1f22ae58a5734a1c284b9dcfabf498f4662071c38efe5f8
   languageName: node
   linkType: hard
 
-"@keplr-wallet/crypto@npm:0.12.210":
-  version: 0.12.210
-  resolution: "@keplr-wallet/crypto@npm:0.12.210"
+"@keplr-wallet/crypto@npm:0.12.222":
+  version: 0.12.222
+  resolution: "@keplr-wallet/crypto@npm:0.12.222"
   dependencies:
     "@noble/curves": ^1.4.2
     "@noble/hashes": ^1.4.0
@@ -822,48 +822,50 @@ __metadata:
     bip39: ^3.0.3
     bs58check: ^2.1.2
     buffer: ^6.0.3
+    ecpair: ^2.1.0
   peerDependencies:
+    bitcoinjs-lib: ^6
     starknet: ^6
-  checksum: edf1e2a04ff9ec34c90aec3258599617c3b36d30cd34f9cb52c0f341c853ed1a42a31b370fa8bab759ad447449a1b9e56a15bcacf0e6a649a6448db265fcfe1c
+  checksum: 0c2e712bc4c4174ee509bb6f12db18a69e74b04f29a9700eab6f182040c44c0775388bb96f10948d04540f83bc28e2f4580c437a535a3f1e332104b15b41fdc6
   languageName: node
   linkType: hard
 
-"@keplr-wallet/proto-types@npm:0.12.210":
-  version: 0.12.210
-  resolution: "@keplr-wallet/proto-types@npm:0.12.210"
+"@keplr-wallet/proto-types@npm:0.12.222":
+  version: 0.12.222
+  resolution: "@keplr-wallet/proto-types@npm:0.12.222"
   dependencies:
     long: ^4.0.0
     protobufjs: ^6.11.2
-  checksum: 29745d925c414d3c428e81713b487f0c6e9f238f84b839b718d7084f5beaf8d165cd338cabb10475d6bd1ae162167d89cdb0ae77856c3f673d2be4ccf16d6bf0
+  checksum: 662d90c0e0700668b275fb25309c0831b961e61c69faeb34a9b8ddfc675ec257357dcd1ab8b3ad89144420a097d2ad2ce592c411ffbfdbf7307ff4ea5271d26e
   languageName: node
   linkType: hard
 
-"@keplr-wallet/simple-fetch@npm:0.12.210":
-  version: 0.12.210
-  resolution: "@keplr-wallet/simple-fetch@npm:0.12.210"
-  checksum: 6c43d90ff9371c982726364b26719c297a332f4669389d71a9477ae781cb61c8cda916ebeee30717e2b0032696f335c010da6efee4523e08abebe6708888e760
+"@keplr-wallet/simple-fetch@npm:0.12.222":
+  version: 0.12.222
+  resolution: "@keplr-wallet/simple-fetch@npm:0.12.222"
+  checksum: b2742cd8a994622c9dcdb7d3585a7459180fe2bd86897e76f611f430701e5aaada06dfb7dae5d6b076ddcb4d214649ba00ca912e769124470c16e9480902e7c1
   languageName: node
   linkType: hard
 
-"@keplr-wallet/types@npm:0.12.210, @keplr-wallet/types@npm:v0.12.210":
-  version: 0.12.210
-  resolution: "@keplr-wallet/types@npm:0.12.210"
+"@keplr-wallet/types@npm:0.12.222, @keplr-wallet/types@npm:v0.12.222":
+  version: 0.12.222
+  resolution: "@keplr-wallet/types@npm:0.12.222"
   dependencies:
     long: ^4.0.0
   peerDependencies:
     starknet: ^6
-  checksum: f51f4bb6a0291e04f9e3459198df673968657787fc0cb4ed490f0b75a20a3259d6aef643e05e4485d8db687e797caaee75a6a5bd92e2211b2f51b5d58e91e4a8
+  checksum: ead367112819a6d47a8034b6f1fd6a300d507e13b03dc43b24171187846900099ccef0f563bd46cd0ba9cadb32c4857515df13121f29bea09fd8a2f65bb2c45f
   languageName: node
   linkType: hard
 
-"@keplr-wallet/unit@npm:0.12.210":
-  version: 0.12.210
-  resolution: "@keplr-wallet/unit@npm:0.12.210"
+"@keplr-wallet/unit@npm:0.12.222":
+  version: 0.12.222
+  resolution: "@keplr-wallet/unit@npm:0.12.222"
   dependencies:
-    "@keplr-wallet/types": 0.12.210
+    "@keplr-wallet/types": 0.12.222
     big-integer: ^1.6.48
     utility-types: ^3.10.0
-  checksum: 71884eccc94658e734f6df52285e2e6e95da15f7202289099de358b0c85a8405726a5f0601752b1bf6295099f0bfbb00f454e927bd820115f4b3995bc466a5ac
+  checksum: 3ba5163d6c50138d777c9fce33dfc779f0f341f15d69c715b40f270559985517792d69be0b645a5e81d769e05c3e29bca11a65d19e12c08321eb7b27efd5ff21
   languageName: node
   linkType: hard
 
@@ -994,6 +996,13 @@ __metadata:
   version: 1.7.1
   resolution: "@noble/hashes@npm:1.7.1"
   checksum: 4f1b56428a10323feef17e4f437c9093556cb18db06f94d254043fadb69c3da8475f96eb3f8322d41e8670117d7486475a8875e68265c2839f60fd03edd6a616
+  languageName: node
+  linkType: hard
+
+"@noble/hashes@npm:^1.2.0":
+  version: 1.8.0
+  resolution: "@noble/hashes@npm:1.8.0"
+  checksum: c94e98b941963676feaba62475b1ccfa8341e3f572adbb3b684ee38b658df44100187fa0ef4220da580b13f8d27e87d5492623c8a02ecc61f23fb9960c7918f5
   languageName: node
   linkType: hard
 
@@ -2325,6 +2334,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"base-x@npm:^4.0.0":
+  version: 4.0.1
+  resolution: "base-x@npm:4.0.1"
+  checksum: c9061e576f7376b2bc6b69eca131254bb16ebe1445b535a3f0d68f27524e724965b6c191dffd255bf80f9bdf5eb9d1c8d0320903e83116f2c3e09f81b5ecb6a2
+  languageName: node
+  linkType: hard
+
 "base64-js@npm:^1.3.1":
   version: 1.5.1
   resolution: "base64-js@npm:1.5.1"
@@ -2336,6 +2352,13 @@ __metadata:
   version: 1.1.4
   resolution: "bech32@npm:1.1.4"
   checksum: 0e98db619191548390d6f09ff68b0253ba7ae6a55db93dfdbb070ba234c1fd3308c0606fbcc95fad50437227b10011e2698b89f0181f6e7f845c499bd14d0f4b
+  languageName: node
+  linkType: hard
+
+"bech32@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "bech32@npm:2.0.0"
+  checksum: fa15acb270b59aa496734a01f9155677b478987b773bf701f465858bf1606c6a970085babd43d71ce61895f1baa594cb41a2cd1394bd2c6698f03cc2d811300e
   languageName: node
   linkType: hard
 
@@ -2352,6 +2375,13 @@ __metadata:
   dependencies:
     file-uri-to-path: 1.0.0
   checksum: 65b6b48095717c2e6105a021a7da4ea435aa8d3d3cd085cb9e85bcb6e5773cf318c4745c3f7c504412855940b585bdf9b918236612a1c7a7942491de176f1ae7
+  languageName: node
+  linkType: hard
+
+"bip174@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "bip174@npm:2.1.1"
+  checksum: bc5b99e7d1acd9484aec117dc4d931a8b6d3a77ffb84e9672a9e8be2e41c22a3d41b4dad307cbe84091c6a30ee2ceaf8e1b3036b91201d4767d0772485ecb225
   languageName: node
   linkType: hard
 
@@ -2379,6 +2409,20 @@ __metadata:
     pbkdf2: ^3.0.9
     randombytes: ^2.0.1
   checksum: 79ce1600a03d1ba5053bdd4e6323f9463ec340764c7e52918b6c6b9dca81221940f2d9a65656447f108f9bc2c8d9ae8df319cca83bbd1dad63f53ef2768d9bae
+  languageName: node
+  linkType: hard
+
+"bitcoinjs-lib@npm:^6.1.7":
+  version: 6.1.7
+  resolution: "bitcoinjs-lib@npm:6.1.7"
+  dependencies:
+    "@noble/hashes": ^1.2.0
+    bech32: ^2.0.0
+    bip174: ^2.1.1
+    bs58check: ^3.0.1
+    typeforce: ^1.11.3
+    varuint-bitcoin: ^1.1.2
+  checksum: 2fbac2bffc2fe0e1d5441fc09f092fa8a83a4572b10fd2601c960e19a60cdcab81b6bff8cefcefda80b952fe8795387c97219fc4676995bf554f26f3d9aadc58
   languageName: node
   linkType: hard
 
@@ -2440,6 +2484,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bs58@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "bs58@npm:5.0.0"
+  dependencies:
+    base-x: ^4.0.0
+  checksum: 2475cb0684e07077521aac718e604a13e0f891d58cff923d437a2f7e9e28703ab39fce9f84c7c703ab369815a675f11e3bd394d38643bfe8969fbe42e6833d45
+  languageName: node
+  linkType: hard
+
 "bs58check@npm:<3.0.0, bs58check@npm:^2.1.1, bs58check@npm:^2.1.2":
   version: 2.1.2
   resolution: "bs58check@npm:2.1.2"
@@ -2448,6 +2501,16 @@ __metadata:
     create-hash: ^1.1.0
     safe-buffer: ^5.1.2
   checksum: 43bdf08a5dd04581b78f040bc4169480e17008da482ffe2a6507327bbc4fc5c28de0501f7faf22901cfe57fbca79cbb202ca529003fedb4cb8dccd265b38e54d
+  languageName: node
+  linkType: hard
+
+"bs58check@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "bs58check@npm:3.0.1"
+  dependencies:
+    "@noble/hashes": ^1.2.0
+    bs58: ^5.0.0
+  checksum: dbbecc7a09f3836e821149266c864c4bbd545539cea43c35f23f4c3c46b54c86c52b65d224b9ea2e916fa6d93bd2ce9fac5b6c6bfcf19621a9c209a5602f71c8
   languageName: node
   linkType: hard
 
@@ -2565,10 +2628,10 @@ __metadata:
   resolution: "chainapsis-suggest-chain@workspace:."
   dependencies:
     "@actions/core": ^1.10.1
-    "@keplr-wallet/chain-validator": v0.12.210
-    "@keplr-wallet/common": v0.12.210
-    "@keplr-wallet/cosmos": v0.12.210
-    "@keplr-wallet/types": v0.12.210
+    "@keplr-wallet/chain-validator": v0.12.222
+    "@keplr-wallet/common": v0.12.222
+    "@keplr-wallet/cosmos": v0.12.222
+    "@keplr-wallet/types": v0.12.222
     "@pulumi/aws": ^6.8.0
     "@pulumi/pulumi": ^3.93.0
     "@types/cors": ^2.8.13
@@ -2583,6 +2646,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.44.0
     "@typescript-eslint/parser": ^5.44.0
     axios: ^0.27.2
+    bitcoinjs-lib: ^6.1.7
     cors: ^2.8.5
     esbuild: ^0.19.5
     eslint: ^8.28.0
@@ -3119,6 +3183,17 @@ __metadata:
   dependencies:
     esutils: ^2.0.2
   checksum: fd7673ca77fe26cd5cba38d816bc72d641f500f1f9b25b83e8ce28827fe2da7ad583a8da26ab6af85f834138cf8dae9f69b0cd6ab925f52ddab1754db44d99ce
+  languageName: node
+  linkType: hard
+
+"ecpair@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "ecpair@npm:2.1.0"
+  dependencies:
+    randombytes: ^2.1.0
+    typeforce: ^1.18.0
+    wif: ^2.0.6
+  checksum: 924a776808f91d2fdd33a7033f84e3bbfe668ae98c0b9764c7b923e018accd8de57012bf20e419e0a5ef73ec3ec3738a654e71abe12f537b2fd7bcf02b93659f
   languageName: node
   linkType: hard
 
@@ -6241,7 +6316,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"randombytes@npm:^2.0.1":
+"randombytes@npm:^2.0.1, randombytes@npm:^2.1.0":
   version: 2.1.0
   resolution: "randombytes@npm:2.1.0"
   dependencies:
@@ -6594,7 +6669,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"safe-buffer@npm:5.2.1, safe-buffer@npm:^5.0.1, safe-buffer@npm:^5.1.0, safe-buffer@npm:^5.1.2, safe-buffer@npm:^5.2.0, safe-buffer@npm:~5.2.0":
+"safe-buffer@npm:5.2.1, safe-buffer@npm:^5.0.1, safe-buffer@npm:^5.1.0, safe-buffer@npm:^5.1.1, safe-buffer@npm:^5.1.2, safe-buffer@npm:^5.2.0, safe-buffer@npm:~5.2.0":
   version: 5.2.1
   resolution: "safe-buffer@npm:5.2.1"
   checksum: b99c4b41fdd67a6aaf280fcd05e9ffb0813654894223afb78a31f14a19ad220bba8aba1cb14eddce1fcfb037155fe6de4e861784eb434f7d11ed58d1e70dd491
@@ -7455,7 +7530,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typeforce@npm:^1.11.5":
+"typeforce@npm:^1.11.3, typeforce@npm:^1.11.5, typeforce@npm:^1.18.0":
   version: 1.18.0
   resolution: "typeforce@npm:1.18.0"
   checksum: e3b21e27e76cb05f32285bef7c30a29760e79c622cfe4aa3c179ce49d1c7895b7154c8deedb9fe4599b1fd0428d35860d43e0776da1c04861168f3ad7ed99c70
@@ -7610,6 +7685,15 @@ __metadata:
     spdx-correct: ^3.0.0
     spdx-expression-parse: ^3.0.0
   checksum: 35703ac889d419cf2aceef63daeadbe4e77227c39ab6287eeb6c1b36a746b364f50ba22e88591f5d017bc54685d8137bc2d328d0a896e4d3fd22093c0f32a9ad
+  languageName: node
+  linkType: hard
+
+"varuint-bitcoin@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "varuint-bitcoin@npm:1.1.2"
+  dependencies:
+    safe-buffer: ^5.1.1
+  checksum: 1c900bf08f2408ae33a6094dc5d809bdb6673eaf6039062d88c230155873e51e29c760053611f93ccd024854d04ebd92ed95c744720e94a79ca4e1150fcce071
   languageName: node
   linkType: hard
 
