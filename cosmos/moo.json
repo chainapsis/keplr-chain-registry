@@ -22,6 +22,12 @@
       "coinDecimals": 6,
       "coinGeckoId": "initia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/interwoven/chain.png"
+    },
+    {
+      "coinDenom": "MILK",
+      "coinMinimalDenom": "ibc/39B55F22F15FB09189045A993817CDF0D388D3FF8773B2E22B6DE7B222636EEA",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/umilk.png"
     }
   ],
   "feeCurrencies": [
