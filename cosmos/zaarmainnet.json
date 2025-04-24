@@ -1,9 +1,9 @@
 {
-  "rpc": "https://rpc-yominet-1.anvil.asia-southeast.initia.xyz",
-  "rest": "https://rest-yominet-1.anvil.asia-southeast.initia.xyz",
-  "chainId": "yominet-1",
-  "chainName": "Yominet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/yominet/chain.png",
+  "rpc": "https://rpc-zaarmainnet-1.anvil.asia-southeast.initia.xyz",
+  "rest": "https://rest-zaarmainnet-1.anvil.asia-southeast.initia.xyz",
+  "chainId": "zaar-mainnet-1",
+  "chainName": "Zaar",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zaarmainnet/chain.png",
   "bip44": {
     "coinType": 60
   },
@@ -18,7 +18,7 @@
   "currencies": [
     {
       "coinDenom": "INIT",
-      "coinMinimalDenom": "evm/856aB2c9F35B9187aB3eB0Fcd11DCc6160427e96",
+      "coinMinimalDenom": "evm/7fb2a94a13186e3c338f0da9728b4835d86b1a7b",
       "coinDecimals": 18,
       "coinGeckoId": "initia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/interwoven/chain.png"
@@ -26,14 +26,14 @@
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "WETH",
-      "coinMinimalDenom": "evm/e1ff7038eaaaf027031688e1535a055b2bac2546",
+      "coinDenom": "INIT",
+      "coinMinimalDenom": "evm/7fb2a94a13186e3c338f0da9728b4835d86b1a7b",
       "coinDecimals": 18,
-      "coinGeckoId": "weth",
+      "coinGeckoId": "initia",
       "gasPriceStep": {
-        "low": 30000000,
-        "average": 30000000,
-        "high": 30000000
+        "low": 15000000000,
+        "average": 15000000000,
+        "high": 15000000000
       }
     }
   ]
