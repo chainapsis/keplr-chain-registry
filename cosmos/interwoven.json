@@ -21,6 +21,7 @@
       "coinDenom": "INIT",
       "coinMinimalDenom": "uinit",
       "coinDecimals": 6,
+      "coinGeckoId": "initia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/interwoven/chain.png"
     }
   ],
@@ -28,6 +29,7 @@
     "coinDenom": "INIT",
     "coinMinimalDenom": "uinit",
     "coinDecimals": 6,
+    "coinGeckoId": "initia",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/interwoven/chain.png"
   },
   "feeCurrencies": [
@@ -35,6 +37,7 @@
       "coinDenom": "INIT",
       "coinMinimalDenom": "uinit",
       "coinDecimals": 6,
+      "coinGeckoId": "initia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/interwoven/chain.png",
       "gasPriceStep": {
         "low": 0.015,
