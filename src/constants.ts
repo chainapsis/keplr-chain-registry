@@ -46,6 +46,7 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "elys",
   "nillion",
   "bbn",
+  "interwoven",
   "eip155:1",
   "eip155:10",
   "eip155:56",
