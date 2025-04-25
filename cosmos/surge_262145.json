@@ -1,9 +1,9 @@
 {
-    "chainId": "surge-alphatestnet-1",
-    "chainName": "Surge Alpha Testnet",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/surge-alphatestnet/chain.png",
-    "rpc": "https://alphatestnet.surge.dev",
-    "rest": "https://api-alphatestnet.surge.dev",
+    "chainId": "surge_262145-1",
+    "chainName": "Surge Execution Testnet",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/surge_262145/chain.png",
+    "rpc": "https://cosmos.rpc.surge.dev",
+    "rest": "https://cosmos.api.surge.dev",
     "nodeProvider": {
         "name": "Surge",
         "email": "contact@surge.build",
@@ -22,16 +22,16 @@
     },
     "currencies": [
         {
-            "coinDenom": "SURG",
-            "coinMinimalDenom": "usurg",
-            "coinDecimals": 6
+            "coinDenom": "SRG",
+            "coinMinimalDenom": "asrg",
+            "coinDecimals": 18
         }
     ],
     "feeCurrencies": [
         {
-            "coinDenom": "SURG",
-            "coinMinimalDenom": "usurg",
-            "coinDecimals": 6,
+            "coinDenom": "SRG",
+            "coinMinimalDenom": "asrg",
+            "coinDecimals": 18,
             "gasPriceStep": {
                 "low": 0.01,
                 "average": 0.02,
@@ -40,9 +40,9 @@
         }
     ],
     "stakeCurrency": {
-        "coinDenom": "SURG",
-        "coinMinimalDenom": "usurg",
-        "coinDecimals": 6
+        "coinDenom": "SRG",
+        "coinMinimalDenom": "asrg",
+        "coinDecimals": 18
     },
     "features": []
 }
