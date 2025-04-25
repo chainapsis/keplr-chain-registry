@@ -56,9 +56,9 @@
       "coinGeckoId": "terra-luna",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/uluna.png",
       "gasPriceStep": {
-        "low": 1700,
-        "average": 1700,
-        "high": 1700
+        "low": 28.325,
+        "average": 28.325,
+        "high": 28.325
       }
     },
     {
