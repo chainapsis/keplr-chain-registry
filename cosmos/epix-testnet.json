@@ -1,0 +1,59 @@
+{
+  "rpc": "https://rpc.testnet.epix.zone",
+  "rest": "https://api.testnet.epix.zone",
+  "chainId": "epix_1917-1",
+  "chainName": "Epix Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/epix/chain.png",
+  "nodeProvider": {
+    "name": "Epix Labs",
+    "email": "info@epix.zone",
+    "website": "https://epix.zone/"
+  },
+  "evm": {
+    "chainId": 1917,
+    "rpc": "https://evmrpc.testnet.epix.zone/"
+  },
+  "stakeCurrency": {
+    "coinDenom": "EPIX",
+    "coinMinimalDenom": "aepix",
+    "coinDecimals": 18
+  },
+  "walletUrl": "https://testnet.epix.zone/epix",
+  "walletUrlForStaking": "https://testnet.epix.zone/epix/staking",
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "epix",
+    "bech32PrefixAccPub": "epixpub",
+    "bech32PrefixValAddr": "epixvaloper",
+    "bech32PrefixValPub": "epixvaloperpub",
+    "bech32PrefixConsAddr": "epixvalcons",
+    "bech32PrefixConsPub": "epixvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "EPIX",
+      "coinMinimalDenom": "aepix",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/epix/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "EPIX",
+      "coinMinimalDenom": "aepix",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/epix/chain.png",
+      "gasPriceStep": {
+        "low": 20000000000,
+        "average": 25000000000,
+        "high": 40000000000
+      }
+    }
+  ],
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ]
+}
