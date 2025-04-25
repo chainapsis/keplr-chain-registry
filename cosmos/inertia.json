@@ -1,0 +1,45 @@
+{
+  "rpc": "https://rpc.inrt.fi",
+  "rest": "https://rest.inrt.fi",
+  "chainId": "inertia-1",
+  "chainName": "Inertia",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/inertia/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "init",
+    "bech32PrefixAccPub": "initpub",
+    "bech32PrefixValAddr": "initvaloper",
+    "bech32PrefixValPub": "initvaloperpub",
+    "bech32PrefixConsAddr": "initvalcons",
+    "bech32PrefixConsPub": "initvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "INIT",
+      "coinMinimalDenom": "l2/f8c3e39d364efd457858d873518c0898a10933852e4ccb09c683ca67cadd0cf6",
+      "coinDecimals": 6,
+      "coinGeckoId": "initia",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/inertia/init.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "INIT",
+      "coinMinimalDenom": "l2/f8c3e39d364efd457858d873518c0898a10933852e4ccb09c683ca67cadd0cf6",
+      "coinDecimals": 6,
+      "coinGeckoId": "initia",
+      "gasPriceStep": {
+        "low": 0.015,
+        "average": 0.015,
+        "high": 0.015
+      }
+    }
+  ],
+  "nodeProvider": {
+    "name": "Inertia",
+    "website": "https://inrt.fi/",
+    "email": "channel@inrt.fi"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "rpc": "https://rpc-ingnetwork-1.anvil.asia-southeast.initia.xyz",
+  "rest": "https://rest-ingnetwork-1.anvil.asia-southeast.initia.xyz",
+  "chainId": "ingnetwork-1",
+  "chainName": "ingnetwork",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ingnetwork/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "init",
+    "bech32PrefixAccPub": "initpub",
+    "bech32PrefixValAddr": "initvaloper",
+    "bech32PrefixValPub": "initvaloperpub",
+    "bech32PrefixConsAddr": "initvalcons",
+    "bech32PrefixConsPub": "initvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "INIT",
+      "coinMinimalDenom": "evm/6ed1637781269560b204c27cd42d95e057c4be44",
+      "coinDecimals": 18,
+      "coinGeckoId": "initia",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ingnetwork/init.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "INIT",
+      "coinMinimalDenom": "evm/6ed1637781269560b204c27cd42d95e057c4be44",
+      "coinDecimals": 18,
+      "coinGeckoId": "initia",
+      "gasPriceStep": {
+        "low": 15000000000,
+        "average": 15000000000,
+        "high": 15000000000
+      }
+    }
+  ],
+  "nodeProvider": {
+    "name": "ingnetwork",
+    "website": "https://www.infinityg.ai/"
+  }
+}

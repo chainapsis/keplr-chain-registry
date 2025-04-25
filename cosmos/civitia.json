@@ -1,0 +1,44 @@
+{
+  "rpc": "https://rpc-civitia-1.anvil.asia-southeast.initia.xyz",
+  "rest": "https://rest-civitia-1.anvil.asia-southeast.initia.xyz",
+  "chainId": "civitia-1",
+  "chainName": "Civitia",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/civitia/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "init",
+    "bech32PrefixAccPub": "initpub",
+    "bech32PrefixValAddr": "initvaloper",
+    "bech32PrefixValPub": "initvaloperpub",
+    "bech32PrefixConsAddr": "initvalcons",
+    "bech32PrefixConsPub": "initvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "INIT",
+      "coinMinimalDenom": "l2/2b2d36f666e98b9eecf70d6ec24b882b79f2c8e2af73f54f97b8b670dbb87605",
+      "coinDecimals": 6,
+      "coinGeckoId": "initia",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/civitia/init.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "INIT",
+      "coinMinimalDenom": "l2/2b2d36f666e98b9eecf70d6ec24b882b79f2c8e2af73f54f97b8b670dbb87605",
+      "coinDecimals": 6,
+      "coinGeckoId": "initia",
+      "gasPriceStep": {
+        "low": 0.015,
+        "average": 0.015,
+        "high": 0.015
+      }
+    }
+  ],
+  "nodeProvider": {
+    "name": "Civitia",
+    "website": "https://www.civitia.org/"
+  }
+}

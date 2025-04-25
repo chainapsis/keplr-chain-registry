@@ -1,0 +1,44 @@
+{
+  "rpc": "https://rpc-yominet-1.anvil.asia-southeast.initia.xyz",
+  "rest": "https://rest-yominet-1.anvil.asia-southeast.initia.xyz",
+  "chainId": "yominet-1",
+  "chainName": "Yominet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/yominet/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "init",
+    "bech32PrefixAccPub": "initpub",
+    "bech32PrefixValAddr": "initvaloper",
+    "bech32PrefixValPub": "initvaloperpub",
+    "bech32PrefixConsAddr": "initvalcons",
+    "bech32PrefixConsPub": "initvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "INIT",
+      "coinMinimalDenom": "evm/856aB2c9F35B9187aB3eB0Fcd11DCc6160427e96",
+      "coinDecimals": 18,
+      "coinGeckoId": "initia",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/yominet/init.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "WETH",
+      "coinMinimalDenom": "evm/e1ff7038eaaaf027031688e1535a055b2bac2546",
+      "coinDecimals": 18,
+      "coinGeckoId": "weth",
+      "gasPriceStep": {
+        "low": 30000000,
+        "average": 30000000,
+        "high": 30000000
+      }
+    }
+  ],
+  "nodeProvider": {
+    "name": "Yominet",
+    "website": "https://www.kamigotchi.io/"
+  }
+}

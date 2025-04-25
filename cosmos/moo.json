@@ -1,0 +1,50 @@
+{
+  "rpc": "https://rpc-moo-1.anvil.asia-southeast.initia.xyz",
+  "rest": "https://rest-moo-1.anvil.asia-southeast.initia.xyz",
+  "chainId": "moo-1",
+  "chainName": "Moo",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/moo/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "init",
+    "bech32PrefixAccPub": "initpub",
+    "bech32PrefixValAddr": "initvaloper",
+    "bech32PrefixValPub": "initvaloperpub",
+    "bech32PrefixConsAddr": "initvalcons",
+    "bech32PrefixConsPub": "initvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "INIT",
+      "coinMinimalDenom": "ibc/37A3FB4FED4CA04ED6D9E5DA36C6D27248645F0E22F585576A1488B8A89C5A50",
+      "coinDecimals": 6,
+      "coinGeckoId": "initia",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/moo/init.png"
+    },
+    {
+      "coinDenom": "MILK",
+      "coinMinimalDenom": "ibc/39B55F22F15FB09189045A993817CDF0D388D3FF8773B2E22B6DE7B222636EEA",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/moo/umilk.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "INIT",
+      "coinMinimalDenom": "ibc/37A3FB4FED4CA04ED6D9E5DA36C6D27248645F0E22F585576A1488B8A89C5A50",
+      "coinDecimals": 6,
+      "coinGeckoId": "initia",
+      "gasPriceStep": {
+        "low": 0.015,
+        "average": 0.015,
+        "high": 0.015
+      }
+    }
+  ],
+  "nodeProvider": {
+    "name": "Initia",
+    "website": "https://initia.xyz"
+  }
+}

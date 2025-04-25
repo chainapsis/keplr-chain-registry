@@ -1,0 +1,44 @@
+{
+  "rpc": "https://rpc-intergaze-1.anvil.asia-southeast.initia.xyz",
+  "rest": "https://rest-intergaze-1.anvil.asia-southeast.initia.xyz",
+  "chainId": "intergaze-1",
+  "chainName": "Intergaze",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/intergaze/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "init",
+    "bech32PrefixAccPub": "initpub",
+    "bech32PrefixValAddr": "initvaloper",
+    "bech32PrefixValPub": "initvaloperpub",
+    "bech32PrefixConsAddr": "initvalcons",
+    "bech32PrefixConsPub": "initvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "INIT",
+      "coinMinimalDenom": "l2/fb936ffef4eb4019d82941992cc09ae2788ce7197fcb08cb00c4fe6f5e79184e",
+      "coinDecimals": 6,
+      "coinGeckoId": "initia",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/intergaze/init.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "INIT",
+      "coinMinimalDenom": "l2/fb936ffef4eb4019d82941992cc09ae2788ce7197fcb08cb00c4fe6f5e79184e",
+      "coinDecimals": 6,
+      "coinGeckoId": "initia",
+      "gasPriceStep": {
+        "low": 0.03,
+        "average": 0.03,
+        "high": 0.03
+      }
+    }
+  ],
+  "nodeProvider": {
+    "name": "Intergaze",
+    "website": "https://intergaze.xyz/"
+  }
+}

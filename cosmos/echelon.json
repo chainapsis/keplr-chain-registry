@@ -1,0 +1,44 @@
+{
+  "rpc": "https://rpc-echelon-1.anvil.asia-southeast.initia.xyz",
+  "rest": "https://rest-echelon-1.anvil.asia-southeast.initia.xyz",
+  "chainId": "echelon-1",
+  "chainName": "Echelon",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/echelon/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "init",
+    "bech32PrefixAccPub": "initpub",
+    "bech32PrefixValAddr": "initvaloper",
+    "bech32PrefixValPub": "initvaloperpub",
+    "bech32PrefixConsAddr": "initvalcons",
+    "bech32PrefixConsPub": "initvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "INIT",
+      "coinMinimalDenom": "l2/23c8396041db74441f4268d0c7e0533177dc3e028a47a8e584318f2d0c46fbe9",
+      "coinDecimals": 6,
+      "coinGeckoId": "initia",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/echelon/init.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "INIT",
+      "coinMinimalDenom": "l2/23c8396041db74441f4268d0c7e0533177dc3e028a47a8e584318f2d0c46fbe9",
+      "coinDecimals": 6,
+      "coinGeckoId": "initia",
+      "gasPriceStep": {
+        "low": 0.015,
+        "average": 0.015,
+        "high": 0.015
+      }
+    }
+  ],
+  "nodeProvider": {
+    "name": "Echelon",
+    "website": "https://echelon.market/"
+  }
+}

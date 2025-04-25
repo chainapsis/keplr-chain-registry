@@ -1,0 +1,44 @@
+{
+  "rpc": "https://rpc-zaarmainnet-1.anvil.asia-southeast.initia.xyz",
+  "rest": "https://rest-zaarmainnet-1.anvil.asia-southeast.initia.xyz",
+  "chainId": "zaar-mainnet-1",
+  "chainName": "Zaar",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zaarmainnet/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "init",
+    "bech32PrefixAccPub": "initpub",
+    "bech32PrefixValAddr": "initvaloper",
+    "bech32PrefixValPub": "initvaloperpub",
+    "bech32PrefixConsAddr": "initvalcons",
+    "bech32PrefixConsPub": "initvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "INIT",
+      "coinMinimalDenom": "evm/7fb2a94a13186e3c338f0da9728b4835d86b1a7b",
+      "coinDecimals": 18,
+      "coinGeckoId": "initia",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zaarmainnet/init.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "INIT",
+      "coinMinimalDenom": "evm/7fb2a94a13186e3c338f0da9728b4835d86b1a7b",
+      "coinDecimals": 18,
+      "coinGeckoId": "initia",
+      "gasPriceStep": {
+        "low": 15000000000,
+        "average": 15000000000,
+        "high": 15000000000
+      }
+    }
+  ],
+  "nodeProvider": {
+    "name": "Zaar",
+    "website": "https://flip.zaar.gg/"
+  }
+}

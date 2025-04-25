@@ -1,0 +1,44 @@
+{
+  "rpc": "https://rpc-rave-1.anvil.asia-southeast.initia.xyz",
+  "rest": "https://rest-rave-1.anvil.asia-southeast.initia.xyz",
+  "chainId": "rave-1",
+  "chainName": "Rave",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rave/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "init",
+    "bech32PrefixAccPub": "initpub",
+    "bech32PrefixValAddr": "initvaloper",
+    "bech32PrefixValPub": "initvaloperpub",
+    "bech32PrefixConsAddr": "initvalcons",
+    "bech32PrefixConsPub": "initvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "INIT",
+      "coinMinimalDenom": "evm/4f7566f67941283a30cf65de7b9c6fdf2c04fca1",
+      "coinDecimals": 18,
+      "coinGeckoId": "initia",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rave/init.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "INIT",
+      "coinMinimalDenom": "evm/4f7566f67941283a30cf65de7b9c6fdf2c04fca1",
+      "coinDecimals": 18,
+      "coinGeckoId": "initia",
+      "gasPriceStep": {
+        "low": 15000000000,
+        "average": 15000000000,
+        "high": 15000000000
+      }
+    }
+  ],
+  "nodeProvider": {
+    "name": "Rave",
+    "website": "https://www.rave.trade/"
+  }
+}
