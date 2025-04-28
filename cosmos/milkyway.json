@@ -1,13 +1,9 @@
 {
-  "rpc": "https://rpc.mainnet.milkyway.zone",
-  "rest": "https://lcd.mainnet.milkyway.zone",
+  "rpc": "https://rpc-milkyway.keplr.app",
+  "rest": "https://lcd-milkyway.keplr.app",
   "chainId": "milkyway",
   "chainName": "MilkyWay",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/chain.png",
-  "nodeProvider": {
-    "name": "MilkyWay Labs",
-    "email": "development@milkyway.zone"
-  },
   "stakeCurrency": {
     "coinDenom": "MILK",
     "coinMinimalDenom": "umilk",
@@ -135,7 +131,5 @@
       }
     }
   ],
-  "features": [
-    "cosmwasm"
-  ]
+  "features": ["cosmwasm"]
 }
