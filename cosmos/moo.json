@@ -48,6 +48,7 @@
     "eth-address-gen",
     "eth-key-sign",
     "eth-secp256k1-initia",
-    "evm-ledger-sign-plain-json"
+    "evm-ledger-sign-plain-json",
+    "cosmwasm"
   ]
 }
