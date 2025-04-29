@@ -37,6 +37,17 @@
   ],
   "feeCurrencies": [
     {
+      "coinDenom": "MILK",
+      "coinMinimalDenom": "umilk",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/milk.png",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.015,
+        "high": 0.02
+      }
+    },
+    {
       "coinDenom": "TIA",
       "coinMinimalDenom": "ibc/F1183DB3D428313A6FD329DF18219F9D6B83257D07D292EA9EC1D877E89EC2B0",
       "coinDecimals": 6,
