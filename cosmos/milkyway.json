@@ -8,7 +8,8 @@
     "coinDenom": "MILK",
     "coinMinimalDenom": "umilk",
     "coinDecimals": 6,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/umilk.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/umilk.png",
+    "coinGeckoId": "milkyway-2"
   },
   "bip44": {
     "coinType": 118
