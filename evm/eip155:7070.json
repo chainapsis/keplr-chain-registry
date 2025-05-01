@@ -1,6 +1,11 @@
 {
   "rpc": "https://evm-rpc.planq.network",
   "websocket": "wss://evm-rpc-ws.planq.network",
+  "nodeProvider": {
+    "name": "Planq",
+    "email": "info@planq.network",
+    "website": "https://planq.network/"
+  },
   "chainId": "eip155:7070",
   "chainName": "Planq",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:7070/chain.png",
