@@ -31,31 +31,31 @@
       "coinDenom": "ANUBI",
       "coinMinimalDenom": "erc20:0xf630b96760b91f6fcbe8b3c24f2786aca3d03648",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:7070/0xf630b96760b91f6fcbe8b3c24f2786aca3d03648.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:7070/erc20/0xf630b96760b91f6fcbe8b3c24f2786aca3d03648.png"
     },
     {
       "coinDenom": "ATC",
       "coinMinimalDenom": "erc20:0x8f4d86aba1b47832c46f11e0ffd0f7ada4498345",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:7070/0x8f4d86aba1b47832c46f11e0ffd0f7ada4498345.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:7070/erc20/0x8f4d86aba1b47832c46f11e0ffd0f7ada4498345.png"
     },
     {
       "coinDenom": "aUSD",
       "coinMinimalDenom": "erc20:0xa2871b267a7d888f830251f6b4d9d3dff184995a",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:7070/0xa2871b267a7d888f830251f6b4d9d3dff184995a.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:7070/erc20/0xa2871b267a7d888f830251f6b4d9d3dff184995a.png"
     },
     {
       "coinDenom": "aEUR",
       "coinMinimalDenom": "erc20:0xd5be2932febd73019ba1d5d97dfc35e1ab09e501",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:7070/0xd5be2932febd73019ba1d5d97dfc35e1ab09e501.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:7070/erc20/0xd5be2932febd73019ba1d5d97dfc35e1ab09e501.png"
     },
     {
       "coinDenom": "aBRL",
       "coinMinimalDenom": "erc20:0x240642c6f69878a0b199065f25edf82023bc59ce",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:7070/0x240642c6f69878a0b199065f25edf82023bc59ce.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:7070/erc20/0x240642c6f69878a0b199065f25edf82023bc59ce.png"
     }
   ],
   "feeCurrencies": [
