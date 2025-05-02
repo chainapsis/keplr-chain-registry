@@ -1,0 +1,57 @@
+{
+    "rpc": "https://rpc.uno.sentry.testnet.v3.kiivalidator.com",
+    "rest": "https://lcd.uno.sentry.testnet.v3.kiivalidator.com",
+    "chainId": "oro_1336-1",
+    "chainName": "Kii Testnet Oro",
+    "evm": {
+        "chainId": 1336,
+        "rpc": "https://json-rpc.uno.sentry.testnet.v3.kiivalidator.com"
+    },
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/oro_1336-1/kii_oro_coin.png",
+    "stakeCurrency": {
+        "coinDenom": "Kii",
+        "coinMinimalDenom": "akii",
+        "coinDecimals": 18,
+        "coinGeckoId": "kii",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/oro_1336-1/kii_oro_coin.png"
+    },
+    "bip44": {
+        "coinType": 60
+    },
+    "bech32Config": {
+        "bech32PrefixAccAddr": "kii",
+        "bech32PrefixAccPub": "kiipub",
+        "bech32PrefixValAddr": "kiivaloper",
+        "bech32PrefixValPub": "kiivaloperpub",
+        "bech32PrefixConsAddr": "kiivalcons",
+        "bech32PrefixConsPub": "kiivalconspub"
+    },
+    "currencies": [
+        {
+            "coinDenom": "Kii",
+            "coinMinimalDenom": "akii",
+            "coinDecimals": 18,
+            "coinGeckoId": "kii",
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/oro_1336-1/kii_oro_coin.png"
+        }
+    ],
+    "feeCurrencies": [
+        {
+            "coinDenom": "Kii",
+            "coinMinimalDenom": "akii",
+            "coinDecimals": 18,
+            "coinGeckoId": "kii",
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/oro_1336-1/kii_oro_coin.png",
+            "gasPriceStep": {
+                "low": 80000000000,
+                "average": 80000000000,
+                "high": 80000000000
+            }
+        }
+    ],
+    "features": [
+        "eth-address-gen",
+        "eth-key-sign",
+        "eth-secp256k1-cosmos"
+    ]
+}
