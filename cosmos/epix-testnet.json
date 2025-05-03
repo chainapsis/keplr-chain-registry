@@ -18,7 +18,6 @@
     "coinMinimalDenom": "aepix",
     "coinDecimals": 18
   },
-  "walletUrl": "https://testnet.epix.zone/epix",
   "walletUrlForStaking": "https://testnet.epix.zone/epix/staking",
   "bip44": {
     "coinType": 60
