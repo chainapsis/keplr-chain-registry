@@ -50,5 +50,10 @@
         "eth-address-gen",
         "eth-key-sign",
         "eth-secp256k1-cosmos"
-    ]
+    ],
+    "nodeProvider": {
+        "name": "Kiichain Protocol",
+        "email": "dev@kiichain.io",
+        "website": "https://kiichain.io"
+    }
 }
