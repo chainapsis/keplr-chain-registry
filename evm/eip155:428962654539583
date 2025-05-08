@@ -4,7 +4,7 @@
   },
   "chainId": "eip155:428962654539583",
   "chainName": "yominet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:3A428962654539583/chain.png",
   "bip44": {
     "coinType": 60
   },
@@ -20,7 +20,7 @@
       "coinDenom": "ONYX",
       "coinMinimalDenom": "erc20:0x4BaDFb501Ab304fF11217C44702bb9E9732E7CF4",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/erc20/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:3A428962654539583/erc20/0x4BaDFb501Ab304fF11217C44702bb9E9732E7CF4.png"
     }
   ],
   "feeCurrencies": [
