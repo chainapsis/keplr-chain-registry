@@ -41,9 +41,9 @@
       "coinGeckoId": "umee",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/umee/uumee.png",
       "gasPriceStep": {
-        "low": 0.06,
-        "average": 0.1,
-        "high": 0.14
+        "low": 0.1,
+        "average": 0.12,
+        "high": 0.2
       }
     }
   ],

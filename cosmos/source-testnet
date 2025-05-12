@@ -1,0 +1,50 @@
+{
+  "chainId": "sourcetest-1",
+  "chainName": "Source Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/source/source.png",
+  "rpc": "https://testnet.sourceprotocol.io:26657/",
+  "rest": "https://testnet.sourceprotocol.io:1317/",
+  "nodeProvider": {
+    "name": "Source Protocol",
+    "email": "hello@sourceprotocol.io",
+    "website":"https://www.sourceprotocol.io/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "source",
+    "bech32PrefixAccPub": "sourcepub",
+    "bech32PrefixValAddr": "sourcevaloper",
+    "bech32PrefixValPub": "sourcevaloperpub",
+    "bech32PrefixConsAddr": "sourcevalcons",
+    "bech32PrefixConsPub": "sourcevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "SOURCE",
+      "coinMinimalDenom": "usource",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "SOURCE",
+      "coinMinimalDenom": "usource",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.025,
+        "average": 0.05,
+        "high": 0.075
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "SOURCE",
+    "coinMinimalDenom": "usource",
+    "coinDecimals": 6
+  },
+  "features": [
+    "cosmwasm"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "rpc": "https://rpc.flame.dawn-1.astria.org",
+  "websocket": "wss://ws.flame.dawn-1.astria.org",
+  "nodeProvider": {
+    "name": "Astria",
+    "email": "noreply@astria.org",
+    "website": "https://astria.org"
+  },
+  "chainId": "eip155:16604737732183",
+  "chainName": "Flame Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:16604737732183/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "TIA",
+      "coinMinimalDenom": "flame-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:16604737732183/utia.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "TIA",
+      "coinMinimalDenom": "flame-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:16604737732183/utia.png"
+    }
+  ],
+  "features": []
+}

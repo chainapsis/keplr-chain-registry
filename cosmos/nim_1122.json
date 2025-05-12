@@ -1,0 +1,52 @@
+{
+    "rpc": "https://rpc.mainnet.nimnet.tech",
+    "rest": "https://rest.mainnet.nimnet.tech",
+    "chainId": "nim_1122-1",
+    "chainName": "NIM Network",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nim_1122/chain.png",
+    "stakeCurrency": {
+        "coinDenom": "NIM",
+        "coinMinimalDenom": "anim",
+        "coinDecimals": 18
+    },
+    "nodeProvider": {
+        "name": "NIM Foundation",
+        "email": "contact@nim.network",
+        "website": "https://nim.network"
+    },
+    "walletUrlForStaking": "https://portal.dymension.xyz/rollapp/nim_1122-1/staking",
+    "bip44": {
+        "coinType": 60
+    },
+    "bech32Config": {
+        "bech32PrefixAccAddr": "nim",
+        "bech32PrefixAccPub": "nimpub",
+        "bech32PrefixValAddr": "nimvaloper",
+        "bech32PrefixValPub": "nimvaloperpub",
+        "bech32PrefixConsAddr": "nimvalcons",
+        "bech32PrefixConsPub": "nimvalconspub"
+    },
+    "currencies": [
+        {
+            "coinDenom": "NIM",
+            "coinMinimalDenom": "anim",
+            "coinDecimals": 18
+        }
+    ],
+    "feeCurrencies": [
+        {
+            "coinDenom": "NIM",
+            "coinMinimalDenom": "anim",
+            "coinDecimals": 18,
+            "gasPriceStep": {
+                "average": 20000000000,
+                "high": 20000000000,
+                "low": 20000000000
+            }
+        }
+    ],
+    "features": [
+        "eth-address-gen",
+        "eth-key-sign"
+    ]
+}

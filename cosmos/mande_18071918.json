@@ -1,0 +1,52 @@
+{
+    "rpc": "https://mande-mainnet-tendermint.public.blastapi.io",
+    "rest": "https://mande-mainnet-rest.public.blastapi.io",
+    "chainId": "mande_18071918-1",
+    "chainName": "Mande Network",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mande_18071918/chain.png",
+    "stakeCurrency": {
+        "coinDenom": "MAND",
+        "coinMinimalDenom": "amand",
+        "coinDecimals": 18
+    },
+    "nodeProvider": {
+        "name": "Bware Labs",
+        "email": "contact@bwarelabs.com",
+        "website": "https://bwarelabs.com"
+    },
+    "walletUrlForStaking": "https://portal.dymension.xyz/rollapp/mande_18071918-1/staking",
+    "bip44": {
+        "coinType": 60
+    },
+    "bech32Config": {
+        "bech32PrefixAccAddr": "mande",
+        "bech32PrefixAccPub": "mandepub",
+        "bech32PrefixValAddr": "mandevaloper",
+        "bech32PrefixValPub": "mandevaloperpub",
+        "bech32PrefixConsAddr": "mandevalcons",
+        "bech32PrefixConsPub": "mandevalconspub"
+    },
+    "currencies": [
+        {
+            "coinDenom": "MAND",
+            "coinMinimalDenom": "amand",
+            "coinDecimals": 18
+        }
+    ],
+    "feeCurrencies": [
+        {
+            "coinDenom": "MAND",
+            "coinMinimalDenom": "amand",
+            "coinDecimals": 18,
+            "gasPriceStep": {
+                "average": 20000000000,
+                "high": 20000000000,
+                "low": 20000000000
+            }
+        }
+    ],
+    "features": [
+        "eth-address-gen",
+        "eth-key-sign"
+    ]
+}

@@ -32,9 +32,25 @@
       "coinMinimalDenom": "token",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/loop/token.png"
+    },
+    {
+      "coinDenom": "POA",
+      "coinMinimalDenom": "upoa",
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
+    {
+      "coinDenom": "POA",
+      "coinMinimalDenom": "upoa",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.0,
+        "average": 0.0,
+        "high": 0.0
+      }
+    },
+
     {
       "coinDenom": "TOKEN",
       "coinMinimalDenom": "token",

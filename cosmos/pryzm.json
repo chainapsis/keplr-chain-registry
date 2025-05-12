@@ -1,0 +1,160 @@
+{
+  "rpc": "https://rpc-pryzm.keplr.app",
+  "rest": "https://lcd-pryzm.keplr.app",
+  "chainId": "pryzm-1",
+  "chainName": "Pryzm",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/pryzm",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pryzm/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "PRYZM",
+    "coinMinimalDenom": "upryzm",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pryzm/upryzm.png",
+    "coinDecimals": 6
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "pryzm",
+    "bech32PrefixAccPub": "pryzmpub",
+    "bech32PrefixValAddr": "pryzmvaloper",
+    "bech32PrefixValPub": "pryzmvaloperpub",
+    "bech32PrefixConsAddr": "pryzmvalcons",
+    "bech32PrefixConsPub": "pryzmvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "PRYZM",
+      "coinMinimalDenom": "upryzm",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pryzm/upryzm.png"
+    },
+    {
+      "coinDenom": "AUUU",
+      "coinMinimalDenom": "factory/pryzm1jnhcsa5ddjsjq2t97v6a82z542rduxvtw6wd9h/uauuu",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pryzm/uauuu.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "AUUU",
+      "coinMinimalDenom": "factory/pryzm1jnhcsa5ddjsjq2t97v6a82z542rduxvtw6wd9h/uauuu",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.015,
+        "high": 0.02
+      }
+    },
+    {
+      "coinDenom": "ATOM",
+      "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+      "coinDecimals": 6,
+      "coinGeckoId": "cosmos",
+      "gasPriceStep": {
+        "low": 0.0025,
+        "average": 0.003,
+        "high": 0.004
+      }
+    },
+    {
+      "coinDenom": "OSMO",
+      "coinMinimalDenom": "ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B",
+      "coinDecimals": 6,
+      "coinGeckoId": "osmosis",
+      "gasPriceStep": {
+        "low": 0.025,
+        "average": 0.03,
+        "high": 0.04
+      }
+    },
+    {
+      "coinDenom": "INJ",
+      "coinMinimalDenom": "ibc/DE63D8AC34B752FB7D4CAA7594145EDE1C9FC256AC6D4043D0F12310EB8FC255",
+      "coinDecimals": 18,
+      "coinGeckoId": "injective-protocol",
+      "gasPriceStep": {
+        "low": 500000000,
+        "average": 600000000,
+        "high": 700000000
+      }
+    },
+    {
+      "coinDenom": "TIA",
+      "coinMinimalDenom": "ibc/BF28D9C17E0306B194D50F51C3B2590BEAD15E04E03ADD34C3A26E62D85C9676",
+      "coinDecimals": 6,
+      "coinGeckoId": "celestia",
+      "gasPriceStep": {
+        "low": 0.002,
+        "average": 0.003,
+        "high": 0.004
+      }
+    },
+    {
+      "coinDenom": "LUNA",
+      "coinMinimalDenom": "ibc/B8AF5D92165F35AB31F3FC7C7B444B9D240760FA5D406C49D24862BD0284E395",
+      "coinDecimals": 6,
+      "coinGeckoId": "terra-luna-2",
+      "gasPriceStep": {
+        "low": 0.015,
+        "average": 0.02,
+        "high": 0.03
+      }
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "ibc/BFAAB7870A9AAABF64A7366DAAA0B8E5065EAA1FCE762F45677DC24BE796EF65",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "gasPriceStep": {
+        "low": 0.02,
+        "average": 0.03,
+        "high": 0.04
+      }
+    },
+    {
+      "coinDenom": "DYDX",
+      "coinMinimalDenom": "ibc/F8CA5236869F819BC006EEF088E67889A26E4140339757878F0F4E229CDDA858",
+      "coinDecimals": 18,
+      "gasPriceStep": {
+        "low": 10000000000,
+        "average": 12000000000,
+        "high": 14000000000
+      }
+    },
+    {
+      "coinDenom": "stTIA",
+      "coinMinimalDenom": "ibc/FA78980867B7E87F382CDA00275C55DDC248CABC7DEE27AC6868CCF97DD5E02F",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.002,
+        "average": 0.003,
+        "high": 0.004
+      }
+    },
+    {
+      "coinDenom": "stDYDX",
+      "coinMinimalDenom": "ibc/120DC39B61CC121E91525C1D51624E41BBE74C537D7B0BE50BBFF9A00E37B6EE",
+      "coinDecimals": 18,
+      "gasPriceStep": {
+        "low": 10000000000,
+        "average": 12000000000,
+        "high": 14000000000
+      }
+    },
+    {
+      "coinDenom": "dATOM",
+      "coinMinimalDenom": "ibc/EA6E1E8BA2EB9F681C4BD12C8C81A46530A62934F2BD561B120A00F46946CE87",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.0025,
+        "average": 0.003,
+        "high": 0.004
+      }
+    }
+  ],
+  "features": [
+    "cosmwasm"
+  ]
+}

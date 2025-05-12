@@ -1,0 +1,54 @@
+{
+    "chainId": "coreum-testnet-1",
+    "chainName": "Coreum Testnet",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/coreum-testnet/chain.png",
+    "rpc": "https://full-node.testnet-1.coreum.dev:26657",
+    "rest": "https://full-node.testnet-1.coreum.dev:1317",
+    "nodeProvider": {
+      "name": "Coreum Full Node",
+      "website":"https://www.coreum.com/",
+      "email": "hello@coreum.com"
+    },
+    "bip44": {
+      "coinType": 990
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "testcore",
+      "bech32PrefixAccPub": "testcorepub",
+      "bech32PrefixValAddr": "testcorevaloper",
+      "bech32PrefixValPub": "testcorevaloperpub",
+      "bech32PrefixConsAddr": "testcorevalcons",
+      "bech32PrefixConsPub": "testcorevalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "TESTCORE",
+        "coinMinimalDenom": "utestcore",
+        "coinDecimals": 6,
+        "coinGeckoId": "coreum"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "TESTCORE",
+        "coinMinimalDenom": "utestcore",
+        "coinDecimals": 6,
+        "coinGeckoId": "coreum",
+        "gasPriceStep": {
+          "low": 0.0625,
+          "average": 0.0625,
+          "high": 0.0625
+        }
+      }
+    ],
+    "stakeCurrency": {
+      "coinDenom": "TESTCORE",
+      "coinMinimalDenom": "utestcore",
+      "coinDecimals": 6,
+      "coinGeckoId": "coreum"
+    },
+    "features": [
+      "cosmwasm"
+    ]
+  }
+  

@@ -1,4 +1,8 @@
 {
+  "chainId": "provider",
+  "chainName": "Cosmoshub Provider Testnet",
+  "rest": "https://rest.provider-sentry-01.ics-testnet.polypore.xyz",
+  "rpc": "https://rpc.provider-sentry-01.ics-testnet.polypore.xyz",
   "bech32Config": {
     "bech32PrefixAccAddr": "cosmos",
     "bech32PrefixAccPub": "cosmospub",
@@ -10,8 +14,6 @@
   "bip44": {
     "coinType": 118
   },
-  "chainId": "provider",
-  "chainName": "Cosmoshub Provider Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/provider/chain.png",
   "currencies": [
     {
@@ -37,18 +39,11 @@
       }
     }
   ],
-  "nodeProvider": {
-    "name": "Quicksilver",
-    "email": "chalabi@chandrastation.com"
-  },
-  "rest": "https://lcd.provider.test.quicksilver.zone",
-  "rpc": "https://rpc.provider.test.quicksilver.zone",
   "stakeCurrency": {
     "coinDecimals": 6,
     "coinDenom": "ATOM",
 
     "coinMinimalDenom": "uatom",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/provider/uatom.png"
-  },
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/cosmos-hub"
+  }
 }

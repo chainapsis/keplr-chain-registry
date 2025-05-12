@@ -1,0 +1,56 @@
+{
+  "rpc": "https://cnhostables_mainnet_rpc.chain.whenmoonwhenlambo.money",
+  "rest": "https://cnhostables_mainnet_api.chain.whenmoonwhenlambo.money",
+  "nodeProvider": {
+    "name": "CNHO",
+    "email": "pr@cnho.io",
+    "website":"https://cnho.io/"
+  },
+  "chainId": "cnho_stables-1",
+  "chainName": "CNHO Stables",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cnho_stables/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "CNHO",
+    "coinMinimalDenom": "ucnho",
+    "coinDecimals": 6,
+ 
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cnho_stables/chain.png"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "cnho",
+    "bech32PrefixAccPub": "cnhopub",
+    "bech32PrefixValAddr": "cnhovaloper",
+    "bech32PrefixValPub": "cnhovaloperpub",
+    "bech32PrefixConsAddr": "cnhovalcons",
+    "bech32PrefixConsPub": "cnhovalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "CNHO",
+      "coinMinimalDenom": "ucnho",
+      "coinDecimals": 6,
+ 
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cnho_stables/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "CNHO",
+      "coinMinimalDenom": "ucnho",
+      "coinDecimals": 6,
+ 
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cnho_stables/chain.png",
+      "gasPriceStep": {
+        "low": 0.000005,
+        "average": 0.00001,
+        "high": 0.025
+      }
+    }
+  ],
+  "features": [
+	
+  ]
+}

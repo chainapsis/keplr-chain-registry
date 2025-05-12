@@ -1,0 +1,55 @@
+{
+  "rpc": "https://rpc.birdee-2.tucana.zone",
+  "rest": "https://lcd.birdee-2.tucana.zone",
+  "chainId": "tucana_712-1",
+  "chainName": "Tucana Testnet",
+  "evm": {
+    "chainId": 712,
+    "rpc": "https://evm-rpc.birdee-2.tucana.zone"
+  },
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tucana_712/chain.png",
+  "nodeProvider": {
+    "name": "Tucana",
+    "email": "infra@tucana.zone",
+    "website":"https://tucana.zone"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "tuc",
+    "bech32PrefixAccPub": "tucpub",
+    "bech32PrefixValAddr": "tucvaloper",
+    "bech32PrefixValPub": "tucvaloperpub",
+    "bech32PrefixConsAddr": "tucvalcons",
+    "bech32PrefixConsPub": "tucvalconspub"
+  },
+  "stakeCurrency": {
+    "coinDecimals": 18,
+    "coinDenom": "TUC",
+    "coinMinimalDenom": "atuc",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tucana_712/chain.png"
+  },
+  "currencies": [
+    {
+      "coinDecimals": 18,
+      "coinDenom": "TUC",
+      "coinMinimalDenom": "atuc",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tucana_712/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "TUC",
+      "coinMinimalDenom": "atuc",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tucana_712/chain.png",
+      "gasPriceStep": {
+        "low": 5000000000,
+        "average": 25000000000,
+        "high": 30000000000
+      }
+    }
+  ],
+  "features": ["eth-address-gen", "eth-key-sign"]
+}

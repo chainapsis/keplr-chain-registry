@@ -1,0 +1,32 @@
+{
+  "rpc": "https://evmrpc-testnet.0g.ai",
+  "websocket": "wss://evmrpc-testnet.0g.ai",
+  "nodeProvider": {
+    "name": "0G Network",
+    "email": "contact@0g.ai",
+    "website": "https://0g.ai"
+  },
+  "chainId": "eip155:16600",
+  "chainName": "0G Newton Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:16600/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "A0GI",
+      "coinMinimalDenom": "a0gi-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:16600/token.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "A0GI",
+      "coinMinimalDenom": "a0gi-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:16600/token.png"
+    }
+  ],
+  "features": []
+} 

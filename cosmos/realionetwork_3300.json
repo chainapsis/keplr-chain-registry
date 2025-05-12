@@ -1,0 +1,68 @@
+{
+  "rpc": "https://rpc-dev.realio.network/",
+  "rest": "https://api-dev.realio.network/",
+  "nodeProvider": {
+    "name": "Realio",
+    "email": "devops@realio.fund",
+    "website": "https://realio.network"
+  },
+  "chainId": "realionetwork_3300-3",
+  "chainName": "Realio Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3300/ario.png",
+  "stakeCurrency": {
+    "coinDenom": "RIO",
+    "coinMinimalDenom": "ario",
+    "coinDecimals": 18,
+    "coinGeckoId": "realio-network",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3300/ario.png"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "realio",
+    "bech32PrefixAccPub": "realiopub",
+    "bech32PrefixValAddr": "realiovaloper",
+    "bech32PrefixValPub": "realiovaloperpub",
+    "bech32PrefixConsAddr": "realiovalcons",
+    "bech32PrefixConsPub": "realiovalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "RIO",
+      "coinMinimalDenom": "ario",
+      "coinDecimals": 18,
+      "coinGeckoId": "realio-network",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3300/ario.png"
+    },
+    {
+      "coinDenom": "RST",
+      "coinMinimalDenom": "arst",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3300/arst.png"
+    },
+    {
+      "coinDenom": "LMX",
+      "coinMinimalDenom": "almx",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3300/almx.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "RIO",
+      "coinMinimalDenom": "ario",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3300/ario.png",
+      "gasPriceStep": {
+        "low": 4000000000,
+        "average": 5000000000,
+        "high": 8000000000
+      }
+    }
+  ],
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ]
+}

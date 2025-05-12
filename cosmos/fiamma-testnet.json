@@ -1,0 +1,52 @@
+{
+    "chainId": "fiamma-testnet-1",
+    "chainName": "Fiamma Testnet",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fiamma-testnet/chain.png",
+    "rpc": "https://testnet-rpc.fiammachain.io",
+    "rest": "https://testnet-api.fiammachain.io",
+    "nodeProvider": {
+      "name": "Fiammachain",
+      "email": "contact@fiammachain.io",
+      "website": "https://fiammachain.io/"
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "fiamma",
+      "bech32PrefixAccPub": "fiammapub",
+      "bech32PrefixValAddr": "fiammavaloper",
+      "bech32PrefixValPub": "fiammavaloperpub",
+      "bech32PrefixConsAddr": "fiammavalcons",
+      "bech32PrefixConsPub": "fiammavalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "FIA",
+        "coinMinimalDenom": "ufia",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fiamma-testnet/chain.png"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "FIA",
+        "coinMinimalDenom": "ufia",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fiamma-testnet/chain.png",
+        "gasPriceStep": {
+          "low": 0.01,
+          "average": 0.02,
+          "high": 0.1
+        }
+      }
+    ],
+    "stakeCurrency": {
+      "coinDenom": "FIA",
+      "coinMinimalDenom": "ufia",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fiamma-testnet/chain.png"
+    },
+    "features": ["cosmwasm"]
+  }
+  

@@ -7,7 +7,7 @@
   "nodeProvider": {
     "name": "Planq",
     "email": "info@planq.network",
-    "website":"https://planq.network/"
+    "website": "https://planq.network/"
   },
   "walletUrl": "https://explorer.tcnetwork.io/planq/",
   "walletUrlForStaking": "https://ping.pub/planq/staking",
@@ -27,7 +27,38 @@
       "coinDenom": "PLQ",
       "coinMinimalDenom": "aplanq",
       "coinDecimals": 18,
-      "coinGeckoId": "planq"
+      "coinGeckoId": "planq",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/planq_7070/aplanq.png"
+    },
+    {
+      "coinDenom": "ANUBI",
+      "coinMinimalDenom": "erc20/0xf630b96760b91f6fcbe8b3c24f2786aca3d03648",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/planq_7070/anubis.png"
+    },
+    {
+      "coinDenom": "ATC",
+      "coinMinimalDenom": "erc20/0x8f4d86aba1b47832c46f11e0ffd0f7ada4498345",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/planq_7070/atc.png"
+    },
+    {
+      "coinDenom": "aUSD",
+      "coinMinimalDenom": "erc20/0xa2871b267a7d888f830251f6b4d9d3dff184995a",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/planq_7070/ausd.png"
+    },
+    {
+      "coinDenom": "aEUR",
+      "coinMinimalDenom": "erc20/0xd5be2932febd73019ba1d5d97dfc35e1ab09e501",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/planq_7070/aeur.png"
+    },
+    {
+      "coinDenom": "aBRL",
+      "coinMinimalDenom": "erc20/0x240642c6f69878a0b199065f25edf82023bc59ce",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/planq_7070/abrl.png"
     }
   ],
   "feeCurrencies": [
@@ -36,6 +67,7 @@
       "coinMinimalDenom": "aplanq",
       "coinDecimals": 18,
       "coinGeckoId": "planq",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/planq_7070/aplanq.png",
       "gasPriceStep": {
         "low": 30000000000,
         "average": 35000000000,
@@ -47,10 +79,8 @@
     "coinDenom": "PLQ",
     "coinMinimalDenom": "aplanq",
     "coinDecimals": 18,
-    "coinGeckoId": "planq"
+    "coinGeckoId": "planq",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/planq_7070/aplanq.png"
   },
-  "features": [
-    "eth-address-gen",
-    "eth-key-sign"
-  ]
+  "features": ["eth-address-gen", "eth-key-sign", "force-enable-evm-ledger"]
 }

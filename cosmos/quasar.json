@@ -8,7 +8,6 @@
     "coinDenom": "QSR",
     "coinMinimalDenom": "uqsr",
     "coinDecimals": 6,
-    "coinGeckoId": "quasar-2",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/quasar/uqsr.png"
   },
   "walletUrl": "https://wallet.keplr.app",
@@ -29,7 +28,6 @@
       "coinDenom": "QSR",
       "coinMinimalDenom": "uqsr",
       "coinDecimals": 6,
-      "coinGeckoId": "quasar-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/quasar/uqsr.png"
     }
   ],
@@ -38,7 +36,6 @@
       "coinDenom": "QSR",
       "coinMinimalDenom": "uqsr",
       "coinDecimals": 6,
-      "coinGeckoId": "quasar-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/quasar/uqsr.png",
       "gasPriceStep": {
         "low": 0.1,

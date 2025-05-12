@@ -1,0 +1,32 @@
+{
+  "rpc": "https://evm-rpc.testnet-1.nibiru.fi",
+  "websocket": "wss://evm-rpc-ws.testnet-1.nibiru.fi",
+  "nodeProvider": {
+    "name": "Nibiru",
+    "email": "hello@nibiru.fi",
+    "website": "https://nibiru.fi"
+  },
+  "chainId": "eip155:7210",
+  "chainName": "nibiru-testnet1",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:7210/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "NIBI",
+      "coinMinimalDenom": "NIBI",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:7210/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "NIBI",
+      "coinMinimalDenom": "NIBI",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:7210/chain.png"
+    }
+  ],
+  "features": []
+}

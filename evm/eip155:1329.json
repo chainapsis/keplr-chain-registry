@@ -1,0 +1,37 @@
+{
+  "rpc": "https://evm-rpc.sei-apis.com",
+  "nodeProvider": {
+    "name": "Sei",
+    "email": "ecosystem@seinetwork.io",
+    "website": "https://sei.io"
+  },
+  "chainId": "eip155:1329",
+  "chainName": "Sei EVM",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1329/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "stakeCurrency": {
+    "coinDenom": "SEI",
+    "coinMinimalDenom": "sei-native",
+    "coinDecimals": 18,
+    "coinGeckoId": "sei-network"
+  },
+  "currencies": [
+    {
+      "coinDenom": "SEI",
+      "coinMinimalDenom": "sei-native",
+      "coinDecimals": 18,
+      "coinGeckoId": "sei-network"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "SEI",
+      "coinMinimalDenom": "sei-native",
+      "coinDecimals": 18,
+      "coinGeckoId": "sei-network"
+    }
+  ],
+  "features": []
+}

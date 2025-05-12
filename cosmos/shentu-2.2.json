@@ -1,6 +1,11 @@
 {
-  "rpc": "https://rpc-certik.keplr.app",
-  "rest": "https://lcd-certik.keplr.app",
+  "rpc": "https://rpc.shentu.org",
+  "rest": "https://rest.shentu.org",
+  "nodeProvider": {
+    "name": "Shentu",
+    "discord": "https://discord.com/invite/6nfAk956NH",
+    "website": "https://www.shentu.org/"
+  },
   "chainId": "shentu-2.2",
   "chainName": "Shentu",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shentu-2.2/chain.png",
@@ -11,8 +16,6 @@
     "coinGeckoId": "certik",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shentu-2.2/uctk.png"
   },
-  "walletUrl": "https://wallet.keplr.app/chains/shentu",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/shentu",
   "bip44": {
     "coinType": 118
   },

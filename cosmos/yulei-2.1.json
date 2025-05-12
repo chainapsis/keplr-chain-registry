@@ -1,0 +1,46 @@
+{
+  "rpc": "https://yulei-rpc.shentu.org",
+  "rest": "https://yulei-rest.shentu.org",
+  "nodeProvider": {
+    "name": "Shentu",
+    "discord": "https://discord.com/invite/6nfAk956NH",
+    "website": "https://www.shentu.org/"
+  },
+  "chainId": "yulei-2.1",
+  "chainName": "Shentu Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/yulei-2.1/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "CTK",
+    "coinMinimalDenom": "uctk",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/yulei-2.1/uctk.png"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "shentu",
+    "bech32PrefixAccPub": "shentupub",
+    "bech32PrefixValAddr": "shentuvaloper",
+    "bech32PrefixValPub": "shentuvaloperpub",
+    "bech32PrefixConsAddr": "shentuvalcons",
+    "bech32PrefixConsPub": "shentuvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "CTK",
+      "coinMinimalDenom": "uctk",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/yulei-2.1/uctk.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "CTK",
+      "coinMinimalDenom": "uctk",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/yulei-2.1/uctk.png"
+    }
+  ],
+  "features": []
+}

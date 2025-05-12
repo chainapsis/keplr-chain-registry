@@ -1,0 +1,52 @@
+{
+    "rpc": "https://testnet-v2-rpc.allingaming.xyz",
+    "rest": "https://testnet-v2-rest.allingaming.xyz",
+    "chainId": "allingaming_229036-1",
+    "chainName": "Allingaming Testnet",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/allingaming_229036/chain.png",
+    "stakeCurrency": {
+        "coinDenom": "ALLIN",
+        "coinMinimalDenom": "aallin",
+        "coinDecimals": 18
+    },
+    "nodeProvider": {
+        "name": "ALLIN Gaming Testnet",
+        "email": "shankhesh@allingaming.xyz",
+        "website": "https://allingaming.xyz"
+    },
+    "walletUrlForStaking": "https://playground.dymension.xyz/rollapps/allingaming_229036-1/staking",
+    "bip44": {
+        "coinType": 60
+    },
+    "bech32Config": {
+        "bech32PrefixAccAddr": "allin",
+        "bech32PrefixAccPub": "allinpub",
+        "bech32PrefixValAddr": "allinvaloper",
+        "bech32PrefixValPub": "allinvaloperpub",
+        "bech32PrefixConsAddr": "allinvalcons",
+        "bech32PrefixConsPub": "allinvalconspub"
+    },
+    "currencies": [
+        {
+            "coinDenom": "ALLIN",
+            "coinMinimalDenom": "aallin",
+            "coinDecimals": 18
+        }
+    ],
+    "feeCurrencies": [
+        {
+            "coinDenom": "DYM",
+            "coinMinimalDenom": "ibc/FECACB927EB3102CCCB240FFB3B6FCCEEB8D944C6FEA8DFF079650FEFF59781D",
+            "coinDecimals": 18,
+            "gasPriceStep": {
+                "average": 2000000000,
+                "high": 3000000000,
+                "low": 1000000000
+            }
+        }
+    ],
+    "features": [
+        "eth-address-gen",
+        "eth-key-sign"
+    ]
+}

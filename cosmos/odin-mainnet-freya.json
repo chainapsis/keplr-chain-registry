@@ -77,5 +77,6 @@
     "coinMinimalDenom": "loki",
     "coinDecimals": 6,
     "coinGeckoId": "odin-protocol"
-  }
+  },
+  "features": ["cosmwasm"]
 }

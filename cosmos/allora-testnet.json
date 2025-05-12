@@ -1,0 +1,51 @@
+{
+  "chainId": "allora-testnet-1",
+  "chainName": "Allora Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/allora-testnet/chain.png",
+  "rpc": "https://allora-rpc.testnet.allora.network",
+  "rest": "https://allora-api.testnet.allora.network",
+  "nodeProvider": {
+    "name": "Allora",
+    "email": "validator@allora.network",
+    "website": "https://www.allora.network/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "allo",
+    "bech32PrefixAccPub": "allopub",
+    "bech32PrefixValAddr": "allovaloper",
+    "bech32PrefixValPub": "allovaloperpub",
+    "bech32PrefixConsAddr": "allovalcons",
+    "bech32PrefixConsPub": "allovalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "ALLO",
+      "coinMinimalDenom": "uallo",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/allora-testnet/uallo.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ALLO",
+      "coinMinimalDenom": "uallo",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/allora-testnet/uallo.png",
+      "gasPriceStep": {
+        "low": 10,
+        "average": 10,
+        "high": 12
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "ALLO",
+      "coinMinimalDenom": "uallo",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/allora-testnet/uallo.png"
+  },
+  "features": []
+}
