@@ -36,7 +36,7 @@
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xion-testnet/chain.png",
       "gasPriceStep": {
-        "low": 0.0005,
+        "low": 0.001,
         "average": 0.001,
         "high": 0.002
       }
