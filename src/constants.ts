@@ -21,7 +21,6 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "quicksilver",
   "columbus",
   "phoenix",
-  "quasar",
   "noble",
   "injective",
   "omniflixhub",
