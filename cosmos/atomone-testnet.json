@@ -36,7 +36,7 @@
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "ATOM",
+      "coinDenom": "ATONE",
       "coinMinimalDenom": "uatone",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/atomone-testnet/atone.png",
