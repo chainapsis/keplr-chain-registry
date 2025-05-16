@@ -220,6 +220,13 @@
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/factory/osmo1gzcz4anh88fz3vanx0842gsa3y8jcvck3qw90e/allin.png"
     }
+    {
+      "coinDenom": "STLTH",
+      "coinMinimalDenom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/stlth",
+      "coinDecimals": 6,
+      "coinGeckoId": "stlth",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/stealth.jpg"
+    }
   ],
   "feeCurrencies": [
     {
