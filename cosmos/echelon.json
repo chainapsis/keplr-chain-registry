@@ -37,8 +37,12 @@
       }
     }
   ],
-  "nodeProvider": {
-    "name": "Echelon",
-    "website": "https://echelon.market/"
-  }
+  "features": [
+    "force-enable-evm-ledger",
+    "eth-address-gen",
+    "eth-key-sign",
+    "eth-secp256k1-initia",
+    "evm-ledger-sign-plain-json",
+    "cosmwasm"
+  ]
 }
