@@ -44,5 +44,10 @@
     "eth-secp256k1-initia",
     "evm-ledger-sign-plain-json",
     "cosmwasm"
-  ]
+  ],
+  "nodeProvider": {
+    "name": "Echelon",
+    "email": "info@echelon.market",
+    "website": "https://echelon.market/"
+  }
 }
