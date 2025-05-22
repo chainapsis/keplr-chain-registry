@@ -24,10 +24,10 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/interwoven/chain.png"
     },
     {
-      "coinDenom": "MILK",
-      "coinMinimalDenom": "ibc/39B55F22F15FB09189045A993817CDF0D388D3FF8773B2E22B6DE7B222636EEA",
+      "coinDenom": "milkINIT",
+      "coinMinimalDenom": "factory/init17p9rzwnnfxcjp32un9ug7yhhzgtkhvl9jfksztgw5uh69wac2pgsj6uxxj/umilkINIT",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/umilk.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/moo/milkinit.png"
     }
   ],
   "feeCurrencies": [
