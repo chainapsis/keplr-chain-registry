@@ -18,6 +18,24 @@
       "coinMinimalDenom": "ethereum-sepolia-native",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:11155111/ethereum-sepolia-native.png"
+    },
+    {
+      "coinDenom": "M",
+      "coinMinimalDenom": "erc20:0x866a2bf4e572cbcf37d5071a7a58503bfb36be1b",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:11155111/erc20/0x866a2bf4e572cbcf37d5071a7a58503bfb36be1b.png"
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "erc20:0x1c7d4b196cb0c7b01d743fbc6116a902379c7238",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:11155111/erc20/0x1c7d4b196cb0c7b01d743fbc6116a902379c7238.png"
+    },
+    {
+      "coinDenom": "wM",
+      "coinMinimalDenom": "erc20:0x437cc33344a0b27a429f795ff6b469c72698b291",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:11155111/erc20/0x437cc33344a0b27a429f795ff6b469c72698b291.png"
     }
   ],
   "feeCurrencies": [
