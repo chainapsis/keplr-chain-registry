@@ -1,0 +1,32 @@
+{
+  "rpc": "https://testnet.aurora.dev",
+  "websocket": "wss://testnet.aurora.dev",
+  "nodeProvider": {
+    "name": "Aurora Labs",
+    "website": "https://auroralabs.dev/",
+    "discord": "https://discord.gg/auroralabs"
+  },
+  "chainId": "eip155:1313161555",
+  "chainName": "Aurora Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1313161555/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "ETH",
+      "coinMinimalDenom": "aurora-testnet-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1313161555/aurora-testnet-native.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ETH",
+      "coinMinimalDenom": "aurora-testnet-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1313161555/aurora-testnet-native.png"
+    }
+  ],
+  "features": []
+}
