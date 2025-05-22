@@ -19,7 +19,6 @@
       "coinDenom": "M",
       "coinMinimalDenom": "erc20:0x866a2bf4e572cbcf37d5071a7a58503bfb36be1b",
       "coinDecimals": 6,
-      "coinGeckoId": "",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/erc20/0x866a2bf4e572cbcf37d5071a7a58503bfb36be1b.png"
     },
     {
