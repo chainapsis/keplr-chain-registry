@@ -27,7 +27,7 @@
       "coinMinimalDenom": "erc20:0xad13bce42394add02e6c215a40e582309b7975c7",
       "coinDecimals": 6,
       "coinGeckoId": "kyve-network",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kyve/ukyve.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:8453/erc20/0xad13bce42394add02e6c215a40e582309b7975c7.png"
     }
   ],
   "feeCurrencies": [
