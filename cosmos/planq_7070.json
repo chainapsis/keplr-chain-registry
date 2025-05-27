@@ -4,6 +4,11 @@
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/planq_7070/chain.png",
   "rpc": "https://rpc.planq.network",
   "rest": "https://rest.planq.network",
+  "evm": {
+    "chainId": 7070,
+    "rpc": "https://evm-rpc.planq.network",
+    "websocket": "wss://evm-rpc-ws.planq.network"
+  },
   "nodeProvider": {
     "name": "Planq",
     "email": "info@planq.network",
@@ -32,31 +37,31 @@
     },
     {
       "coinDenom": "ANUBI",
-      "coinMinimalDenom": "erc20/0xf630b96760b91f6fcbe8b3c24f2786aca3d03648",
+      "coinMinimalDenom": "erc20:0xf630b96760b91f6fcbe8b3c24f2786aca3d03648",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/planq_7070/anubis.png"
     },
     {
       "coinDenom": "ATC",
-      "coinMinimalDenom": "erc20/0x8f4d86aba1b47832c46f11e0ffd0f7ada4498345",
+      "coinMinimalDenom": "erc20:0x8f4d86aba1b47832c46f11e0ffd0f7ada4498345",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/planq_7070/atc.png"
     },
     {
       "coinDenom": "aUSD",
-      "coinMinimalDenom": "erc20/0xa2871b267a7d888f830251f6b4d9d3dff184995a",
+      "coinMinimalDenom": "erc20:0xa2871b267a7d888f830251f6b4d9d3dff184995a",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/planq_7070/ausd.png"
     },
     {
       "coinDenom": "aEUR",
-      "coinMinimalDenom": "erc20/0xd5be2932febd73019ba1d5d97dfc35e1ab09e501",
+      "coinMinimalDenom": "erc20:0xd5be2932febd73019ba1d5d97dfc35e1ab09e501",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/planq_7070/aeur.png"
     },
     {
       "coinDenom": "aBRL",
-      "coinMinimalDenom": "erc20/0x240642c6f69878a0b199065f25edf82023bc59ce",
+      "coinMinimalDenom": "erc20:0x240642c6f69878a0b199065f25edf82023bc59ce",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/planq_7070/abrl.png"
     }
