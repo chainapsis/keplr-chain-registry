@@ -29,11 +29,11 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18888/tkx.png"
     },
     {
-      "base": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
-      "symbol": "USDC.noble",
-      "exponent": 6,
-      "coingecko_id": "usdc",
-      "logo": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/uusdc.png"
+      "coinDenom": "USDC.noble",
+      "coinMinimalDenom": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
+      "coinDecimals": 6,
+      "coinGeckoId": "usdc",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/uusdc.png"
     },
     {
       "coinDenom": "BTC",
