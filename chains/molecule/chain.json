@@ -1,0 +1,28 @@
+{
+  "chain_name": "MoleculeAI",
+  "chain_id": "molecule",
+  "network_type": "mainnet",
+  "status": "live",
+  "bech32_prefix": "molecule",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.moleculeai.tech",
+        "provider": "MoleculeAI"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.moleculeai.tech", 
+        "provider": "MoleculeAI"
+      }
+    ]
+  },
+  "main_currency": {
+    "coin_denoms": ["MOLAI"],
+    "coin_minimal_denom": "molai",
+    "coin_decimals": 6
+  },
+  "features": ["stargate", "cosmwasm"]
+}
+
