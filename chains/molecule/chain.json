@@ -4,6 +4,7 @@
   "network_type": "mainnet",
   "status": "live",
   "bech32_prefix": "molecule",
+  "chain_symbol_image_url": "https://raw.githubusercontent.com/CryptoAlty/keplr-chain-registry/main/images/molecule/chain.png",
   "apis": {
     "rpc": [
       {
@@ -13,16 +14,21 @@
     ],
     "rest": [
       {
-        "address": "https://api.moleculeai.tech", 
+        "address": "https://api.moleculeai.tech",
         "provider": "MoleculeAI"
       }
     ]
   },
   "main_currency": {
-    "coin_denoms": ["MOLAI"],
+    "coin_denoms": [
+      "MOLAI"
+    ],
     "coin_minimal_denom": "molai",
     "coin_decimals": 6
   },
-  "features": ["stargate", "cosmwasm"]
+  "features": [
+    "stargate",
+    "cosmwasm"
+  ]
 }
 
