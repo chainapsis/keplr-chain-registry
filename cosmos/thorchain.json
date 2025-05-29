@@ -27,7 +27,6 @@
       "coinDenom": "TCY",
       "coinMinimalDenom": "tcy",
       "coinDecimals": 8,
-      "coinGeckoId": "tcy",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/tcy.png"
     },
     {
