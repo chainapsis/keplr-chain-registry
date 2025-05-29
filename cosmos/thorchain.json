@@ -33,7 +33,6 @@
       "coinDenom": "RUJI",
       "coinMinimalDenom": "ruji",
       "coinDecimals": 8,
-      "coinGeckoId": "rujira",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/ruji.png"
     },
     {
