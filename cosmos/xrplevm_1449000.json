@@ -15,6 +15,10 @@
       "bech32PrefixConsAddr": "ethmvalcons",
       "bech32PrefixConsPub": "ethmvalcons"
     },
+    "evm": {
+      "chainId": 1449000,
+      "rpc": "https://json-rpc.xrpl.cumulo.com.es"
+    },
     "nodeProvider": {
       "name": "Peersyst",
       "email": "info@peersyst.com",
