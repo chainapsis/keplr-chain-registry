@@ -38,9 +38,9 @@
         "coinMinimalDenom": "umfx",
         "coinDecimals": 6,
         "gasPriceStep": {
-          "low": 0.5,
-          "average": 1.0,
-          "high": 5.0
+          "low": 1.05,
+          "average": 1.1,
+          "high": 3.0
         }
       }
     ],
