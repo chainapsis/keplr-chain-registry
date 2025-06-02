@@ -7,7 +7,7 @@
     "name": "Injective",
     "email": "contact@injectivelabs.org"
   },
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective-888/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective-888/inj.png",
   "bech32Config": {
     "bech32PrefixAccPub": "injpub",
     "bech32PrefixValPub": "injvaloperpub",

@@ -5,9 +5,9 @@
   "chainName": "Hippo Protocol Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/hippo-protocol-testnet/chain.png",
   "nodeProvider": {
-    "name": "Hippocrat",
-    "email": "support@hippocrat.io",
-    "website": "https://hippocrat.io/"
+    "name": "Hippo Protocol",
+    "email": "support@hippoprotocol.ai",
+    "website": "https://hippoprotocol.ai/"
   },
   "bip44": {
     "coinType": 0

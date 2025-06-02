@@ -47,5 +47,5 @@
     "coinDecimals": 6,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/union-testnet/chain.png"
   },
-  "features": []
+  "features": ["cosmwasm"]
 }

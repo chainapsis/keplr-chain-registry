@@ -1,18 +1,15 @@
 {
-  "rpc": "https://rpc.mainnet.milkyway.zone",
-  "rest": "https://lcd.mainnet.milkyway.zone",
+  "rpc": "https://rpc-milkyway.keplr.app",
+  "rest": "https://lcd-milkyway.keplr.app",
   "chainId": "milkyway",
   "chainName": "MilkyWay",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/chain.png",
-  "nodeProvider": {
-    "name": "MilkyWay Labs",
-    "email": "development@milkyway.zone"
-  },
   "stakeCurrency": {
     "coinDenom": "MILK",
     "coinMinimalDenom": "umilk",
     "coinDecimals": 6,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/umilk.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/umilk.png",
+    "coinGeckoId": "milkyway-2"
   },
   "bip44": {
     "coinType": 118
@@ -30,10 +27,29 @@
       "coinDenom": "MILK",
       "coinMinimalDenom": "umilk",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/umilk.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/umilk.png",
+      "coinGeckoId": "milkyway-2"
+    },
+    {
+      "coinDenom": "milkBABY",
+      "coinMinimalDenom": "factory/milk1qg5ega6dykkxc307y25pecuufrjkxkaggkkxh7nad0vhyhtuhw3ssgcye4/umilkBBN",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/milkbaby.png"
     }
   ],
   "feeCurrencies": [
+    {
+      "coinDenom": "MILK",
+      "coinMinimalDenom": "umilk",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/milk.png",
+      "coinGeckoId": "milkyway-2",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.015,
+        "high": 0.02
+      }
+    },
     {
       "coinDenom": "TIA",
       "coinMinimalDenom": "ibc/F1183DB3D428313A6FD329DF18219F9D6B83257D07D292EA9EC1D877E89EC2B0",
@@ -41,9 +57,9 @@
       "coinGeckoId": "celestia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/utia.png",
       "gasPriceStep": {
-        "low": 0.00002,
-        "average": 0.000025,
-        "high": 0.00003
+        "low": 0.002,
+        "average": 0.0025,
+        "high": 0.003
       }
     },
     {
@@ -53,9 +69,9 @@
       "coinGeckoId": "celestia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/utia.png",
       "gasPriceStep": {
-        "low": 0.00002,
-        "average": 0.000025,
-        "high": 0.00003
+        "low": 0.002,
+        "average": 0.0025,
+        "high": 0.003
       }
     },
     {
@@ -65,9 +81,9 @@
       "coinGeckoId": "milkyway-staked-tia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/milktia.png",
       "gasPriceStep": {
-        "low": 0.00002,
-        "average": 0.000025,
-        "high": 0.00003
+        "low": 0.002,
+        "average": 0.0025,
+        "high": 0.003
       }
     },
     {
@@ -77,9 +93,9 @@
       "coinGeckoId": "stride-staked-tia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/sttia.png",
       "gasPriceStep": {
-        "low": 0.00002,
-        "average": 0.000025,
-        "high": 0.00003
+        "low": 0.002,
+        "average": 0.0025,
+        "high": 0.003
       }
     },
     {
@@ -89,9 +105,9 @@
       "coinGeckoId": "drop-staked-tia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/dtia.png",
       "gasPriceStep": {
-        "low": 0.00002,
-        "average": 0.000025,
-        "high": 0.00003
+        "low": 0.002,
+        "average": 0.0025,
+        "high": 0.003
       }
     },
     {
@@ -101,13 +117,33 @@
       "coinGeckoId": "usd-coin",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/uusdc.png",
       "gasPriceStep": {
-        "low": 0.00002,
-        "average": 0.000025,
-        "high": 0.00003
+        "low": 0.002,
+        "average": 0.0025,
+        "high": 0.003
+      }
+    },
+    {
+      "coinDenom": "milkBABY",
+      "coinMinimalDenom": "factory/milk1qg5ega6dykkxc307y25pecuufrjkxkaggkkxh7nad0vhyhtuhw3ssgcye4/umilkBBN",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/milkbaby.png",
+      "gasPriceStep": {
+        "low": 0.002,
+        "average": 0.0025,
+        "high": 0.003
+      }
+    },
+    {
+      "coinDenom": "BABY",
+      "coinMinimalDenom": "ibc/B0BEE773CEF718E8B6D2892A27D57FEFB00BD8B2E698367B5CC96A4F36148726",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/baby.png",
+      "gasPriceStep": {
+        "low": 0.002,
+        "average": 0.0025,
+        "high": 0.003
       }
     }
   ],
-  "features": [
-    "cosmwasm"
-  ]
+  "features": ["cosmwasm"]
 }

@@ -38,9 +38,9 @@
       "coinGeckoId": "zenrock",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/diamond/chain.png",
       "gasPriceStep": {
-        "low": 0.5,
-        "average": 0.55,
-        "high": 0.6
+        "low": 2.5,
+        "average": 2.55,
+        "high": 2.6
       }
     }
   ],

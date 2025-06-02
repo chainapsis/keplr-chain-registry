@@ -22,6 +22,38 @@
       "coinDecimals": 8,
       "coinGeckoId": "thorchain",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/rune.png"
+    },
+    {
+      "coinDenom": "TCY",
+      "coinMinimalDenom": "tcy",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/tcy.png"
+    },
+    {
+      "coinDenom": "RUJI",
+      "coinMinimalDenom": "ruji",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/ruji.png"
+    },
+    {
+      "coinDenom": "NAMI",
+      "coinMinimalDenom": "nami",
+      "coinDecimals": 8,
+      "coinGeckoId": "nami-protocol",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/nami.png"
+    },
+    {
+      "coinDenom": "LQDY",
+      "coinMinimalDenom": "lqdy",
+      "coinDecimals": 8,
+      "coinGeckoId": "mantadao",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/lqdy.png"
+    },
+    {
+      "coinDenom": "AUTO",
+      "coinMinimalDenom": "auto",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/auto.png"
     }
   ],
   "feeCurrencies": [
@@ -38,5 +70,5 @@
       }
     }
   ],
-  "features": []
+  "features": ["cosmwasm"]
 }

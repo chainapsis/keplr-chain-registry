@@ -1,0 +1,68 @@
+{
+  "rpc": "https://atomone-testnet-1-rpc.allinbits.services",
+  "rest": "https://atomone-testnet-1-api.allinbits.services",
+  "chainId": "atomone-testnet-1",
+  "chainName": "AtomOne Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/atomone-testnet/atone.png",
+  "nodeProvider": {
+    "name": "AllInBits",
+    "email": "security@allinbits.com",
+    "website": "https://allinbits.com/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "atone",
+    "bech32PrefixAccPub": "atonepub",
+    "bech32PrefixValAddr": "atonevaloper",
+    "bech32PrefixValPub": "atonevaloperpub",
+    "bech32PrefixConsAddr": "atonevalcons",
+    "bech32PrefixConsPub": "atonevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "ATONE",
+      "coinMinimalDenom": "uatone",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/atomone-testnet/atone.png"
+    },
+    {
+      "coinDenom": "PHOTON",
+      "coinMinimalDenom": "uphoton",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/atomone-testnet/photon.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ATONE",
+      "coinMinimalDenom": "uatone",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/atomone-testnet/atone.png",
+      "gasPriceStep": {
+        "low": 0.025,
+        "average": 0.04,
+        "high": 0.08
+      }
+    },
+    {
+      "coinDenom": "PHOTON",
+      "coinMinimalDenom": "uphoton",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/atomone-testnet/photon.png",
+      "gasPriceStep": {
+        "low": 0.225,
+        "average": 0.36,
+        "high": 0.72
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "ATONE",
+    "coinMinimalDenom": "uatone",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/atomone-testnet/atone.png"
+  },
+  "features": []
+}

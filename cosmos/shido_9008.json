@@ -1,11 +1,11 @@
 {
-  "rpc": "https://rpc-delta-tendermint.shidoscan.com",
-  "rest": "https://rpc-delta-swagger.shidoscan.com",
+  "rpc": "https://rpc.shidoscan.net",
+  "rest": "https://api.shidoscan.net",
   "chainId": "shido_9008-1",
   "chainName": "Shido",
   "evm": {
     "chainId": 9008,
-    "rpc": "https://rpc-delta-nodes.shidoscan.com"
+    "rpc": "https://evm.shidoscan.net"
   },
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shido_9008/chain.png",
   "stakeCurrency": {
@@ -48,9 +48,9 @@
       "coinGeckoId": "shido-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shido_9008/shido.png",
       "gasPriceStep": {
-        "low": 80000000000,
-        "average": 80000000000,
-        "high": 80000000000
+        "low": 182855642857142,
+        "average": 182855642857142,
+        "high": 182855642857142
       }
     }
   ],

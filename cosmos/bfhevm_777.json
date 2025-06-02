@@ -1,0 +1,49 @@
+{
+    "rpc": "https://rpc-bfhevm.xyz:8443",
+    "rest": "https://rest-testnet-bfhevm.xyz:443",
+    "chainId": "bfhevm_777-1",
+    "chainName": "BFHEVM Testnet",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bfhevm_777/bfhevm.png",
+    "nodeProvider": {
+      "name": "BFH Fintech Innovations Ltd.",
+      "website":"https://bfhaltruistic.com/",
+      "email": "monk@bfhaltruistic.com"
+    },
+    "stakeCurrency": {
+      "coinDenom": "BFH",
+      "coinMinimalDenom": "abfh",
+      "coinDecimals": 18
+    },
+    "bip44": {
+      "coinType": 60
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "bfh",
+      "bech32PrefixAccPub": "bfhpub",
+      "bech32PrefixValAddr": "bfhvaloper",
+      "bech32PrefixValPub": "bfhvaloperpub",
+      "bech32PrefixConsAddr": "bfhvalcons",
+      "bech32PrefixConsPub": "bfhvalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "BFH",
+        "coinMinimalDenom": "abfh",
+        "coinDecimals": 18
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "BFH",
+        "coinMinimalDenom": "abfh",
+        "coinDecimals": 18,
+        "gasPriceStep": {
+          "low": 15000000000,
+          "average": 20000000000,
+          "high": 30000000000
+        }
+      }
+    ],
+    "features": ["eth-address-gen", "eth-key-sign"]
+  }
+  
