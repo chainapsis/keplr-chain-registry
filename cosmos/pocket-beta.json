@@ -27,6 +27,13 @@
       "coinMinimalDenom": "upokt",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pocket-beta/chain.png"
+    },
+    {
+      "coinDenom": "MACT",
+      "coinMinimalDenom": "umact",
+      "coinDecimals": 6,
+      "coinGeckoId": "",
+      "coinImageUrl": ""
     }
   ],
   "feeCurrencies": [
@@ -39,6 +46,16 @@
         "average": 0.01,
         "high": 0.01
       }
+    },
+    {
+      "coinDenom": "MACT",
+      "coinMinimalDenom": "umact",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+          "low": 0.01,
+          "average": 0.01,
+          "high": 0.01
+        }
     }
   ],
   "stakeCurrency": {
