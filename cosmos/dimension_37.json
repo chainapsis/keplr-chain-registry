@@ -1,6 +1,6 @@
 {
-  "rpc": "https://rpc-dimension.keplr.app",
-  "rest": "https://lcd-dimension.keplr.app",
+  "rpc": "https://dimension-rpc.xpla.io",
+  "rest": "https://dimension-lcd.xpla.io",
   "chainId": "dimension_37-1",
   "chainName": "XPLA",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dimension_37/chain.png",
@@ -40,11 +40,15 @@
       "coinGeckoId": "xpla",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dimension_37/axpla.png",
       "gasPriceStep": {
-        "low": 850000000000,
-        "average": 1147500000000,
-        "high": 1487500000000
+        "low": 280000000000,
+        "average": 280000000000,
+        "high": 280000000000
       }
     }
   ],
+  "evm": {
+    "chainId": 37,
+    "rpc": "https://dimension-evm-rpc.xpla.dev"
+  },
   "features": ["eth-address-gen", "eth-key-sign", "cosmwasm"]
 }

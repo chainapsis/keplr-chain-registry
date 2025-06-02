@@ -38,7 +38,12 @@
       "coinMinimalDenom": "upasg",
       "coinDecimals": 6,
       "coinGeckoId": "passage",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/passage/upasg.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/passage/upasg.png",
+      "gasPriceStep": {
+        "low": 12.5,
+        "average": 12.5,
+        "high": 12.5
+      }
     }
   ],
   "features": [
