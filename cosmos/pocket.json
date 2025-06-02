@@ -33,7 +33,6 @@
       "coinDenom": "MACT",
       "coinMinimalDenom": "umact",
       "coinDecimals": 6,
-      "coinImageUrl": ""
     }
   ],
   "feeCurrencies": [
