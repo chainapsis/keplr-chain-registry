@@ -1,12 +1,13 @@
 {
   "chainId": "molecule",
   "chainName": "MoleculeAI",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/CryptoAlty/keplr-chain-registry/add-molecule-mainnet/images/molecule/chain.png",
 
-  "rpc": "https://rpc.moleculeai.tech",
+  "rpc":  "https://rpc.moleculeai.tech",
   "rest": "https://api.moleculeai.tech",
 
   "nodeProvider": {
-    "name": "MoleculeAI Team",
+    "name": "MoleculeAI Core",
     "email": "contact@moleculeai.tech",
     "website": "https://moleculeai.tech"
   },
@@ -26,27 +27,25 @@
     {
       "coinDenom":        "MOLAI",
       "coinMinimalDenom": "molai",
-      "coinDecimals":     6,
-      "coinImageUrl": "https://raw.githubusercontent.com/CryptoAlty/keplr-chain-registry/main/images/molecule/chain.png"
+      "coinDecimals":      6
+    }
+  ],
+
+  "feeCurrencies": [
+    {
+      "coinDenom":        "MOLAI",
+      "coinMinimalDenom": "molai",
+      "coinDecimals":      6,
+      "gasPriceStep": { "low": 0.01, "average": 0.025, "high": 0.03 }
     }
   ],
 
   "stakeCurrency": {
     "coinDenom":        "MOLAI",
     "coinMinimalDenom": "molai",
-    "coinDecimals":     6,
-    "coinImageUrl": "https://raw.githubusercontent.com/CryptoAlty/keplr-chain-registry/main/images/molecule/chain.png"
+    "coinDecimals":      6
   },
 
-  "feeCurrencies": [
-    {
-      "coinDenom":        "MOLAI",
-      "coinMinimalDenom": "molai",
-      "coinDecimals":     6,
-      "coinImageUrl": "https://raw.githubusercontent.com/CryptoAlty/keplr-chain-registry/main/images/molecule/chain.png",
-      "gasPriceStep": { "low": 0.01, "average": 0.025, "high": 0.03 }
-    }
-  ],
-
-  "features": [ "cosmwasm" ]
+  "features": ["cosmwasm"]
 }
+
