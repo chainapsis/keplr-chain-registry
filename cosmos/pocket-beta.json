@@ -31,7 +31,7 @@
     {
       "coinDenom": "MACT",
       "coinMinimalDenom": "umact",
-      "coinDecimals": 6,
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
