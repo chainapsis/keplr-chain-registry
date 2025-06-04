@@ -1,7 +1,8 @@
 {
   "chainId": "molecule",
   "chainName": "MoleculeAI",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/CryptoAlty/keplr-chain-registry/add-molecule-mainnet/images/molecule/chain.png",
+
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/molecule/chain.png",
 
   "rpc":  "https://rpc.moleculeai.tech",
   "rest": "https://api.moleculeai.tech",
