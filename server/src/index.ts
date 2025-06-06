@@ -13,69 +13,121 @@ let cosmosChainInfos: ChainInfo[] | undefined;
 let evmChainInfos: ChainInfo[] | undefined;
 
 const app = new Koa();
+
 app.use(serve(Path.resolve(__dirname, "static")));
 
 const isEvmOnlyChain = (chainInfo: ChainInfo): boolean => {
-  const chainIdLikeCAIP2 = chainInfo.chainId.split(":");
   return (
     chainInfo.evm != null &&
-    chainIdLikeCAIP2.length === 2 &&
-    chainIdLikeCAIP2[0] === "eip155"
+    !chainInfo.bech32Config &&
+    chainInfo.chainId.startsWith("eip155:")
   );
 };
 
-const loadChains = async () => {
+const loadChains = async (): Promise<{
+  allChains: ChainInfo[];
+  cosmosChainInfos: ChainInfo[];
+  evmChainInfos: ChainInfo[];
+}> => {
   if (allChains && cosmosChainInfos && evmChainInfos) {
     return { allChains, cosmosChainInfos, evmChainInfos };
   }
 
+  console.log("Loading chain info from files...");
+
   const cosmosChainsDirectory = Path.join(__dirname, "static", "cosmos");
-  const cosmosChainFiles = await fs.readdir(cosmosChainsDirectory);
-  const cosmosChainContents = await Promise.all(
-    cosmosChainFiles.map((fileName) =>
-      fs.readFile(Path.join(cosmosChainsDirectory, fileName), "utf8"),
-    ),
+  let loadedCosmosChains: ChainInfo[] = [];
+  try {
+    const cosmosChainFiles = await fs.readdir(cosmosChainsDirectory);
+    const cosmosReadPromises = cosmosChainFiles.map(async (fileName) => {
+      const filePath = Path.join(cosmosChainsDirectory, fileName);
+      try {
+        const content = await fs.readFile(filePath, "utf8");
+        return JSON.parse(content) as ChainInfo;
+      } catch (error: any) {
+        console.error(`Error processing Cosmos file ${fileName}:`, error.message);
+        return null;
+      }
+    });
+    const results = await Promise.allSettled(cosmosReadPromises);
+    loadedCosmosChains = results
+      .filter((result): result is PromiseFulfilledResult<ChainInfo | null> => result.status === 'fulfilled')
+      .map(result => result.value)
+      .filter((chainInfo): chainInfo is ChainInfo => chainInfo !== null);
+  } catch (error: any) {
+     console.error(`Error reading Cosmos chains directory: ${cosmosChainsDirectory}`, error.message);
+  }
+  cosmosChainInfos = loadedCosmosChains.sort((a, b) =>
+    a.chainName.localeCompare(b.chainName),
   );
-  cosmosChainInfos = cosmosChainContents.map((content) => JSON.parse(content));
 
   const evmChainsDirectory = Path.join(__dirname, "static", "evm");
-  const evmChainFiles = await fs.readdir(evmChainsDirectory);
-  const evmChainContents = await Promise.all(
-    evmChainFiles.map((fileName) =>
-      fs.readFile(Path.join(evmChainsDirectory, fileName), "utf8"),
-    ),
-  );
-  evmChainInfos = evmChainContents.map((content) => {
-    const evmChainInfo = JSON.parse(content);
-    const chainId = parseInt(evmChainInfo.chainId.replace("eip155:", ""), 10);
-    return {
-      ...evmChainInfo,
-      rest: evmChainInfo.rpc,
-      evm: {
-        chainId,
-        rpc: evmChainInfo.rpc,
-        websocket: evmChainInfo.websocket,
-      },
-      features: [
-        "eth-address-gen",
-        "eth-key-sign",
-        ...(evmChainInfo.features || []),
-      ],
-    };
-  });
+  let loadedEvmChains: ChainInfo[] = [];
+   try {
+    const evmChainFiles = await fs.readdir(evmChainsDirectory);
+    const evmReadPromises = evmChainFiles.map(async (fileName) => {
+      const filePath = Path.join(evmChainsDirectory, fileName);
+      try {
+        const content = await fs.readFile(filePath, "utf8");
+        const evmChainInfoBase = JSON.parse(content);
 
-  cosmosChainInfos = cosmosChainInfos.sort((a, b) =>
+        if (!evmChainInfoBase.chainId || !evmChainInfoBase.chainId.startsWith("eip155:")) {
+             throw new Error(`Invalid or missing chainId (expected 'eip155:...')`);
+        }
+         if (!evmChainInfoBase.rpc) {
+             throw new Error(`Missing 'rpc' field`);
+         }
+        const numericChainId = parseInt(evmChainInfoBase.chainId.replace("eip155:", ""), 10);
+         if (isNaN(numericChainId)) {
+             throw new Error(`Could not parse numeric chainId from ${evmChainInfoBase.chainId}`);
+         }
+
+        return {
+          ...evmChainInfoBase,
+          rest: evmChainInfoBase.rest || evmChainInfoBase.rpc,
+          rpc: evmChainInfoBase.rpc,
+          chainId: evmChainInfoBase.chainId,
+          evm: {
+            chainId: numericChainId,
+            rpc: evmChainInfoBase.rpc,
+            websocket: evmChainInfoBase.websocket,
+          },
+          features: [
+            "eth-address-gen",
+            "eth-key-sign",
+            ...(evmChainInfoBase.features || []),
+          ],
+          bech32Config: undefined,
+        } as ChainInfo;
+
+      } catch (error: any) {
+        console.error(`Error processing EVM file ${fileName}:`, error.message);
+        return null;
+      }
+    });
+    const results = await Promise.allSettled(evmReadPromises);
+     loadedEvmChains = results
+       .filter((result): result is PromiseFulfilledResult<ChainInfo | null> => result.status === 'fulfilled')
+       .map(result => result.value)
+       .filter((chainInfo): chainInfo is ChainInfo => chainInfo !== null);
+   } catch (error: any) {
+     console.error(`Error reading EVM chains directory: ${evmChainsDirectory}`, error.message);
+   }
+  evmChainInfos = loadedEvmChains.sort((a, b) =>
     a.chainName.localeCompare(b.chainName),
   );
-  evmChainInfos = evmChainInfos.sort((a, b) =>
+
+  allChains = [...(cosmosChainInfos || []), ...(evmChainInfos || [])].sort((a, b) =>
     a.chainName.localeCompare(b.chainName),
   );
 
-  allChains = [...cosmosChainInfos, ...evmChainInfos].sort((a, b) =>
-    a.chainName.localeCompare(b.chainName),
-  );
+  console.log(`Loaded ${cosmosChainInfos?.length ?? 0} Cosmos chains, ${evmChainInfos?.length ?? 0} EVM chains. Total: ${allChains?.length ?? 0}`);
 
-  return { allChains, cosmosChainInfos, evmChainInfos };
+  return {
+      allChains: allChains || [],
+      cosmosChainInfos: cosmosChainInfos || [],
+      evmChainInfos: evmChainInfos || []
+  };
 };
 
 const filterChains = (
@@ -83,25 +135,24 @@ const filterChains = (
   filterOption: FilterOption,
   searchText: string,
 ): ChainInfo[] => {
-  if (searchText.length === 0) return chainInfos;
+  if (!searchText) {
+    return chainInfos;
+  }
 
   return chainInfos.filter((chainInfo) => {
+    if (!chainInfo || !chainInfo.chainId || !chainInfo.chainName || !chainInfo.currencies || chainInfo.currencies.length === 0) {
+        console.warn("Skipping chain due to missing critical info:", chainInfo?.chainId || 'unknown');
+        return false;
+    }
+
     const chainId = chainInfo.chainId.toLowerCase();
     const chainName = chainInfo.chainName.toLowerCase();
     const mainCurrencyDenom = chainInfo.currencies[0].coinDenom.toLowerCase();
     const stakeCurrencyDenom = chainInfo.stakeCurrency?.coinDenom.toLowerCase();
+
     const tokenDenom = isEvmOnlyChain(chainInfo)
       ? mainCurrencyDenom
       : stakeCurrencyDenom || mainCurrencyDenom;
-
-    // search text가 eth 또는 eth~ethereum일 경우 evm 체인은 모두 보여준다.
-    if (searchText.startsWith("eth")) {
-      const isEVM = !("bech32Config" in chainInfo);
-
-      if (isEVM) {
-        return true;
-      }
-    }
 
     switch (filterOption) {
       case "all":
@@ -119,51 +170,52 @@ const filterChains = (
           chainName.includes(searchText) || tokenDenom.includes(searchText)
         );
       default:
+        console.warn("Unknown filterOption:", filterOption);
         return false;
     }
   });
 };
 
-app.use(async (ctx) => {
-  if (ctx.path !== "/chains") return;
+app.use(async (ctx, next) => {
+  if (ctx.path !== "/chains") {
+      return next();
+  }
 
   try {
     const searchOption = (ctx.query["searchOption"] ?? "all") as SearchOption;
     const filterOption = (ctx.query["filterOption"] ?? "all") as FilterOption;
     const searchTextRaw = ctx.query["searchText"];
-    const trimmedSearchText = Array.isArray(searchTextRaw)
-      ? searchTextRaw[0]?.trim().toLowerCase() || ""
-      : searchTextRaw?.trim().toLowerCase() || "";
+
+    const trimmedSearchText = (
+        Array.isArray(searchTextRaw) ? searchTextRaw[0] : searchTextRaw
+    )?.trim().toLowerCase() ?? "";
 
     const { allChains, cosmosChainInfos, evmChainInfos } = await loadChains();
 
-    let filteredChains: ChainInfo[] = [];
-
+    let sourceChains: ChainInfo[];
     switch (searchOption) {
       case "all":
-        filteredChains = filterChains(
-          allChains,
-          filterOption,
-          trimmedSearchText,
-        );
+        sourceChains = allChains;
         break;
       case "cosmos":
-        filteredChains = filterChains(
-          cosmosChainInfos,
-          filterOption,
-          trimmedSearchText,
-        );
+        sourceChains = cosmosChainInfos;
         break;
       case "evm":
-        filteredChains = filterChains(
-          evmChainInfos,
-          filterOption,
-          trimmedSearchText,
-        );
+        sourceChains = evmChainInfos;
         break;
+      default:
+        console.warn("Unknown searchOption:", searchOption);
+        sourceChains = allChains;
     }
 
+    const filteredChains = filterChains(
+      sourceChains,
+      filterOption,
+      trimmedSearchText,
+    );
+
     ctx.body = { chains: filteredChains };
+
   } catch (error) {
     ctx.status = 500;
     ctx.body = { error: "Internal Server Error" };
@@ -171,12 +223,19 @@ app.use(async (ctx) => {
   }
 });
 
-const isAWSLambda = !!(process.env as any).LAMBDA_TASK_ROOT;
+const isAWSLambda = !!process.env.LAMBDA_TASK_ROOT;
 
 if (!isAWSLambda) {
-  app.listen(3000, () => {
-    console.log("Server started on port 3000");
+  const PORT = process.env.PORT || 3000;
+  loadChains().then(() => {
+      app.listen(PORT, () => {
+          console.log(`Server started locally on port ${PORT}`);
+      });
+  }).catch(error => {
+      console.error("Failed to pre-load chain data on startup:", error);
+      process.exit(1);
   });
+
 } else {
   module.exports.handler = ServerlessHttp(app);
 }
