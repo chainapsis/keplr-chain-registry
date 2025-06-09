@@ -48,9 +48,9 @@
       "coinGeckoId": "shido-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shido_9008/shido.png",
       "gasPriceStep": {
-        "low": 182855642857142,
-        "average": 182855642857142,
-        "high": 182855642857142
+        "low": 80000000000,
+        "average": 80000000000,
+        "high": 80000000000
       }
     }
   ],
