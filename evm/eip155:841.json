@@ -1,0 +1,76 @@
+{
+  "rpc": "https://rpc.mainnet.taraxa.io",         
+  "websocket": "wss://ws.rpc.mainnet.taraxa.io",   
+  "nodeProvider": {
+    "name": "Taraxa Foundation",
+    "email": "contact@taraxa.io",
+    "website": "https://taraxa.io"
+  },
+  "chainId": "eip155:841",                       
+  "chainName": "Taraxa",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:841/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "TARA",
+      "coinMinimalDenom": "taraxa-native",
+      "coinDecimals": 18,
+      "coinGeckoId": "taraxa",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:841/taraxa-native.png"
+    },
+    {
+      "coinDenom": "TSWAP",
+      "coinMinimalDenom": "erc20:0x712037beab9a29216650b8d032b4d9a59af8ad6c",
+      "coinDecimals": 18,
+      "coinGeckoId": "taraswap",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:841/erc20/0x712037beab9a29216650b8d032b4d9a59af8ad6c.png"
+    },
+    {
+      "coinDenom": "LARA",
+      "coinMinimalDenom": "erc20:0xe6a69cd4ff127ad8e53c21a593f7bac4c608945e",
+      "coinDecimals": 18,
+      "coinGeckoId": "lara",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:841/erc20/0xe6a69cd4ff127ad8e53c21a593f7bac4c608945e.png"
+    },
+    {
+    "coinDenom": "USDT",
+      "coinMinimalDenom": "erc20:0x69d411cbf6dbad54bfe36f81d0a39922625bc78c",
+      "coinDecimals": 18,
+      "coinGeckoId": "taraxa-bridged-usdt-taraxa",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:841/erc20/0x69d411cbf6dbad54bfe36f81d0a39922625bc78c.png"
+    },
+    {
+      "coinDenom": "BTR",
+      "coinMinimalDenom": "erc20:0xf9ba22c56c04040115224c8048c21406fc8ac1a7",
+      "coinDecimals": 18,
+      "coinGeckoId": "bitra",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:841/erc20/0xf9ba22c56c04040115224c8048c21406fc8ac1a7.png"
+    },
+    {
+      "coinDenom": "WTARA",
+      "coinMinimalDenom": "erc20:0x5d0fa4c5668e5809c83c95a7cef3a9dd7c68d4fe",
+      "coinDecimals": 18,
+      "coinGeckoId": "wrapped-tara",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:841/erc20/0x5d0fa4c5668e5809c83c95a7cef3a9dd7c68d4fe.png"
+    },
+    {
+      "coinDenom": "MST",
+      "coinMinimalDenom": "erc20:0x88558259ceda5d8e681fedb55c50070fbd3da8f9",
+      "coinDecimals": 18,
+      "coinGeckoId": "meridian-mst",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:841/erc20/0x88558259ceda5d8e681fedb55c50070fbd3da8f9.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "TARA",
+      "coinMinimalDenom": "taraxa-native",
+      "coinDecimals": 18,
+      "coinGeckoId": "taraxa",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:841/taraxa-native.png"
+    }
+  ],
+  "features": []
+}
