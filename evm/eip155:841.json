@@ -60,7 +60,7 @@
       "coinMinimalDenom": "erc20:0x88558259ceda5d8e681fedb55c50070fbd3da8f9",
       "coinDecimals": 18,
       "coinGeckoId": "meridian-mst",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:841/mst-native.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:841/erc20/0x88558259ceda5d8e681fedb55c50070fbd3da8f9.png"
     }
   ],
   "feeCurrencies": [
