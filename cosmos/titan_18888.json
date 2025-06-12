@@ -76,6 +76,13 @@
       "coinDecimals": 6,
       "coinGeckoId": "oracler-ai",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18888/factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/oracler.png"
+    },
+    {
+      "coinDenom": "MONKEYS",
+      "coinMinimalDenom": "factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/monkeys",
+      "coinDecimals": 6,
+      "coinGeckoId": "monkeys-2",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18888/factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/monkeys.png"
     }
   ],
   "feeCurrencies": [
