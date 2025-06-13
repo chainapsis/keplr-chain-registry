@@ -12,7 +12,7 @@
   },
   "chainId": "pio-testnet-1",
   "chainName": "Provenance Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pio-testnet/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/pio-testnet/chain.png",
   "currencies": [
     {
       "coinDecimals": 9,
@@ -21,9 +21,7 @@
       "coinMinimalDenom": "nhash"
     }
   ],
-  "features": [
-    "cosmwasm"
-  ],
+  "features": ["cosmwasm"],
   "feeCurrencies": [
     {
       "coinDecimals": 9,

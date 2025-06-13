@@ -1,7 +1,7 @@
 {
   "chainId": "allora-testnet-1",
   "chainName": "Allora Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/allora-testnet/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/allora-testnet/chain.png",
   "rpc": "https://allora-rpc.testnet.allora.network",
   "rest": "https://allora-api.testnet.allora.network",
   "nodeProvider": {
@@ -25,7 +25,7 @@
       "coinDenom": "ALLO",
       "coinMinimalDenom": "uallo",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/allora-testnet/uallo.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/allora-testnet/uallo.png"
     }
   ],
   "feeCurrencies": [
@@ -33,7 +33,7 @@
       "coinDenom": "ALLO",
       "coinMinimalDenom": "uallo",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/allora-testnet/uallo.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/allora-testnet/uallo.png",
       "gasPriceStep": {
         "low": 10,
         "average": 10,
@@ -43,9 +43,9 @@
   ],
   "stakeCurrency": {
     "coinDenom": "ALLO",
-      "coinMinimalDenom": "uallo",
-      "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/allora-testnet/uallo.png"
+    "coinMinimalDenom": "uallo",
+    "coinDecimals": 18,
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/allora-testnet/uallo.png"
   },
   "features": []
 }

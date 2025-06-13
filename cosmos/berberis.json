@@ -8,7 +8,7 @@
   },
   "chainId": "berberis-1",
   "chainName": "Hedge (Testnet)",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/berberis/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/berberis/chain.png",
   "bech32Config": {
     "bech32PrefixAccAddr": "hedge",
     "bech32PrefixAccPub": "hedgepub",
@@ -24,14 +24,14 @@
     "coinDenom": "hedge",
     "coinDecimals": 6,
     "coinMinimalDenom": "uhedge",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/berberis/berberis.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/berberis/berberis.png"
   },
   "currencies": [
     {
       "coinDenom": "hedge",
       "coinDecimals": 6,
       "coinMinimalDenom": "uhedge",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/berberis/berberis.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/berberis/berberis.png"
     }
   ],
   "feeCurrencies": [
@@ -39,7 +39,7 @@
       "coinDenom": "hedge",
       "coinDecimals": 6,
       "coinMinimalDenom": "uhedge",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/berberis/berberis.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/berberis/berberis.png",
       "gasPriceStep": {
         "low": 0.01,
         "average": 0.025,

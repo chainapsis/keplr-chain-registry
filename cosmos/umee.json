@@ -3,13 +3,13 @@
   "rest": "https://lcd-umee.keplr.app",
   "chainId": "umee-1",
   "chainName": "UX",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/umee/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/umee/chain.png",
   "stakeCurrency": {
     "coinDenom": "UX",
     "coinMinimalDenom": "uumee",
     "coinDecimals": 6,
     "coinGeckoId": "umee",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/umee/uumee.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/umee/uumee.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/umee",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/umee",
@@ -30,7 +30,7 @@
       "coinMinimalDenom": "uumee",
       "coinDecimals": 6,
       "coinGeckoId": "umee",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/umee/uumee.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/umee/uumee.png"
     }
   ],
   "feeCurrencies": [
@@ -39,7 +39,7 @@
       "coinMinimalDenom": "uumee",
       "coinDecimals": 6,
       "coinGeckoId": "umee",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/umee/uumee.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/umee/uumee.png",
       "gasPriceStep": {
         "low": 0.1,
         "average": 0.12,

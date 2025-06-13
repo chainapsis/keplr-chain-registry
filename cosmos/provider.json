@@ -14,14 +14,14 @@
   "bip44": {
     "coinType": 118
   },
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/provider/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/provider/chain.png",
   "currencies": [
     {
       "coinDecimals": 6,
       "coinDenom": "ATOM",
 
       "coinMinimalDenom": "uatom",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/provider/uatom.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/provider/uatom.png"
     }
   ],
   "features": [],
@@ -31,7 +31,7 @@
       "coinDenom": "ATOM",
 
       "coinMinimalDenom": "uatom",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/provider/uatom.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/provider/uatom.png",
       "gasPriceStep": {
         "average": 0.025,
         "high": 0.03,
@@ -44,6 +44,6 @@
     "coinDenom": "ATOM",
 
     "coinMinimalDenom": "uatom",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/provider/uatom.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/provider/uatom.png"
   }
 }

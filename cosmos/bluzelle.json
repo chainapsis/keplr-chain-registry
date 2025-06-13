@@ -4,16 +4,16 @@
   "nodeProvider": {
     "name": "Bluzelle",
     "email": "support@bluzelle.com",
-    "website":"https://bluzelle.com/"
-  },  
+    "website": "https://bluzelle.com/"
+  },
   "chainId": "bluzelle-9",
   "chainName": "Bluzelle",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bluzelle/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/bluzelle/chain.png",
   "stakeCurrency": {
-      "coinDenom": "BNT",
-      "coinMinimalDenom": "ubnt",
-      "coinDecimals": 6,
-      "coinGeckoId": "bluzelle"
+    "coinDenom": "BNT",
+    "coinMinimalDenom": "ubnt",
+    "coinDecimals": 6,
+    "coinGeckoId": "bluzelle"
   },
   "walletUrl": "https://ping.explorer.net.bluzelle.com/Bluzelle",
   "walletUrlForStaking": "https://ping.explorer.net.bluzelle.com/Bluzelle/staking",
@@ -30,28 +30,28 @@
   },
   "currencies": [
     {
-    "coinDenom": "BLZ",
-    "coinMinimalDenom": "ubnt",
-    "coinDecimals": 6,
-    "coinGeckoId": "bluzelle"
+      "coinDenom": "BLZ",
+      "coinMinimalDenom": "ubnt",
+      "coinDecimals": 6,
+      "coinGeckoId": "bluzelle"
     },
     {
-    "coinDenom": "ELT",
-    "coinMinimalDenom": "uelt",
-    "coinDecimals": 6
+      "coinDenom": "ELT",
+      "coinMinimalDenom": "uelt",
+      "coinDecimals": 6
     },
     {
-    "coinDenom": "G4",
-    "coinMinimalDenom": "ug4",
-    "coinDecimals": 6
+      "coinDenom": "G4",
+      "coinMinimalDenom": "ug4",
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
     {
-    "coinDenom": "BNT",
-    "coinMinimalDenom": "ubnt",
-    "coinDecimals": 6,
-    "coinGeckoId": "bluzelle"
+      "coinDenom": "BNT",
+      "coinMinimalDenom": "ubnt",
+      "coinDecimals": 6,
+      "coinGeckoId": "bluzelle"
     }
   ],
   "features": []

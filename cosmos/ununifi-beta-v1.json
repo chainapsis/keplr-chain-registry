@@ -4,16 +4,16 @@
   "nodeProvider": {
     "name": "UnUniFi",
     "email": "info@ununifi.io",
-    "website":"https://ununifi.io/"
+    "website": "https://ununifi.io/"
   },
   "chainId": "ununifi-beta-v1",
   "chainName": "UnUniFi",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ununifi-beta-v1/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/ununifi-beta-v1/chain.png",
   "stakeCurrency": {
     "coinDenom": "GUU",
     "coinMinimalDenom": "uguu",
     "coinDecimals": 6,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ununifi-beta-v1/uguu.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/ununifi-beta-v1/uguu.png"
   },
   "walletUrl": "https://ununifi.io/portal",
   "bip44": {
@@ -32,7 +32,7 @@
       "coinDenom": "GUU",
       "coinMinimalDenom": "uguu",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ununifi-beta-v1/uguu.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/ununifi-beta-v1/uguu.png"
     }
   ],
   "feeCurrencies": [
@@ -40,7 +40,7 @@
       "coinDenom": "GUU",
       "coinMinimalDenom": "uguu",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ununifi-beta-v1/uguu.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/ununifi-beta-v1/uguu.png",
       "gasPriceStep": {
         "low": 0.0025,
         "average": 0.025,
@@ -48,7 +48,5 @@
       }
     }
   ],
-  "features": [
-    "cosmwasm"
-  ]
+  "features": ["cosmwasm"]
 }

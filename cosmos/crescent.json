@@ -3,11 +3,11 @@
   "rest": "https://mainnet.crescent.network:1317",
   "chainId": "crescent-1",
   "chainName": "Crescent Network",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/crescent/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/crescent/chain.png",
   "nodeProvider": {
     "name": "Crescent Node",
     "email": "contact@crescent.network",
-    "website":"https://crescent.network"
+    "website": "https://crescent.network"
   },
   "stakeCurrency": {
     "coinDenom": "CRE",

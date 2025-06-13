@@ -3,7 +3,7 @@
   "rest": "https://api.hippo-protocol.com",
   "chainId": "hippo-protocol-1",
   "chainName": "Hippo Protocol",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/hippo-protocol/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/hippo-protocol/chain.png",
   "nodeProvider": {
     "name": "Hippo Protocol",
     "email": "support@hippoprotocol.ai",
@@ -25,7 +25,7 @@
       "coinDenom": "HP",
       "coinMinimalDenom": "ahp",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/hippo-protocol/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/hippo-protocol/chain.png"
     }
   ],
   "feeCurrencies": [
@@ -33,7 +33,7 @@
       "coinDenom": "HP",
       "coinMinimalDenom": "ahp",
       "coinDecimals": 18,
-      "coinImageUrl":  "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/hippo-protocol/chain.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/hippo-protocol/chain.png",
       "gasPriceStep": {
         "low": 4000000000000,
         "average": 5000000000000,
@@ -45,7 +45,7 @@
     "coinDenom": "HP",
     "coinMinimalDenom": "ahp",
     "coinDecimals": 18,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/hippo-protocol/chain.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/hippo-protocol/chain.png"
   },
   "features": []
 }

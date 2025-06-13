@@ -1,8 +1,7 @@
-
 {
   "chainId": "haqq_11235-1",
   "chainName": "HAQQ Network",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/haqq_11235/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/haqq_11235/chain.png",
   "rpc": "https://rpc.tm.haqq.network",
   "rest": "https://rest.cosmos.haqq.network",
   "nodeProvider": {
@@ -27,14 +26,14 @@
       "coinMinimalDenom": "aISLM",
       "coinDecimals": 18,
       "coinGeckoId": "islamic-coin",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/haqq_11235/islm.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/haqq_11235/islm.png"
     },
     {
       "coinDenom": "DEEN",
       "coinMinimalDenom": "erc20/0x4FEBDDe47Ab9a76200e57eFcC80b212a07b3e6cE",
       "coinDecimals": 6,
       "coinGeckoId": "deenar-gold",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/haqq_11235/deen.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/haqq_11235/deen.png"
     }
   ],
   "feeCurrencies": [
@@ -43,7 +42,7 @@
       "coinMinimalDenom": "aISLM",
       "coinDecimals": 18,
       "coinGeckoId": "islamic-coin",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/haqq_11235/islm.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/haqq_11235/islm.png",
       "gasPriceStep": {
         "average": 25000000000,
         "high": 40000000000,
@@ -56,10 +55,7 @@
     "coinMinimalDenom": "aISLM",
     "coinDecimals": 18,
     "coinGeckoId": "islamic-coin",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/haqq_11235/islm.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/haqq_11235/islm.png"
   },
-  "features": [
-    "eth-address-gen",
-    "eth-key-sign"
-  ]
+  "features": ["eth-address-gen", "eth-key-sign"]
 }

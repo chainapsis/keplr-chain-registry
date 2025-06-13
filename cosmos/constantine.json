@@ -12,7 +12,7 @@
   },
   "chainId": "constantine-3",
   "chainName": "Archway (Testnet)",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/constantine/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/constantine/chain.png",
   "currencies": [
     {
       "coinDecimals": 18,
@@ -43,6 +43,6 @@
   "nodeProvider": {
     "name": "Phi Labs",
     "email": "support@philabs.xyz",
-    "website":"https://philabs.xyz"
+    "website": "https://philabs.xyz"
   }
 }

@@ -8,7 +8,7 @@
   },
   "chainId": "eip155:16601",
   "chainName": "0G Galileo Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:16601/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/eip155:16601/chain.png",
   "bip44": {
     "coinType": 60
   },
@@ -17,7 +17,7 @@
       "coinDenom": "OG",
       "coinMinimalDenom": "og-native",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:16601/token.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/eip155:16601/token.png"
     }
   ],
   "feeCurrencies": [
@@ -25,8 +25,8 @@
       "coinDenom": "OG",
       "coinMinimalDenom": "og-native",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:16601/token.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/eip155:16601/token.png"
     }
   ],
   "features": []
-} 
+}

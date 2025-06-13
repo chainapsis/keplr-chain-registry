@@ -1,13 +1,13 @@
 {
   "chainId": "mantra-hongbai-1",
   "chainName": "MANTRA Hongbai Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra-hongbai/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/mantra-hongbai/chain.png",
   "rpc": "https://rpc.hongbai.mantrachain.io",
   "rest": "https://api.hongbai.mantrachain.io",
   "nodeProvider": {
     "name": "MANTRA Chain",
     "email": "contact@mantrachain.io",
-    "website":"https://www.mantrachain.io"
+    "website": "https://www.mantrachain.io"
   },
   "bip44": {
     "coinType": 118
@@ -44,7 +44,5 @@
     "coinMinimalDenom": "uom",
     "coinDecimals": 6
   },
-  "features": [
-    "cosmwasm"  
-  ]
+  "features": ["cosmwasm"]
 }

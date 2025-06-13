@@ -3,10 +3,10 @@
   "rest": "https://cosmos-api.xfi.ms/",
   "chainId": "mineplex-mainnet-1",
   "chainName": "MinePlex Mainnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mineplex-mainnet/mineplex.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/mineplex-mainnet/mineplex.png",
   "nodeProvider": {
     "name": "CrossFi Foundation",
-    "website":"https://crossfi.org/",
+    "website": "https://crossfi.org/",
     "email": "info@crossfi.org"
   },
   "stakeCurrency": {
@@ -30,11 +30,13 @@
       "coinDenom": "MPX",
       "coinMinimalDenom": "mpx",
       "coinDecimals": 18
-    },{
+    },
+    {
       "coinDenom": "XFI",
       "coinMinimalDenom": "xfi",
       "coinDecimals": 18
-    },{
+    },
+    {
       "coinDenom": "XFT",
       "coinMinimalDenom": "xft",
       "coinDecimals": 18

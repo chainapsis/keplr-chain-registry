@@ -1,9 +1,9 @@
 {
-"chainId": "lixx-1",
-"chainName": "LIXX Blockchain",
-"chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lixx/chain.png",
-"rpc": "https://rpc.lix.zone",
-"rest": "https://rest.lix.zone",
+  "chainId": "lixx-1",
+  "chainName": "LIXX Blockchain",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/lixx/chain.png",
+  "rpc": "https://rpc.lix.zone",
+  "rest": "https://rest.lix.zone",
   "nodeProvider": {
     "name": "Libra Incentix",
     "email": "hello@lix.zone",
@@ -25,13 +25,13 @@
       "coinDenom": "LIXX",
       "coinMinimalDenom": "ulixx",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lixx/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/lixx/chain.png"
     },
     {
       "coinDenom": "LXP",
       "coinMinimalDenom": "factory/lixx1yd69xdlcsdcl39jgq7x3zu3qcqk9224f4psvmy/ulxp",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lixx/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/lixx/chain.png"
     }
   ],
   "feeCurrencies": [
@@ -51,7 +51,5 @@
     "coinMinimalDenom": "ulixx",
     "coinDecimals": 6
   },
-  "features": [
-    "cosmwasm"
-  ]
+  "features": ["cosmwasm"]
 }

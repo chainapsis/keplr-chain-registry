@@ -1,7 +1,7 @@
 {
   "chainId": "likecoin-public-testnet-5",
   "chainName": "LikeCoin Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/likecoin-public-testnet/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/likecoin-public-testnet/chain.png",
   "rpc": "https://node.testnet-rpc.like.co/",
   "rest": "https://node.testnet.like.co/",
   "nodeProvider": {
@@ -25,7 +25,7 @@
       "coinDenom": "EKIL",
       "coinMinimalDenom": "nanoekil",
       "coinDecimals": 9,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/likecoin-public-testnet/nanoekil.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/likecoin-public-testnet/nanoekil.png"
     }
   ],
   "feeCurrencies": [
@@ -33,7 +33,7 @@
       "coinDenom": "EKIL",
       "coinMinimalDenom": "nanoekil",
       "coinDecimals": 9,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/likecoin-public-testnet/nanoekil.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/likecoin-public-testnet/nanoekil.png",
       "gasPriceStep": {
         "low": 1000,
         "average": 10000,
@@ -45,7 +45,7 @@
     "coinDenom": "EKIL",
     "coinMinimalDenom": "nanoekil",
     "coinDecimals": 9,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/likecoin-public-testnet/nanoekil.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/likecoin-public-testnet/nanoekil.png"
   },
   "features": []
 }

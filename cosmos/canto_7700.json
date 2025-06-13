@@ -3,7 +3,7 @@
   "rest": "https://canto-rest.plexnode.wtf",
   "chainId": "canto_7700-1",
   "chainName": "Canto",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/canto_7700/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/canto_7700/chain.png",
   "nodeProvider": {
     "name": "Plex Labs",
     "email": "contact@plex.engineer",
@@ -49,8 +49,5 @@
       }
     }
   ],
-  "features": [
-    "eth-address-gen",
-    "eth-key-sign"
-  ]
+  "features": ["eth-address-gen", "eth-key-sign"]
 }

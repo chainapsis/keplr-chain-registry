@@ -3,7 +3,7 @@
   "rest": "https://lcd-noble.keplr.app",
   "chainId": "noble-1",
   "chainName": "Noble",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/noble/chain.png",
   "bip44": {
     "coinType": 118
   },
@@ -21,40 +21,40 @@
       "coinMinimalDenom": "uusdc",
       "coinDecimals": 6,
       "coinGeckoId": "usd-coin",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/uusdc.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/noble/uusdc.png"
     },
     {
       "coinDenom": "USDN",
       "coinMinimalDenom": "uusdn",
       "coinDecimals": 6,
       "coinGeckoId": "usd-coin",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/uusdn.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/noble/uusdn.png"
     },
     {
       "coinDenom": "USDY",
       "coinMinimalDenom": "ausdy",
       "coinDecimals": 18,
       "coinGeckoId": "ondo-us-dollar-yield",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/ausdy.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/noble/ausdy.png"
     },
     {
       "coinDenom": "USYC",
       "coinMinimalDenom": "uusyc",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/uusyc.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/noble/uusyc.png"
     },
     {
       "coinDenom": "EURe",
       "coinMinimalDenom": "ueure",
       "coinDecimals": 6,
       "coinGeckoId": "monerium-eur-money",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/ueure.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/noble/ueure.png"
     },
     {
       "coinDenom": "FRNZ",
       "coinMinimalDenom": "ufrienzies",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/ufrienzies.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/noble/ufrienzies.png"
     }
   ],
   "feeCurrencies": [
@@ -63,7 +63,7 @@
       "coinMinimalDenom": "uusdc",
       "coinDecimals": 6,
       "coinGeckoId": "usd-coin",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/uusdc.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/noble/uusdc.png",
       "gasPriceStep": {
         "low": 0.1,
         "average": 0.1,
@@ -75,7 +75,7 @@
       "coinMinimalDenom": "uusdn",
       "coinDecimals": 6,
       "coinGeckoId": "usd-coin",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/uusdn.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/noble/uusdn.png",
       "gasPriceStep": {
         "low": 0.1,
         "average": 0.1,
@@ -87,7 +87,7 @@
       "coinMinimalDenom": "ueure",
       "coinDecimals": 6,
       "coinGeckoId": "monerium-eur-money",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/ueure.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/noble/ueure.png",
       "gasPriceStep": {
         "low": 0.09,
         "average": 0.09,

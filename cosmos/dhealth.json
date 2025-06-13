@@ -1,13 +1,13 @@
 {
   "chainId": "dhealth",
   "chainName": "dHealth",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dhealth/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/dhealth/chain.png",
   "rpc": "https://rpc.dhealth.com",
   "rest": "https://lcd.dhealth.com",
   "nodeProvider": {
     "name": "dHealth Network",
     "email": "son@dhealth.com",
-    "website":"https://dhealth.com"
+    "website": "https://dhealth.com"
   },
   "bip44": {
     "coinType": 10111
@@ -31,7 +31,7 @@
       "coinMinimalDenom": "udhp",
       "coinDecimals": 6,
       "coinGeckoId": "dhealth",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dhealth/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/dhealth/chain.png"
     }
   ],
   "feeCurrencies": [
@@ -45,7 +45,7 @@
         "high": 0.03
       },
       "coinGeckoId": "dhealth",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dhealth/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/dhealth/chain.png"
     }
   ],
   "stakeCurrency": {
@@ -53,9 +53,7 @@
     "coinMinimalDenom": "udhp",
     "coinDecimals": 6,
     "coinGeckoId": "dhealth",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dhealth/chain.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/dhealth/chain.png"
   },
-  "features": [
-    "cosmwasm"
-  ]
+  "features": ["cosmwasm"]
 }

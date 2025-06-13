@@ -3,7 +3,7 @@
   "rest": "https://rest.sentry-01.theta-testnet.polypore.xyz",
   "chainId": "theta-testnet-001",
   "chainName": "Cosmos Hub Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/cosmoshub/chain.png",
   "bip44": {
     "coinType": 118
   },
@@ -19,14 +19,14 @@
     "coinDecimals": 6,
     "coinDenom": "ATOM",
     "coinMinimalDenom": "uatom",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/uatom.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/cosmoshub/uatom.png"
   },
   "currencies": [
     {
       "coinDecimals": 6,
       "coinDenom": "ATOM",
       "coinMinimalDenom": "uatom",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/uatom.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/cosmoshub/uatom.png"
     }
   ],
   "feeCurrencies": [
@@ -34,7 +34,7 @@
       "coinDecimals": 6,
       "coinDenom": "ATOM",
       "coinMinimalDenom": "uatom",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/uatom.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/cosmoshub/uatom.png",
       "gasPriceStep": {
         "average": 0.025,
         "high": 0.03,

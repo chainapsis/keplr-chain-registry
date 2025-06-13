@@ -74,7 +74,7 @@ Here’s an overview of the structure of the directory. Please provide the infor
 {
   "chainId": "osmosis-1",
   "chainName": "Osmosis",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/osmosis/chain.png",
   "rpc": "https://rpc-osmosis.blockapsis.com",
   "rest": "https://lcd-osmosis.blockapsis.com",
   "nodeProvider": {
@@ -129,7 +129,7 @@ Here’s an overview of the structure of the directory. Please provide the infor
 - chainId: chainId in a form of {identifier}-{version} (ex. cosmoshub-4)
 - chainName: the name of the chain that will be displayed on the wallet
 - chainSymbolImageUrl: Image URL of the chain.
-  - https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/{chain-identifier}/{file-name}.png
+  - https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/{chain-identifier}/{file-name}.png
   - Please modify the chain-identifier and file-name from the link above and upload it.
 - rpc: URL of RPC endpoint of the chain
 - rest: URL of REST/API endpoint of the chain
@@ -195,7 +195,7 @@ Here’s an overview of the structure of the directory. Please provide the infor
   },
   "chainId": "eip155:1",
   "chainName": "Ethereum",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/eip155:1/chain.png",
   "bip44": {
     "coinType": 60
   },
@@ -205,14 +205,14 @@ Here’s an overview of the structure of the directory. Please provide the infor
       "coinMinimalDenom": "ethereum-native",
       "coinDecimals": 18,
       "coinGeckoId": "ethereum",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/ethereum-native.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/eip155:1/ethereum-native.png"
     },
     {
       "coinDenom": "USDC",
       "coinMinimalDenom": "erc20:0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
       "coinDecimals": 6,
       "coinGeckoId": "usd-coin",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/erc20/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/eip155:1/erc20/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.png"
     }
   ],
   "feeCurrencies": [
@@ -221,7 +221,7 @@ Here’s an overview of the structure of the directory. Please provide the infor
       "coinMinimalDenom": "ethereum-native",
       "coinDecimals": 18,
       "coinGeckoId": "ethereum",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/ethereum-native.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/eip155:1/ethereum-native.png"
     }
   ],
   "features": []
@@ -239,7 +239,7 @@ Here’s an overview of the structure of the directory. Please provide the infor
 - chainId: chain identifier in a form of eip155:{evm-chain-id} (ex. eip155:1)
 - chainName: the name of the chain that will be displayed on the wallet
 - chainSymbolImageUrl: Image URL of the chain.
-  - https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/{chain-identifier}/{file-name}.png
+  - https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/{chain-identifier}/{file-name}.png
   - Please modify the chain-identifier and file-name from the link above and upload it.
 - bip44: BIP-44 coin type (60 highly recommended)
 - currencies: the list of the supported currencies. If your chain uses replicated security, please place your main native token at the top of the currencies list.
@@ -262,4 +262,4 @@ Here’s an overview of the structure of the directory. Please provide the infor
   - Please double-check if your chainId matches the REST node’s chainId.
 - Please provide the CoinGecko ID only if the price for the token is available on CoinGecko.
 - Since we typically double-check gas price updates for clarification, please include any relevant references in your request description.
-- If you'd like to add CW20 tokens, those are managed by [Keplr Contract Registry](https://github.com/chainapsis/keplr-contract-registry).
+- If you'd like to add CW20 tokens, those are managed by [Keplr Contract Registry](https://github.com/keplr/keplr-contract-registry).

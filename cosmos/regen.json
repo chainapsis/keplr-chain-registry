@@ -3,13 +3,13 @@
   "rest": "https://lcd-regen.keplr.app",
   "chainId": "regen-1",
   "chainName": "Regen",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/regen/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/regen/chain.png",
   "stakeCurrency": {
     "coinDenom": "REGEN",
     "coinMinimalDenom": "uregen",
     "coinDecimals": 6,
     "coinGeckoId": "regen",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/regen/uregen.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/regen/uregen.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/regen",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/regen",
@@ -30,7 +30,7 @@
       "coinMinimalDenom": "uregen",
       "coinDecimals": 6,
       "coinGeckoId": "regen",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/regen/uregen.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/regen/uregen.png"
     },
     {
       "coinDenom": "NCT",
@@ -45,7 +45,7 @@
       "coinMinimalDenom": "uregen",
       "coinDecimals": 6,
       "coinGeckoId": "regen",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/regen/uregen.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/regen/uregen.png",
       "gasPriceStep": {
         "low": 0.015,
         "average": 0.025,

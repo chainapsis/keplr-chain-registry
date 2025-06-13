@@ -3,10 +3,10 @@
   "rest": "https://nois-api.polkachu.com",
   "chainId": "nois-1",
   "chainName": "Nois",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nois/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/nois/chain.png",
   "nodeProvider": {
     "name": "nysa.network",
-    "website":"https://nysa.network/",
+    "website": "https://nysa.network/",
     "email": "contact@nysa.network"
   },
   "stakeCurrency": {
@@ -30,7 +30,7 @@
       "coinDenom": "NOIS",
       "coinMinimalDenom": "unois",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nois/unois.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/nois/unois.png"
     }
   ],
   "feeCurrencies": [

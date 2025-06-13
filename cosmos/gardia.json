@@ -1,7 +1,7 @@
 {
   "chainId": "gardia-9",
   "chainName": "Zenrock Gardia Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gardia/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gardia/chain.png",
   "rpc": "https://rpc.gardia.zenrocklabs.io",
   "rest": "https://api.gardia.zenrocklabs.io",
   "nodeProvider": {
@@ -26,7 +26,7 @@
       "coinDenom": "ROCK",
       "coinMinimalDenom": "urock",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gardia/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gardia/chain.png"
     }
   ],
   "feeCurrencies": [
@@ -34,7 +34,7 @@
       "coinDenom": "ROCK",
       "coinMinimalDenom": "urock",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gardia/chain.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gardia/chain.png",
       "gasPriceStep": {
         "low": 2.5,
         "average": 2.55,
@@ -46,7 +46,7 @@
     "coinDenom": "ROCK",
     "coinMinimalDenom": "urock",
     "coinDecimals": 6,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gardia/chain.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gardia/chain.png"
   },
   "features": ["cosmwasm"]
 }

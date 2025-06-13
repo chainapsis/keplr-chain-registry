@@ -1,14 +1,14 @@
 {
   "chainId": "ovg",
   "chainName": "ovg",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ovg/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/ovg/chain.png",
   "rpc": "https://rpc.chain.overgold.app",
   "rest": "https://api.chain.overgold.app",
   "nodeProvider": {
-        "name": "Overgold",
-        "email": "info@overgold.app",
-        "website": "https://overgold.io"
-    },
+    "name": "Overgold",
+    "email": "info@overgold.app",
+    "website": "https://overgold.io"
+  },
   "bip44": {
     "coinType": 118
   },

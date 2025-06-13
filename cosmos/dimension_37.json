@@ -3,14 +3,14 @@
   "rest": "https://dimension-lcd.xpla.io",
   "chainId": "dimension_37-1",
   "chainName": "XPLA",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dimension_37/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/dimension_37/chain.png",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/xpla",
   "stakeCurrency": {
     "coinDenom": "XPLA",
     "coinMinimalDenom": "axpla",
     "coinDecimals": 18,
     "coinGeckoId": "xpla",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dimension_37/axpla.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/dimension_37/axpla.png"
   },
   "bip44": {
     "coinType": 60
@@ -29,7 +29,7 @@
       "coinMinimalDenom": "axpla",
       "coinDecimals": 18,
       "coinGeckoId": "xpla",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dimension_37/axpla.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/dimension_37/axpla.png"
     }
   ],
   "feeCurrencies": [
@@ -38,7 +38,7 @@
       "coinMinimalDenom": "axpla",
       "coinDecimals": 18,
       "coinGeckoId": "xpla",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dimension_37/axpla.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/dimension_37/axpla.png",
       "gasPriceStep": {
         "low": 280000000000,
         "average": 280000000000,

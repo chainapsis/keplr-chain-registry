@@ -8,7 +8,7 @@
   },
   "chainId": "indigo-1",
   "chainName": "pryzmtestnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/indigo/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/indigo/chain.png",
   "stakeCurrency": {
     "coinDenom": "PRYZM",
     "coinMinimalDenom": "upryzm",

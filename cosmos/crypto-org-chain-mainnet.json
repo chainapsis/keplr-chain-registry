@@ -3,13 +3,13 @@
   "rest": "https://lcd-crypto-org.keplr.app",
   "chainId": "crypto-org-chain-mainnet-1",
   "chainName": "Cronos POS",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/crypto-org-chain-mainnet/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/crypto-org-chain-mainnet/chain.png",
   "stakeCurrency": {
     "coinDenom": "CRO",
     "coinMinimalDenom": "basecro",
     "coinDecimals": 8,
     "coinGeckoId": "crypto-com-chain",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/crypto-org-chain-mainnet/basecro.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/crypto-org-chain-mainnet/basecro.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/crypto-org",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/crypto-org",
@@ -30,7 +30,7 @@
       "coinMinimalDenom": "basecro",
       "coinDecimals": 8,
       "coinGeckoId": "crypto-com-chain",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/crypto-org-chain-mainnet/basecro.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/crypto-org-chain-mainnet/basecro.png"
     }
   ],
   "feeCurrencies": [
@@ -39,7 +39,7 @@
       "coinMinimalDenom": "basecro",
       "coinDecimals": 8,
       "coinGeckoId": "crypto-com-chain",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/crypto-org-chain-mainnet/basecro.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/crypto-org-chain-mainnet/basecro.png",
       "gasPriceStep": {
         "low": 0.025,
         "average": 0.03,

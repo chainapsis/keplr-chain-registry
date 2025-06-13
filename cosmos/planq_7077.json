@@ -1,13 +1,13 @@
 {
   "chainId": "planq_7077-1",
   "chainName": "Planq Atlas Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/planq_7077/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/planq_7077/chain.png",
   "rpc": "https://rpc-atlas.planq.network",
   "rest": "https://rest-atlas.planq.network",
   "nodeProvider": {
     "name": "Planq",
     "email": "info@planq.network",
-    "website":"https://planq.network/"
+    "website": "https://planq.network/"
   },
   "bip44": {
     "coinType": 60
@@ -44,8 +44,5 @@
     "coinMinimalDenom": "atplanq",
     "coinDecimals": 18
   },
-  "features": [
-    "eth-address-gen",
-    "eth-key-sign"
-  ]
+  "features": ["eth-address-gen", "eth-key-sign"]
 }

@@ -1,7 +1,7 @@
 {
   "chainId": "bbn-test-5",
   "chainName": "Babylon Phase-2 Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/bbn-test/chain.png",
   "rpc": "https://babylon-testnet-rpc.nodes.guru",
   "rest": "https://babylon-testnet-api.nodes.guru",
   "nodeProvider": {
@@ -25,25 +25,25 @@
       "coinDenom": "tBABY",
       "coinMinimalDenom": "ubbn",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/bbn-test/chain.png"
     },
     {
       "coinDenom": "eBABY",
       "coinMinimalDenom": "ebbn",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/eBABY.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/bbn-test/eBABY.png"
     },
     {
       "coinDenom": "LBTC",
       "coinMinimalDenom": "ibc/13A78C8607F1ABD49DA5EC474262E3D69312A797FB0026BC4F9961D74EB6E066",
       "coinDecimals": 8,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/LBTC.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/bbn-test/LBTC.png"
     },
     {
       "coinDenom": "tcBABY",
       "coinMinimalDenom": "cbbn",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/tcBABY.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/bbn-test/tcBABY.png"
     }
   ],
   "feeCurrencies": [
@@ -51,7 +51,7 @@
       "coinDenom": "tBABY",
       "coinMinimalDenom": "ubbn",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/chain.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/bbn-test/chain.png",
       "gasPriceStep": {
         "low": 0.007,
         "average": 0.007,
@@ -63,7 +63,7 @@
     "coinDenom": "tBABY",
     "coinMinimalDenom": "ubbn",
     "coinDecimals": 6,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/chain.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/bbn-test/chain.png"
   },
   "features": ["cosmwasm"]
 }

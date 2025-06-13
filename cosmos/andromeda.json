@@ -1,7 +1,7 @@
 {
   "chainId": "andromeda-1",
   "chainName": "Andromeda",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/andromeda/andromeda.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/andromeda/andromeda.png",
   "rpc": "https://api.andromedaprotocol.io/rpc/mainnet",
   "rest": "https://api.andromedaprotocol.io/rest/mainnet",
   "nodeProvider": {
@@ -26,7 +26,7 @@
       "coinDenom": "ANDR",
       "coinMinimalDenom": "uandr",
       "coinGeckoId": "andromeda-2",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/andromeda/andromeda.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/andromeda/andromeda.png"
     }
   ],
   "feeCurrencies": [
@@ -40,7 +40,7 @@
         "high": 0.075
       },
       "coinGeckoId": "andromeda-2",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/andromeda/andromeda.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/andromeda/andromeda.png"
     }
   ],
   "stakeCurrency": {
@@ -48,9 +48,7 @@
     "coinDenom": "ANDR",
     "coinMinimalDenom": "uandr",
     "coinGeckoId": "andromeda-2",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/andromeda/andromeda.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/andromeda/andromeda.png"
   },
-  "features": [
-    "cosmwasm"
-  ]
+  "features": ["cosmwasm"]
 }

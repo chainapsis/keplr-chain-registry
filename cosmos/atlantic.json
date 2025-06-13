@@ -3,7 +3,7 @@
   "rest": "https://rest.wallet.atlantic-2.sei.io",
   "chainId": "atlantic-2",
   "chainName": "Sei Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/atlantic/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/atlantic/chain.png",
   "bip44": {
     "coinType": 118
   },

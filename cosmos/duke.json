@@ -8,7 +8,7 @@
     "email": "hello@nobleassets.xyz",
     "website": "https://www.noble.xyz"
   },
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/duke/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/duke/chain.png",
   "bip44": {
     "coinType": 118
   },
@@ -25,31 +25,31 @@
       "coinDenom": "USDC",
       "coinMinimalDenom": "uusdc",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/duke/uusdc.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/duke/uusdc.png"
     },
     {
       "coinDenom": "USDY",
       "coinMinimalDenom": "ausdy",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/duke/ausdy.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/duke/ausdy.png"
     },
     {
       "coinDenom": "USYC",
       "coinMinimalDenom": "uusyc",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/duke/uusyc.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/duke/uusyc.png"
     },
     {
       "coinDenom": "EURe",
       "coinMinimalDenom": "ueure",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/duke/ueure.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/duke/ueure.png"
     },
     {
       "coinDenom": "USDN",
       "coinMinimalDenom": "uusdn",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/duke/uusdn.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/duke/uusdn.png"
     }
   ],
   "feeCurrencies": [
@@ -57,7 +57,7 @@
       "coinDenom": "USDC",
       "coinMinimalDenom": "uusdc",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/duke/uusdc.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/duke/uusdc.png",
       "gasPriceStep": {
         "low": 0.1,
         "average": 0.1,

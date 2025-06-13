@@ -4,17 +4,17 @@
   "nodeProvider": {
     "name": "CNHO",
     "email": "pr@cnho.io",
-    "website":"https://cnho.io/"
+    "website": "https://cnho.io/"
   },
   "chainId": "cnho_stables-1",
   "chainName": "CNHO Stables",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cnho_stables/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/cnho_stables/chain.png",
   "stakeCurrency": {
     "coinDenom": "CNHO",
     "coinMinimalDenom": "ucnho",
     "coinDecimals": 6,
- 
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cnho_stables/chain.png"
+
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/cnho_stables/chain.png"
   },
   "bip44": {
     "coinType": 118
@@ -32,8 +32,8 @@
       "coinDenom": "CNHO",
       "coinMinimalDenom": "ucnho",
       "coinDecimals": 6,
- 
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cnho_stables/chain.png"
+
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/cnho_stables/chain.png"
     }
   ],
   "feeCurrencies": [
@@ -41,8 +41,8 @@
       "coinDenom": "CNHO",
       "coinMinimalDenom": "ucnho",
       "coinDecimals": 6,
- 
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cnho_stables/chain.png",
+
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/cnho_stables/chain.png",
       "gasPriceStep": {
         "low": 0.000005,
         "average": 0.00001,
@@ -50,7 +50,5 @@
       }
     }
   ],
-  "features": [
-	
-  ]
+  "features": []
 }

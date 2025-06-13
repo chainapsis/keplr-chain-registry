@@ -1,13 +1,13 @@
 {
   "chainId": "aioz_168-1",
   "chainName": "AIOZ Network",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aioz_168/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/aioz_168/chain.png",
   "rpc": "https://rpc-dataseed.aioz.network",
   "rest": "https://lcd-dataseed.aioz.network",
   "nodeProvider": {
     "name": "AIOZ Network",
     "email": "contact@aioz.network",
-    "website":"https://aioz.network"
+    "website": "https://aioz.network"
   },
   "stakeCurrency": {
     "coinDenom": "AIOZ",

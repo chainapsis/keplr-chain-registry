@@ -3,7 +3,7 @@
   "rest": "https://rest.thestratos.org",
   "chainId": "stratos-1",
   "chainName": "Stratos Network",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stratos/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/stratos/chain.png",
   "walletUrl": "https://wallet.keplr.app/chains/stratos",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/stratos",
   "nodeProvider": {
@@ -28,7 +28,7 @@
       "coinMinimalDenom": "wei",
       "coinDecimals": 18,
       "coinGeckoId": "stratos",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stratos/stos.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/stratos/stos.png"
     }
   ],
   "feeCurrencies": [
@@ -37,7 +37,7 @@
       "coinMinimalDenom": "wei",
       "coinDecimals": 18,
       "coinGeckoId": "stratos",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stratos/stos.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/stratos/stos.png",
       "gasPriceStep": {
         "low": 1000000000,
         "average": 1200000000,
@@ -50,7 +50,7 @@
     "coinMinimalDenom": "wei",
     "coinDecimals": 18,
     "coinGeckoId": "stratos",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stratos/stos.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/stratos/stos.png"
   },
   "features": ["eth-address-gen", "eth-key-sign"]
 }

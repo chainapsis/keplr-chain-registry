@@ -1,7 +1,7 @@
 {
   "chainId": "nibiru-testnet-2",
   "chainName": "Nibiru Testnet 2",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-testnet/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/nibiru-testnet/chain.png",
   "rpc": "https://rpc.testnet-2.nibiru.fi/",
   "rest": "https://lcd.testnet-2.nibiru.fi/",
   "nodeProvider": {
@@ -25,13 +25,13 @@
       "coinDenom": "NIBI",
       "coinMinimalDenom": "unibi",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-testnet/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/nibiru-testnet/chain.png"
     },
     {
       "coinDenom": "stNIBI",
       "coinMinimalDenom": "tf/nibi1xsvylys33m0y3dpyz6he3xuv2rcdwtk843wg2xdvqhdty8wmr0wq9au5px/ampNIBIT",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-testnet/tf/nibi1xsvylys33m0y3dpyz6he3xuv2rcdwtk843wg2xdvqhdty8wmr0wq9au5px/ampNIBIT.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/nibiru-testnet/tf/nibi1xsvylys33m0y3dpyz6he3xuv2rcdwtk843wg2xdvqhdty8wmr0wq9au5px/ampNIBIT.png"
     }
   ],
   "feeCurrencies": [
@@ -39,7 +39,7 @@
       "coinDenom": "NIBI",
       "coinMinimalDenom": "unibi",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-testnet/chain.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/nibiru-testnet/chain.png",
       "gasPriceStep": {
         "low": 0.05,
         "average": 0.125,
@@ -51,7 +51,7 @@
     "coinDenom": "NIBI",
     "coinMinimalDenom": "unibi",
     "coinDecimals": 6,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-testnet/chain.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/nibiru-testnet/chain.png"
   },
   "features": ["cosmwasm"]
 }

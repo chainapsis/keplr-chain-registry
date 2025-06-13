@@ -3,12 +3,12 @@
   "rest": "https://api.xion-testnet-2.burnt.com/",
   "chainId": "xion-testnet-2",
   "chainName": "Xion Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xion-testnet/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/xion-testnet/chain.png",
   "stakeCurrency": {
     "coinDenom": "XION",
     "coinMinimalDenom": "uxion",
     "coinDecimals": 6,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xion-testnet/chain.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/xion-testnet/chain.png"
   },
   "bip44": {
     "coinType": 118
@@ -26,7 +26,7 @@
       "coinDenom": "XION",
       "coinMinimalDenom": "uxion",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xion-testnet/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/xion-testnet/chain.png"
     }
   ],
   "feeCurrencies": [
@@ -34,7 +34,7 @@
       "coinDenom": "XION",
       "coinMinimalDenom": "uxion",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xion-testnet/chain.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/xion-testnet/chain.png",
       "gasPriceStep": {
         "low": 0.001,
         "average": 0.001,
@@ -42,9 +42,7 @@
       }
     }
   ],
-  "features": [
-    "cosmwasm"
-  ],
+  "features": ["cosmwasm"],
   "nodeProvider": {
     "name": "🔥BurntLabs🔥",
     "email": "security@burnt.com",

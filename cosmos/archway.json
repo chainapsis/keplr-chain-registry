@@ -12,14 +12,14 @@
   },
   "chainId": "archway-1",
   "chainName": "Archway",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/archway/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/archway/chain.png",
   "currencies": [
     {
       "coinDecimals": 18,
       "coinDenom": "ARCH",
       "coinGeckoId": "archway",
       "coinMinimalDenom": "aarch",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/archway/aarch.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/archway/aarch.png"
     }
   ],
   "features": ["cosmwasm"],
@@ -34,7 +34,7 @@
         "average": 196000000000,
         "high": 225400000000
       },
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/archway/aarch.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/archway/aarch.png"
     }
   ],
   "rest": "https://api.mainnet.archway.io",
@@ -44,11 +44,11 @@
     "coinDenom": "ARCH",
     "coinGeckoId": "archway",
     "coinMinimalDenom": "aarch",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/archway/aarch.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/archway/aarch.png"
   },
   "nodeProvider": {
     "name": "Phi Labs",
     "email": "support@philabs.xyz",
-    "website":"https://philabs.xyz"
+    "website": "https://philabs.xyz"
   }
 }

@@ -1,7 +1,7 @@
 {
   "chainId": "lixx-dev-1",
   "chainName": "LIXX Blockchain Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lixx-dev/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/lixx-dev/chain.png",
   "rpc": "https://rpc-testnet.lix.zone",
   "rest": "https://rest-testnet.lix.zone",
   "nodeProvider": {
@@ -25,13 +25,13 @@
       "coinDenom": "LIXX",
       "coinMinimalDenom": "ulixx",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lixx-dev/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/lixx-dev/chain.png"
     },
     {
       "coinDenom": "LXP",
       "coinMinimalDenom": "factory/lixx12duj33att0tejk5hv2dgem437vt5n9cg3679y5/ulxp",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lixx-dev/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/lixx-dev/chain.png"
     }
   ],
   "feeCurrencies": [
@@ -51,7 +51,5 @@
     "coinMinimalDenom": "ulixx",
     "coinDecimals": 6
   },
-  "features": [
-    "cosmwasm"
-  ]
+  "features": ["cosmwasm"]
 }

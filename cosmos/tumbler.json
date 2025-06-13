@@ -1,13 +1,13 @@
 {
   "chainId": "tumbler",
   "chainName": "Paloma",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tumbler/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/tumbler/chain.png",
   "rpc": "https://rpc-1.paloma.nodes.guru",
   "rest": "https://api-1.paloma.nodes.guru",
   "nodeProvider": {
     "name": "Nodes.Guru",
     "email": "support@nodes.guru",
-    "website":"https://nodes.guru/"
+    "website": "https://nodes.guru/"
   },
   "bip44": {
     "coinType": 118
@@ -33,7 +33,7 @@
       "coinMinimalDenom": "ugrain",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.00,
+        "low": 0.0,
         "average": 0.01,
         "high": 0.025
       }
@@ -44,7 +44,5 @@
     "coinMinimalDenom": "ugrain",
     "coinDecimals": 6
   },
-  "features": [
-    "cosmwasm"
-  ]
+  "features": ["cosmwasm"]
 }

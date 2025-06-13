@@ -1,7 +1,7 @@
 {
   "chainId": "dymension_1100-1",
   "chainName": "Dymension",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dymension_1100/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/dymension_1100/chain.png",
   "rpc": "https://rpc-dymension.keplr.app",
   "rest": "https://lcd-dymension.keplr.app",
   "evm": {
@@ -14,7 +14,7 @@
       "coinDenom": "DYM",
       "coinDecimals": 18,
       "coinGeckoId": "dymension",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dymension_1100/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/dymension_1100/chain.png"
     }
   ],
   "bip44": {
@@ -33,7 +33,7 @@
     "coinDenom": "DYM",
     "coinDecimals": 18,
     "coinGeckoId": "dymension",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dymension_1100/chain.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/dymension_1100/chain.png"
   },
   "feeCurrencies": [
     {
@@ -41,7 +41,7 @@
       "coinDenom": "DYM",
       "coinDecimals": 18,
       "coinGeckoId": "dymension",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dymension_1100/chain.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/dymension_1100/chain.png",
       "gasPriceStep": {
         "average": 20000000000,
         "high": 20000000000,

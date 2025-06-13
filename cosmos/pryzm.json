@@ -4,11 +4,11 @@
   "chainId": "pryzm-1",
   "chainName": "Pryzm",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/pryzm",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pryzm/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/pryzm/chain.png",
   "stakeCurrency": {
     "coinDenom": "PRYZM",
     "coinMinimalDenom": "upryzm",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pryzm/upryzm.png",
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/pryzm/upryzm.png",
     "coinDecimals": 6
   },
   "bip44": {
@@ -27,13 +27,13 @@
       "coinDenom": "PRYZM",
       "coinMinimalDenom": "upryzm",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pryzm/upryzm.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/pryzm/upryzm.png"
     },
     {
       "coinDenom": "AUUU",
       "coinMinimalDenom": "factory/pryzm1jnhcsa5ddjsjq2t97v6a82z542rduxvtw6wd9h/uauuu",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pryzm/uauuu.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/pryzm/uauuu.png"
     }
   ],
   "feeCurrencies": [
@@ -154,7 +154,5 @@
       }
     }
   ],
-  "features": [
-    "cosmwasm"
-  ]
+  "features": ["cosmwasm"]
 }

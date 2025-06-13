@@ -1,8 +1,7 @@
 {
-
   "chainId": "pocket-beta",
   "chainName": "Pocket Network Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pocket-beta/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/pocket-beta/chain.png",
   "rpc": "https://shannon-testnet-grove-rpc.beta.poktroll.com",
   "rest": "https://shannon-testnet-grove-api.beta.poktroll.com",
   "nodeProvider": {
@@ -26,7 +25,7 @@
       "coinDenom": "POKT",
       "coinMinimalDenom": "upokt",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pocket-beta/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/pocket-beta/chain.png"
     },
     {
       "coinDenom": "MACT",
@@ -50,10 +49,10 @@
       "coinMinimalDenom": "umact",
       "coinDecimals": 6,
       "gasPriceStep": {
-          "low": 0.01,
-          "average": 0.01,
-          "high": 0.01
-        }
+        "low": 0.01,
+        "average": 0.01,
+        "high": 0.01
+      }
     }
   ],
   "stakeCurrency": {
