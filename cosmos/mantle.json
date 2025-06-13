@@ -1,7 +1,7 @@
 {
   "chainId": "mantle-1",
   "chainName": "AssetMantle",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantle/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/mantle/chain.png",
   "nodeProvider": {
     "name": "mantleNode",
     "email": "hello@assetmantle.one",
@@ -26,7 +26,7 @@
       "coinMinimalDenom": "umntl",
       "coinDecimals": 6,
       "coinGeckoId": "assetmantle",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantle/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/mantle/chain.png"
     }
   ],
   "feeCurrencies": [
@@ -35,7 +35,7 @@
       "coinMinimalDenom": "umntl",
       "coinDecimals": 6,
       "coinGeckoId": "assetmantle",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantle/chain.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/mantle/chain.png",
       "gasPriceStep": {
         "low": 0,
         "average": 0.025,
@@ -48,7 +48,7 @@
     "coinMinimalDenom": "umntl",
     "coinDecimals": 6,
     "coinGeckoId": "assetmantle",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantle/chain.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/mantle/chain.png"
   },
   "features": [],
   "walletUrl": "https://wallet.assetmantle.one",

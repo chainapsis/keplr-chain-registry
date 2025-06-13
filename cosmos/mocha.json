@@ -3,7 +3,7 @@
   "rest": "https://lcd-celestia-testnet-mocha.keplr.app",
   "chainId": "mocha-4",
   "chainName": "Celestia Mocha Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mocha/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/mocha/chain.png",
   "stakeCurrency": {
     "coinDenom": "TIA",
     "coinMinimalDenom": "utia",

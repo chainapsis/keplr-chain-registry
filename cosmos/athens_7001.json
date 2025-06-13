@@ -3,7 +3,7 @@
   "rest": "https://zetachain-athens.blockpi.network/lcd/v1/public",
   "chainId": "athens_7001-1",
   "chainName": "ZetaChain Athens 3 Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/athens_7001/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/athens_7001/chain.png",
   "stakeCurrency": {
     "coinDenom": "ZETA",
     "coinMinimalDenom": "azeta",
@@ -44,8 +44,5 @@
       }
     }
   ],
-  "features": [
-    "eth-address-gen",
-    "eth-key-sign"
-  ]
+  "features": ["eth-address-gen", "eth-key-sign"]
 }

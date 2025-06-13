@@ -1,7 +1,7 @@
 {
   "chainId": "axone-dentrite-1",
   "chainName": "Axone Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axone-dentrite/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/axone-dentrite/chain.png",
   "rpc": "https://axone-rpc.jayjayinfra.space/",
   "rest": "https://axone-api.jayjayinfra.space/",
   "nodeProvider": {
@@ -25,7 +25,7 @@
       "coinDenom": "AXONE",
       "coinMinimalDenom": "uaxone",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axone-dentrite/uaxone.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/axone-dentrite/uaxone.png"
     }
   ],
   "feeCurrencies": [
@@ -33,7 +33,7 @@
       "coinDenom": "AXONE",
       "coinMinimalDenom": "uaxone",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axone-dentrite/uaxone.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/axone-dentrite/uaxone.png",
       "gasPriceStep": {
         "low": 0.0025,
         "average": 0.025,
@@ -45,9 +45,7 @@
     "coinDenom": "AXONE",
     "coinMinimalDenom": "uaxone",
     "coinDecimals": 6,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axone-dentrite/uaxone.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/axone-dentrite/uaxone.png"
   },
-  "features": [
-    "cosmwasm"
-  ]
+  "features": ["cosmwasm"]
 }

@@ -1,13 +1,13 @@
 {
   "chainId": "cheqd-mainnet-1",
   "chainName": "Cheqd",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cheqd-mainnet/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/cheqd-mainnet/chain.png",
   "rpc": "https://rpc.cheqd.net",
   "rest": "https://api.cheqd.net",
   "nodeProvider": {
     "name": "Cheqd Network",
     "email": "security-github@cheqd.io",
-    "website":"https://cheqd.io/"
+    "website": "https://cheqd.io/"
   },
   "walletUrlForStaking": "https://cheqd.omniflix.co",
   "bip44": {

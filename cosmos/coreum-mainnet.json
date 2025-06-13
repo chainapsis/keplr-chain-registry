@@ -1,12 +1,12 @@
 {
   "chainId": "coreum-mainnet-1",
   "chainName": "Coreum",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/coreum-mainnet/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/coreum-mainnet/chain.png",
   "rpc": "https://full-node.mainnet-1.coreum.dev:26657",
   "rest": "https://full-node.mainnet-1.coreum.dev:1317",
   "nodeProvider": {
     "name": "Coreum Full Node",
-    "website":"https://www.coreum.com/",
+    "website": "https://www.coreum.com/",
     "email": "hello@coreum.com"
   },
   "bip44": {
@@ -47,7 +47,5 @@
     "coinDecimals": 6,
     "coinGeckoId": "coreum"
   },
-  "features": [
-    "cosmwasm"
-  ]
+  "features": ["cosmwasm"]
 }

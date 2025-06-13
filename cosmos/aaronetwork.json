@@ -12,18 +12,18 @@
   },
   "chainId": "aaronetwork",
   "chainName": "Aaron Network",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aaronetwork/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/aaronetwork/chain.png",
   "nodeProvider": {
-    "name":"Aaron Network",
+    "name": "Aaron Network",
     "email": "aaronetwork@proton.me",
-    "website":"https://aaronetwork.xyz"
+    "website": "https://aaronetwork.xyz"
   },
   "currencies": [
     {
       "coinDecimals": 6,
       "coinDenom": "AARON",
       "coinMinimalDenom": "uaaron",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aaronetwork/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/aaronetwork/chain.png"
     }
   ],
   "features": [],
@@ -32,7 +32,7 @@
       "coinDecimals": 6,
       "coinDenom": "AARON",
       "coinMinimalDenom": "uaaron",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aaronetwork/chain.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/aaronetwork/chain.png",
       "gasPriceStep": {
         "low": 0.01,
         "average": 0.02,
@@ -46,6 +46,6 @@
     "coinDecimals": 6,
     "coinDenom": "AARON",
     "coinMinimalDenom": "uaaron",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aaronetwork/chain.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/aaronetwork/chain.png"
   }
 }

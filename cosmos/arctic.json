@@ -3,7 +3,7 @@
   "rest": "https://rest.wallet.arctic-1.sei.io",
   "chainId": "arctic-1",
   "chainName": "Sei Devnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/arctic/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/arctic/chain.png",
   "bip44": {
     "coinType": 118
   },
@@ -21,10 +21,10 @@
     "bech32PrefixConsPub": "seivalconspub"
   },
   "nodeProvider": {
-        "name": "Sei",
-        "email": "ecosystem@seinetwork.io",
-        "website":"https://sei.io"
-    },
+    "name": "Sei",
+    "email": "ecosystem@seinetwork.io",
+    "website": "https://sei.io"
+  },
   "currencies": [
     {
       "coinDenom": "SEI",

@@ -7,13 +7,13 @@
     "chainId": 9600,
     "rpc": "https://sentry.evm.rpc.routerprotocol.com"
   },
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/router_9600/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/router_9600/chain.png",
   "stakeCurrency": {
     "coinDenom": "ROUTE",
     "coinMinimalDenom": "route",
     "coinDecimals": 18,
     "coinGeckoId": "router-protocol-2",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/router_9600/chain.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/router_9600/chain.png"
   },
   "walletUrlForStaking": "https://hub.routerprotocol.com/staking",
   "bip44": { "coinType": 60 },
@@ -31,7 +31,7 @@
       "coinMinimalDenom": "route",
       "coinDecimals": 18,
       "coinGeckoId": "router-protocol-2",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/router_9600/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/router_9600/chain.png"
     }
   ],
   "feeCurrencies": [
@@ -40,7 +40,7 @@
       "coinMinimalDenom": "route",
       "coinDecimals": 18,
       "coinGeckoId": "router-protocol-2",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/router_9600/chain.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/router_9600/chain.png",
       "gasPriceStep": {
         "low": 5000000000,
         "average": 25000000000,

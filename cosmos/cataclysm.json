@@ -1,7 +1,7 @@
 {
   "chainId": "cataclysm-1",
   "chainName": "Nibiru",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cataclysm/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/cataclysm/chain.png",
   "rpc": "https://rpc.nibiru.fi/",
   "rest": "https://lcd.nibiru.fi/",
   "nodeProvider": {
@@ -26,19 +26,19 @@
       "coinMinimalDenom": "unibi",
       "coinDecimals": 6,
       "coinGeckoId": "nibiru",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cataclysm/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/cataclysm/chain.png"
     },
     {
       "coinDenom": "AXV",
       "coinMinimalDenom": "tf/nibi1vetfuua65frvf6f458xgtjerf0ra7wwjykrdpuyn0jur5x07awxsfka0ga/axv",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cataclysm/tf/nibi1vetfuua65frvf6f458xgtjerf0ra7wwjykrdpuyn0jur5x07awxsfka0ga/axv.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/cataclysm/tf/nibi1vetfuua65frvf6f458xgtjerf0ra7wwjykrdpuyn0jur5x07awxsfka0ga/axv.png"
     },
     {
       "coinDenom": "stNIBI",
       "coinMinimalDenom": "tf/nibi1udqqx30cw8nwjxtl4l28ym9hhrp933zlq8dqxfjzcdhvl8y24zcqpzmh8m/ampNIBI",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cataclysm/tf/nibi1udqqx30cw8nwjxtl4l28ym9hhrp933zlq8dqxfjzcdhvl8y24zcqpzmh8m/ampNIBI.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/cataclysm/tf/nibi1udqqx30cw8nwjxtl4l28ym9hhrp933zlq8dqxfjzcdhvl8y24zcqpzmh8m/ampNIBI.png"
     }
   ],
   "feeCurrencies": [
@@ -47,7 +47,7 @@
       "coinMinimalDenom": "unibi",
       "coinDecimals": 6,
       "coinGeckoId": "nibiru",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cataclysm/chain.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/cataclysm/chain.png",
       "gasPriceStep": {
         "low": 0.025,
         "average": 0.05,
@@ -60,7 +60,7 @@
     "coinMinimalDenom": "unibi",
     "coinDecimals": 6,
     "coinGeckoId": "nibiru",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cataclysm/chain.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/cataclysm/chain.png"
   },
   "features": ["cosmwasm"]
 }

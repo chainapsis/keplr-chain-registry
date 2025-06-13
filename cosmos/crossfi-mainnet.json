@@ -10,7 +10,7 @@
   "nodeProvider": {
     "name": "Crossfi",
     "email": "info@crossfi.org",
-    "website":"https://crossfi.org/"
+    "website": "https://crossfi.org/"
   },
   "rpc": "https://xficonsole.com/cosmos-rpc/api",
   "rest": "https://xficonsole.com/cosmos-rest/api",
@@ -19,7 +19,7 @@
   "bip44": {
     "coinType": 60
   },
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/crossfi-mainnet/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/crossfi-mainnet/chain.png",
   "currencies": [
     {
       "coinDecimals": 18,
@@ -32,10 +32,7 @@
       "coinMinimalDenom": "mpx"
     }
   ],
-  "features": [
-    "eth-address-gen",
-    "eth-key-sign"
-  ],
+  "features": ["eth-address-gen", "eth-key-sign"],
   "feeCurrencies": [
     {
       "coinDecimals": 18,

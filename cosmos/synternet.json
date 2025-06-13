@@ -12,13 +12,13 @@
   },
   "chainId": "synternet-1",
   "chainName": "synternet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/synternet/synt.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/synternet/synt.png",
   "currencies": [
     {
       "coinDecimals": 6,
       "coinDenom": "SYNT",
       "coinMinimalDenom": "usynt",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/synternet/synt.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/synternet/synt.png"
     }
   ],
   "features": [],
@@ -27,7 +27,7 @@
       "coinDecimals": 6,
       "coinDenom": "SYNT",
       "coinMinimalDenom": "usynt",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/synternet/synt.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/synternet/synt.png",
       "gasPriceStep": {
         "average": 0.025,
         "high": 0.03,
@@ -46,7 +46,7 @@
     "coinDecimals": 6,
     "coinDenom": "SYNT",
     "coinMinimalDenom": "usynt",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/synternet/synt.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/synternet/synt.png"
   },
   "walletUrlForStaking": "https://staking.synternet.com"
 }

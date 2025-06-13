@@ -1,13 +1,13 @@
 {
   "chainId": "source-1",
   "chainName": "Source",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/source/source.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/source/source.png",
   "rpc": "https://rpc.source.tcnetwork.io/",
   "rest": "https://rest.source.tcnetwork.io/",
   "nodeProvider": {
     "name": "tcnetwork",
     "email": "support@tcnetwork.io",
-    "website":"https://tcnetwork.io/"
+    "website": "https://tcnetwork.io/"
   },
   "bip44": {
     "coinType": 118
@@ -47,7 +47,5 @@
     "coinDecimals": 6,
     "coinGeckoId": "source"
   },
-  "features": [
-    "cosmwasm"
-  ]
+  "features": ["cosmwasm"]
 }

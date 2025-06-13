@@ -1,14 +1,14 @@
 {
   "chainId": "dyson-mainnet-01",
   "chainName": "Dyson Protocol",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dyson-mainnet/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/dyson-mainnet/chain.png",
   "rpc": "https://dys-tm.dysonprotocol.com/",
   "rest": "https://dys-api.dysonprotocol.com/",
   "nodeProvider": {
-        "name": "Dyson Protocol",
-	"email": "dysonprotocol@protonmail.com",
-        "website": "https://dysonprotocol.com/"
-    },
+    "name": "Dyson Protocol",
+    "email": "dysonprotocol@protonmail.com",
+    "website": "https://dysonprotocol.com/"
+  },
   "walletUrlForStaking": "https://explorer.dys.dysonprotocol.com/",
   "bip44": {
     "coinType": 118

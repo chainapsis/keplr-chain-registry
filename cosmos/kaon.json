@@ -4,11 +4,11 @@
   "nodeProvider": {
     "name": "ecostake",
     "email": "hello@ecostake.com",
-    "website":"https://www.ecostake.com/"
+    "website": "https://www.ecostake.com/"
   },
   "chainId": "kaon-1",
   "chainName": "Kaon (Testnet)",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaon/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/kaon/chain.png",
   "stakeCurrency": {
     "coinDenom": "KYVE",
     "coinMinimalDenom": "tkyve",

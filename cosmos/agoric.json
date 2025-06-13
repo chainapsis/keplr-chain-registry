@@ -3,13 +3,13 @@
   "rest": "https://lcd-agoric.keplr.app",
   "chainId": "agoric-3",
   "chainName": "Agoric",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/agoric/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/agoric/chain.png",
   "stakeCurrency": {
     "coinDenom": "BLD",
     "coinMinimalDenom": "ubld",
     "coinDecimals": 6,
     "coinGeckoId": "agoric",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/agoric/ubld.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/agoric/ubld.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/agoric",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/agoric",
@@ -30,14 +30,14 @@
       "coinMinimalDenom": "ubld",
       "coinDecimals": 6,
       "coinGeckoId": "agoric",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/agoric/ubld.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/agoric/ubld.png"
     },
     {
       "coinDenom": "IST",
       "coinMinimalDenom": "uist",
       "coinDecimals": 6,
       "coinGeckoId": "inter-stable-token",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/agoric/uist.png"    
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/agoric/uist.png"
     }
   ],
   "feeCurrencies": [
@@ -46,7 +46,7 @@
       "coinMinimalDenom": "ubld",
       "coinDecimals": 6,
       "coinGeckoId": "agoric",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/agoric/ubld.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/agoric/ubld.png",
       "gasPriceStep": {
         "low": 0.03,
         "average": 0.05,

@@ -1,48 +1,48 @@
 {
-    "chainId": "surge_262145-1",
-    "chainName": "Surge Execution Testnet",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/surge_262145/chain.png",
-    "rpc": "https://cosmos.rpc.surge.dev",
-    "rest": "https://cosmos.api.surge.dev",
-    "nodeProvider": {
-        "name": "Surge",
-        "email": "contact@surge.build",
-        "website": "https://surge.build/"
-    },
-    "bip44": {
-        "coinType": 118
-    },
-    "bech32Config": {
-        "bech32PrefixAccAddr": "srg",
-        "bech32PrefixAccPub": "srgpub",
-        "bech32PrefixValAddr": "srgvaloper",
-        "bech32PrefixValPub": "srgvaloperpub",
-        "bech32PrefixConsAddr": "srgvalcons",
-        "bech32PrefixConsPub": "srgvalconspub"
-    },
-    "currencies": [
-        {
-            "coinDenom": "SRG",
-            "coinMinimalDenom": "asrg",
-            "coinDecimals": 18
-        }
-    ],
-    "feeCurrencies": [
-        {
-            "coinDenom": "SRG",
-            "coinMinimalDenom": "asrg",
-            "coinDecimals": 18,
-            "gasPriceStep": {
-                "low": 0.01,
-                "average": 0.02,
-                "high": 0.1
-            }
-        }
-    ],
-    "stakeCurrency": {
-        "coinDenom": "SRG",
-        "coinMinimalDenom": "asrg",
-        "coinDecimals": 18
-    },
-    "features": []
+  "chainId": "surge_262145-1",
+  "chainName": "Surge Execution Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/surge_262145/chain.png",
+  "rpc": "https://cosmos.rpc.surge.dev",
+  "rest": "https://cosmos.api.surge.dev",
+  "nodeProvider": {
+    "name": "Surge",
+    "email": "contact@surge.build",
+    "website": "https://surge.build/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "srg",
+    "bech32PrefixAccPub": "srgpub",
+    "bech32PrefixValAddr": "srgvaloper",
+    "bech32PrefixValPub": "srgvaloperpub",
+    "bech32PrefixConsAddr": "srgvalcons",
+    "bech32PrefixConsPub": "srgvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "SRG",
+      "coinMinimalDenom": "asrg",
+      "coinDecimals": 18
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "SRG",
+      "coinMinimalDenom": "asrg",
+      "coinDecimals": 18,
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.02,
+        "high": 0.1
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "SRG",
+    "coinMinimalDenom": "asrg",
+    "coinDecimals": 18
+  },
+  "features": []
 }

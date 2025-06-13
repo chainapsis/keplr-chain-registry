@@ -1,7 +1,7 @@
 {
   "chainId": "scorum-1",
   "chainName": "Scorum Cosmos Network",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/scorum/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/scorum/chain.png",
   "rpc": "https://scorum-blockchain-mainnet-rpc.scorum.com",
   "rest": "https://scorum-blockchain-mainnet-api.scorum.com",
   "nodeProvider": {
@@ -26,13 +26,13 @@
       "coinMinimalDenom": "nscr",
       "coinDecimals": 9,
       "coinGeckoId": "scorum",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/scorum/scr.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/scorum/scr.png"
     },
     {
       "coinDenom": "GAS",
       "coinMinimalDenom": "gas",
       "coinDecimals": 0,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/scorum/gas.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/scorum/gas.png"
     }
   ],
   "feeCurrencies": [
@@ -40,7 +40,7 @@
       "coinDenom": "GAS",
       "coinMinimalDenom": "gas",
       "coinDecimals": 0,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/scorum/gas.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/scorum/gas.png",
       "gasPriceStep": {
         "low": 1,
         "average": 1,
@@ -52,7 +52,7 @@
     "coinDenom": "SCR",
     "coinMinimalDenom": "nscr",
     "coinDecimals": 9,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/scorum/scr.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/scorum/scr.png"
   },
   "features": []
 }

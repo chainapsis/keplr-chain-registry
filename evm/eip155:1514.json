@@ -3,7 +3,7 @@
   "websocket": "wss://evm-1514.keplr.app/websocket",
   "chainId": "eip155:1514",
   "chainName": "Story",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1514/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/eip155:1514/chain.png",
   "bip44": {
     "coinType": 60
   },
@@ -12,7 +12,7 @@
       "coinDenom": "IP",
       "coinMinimalDenom": "story-native",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1514/story-native.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/eip155:1514/story-native.png"
     }
   ],
   "feeCurrencies": [
@@ -20,7 +20,7 @@
       "coinDenom": "IP",
       "coinMinimalDenom": "story-native",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1514/story-native.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/eip155:1514/story-native.png"
     }
   ],
   "features": []

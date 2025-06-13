@@ -3,13 +3,13 @@
   "rest": "https://lcd-cyber.keplr.app",
   "chainId": "bostrom",
   "chainName": "Bostrom",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bostrom/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/bostrom/chain.png",
   "stakeCurrency": {
     "coinDenom": "BOOT",
     "coinMinimalDenom": "boot",
     "coinDecimals": 0,
     "coinGeckoId": "bostrom",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bostrom/boot.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/bostrom/boot.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/bostrom",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/bostrom",
@@ -30,7 +30,7 @@
       "coinMinimalDenom": "boot",
       "coinDecimals": 0,
       "coinGeckoId": "bostrom",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bostrom/boot.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/bostrom/boot.png"
     },
     {
       "coinDenom": "H",
@@ -59,7 +59,7 @@
       "coinMinimalDenom": "boot",
       "coinDecimals": 0,
       "coinGeckoId": "bostrom",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bostrom/boot.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/bostrom/boot.png",
       "gasPriceStep": {
         "low": 0,
         "average": 0,
@@ -67,7 +67,5 @@
       }
     }
   ],
-  "features": [
-    "cosmwasm"
-  ]
+  "features": ["cosmwasm"]
 }

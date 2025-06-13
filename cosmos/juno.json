@@ -3,13 +3,13 @@
   "rest": "https://lcd-juno.keplr.app",
   "chainId": "juno-1",
   "chainName": "Juno",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/juno/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/juno/chain.png",
   "stakeCurrency": {
     "coinDenom": "JUNO",
     "coinMinimalDenom": "ujuno",
     "coinDecimals": 6,
     "coinGeckoId": "juno-network",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/juno/ujuno.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/juno/ujuno.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/juno",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/juno",
@@ -30,13 +30,13 @@
       "coinMinimalDenom": "ujuno",
       "coinDecimals": 6,
       "coinGeckoId": "juno-network",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/juno/ujuno.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/juno/ujuno.png"
     },
     {
       "coinDenom": "EMPR",
       "coinMinimalDenom": "factory/juno1zjqsel42pj5e6wvxxw7hjs9gn06yqz4m3ffyua3x2v44m4l8trjsr92q9s/empr",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/juno/factory/juno1zjqsel42pj5e6wvxxw7hjs9gn06yqz4m3ffyua3x2v44m4l8trjsr92q9s/empr.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/juno/factory/juno1zjqsel42pj5e6wvxxw7hjs9gn06yqz4m3ffyua3x2v44m4l8trjsr92q9s/empr.png"
     }
   ],
   "feeCurrencies": [
@@ -45,7 +45,7 @@
       "coinMinimalDenom": "ujuno",
       "coinDecimals": 6,
       "coinGeckoId": "juno-network",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/juno/ujuno.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/juno/ujuno.png",
       "gasPriceStep": {
         "low": 0.075,
         "average": 0.075,
@@ -63,8 +63,5 @@
       }
     }
   ],
-  "features": [
-    "cosmwasm",
-    "authz-msg-revoke-fixed"
-  ]
+  "features": ["cosmwasm", "authz-msg-revoke-fixed"]
 }

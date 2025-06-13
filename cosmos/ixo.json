@@ -8,13 +8,13 @@
   },
   "chainId": "ixo-5",
   "chainName": "Impact Hub",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ixo/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/ixo/chain.png",
   "stakeCurrency": {
     "coinDenom": "IXO",
     "coinMinimalDenom": "uixo",
     "coinDecimals": 6,
     "coinGeckoId": "ixo",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ixo/uixo.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/ixo/uixo.png"
   },
   "bip44": {
     "coinType": 118
@@ -33,7 +33,7 @@
       "coinMinimalDenom": "uixo",
       "coinDecimals": 6,
       "coinGeckoId": "ixo",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ixo/uixo.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/ixo/uixo.png"
     }
   ],
   "feeCurrencies": [
@@ -41,7 +41,7 @@
       "coinDenom": "IXO",
       "coinMinimalDenom": "uixo",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ixo/uixo.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/ixo/uixo.png",
       "gasPriceStep": {
         "low": 0.015,
         "average": 0.025,

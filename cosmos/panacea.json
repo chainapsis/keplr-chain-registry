@@ -1,13 +1,13 @@
 {
   "chainId": "panacea-3",
   "chainName": "MediBloc",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/panacea/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/panacea/chain.png",
   "rpc": "https://rpc.gopanacea.org",
   "rest": "https://api.gopanacea.org",
   "nodeProvider": {
     "name": "MediBloc",
     "email": "blockchain@medibloc.org",
-    "website":"https://medibloc.com"
+    "website": "https://medibloc.com"
   },
   "bip44": {
     "coinType": 371

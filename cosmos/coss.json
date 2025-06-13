@@ -3,7 +3,7 @@
   "rest": "https://coss-rest.coss.ink",
   "chainId": "coss-1",
   "chainName": "Coss",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/coss/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/coss/chain.png",
   "nodeProvider": {
     "name": "Coss Node",
     "email": "coss.inscription@gmail.com"

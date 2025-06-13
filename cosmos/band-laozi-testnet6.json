@@ -1,7 +1,7 @@
 {
   "chainId": "band-laozi-testnet6",
   "chainName": "BandChain Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/band-laozi-testnet6/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/band-laozi-testnet6/chain.png",
   "rpc": "https://rpc.laozi-testnet6.bandchain.org:443",
   "rest": "https://laozi-testnet6.bandchain.org/api",
   "nodeProvider": {

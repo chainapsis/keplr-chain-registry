@@ -3,7 +3,7 @@
   "rest": "https://lcd.testnet.osmosis.zone",
   "chainId": "osmo-test-5",
   "chainName": "Osmosis Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/osmosis/chain.png",
   "bip44": {
     "coinType": 118
   },
@@ -19,20 +19,20 @@
     "coinDenom": "OSMO",
     "coinMinimalDenom": "uosmo",
     "coinDecimals": 6,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/uosmo.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/osmosis/uosmo.png"
   },
   "currencies": [
     {
       "coinDenom": "OSMO",
       "coinMinimalDenom": "uosmo",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/uosmo.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/osmosis/uosmo.png"
     },
     {
       "coinDenom": "ION",
       "coinMinimalDenom": "uion",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/uion.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/osmosis/uion.png"
     }
   ],
   "feeCurrencies": [
@@ -40,7 +40,7 @@
       "coinDenom": "OSMO",
       "coinMinimalDenom": "uosmo",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/uosmo.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/osmosis/uosmo.png",
       "gasPriceStep": {
         "low": 0.0025,
         "average": 0.025,

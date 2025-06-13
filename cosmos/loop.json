@@ -3,7 +3,7 @@
   "rest": "https://api.loop.pfc.zone",
   "nodeProvider": {
     "name": "PFC",
-    "website":"https://pfc.zone/",
+    "website": "https://pfc.zone/",
     "email": "pfc@pfc.zone"
   },
   "chainId": "loop-1",
@@ -12,9 +12,9 @@
     "coinDenom": "TOKEN",
     "coinMinimalDenom": "token",
     "coinDecimals": 6,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/loop/token.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/loop/token.png"
   },
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/loop/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/loop/chain.png",
   "bip44": {
     "coinType": 118
   },
@@ -31,7 +31,7 @@
       "coinDenom": "TOKEN",
       "coinMinimalDenom": "token",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/loop/token.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/loop/token.png"
     },
     {
       "coinDenom": "POA",
@@ -55,7 +55,7 @@
       "coinDenom": "TOKEN",
       "coinMinimalDenom": "token",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/loop/token.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/loop/token.png",
       "gasPriceStep": {
         "low": 0,
         "average": 0,

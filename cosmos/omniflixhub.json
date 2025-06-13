@@ -3,14 +3,14 @@
   "rest": "https://lcd-omniflixhub.keplr.app",
   "chainId": "omniflixhub-1",
   "chainName": "OmniFlix",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/omniflixhub/chain.png",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/omniflix",
   "stakeCurrency": {
     "coinDenom": "FLIX",
     "coinMinimalDenom": "uflix",
     "coinDecimals": 6,
     "coinGeckoId": "omniflix-network",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub/uflix.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/omniflixhub/uflix.png"
   },
   "bip44": {
     "coinType": 118
@@ -29,14 +29,14 @@
       "coinMinimalDenom": "uflix",
       "coinDecimals": 6,
       "coinGeckoId": "omniflix-network",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub/uflix.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/omniflixhub/uflix.png"
     },
-     {
+    {
       "coinDenom": "YGATA",
       "coinMinimalDenom": "factory/omniflix1fwphj5p6qd8gtkehkzfgac38eur4uqzgz97uwvf6hsc0vjl004gqfj0xnv/ygata",
       "coinDecimals": 6,
       "coinGeckoId": "yield-gata",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub/ygata.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/omniflixhub/ygata.png"
     }
   ],
   "feeCurrencies": [
@@ -45,7 +45,7 @@
       "coinMinimalDenom": "uflix",
       "coinDecimals": 6,
       "coinGeckoId": "omniflix-network",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub/uflix.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/omniflixhub/uflix.png",
       "gasPriceStep": {
         "low": 0.001,
         "average": 0.0025,

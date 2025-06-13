@@ -1,7 +1,7 @@
 {
   "chainId": "laozi-mainnet",
   "chainName": "BandChain",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/laozi-mainnet/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/laozi-mainnet/chain.png",
   "rpc": "https://rpc.laozi3.bandchain.org:443",
   "rest": "https://laozi3.bandchain.org/api",
   "nodeProvider": {

@@ -3,7 +3,7 @@
   "rest": "https://rest-intergaze-1.anvil.asia-southeast.initia.xyz",
   "chainId": "intergaze-1",
   "chainName": "Intergaze",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/intergaze/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/intergaze/chain.png",
   "bip44": {
     "coinType": 60
   },
@@ -21,7 +21,7 @@
       "coinMinimalDenom": "l2/fb936ffef4eb4019d82941992cc09ae2788ce7197fcb08cb00c4fe6f5e79184e",
       "coinDecimals": 6,
       "coinGeckoId": "initia",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/interwoven/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/interwoven/chain.png"
     }
   ],
   "feeCurrencies": [

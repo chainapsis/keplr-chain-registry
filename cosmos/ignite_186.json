@@ -7,11 +7,11 @@
     "coinDenom": "PELL",
     "coinMinimalDenom": "apell",
     "coinDecimals": 18,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ignite_186/chain.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/ignite_186/chain.png"
   },
- "nodeProvider": {
+  "nodeProvider": {
     "name": "Sebatian Validator",
-    "website":"https://sebatian.org/",
+    "website": "https://sebatian.org/",
     "email": "sebatian9x@gmail.com"
   },
   "bip44": {
@@ -30,7 +30,7 @@
       "coinDenom": "PELL",
       "coinMinimalDenom": "apell",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ignite_186/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/ignite_186/chain.png"
     }
   ],
   "feeCurrencies": [
@@ -38,12 +38,9 @@
       "coinDenom": "PELL",
       "coinMinimalDenom": "apell",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ignite_186/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/ignite_186/chain.png"
     }
   ],
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ignite_186/chain.png",
-  "features": [
-    "eth-address-gen",
-    "eth-key-sign"
-  ]
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/ignite_186/chain.png",
+  "features": ["eth-address-gen", "eth-key-sign"]
 }

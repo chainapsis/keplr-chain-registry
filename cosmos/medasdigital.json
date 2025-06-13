@@ -3,11 +3,11 @@
   "rest": "https://lcd.medas-digital.io:1317",
   "chainId": "medasdigital-2",
   "chainName": "Medas Digital 2.0",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/medasdigital/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/medasdigital/chain.png",
   "nodeProvider": {
     "name": "Medas Digital 2.0",
     "email": "info@medas-digital.io",
-    "website":"https://medas-digital.io/"
+    "website": "https://medas-digital.io/"
   },
   "walletUrl": "https://app.medas-digital.io",
   "walletUrlForStaking": "https://app.medas-digital.io/delegate",
@@ -15,7 +15,7 @@
     "coinDenom": "MEDAS",
     "coinMinimalDenom": "umedas",
     "coinDecimals": 6,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/medasdigital/umedas.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/medasdigital/umedas.png"
   },
   "bip44": {
     "coinType": 118
@@ -33,7 +33,7 @@
       "coinDenom": "MEDAS",
       "coinMinimalDenom": "umedas",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/medasdigital/umedas.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/medasdigital/umedas.png"
     }
   ],
   "feeCurrencies": [
@@ -46,7 +46,7 @@
         "average": 0.025,
         "high": 0.04
       },
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/medasdigital/umedas.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/medasdigital/umedas.png"
     }
   ],
   "features": []

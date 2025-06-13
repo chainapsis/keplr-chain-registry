@@ -1,13 +1,13 @@
 {
   "chainId": "sourcetest-1",
   "chainName": "Source Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/source/source.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/source/source.png",
   "rpc": "https://testnet.sourceprotocol.io:26657/",
   "rest": "https://testnet.sourceprotocol.io:1317/",
   "nodeProvider": {
     "name": "Source Protocol",
     "email": "hello@sourceprotocol.io",
-    "website":"https://www.sourceprotocol.io/"
+    "website": "https://www.sourceprotocol.io/"
   },
   "bip44": {
     "coinType": 118
@@ -44,7 +44,5 @@
     "coinMinimalDenom": "usource",
     "coinDecimals": 6
   },
-  "features": [
-    "cosmwasm"
-  ]
+  "features": ["cosmwasm"]
 }

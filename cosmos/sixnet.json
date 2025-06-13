@@ -4,11 +4,11 @@
   "nodeProvider": {
     "name": "SIX NodeOps",
     "email": "nantanart@six.network",
-    "website":"https://sixprotocol.com/"
+    "website": "https://sixprotocol.com/"
   },
   "chainId": "sixnet",
   "chainName": "SIX Protocol",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sixnet/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/sixnet/chain.png",
   "stakeCurrency": {
     "coinDenom": "SIX",
     "coinMinimalDenom": "usix",
@@ -32,7 +32,7 @@
       "coinMinimalDenom": "usix",
       "coinDecimals": 6,
       "coinGeckoId": "six-network",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sixnet/usix.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/sixnet/usix.png"
     }
   ],
   "feeCurrencies": [
@@ -41,7 +41,7 @@
       "coinMinimalDenom": "usix",
       "coinDecimals": 6,
       "coinGeckoId": "six-network",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sixnet/usix.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/sixnet/usix.png",
       "gasPriceStep": {
         "low": 1.25,
         "average": 1.5,

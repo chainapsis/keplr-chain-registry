@@ -8,13 +8,13 @@
   },
   "chainId": "gravity-bridge-3",
   "chainName": "Gravity Bridge",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/chain.png",
   "stakeCurrency": {
     "coinDenom": "GRAV",
     "coinMinimalDenom": "ugraviton",
     "coinDecimals": 6,
     "coinGeckoId": "graviton",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/ugraviton.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/ugraviton.png"
   },
   "bip44": {
     "coinType": 118
@@ -33,27 +33,27 @@
       "coinMinimalDenom": "ugraviton",
       "coinDecimals": 6,
       "coinGeckoId": "graviton",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/ugraviton.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/ugraviton.png"
     },
     {
       "coinDenom": "PSTAKE",
       "coinMinimalDenom": "gravity0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006",
       "coinDecimals": 18,
       "coinGeckoId": "pstake-finance",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/gravity0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006.png"
     },
     {
       "coinDenom": "USDC",
       "coinMinimalDenom": "gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
       "coinDecimals": 6,
       "coinGeckoId": "usd-coin",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48.png"
     },
     {
       "coinDenom": "USDT",
       "coinMinimalDenom": "gravity0xdAC17F958D2ee523a2206206994597C13D831ec7",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0xdAC17F958D2ee523a2206206994597C13D831ec7.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/gravity0xdAC17F958D2ee523a2206206994597C13D831ec7.png"
     },
     {
       "coinDenom": "GTON",
@@ -74,13 +74,13 @@
       "coinDenom": "UNI",
       "coinMinimalDenom": "gravity0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/gravity0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984.png"
     },
     {
       "coinDenom": "WBTC",
       "coinMinimalDenom": "gravity0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
       "coinDecimals": 8,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/gravity0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599.png"
     },
     {
       "coinDenom": "WSCRT",
@@ -106,7 +106,7 @@
       "coinDenom": "PAXG",
       "coinMinimalDenom": "gravity0x45804880De22913dAFE09f4980848ECE6EcbAf78",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0x45804880De22913dAFE09f4980848ECE6EcbAf78.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/gravity0x45804880De22913dAFE09f4980848ECE6EcbAf78.png"
     },
     {
       "coinDenom": "AXL",
@@ -132,13 +132,13 @@
       "coinDenom": "DAI",
       "coinMinimalDenom": "gravity0x6B175474E89094C44Da98b954EedeAC495271d0F",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0x6B175474E89094C44Da98b954EedeAC495271d0F.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/gravity0x6B175474E89094C44Da98b954EedeAC495271d0F.png"
     },
     {
       "coinDenom": "MATIC",
       "coinMinimalDenom": "gravity0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/gravity0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0.png"
     },
     {
       "coinDenom": "CUDOS",
@@ -149,7 +149,7 @@
       "coinDenom": "FRAX",
       "coinMinimalDenom": "gravity0x853d955aCEf822Db058eb8505911ED77F175b99e",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0x853d955aCEf822Db058eb8505911ED77F175b99e.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/gravity0x853d955aCEf822Db058eb8505911ED77F175b99e.png"
     },
     {
       "coinDenom": "xFUND",
@@ -170,19 +170,19 @@
       "coinDenom": "SHIB",
       "coinMinimalDenom": "gravity0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/gravity0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE.png"
     },
     {
       "coinDenom": "CRO",
       "coinMinimalDenom": "gravity0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b",
       "coinDecimals": 8,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/gravity0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b.png"
     },
     {
       "coinDenom": "STORJ",
       "coinMinimalDenom": "gravity0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC",
       "coinDecimals": 8,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/gravity0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC.png"
     },
     {
       "coinDenom": "BAND",
@@ -213,7 +213,7 @@
       "coinDenom": "stETH",
       "coinMinimalDenom": "gravity0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/gravity0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84.png"
     },
     {
       "coinDenom": "FET",
@@ -232,13 +232,13 @@
       "coinMinimalDenom": "ugraviton",
       "coinDecimals": 6,
       "coinGeckoId": "graviton",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/ugraviton.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/ugraviton.png"
     },
     {
       "coinDenom": "USDC",
       "coinMinimalDenom": "gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48.png",
       "gasPriceStep": {
         "low": 0.0002,
         "average": 0.0005,
@@ -254,7 +254,7 @@
         "average": 0.0005,
         "high": 0.0008
       },
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0xdAC17F958D2ee523a2206206994597C13D831ec7.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/gravity0xdAC17F958D2ee523a2206206994597C13D831ec7.png"
     },
     {
       "coinDenom": "FUND",
@@ -315,13 +315,13 @@
       "coinDenom": "UNI",
       "coinMinimalDenom": "gravity0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/gravity0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984.png"
     },
     {
       "coinDenom": "WBTC",
       "coinMinimalDenom": "gravity0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
       "coinDecimals": 8,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/gravity0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599.png"
     },
     {
       "coinDenom": "WSCRT",
@@ -347,7 +347,7 @@
       "coinDenom": "PAXG",
       "coinMinimalDenom": "gravity0x45804880De22913dAFE09f4980848ECE6EcbAf78",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0x45804880De22913dAFE09f4980848ECE6EcbAf78.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/gravity0x45804880De22913dAFE09f4980848ECE6EcbAf78.png"
     },
     {
       "coinDenom": "AXL",
@@ -373,13 +373,13 @@
       "coinDenom": "DAI",
       "coinMinimalDenom": "gravity0x6B175474E89094C44Da98b954EedeAC495271d0F",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0x6B175474E89094C44Da98b954EedeAC495271d0F.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/gravity0x6B175474E89094C44Da98b954EedeAC495271d0F.png"
     },
     {
       "coinDenom": "MATIC",
       "coinMinimalDenom": "gravity0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/gravity0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0.png"
     },
     {
       "coinDenom": "CUDOS",
@@ -390,7 +390,7 @@
       "coinDenom": "FRAX",
       "coinMinimalDenom": "gravity0x853d955aCEf822Db058eb8505911ED77F175b99e",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0x853d955aCEf822Db058eb8505911ED77F175b99e.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/gravity0x853d955aCEf822Db058eb8505911ED77F175b99e.png"
     },
     {
       "coinDenom": "xFUND",
@@ -411,19 +411,19 @@
       "coinDenom": "SHIB",
       "coinMinimalDenom": "gravity0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/gravity0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE.png"
     },
     {
       "coinDenom": "CRO",
       "coinMinimalDenom": "gravity0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b",
       "coinDecimals": 8,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/gravity0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b.png"
     },
     {
       "coinDenom": "STORJ",
       "coinMinimalDenom": "gravity0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC",
       "coinDecimals": 8,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/gravity0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC.png"
     },
     {
       "coinDenom": "BAND",
@@ -454,7 +454,7 @@
       "coinDenom": "stETH",
       "coinMinimalDenom": "gravity0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gravity-bridge/gravity0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/gravity-bridge/gravity0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84.png"
     },
     {
       "coinDenom": "FET",

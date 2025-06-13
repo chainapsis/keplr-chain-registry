@@ -1,13 +1,13 @@
 {
   "chainId": "dhealth-testnet-2",
   "chainName": "dHealth Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dhealth-testnet/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/dhealth-testnet/chain.png",
   "rpc": "https://rpc-testnet.dhealth.dev",
   "rest": "https://lcd-testnet.dhealth.dev",
   "nodeProvider": {
     "name": "dHealth Network",
     "email": "son@dhealth.com",
-    "website":"https://dhealth.com"
+    "website": "https://dhealth.com"
   },
   "bip44": {
     "coinType": 118
@@ -25,7 +25,7 @@
       "coinDenom": "tDHP",
       "coinMinimalDenom": "utdhp",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dhealth-testnet/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/dhealth-testnet/chain.png"
     }
   ],
   "feeCurrencies": [
@@ -38,16 +38,14 @@
         "average": 0.025,
         "high": 0.03
       },
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dhealth-testnet/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/dhealth-testnet/chain.png"
     }
   ],
   "stakeCurrency": {
     "coinDenom": "tDHP",
     "coinMinimalDenom": "utdhp",
     "coinDecimals": 6,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dhealth-testnet/chain.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/dhealth-testnet/chain.png"
   },
-  "features": [
-    "cosmwasm"
-  ]
+  "features": ["cosmwasm"]
 }

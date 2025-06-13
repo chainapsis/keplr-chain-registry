@@ -12,25 +12,22 @@
   },
   "chainId": "chiado_10010-1",
   "chainName": "Warden Protocol Chiado",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/chiado_10010/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/chiado_10010/chain.png",
   "currencies": [
     {
       "coinDecimals": 18,
       "coinDenom": "WARD",
       "coinMinimalDenom": "award",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/chiado_10010/award.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/chiado_10010/award.png"
     }
   ],
-  "features": [
-    "eth-address-gen",
-    "eth-key-sign"
-  ],
+  "features": ["eth-address-gen", "eth-key-sign"],
   "feeCurrencies": [
     {
       "coinDecimals": 18,
       "coinDenom": "WARD",
       "coinMinimalDenom": "award",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/chiado_10010/award.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/chiado_10010/award.png",
       "gasPriceStep": {
         "average": 0.025,
         "high": 0.03,
@@ -49,6 +46,6 @@
     "coinDecimals": 18,
     "coinDenom": "WARD",
     "coinMinimalDenom": "award",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/chiado_10010/award.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/chiado_10010/award.png"
   }
 }

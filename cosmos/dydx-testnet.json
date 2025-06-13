@@ -3,7 +3,7 @@
   "rest": "https://lcd-dydx-testnet.keplr.app",
   "chainId": "dydx-testnet-4",
   "chainName": "dydx Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dydx-testnet/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/dydx-testnet/chain.png",
   "bech32Config": {
     "bech32PrefixAccAddr": "dydx",
     "bech32PrefixAccPub": "dydxpub",

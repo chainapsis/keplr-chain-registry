@@ -12,14 +12,14 @@
   },
   "chainId": "celestia",
   "chainName": "Celestia",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/celestia/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/celestia/chain.png",
   "currencies": [
     {
       "coinDecimals": 6,
       "coinDenom": "TIA",
       "coinGeckoId": "celestia",
       "coinMinimalDenom": "utia",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/celestia/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/celestia/chain.png"
     }
   ],
   "features": [],
@@ -29,7 +29,7 @@
       "coinDenom": "TIA",
       "coinGeckoId": "celestia",
       "coinMinimalDenom": "utia",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/celestia/chain.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/celestia/chain.png",
       "gasPriceStep": {
         "low": 0.01,
         "average": 0.02,
@@ -44,7 +44,7 @@
     "coinDenom": "TIA",
     "coinGeckoId": "celestia",
     "coinMinimalDenom": "utia",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/celestia/utia.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/celestia/utia.png"
   },
   "walletUrlForStaking": "https://wallet.keplr.app/chains/celestia"
 }

@@ -1,13 +1,13 @@
 {
   "chainId": "bluechip-2",
   "chainName": "bluechip",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bluechip/bluechip.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/bluechip/bluechip.png",
   "rpc": "https://bluechip.rpc.bluechip.link",
   "rest": "https://bluechip.api.bluechip.link",
   "nodeProvider": {
     "name": "BluechipNode",
     "email": "nickdavisbc@gmail.com",
-    "website":"https://www.bluechip.link/"
+    "website": "https://www.bluechip.link/"
   },
   "bip44": {
     "coinType": 118
@@ -44,7 +44,5 @@
     "coinMinimalDenom": "ubluechip",
     "coinDecimals": 6
   },
-  "features": [
-    "cosmwasm"
-  ]
+  "features": ["cosmwasm"]
 }

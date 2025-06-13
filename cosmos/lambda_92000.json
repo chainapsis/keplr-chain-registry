@@ -3,7 +3,7 @@
   "rest": "https://rest.lambda.im",
   "chainId": "lambda_92000-1",
   "chainName": "Lambda",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lambda_92000/lambda.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/lambda_92000/lambda.png",
   "evm": {
     "chainId": 92000,
     "rpc": "https://evm.lambda.im"
@@ -18,7 +18,7 @@
     "coinMinimalDenom": "ulamb",
     "coinDecimals": 18,
     "coinGeckoId": "lambda",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lambda_92000/lambda.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/lambda_92000/lambda.png"
   },
   "walletUrlForStaking": "https://app.lambda.im/staking",
   "bip44": {
@@ -38,7 +38,7 @@
       "coinMinimalDenom": "ulamb",
       "coinDecimals": 18,
       "coinGeckoId": "lambda",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lambda_92000/lambda.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/lambda_92000/lambda.png"
     }
   ],
   "feeCurrencies": [
@@ -54,8 +54,5 @@
       }
     }
   ],
-  "features": [
-    "eth-address-gen",
-    "eth-key-sign"
-  ]
+  "features": ["eth-address-gen", "eth-key-sign"]
 }

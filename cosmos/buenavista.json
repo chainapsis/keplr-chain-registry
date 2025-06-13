@@ -12,13 +12,13 @@
   },
   "chainId": "buenavista-1",
   "chainName": "Warden Protocol Buenavista",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/buenavista/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/buenavista/chain.png",
   "currencies": [
     {
       "coinDecimals": 6,
       "coinDenom": "WARD",
       "coinMinimalDenom": "uward",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/buenavista/uward.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/buenavista/uward.png"
     }
   ],
   "features": [],
@@ -27,7 +27,7 @@
       "coinDecimals": 6,
       "coinDenom": "WARD",
       "coinMinimalDenom": "uward",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/buenavista/uward.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/buenavista/uward.png",
       "gasPriceStep": {
         "average": 0.025,
         "high": 0.03,
@@ -46,6 +46,6 @@
     "coinDecimals": 6,
     "coinDenom": "WARD",
     "coinMinimalDenom": "uward",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/buenavista/uward.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/keplr/keplr-chain-registry/main/images/buenavista/uward.png"
   }
 }
