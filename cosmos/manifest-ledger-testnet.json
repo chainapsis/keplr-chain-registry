@@ -5,9 +5,9 @@
     "rpc": "https://nodes.liftedinit.tech/manifest/testnet/rpc",
     "rest": "https://nodes.liftedinit.tech/manifest/testnet/api",
     "nodeProvider": {
-      "name": "Lifted Initiative",
+      "name": "The Lifted Initiative",
       "email": "infra@liftedinit.org",
-      "website": "https://liftedinit.org/"
+      "website": "https://manifestai.org/"
     },
     "bip44": {
       "coinType": 118
