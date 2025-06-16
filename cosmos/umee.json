@@ -2,10 +2,10 @@
   "rpc": "https://rpc-umee.keplr.app",
   "rest": "https://lcd-umee.keplr.app",
   "chainId": "umee-1",
-  "chainName": "Umee",
+  "chainName": "UX",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/umee/chain.png",
   "stakeCurrency": {
-    "coinDenom": "UMEE",
+    "coinDenom": "UX",
     "coinMinimalDenom": "uumee",
     "coinDecimals": 6,
     "coinGeckoId": "umee",
@@ -26,7 +26,7 @@
   },
   "currencies": [
     {
-      "coinDenom": "UMEE",
+      "coinDenom": "UX",
       "coinMinimalDenom": "uumee",
       "coinDecimals": 6,
       "coinGeckoId": "umee",
@@ -35,15 +35,15 @@
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "UMEE",
+      "coinDenom": "UX",
       "coinMinimalDenom": "uumee",
       "coinDecimals": 6,
       "coinGeckoId": "umee",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/umee/uumee.png",
       "gasPriceStep": {
-        "low": 0.06,
-        "average": 0.1,
-        "high": 0.14
+        "low": 0.1,
+        "average": 0.12,
+        "high": 0.2
       }
     }
   ],

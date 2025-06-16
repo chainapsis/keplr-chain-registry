@@ -1,0 +1,56 @@
+{
+  "rpc": "https://tendermint-rpc.xfi.ms/",
+  "rest": "https://cosmos-api.xfi.ms/",
+  "chainId": "mineplex-mainnet-1",
+  "chainName": "MinePlex Mainnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mineplex-mainnet/mineplex.png",
+  "nodeProvider": {
+    "name": "CrossFi Foundation",
+    "website":"https://crossfi.org/",
+    "email": "info@crossfi.org"
+  },
+  "stakeCurrency": {
+    "coinDenom": "MPX",
+    "coinMinimalDenom": "mpx",
+    "coinDecimals": 18
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "mx",
+    "bech32PrefixAccPub": "mxpub",
+    "bech32PrefixValAddr": "mxvaloper",
+    "bech32PrefixValPub": "mxvaloperpub",
+    "bech32PrefixConsAddr": "mxvalcons",
+    "bech32PrefixConsPub": "mxvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "MPX",
+      "coinMinimalDenom": "mpx",
+      "coinDecimals": 18
+    },{
+      "coinDenom": "XFI",
+      "coinMinimalDenom": "xfi",
+      "coinDecimals": 18
+    },{
+      "coinDenom": "XFT",
+      "coinMinimalDenom": "xft",
+      "coinDecimals": 18
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "MPX",
+      "coinMinimalDenom": "mpx",
+      "coinDecimals": 18,
+      "gasPriceStep": {
+        "low": 10000000000000,
+        "average": 15000000000000,
+        "high": 20000000000000
+      }
+    }
+  ],
+  "features": []
+}

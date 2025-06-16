@@ -1,0 +1,50 @@
+{
+  "rpc": "https://evm-81457.keplr.app",
+  "websocket": "wss://evm-81457.keplr.app/websocket",
+  "chainId": "eip155:81457",
+  "chainName": "Blast",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:81457/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "ETH",
+      "coinMinimalDenom": "blast-native",
+      "coinDecimals": 18,
+      "coinGeckoId": "ethereum",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:81457/blast-native.png"
+    },
+    {
+      "coinDenom": "USDB",
+      "coinMinimalDenom": "erc20:0x4300000000000000000000000000000000000003",
+      "coinDecimals": 18,
+      "coinGeckoId": "usdb",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:81457/erc20/0x4300000000000000000000000000000000000003.png"
+    },
+    {
+      "coinDenom": "WETH",
+      "coinMinimalDenom": "erc20:0x4300000000000000000000000000000000000004",
+      "coinDecimals": 18,
+      "coinGeckoId": "weth",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:81457/erc20/0x4300000000000000000000000000000000000004.png"
+    },
+    {
+      "coinDenom": "BLAST",
+      "coinMinimalDenom": "erc20:0xb1a5700fA2358173Fe465e6eA4Ff52E36e88E2ad",
+      "coinDecimals": 18,
+      "coinGeckoId": "blast",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:81457/erc20/0xb1a5700fA2358173Fe465e6eA4Ff52E36e88E2ad.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ETH",
+      "coinMinimalDenom": "blast-native",
+      "coinDecimals": 18,
+      "coinGeckoId": "ethereum",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:81457/blast-native.png"
+    }
+  ],
+  "features": []
+}

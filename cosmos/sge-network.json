@@ -1,0 +1,49 @@
+{   "chainId": "sge-network-4",
+    "chainName": "SGE Network Testnet",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sge-network/chain.png",
+    "rpc": "https://test-sge-rpc.kingnodes.com/",
+    "rest": "https://test-sge-rest.kingnodes.com/",
+    "nodeProvider": {
+        "name": "kingnodes",
+        "email": "jerome@kingnodes.com",
+        "website":"https://www.kingnodes.com/"
+      },
+      "bip44": {
+        "coinType": 118
+      },
+      "bech32Config": {
+        "bech32PrefixAccAddr": "sge",
+        "bech32PrefixAccPub": "sgepub",
+        "bech32PrefixValAddr": "sgevaloper",
+        "bech32PrefixValPub": "sgevaloperpub",
+        "bech32PrefixConsAddr": "sgevalcons",
+        "bech32PrefixConsPub": "sgevalconspub"
+      },
+      "currencies": [
+        {
+          "coinDenom": "SGE",
+          "coinMinimalDenom": "usge",
+          "coinDecimals": 6
+        }
+      ],
+      "feeCurrencies": [
+        {
+          "coinDenom": "SGE",
+          "coinMinimalDenom": "usge",
+          "coinDecimals": 6,
+          "gasPriceStep": {
+            "low": 0.1,
+            "average": 0.25,
+            "high": 0.5
+          }
+        }
+      ],
+      "stakeCurrency": {
+        "coinDenom": "SGE",
+        "coinMinimalDenom": "usge",
+        "coinDecimals": 6
+      },
+      "features": [
+        "cosmwasm"
+      ]
+    }

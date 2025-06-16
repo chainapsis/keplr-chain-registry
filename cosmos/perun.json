@@ -1,0 +1,56 @@
+{
+    "chainId": "perun-1",
+    "chainName": "Chain4Energy",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/perun/chain.png",
+    "rpc": "https://rpc.c4e.io",
+    "rest": "https://lcd.c4e.io",
+    "nodeProvider": {
+      "name": "C4E",
+      "email": "intergation.support@c4e.io",
+      "website":"https://c4e.io"
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "c4e",
+      "bech32PrefixAccPub": "c4epub",
+      "bech32PrefixValAddr": "c4evaloper",
+      "bech32PrefixValPub": "c4evaloperpub",
+      "bech32PrefixConsAddr": "c4evalcons",
+      "bech32PrefixConsPub": "c4evalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "C4E",
+        "coinMinimalDenom": "uc4e",
+        "coinDecimals": 6,
+		"coinGeckoId": "chain4energy",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/perun/chain.png"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "C4E",
+        "coinMinimalDenom": "uc4e",
+        "coinDecimals": 6,
+        "gasPriceStep": {
+          "low": 0.01,
+          "average": 0.025,
+          "high": 0.03
+        },
+		"coinGeckoId": "chain4energy",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/perun/chain.png"
+      }
+    ],
+    "stakeCurrency": {
+      "coinDenom": "C4E",
+      "coinMinimalDenom": "uc4e",
+      "coinDecimals": 6,
+	  "coinGeckoId": "chain4energy",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/perun/chain.png"
+    },
+    "features": [
+      "cosmwasm"
+    ]
+  }

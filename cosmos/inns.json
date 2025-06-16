@@ -24,8 +24,7 @@
         {
           "coinDenom": "INNS",
           "coinMinimalDenom": "uinns",
-          "coinDecimals": 6,
-          "coinGeckoId": "Inns"
+          "coinDecimals": 6
         }
     ],
     "feeCurrencies": [
@@ -33,7 +32,6 @@
           "coinDenom": "INNS",
           "coinMinimalDenom": "uinns",
           "coinDecimals": 6,
-          "coinGeckoId": "Inns",
           "gasPriceStep": {
             "low": 0.01,
             "average": 0.025,
@@ -44,8 +42,7 @@
     "stakeCurrency": {
       "coinDenom": "INNS",
       "coinMinimalDenom": "uinns",
-      "coinDecimals": 6,
-      "coinGeckoId": "Inns"
+      "coinDecimals": 6
     },
     "features": [
       "cosmwasm"

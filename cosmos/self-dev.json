@@ -1,0 +1,51 @@
+{
+    "chainId": "self-dev-1",
+    "chainName": "Self Chain Dev",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/self-dev/chain.png",
+    "rpc": "https://rpc-devnet.selfchain.xyz",
+    "rest": "https://api-devnet.selfchain.xyz/",
+    "nodeProvider": {
+        "name": "Self Chain",
+        "email": "hello@frontier.xyz",
+        "website":"https://selfchain.xyz"
+    },
+    "bip44": {
+        "coinType": 118
+    },
+    "bech32Config": {
+        "bech32PrefixAccAddr": "self",
+        "bech32PrefixAccPub": "selfpub",
+        "bech32PrefixValAddr": "selfvaloper",
+        "bech32PrefixValPub": "selfvaloperpub",
+        "bech32PrefixConsAddr": "selfvalcons",
+        "bech32PrefixConsPub": "selfvalconspub"
+    },
+    "currencies": [
+    {
+        "coinDenom": "SELF",
+        "coinMinimalDenom": "uself",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/self-dev/chain.png"
+    }
+    ],
+    "feeCurrencies": [
+    {
+        "coinDenom": "SELF",
+        "coinMinimalDenom": "uself",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/self-dev/chain.png",
+        "gasPriceStep": {
+            "low": 0.005,
+            "average": 0.025,
+            "high": 0.03
+        }
+    }
+    ],
+    "stakeCurrency": {
+        "coinDenom": "SELF",
+        "coinMinimalDenom": "uself",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/self-dev/chain.png"
+    },
+    "features": []
+}

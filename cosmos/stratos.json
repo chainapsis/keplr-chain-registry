@@ -1,0 +1,56 @@
+{
+  "rpc": "https://rpc.thestratos.org",
+  "rest": "https://rest.thestratos.org",
+  "chainId": "stratos-1",
+  "chainName": "Stratos Network",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stratos/chain.png",
+  "walletUrl": "https://wallet.keplr.app/chains/stratos",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/stratos",
+  "nodeProvider": {
+    "name": "Stratos",
+    "email": "info@thestratos.org",
+    "website": "https://thestratos.org"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "st",
+    "bech32PrefixAccPub": "stpub",
+    "bech32PrefixValAddr": "stvaloper",
+    "bech32PrefixValPub": "stvaloperpub",
+    "bech32PrefixConsAddr": "stvalcons",
+    "bech32PrefixConsPub": "stvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "STOS",
+      "coinMinimalDenom": "wei",
+      "coinDecimals": 18,
+      "coinGeckoId": "stratos",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stratos/stos.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "STOS",
+      "coinMinimalDenom": "wei",
+      "coinDecimals": 18,
+      "coinGeckoId": "stratos",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stratos/stos.png",
+      "gasPriceStep": {
+        "low": 1000000000,
+        "average": 1200000000,
+        "high": 1600000000
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "STOS",
+    "coinMinimalDenom": "wei",
+    "coinDecimals": 18,
+    "coinGeckoId": "stratos",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stratos/stos.png"
+  },
+  "features": ["eth-address-gen", "eth-key-sign"]
+}

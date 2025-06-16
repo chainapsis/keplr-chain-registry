@@ -95,6 +95,12 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/sttia.png"
     },
     {
+      "coinDenom": "stSAGA",
+      "coinMinimalDenom": "stusaga",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stusaga.png"
+    },
+    {
       "coinDenom": "stUMEE",
       "coinMinimalDenom": "stuumee",
       "coinDecimals": 6,
@@ -113,153 +119,212 @@
       "coinMinimalDenom": "stusomm",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stusomm.png"
+    },
+    {
+      "coinDenom": "stDYM",
+      "coinMinimalDenom": "stadym",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stadym.png"
+    },
+    {
+      "coinDenom": "stISLM",
+      "coinMinimalDenom": "staISLM",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/staISLM.png"
+    },
+    {
+      "coinDenom": "stBAND",
+      "coinMinimalDenom": "stuband",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/stuband.png"
     }
   ],
-    "feeCurrencies": [
-      {
-        "coinDenom": "STRD",
-        "coinMinimalDenom": "ustrd",
-        "coinDecimals": 6,
-        "coinGeckoId": "stride",
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/ustrd.png",
-        "gasPriceStep": {
-          "low": 0.0005,
-          "average": 0.005,
-          "high": 0.05
-        }
-      },
-      {
-        "coinDenom": "ATOM",
-        "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-        "coinDecimals": 6,
-        "coinGeckoId": "cosmos",
-        "gasPriceStep": {
-          "low": 0.0001,
-          "average": 0.001,
-          "high": 0.01
-        }
-      },
-      {
-        "coinDenom": "OSMO",
-        "coinMinimalDenom": "ibc/D24B4564BCD51D3D02D9987D92571EAC5915676A9BD6D9B0C1D0254CB8A5EA34",
-        "coinDecimals": 6,
-        "coinGeckoId": "osmosis",
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/uosmo.png",
-        "gasPriceStep": {
-          "low": 0.001,
-          "average": 0.01,
-          "high": 0.1
-        }
-      },
-      {
-        "coinDenom": "stOSMO",
-        "coinMinimalDenom": "stuosmo",
-        "coinDecimals": 6,
-        "coinGeckoId": "stride-staked-osmo",
-        "gasPriceStep": {
-          "low": 0.001,
-          "average": 0.01,
-          "high": 0.1
-        }
-      },
-      {
-        "coinDenom": "stATOM",
-        "coinMinimalDenom": "stuatom",
-        "coinDecimals": 6,
-        "coinGeckoId": "stride-staked-atom",
-        "gasPriceStep": {
-          "low": 0.0001,
-          "average": 0.001,
-          "high": 0.01
-        }
-      },
-      {
-        "coinDenom": "INJ",
-        "coinMinimalDenom": "ibc/A7454562FF29FE068F42F9DE4805ABEF54F599D1720B345D6518D9B5C64EA6D2",
-        "coinDecimals": 18,
-        "coinGeckoId": "injective-protocol",
-        "gasPriceStep": {
-          "low": 500000000,
-          "average": 500000000,
-          "high": 500000000
-        }
-      },
-      {
-        "coinDenom": "stINJ",
-        "coinMinimalDenom": "stinj",
-        "coinDecimals": 18,
-        "coinGeckoId": "stride-staked-injective",
-        "gasPriceStep": {
-          "low": 500000000,
-          "average": 500000000,
-          "high": 500000000
-        }
-      },
-      {
-        "coinDenom": "EVMOS",
-        "coinMinimalDenom": "ibc/4B322204B4F59D770680FE4D7A565DDC3F37BFF035474B717476C66A4F83DD72",
-        "coinDecimals": 18,
-        "coinGeckoId": "evmos",
-        "gasPriceStep": {
-          "low": 20000000000,
-          "average": 20000000000,
-          "high": 20000000000
-        }
-      },
-      {
-        "coinDenom": "stEVMOS",
-        "coinMinimalDenom": "staevmos",
-        "coinDecimals": 18,
-        "gasPriceStep": {
-          "low": 20000000000,
-          "average": 20000000000,
-          "high": 20000000000
-        }
-      },
-      {
-        "coinDenom": "TIA",
-        "coinMinimalDenom": "ibc/BF3B4F53F3694B66E13C23107C84B6485BD2B96296BB7EC680EA77BBA75B4801",
-        "coinDecimals": 6,
-        "coinGeckoId": "celestia",
-        "gasPriceStep": {
-          "low": 0.01,
-          "average": 0.01,
-          "high": 0.01
-        }
-      },
-      {
-        "coinDenom": "stTIA",
-        "coinMinimalDenom": "stutia",
-        "coinDecimals": 6,
-        "coinGeckoId": "stride-staked-tia",
-        "gasPriceStep": {
-          "low": 0.01,
-          "average": 0.01,
-          "high": 0.01
-        }
-      },
-      {
-        "coinDenom": "DYDX",
-        "coinMinimalDenom": "ibc/561C70B20188A047BFDE6F9946BDDC5D8AC172B9BE04FF868DFABF819E5A9CCE",
-        "coinDecimals": 18,
-        "coinGeckoId": "dydx-chain",
-        "gasPriceStep": {
-          "low": 15000000000,
-          "average": 15000000000,
-          "high": 15000000000
-        }
-      },
-      {
-        "coinDenom": "stDYDX",
-        "coinMinimalDenom": "stadydx",
-        "coinDecimals": 18,
-        "coinGeckoId": "stride-staked-dydx",
-        "gasPriceStep": {
-          "low": 15000000000,
-          "average": 15000000000,
-          "high": 15000000000
-        }
+  "feeCurrencies": [
+    {
+      "coinDenom": "STRD",
+      "coinMinimalDenom": "ustrd",
+      "coinDecimals": 6,
+      "coinGeckoId": "stride",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/ustrd.png",
+      "gasPriceStep": {
+        "low": 0.005,
+        "average": 0.005,
+        "high": 0.05
       }
-    ],
+    },
+    {
+      "coinDenom": "ATOM",
+      "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+      "coinDecimals": 6,
+      "coinGeckoId": "cosmos",
+      "gasPriceStep": {
+        "low": 0.0001,
+        "average": 0.001,
+        "high": 0.01
+      }
+    },
+    {
+      "coinDenom": "OSMO",
+      "coinMinimalDenom": "ibc/D24B4564BCD51D3D02D9987D92571EAC5915676A9BD6D9B0C1D0254CB8A5EA34",
+      "coinDecimals": 6,
+      "coinGeckoId": "osmosis",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/uosmo.png",
+      "gasPriceStep": {
+        "low": 0.001,
+        "average": 0.01,
+        "high": 0.1
+      }
+    },
+    {
+      "coinDenom": "stOSMO",
+      "coinMinimalDenom": "stuosmo",
+      "coinDecimals": 6,
+      "coinGeckoId": "stride-staked-osmo",
+      "gasPriceStep": {
+        "low": 0.001,
+        "average": 0.002,
+        "high": 0.004
+      }
+    },
+    {
+      "coinDenom": "stATOM",
+      "coinMinimalDenom": "stuatom",
+      "coinDecimals": 6,
+      "coinGeckoId": "stride-staked-atom",
+      "gasPriceStep": {
+        "low": 0.0001,
+        "average": 0.002,
+        "high": 0.005
+      }
+    },
+    {
+      "coinDenom": "INJ",
+      "coinMinimalDenom": "ibc/A7454562FF29FE068F42F9DE4805ABEF54F599D1720B345D6518D9B5C64EA6D2",
+      "coinDecimals": 18,
+      "coinGeckoId": "injective-protocol",
+      "gasPriceStep": {
+        "low": 500000000,
+        "average": 500000000,
+        "high": 500000000
+      }
+    },
+    {
+      "coinDenom": "stINJ",
+      "coinMinimalDenom": "stinj",
+      "coinDecimals": 18,
+      "coinGeckoId": "stride-staked-injective",
+      "gasPriceStep": {
+        "low": 500000000,
+        "average": 700000000,
+        "high": 900000000
+      }
+    },
+    {
+      "coinDenom": "EVMOS",
+      "coinMinimalDenom": "ibc/4B322204B4F59D770680FE4D7A565DDC3F37BFF035474B717476C66A4F83DD72",
+      "coinDecimals": 18,
+      "coinGeckoId": "evmos",
+      "gasPriceStep": {
+        "low": 20000000000,
+        "average": 20000000000,
+        "high": 20000000000
+      }
+    },
+    {
+      "coinDenom": "stEVMOS",
+      "coinMinimalDenom": "staevmos",
+      "coinDecimals": 18,
+      "gasPriceStep": {
+        "low": 20000000000,
+        "average": 25000000000,
+        "high": 40000000000
+      }
+    },
+    {
+      "coinDenom": "TIA",
+      "coinMinimalDenom": "ibc/BF3B4F53F3694B66E13C23107C84B6485BD2B96296BB7EC680EA77BBA75B4801",
+      "coinDecimals": 6,
+      "coinGeckoId": "celestia",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.01,
+        "high": 0.01
+      }
+    },
+    {
+      "coinDenom": "stTIA",
+      "coinMinimalDenom": "stutia",
+      "coinDecimals": 6,
+      "coinGeckoId": "stride-staked-tia",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.02,
+        "high": 0.1
+      }
+    },
+    {
+      "coinDenom": "DYDX",
+      "coinMinimalDenom": "ibc/561C70B20188A047BFDE6F9946BDDC5D8AC172B9BE04FF868DFABF819E5A9CCE",
+      "coinDecimals": 18,
+      "coinGeckoId": "dydx-chain",
+      "gasPriceStep": {
+        "low": 15000000000,
+        "average": 15000000000,
+        "high": 15000000000
+      }
+    },
+    {
+      "coinDenom": "stDYDX",
+      "coinMinimalDenom": "stadydx",
+      "coinDecimals": 18,
+      "coinGeckoId": "stride-staked-dydx",
+      "gasPriceStep": {
+        "low": 15000000000,
+        "average": 15000000000,
+        "high": 20000000000
+      }
+    },
+    {
+      "coinDenom": "DYM",
+      "coinMinimalDenom": "ibc/E1C22332C083574F3418481359733BA8887D171E76C80AD9237422AEABB66018",
+      "coinDecimals": 18,
+      "coinGeckoId": "dymension",
+      "gasPriceStep": {
+        "low": 15000000000,
+        "average": 15000000000,
+        "high": 50000000000
+      }
+    },
+    {
+      "coinDenom": "stDYM",
+      "coinMinimalDenom": "stadym",
+      "coinDecimals": 18,
+      "gasPriceStep": {
+        "low": 15000000000,
+        "average": 15000000000,
+        "high": 20000000000
+      }
+    },
+    {
+      "coinDenom": "stSAGA",
+      "coinMinimalDenom": "stusaga",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.015,
+        "high": 0.03
+      }
+    },
+    {
+      "coinDenom": "SAGA",
+      "coinMinimalDenom": "ibc/520D9C4509027DE66C737A1D6A6021915A3071E30DBA8F758B46532B060D7AA5",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.01,
+        "high": 0.01
+      }
+    }
+  ],
   "features": []
 }

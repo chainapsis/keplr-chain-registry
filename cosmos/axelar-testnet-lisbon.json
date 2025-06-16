@@ -3,12 +3,12 @@
   "rest": "https://lcd-axelar-testnet.imperator.co",
   "chainId": "axelar-testnet-lisbon-3",
   "chainName": "Axelar Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-testnet-lisbon/chain.png",
   "stakeCurrency": {
     "coinDenom": "AXL",
     "coinMinimalDenom": "uaxl",
     "coinDecimals": 6,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/uaxl.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-testnet-lisbon/uaxl.png"
   },
   "bip44": {
     "coinType": 118
@@ -26,7 +26,7 @@
       "coinDenom": "AXL",
       "coinMinimalDenom": "uaxl",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/uaxl.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-testnet-lisbon/uaxl.png"
     },
     {
       "coinDenom": "ETH",
@@ -37,7 +37,7 @@
       "coinDenom": "USDC",
       "coinMinimalDenom": "uusdc",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/uusdc.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-testnet-lisbon/uusdc.png"
     },
     {
       "coinDenom": "FRAX",
@@ -125,7 +125,7 @@
       "coinDenom": "AXL",
       "coinMinimalDenom": "uaxl",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-dojo/uaxl.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axelar-testnet-lisbon/uaxl.png",
       "gasPriceStep": {
         "low": 0.007,
         "average": 0.007,

@@ -1,0 +1,50 @@
+{
+  "chainId": "HICKORY",
+  "chainName": "HICKORY-TEST",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/HICKORY/logo_hic.png",
+  "rpc": "http://test.hickoryblockchain.com:26657/",
+  "rest": "http://test.hickoryblockchain.com:1317/",
+  "nodeProvider": {
+    "name": "Hickory Blockchain Development",
+    "email": "mail@hickoryblockchain.com",
+    "website":"https://www.hickoryblockchain.com/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "hic",
+    "bech32PrefixAccPub": "hicpub",
+    "bech32PrefixValAddr": "hicvaloper",
+    "bech32PrefixValPub": "hicvaloperpub",
+    "bech32PrefixConsAddr": "hicvalcons",
+    "bech32PrefixConsPub": "hicvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "HIC",
+      "coinMinimalDenom": "uhic",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "HIC",
+      "coinMinimalDenom": "uhic",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.03
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "HIC",
+    "coinMinimalDenom": "uhic",
+    "coinDecimals": 6
+  },
+  "features": [
+    "cosmwasm"     
+  ]
+}

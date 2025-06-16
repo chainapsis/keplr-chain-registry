@@ -1,0 +1,84 @@
+{
+    "rpc": "https://testnet-rpc.comdex.one",
+    "rest": "https://testnet-rest.comdex.one/",
+    "chainId": "comdex-test-4",
+    "chainName": "Comdex Testnet",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/comdex-test/chain.png",
+    "nodeProvider": {
+      "name": "Comdex Testnet Node",
+      "email": "info@comdex.one",
+      "website":"https://comdex.one"
+    },
+    "stakeCurrency": {
+      "coinDenom": "CMDX",
+      "coinMinimalDenom": "ucmdx",
+      "coinDecimals": 6
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "comdex",
+      "bech32PrefixAccPub": "comdexpub",
+      "bech32PrefixValAddr": "comdexvaloper",
+      "bech32PrefixValPub": "comdexvaloperpub",
+      "bech32PrefixConsAddr": "comdexvalcons",
+      "bech32PrefixConsPub": "comdexvalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "CMDX",
+        "coinMinimalDenom": "ucmdx",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/comdex-test/chain.png"
+      },
+      {
+        "coinDenom": "CMST",
+        "coinMinimalDenom": "ucmst",
+        "coinDecimals": 6
+      },
+      {
+        "coinDenom": "HARBOR",
+        "coinMinimalDenom": "uharbor",
+        "coinDecimals": 6
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "CMDX",
+        "coinMinimalDenom": "ucmdx",
+        "coinDecimals": 6,
+        "gasPriceStep": {
+          "low": 2,
+          "average": 3,
+          "high": 4
+        }
+      },
+      {
+        "coinDenom": "ATOM",
+        "coinMinimalDenom":
+          "ibc/9117A26BA81E29FA4F78F57DC2BD90CD3D26848101BA880445F119B22A1E254E",
+        "coinDecimals": 6,
+        "gasPriceStep": {
+          "low": 0.0001,
+          "average": 0.001,
+          "high": 0.01
+        }
+      },
+      {
+        "coinDenom": "USDC",
+        "coinMinimalDenom":
+          "ibc/BFAAB7870A9AAABF64A7366DAAA0B8E5065EAA1FCE762F45677DC24BE796EF65",
+        "coinDecimals": 6,
+        "gasPriceStep": {
+          "low": 0.0002,
+          "average": 0.0005,
+          "high": 0.0008
+        }
+      }
+    ],
+    "features": [
+      "cosmwasm"
+    ]
+  }
+  

@@ -1,0 +1,47 @@
+{
+  "rpc": "https://rpc-govgen.keplr.app",
+  "rest": "https://lcd-govgen.keplr.app",
+  "chainId": "govgen-1",
+  "chainName": "GovGen",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/govgen/chain.png",
+  "bip44": {
+    "coinType": 118
+  },
+  "walletUrlForStaking": "https://testnet.keplr.app/chains/govgen",
+  "bech32Config": {
+    "bech32PrefixAccAddr": "govgen",
+    "bech32PrefixAccPub": "govgenpub",
+    "bech32PrefixValAddr": "govgenvaloper",
+    "bech32PrefixValPub": "govgenvaloperpub",
+    "bech32PrefixConsAddr": "govgenvalcons",
+    "bech32PrefixConsPub": "govgenvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "GOVGEN",
+      "coinMinimalDenom": "ugovgen",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/govgen/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "GOVGEN",
+      "coinMinimalDenom": "ugovgen",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/govgen/chain.png",
+      "gasPriceStep": {
+        "low": 0.006,
+        "average": 0.006,
+        "high": 0.009
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "GOVGEN",
+    "coinMinimalDenom": "ugovgen",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/govgen/chain.png"
+  },
+  "features": []
+}

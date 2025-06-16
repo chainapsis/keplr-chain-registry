@@ -1,0 +1,33 @@
+{
+    "rpc": "https://sepolia-rpc.kakarot.org/",
+    "chainId": "eip155:920637907288165",
+    "chainName": "Kakarot Starknet Sepolia",
+    "nodeProvider": {
+        "name": "Karnot",
+        "email": "team@karnot.xyz",
+        "website": "https://karnot.xyz"
+    },
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:920637907288165/chain.png",
+    "bip44": {
+        "coinType": 60
+    },
+    "currencies": [
+        {
+            "coinDenom": "ETH",
+            "coinMinimalDenom": "ethereum-native",
+            "coinDecimals": 18,
+            "coinGeckoId": "ethereum",
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:920637907288165/kakarot-native.png"
+        }
+    ],
+    "feeCurrencies": [
+        {
+            "coinDenom": "ETH",
+            "coinMinimalDenom": "ethereum-native",
+            "coinDecimals": 18,
+            "coinGeckoId": "ethereum",
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:920637907288165/kakarot-native.png"
+        }
+    ],
+    "features": []
+}

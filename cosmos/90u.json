@@ -6,7 +6,7 @@
         "email": "terp.network@skiff.com",
         "website":"https://itrocket.net/"
       },
-    "chainId": "90u-2",
+    "chainId": "90u-4",
     "chainName": "Terp Testnet",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/90u/chain.png",
     "stakeCurrency": {

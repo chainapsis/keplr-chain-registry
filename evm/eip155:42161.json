@@ -1,0 +1,36 @@
+{
+  "rpc": "https://evm-42161.keplr.app",
+  "websocket": "wss://evm-42161.keplr.app/websocket",
+  "chainId": "eip155:42161",
+  "chainName": "Arbitrum",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:42161/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "ETH",
+      "coinMinimalDenom": "arbitrum-native",
+      "coinDecimals": 18,
+      "coinGeckoId": "ethereum",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:42161/arbitrum-native.png"
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "erc20:0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:42161/erc20/0xaf88d065e77c8cc2239327c5edb3a432268e5831.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ETH",
+      "coinMinimalDenom": "arbitrum-native",
+      "coinDecimals": 18,
+      "coinGeckoId": "ethereum",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:42161/arbitrum-native.png"
+    }
+  ],
+  "features": []
+}

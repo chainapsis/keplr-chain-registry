@@ -1,0 +1,51 @@
+{
+  "bech32Config": {
+    "bech32PrefixAccAddr": "dev",
+    "bech32PrefixAccPub": "devpub",
+    "bech32PrefixConsAddr": "devvalcons",
+    "bech32PrefixConsPub": "devvalconspub",
+    "bech32PrefixValAddr": "devvaloper",
+    "bech32PrefixValPub": "devvaloperpub"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "chainId": "developer",
+  "chainName": "Developer Network",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/developer/chain.png",
+  "nodeProvider": {
+    "name":"Developer Network",
+    "email": "s@devtoken.xyz",
+    "website":"https://devtoken.xyz"
+  },
+  "currencies": [
+    {
+      "coinDecimals": 6,
+      "coinDenom": "DEV",
+      "coinMinimalDenom": "udev",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/developer/chain.png"
+    }
+  ],
+  "features": [],
+  "feeCurrencies": [
+    {
+      "coinDecimals": 6,
+      "coinDenom": "DEV",
+      "coinMinimalDenom": "udev",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/developer/chain.png",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.02,
+        "high": 0.1
+      }
+    }
+  ],
+  "rpc": "https://rpc.devtoken.xyz/",
+  "rest": "https://api.devtoken.xyz/",
+  "stakeCurrency": {
+    "coinDecimals": 6,
+    "coinDenom": "DEV",
+    "coinMinimalDenom": "udev",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/developer/chain.png"
+  }
+}

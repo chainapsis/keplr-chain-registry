@@ -1,0 +1,55 @@
+{
+  "chainId": "galactica_9302-1",
+  "chainName": "Galactica Reticulum Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/galactica_9302/chain.png",
+  "rpc": "https://rpc-reticulum.galactica.com",
+  "rest": "https://lcd-reticulum.galactica.com",
+  "nodeProvider": {
+    "name": "Galactica Network",
+    "email": "support@galactica.com",
+    "website":"https://galactica.com/"
+  },
+  "evm": {
+    "chainId": 9302,
+    "rpc": "https://evm-rpc-http-reticulum.galactica.com"
+  },
+  "stakeCurrency": {
+    "coinDenom": "GNET",
+    "coinMinimalDenom": "agnet",
+    "coinDecimals": 18,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/galactica_9302/agnet.png"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "gala",
+    "bech32PrefixAccPub": "galapub",
+    "bech32PrefixValAddr": "galavaloper",
+    "bech32PrefixValPub": "galavaloperpub",
+    "bech32PrefixConsAddr": "galavalcons",
+    "bech32PrefixConsPub": "galavalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "GNET",
+      "coinMinimalDenom": "agnet",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/galactica_9302/agnet.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "GNET",
+      "coinMinimalDenom": "agnet",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/galactica_9302/agnet.png",
+      "gasPriceStep": {
+        "low": 10000,
+        "average": 500000,
+        "high": 10000000
+      }
+    }
+  ],
+  "features": ["eth-address-gen", "eth-key-sign"]
+}

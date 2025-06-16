@@ -1,0 +1,56 @@
+{
+  "rpc": "https://rpc-beta1.turablockchain.com",
+  "rest": "https://lcd-beta1.turablockchain.com",
+  "chainId": "mainnet-tura",
+  "chainName": "Tura",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mainnet-tura/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "TURA",
+    "coinMinimalDenom": "utura",
+    "coinDecimals": 8,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mainnet-tura/utura.png"
+  },
+  "nodeProvider": {
+    "name": "TuraBlockchain",
+    "email": "larryliu@roturalabs.com",
+    "website":"http://turablockchain.com/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "tura",
+    "bech32PrefixAccPub": "turapub",
+    "bech32PrefixValAddr": "turavaloper",
+    "bech32PrefixValPub": "turavaloperpub",
+    "bech32PrefixConsAddr": "turavalcons",
+    "bech32PrefixConsPub": "turavalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "TURA",
+      "coinMinimalDenom": "utura",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mainnet-tura/utura.png"
+    },
+    {
+      "coinDenom": "TAGS",
+      "coinMinimalDenom": "utags",
+      "coinDecimals": 8
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "TURA",
+      "coinMinimalDenom": "utura",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mainnet-tura/utura.png",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "features": []
+}

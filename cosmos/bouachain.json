@@ -1,0 +1,51 @@
+{
+  "rpc": "https://rpc.bouachain.com/",
+  "rest": "https://lcd.bouachain.com/",
+  "chainId": "bouachain",
+  "chainName": "bouachain",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bouachain/chain.png",
+  "nodeProvider": {
+    "name": "BouaValidator",
+    "email": "dev@bouachain.com",
+    "website":"https://bouachain.com"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "boua",
+    "bech32PrefixAccPub": "bouapub",
+    "bech32PrefixValAddr": "bouavaloper",
+    "bech32PrefixValPub": "bouavaloperpub",
+    "bech32PrefixConsAddr": "bouavalcons",
+    "bech32PrefixConsPub": "bouavalconspub"
+  },
+  "stakeCurrency": {
+    "coinDecimals": 8,
+    "coinDenom": "bouacoin",
+    "coinMinimalDenom": "ubouacoin",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bouachain/chain.png"
+  },
+  "currencies": [
+    {
+      "coinDecimals": 8,
+      "coinDenom": "bouacoin",
+      "coinMinimalDenom": "ubouacoin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bouachain/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "bouacoin",
+      "coinMinimalDenom": "ubouacoin",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bouachain/chain.png",
+      "gasPriceStep": {
+        "low": 0.0006,
+        "average": 0.012,
+        "high": 0.04
+      }
+    }
+  ],
+  "features": []
+}

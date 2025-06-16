@@ -1,0 +1,74 @@
+{
+  "rpc": "https://testnet-rpc.pryzm.zone",
+  "rest": "https://testnet-api.pryzm.zone",
+  "nodeProvider": {
+    "name": "PRYZM",
+    "email": "support@pryzm.zone",
+    "website": "https://pryzm.zone/"
+  },
+  "chainId": "indigo-1",
+  "chainName": "pryzmtestnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/indigo/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "PRYZM",
+    "coinMinimalDenom": "upryzm",
+    "coinDecimals": 6
+  },
+  "walletUrlForStaking": "https://testnets.cosmosrun.info/pryzm-indigo-1/staking",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "pryzm",
+    "bech32PrefixAccPub": "pryzmpub",
+    "bech32PrefixValAddr": "pryzmvaloper",
+    "bech32PrefixValPub": "pryzmvaloperpub",
+    "bech32PrefixConsAddr": "pryzmvalcons",
+    "bech32PrefixConsPub": "pryzmvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "PRYZM",
+      "coinMinimalDenom": "upryzm",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "USDSim",
+      "coinMinimalDenom": "factory/pryzm15k9s9p0ar0cx27nayrgk6vmhyec3lj7vkry7rx/uusdsim",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "PRYZM",
+      "coinMinimalDenom": "upryzm",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "PRYZM",
+      "coinMinimalDenom": "factory/pryzm15k9s9p0ar0cx27nayrgk6vmhyec3lj7vkry7rx/uusdsim",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "OSMO",
+      "coinMinimalDenom": "ibc/92E0120F15D037353CFB73C14651FC8930ADC05B93100FD7754D3A689E53B333",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "ATOM",
+      "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "LUNA",
+      "coinMinimalDenom": "ibc/265435C653FE85CD659E88CD51D4A735BDD4D3804871400378A488C71D68C72B",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "INJ",
+      "coinMinimalDenom": "ibc/1704820C9E1F4A9925E0F23D3B92ED0E53DEE28726257E39FABD444BFC6B6AE3",
+      "coinDecimals": 18
+    }
+  ],
+  "features": ["cosmwasm"]
+}

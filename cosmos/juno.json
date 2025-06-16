@@ -33,10 +33,10 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/juno/ujuno.png"
     },
     {
-      "coinDenom": "HAVA",
-      "coinMinimalDenom": "factory/juno195asgku87kxgu48s447z0ryhsyn5rl3yzvfw0d/uhava",
+      "coinDenom": "EMPR",
+      "coinMinimalDenom": "factory/juno1zjqsel42pj5e6wvxxw7hjs9gn06yqz4m3ffyua3x2v44m4l8trjsr92q9s/empr",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/juno/factory/juno195asgku87kxgu48s447z0ryhsyn5rl3yzvfw0d/hava.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/juno/factory/juno1zjqsel42pj5e6wvxxw7hjs9gn06yqz4m3ffyua3x2v44m4l8trjsr92q9s/empr.png"
     }
   ],
   "feeCurrencies": [

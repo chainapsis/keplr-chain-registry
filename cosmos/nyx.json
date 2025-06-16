@@ -7,7 +7,7 @@
   "nodeProvider": {
     "name": "NodesGuru",
     "email": "andreym@nodes.guru",
-    "website":"https://nodes.guru/"
+    "website": "https://nodes.guru/"
   },
   "bip44": {
     "coinType": 118
@@ -35,25 +35,31 @@
     {
       "coinDenom": "NYX",
       "coinMinimalDenom": "unyx",
-      "coinDecimals": 6,
-      "coinGeckoId": "nyx"
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
     {
-        "coinDenom": "nym",
-        "coinMinimalDenom": "unym",
-        "coinDecimals": 6,
-        "coinGeckoId": "nym"
+      "coinDenom": "nym",
+      "coinMinimalDenom": "unym",
+      "coinDecimals": 6,
+      "coinGeckoId": "nym",
+      "gasPriceStep": {
+        "low": 0.025,
+        "average": 0.025,
+        "high": 0.04
+      }
     },
     {
-	"coinDenom": "nyx",
-	"coinMinimalDenom": "unyx",
-	"coinDecimals": 6,
-	"coinGeckoId": "nyx"
+      "coinDenom": "nyx",
+      "coinMinimalDenom": "unyx",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.025,
+        "average": 0.025,
+        "high": 0.04
+      }
     }
   ],
-  "features": [
-      "cosmwasm"
-  ]
+  "features": ["cosmwasm"]
 }

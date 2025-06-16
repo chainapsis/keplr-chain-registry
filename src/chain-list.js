@@ -56,7 +56,14 @@ async function init() {
   const response = await fetch(
     "https://keplr-chain-registry.vercel.app/api/chains",
   );
-  const chainInfos = await response.json();
+  const _chainInfos = await response.json();
+  const chainInfos = _chainInfos.chains.filter((chainInfo) => {
+    return !chainInfo.hideInUI;
+  });
+
+  const isOnKeplrMobile = /KeplrWalletMobile|Android|iPhone/g.test(
+    navigator.userAgent,
+  );
 
   let registeredChainIds = [];
   if (keplr) {
@@ -65,23 +72,38 @@ async function init() {
       (chainInfo) => parse(chainInfo.chainId).identifier,
     );
   } else {
-    registeredChainIds = chainInfos.chains
+    registeredChainIds = chainInfos
       .filter((chainInfo) => !chainInfo.nodeProvider)
       .map((chainInfo) => parse(chainInfo.chainId).identifier);
   }
 
   removeChainListChild();
 
-  const filteredChainInfos = chainInfos.chains.filter(
-    (chainInfo) =>
-      !registeredChainIds.includes(parse(chainInfo.chainId).identifier),
-  );
+  const filteredChainInfos = chainInfos
+    .filter(
+      (chainInfo) =>
+        !registeredChainIds.includes(parse(chainInfo.chainId).identifier),
+    )
+    .filter((chainInfo) => {
+      if (isOnKeplrMobile) {
+        return !chainInfo.chainId.startsWith("eip155:");
+      } else {
+        return true;
+      }
+    });
 
-  const registeredChainInfos = chainInfos.chains
+  const registeredChainInfos = chainInfos
     .filter((chainInfo) => chainInfo.nodeProvider)
     .filter((chainInfo) =>
       registeredChainIds.includes(parse(chainInfo.chainId).identifier),
-    );
+    )
+    .filter((chainInfo) => {
+      if (isOnKeplrMobile) {
+        return !chainInfo.chainId.startsWith("eip155:");
+      } else {
+        return true;
+      }
+    });
 
   if (filteredChainInfos.length > 0) {
     filteredChainInfos.map((chainInfo) => {
@@ -153,9 +175,11 @@ function createChainCurrency(chainItemDiv, chainInfo) {
   const chainCurrencyDiv = document.createElement("div");
   chainCurrencyDiv.className = "chain-currency";
 
-  const chainCurrencyText = document.createTextNode(
-    chainInfo.currencies[0].coinDenom,
-  );
+  const chainCurrency = chainInfo.stakeCurrency
+    ? chainInfo.stakeCurrency
+    : chainInfo.currencies[0];
+
+  const chainCurrencyText = document.createTextNode(chainCurrency.coinDenom);
   chainCurrencyDiv.appendChild(chainCurrencyText);
 
   chainItemDiv.appendChild(chainCurrencyDiv);
@@ -177,21 +201,38 @@ function createNodeProvider(chainItemDiv, chainInfo) {
     );
     providerLinkA.appendChild(providerNameText);
 
-    const providerEmailDiv = document.createElement("div");
-    providerEmailDiv.className = "provider-email";
+    const providerContactDiv = document.createElement("div");
+    providerContactDiv.className = "provider-email";
 
-    const providerEmailText = document.createTextNode(
-      chainInfo.nodeProvider.email,
+    const isEmail = chainInfo.nodeProvider.email != null;
+    const isDiscord = chainInfo.nodeProvider.discord != null;
+
+    const providerContactText = document.createTextNode(
+      isEmail
+        ? chainInfo.nodeProvider.email
+        : isDiscord
+        ? chainInfo.nodeProvider.discord
+        : "",
     );
-    providerEmailDiv.appendChild(providerEmailText);
+    providerContactDiv.appendChild(providerContactText);
+    providerContactDiv.onclick = function () {
+      window.location = isEmail
+        ? `mailto:${chainInfo.nodeProvider.email}`
+        : isDiscord
+        ? chainInfo.nodeProvider.discord
+        : "";
+    };
 
     nodeProviderDiv.appendChild(providerLinkA);
-    nodeProviderDiv.appendChild(providerEmailDiv);
+    nodeProviderDiv.appendChild(providerContactDiv);
 
     chainItemDiv.appendChild(nodeProviderDiv);
   } else {
     const nodeProviderDiv = document.createElement("div");
     nodeProviderDiv.className = "native-node-provider";
+
+    const providerNameText = document.createTextNode("Keplr Node");
+    nodeProviderDiv.appendChild(providerNameText);
 
     chainItemDiv.appendChild(nodeProviderDiv);
   }
@@ -207,8 +248,16 @@ function createRegisterButton(chainItemDiv, chainInfo, keplr) {
   registerButton.onclick = async () => {
     try {
       if (keplr) {
+        registerButton.classList.add("button-loading");
+        registerButton.textContent = "Loading";
+
         await window.keplr.experimentalSuggestChain(chainInfo);
-        init();
+
+        setTimeout(() => {
+          registerButton.classList.remove("button-loading");
+          registerButton.textContent = "Add to Keplr";
+          init();
+        }, 1000);
       } else {
         const keplrNotInstalledDiv = document.getElementById(
           "keplr-not-installed",
@@ -216,6 +265,11 @@ function createRegisterButton(chainItemDiv, chainInfo, keplr) {
         keplrNotInstalledDiv.style.display = "flex";
       }
     } catch (e) {
+      setTimeout(() => {
+        registerButton.classList.remove("button-loading");
+        registerButton.textContent = "Add to Keplr";
+      }, 300);
+
       console.error(e);
     }
   };

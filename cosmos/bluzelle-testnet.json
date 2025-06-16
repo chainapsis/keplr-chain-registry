@@ -5,8 +5,8 @@
     "name": "Bluzelle",
     "email": "support@bluzelle.com",
     "website":"https://bluzelle.com/"
-  },  
-  "chainId": "bluzelle-testnet-9",
+  },
+  "chainId": "bluzelle-testnet-10",
   "chainName": "Bluzelle Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bluzelle-testnet/chain.png",
   "stakeCurrency": {

@@ -1,0 +1,51 @@
+{
+  "chainId": "planq_7077-1",
+  "chainName": "Planq Atlas Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/planq_7077/chain.png",
+  "rpc": "https://rpc-atlas.planq.network",
+  "rest": "https://rest-atlas.planq.network",
+  "nodeProvider": {
+    "name": "Planq",
+    "email": "info@planq.network",
+    "website":"https://planq.network/"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "plq",
+    "bech32PrefixAccPub": "plqpub",
+    "bech32PrefixValAddr": "plqvaloper",
+    "bech32PrefixValPub": "plqvaloperpub",
+    "bech32PrefixConsAddr": "plqvalcons",
+    "bech32PrefixConsPub": "plqvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "tPLQ",
+      "coinMinimalDenom": "atplanq",
+      "coinDecimals": 18
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "tPLQ",
+      "coinMinimalDenom": "atplanq",
+      "coinDecimals": 18,
+      "gasPriceStep": {
+        "low": 30000000000,
+        "average": 35000000000,
+        "high": 40000000000
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "tPLQ",
+    "coinMinimalDenom": "atplanq",
+    "coinDecimals": 18
+  },
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+    "chainId": "self-test-1",
+    "chainName": "Self Chain Testnet",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/self-test/chain.png",
+    "rpc": "https://rpc-devnet.selfchain.xyz",
+    "rest": "https://api-devnet.selfchain.xyz/",
+    "nodeProvider": {
+        "name": "Self Chain",
+        "email": "hello@frontier.xyz",
+        "website":"https://selfchain.xyz"
+    },
+    "bip44": {
+        "coinType": 118
+    },
+    "bech32Config": {
+        "bech32PrefixAccAddr": "self",
+        "bech32PrefixAccPub": "selfpub",
+        "bech32PrefixValAddr": "selfvaloper",
+        "bech32PrefixValPub": "selfvaloperpub",
+        "bech32PrefixConsAddr": "selfvalcons",
+        "bech32PrefixConsPub": "selfvalconspub"
+    },
+    "currencies": [
+    {
+        "coinDenom": "SLF",
+        "coinMinimalDenom": "uslf",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/self-test/chain.png"
+    }
+    ],
+    "feeCurrencies": [
+    {
+        "coinDenom": "SLF",
+        "coinMinimalDenom": "uslf",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/self-test/chain.png",
+        "gasPriceStep": {
+            "low": 0.005,
+            "average": 0.025,
+            "high": 0.03
+        }
+    }
+    ],
+    "stakeCurrency": {
+        "coinDenom": "SLF",
+        "coinMinimalDenom": "uslf",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/self-test/chain.png"
+    },
+    "features": []
+}

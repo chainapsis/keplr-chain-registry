@@ -1,0 +1,67 @@
+{
+  "rpc": "https://rpc.loop.pfc.zone",
+  "rest": "https://api.loop.pfc.zone",
+  "nodeProvider": {
+    "name": "PFC",
+    "website":"https://pfc.zone/",
+    "email": "pfc@pfc.zone"
+  },
+  "chainId": "loop-1",
+  "chainName": "Loop Fans",
+  "stakeCurrency": {
+    "coinDenom": "TOKEN",
+    "coinMinimalDenom": "token",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/loop/token.png"
+  },
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/loop/chain.png",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "loop",
+    "bech32PrefixAccPub": "looppub",
+    "bech32PrefixValAddr": "loopvaloper",
+    "bech32PrefixValPub": "loopvaloperpub",
+    "bech32PrefixConsAddr": "loopvalcons",
+    "bech32PrefixConsPub": "loopvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "TOKEN",
+      "coinMinimalDenom": "token",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/loop/token.png"
+    },
+    {
+      "coinDenom": "POA",
+      "coinMinimalDenom": "upoa",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "POA",
+      "coinMinimalDenom": "upoa",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.0,
+        "average": 0.0,
+        "high": 0.0
+      }
+    },
+
+    {
+      "coinDenom": "TOKEN",
+      "coinMinimalDenom": "token",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/loop/token.png",
+      "gasPriceStep": {
+        "low": 0,
+        "average": 0,
+        "high": 0.0
+      }
+    }
+  ],
+  "features": ["cosmwasm"]
+}

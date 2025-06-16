@@ -1,19 +1,14 @@
 {
   "chainId": "grand-1",
-  "chainName": "Grand",
-  "rpc": "https://rpc.testnet.noble.strange.love",
-  "rest": "https://api.testnet.noble.strange.love/",
+  "chainName": "Noble Testnet",
+  "rpc": "https://rpc.testnet.noble.xyz",
+  "rest": "https://api.testnet.noble.xyz",
   "nodeProvider": {
-    "name": "Strangelove",
-    "email": "support@strange.love",
-    "website": "https://strange.love/"
+    "name": "Noble",
+    "email": "hello@nobleassets.xyz",
+    "website": "https://www.noble.xyz"
   },
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/chain.png",
-  "stakeCurrency": {
-    "coinDenom": "STAKE",
-    "coinMinimalDenom": "ustake",
-    "coinDecimals": 6
-  },
   "bip44": {
     "coinType": 118
   },
@@ -33,15 +28,28 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/uusdc.png"
     },
     {
-      "coinDenom": "STAKE",
-      "coinMinimalDenom": "ustake",
-      "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/ustake.png"
+      "coinDenom": "USDY",
+      "coinMinimalDenom": "ausdy",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/ausdy.png"
     },
     {
-      "coinDenom": "LOVE",
-      "coinMinimalDenom": "ulove",
-      "coinDecimals": 6
+      "coinDenom": "USYC",
+      "coinMinimalDenom": "uusyc",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/uusyc.png"
+    },
+    {
+      "coinDenom": "EURe",
+      "coinMinimalDenom": "ueure",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/ueure.png"
+    },
+    {
+      "coinDenom": "USDN",
+      "coinMinimalDenom": "uusdn",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/grand/uusdn.png"
     }
   ],
   "feeCurrencies": [

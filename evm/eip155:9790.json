@@ -1,0 +1,31 @@
+{
+  "rpc": "https://evm-api.carbon.network",
+  "nodeProvider": {
+    "name": "Switcheo Labs",
+    "email": "info@switcheo.network",
+    "website": "https://www.switcheo.com/"
+  },
+  "chainId": "eip155:9790",
+  "chainName": "Carbon EVM",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:9790/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "SWTH",
+      "coinMinimalDenom": "swth",
+      "coinDecimals": 18,
+      "coinGeckoId": "switcheo"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "SWTH",
+      "coinMinimalDenom": "swth",
+      "coinDecimals": 18,
+      "coinGeckoId": "switcheo"
+    }
+  ],
+  "features": []
+}

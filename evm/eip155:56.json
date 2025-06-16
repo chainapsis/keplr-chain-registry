@@ -1,0 +1,50 @@
+{
+  "rpc": "https://evm-56.keplr.app",
+  "websocket": "wss://evm-56.keplr.app/websocket",
+  "chainId": "eip155:56",
+  "chainName": "BNB Smart Chain",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:56/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "BNB",
+      "coinMinimalDenom": "binance-native",
+      "coinDecimals": 18,
+      "coinGeckoId": "binancecoin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:56/binance-native.png"
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "erc20:0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "coinDecimals": 18,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:56/erc20/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
+    },
+    {
+      "coinDenom": "WETH",
+      "coinMinimalDenom": "erc20:0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+      "coinDecimals": 18,
+      "coinGeckoId": "weth",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:56/erc20/0x2170ed0880ac9a755fd29b2688956bd959f933f8.png"
+    },
+    {
+      "coinDenom": "USDT",
+      "coinMinimalDenom": "erc20:0x55d398326f99059fF775485246999027B3197955",
+      "coinDecimals": 18,
+      "coinGeckoId": "tether",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:56/erc20/0x55d398326f99059fF775485246999027B3197955.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "BNB",
+      "coinMinimalDenom": "binance-native",
+      "coinDecimals": 18,
+      "coinGeckoId": "binancecoin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:56/binance-native.png"
+    }
+  ],
+  "features": []
+}

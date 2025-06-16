@@ -1,0 +1,53 @@
+{
+  "chainId": "axone-dentrite-1",
+  "chainName": "Axone Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axone-dentrite/chain.png",
+  "rpc": "https://axone-rpc.jayjayinfra.space/",
+  "rest": "https://axone-api.jayjayinfra.space/",
+  "nodeProvider": {
+    "name": "jayjay",
+    "email": "ipspoff1997@gmail.com",
+    "website": "https://x.com/javalry1"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "axone",
+    "bech32PrefixAccPub": "axonepub",
+    "bech32PrefixValAddr": "axonevaloper",
+    "bech32PrefixValPub": "axonevaloperpub",
+    "bech32PrefixConsAddr": "axonevalcons",
+    "bech32PrefixConsPub": "axonevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "AXONE",
+      "coinMinimalDenom": "uaxone",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axone-dentrite/uaxone.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "AXONE",
+      "coinMinimalDenom": "uaxone",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axone-dentrite/uaxone.png",
+      "gasPriceStep": {
+        "low": 0.0025,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "AXONE",
+    "coinMinimalDenom": "uaxone",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axone-dentrite/uaxone.png"
+  },
+  "features": [
+    "cosmwasm"
+  ]
+}

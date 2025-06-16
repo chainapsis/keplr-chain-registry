@@ -1,0 +1,51 @@
+{
+  "bech32Config": {
+    "bech32PrefixAccAddr": "warden",
+    "bech32PrefixAccPub": "wardenpub",
+    "bech32PrefixConsAddr": "wardenvalcons",
+    "bech32PrefixConsPub": "wardenvalconspub",
+    "bech32PrefixValAddr": "wardenvaloper",
+    "bech32PrefixValPub": "wardenvaloperpub"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "chainId": "buenavista-1",
+  "chainName": "Warden Protocol Buenavista",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/buenavista/chain.png",
+  "currencies": [
+    {
+      "coinDecimals": 6,
+      "coinDenom": "WARD",
+      "coinMinimalDenom": "uward",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/buenavista/uward.png"
+    }
+  ],
+  "features": [],
+  "feeCurrencies": [
+    {
+      "coinDecimals": 6,
+      "coinDenom": "WARD",
+      "coinMinimalDenom": "uward",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/buenavista/uward.png",
+      "gasPriceStep": {
+        "average": 0.025,
+        "high": 0.03,
+        "low": 0.005
+      }
+    }
+  ],
+  "rest": "https://api.buenavista.wardenprotocol.org",
+  "rpc": "https://rpc.buenavista.wardenprotocol.org",
+  "nodeProvider": {
+    "name": "Warden Protocol",
+    "email": "tech@wardenprotocol.org",
+    "website": "https://wardenprotocol.org/"
+  },
+  "stakeCurrency": {
+    "coinDecimals": 6,
+    "coinDenom": "WARD",
+    "coinMinimalDenom": "uward",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/buenavista/uward.png"
+  }
+}

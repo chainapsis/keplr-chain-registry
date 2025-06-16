@@ -4,35 +4,33 @@
     "nodeProvider": {
       "name": "Composable",
       "email": "jafar@composable.finance",
-      "website": "https://www.composable.finance/"
+      "website": "https://www.picasso.network/"
     },
     "chainId": "banksy-testnet-5",
-    "chainName": "Banksy",
+    "chainName": "Picasso Testnet",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/banksy-testnet/chain.png",
     "stakeCurrency": {
       "coinDenom": "PICA",
       "coinMinimalDenom": "ppica",
       "coinDecimals": 12,
-      "coinGeckoId": "picasso",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/banksy-testnet/ppica.png"
     },
     "bip44": {
       "coinType": 118
     },
     "bech32Config": {
-      "bech32PrefixAccAddr": "centauri",
-      "bech32PrefixAccPub": "centauripub",
-      "bech32PrefixValAddr": "centaurivaloper",
-      "bech32PrefixValPub": "centaurivaloperpub",
-      "bech32PrefixConsAddr": "centaurivalcons",
-      "bech32PrefixConsPub": "centaurivalconspub"
+      "bech32PrefixAccAddr": "pica",
+      "bech32PrefixAccPub": "picapub",
+      "bech32PrefixValAddr": "picavaloper",
+      "bech32PrefixValPub": "picavaloperpub",
+      "bech32PrefixConsAddr": "picavalcons",
+      "bech32PrefixConsPub": "picavalconspub"
     },
     "currencies": [
       {
         "coinDenom": "PICA",
         "coinMinimalDenom": "ppica",
         "coinDecimals": 12,
-        "coinGeckoId": "picasso",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/banksy-testnet/ppica.png"
       }
     ],
@@ -41,7 +39,6 @@
         "coinDenom": "PICA",
         "coinMinimalDenom": "ppica",
         "coinDecimals": 12,
-        "coinGeckoId": "picasso",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/banksy-testnet/ppica.png",
         "gasPriceStep": {
           "low": 0,

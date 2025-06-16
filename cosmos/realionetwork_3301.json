@@ -1,10 +1,10 @@
 {
-  "rpc": "https://realio-rpc.genznodes.dev",
-  "rest": "https://realio-api.genznodes.dev",
+  "rpc": "https://rpc.realio.network/",
+  "rest": "https://api.realio.network/",
   "nodeProvider": {
-    "name": "Genznodes",
-    "email": "genzbit@genznodes.dev",
-    "website": "https://genznodes.dev/"
+    "name": "Realio",
+    "email": "devops@realio.fund",
+    "website": "https://realio.network"
   },
   "chainId": "realionetwork_3301-1",
   "chainName": "Realio",
@@ -40,6 +40,12 @@
       "coinMinimalDenom": "arst",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3301/arst.png"
+    },
+    {
+      "coinDenom": "LMX",
+      "coinMinimalDenom": "almx",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/realionetwork_3301/almx.png"
     }
   ],
   "feeCurrencies": [
