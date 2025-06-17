@@ -1,9 +1,9 @@
 {
-    "chainId": "manifest-ledger-testnet",
-    "chainName": "Manifest Testnet",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/manifest-ledger-testnet/chain.png",
-    "rpc": "https://nodes.liftedinit.tech/manifest/testnet/rpc",
-    "rest": "https://nodes.liftedinit.tech/manifest/testnet/api",
+    "chainId": "manifest-ledger-mainnet",
+    "chainName": "Manifest",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/manifest-ledger-mainnet/chain.png",
+    "rpc": "https://nodes.liftedinit.app/manifest/rpc",
+    "rest": "https://nodes.liftedinit.app/manifest/api",
     "nodeProvider": {
       "name": "The Lifted Initiative",
       "email": "infra@liftedinit.org",
@@ -51,4 +51,3 @@
     },
     "features": []
   }
-  
