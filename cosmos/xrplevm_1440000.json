@@ -1,6 +1,6 @@
 {
-    "rpc": "https://rpc.xrpl.cumulo.com.es/",
-    "rest": "https://api.xrpl.cumulo.com.es/",
+    "rpc": "https://cosmos-rpc.xrplevm.org",
+    "rest": "https://cosmos-api.xrplevm.org",
     "chainId": "xrplevm_1440000-1",
     "chainName": "XRPL EVM",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xrplevm_1440000/chain.png",
@@ -24,6 +24,7 @@
       {
         "coinDenom": "XRP",
         "coinMinimalDenom": "axrp",
+        "coinGeckoId": "ripple",
         "coinDecimals": 18,
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xrplevm_1440000/xrp-logo.png"
       }
@@ -33,6 +34,7 @@
         "coinDenom": "XRP",
         "coinMinimalDenom": "axrp",
         "coinDecimals": 18,
+        "coinGeckoId": "ripple",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xrplevm_1440000/xrp-logo.png",
         "gasPriceStep": {
           "low": 200000000000,
