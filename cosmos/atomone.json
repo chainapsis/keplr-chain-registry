@@ -23,6 +23,12 @@
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/atomone/chain.png",
       "coinGeckoId": "atomone"
+    },
+    {
+      "coinDenom": "PHOTON",
+      "coinMinimalDenom": "uphoton",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/atomone/photon.png"
     }
   ],
   "feeCurrencies": [
@@ -30,13 +36,24 @@
       "coinDenom": "ATONE",
       "coinMinimalDenom": "uatone",
       "coinDecimals": 6,
+      "coinGeckoId": "atomone", 
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/atomone/chain.png",
       "gasPriceStep": {
         "low": 0.025,
         "average": 0.04,
         "high": 0.08
-      },
-      "coinGeckoId": "atomone"
+      }
+    },
+    {
+      "coinDenom": "PHOTON",
+      "coinMinimalDenom": "uphoton",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/atomone/photon.png",
+      "gasPriceStep": {
+        "low": 0.225,
+        "average": 0.36,
+        "high": 0.72
+      }
     }
   ],
   "stakeCurrency": {

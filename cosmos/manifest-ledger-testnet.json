@@ -5,9 +5,9 @@
     "rpc": "https://nodes.liftedinit.tech/manifest/testnet/rpc",
     "rest": "https://nodes.liftedinit.tech/manifest/testnet/api",
     "nodeProvider": {
-      "name": "Lifted Initiative",
+      "name": "The Lifted Initiative",
       "email": "infra@liftedinit.org",
-      "website": "https://liftedinit.org/"
+      "website": "https://manifestai.org/"
     },
     "bip44": {
       "coinType": 118
@@ -38,9 +38,9 @@
         "coinMinimalDenom": "umfx",
         "coinDecimals": 6,
         "gasPriceStep": {
-          "low": 0.5,
-          "average": 1.0,
-          "high": 5.0
+          "low": 1.05,
+          "average": 1.1,
+          "high": 3.0
         }
       }
     ],

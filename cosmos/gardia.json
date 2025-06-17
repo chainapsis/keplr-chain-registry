@@ -1,5 +1,5 @@
 {
-  "chainId": "gardia-5",
+  "chainId": "gardia-9",
   "chainName": "Zenrock Gardia Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gardia/chain.png",
   "rpc": "https://rpc.gardia.zenrocklabs.io",
