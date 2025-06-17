@@ -27,7 +27,7 @@
       "coinMinimalDenom": "gravity-native",
       "coinDecimals": 18,
       "coinGeckoId": "g-token",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1625/chain.pngg"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1625/chain.png"
     }
   ],
   "features": []
