@@ -20,7 +20,9 @@
       "coinMinimalDenom": "aconst"
     }
   ],
-  "features": ["cosmwasm"],
+  "features": [
+    "cosmwasm"
+  ],
   "feeCurrencies": [
     {
       "coinDecimals": 18,
@@ -43,6 +45,7 @@
   "nodeProvider": {
     "name": "Phi Labs",
     "email": "support@philabs.xyz",
-    "website":"https://philabs.xyz"
-  }
+    "website": "https://philabs.xyz"
+  },
+  "isTestnet": true
 }

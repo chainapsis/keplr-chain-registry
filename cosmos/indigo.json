@@ -70,5 +70,8 @@
       "coinDecimals": 18
     }
   ],
-  "features": ["cosmwasm"]
+  "features": [
+    "cosmwasm"
+  ],
+  "isTestnet": true
 }

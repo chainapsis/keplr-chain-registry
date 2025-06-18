@@ -7,7 +7,7 @@
   "nodeProvider": {
     "name": "MANTRA Chain",
     "email": "contact@mantrachain.io",
-    "website":"https://www.mantrachain.io"
+    "website": "https://www.mantrachain.io"
   },
   "bip44": {
     "coinType": 118
@@ -45,6 +45,7 @@
     "coinDecimals": 6
   },
   "features": [
-    "cosmwasm"  
-  ]
+    "cosmwasm"
+  ],
+  "isTestnet": true
 }

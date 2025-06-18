@@ -4,7 +4,7 @@
   "nodeProvider": {
     "name": "ecostake",
     "email": "hello@ecostake.com",
-    "website":"https://www.ecostake.com/"
+    "website": "https://www.ecostake.com/"
   },
   "chainId": "kaon-1",
   "chainName": "Kaon (Testnet)",
@@ -44,5 +44,6 @@
       }
     }
   ],
-  "features": []
+  "features": [],
+  "isTestnet": true
 }

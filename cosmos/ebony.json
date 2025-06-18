@@ -7,7 +7,7 @@
   "nodeProvider": {
     "name": "Finschia Foundation",
     "email": "dev@finschia.org",
-    "website":"https://www.finschia.io"
+    "website": "https://www.finschia.io"
   },
   "bip44": {
     "coinType": 438
@@ -47,5 +47,8 @@
     "coinMinimalDenom": "tcony",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ebony/chain.png"
   },
-  "features": ["cosmwasm"]
+  "features": [
+    "cosmwasm"
+  ],
+  "isTestnet": true
 }
