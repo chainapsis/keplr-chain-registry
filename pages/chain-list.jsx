@@ -10,7 +10,7 @@ export default function ChainListPage() {
       <div id="keplr-not-installed" style={{ display: "none" }}>
         keplr-not-installed
       </div>
-      <div id="registred-buttons" />
+      <div id="registered-buttons" />
       <div id="chain-list" />
       <div id="loading" style={{ display: "none" }}>
         loading
