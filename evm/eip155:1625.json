@@ -1,6 +1,11 @@
 {
   "rpc": "https://rpc.gravity.xyz",
   "websocket": "https://rpc.gravity.xyz",
+  "nodeProvider": {
+    "name": "Conduit",
+    "email": "support@conduit.xyz",
+    "website": "https://conduit.xyz"
+  },
   "chainId": "eip155:1625",
   "chainName": "Gravity Alpha Mainnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1625/chain.png",
