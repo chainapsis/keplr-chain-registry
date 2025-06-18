@@ -1,6 +1,6 @@
 {
-    "rpc": "https://tendermint-testnet.cintara.work/",
-    "rest": "https://swagger-testnet.cintara.work/",
+    "rpc": "https://tendermint.testnet.cintara.io/",
+    "rest": "https://swagger.testnet.cintara.io/",
     "chainId": "cintara_11001-1",
     "chainName": "Cintara-Testnet",
     "evm": {
@@ -16,7 +16,7 @@
     },
     "nodeProvider":{
       "name":"Cintara",
-      "email":"",
+      "email":"contact@cintara.io",
       "website":"https://www.cintara.io/"
     },
     "bip44": {
