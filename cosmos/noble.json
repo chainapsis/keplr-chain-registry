@@ -99,9 +99,9 @@
       "coinMinimalDenom": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.01,
-        "average": 0.01,
-        "high": 0.01
+        "low": 0.02,
+        "average": 0.02,
+        "high": 0.02
       }
     }
   ],

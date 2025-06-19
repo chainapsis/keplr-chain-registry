@@ -1,6 +1,6 @@
 {
 "chainId": "lixx-1",
-"chainName": "lixx",
+"chainName": "LIXX Blockchain",
 "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lixx/chain.png",
 "rpc": "https://rpc.lix.zone",
 "rest": "https://rest.lix.zone",

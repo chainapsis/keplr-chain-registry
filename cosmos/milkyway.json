@@ -132,6 +132,17 @@
         "average": 0.0025,
         "high": 0.003
       }
+    },
+    {
+      "coinDenom": "BABY",
+      "coinMinimalDenom": "ibc/B0BEE773CEF718E8B6D2892A27D57FEFB00BD8B2E698367B5CC96A4F36148726",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/baby.png",
+      "gasPriceStep": {
+        "low": 0.002,
+        "average": 0.0025,
+        "high": 0.003
+      }
     }
   ],
   "features": ["cosmwasm"]

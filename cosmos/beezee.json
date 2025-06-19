@@ -53,6 +53,12 @@
       "coinMinimalDenom": "factory/bze12gyp30f29zg26nuqrwdhl26ej4q066pt572fhm/GGE",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/beezee/factory/bze12gyp30f29zg26nuqrwdhl26ej4q066pt572fhm/gge.png"
+    },
+    {
+      "coinDenom": "CTL",
+      "coinMinimalDenom": "factory/bze1972aqfzdg29ugjln74edx0xvcg4ehvysjptk77/CTL",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/beezee/factory/bze1972aqfzdg29ugjln74edx0xvcg4ehvysjptk77/ctl.png"
     }
 	],
   "feeCurrencies": [{
