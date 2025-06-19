@@ -4,6 +4,12 @@
     "chainId": "safrochain-testnet",
     "chainName": "Safrochain Testnet",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/safrochain-testnet/chain.png",
+    "walletUrlForStaking": "https://explorer.testnet.safrochain.com/safrochain/staking",
+    "nodeProvider": {
+        "name": "Safrochain",
+        "email": "dev@safrochain.com",
+        "website": "https://safrochain.com"
+    },
     "stakeCurrency": {
         "coinDenom": "SAF",
         "coinMinimalDenom": "saf",
@@ -38,7 +44,8 @@
                 "low": 0.01,
                 "average": 0.025,
                 "high": 0.04
-            }
+            },
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/safrochain-testnet/saf.png"
         }
     ],
     "features": []
