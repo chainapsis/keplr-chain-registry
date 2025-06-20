@@ -7,7 +7,7 @@
   "nodeProvider": {
     "name": "Stride Labs",
     "email": "hello@stridelabs.co",
-    "website":"https://stride.zone/"
+    "website": "https://stride.zone/"
   },
   "stakeCurrency": {
     "coinDenom": "STRD",
@@ -57,5 +57,8 @@
       }
     }
   ],
-  "features": ["cosmwasm"]
+  "features": [
+    "cosmwasm"
+  ],
+  "isTestnet": true
 }

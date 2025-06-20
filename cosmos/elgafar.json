@@ -6,7 +6,7 @@
   "nodeProvider": {
     "name": "Stargaze",
     "email": "admin@stargaze.zone",
-    "website":"https://www.stargaze.zone/"
+    "website": "https://www.stargaze.zone/"
   },
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stargaze/chain.png",
   "stakeCurrency": {
@@ -42,5 +42,8 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stargaze/ustars.png"
     }
   ],
-  "features": ["cosmwasm"]
+  "features": [
+    "cosmwasm"
+  ],
+  "isTestnet": true
 }
