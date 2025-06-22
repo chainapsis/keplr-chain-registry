@@ -1,0 +1,56 @@
+{
+    "rpc": "https://tendermint.qubetics.com/",
+    "rest": "https://swagger.qubetics.com/",
+    "chainId": "qubetics_9030-1",
+    "chainName": "Qubetics-Mainnet",
+    "evm": {
+      "chainId": 9030,
+      "rpc": "https://rpc.qubetics.com"
+    },
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qubetics_9030/chain.png",
+    "stakeCurrency": {
+      "coinDenom": "TICS",
+      "coinMinimalDenom": "tics",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qubetics_9030/tics.png"
+    },
+    "nodeProvider":{
+      "name":"Qubetics",
+      "email":"admin@qubetics.com",
+      "website":"https://www.qubetics.com/"
+    },
+    "bip44": {
+      "coinType": 60
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "qubetics",
+      "bech32PrefixAccPub": "qubeticspub",
+      "bech32PrefixValAddr": "qubeticsvaloper",
+      "bech32PrefixValPub": "qubeticsvaloperpub",
+      "bech32PrefixConsAddr": "qubeticsvalcons",
+      "bech32PrefixConsPub": "qubeticsvalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "TICS",
+        "coinMinimalDenom": "tics",
+        "coinDecimals": 18,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qubetics_9030/tics.png"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "TICS",
+        "coinMinimalDenom": "tics",
+        "coinDecimals": 18,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qubetics_9030/tics.png",
+        "gasPriceStep": {
+          "low": 80000000000,
+          "average": 80000000000,
+          "high": 80000000000
+        }
+      }
+    ],
+    "features": ["eth-address-gen", "eth-key-sign"]
+  }
+  

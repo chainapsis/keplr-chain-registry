@@ -8,7 +8,7 @@
   "nodeProvider": {
     "name": "BitBadges",
     "email": "business@bitbadges.io",
-    "website":"https://bitbadges.com"
+    "website":"https://bitbadges.io"
   },
   "bip44": {
     "coinType": 118

@@ -1,15 +1,9 @@
 {
-
   "chainId": "pocket",
   "chainName": "Pocket Network",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pocket/chain.png",
-  "rpc": "https://shannon-grove-rpc.mainnet.poktroll.com",
-  "rest": "https://shannon-grove-api.mainnet.poktroll.com",
-  "nodeProvider": {
-    "name": "Grove",
-    "email": "hello@grove.city",
-    "website": "https://grove.city"
-  },
+  "rpc": "https://rpc-pocket.keplr.app",
+  "rest": "https://lcd-pocket.keplr.app",
   "bip44": {
     "coinType": 118
   },
@@ -21,6 +15,7 @@
     "bech32PrefixConsAddr": "poktvalcons",
     "bech32PrefixConsPub": "poktvalconspub"
   },
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/pocket-network",
   "currencies": [
     {
       "coinDenom": "POKT",
@@ -40,6 +35,7 @@
       "coinDenom": "POKT",
       "coinMinimalDenom": "upokt",
       "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pocket/chain.png",
       "gasPriceStep": {
         "low": 0.01,
         "average": 0.01,
@@ -51,16 +47,17 @@
       "coinMinimalDenom": "umact",
       "coinDecimals": 6,
       "gasPriceStep": {
-          "low": 0.01,
-          "average": 0.01,
-          "high": 0.01
-        }
+        "low": 0.01,
+        "average": 0.01,
+        "high": 0.01
+      }
     }
   ],
   "stakeCurrency": {
     "coinDenom": "POKT",
     "coinMinimalDenom": "upokt",
-    "coinDecimals": 6
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pocket/chain.png"
   },
   "features": []
 }
