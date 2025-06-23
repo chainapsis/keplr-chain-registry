@@ -35,7 +35,7 @@
       "coinDecimals": 18,
       "coinImageUrl":  "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/hippo-protocol/chain.png",
       "gasPriceStep": {
-        "low": 4000000000000,
+        "low": 5000000000000,
         "average": 5000000000000,
         "high": 10000000000000
       }
