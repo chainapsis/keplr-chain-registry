@@ -27,12 +27,14 @@
       "coinDenom": "TCY",
       "coinMinimalDenom": "tcy",
       "coinDecimals": 8,
+      "coinGeckoId": "tcy",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/tcy.png"
     },
     {
       "coinDenom": "RUJI",
       "coinMinimalDenom": "x/ruji",
       "coinDecimals": 8,
+      "coinGeckoId": "rujira",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/ruji.png"
     },
     {
