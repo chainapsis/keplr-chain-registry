@@ -27,31 +27,33 @@
       "coinDenom": "TCY",
       "coinMinimalDenom": "tcy",
       "coinDecimals": 8,
+      "coinGeckoId": "tcy",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/tcy.png"
     },
     {
       "coinDenom": "RUJI",
-      "coinMinimalDenom": "ruji",
+      "coinMinimalDenom": "x/ruji",
       "coinDecimals": 8,
+      "coinGeckoId": "rujira",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/ruji.png"
     },
     {
       "coinDenom": "NAMI",
-      "coinMinimalDenom": "nami",
+      "coinMinimalDenom": "thor.nami",
       "coinDecimals": 8,
       "coinGeckoId": "nami-protocol",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/nami.png"
     },
     {
       "coinDenom": "LQDY",
-      "coinMinimalDenom": "lqdy",
+      "coinMinimalDenom": "thor.lqdy",
       "coinDecimals": 8,
       "coinGeckoId": "mantadao",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/lqdy.png"
     },
     {
       "coinDenom": "AUTO",
-      "coinMinimalDenom": "auto",
+      "coinMinimalDenom": "thor.auto",
       "coinDecimals": 8,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/auto.png"
     }
@@ -70,5 +72,7 @@
       }
     }
   ],
-  "features": ["cosmwasm"]
+  "features": [
+    "cosmwasm"
+  ]
 }
