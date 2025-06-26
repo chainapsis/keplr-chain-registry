@@ -6,7 +6,7 @@
     "rest": "https://nodes.liftedinit.app/manifest/api",
     "nodeProvider": {
       "name": "The Lifted Initiative",
-      "email": "infra@liftedinit.org",
+      "email": "hello@manifest.network",
       "website": "https://manifestai.org/"
     },
     "bip44": {
@@ -24,7 +24,8 @@
       {
         "coinDenom": "MFX",
         "coinMinimalDenom": "umfx",
-        "coinDecimals": 6
+        "coinDecimals": 6,
+        "coinGeckoId": "manifest-2"
       },
       {
         "coinDenom": "POA",
@@ -37,6 +38,7 @@
         "coinDenom": "MFX",
         "coinMinimalDenom": "umfx",
         "coinDecimals": 6,
+        "coinGeckoId": "manifest-2",
         "gasPriceStep": {
           "low": 1.05,
           "average": 1.1,
