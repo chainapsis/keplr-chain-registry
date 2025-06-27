@@ -7,7 +7,7 @@
   "nodeProvider": {
     "name": "Source Protocol",
     "email": "hello@sourceprotocol.io",
-    "website":"https://www.sourceprotocol.io/"
+    "website": "https://www.sourceprotocol.io/"
   },
   "bip44": {
     "coinType": 118
@@ -46,5 +46,6 @@
   },
   "features": [
     "cosmwasm"
-  ]
+  ],
+  "isTestnet": true
 }

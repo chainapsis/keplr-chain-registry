@@ -11,7 +11,7 @@
   "nodeProvider": {
     "name": "Tucana",
     "email": "infra@tucana.zone",
-    "website":"https://tucana.zone"
+    "website": "https://tucana.zone"
   },
   "bip44": {
     "coinType": 60
@@ -51,5 +51,9 @@
       }
     }
   ],
-  "features": ["eth-address-gen", "eth-key-sign"]
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ],
+  "isTestnet": true
 }

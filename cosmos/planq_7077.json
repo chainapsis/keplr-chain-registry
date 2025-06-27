@@ -7,7 +7,7 @@
   "nodeProvider": {
     "name": "Planq",
     "email": "info@planq.network",
-    "website":"https://planq.network/"
+    "website": "https://planq.network/"
   },
   "bip44": {
     "coinType": 60
@@ -47,5 +47,6 @@
   "features": [
     "eth-address-gen",
     "eth-key-sign"
-  ]
+  ],
+  "isTestnet": true
 }

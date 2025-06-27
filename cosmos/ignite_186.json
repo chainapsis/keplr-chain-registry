@@ -9,9 +9,9 @@
     "coinDecimals": 18,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ignite_186/chain.png"
   },
- "nodeProvider": {
+  "nodeProvider": {
     "name": "Sebatian Validator",
-    "website":"https://sebatian.org/",
+    "website": "https://sebatian.org/",
     "email": "sebatian9x@gmail.com"
   },
   "bip44": {
@@ -45,5 +45,6 @@
   "features": [
     "eth-address-gen",
     "eth-key-sign"
-  ]
+  ],
+  "isTestnet": true
 }

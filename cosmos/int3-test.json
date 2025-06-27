@@ -82,7 +82,7 @@
       "coinDecimals": 8,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/int3-test/int3-btc.png",
       "gasPriceStep": {
-        "low": 0.0000001,
+        "low": 1e-7,
         "average": 0.0000025,
         "high": 0.000004
       }
@@ -132,5 +132,6 @@
       }
     }
   ],
-  "features": []
+  "features": [],
+  "isTestnet": true
 }

@@ -77,5 +77,6 @@
     "name": "titan",
     "email": "info@titannet.io",
     "website": "https://titannet.io"
-  }
+  },
+  "isTestnet": true
 }
