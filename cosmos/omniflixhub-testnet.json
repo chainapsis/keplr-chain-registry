@@ -3,14 +3,14 @@
     "rest": "https://api.testnet.omniflix.network",
     "chainId": "flixnet-4",
     "chainName": "OmniFlixHub FlixNet 4",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflix-testnet/chain.png",
-    "walletUrlForStaking": "https://wallet.keplr.app/chains/omniflix-testnet",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub-testnet/chain.png",
+    "walletUrlForStaking": "https://flix-f4.omniflix.co",
     "stakeCurrency": {
         "coinDenom": "FLIX",
         "coinMinimalDenom": "uflix",
         "coinDecimals": 6,
         "coinGeckoId": "omniflix-network",
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflix-testnet/uflix.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub-testnet/uflix.png"
     },
     "bip44": {
         "coinType": 118
@@ -29,7 +29,7 @@
         "coinMinimalDenom": "uflix",
         "coinDecimals": 6,
         "coinGeckoId": "omniflix-network",
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflix-testnet/uflix.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub-testnet/uflix.png"
         }
     ],
     "feeCurrencies": [
@@ -38,14 +38,13 @@
         "coinMinimalDenom": "uflix",
         "coinDecimals": 6,
         "coinGeckoId": "omniflix-network",
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflix-testnet/uflix.png",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub-testnet/uflix.png",
         "gasPriceStep": {
-            "low": 0.001,
-            "average": 0.0025,
+            "low": 0.005,
+            "average": 0.01,
             "high": 0.025
         }
         }
     ],
-    "features": []
+    "features": ["cosmwam", "stargate", "ibc-transfer", "no-legacy-stdTx", "ibc-go"]
 }
-  
