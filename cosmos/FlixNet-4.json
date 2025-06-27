@@ -48,5 +48,6 @@
     "coinDecimals": 6,
     "coinGeckoId": "omniflix-network",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub/uflix.png"
-  }
+  },
+  "isTestnet": true
 }
