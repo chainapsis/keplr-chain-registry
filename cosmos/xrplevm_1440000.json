@@ -9,7 +9,8 @@
   },
   "evm": {
     "chainId": 1440000,
-    "rpc": "https://evm-xrplevm.keplr.app"
+    "rpc": "https://evm-xrplevm.keplr.app",
+    "websocket": "wss://ws-evm-xrplevm.kelpr.app"
   },
   "bech32Config": {
     "bech32PrefixAccAddr": "ethm",
