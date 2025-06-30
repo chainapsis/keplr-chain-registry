@@ -12,27 +12,24 @@
   },
   "chainId": "flixnet-4",
   "chainName": "OmniFlix FlixNet-4",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/flixnet/chain.png",
   "currencies": [
     {
       "coinDenom": "FLIX",
       "coinMinimalDenom": "uflix",
       "coinDecimals": 6,
-      "coinGeckoId": "omniflix-network",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub/uflix.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/flixnet/uflix.png"
     }
   ],
   "features": [
-    "cosmwasm",
-    "ibc-transfer"
+    "cosmwasm"
   ],
   "feeCurrencies": [
     {
       "coinDenom": "FLIX",
       "coinMinimalDenom": "uflix",
       "coinDecimals": 6,
-      "coinGeckoId": "omniflix-network",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub/uflix.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/flixnet/uflix.png",
       "gasPriceStep": {
         "low": 0.001,
         "average": 0.0025,
@@ -46,8 +43,6 @@
     "coinDenom": "FLIX",
     "coinMinimalDenom": "uflix",
     "coinDecimals": 6,
-    "coinGeckoId": "omniflix-network",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub/uflix.png"
-  },
-  "isTestnet": true
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/flixnet/uflix.png"
+  }
 }
