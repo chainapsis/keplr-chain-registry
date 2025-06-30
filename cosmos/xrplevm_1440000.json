@@ -7,6 +7,11 @@
   "bip44": {
     "coinType": 60
   },
+  "evm": {
+    "chainId": 1440000,
+    "rpc": "https://evm-xrplevm.keplr.app",
+    "websocket": "wss://ws-evm-xrplevm.kelpr.app"
+  },
   "bech32Config": {
     "bech32PrefixAccAddr": "ethm",
     "bech32PrefixAccPub": "ethmpub",
