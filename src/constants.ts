@@ -49,6 +49,7 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "milkyway",
   "atomone",
   "pocket",
+  "xrplevm_1440000",
   "eip155:1",
   "eip155:10",
   "eip155:56",
