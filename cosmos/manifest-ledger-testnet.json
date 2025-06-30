@@ -6,7 +6,7 @@
     "rest": "https://nodes.liftedinit.tech/manifest/testnet/api",
     "nodeProvider": {
       "name": "The Lifted Initiative",
-      "email": "infra@liftedinit.org",
+      "email": "hello@manifest.network",
       "website": "https://manifestai.org/"
     },
     "bip44": {
