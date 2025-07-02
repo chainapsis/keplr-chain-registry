@@ -45,5 +45,6 @@
       },
       "features": [
         "cosmwasm"
-      ]
+      ],
+      "isTestnet": true
     }

@@ -49,5 +49,6 @@
     "name": "Lumera Protocol",
     "email": "security@lumera.io",
     "website": "https://lumera.io"
-  }
+  },
+  "isTestnet": true
 }

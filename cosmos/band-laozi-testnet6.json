@@ -47,5 +47,6 @@
     "coinDecimals": 6,
     "coinGeckoId": "band-protocol"
   },
-  "features": []
+  "features": [],
+  "isTestnet": true
 }
