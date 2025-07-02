@@ -7,7 +7,7 @@
   },
   "chainId": "eip155:5887",
   "chainName": "MANTRA Dukong EVM",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra-dukong/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5887/chain.png",
   "bip44": {
     "coinType": 60
   },
