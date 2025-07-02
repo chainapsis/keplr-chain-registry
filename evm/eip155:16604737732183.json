@@ -28,6 +28,5 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:16604737732183/utia.png"
     }
   ],
-  "features": [],
-  "isTestnet": true
+  "features": []
 }

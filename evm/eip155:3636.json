@@ -25,6 +25,6 @@
           "coinDecimals": 18
         }
       ],
-    "features": [],
-    "isTestnet": true
+    "features": []
+
   }

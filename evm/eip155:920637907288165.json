@@ -29,6 +29,5 @@
             "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:920637907288165/kakarot-native.png"
         }
     ],
-    "features": [],
-    "isTestnet": true
+    "features": []
 }

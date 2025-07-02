@@ -39,6 +39,5 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80084/berachain-native.png"
     }
   ],
-  "features": [],
-  "isTestnet": true
+  "features": []
 }

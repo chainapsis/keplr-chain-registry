@@ -28,6 +28,5 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:7222/chain.png"
     }
   ],
-  "features": [],
-  "isTestnet": true
+  "features": []
 }
