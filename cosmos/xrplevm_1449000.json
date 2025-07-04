@@ -49,5 +49,6 @@
     "eth-address-gen",
     "eth-key-sign",
     "axelar-evm-bridge"
-  ]
+  ],
+  "isTestnet": true
 }

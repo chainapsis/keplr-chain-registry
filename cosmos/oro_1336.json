@@ -55,5 +55,6 @@
         "name": "Kiichain Protocol",
         "email": "dev@kiichain.io",
         "website": "https://kiichain.io"
-    }
+    },
+    "isTestnet": true
 }

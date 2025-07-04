@@ -45,6 +45,7 @@
     "coinDecimals": 6
   },
   "features": [
-    "cosmwasm"  
-  ]
+    "cosmwasm"
+  ],
+  "isTestnet": true
 }

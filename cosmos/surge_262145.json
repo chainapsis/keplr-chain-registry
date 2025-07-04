@@ -44,5 +44,6 @@
         "coinMinimalDenom": "asrg",
         "coinDecimals": 18
     },
-    "features": []
+    "features": [],
+    "isTestnet": true
 }

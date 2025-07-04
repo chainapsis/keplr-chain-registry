@@ -47,5 +47,6 @@
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/allora-testnet/uallo.png"
   },
-  "features": []
+  "features": [],
+  "isTestnet": true
 }
