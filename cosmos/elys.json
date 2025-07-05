@@ -39,8 +39,8 @@
       "coinDecimals": 6,
       "gasPriceStep": {
         "low": 0.01,
-        "average": 0.025,
-        "high": 0.03
+        "average": 0.015,
+        "high": 0.025
       },
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elys/chain.png"
     },
@@ -50,9 +50,9 @@
       "coinDecimals": 6,
       "coinGeckoId": "usd-coin",
       "gasPriceStep": {
-        "low": 0.01,
-        "average": 0.025,
-        "high": 0.03
+        "low": 0.001,
+        "average": 0.002,
+        "high": 0.003
       },
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elys/uusdc.png"
     },
@@ -62,11 +62,23 @@
       "coinDecimals": 6,
       "coinGeckoId": "cosmos",
       "gasPriceStep": {
-        "low": 0.01,
-        "average": 0.025,
-        "high": 0.03
+        "low": 0.0002,
+        "average": 0.0003,
+        "high": 0.001
       },
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elys/uatom.png"
+    },
+{
+      "coinDenom": "XRP",
+      "coinMinimalDenom": "ibc/8464A63954C0350A26C8588E20719F3A0AC8705E4CA0F7450B60C3F16B2D3421",
+      "coinDecimals": 18,
+      "coinGeckoId": "ripple",
+      "gasPriceStep": {
+        "low": 47169811320,
+        "average": 50000000000,
+        "high": 60000000000
+      },
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elys/xrp.png"
     }
   ],
   "stakeCurrency": {
