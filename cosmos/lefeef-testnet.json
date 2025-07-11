@@ -47,6 +47,7 @@
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lefeef-testnet/chain.png"
     },
-    "features": ["cosmwasm"]
+    "features": ["cosmwasm"],
+    "isTestnet": true
   }
   

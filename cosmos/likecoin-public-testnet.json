@@ -47,5 +47,6 @@
     "coinDecimals": 9,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/likecoin-public-testnet/nanoekil.png"
   },
-  "features": []
+  "features": [],
+  "isTestnet": true
 }

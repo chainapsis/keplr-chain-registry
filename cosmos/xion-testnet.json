@@ -49,5 +49,6 @@
     "name": "🔥BurntLabs🔥",
     "email": "security@burnt.com",
     "website": "https://xion.burnt.com"
-  }
+  },
+  "isTestnet": true
 }
