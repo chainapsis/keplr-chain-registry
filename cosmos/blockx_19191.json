@@ -25,7 +25,6 @@
 			"coinDenom": "BCX",
 			"coinMinimalDenom": "abcx",
 			"coinDecimals": 18,
-			"coinGeckoId": "blockx",
 			"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/blockx_19191/chain.png"
 		}
 	],
@@ -34,7 +33,6 @@
 			"coinDenom": "BCX",
 			"coinMinimalDenom": "abcx",
 			"coinDecimals": 18,
-			"coinGeckoId": "blockx",
 			"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/blockx_19191/chain.png",
 			"gasPriceStep": {
 				"low": 0.01,
@@ -47,7 +45,6 @@
 		"coinDenom": "BCX",
 		"coinMinimalDenom": "abcx",
 		"coinDecimals": 18,
-		"coinGeckoId": "blockx",
 		"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/blockx_19191/chain.png"
 	},
 	"features": [
