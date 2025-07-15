@@ -74,9 +74,9 @@
       "coinDecimals": 18,
       "coinGeckoId": "ripple",
       "gasPriceStep": {
-        "low": 47169811320,
-        "average": 50000000000,
-        "high": 60000000000
+        "low": 11395000000,
+        "average": 30000000000,
+        "high": 40000000000
       },
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elys/xrp.png"
     }
