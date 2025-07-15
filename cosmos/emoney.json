@@ -4,7 +4,6 @@
   "nodeProvider": {
     "name": "Validator Network",
     "email": "contact@validator.network",
-    "website": "https://twitter.com/validator_net"
   },
   "chainId": "emoney-3",
   "chainName": "e-Money",
