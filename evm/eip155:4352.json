@@ -1,0 +1,32 @@
+{
+  "rpc": "https://rpc.memecore.net",
+  "websocket": "wss://ws.memecore.net",
+  "chainId": "eip155:4352",
+  "chainName": "MemeCore",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:4352/chain.png",
+  "nodeProvider": {
+    "name": "MemeCore",
+    "email": "tech@memecore.org",
+    "website": "https://memecore.com/"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "M",
+      "coinMinimalDenom": "memecore-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:4352/memecore-native.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "M",
+      "coinMinimalDenom": "memecore-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:4352/memecore-native.png"
+    }
+  ],
+  "features": []
+}

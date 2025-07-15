@@ -1,10 +1,10 @@
 {
   "nodeProvider": {
-    "name": "Stake Source",
-    "email": "taariq@stakesource.network"
+    "name": "SecretNodes",
+    "email": "hello@secretnodes.org"
   },
-  "rpc": "https://rpc.pulsar.scrttestnet.com",
-  "rest": "https://api.pulsar.scrttestnet.com",
+  "rpc": "https://pulsar.rpc.secretnodes.com",
+  "rest": "https://pulsar.lcd.secretnodes.com",
   "chainId": "pulsar-3",
   "chainName": "Secret Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pulsar/chain.png",

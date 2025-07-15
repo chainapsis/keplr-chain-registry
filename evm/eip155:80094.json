@@ -24,7 +24,57 @@
       "coinDenom": "HONEY",
       "coinMinimalDenom": "erc20:0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80094/erc20/0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80094/erc20/0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce.png",
+      "coinGeckoId": "honey-3"
+    },
+    {
+      "coinDenom": "WBERA",
+      "coinMinimalDenom": "erc20:0x6969696969696969696969696969696969696969",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80094/erc20/0x6969696969696969696969696969696969696969.png",
+      "coinGeckoId": "wrapped-bera"
+    },
+    {
+      "coinDenom": "USDC.e",
+      "coinMinimalDenom": "erc20:0x549943e04f40284185054145c6e4e9568c1d3241",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80094/erc20/0x549943e04f40284185054145c6e4e9568c1d3241.png",
+      "coinGeckoId": "stargate-bridged-usdc-berachain"
+    },
+    {
+      "coinDenom": "HENLO",
+      "coinMinimalDenom": "erc20:0xb2f776e9c1c926c4b2e54182fac058da9af0b6a5",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80094/erc20/0xb2f776e9c1c926c4b2e54182fac058da9af0b6a5.png",
+      "coinGeckoId": "henlo-3"
+    },
+    {
+      "coinDenom": "WBTC",
+      "coinMinimalDenom": "erc20:0x0555e30da8f98308edb960aa94c0db47230d2b9c",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80094/erc20/0x0555e30da8f98308edb960aa94c0db47230d2b9c.png",
+      "coinGeckoId": "berachain-bridged-wbtc-berachain"
+    },
+    {
+      "coinDenom": "USDT0",
+      "coinMinimalDenom": "erc20:0x779ded0c9e1022225f8e0630b35a9b54be713736",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80094/erc20/0x779ded0c9e1022225f8e0630b35a9b54be713736.png",
+      "coinGeckoId": "usdt0"
+    },
+    {
+      "coinDenom": "iBGT",
+      "coinMinimalDenom": "erc20:0xac03caba51e17c86c921e1f6cbfbdc91f8bb2e6b",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80094/erc20/0xac03caba51e17c86c921e1f6cbfbdc91f8bb2e6b.png",
+      "coinGeckoId": "infrafred-bgt"
+    },
+    {
+      "coinDenom": "iBERA",
+      "coinMinimalDenom": "erc20:0x9b6761bf2397bb5a6624a856cc84a3a14dcd3fe5",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80094/erc20/0x9b6761bf2397bb5a6624a856cc84a3a14dcd3fe5.png",
+      "coinGeckoId": "infrared-bera"
     }
   ],
   "feeCurrencies": [
@@ -32,7 +82,8 @@
       "coinDenom": "BERA",
       "coinMinimalDenom": "berachain-native",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80094/berachain-native.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80094/berachain-native.png",
+      "coinGeckoId": "berachain-bera"
     }
   ],
   "features": []

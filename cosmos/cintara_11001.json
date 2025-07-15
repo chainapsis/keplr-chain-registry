@@ -1,0 +1,56 @@
+{
+    "rpc": "https://tendermint.testnet.cintara.io/",
+    "rest": "https://swagger.testnet.cintara.io/",
+    "chainId": "cintara_11001-1",
+    "chainName": "Cintara-Testnet",
+    "evm": {
+      "chainId": 11001,
+      "rpc": "https://rpc.testnet.cintara.io"
+    },
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cintara_11001/chain.png",
+    "stakeCurrency": {
+      "coinDenom": "CINT",
+      "coinMinimalDenom": "cint",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cintara_11001/cint.png"
+    },
+    "nodeProvider":{
+      "name":"Cintara",
+      "email":"contact@cintara.io",
+      "website":"https://www.cintara.io/"
+    },
+    "bip44": {
+      "coinType": 60
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "cintara",
+      "bech32PrefixAccPub": "cintarapub",
+      "bech32PrefixValAddr": "cintaravaloper",
+      "bech32PrefixValPub": "cintaravaloperpub",
+      "bech32PrefixConsAddr": "cintaravalcons",
+      "bech32PrefixConsPub": "cintaravalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "CINT",
+        "coinMinimalDenom": "cint",
+        "coinDecimals": 18,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cintara_11001/cint.png"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "CINT",
+        "coinMinimalDenom": "cint",
+        "coinDecimals": 18,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cintara_11001/cint.png",
+        "gasPriceStep": {
+          "low": 80000000000,
+          "average": 80000000000,
+          "high": 80000000000
+        }
+      }
+    ],
+    "features": ["eth-address-gen", "eth-key-sign"]
+  }
+  

@@ -3,6 +3,7 @@
   "rest": "https://lcd-columbus.keplr.app",
   "chainId": "columbus-5",
   "chainName": "Terra Classic",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/terra-classic",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/chain.png",
   "stakeCurrency": {
     "coinDenom": "LUNC",

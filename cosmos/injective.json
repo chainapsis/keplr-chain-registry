@@ -3,6 +3,7 @@
   "rest": "https://lcd-injective.keplr.app",
   "chainId": "injective-1",
   "chainName": "Injective",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/injective",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/inj.png",
   "bech32Config": {
     "bech32PrefixAccPub": "injpub",
@@ -118,6 +119,7 @@
     {
       "coinDenom": "NEPT",
       "coinMinimalDenom": "factory/inj1v3a4zznudwpukpr8y987pu5gnh4xuf7v36jhva/nept",
+      "coinGeckoId": "neptune-2",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1v3a4zznudwpukpr8y987pu5gnh4xuf7v36jhva/nept.png"
     },
@@ -144,8 +146,8 @@
       "coinMinimalDenom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/INC",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/inc.png"
-     },
-     {
+    },
+    {
       "coinDenom": "nUSDT",
       "coinMinimalDenom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1cy9hes20vww2yr6crvs75gxy5hpycya2hmjg9s",
       "coinDecimals": 6,
@@ -162,6 +164,18 @@
       "coinMinimalDenom": "factory/inj1llr45x92t7jrqtxvc02gpkcqhqr82dvyzkr4mz/NBZ",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1llr45x92t7jrqtxvc02gpkcqhqr82dvyzkr4mz/nbz.png"
+    },
+    {
+      "coinDenom": "JNI",
+      "coinMinimalDenom": "factory/inj1fefpnm6pklz3av6zzjmr5z070779a9m4sx384v/jni",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1fefpnm6pklz3av6zzjmr5z070779a9m4sx384v/jni.png"
+    },
+    {
+      "coinDenom": "ARST",
+      "coinMinimalDenom": "factory/inj1aegme2dcy3dvk0v22wxdgd9609shyy2pgyh2kk/arst",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1aegme2dcy3dvk0v22wxdgd9609shyy2pgyh2kk/arst.png"
     }
   ],
   "feeCurrencies": [
@@ -178,9 +192,5 @@
       }
     }
   ],
-  "features": [
-    "eth-address-gen",
-    "eth-key-sign",
-    "cosmwasm"
-  ]
+  "features": ["eth-address-gen", "eth-key-sign", "cosmwasm"]
 }

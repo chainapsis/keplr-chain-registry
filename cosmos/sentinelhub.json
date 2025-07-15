@@ -5,7 +5,7 @@
   "chainName": "Sentinel",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sentinelhub/chain.png",
   "stakeCurrency": {
-    "coinDenom": "DVPN",
+    "coinDenom": "P2P",
     "coinMinimalDenom": "udvpn",
     "coinDecimals": 6,
     "coinGeckoId": "sentinel",
@@ -26,7 +26,7 @@
   },
   "currencies": [
     {
-      "coinDenom": "DVPN",
+      "coinDenom": "P2P",
       "coinMinimalDenom": "udvpn",
       "coinDecimals": 6,
       "coinGeckoId": "sentinel",
@@ -35,7 +35,7 @@
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "DVPN",
+      "coinDenom": "P2P",
       "coinMinimalDenom": "udvpn",
       "coinDecimals": 6,
       "coinGeckoId": "sentinel",

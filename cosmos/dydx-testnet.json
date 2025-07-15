@@ -1,6 +1,6 @@
 {
-  "rpc": "https://rpc-dydx-testnet.keplr.app",
-  "rest": "https://lcd-dydx-testnet.keplr.app",
+  "rpc": "https://test-dydx-rpc.kingnodes.com",
+  "rest": "https://test-dydx-rest.kingnodes.com",
   "chainId": "dydx-testnet-4",
   "chainName": "dydx Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dydx-testnet/chain.png",
