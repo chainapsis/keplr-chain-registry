@@ -3,7 +3,7 @@
   "rest": "https://emoney.validator.network/api",
   "nodeProvider": {
     "name": "Validator Network",
-    "email": "contact@validator.network",
+    "email": "contact@validator.network"
   },
   "chainId": "emoney-3",
   "chainName": "e-Money",
