@@ -5,7 +5,7 @@
   "rpc": "https://rpc.taketitan.com",
   "rest": "https://lcd.taketitan.com",
   "nodeProvider": {
-    "name": "Blockapsis",
+    "name": "TakeTitan",
     "email": "hello@taketitan.com",
     "website": "https://taketitan.com/"
   },
