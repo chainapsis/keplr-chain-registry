@@ -75,6 +75,16 @@
            "average": 0.025,
            "high": 0.03
         }
+     },
+     {
+        "coinDenom": "KUSD",
+        "coinMinimalDenom": "ukusd",
+        "coinDecimals": 6,
+        "gasPriceStep": {
+           "low": 0.01,
+           "average": 0.025,
+           "high": 0.03
+        }
      }
   ],
   "stakeCurrency": {

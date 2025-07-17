@@ -47,5 +47,6 @@
     "coinDecimals": 18,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/seda-1-testnet/chain.png"
   },
-  "features": ["cosmwasm"]
+  "features": ["cosmwasm"],
+  "isTestnet": true
 }

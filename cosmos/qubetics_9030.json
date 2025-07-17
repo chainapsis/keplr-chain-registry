@@ -12,6 +12,7 @@
       "coinDenom": "TICS",
       "coinMinimalDenom": "tics",
       "coinDecimals": 18,
+      "coinGeckoId": "qubetics",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qubetics_9030/tics.png"
     },
     "nodeProvider":{
@@ -35,6 +36,7 @@
         "coinDenom": "TICS",
         "coinMinimalDenom": "tics",
         "coinDecimals": 18,
+        "coinGeckoId": "qubetics",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qubetics_9030/tics.png"
       }
     ],
@@ -43,6 +45,7 @@
         "coinDenom": "TICS",
         "coinMinimalDenom": "tics",
         "coinDecimals": 18,
+        "coinGeckoId": "qubetics",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qubetics_9030/tics.png",
         "gasPriceStep": {
           "low": 80000000000,

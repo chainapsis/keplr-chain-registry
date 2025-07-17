@@ -1,0 +1,40 @@
+{
+  "rpc": "https://evm.dukong.mantrachain.io",
+  "nodeProvider": {
+    "name": "MANTRA Chain Association",
+    "email": "security@mantrachain.io",
+    "website": "https://mantrachain.io"
+  },
+  "chainId": "eip155:5887",
+  "chainName": "MANTRA Dukong EVM",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5887/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "stakeCurrency": {
+    "coinDenom": "OM",
+    "coinMinimalDenom": "aom",
+    "coinDecimals": 18,
+    "coinGeckoId": "mantra-dao",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5887/om.png"
+  },
+  "currencies": [
+    {
+      "coinDenom": "OM",
+      "coinMinimalDenom": "aom",
+      "coinDecimals": 18,
+      "coinGeckoId": "mantra-dao",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5887/om.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "OM",
+      "coinMinimalDenom": "aom",
+      "coinDecimals": 18,
+      "coinGeckoId": "mantra-dao",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5887/om.png"
+    }
+  ],
+  "features": []
+}
