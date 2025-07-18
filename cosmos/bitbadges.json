@@ -25,8 +25,7 @@
     "coinDenom": "BADGE",
     "coinMinimalDenom": "ubadge",
     "coinDecimals": 9,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/badge_logo.png",
-    "icon": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/badge_logo.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/badge_logo.png"
   },
   "currencies": [
     {
