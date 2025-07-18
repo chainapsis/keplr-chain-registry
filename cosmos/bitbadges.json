@@ -4,7 +4,6 @@
   "chainId": "bitbadges-1",
   "chainName": "BitBadges",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/bitbadgeslogo.png",
-  "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/badge_logo.png",
   "walletUrlForStaking": "https://testnet.keplr.app/chains/bitbadges",
   "nodeProvider": {
     "name": "BitBadges",
@@ -34,8 +33,7 @@
       "coinDenom": "BADGE",
       "coinMinimalDenom": "ubadge",
       "coinDecimals": 9,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/badge_logo.png",
-      "icon": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/badge_logo.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/badge_logo.png"
     }
   ],
   "feeCurrencies": [
@@ -48,8 +46,7 @@
         "average": 0.000000000001,
         "high": 0.000000000001
       },
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/badge_logo.png",
-      "icon": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/badge_logo.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/badge_logo.png"
     }
   ],
   "features": []
