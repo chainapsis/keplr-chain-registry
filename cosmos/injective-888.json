@@ -68,5 +68,6 @@
     "eth-address-gen",
     "eth-key-sign",
     "cosmwasm"
-  ]
+  ],
+  "isTestnet": true
 }

@@ -51,5 +51,6 @@
     "email": "contact@xpla.io",
     "website": "https://xpla.io"
   },
-  "features": ["eth-address-gen", "eth-key-sign", "cosmwasm"]
+  "features": ["eth-address-gen", "eth-key-sign", "cosmwasm"],
+  "isTestnet": true
 }

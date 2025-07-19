@@ -46,5 +46,6 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:11155111/ethereum-sepolia-native.png"
     }
   ],
-  "features": []
+  "features": [],
+  "isTestnet": true
 }
