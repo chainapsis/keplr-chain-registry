@@ -9,7 +9,8 @@
     "coinDenom": "PRYZM",
     "coinMinimalDenom": "upryzm",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pryzm/upryzm.png",
-    "coinDecimals": 6
+    "coinDecimals": 6,
+    "coinGeckoId": "pryzm"
   },
   "bip44": {
     "coinType": 118
@@ -27,7 +28,8 @@
       "coinDenom": "PRYZM",
       "coinMinimalDenom": "upryzm",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pryzm/upryzm.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pryzm/upryzm.png",
+      "coinGeckoId": "pryzm"
     },
     {
       "coinDenom": "AUUU",
@@ -157,6 +159,7 @@
       "coinDenom": "PRYZM",
       "coinMinimalDenom": "upryzm",
       "coinDecimals": 6,
+      "coinGeckoId": "pryzm",
       "gasPriceStep": {
         "low": 0.02,
         "average": 0.03,
