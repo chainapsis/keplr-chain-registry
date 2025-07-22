@@ -42,9 +42,9 @@
       "coinMinimalDenom": "factory/pryzm1jnhcsa5ddjsjq2t97v6a82z542rduxvtw6wd9h/uauuu",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.01,
-        "average": 0.015,
-        "high": 0.02
+        "low": 0.1,
+        "average": 0.15,
+        "high": 0.2
       }
     },
     {
@@ -151,6 +151,16 @@
         "low": 0.0025,
         "average": 0.003,
         "high": 0.004
+      }
+    },
+    { 
+      "coinDenom": "PRYZM",
+      "coinMinimalDenom": "upryzm",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.02,
+        "average": 0.03,
+        "high": 0.04
       }
     }
   ],
