@@ -48,7 +48,7 @@
       "coinDenom": "RJI",
       "coinMinimalDenom": "x/nami-index-fixed-thor1yqf5spdv8c4088zmvqsg32eq63fzepsjvntahdk0ek0yjnkt3qdqftp3lc-rcpt",
       "coinDecimals": 8,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/rji.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/x/nami-index-fixed-thor1yqf5spdv8c4088zmvqsg32eq63fzepsjvntahdk0ek0yjnkt3qdqftp3lc-rcpt.png"
     },
     {
       "coinDenom": "LQDY",
