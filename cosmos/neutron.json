@@ -192,6 +192,12 @@
       "coinMinimalDenom": "factory/neutron16ue9kysgneyqktmjxdfshajgvlrcx9rehxz8x9th7g8fgtnlxwuqvg9mgp/bglUSDC",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron16ue9kysgneyqktmjxdfshajgvlrcx9rehxz8x9th7g8fgtnlxwuqvg9mgp/bglUSDC.png"
+    },
+    {
+      "coinDenom": "TAB",
+      "coinMinimalDenom": "factory/neutron1r5qx58l3xx2y8gzjtkqjndjgx69mktmapl45vns0pa73z0zpn7fqgltnll/TAB",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron1r5qx58l3xx2y8gzjtkqjndjgx69mktmapl45vns0pa73z0zpn7fqgltnll/TAB.png"
     }
   ],
   "feeCurrencies": [

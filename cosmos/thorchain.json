@@ -45,6 +45,12 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/nami.png"
     },
     {
+      "coinDenom": "RJI",
+      "coinMinimalDenom": "x/nami-index-fixed-thor1yqf5spdv8c4088zmvqsg32eq63fzepsjvntahdk0ek0yjnkt3qdqftp3lc-rcpt",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/x/nami-index-fixed-thor1yqf5spdv8c4088zmvqsg32eq63fzepsjvntahdk0ek0yjnkt3qdqftp3lc-rcpt.png"
+    },
+    {
       "coinDenom": "LQDY",
       "coinMinimalDenom": "thor.lqdy",
       "coinDecimals": 8,
@@ -56,6 +62,12 @@
       "coinMinimalDenom": "thor.auto",
       "coinDecimals": 8,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/auto.png"
+    },
+    {
+      "coinDenom": "sNAMI",
+      "coinMinimalDenom": "x/staking-thor.nami",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/x/staking-thor.nami.png"
     }
   ],
   "feeCurrencies": [

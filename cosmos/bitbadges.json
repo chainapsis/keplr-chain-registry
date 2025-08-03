@@ -1,6 +1,6 @@
 {
-  "rpc": "https://node.bitbadges.io/rpc",
-  "rest": "https://node.bitbadges.io/api",
+  "rpc": "https://rpc.bitbadges.io",
+  "rest": "https://lcd.bitbadges.io",
   "chainId": "bitbadges-1",
   "chainName": "BitBadges",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/bitbadgeslogo.png",
@@ -22,23 +22,17 @@
     "bech32PrefixConsPub": "bbvalconspub"
   },
   "stakeCurrency": {
+    "coinDenom": "BADGE",
+    "coinMinimalDenom": "ubadge",
     "coinDecimals": 9,
-    "coinDenom": "STAKE",
-    "coinMinimalDenom": "ustake",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/bitbadgeslogo.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/badge_logo.png"
   },
   "currencies": [
     {
-      "coinDecimals": 9,
       "coinDenom": "BADGE",
       "coinMinimalDenom": "ubadge",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/bitbadgeslogo.png"
-    },
-    {
       "coinDecimals": 9,
-      "coinDenom": "STAKE",
-      "coinMinimalDenom": "ustake",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/bitbadgeslogo.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/badge_logo.png"
     }
   ],
   "feeCurrencies": [
@@ -46,12 +40,12 @@
       "coinDenom": "BADGE",
       "coinMinimalDenom": "ubadge",
       "coinDecimals": 9,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/bitbadgeslogo.png",
       "gasPriceStep": {
-        "low": 0.15,
-        "average": 0.3,
-        "high": 1
-      }
+        "low": 0.000000000001,
+        "average": 0.000000000001,
+        "high": 0.000000000001
+      },
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/badge_logo.png"
     }
   ],
   "features": []
