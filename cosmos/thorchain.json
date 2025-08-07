@@ -34,7 +34,6 @@
       "coinDenom": "sTCY",
       "coinMinimalDenom": "x/staking-tcy",
       "coinDecimals": 8,
-      "coinGeckoId": "stcy",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/stcy.png"
     },
     {
