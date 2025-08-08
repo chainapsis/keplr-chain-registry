@@ -1,6 +1,11 @@
 {
   "chainId": "thorchain-1",
   "chainName": "THORChain",
+  "nodeProvider": {
+      "name": "Bryanlabs",
+      "website": "https://bryanlabs.net",
+      "email": "hello@bryanlabs.net"
+    },
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/chain.png",
   "rpc": "https://rpc-thorchain.keplr.app",
   "rest": "https://lcd-thorchain.keplr.app",
@@ -29,6 +34,12 @@
       "coinDecimals": 8,
       "coinGeckoId": "tcy",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/tcy.png"
+    },
+    {
+      "coinDenom": "sTCY",
+      "coinMinimalDenom": "x/staking-tcy",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/stcy.png"
     },
     {
       "coinDenom": "RUJI",
