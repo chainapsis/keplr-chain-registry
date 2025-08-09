@@ -37,7 +37,7 @@
       "coinGeckoId": "assetmantle",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantle/chain.png",
       "gasPriceStep": {
-        "low": 0.01,
+        "low": 0,
         "average": 0.025,
         "high": 0.04
       }

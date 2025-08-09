@@ -1,0 +1,52 @@
+{
+  "rpc": "https://rpc.bitbadges.io",
+  "rest": "https://lcd.bitbadges.io",
+  "chainId": "bitbadges-1",
+  "chainName": "BitBadges",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/bitbadgeslogo.png",
+  "walletUrlForStaking": "https://testnet.keplr.app/chains/bitbadges",
+  "nodeProvider": {
+    "name": "BitBadges",
+    "email": "business@bitbadges.io",
+    "website":"https://bitbadges.io"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "bb",
+    "bech32PrefixAccPub": "bbpub",
+    "bech32PrefixValAddr": "bbvaloper",
+    "bech32PrefixValPub": "bbvaloperpub",
+    "bech32PrefixConsAddr": "bbvalcons",
+    "bech32PrefixConsPub": "bbvalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "BADGE",
+    "coinMinimalDenom": "ubadge",
+    "coinDecimals": 9,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/badge_logo.png"
+  },
+  "currencies": [
+    {
+      "coinDenom": "BADGE",
+      "coinMinimalDenom": "ubadge",
+      "coinDecimals": 9,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/badge_logo.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "BADGE",
+      "coinMinimalDenom": "ubadge",
+      "coinDecimals": 9,
+      "gasPriceStep": {
+        "low": 0.000000000001,
+        "average": 0.000000000001,
+        "high": 0.000000000001
+      },
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/badge_logo.png"
+    }
+  ],
+  "features": []
+}

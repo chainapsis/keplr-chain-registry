@@ -4,6 +4,10 @@
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dymension_1100/chain.png",
   "rpc": "https://rpc-dymension.keplr.app",
   "rest": "https://lcd-dymension.keplr.app",
+  "evm": {
+    "chainId": 1100,
+    "rpc": "https://evm-dymension.keplr.app"
+  },
   "currencies": [
     {
       "coinMinimalDenom": "adym",

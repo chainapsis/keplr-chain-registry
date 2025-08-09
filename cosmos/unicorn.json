@@ -1,0 +1,49 @@
+{
+  "chainId": "unicorn-420",
+  "chainName": "Unicorn",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/unicorn/chain.png",
+  "rpc": "https://rpc.unicorn.meme",
+  "rest": "https://rest.unicorn.meme",
+  "nodeProvider": {
+    "name": "Unicorn",
+    "email": "team@unicorn.meme",
+    "website": "https://unicorn.meme"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "unicorn",
+    "bech32PrefixAccPub": "unicornpub",
+    "bech32PrefixValAddr": "unicornvaloper",
+    "bech32PrefixValPub": "unicornvaloperpub",
+    "bech32PrefixConsAddr": "unicornvalcons",
+    "bech32PrefixConsPub": "unicornvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "UWU",
+      "coinMinimalDenom": "uwunicorn",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/unicorn/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "🦄",
+      "coinMinimalDenom": "uwunicorn",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "🦄",
+    "coinMinimalDenom": "uwunicorn",
+    "coinDecimals": 6
+  },
+  "features": ["cosmwasm"]
+}

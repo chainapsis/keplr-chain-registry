@@ -5,9 +5,9 @@
     "rpc": "https://rpc.c4e.io",
     "rest": "https://lcd.c4e.io",
     "nodeProvider": {
-      "name": "Apeiron Nodes",
-      "email": "support@apeironnodes.com",
-      "website":"https://apeironnodes.com"
+      "name": "C4E",
+      "email": "intergation.support@c4e.io",
+      "website":"https://c4e.io"
     },
     "bip44": {
       "coinType": 118
@@ -25,6 +25,7 @@
         "coinDenom": "C4E",
         "coinMinimalDenom": "uc4e",
         "coinDecimals": 6,
+		"coinGeckoId": "chain4energy",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/perun/chain.png"
       }
     ],
@@ -38,6 +39,7 @@
           "average": 0.025,
           "high": 0.03
         },
+		"coinGeckoId": "chain4energy",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/perun/chain.png"
       }
     ],
@@ -45,6 +47,7 @@
       "coinDenom": "C4E",
       "coinMinimalDenom": "uc4e",
       "coinDecimals": 6,
+	  "coinGeckoId": "chain4energy",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/perun/chain.png"
     },
     "features": [

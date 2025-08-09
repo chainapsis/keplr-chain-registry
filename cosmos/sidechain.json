@@ -1,0 +1,70 @@
+{
+  "rpc": "https://rpc.side.one",
+  "rest": "https://rest.side.one",
+  "nodeProvider": {
+    "name": "Side Labs",
+    "email": "contact@side.one",
+    "website": "https://side.one"
+  },
+  "chainId": "sidechain-1",
+  "chainName": "Side Chain",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sidechain/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "SIDE",
+    "coinMinimalDenom": "uside",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sidechain/uside.png"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "side",
+    "bech32PrefixAccPub": "sidepub",
+    "bech32PrefixValAddr": "sidevaloper",
+    "bech32PrefixValPub": "sidevaloperpub",
+    "bech32PrefixConsAddr": "sidevalcons",
+    "bech32PrefixConsPub": "sidevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "SIDE",
+      "coinMinimalDenom": "uside",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sidechain/uside.png"
+    },
+    {
+      "coinDenom": "sBTC",
+      "coinMinimalDenom": "sat",
+      "coinDecimals": 8,
+      "coinGeckoId": "bitcoin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sidechain/sat.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "SIDE",
+      "coinMinimalDenom": "uside",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sidechain/uside.png",
+      "gasPriceStep": {
+        "low": 0.0006,
+        "average": 0.0008,
+        "high": 0.001
+      }
+    },
+    {
+      "coinDenom": "sBTC",
+      "coinMinimalDenom": "sat",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sidechain/sat.png",
+      "gasPriceStep": {
+        "low": 0.000001,
+        "average": 0.0000015,
+        "high": 0.000002
+      },
+      "coinGeckoId": "bitcoin"
+    }
+  ],
+  "features": ["cosmwasm"]
+}

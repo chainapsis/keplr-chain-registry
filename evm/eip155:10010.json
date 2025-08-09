@@ -1,0 +1,31 @@
+{
+  "rpc": "https://evm.chiado.wardenprotocol.org",
+  "chainId": "eip155:10010",
+  "chainName": "Warden Protocol Chiado",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:10010/chain.png",
+  "nodeProvider": {
+    "name": "Warden Labs",
+    "discord": "https://discord.gg/wardenprotocol",
+    "website": "https://wardenprotocol.org"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "WARD",
+      "coinMinimalDenom": "award",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:10010/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "WARD",
+      "coinMinimalDenom": "award",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:10010/chain.png"
+    }
+  ],
+  "features": []
+}

@@ -1,0 +1,52 @@
+{
+  "chainId": "taketitan-1",
+  "chainName": "TakeTitan",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/taketitan/chain.png",
+  "rpc": "https://rpc.taketitan.com",
+  "rest": "https://lcd.taketitan.com",
+  "nodeProvider": {
+    "name": "TakeTitan",
+    "email": "hello@taketitan.com",
+    "website": "https://taketitan.com/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "titan",
+    "bech32PrefixAccPub": "titanpub",
+    "bech32PrefixValAddr": "titanvaloper",
+    "bech32PrefixValPub": "titanvaloperpub",
+    "bech32PrefixConsAddr": "titanvalcons",
+    "bech32PrefixConsPub": "titanvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "TITAN",
+      "coinMinimalDenom": "utitan",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/taketitan/utitan.png",
+      "coinGeckoId": "titan"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "TITAN",
+      "coinMinimalDenom": "utitan",
+      "coinDecimals": 6,
+      "coinGeckoId": "titan",
+      "gasPriceStep": {
+        "low": 0.025,
+        "average": 0.03,
+        "high": 0.035
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "TITAN",
+    "coinMinimalDenom": "utitan",
+    "coinDecimals": 6,
+    "coinGeckoId": "titan"
+  },
+  "features": [ ]
+}

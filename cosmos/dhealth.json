@@ -12,6 +12,11 @@
   "bip44": {
     "coinType": 10111
   },
+  "alternativeBIP44s": [
+    {
+      "coinType": 118
+    }
+  ],
   "bech32Config": {
     "bech32PrefixAccAddr": "dh",
     "bech32PrefixAccPub": "dhpub",

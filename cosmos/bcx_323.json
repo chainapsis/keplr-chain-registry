@@ -1,0 +1,52 @@
+{
+  "rpc": "https://endpoint.buycex.net",
+  "rest": "https://api.buycex.net",
+  "chainId": "bcx_323-1",
+  "chainName": "BuyCex Infinity Chain",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bcx_323/chain.png",
+  "nodeProvider": {
+    "name": "BuyCex Infinity",
+    "email": "admin@buycex.com",
+    "website": "https://infinity.buycex.com"
+  },
+  "stakeCurrency": {
+    "coinDenom": "BCX",
+    "coinMinimalDenom": "ubcx",
+    "coinDecimals": 18,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bcx_323/ubcx.png"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "bcx",
+    "bech32PrefixAccPub": "bcxpub",
+    "bech32PrefixValAddr": "bcxvaloper",
+    "bech32PrefixValPub": "bcxvaloperpub",
+    "bech32PrefixConsAddr": "bcxvalcons",
+    "bech32PrefixConsPub": "bcxvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "BCX",
+      "coinMinimalDenom": "ubcx",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bcx_323/ubcx.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "BCX",
+      "coinMinimalDenom": "ubcx",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bcx_323/ubcx.png",
+      "gasPriceStep": {
+        "low": 80000000000,
+        "average": 80000000000,
+        "high": 80000000000
+      }
+    }
+  ],
+  "features": ["eth-address-gen", "eth-key-sign"]
+}
+

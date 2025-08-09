@@ -1,0 +1,101 @@
+{
+  "chainId": "thorchain-1",
+  "chainName": "THORChain",
+  "nodeProvider": {
+      "name": "Bryanlabs",
+      "website": "https://bryanlabs.net",
+      "email": "hello@bryanlabs.net"
+    },
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/chain.png",
+  "rpc": "https://rpc-thorchain.keplr.app",
+  "rest": "https://lcd-thorchain.keplr.app",
+  "bip44": {
+    "coinType": 931
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "thor",
+    "bech32PrefixAccPub": "thorpub",
+    "bech32PrefixValAddr": "thorvaloper",
+    "bech32PrefixValPub": "thorvaloperpub",
+    "bech32PrefixConsAddr": "thorvalcons",
+    "bech32PrefixConsPub": "thorvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "RUNE",
+      "coinMinimalDenom": "rune",
+      "coinDecimals": 8,
+      "coinGeckoId": "thorchain",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/rune.png"
+    },
+    {
+      "coinDenom": "TCY",
+      "coinMinimalDenom": "tcy",
+      "coinDecimals": 8,
+      "coinGeckoId": "tcy",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/tcy.png"
+    },
+    {
+      "coinDenom": "sTCY",
+      "coinMinimalDenom": "x/staking-tcy",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/stcy.png"
+    },
+    {
+      "coinDenom": "RUJI",
+      "coinMinimalDenom": "x/ruji",
+      "coinDecimals": 8,
+      "coinGeckoId": "rujira",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/ruji.png"
+    },
+    {
+      "coinDenom": "NAMI",
+      "coinMinimalDenom": "thor.nami",
+      "coinDecimals": 8,
+      "coinGeckoId": "nami-protocol",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/nami.png"
+    },
+    {
+      "coinDenom": "RJI",
+      "coinMinimalDenom": "x/nami-index-fixed-thor1yqf5spdv8c4088zmvqsg32eq63fzepsjvntahdk0ek0yjnkt3qdqftp3lc-rcpt",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/x/nami-index-fixed-thor1yqf5spdv8c4088zmvqsg32eq63fzepsjvntahdk0ek0yjnkt3qdqftp3lc-rcpt.png"
+    },
+    {
+      "coinDenom": "LQDY",
+      "coinMinimalDenom": "thor.lqdy",
+      "coinDecimals": 8,
+      "coinGeckoId": "mantadao",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/lqdy.png"
+    },
+    {
+      "coinDenom": "AUTO",
+      "coinMinimalDenom": "thor.auto",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/auto.png"
+    },
+    {
+      "coinDenom": "sNAMI",
+      "coinMinimalDenom": "x/staking-thor.nami",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/x/staking-thor.nami.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "RUNE",
+      "coinMinimalDenom": "rune",
+      "coinDecimals": 8,
+      "coinGeckoId": "thorchain",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/rune.png",
+      "gasPriceStep": {
+        "low": 0.02,
+        "average": 0.02,
+        "high": 0.03
+      }
+    }
+  ],
+  "features": [
+    "cosmwasm"
+  ]
+}

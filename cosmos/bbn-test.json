@@ -1,13 +1,13 @@
 {
-  "chainId": "bbn-test-3",
-  "chainName": "Babylon Testnet",
+  "chainId": "bbn-test-5",
+  "chainName": "Babylon Phase-2 Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/chain.png",
-  "rpc": "https://rpc.testnet3.babylonchain.io",
-  "rest": "https://lcd.testnet3.babylonchain.io",
+  "rpc": "https://babylon-testnet-rpc.nodes.guru",
+  "rest": "https://babylon-testnet-api.nodes.guru",
   "nodeProvider": {
-    "name": "Babylonchain",
-    "email": "contact@babylonchain.io",
-    "website": "https://babylonchain.io/"
+    "name": "NodesGuru",
+    "email": "security@nodes.guru",
+    "website": "https://nodes.guru/"
   },
   "bip44": {
     "coinType": 118
@@ -22,15 +22,33 @@
   },
   "currencies": [
     {
-      "coinDenom": "BBN",
+      "coinDenom": "tBABY",
       "coinMinimalDenom": "ubbn",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/chain.png"
+    },
+    {
+      "coinDenom": "eBABY",
+      "coinMinimalDenom": "ebbn",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/eBABY.png"
+    },
+    {
+      "coinDenom": "LBTC",
+      "coinMinimalDenom": "ibc/13A78C8607F1ABD49DA5EC474262E3D69312A797FB0026BC4F9961D74EB6E066",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/LBTC.png"
+    },
+    {
+      "coinDenom": "tcBABY",
+      "coinMinimalDenom": "cbbn",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/tcBABY.png"
     }
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "BBN",
+      "coinDenom": "tBABY",
       "coinMinimalDenom": "ubbn",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/chain.png",
@@ -42,10 +60,11 @@
     }
   ],
   "stakeCurrency": {
-    "coinDenom": "BBN",
+    "coinDenom": "tBABY",
     "coinMinimalDenom": "ubbn",
     "coinDecimals": 6,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/chain.png"
   },
-  "features": ["cosmwasm"]
+  "features": ["cosmwasm"],
+  "isTestnet": true
 }

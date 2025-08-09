@@ -27,6 +27,62 @@
       "coinDecimals": 18,
       "coinGeckoId": "tokenize-xchange",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18888/tkx.png"
+    },
+    {
+      "coinDenom": "BTC",
+      "coinMinimalDenom": "factory/titan1eyfccmjm6732k7wp4p6gdjwhxjwsvje44j0hfx8nkgrm8fs7vqfsalaj2e/wbtc",
+      "coinDecimals": 8,
+      "coinGeckoId": "bitcoin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18888/factory/titan1eyfccmjm6732k7wp4p6gdjwhxjwsvje44j0hfx8nkgrm8fs7vqfsalaj2e/btc.png"
+    },
+    {
+      "coinDenom": "ETH",
+      "coinMinimalDenom": "factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/eth",
+      "coinDecimals": 18,
+      "coinGeckoId": "ethereum",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18888/factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/eth.png"
+    },
+    {
+      "coinDenom": "USDT",
+      "coinMinimalDenom": "factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/usdt",
+      "coinDecimals": 6,
+      "coinGeckoId": "tether",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18888/factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/usdt.png"
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/usdc",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18888/factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/usdc.png"
+    },
+    {
+      "coinDenom": "SOL",
+      "coinMinimalDenom": "factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/sol",
+      "coinDecimals": 9,
+      "coinGeckoId": "solana",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18888/factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/sol.png"
+    },
+    {
+      "coinDenom": "MEOW",
+      "coinMinimalDenom": "factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/meow",
+      "coinDecimals": 8,
+      "coinGeckoId": "meow",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18888/factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/meow.png"
+    },
+    {
+      "coinDenom": "ORACLER",
+      "coinMinimalDenom": "factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/oracler",
+      "coinDecimals": 6,
+      "coinGeckoId": "oracler-ai",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18888/factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/oracler.png"
+    },
+    {
+      "coinDenom": "MONKEYS",
+      "coinMinimalDenom": "factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/monkeys",
+      "coinDecimals": 6,
+      "coinGeckoId": "monkeys-2",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/titan_18888/factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/monkeys.png"
     }
   ],
   "feeCurrencies": [
@@ -37,7 +93,7 @@
       "coinGeckoId": "tokenize-xchange",
       "gasPriceStep": {
         "low": 100000000000,
-        "average": 110000000000,
+        "average": 101000000000,
         "high": 200000000000
       }
     }
