@@ -2,12 +2,12 @@
   "chainId": "bbn-test-5",
   "chainName": "Babylon Phase-2 Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/chain.png",
-  "rpc": "https://babylon-testnet-rpc.nodes.guru",
-  "rest": "https://babylon-testnet-api.nodes.guru",
+  "rpc": "https://rpc-babylon-testnet-5.keplr.app",
+  "rest": "https://lcd-babylon-testnet-5.keplr.app",
   "nodeProvider": {
-    "name": "NodesGuru",
-    "email": "security@nodes.guru",
-    "website": "https://nodes.guru/"
+    "name": "Keplr",
+    "email": "devops@keplr.app",
+    "website": "https://infra.keplr.app"
   },
   "bip44": {
     "coinType": 118
