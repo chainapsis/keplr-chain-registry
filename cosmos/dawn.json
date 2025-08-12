@@ -4,7 +4,7 @@
   "nodeProvider": {
     "name": "Sunrise",
     "email": "info@sunriselayer.io",
-    "website":"https://sunriselayer.io"
+    "website": "https://sunriselayer.io"
   },
   "chainId": "dawn-1",
   "chainName": "Sunrise Testnet",
@@ -61,5 +61,6 @@
   ],
   "features": [
     "cosmwasm"
-  ]
+  ],
+  "isTestnet": true
 }
