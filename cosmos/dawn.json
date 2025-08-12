@@ -1,7 +1,6 @@
 {
   "rpc": "https://sunrise-dawn-1.cauchye.com",
   "rest": "https://sunrise-dawn-1.cauchye.com:1318",
-  "websocket": "ws://sunrise-dawn-1.cauchye.com:26657/websocket",
   "nodeProvider": {
     "name": "Sunrise",
     "email": "info@sunriselayer.io",

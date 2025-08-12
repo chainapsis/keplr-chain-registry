@@ -1,7 +1,6 @@
 {
   "rpc": "https://a.consensus.sunrise-1.sunriselayer.io",
   "rest": "https://a.consensus.sunrise-1.sunriselayer.io:1318",
-  "websocket": "ws://a.consensus.sunrise-1.sunriselayer.io:26657/websocket",
   "nodeProvider": {
     "name": "Sunrise",
     "email": "info@sunriselayer.io",
