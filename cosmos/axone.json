@@ -1,0 +1,53 @@
+{
+  "chainId": "axone-1",
+  "chainName": "Axone",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axone/chain.png",
+  "rpc": "https://axone-rpc.highstakes.ch/",
+  "rest": "https://axone-api.highstakes.ch/",
+  "nodeProvider": {
+    "name": "High Stakes Switzerland",
+    "email": "contact@highstakes.ch",
+    "website": "https://highstakes.ch"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "axone",
+    "bech32PrefixAccPub": "axonepub",
+    "bech32PrefixValAddr": "axonevaloper",
+    "bech32PrefixValPub": "axonevaloperpub",
+    "bech32PrefixConsAddr": "axonevalcons",
+    "bech32PrefixConsPub": "axonevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "AXONE",
+      "coinMinimalDenom": "uaxone",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axone/uaxone.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "AXONE",
+      "coinMinimalDenom": "uaxone",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axone/uaxone.png",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.03
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "AXONE",
+    "coinMinimalDenom": "uaxone",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axone/uaxone.png"
+  },
+  "features": [
+    "cosmwasm"
+  ]
+}

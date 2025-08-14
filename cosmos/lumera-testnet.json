@@ -1,7 +1,7 @@
 {
   "rpc": "https://rpc.testnet.lumera.io",
   "rest": "https://lcd.testnet.lumera.io",
-  "chainId": "lumera-testnet-1",
+  "chainId": "lumera-testnet-2",
   "chainName": "Lumera Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lumera-testnet/chain.png",
   "stakeCurrency": {
@@ -49,5 +49,6 @@
     "name": "Lumera Protocol",
     "email": "security@lumera.io",
     "website": "https://lumera.io"
-  }
+  },
+  "isTestnet": true
 }

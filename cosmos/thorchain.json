@@ -1,6 +1,11 @@
 {
   "chainId": "thorchain-1",
   "chainName": "THORChain",
+  "nodeProvider": {
+      "name": "Bryanlabs",
+      "website": "https://bryanlabs.net",
+      "email": "hello@bryanlabs.net"
+    },
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/chain.png",
   "rpc": "https://rpc-thorchain.keplr.app",
   "rest": "https://lcd-thorchain.keplr.app",
@@ -31,6 +36,12 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/tcy.png"
     },
     {
+      "coinDenom": "sTCY",
+      "coinMinimalDenom": "x/staking-tcy",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/stcy.png"
+    },
+    {
       "coinDenom": "RUJI",
       "coinMinimalDenom": "x/ruji",
       "coinDecimals": 8,
@@ -45,6 +56,12 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/nami.png"
     },
     {
+      "coinDenom": "RJI",
+      "coinMinimalDenom": "x/nami-index-fixed-thor1yqf5spdv8c4088zmvqsg32eq63fzepsjvntahdk0ek0yjnkt3qdqftp3lc-rcpt",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/x/nami-index-fixed-thor1yqf5spdv8c4088zmvqsg32eq63fzepsjvntahdk0ek0yjnkt3qdqftp3lc-rcpt.png"
+    },
+    {
       "coinDenom": "LQDY",
       "coinMinimalDenom": "thor.lqdy",
       "coinDecimals": 8,
@@ -56,6 +73,136 @@
       "coinMinimalDenom": "thor.auto",
       "coinDecimals": 8,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/auto.png"
+    },
+    {
+      "coinDenom": "sNAMI",
+      "coinMinimalDenom": "x/staking-thor.nami",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/x/staking-thor.nami.png"
+    },
+    {
+      "coinDenom": "yTCY",
+      "coinMinimalDenom": "x/nami-index-nav-thor1h0hr0rm3dawkedh44hlrmgvya6plsryehcr46yda2vj0wfwgq5xqrs86px-rcpt",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/x/nami-index-nav-thor1h0hr0rm3dawkedh44hlrmgvya6plsryehcr46yda2vj0wfwgq5xqrs86px-rcpt.png"
+    },
+    {
+      "coinDenom": "yRUNE",
+      "coinMinimalDenom": "x/nami-index-nav-thor1mlphkryw5g54yfkrp6xpqzlpv4f8wh6hyw27yyg4z2els8a9gxpqhfhekt-rcpt",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/x/nami-index-nav-thor1mlphkryw5g54yfkrp6xpqzlpv4f8wh6hyw27yyg4z2els8a9gxpqhfhekt-rcpt.png"
+    },
+    {
+      "coinDenom": "AVAX",
+      "coinMinimalDenom": "avax-avax",
+      "coinDecimals": 8,
+      "coinGeckoId": "avalanche-2",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/avax-avax.png"
+    },
+    {
+      "coinDenom": "BTC",
+      "coinMinimalDenom": "btc-btc",
+      "coinDecimals": 8,
+      "coinGeckoId": "bitcoin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/btc-btc.png"
+    },
+    {
+      "coinDenom": "USDC.ETH",
+      "coinMinimalDenom": "eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "coinDecimals": 8,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.png"
+    },
+    {
+      "coinDenom": "USDC.AVAX",
+      "coinMinimalDenom": "avax-usdc-0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+      "coinDecimals": 8,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/avax-usdc-0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e.png"
+    },
+    {
+      "coinDenom": "USDC.BASE",
+      "coinMinimalDenom": "base-usdc-0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+      "coinDecimals": 8,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/base-usdc-0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png"
+    },
+    {
+      "coinDenom": "USDC.BSC",
+      "coinMinimalDenom": "bsc-usdc-0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+      "coinDecimals": 8,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/bsc-usdc-0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d.png"
+    },
+    {
+      "coinDenom": "BCH",
+      "coinMinimalDenom": "bch-bch",
+      "coinDecimals": 8,
+      "coinGeckoId": "bitcoin-cash",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/bch-bch.png"
+    },
+    {
+      "coinDenom": "USDT.BSC",
+      "coinMinimalDenom": "bsc-usdt-0x55d398326f99059ff775485246999027b3197955",
+      "coinDecimals": 8,
+      "coinGeckoId": "tether",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/bsc-usdt-0x55d398326f99059ff775485246999027b3197955.png"
+    },
+    {
+      "coinDenom": "DOGE",
+      "coinMinimalDenom": "doge-doge",
+      "coinDecimals": 8,
+      "coinGeckoId": "dogecoin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/doge-doge.png"
+    },
+    {
+      "coinDenom": "ETH",
+      "coinMinimalDenom": "eth-eth",
+      "coinDecimals": 8,
+      "coinGeckoId": "ethereum",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/eth-eth.png"
+    },
+    {
+      "coinDenom": "DAI.ETH",
+      "coinMinimalDenom": "eth-dai-0x6b175474e89094c44da98b954eedeac495271d0f",
+      "coinDecimals": 8,
+      "coinGeckoId": "dai",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/eth-dai-0x6b175474e89094c44da98b954eedeac495271d0f.png"
+    },
+    {
+      "coinDenom": "USDT.ETH",
+      "coinMinimalDenom": "eth-usdt-0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "coinDecimals": 8,
+      "coinGeckoId": "tether",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/eth-usdt-0xdac17f958d2ee523a2206206994597c13d831ec7.png"
+    },
+    {
+      "coinDenom": "ATOM",
+      "coinMinimalDenom": "gaia-atom",
+      "coinDecimals": 8,
+      "coinGeckoId": "cosmos",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/gaia-atom.png"
+    },
+    {
+      "coinDenom": "LTC",
+      "coinMinimalDenom": "ltc-ltc",
+      "coinDecimals": 8,
+      "coinGeckoId": "litecoin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/ltc-ltc.png"
+    },
+    {
+      "coinDenom": "XRP",
+      "coinMinimalDenom": "xrp-xrp",
+      "coinDecimals": 8,
+      "coinGeckoId": "ripple",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/xrp-xrp.png"
+    },
+    {
+      "coinDenom": "ETH.BASE",
+      "coinMinimalDenom": "base-eth",
+      "coinDecimals": 8,
+      "coinGeckoId": "ethereum",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/base-eth.png"
     }
   ],
   "feeCurrencies": [

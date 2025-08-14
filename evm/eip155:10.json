@@ -32,5 +32,5 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:10/optimism-native.png"
     }
   ],
-  "features": []
+  "features": ["op-stack-l1-data-fee"]
 }
