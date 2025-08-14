@@ -1,4 +1,17 @@
 {
+  "chainId": "flixnet-4",
+  "chainName": "OmniFlix FlixNet-4",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/flixnet/chain.png",
+  "rpc": "https://rpc.flixnet-4.omniflix.network",
+  "rest": "https://rest.flixnet-4.omniflix.network",
+  "nodeProvider": {
+    "name": "OmniFlix Network",
+    "email": "info@omniflix.network",
+    "website": "https://www.omniflix.network"
+  },
+  "bip44": {
+    "coinType": 118
+  },
   "bech32Config": {
     "bech32PrefixAccAddr": "omniflix",
     "bech32PrefixAccPub": "omniflixpub",
@@ -7,12 +20,6 @@
     "bech32PrefixValAddr": "omniflixvaloper",
     "bech32PrefixValPub": "omniflixvaloperpub"
   },
-  "bip44": {
-    "coinType": 118
-  },
-  "chainId": "flixnet-4",
-  "chainName": "OmniFlix FlixNet-4",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/flixnet/chain.png",
   "currencies": [
     {
       "coinDenom": "FLIX",
@@ -20,9 +27,6 @@
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/flixnet/uflix.png"
     }
-  ],
-  "features": [
-    "cosmwasm"
   ],
   "feeCurrencies": [
     {
@@ -37,12 +41,11 @@
       }
     }
   ],
-  "rest": "https://rest.flixnet-4.omniflix.network",
-  "rpc": "https://rpc.flixnet-4.omniflix.network",
   "stakeCurrency": {
     "coinDenom": "FLIX",
     "coinMinimalDenom": "uflix",
     "coinDecimals": 6,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/flixnet/uflix.png"
-  }
+  },
+  "features": ["cosmwasm"]
 }
