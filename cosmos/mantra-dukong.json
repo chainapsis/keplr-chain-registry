@@ -10,7 +10,7 @@
     "website": "https://mantrachain.io/"
   },
   "bip44": {
-    "coinType": 118
+    "coinType": 60
   },
   "bech32Config": {
     "bech32PrefixAccAddr": "mantra",
@@ -47,6 +47,10 @@
     "coinDecimals": 6,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra-dukong/om.png"
   },
-  "features": ["cosmwasm"],
-  "isTestnet": true
+  "features": [
+    "cosmwasm",
+    "eth-address-gen",
+    "eth-key-sign",
+    "eth-secp256k1-cosmos"
+  ]
 }
