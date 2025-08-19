@@ -52,5 +52,6 @@
     "eth-address-gen",
     "eth-key-sign",
     "eth-secp256k1-cosmos"
-  ]
+  ],
+  "isTestnet": true
 }
