@@ -1,9 +1,9 @@
 {
-  "rpc": "https://evm-137.keplr.app",
-  "websocket": "wss://evm-137.keplr.app/websocket",
+  "rpc": "https://evm-57073.keplr.app",
+  "websocket": "wss://evm-57073.keplr.app/websocket",
   "chainId": "eip155:57073",
   "chainName": "Ink",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:137/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:57073/chain.png",
   "bip44": {
     "coinType": 60
   },
@@ -13,14 +13,14 @@
       "coinMinimalDenom": "ink-native",
       "coinDecimals": 18,
       "coinGeckoId": "ethereum",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:137/polygon-native.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:57073/ink-native.png"
     },
     {
       "coinDenom": "USDC.e",
       "coinMinimalDenom": "erc20:0xF1815bd50389c46847f0Bda824eC8da914045D14",
       "coinDecimals": 6,
       "coinGeckoId": "stargate-bridged-usdc-ink",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:137/erc20/0x3c499c542cef5e3811e1192ce70d8cc03d5c3359.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:57073/erc20/0xF1815bd50389c46847f0Bda824eC8da914045D14.png"
     }
   ],
   "feeCurrencies": [
@@ -29,7 +29,7 @@
       "coinMinimalDenom": "ink-native",
       "coinDecimals": 18,
       "coinGeckoId": "ethereum",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:137/polygon-native.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:57073/ink-native.png"
     }
   ],
   "features": ["op-stack-l1-data-fee"]
