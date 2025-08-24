@@ -1,0 +1,49 @@
+{
+    "rpc": "https://chain.ozonescan.com/api/",
+    "rest": "https://chain.ozonescan.com/cosmos-api/",
+    "chainId": "os_10121-1",
+    "chainName": "Ozone Chain",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ozone_10121/network_icon.png",
+    "bip44": {
+        "coinType": 60
+    },
+    "evm": {
+        "chainId": 10121,
+        "rpc": "https://chain.ozonescan.com",
+        "websocket": "wss://chain.ozonescan.com/ws/"
+    },
+    "bech32Config": {
+        "bech32PrefixAccAddr": "ethm",
+        "bech32PrefixAccPub": "ethmpub",
+        "bech32PrefixValAddr": "ethmvaloper",
+        "bech32PrefixValPub": "ethmvaloperpub",
+        "bech32PrefixConsAddr": "ethmvalcons",
+        "bech32PrefixConsPub": "ethmvalcons"
+    },
+    "currencies": [
+        {
+            "coinDenom": "OZONE",
+            "coinMinimalDenom": "aozone",
+            "coinDecimals": 18,
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ozone_10121/network_icon.png"
+        }
+    ],
+    "feeCurrencies": [
+        {
+            "coinDenom": "OZONE",
+            "coinMinimalDenom": "aozone",
+            "coinDecimals": 18,
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ozone_10121/network_icon.png",
+            "gasPriceStep": {
+                "low": 200000000000,
+                "average": 250000000000,
+                "high": 400000000000
+            }
+        }
+    ],
+    "features": [
+        "eth-address-gen",
+        "eth-key-sign",
+        "axelar-evm-bridge"
+    ]
+}
