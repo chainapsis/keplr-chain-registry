@@ -18,12 +18,12 @@
         "websocket": "wss://chain.ozonescan.com/ws/"
     },
     "bech32Config": {
-        "bech32PrefixAccAddr": "ethm",
-        "bech32PrefixAccPub": "ethmpub",
-        "bech32PrefixValAddr": "ethmvaloper",
-        "bech32PrefixValPub": "ethmvaloperpub",
-        "bech32PrefixConsAddr": "ethmvalcons",
-        "bech32PrefixConsPub": "ethmvalcons"
+        "bech32PrefixAccAddr": "ozone",
+        "bech32PrefixAccPub": "ozonepub",
+        "bech32PrefixValAddr": "ozonevaloper",
+        "bech32PrefixValPub": "ozonevaloperpub",
+        "bech32PrefixConsAddr": "ozonevalcons",
+        "bech32PrefixConsPub": "ozonevalcons"
     },
     "currencies": [
         {
