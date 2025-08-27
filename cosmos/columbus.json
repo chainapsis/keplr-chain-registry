@@ -41,7 +41,7 @@
     "coinMinimalDenom": "uusd",
     "coinDecimals": 6,
     "coinGeckoId": "terrausd",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/USTC.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/UST.png"
   },
   {
     "coinDenom": "AUT",
