@@ -29,25 +29,147 @@
     "bech32PrefixConsPub": "terravalconspub"
   },
   "currencies": [
-    {
-      "coinDenom": "LUNC",
-      "coinMinimalDenom": "uluna",
-      "coinDecimals": 6,
-      "coinGeckoId": "terra-luna",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/uluna.png"
-    },
-    {
-      "coinDenom": "USTC",
-      "coinMinimalDenom": "uusd",
-      "coinDecimals": 6,
-      "coinGeckoId": "terrausd"
-    },
-    {
-      "coinDenom": "KRT",
-      "coinMinimalDenom": "ukrw",
-      "coinDecimals": 6
-    }
-  ],
+  {
+    "coinDenom": "LUNC",
+    "coinMinimalDenom": "uluna",
+    "coinDecimals": 6,
+    "coinGeckoId": "terra-luna",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/uluna.png"
+  },
+  {
+    "coinDenom": "USTC",
+    "coinMinimalDenom": "uusd",
+    "coinDecimals": 6,
+    "coinGeckoId": "terrausd",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/USTC.png"
+  },
+  {
+    "coinDenom": "AUT",
+    "coinMinimalDenom": "uaud",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/AUT.png"
+  },
+  {
+    "coinDenom": "CAT",
+    "coinMinimalDenom": "ucad",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/CAT.png"
+  },
+  {
+    "coinDenom": "CHT",
+    "coinMinimalDenom": "uchf",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/CHT.png"
+  },
+  {
+    "coinDenom": "CNT",
+    "coinMinimalDenom": "ucny",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/CNT.png"
+  },
+  {
+    "coinDenom": "DKT",
+    "coinMinimalDenom": "udkk",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/DKT.png"
+  },
+  {
+    "coinDenom": "GBT",
+    "coinMinimalDenom": "ugbp",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/GBT.png"
+  },
+  {
+    "coinDenom": "EUT",
+    "coinMinimalDenom": "ueur",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/EUT.png"
+  },
+  {
+    "coinDenom": "HKT",
+    "coinMinimalDenom": "uhkd",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/HKT.png"
+  },
+  {
+    "coinDenom": "INT",
+    "coinMinimalDenom": "uinr",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/INT.png"
+  },
+  {
+    "coinDenom": "IDT",
+    "coinMinimalDenom": "uidr",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/IDT.png"
+  },
+  {
+    "coinDenom": "JPT",
+    "coinMinimalDenom": "ujpy",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/JPT.png"
+  },
+  {
+    "coinDenom": "KRT",
+    "coinMinimalDenom": "ukrw",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/KRT.png"
+  },
+  {
+    "coinDenom": "MNT",
+    "coinMinimalDenom": "umnt",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/MNT.png"
+  },
+  {
+    "coinDenom": "MYT",
+    "coinMinimalDenom": "umyr",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/MYT.png"
+  },
+  {
+    "coinDenom": "NOT",
+    "coinMinimalDenom": "unok",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/NOT.png"
+  },
+  {
+    "coinDenom": "PHT",
+    "coinMinimalDenom": "uphp",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/PHT.png"
+  },
+  {
+    "coinDenom": "SDT",
+    "coinMinimalDenom": "usdr",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/SDT.png"
+  },
+  {
+    "coinDenom": "SET",
+    "coinMinimalDenom": "usek",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/SET.png"
+  },
+  {
+    "coinDenom": "SGT",
+    "coinMinimalDenom": "usgd",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/SGT.png"
+  },
+  {
+    "coinDenom": "THT",
+    "coinMinimalDenom": "uthb",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/THT.png"
+  },
+  {
+    "coinDenom": "TWT",
+    "coinMinimalDenom": "utwd",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/TWT.png"
+  }
+],
   "feeCurrencies": [
     {
       "coinDenom": "LUNC",
