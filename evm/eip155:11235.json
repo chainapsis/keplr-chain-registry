@@ -1,0 +1,41 @@
+{
+  "rpc": "https://rpc.eth.haqq.network",
+  "websocket": "wss://rpc.eth.haqq.network/websocket",
+  "nodeProvider": {
+    "name": "Haqq Association",
+    "email": "privacy@islamiccoin.net",
+    "website": "https://haqq.network"
+  },
+  "chainId": "eip155:11235",
+  "chainName": "HAQQ Network",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:11235/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "ISLM",
+      "coinMinimalDenom": "ethereum-native",
+      "coinDecimals": 18,
+      "coinGeckoId": "islamic-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:11235/ethereum-native.png"
+    },
+    {
+      "coinDenom": "DEEN",
+      "coinMinimalDenom": "erc20:0x4FEBDDe47Ab9a76200e57eFcC80b212a07b3e6cE",
+      "coinDecimals": 6,
+      "coinGeckoId": "deenar-gold",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:11235/erc20/0x4FEBDDe47Ab9a76200e57eFcC80b212a07b3e6cE.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ISLM",
+      "coinMinimalDenom": "ethereum-native",
+      "coinDecimals": 18,
+      "coinGeckoId": "islamic-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:11235/ethereum-native.png"
+    }
+  ],
+  "features": []
+}
