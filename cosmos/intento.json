@@ -54,7 +54,7 @@
     },
     {
       "coinDenom": "OSMO",
-      "coinMinimalDenom": "ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B",
+      "coinMinimalDenom": "ibc/47BD209179859CDE4A2806763D7189B6E6FE13A17880FE2B42DE1E6C1E329E23",
       "coinDecimals": 6,
       "coinGeckoId": "osmosis",
       "gasPriceStep": {
