@@ -182,6 +182,12 @@
       "coinMinimalDenom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1c6lxety9hqn9q4khwqvjcfa24c2qeqvvfsg4fm",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1c6lxety9hqn9q4khwqvjcfa24c2qeqvvfsg4fm/pedro.png"
+    },
+    {
+      "coinDenom": "OYCI",
+      "coinDecimals": 6,
+      "coinMinimalDenom": "factory/inj1jdt04erw6jdmh6c939u87kldf3mvvmkedsjp3w/OYCI",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1jdt04erw6jdmh6c939u87kldf3mvvmkedsjp3w/oyci.png"
     }
   ],
   "feeCurrencies": [
