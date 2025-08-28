@@ -50,7 +50,7 @@
         "average": 0.01,
         "high": 0.02
       },
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/uatom.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/intento/uatom.png"
     },
     {
       "coinDenom": "OSMO",
@@ -62,7 +62,7 @@
         "average": 0.02,
         "high": 0.03
       },
-      "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png"
+      "coinImageUrl": "ttps://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/intento/osmo.png"
     }
   ],
   "stakeCurrency": {
