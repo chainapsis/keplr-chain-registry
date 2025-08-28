@@ -1,0 +1,75 @@
+{
+  "chainId": "intento-1",
+  "chainName": "Intento",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/intento/into.png",
+  "rpc": "https://rpc-mainnet.intento.zone",
+  "rest": "https://lcd-mainnet.intento.zone",
+  "nodeProvider": {
+    "name": "Intento",
+    "email": "info@intento.zone",
+    "website": "https://intento.zone"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "into",
+    "bech32PrefixAccPub": "intopub",
+    "bech32PrefixValAddr": "intovaloper",
+    "bech32PrefixValPub": "intovaloperpub",
+    "bech32PrefixConsAddr": "intovalcons",
+    "bech32PrefixConsPub": "intovalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "INTO",
+      "coinMinimalDenom": "uinto",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/intento/into.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "INTO",
+      "coinMinimalDenom": "uinto",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.02,
+        "high": 0.03
+      },
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/intento/into.png"
+    },
+    {
+      "coinDenom": "ATOM",
+      "coinMinimalDenom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+      "coinDecimals": 6,
+      "coinGeckoId": "cosmos",
+      "gasPriceStep": {
+        "low": 0.005,
+        "average": 0.01,
+        "high": 0.02
+      },
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/intento/atom.png"
+    },
+    {
+      "coinDenom": "OSMO",
+      "coinMinimalDenom": "ibc/47BD209179859CDE4A2806763D7189B6E6FE13A17880FE2B42DE1E6C1E329E23",
+      "coinDecimals": 6,
+      "coinGeckoId": "osmosis",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.02,
+        "high": 0.03
+      },
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/intento/osmo.png"
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "INTO",
+    "coinMinimalDenom": "uinto",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/intento/into.png"
+  },
+  "features": []
+}
