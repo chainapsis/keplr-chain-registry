@@ -2,8 +2,8 @@
     "chainId": "kima_testnet",
     "chainName": "Kima Sardis Network (Testnet)",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kima_testnet/chain.png",
-    "rpc": "https://rpc.sardis.kima.finance/",
-    "rest": "https://api.sardis.kima.finance/",
+    "rpc": "https://rpc.sardis.kima.network/",
+    "rest": "https://api.sardis.kima.network/",
     "nodeProvider": {
       "name": "Kima Network",
       "email": "support@kima.network",
