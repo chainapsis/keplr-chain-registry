@@ -2,12 +2,12 @@
     "chainId": "dungeon-1",
     "chainName": "Dungeonchain",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png",
-    "rpc": "https://rpc-dungeonchain.apeironnodes.com:443",
-    "rest": "https://api-dungeonchain.apeironnodes.com:443",
+    "rpc": "https://dungeon-wallet.rpc.quasarstaking.ai:443",
+    "rest": "https://dungeon-wallet.api.quasarstaking.ai",
     "nodeProvider": {
-      "name": "Apeiron Nodes",
-      "email": "support@apeironnodes.com",
-      "website":"https://apeironnodes.com"
+      "name": "Crypto Dungeon",
+      "email": "cryptodungeonma@gmail.com",
+      "website":"https://www.cryptodungeon.org/"
     },
     "bip44": {
       "coinType": 118
@@ -35,9 +35,9 @@
         "coinMinimalDenom": "udgn",
         "coinDecimals": 6,
         "gasPriceStep": {
-          "low": 0.01,
-          "average": 0.025,
-          "high": 0.03
+          "low": 0.05,
+          "average": 0.07,
+          "high": 0.09
         },
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png"
       }
@@ -46,6 +46,7 @@
       "coinDenom": "DGN",
       "coinMinimalDenom": "udgn",
       "coinDecimals": 6,
+      "coinGeckoId": "dragon-coin-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png"
     },
     "features": [

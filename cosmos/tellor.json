@@ -1,0 +1,51 @@
+{
+    "rpc": "https://mainnet.tellorlayer.com/rpc",
+    "rest": "https://mainnet.tellorlayer.com/",
+    "nodeProvider": {
+        "name": "Tellor",
+        "email": "info@tellor.io",
+        "website": "https://tellor.io/"
+      },
+    "chainId": "tellor-1",
+    "chainName": "Tellor Mainnet",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tellor/logo.png",
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+      "bech32PrefixAccAddr": "tellor",
+      "bech32PrefixAccPub": "tellorpub",
+      "bech32PrefixValAddr": "tellorvaloper",
+      "bech32PrefixValPub": "tellorvaloperpub",
+      "bech32PrefixConsAddr": "tellorvalcons",
+      "bech32PrefixConsPub": "tellorvalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "TRB",
+        "coinMinimalDenom": "loya",
+        "coinDecimals": 6,
+        "coinGeckoId": "tellor"
+      }
+    ],
+    "stakeCurrency":{
+          "coinDenom": "TRB",
+          "coinMinimalDenom": "loya",
+          "coinDecimals": 6,
+          "coinGeckoId": "tellor"
+    },
+    "feeCurrencies": [
+        {
+          "coinDenom": "TRB",
+          "coinMinimalDenom": "loya",
+          "coinDecimals": 6,
+          "coinGeckoId": "tellor",
+          "gasPriceStep": {
+            "low": 0.01,
+            "average": 0.025,
+            "high": 0.03
+          }
+        }
+      ],
+    "isTestnet": false
+  }  

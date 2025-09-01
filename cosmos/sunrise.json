@@ -1,0 +1,65 @@
+{
+  "rpc": "https://a.consensus.sunrise-1.sunriselayer.io",
+  "rest": "https://a.consensus.sunrise-1.sunriselayer.io:1318",
+  "nodeProvider": {
+    "name": "Sunrise",
+    "email": "info@sunriselayer.io",
+    "website":"https://sunriselayer.io"
+  },
+  "chainId": "sunrise-1",
+  "chainName": "Sunrise",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sunrise/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "vRISE",
+    "coinMinimalDenom": "uvrise",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sunrise/vrise.png"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "sunrise",
+    "bech32PrefixAccPub": "sunrisepub",
+    "bech32PrefixValAddr": "sunrisevaloper",
+    "bech32PrefixValPub": "sunrisevaloperpub",
+    "bech32PrefixConsAddr": "sunrisevalcons",
+    "bech32PrefixConsPub": "sunrisevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "RISE",
+      "coinMinimalDenom": "urise",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sunrise/rise.png"
+    },
+    {
+      "coinDenom": "USDrise",
+      "coinMinimalDenom": "uusdrise",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sunrise/usdrise.png"
+    },
+    {
+      "coinDenom": "vRISE",
+      "coinMinimalDenom": "uvrise",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sunrise/vrise.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "USDrise",
+      "coinMinimalDenom": "uusdrise",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sunrise/usdrise.png",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.02,
+        "high": 0.1
+      }
+    }
+  ],
+  "features": [
+    "cosmwasm"
+  ]
+}

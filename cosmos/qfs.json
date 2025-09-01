@@ -1,0 +1,49 @@
+{
+  "chainId": "qfs-1",
+  "chainName": "QFS",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qfs/chain.png",
+  "rpc": "https://rpc.qfsone.com",
+  "rest": "https://lcd.qfsone.com",
+  "nodeProvider": {
+    "name": "qfs",
+    "email": "hello@qfsone.com",
+    "website": "https://qfsone.com/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "qfs",
+    "bech32PrefixAccPub": "qfspub",
+    "bech32PrefixValAddr": "qfsvaloper",
+    "bech32PrefixValPub": "qfsvaloperpub",
+    "bech32PrefixConsAddr": "qfsvalcons",
+    "bech32PrefixConsPub": "qfsvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "QFS",
+      "coinMinimalDenom": "uqfs",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qfs/uqfs.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "QFS",
+      "coinMinimalDenom": "uqfs",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.025,
+        "average": 0.03,
+        "high": 0.035
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "QFS",
+    "coinMinimalDenom": "uqfs",
+    "coinDecimals": 6
+  },
+  "features": [ ]
+}

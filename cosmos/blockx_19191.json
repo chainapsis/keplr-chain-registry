@@ -1,0 +1,54 @@
+{
+	"chainId": "blockx_19191-1",
+	"chainName": "BlockX",
+	"rpc": "https://rpc.blockxnet.com",
+	"rest": "https://api.blockxnet.com",
+	"chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/blockx_19191/chain.png",
+	"nodeProvider": {
+	  "name": "BlockX",
+	  "email": "contact@blockxnet.com",
+	  "website":"https://blockxnet.com/"
+	},
+	"bip44": {
+		"coinType": 60
+	},
+	"bech32Config": {
+		"bech32PrefixAccAddr": "blockx",
+		"bech32PrefixAccPub": "blockxpub",
+		"bech32PrefixValAddr": "blockxvaloper",
+		"bech32PrefixValPub": "blockxvaloperpub",
+		"bech32PrefixConsAddr": "blockxvalcons",
+		"bech32PrefixConsPub": "blockxvalconspub"
+	},
+	"currencies": [
+		{
+			"coinDenom": "BCX",
+			"coinMinimalDenom": "abcx",
+			"coinDecimals": 18,
+			"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/blockx_19191/chain.png"
+		}
+	],
+	"feeCurrencies": [
+		{
+			"coinDenom": "BCX",
+			"coinMinimalDenom": "abcx",
+			"coinDecimals": 18,
+			"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/blockx_19191/chain.png",
+			"gasPriceStep": {
+				"low": 0.01,
+				"average": 0.025,
+				"high": 0.03
+			}
+		}
+	],
+	"stakeCurrency": {
+		"coinDenom": "BCX",
+		"coinMinimalDenom": "abcx",
+		"coinDecimals": 18,
+		"coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/blockx_19191/chain.png"
+	},
+	"features": [
+		"eth-address-gen",
+		"eth-key-sign"
+	]
+}

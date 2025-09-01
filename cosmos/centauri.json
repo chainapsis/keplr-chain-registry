@@ -1,10 +1,10 @@
 {
-    "rpc": "https://composable-rpc.lavenderfive.com:443",
-    "rest": "https://composable-api.lavenderfive.com:443",
+    "rpc": "https://composable.rpc.m.stavr.tech:443",
+    "rest": "https://composable.api.m.stavr.tech:443",
     "nodeProvider": {
-      "name": "Lavender.Five Nodes",
-      "email": "hello@lavenderfive.com",
-      "website": "https://lavenderfive.com/"
+      "name": "STAVR",
+      "email": "stavr.tech@gmail.com",
+      "website": "https://stavr.tech/"
     },
     "chainId": "centauri-1",
     "chainName": "Picasso",
