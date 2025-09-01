@@ -25,7 +25,6 @@
         "coinDenom": "KIMA",
         "coinMinimalDenom": "uKIMA",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kima_testnet/chain.png",
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kima_testnet/chain.png",
         "coinDecimals": 6
       }
     ],
