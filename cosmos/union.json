@@ -28,6 +28,7 @@
       "coinDenom": "U",
       "coinMinimalDenom": "au",
       "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/union/chain.png",
       "gasPriceStep": {
         "low": 100000000,
         "average": 100000000,
@@ -41,5 +42,6 @@
     "coinDecimals": 18,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/union/chain.png"
   },
-  "features": ["cosmwasm"]
+  "features": ["cosmwasm"],
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/union"
 }
