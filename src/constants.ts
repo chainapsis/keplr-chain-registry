@@ -50,6 +50,7 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "atomone",
   "pocket",
   "xrplevm_1440000",
+  "union",
   "eip155:1",
   "eip155:10",
   "eip155:56",
