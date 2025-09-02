@@ -2,8 +2,8 @@
   "chainId": "union-1",
   "chainName": "Union",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/union/chain.png",
-  "rest": "https://rpc-union.keplr.app",
-  "rpc": "https://lcd-union.keplr.app",
+  "rpc": "https://rpc-union.keplr.app",
+  "rest": "https://lcd-union.keplr.app",
   "bip44": {
     "coinType": 118
   },
