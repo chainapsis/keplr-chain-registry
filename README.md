@@ -151,6 +151,7 @@ Here’s an overview of the structure of the directory. Please provide the infor
   - eth-key-sign: supports EVM signatures
   - axelar-evm-bridge: supports EVM bridge provided by Axelar Network
   - osmosis-txfees: supports paying fees in other currencies on Osmosis
+- isTestnet: set it to true when your chain is a testnet or devnet
 
 # EVM-based Chains
 
