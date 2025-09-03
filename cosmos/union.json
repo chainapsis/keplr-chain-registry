@@ -3,7 +3,7 @@
   "chainName": "Union",
   "rpc": "https://rpc.union.build",
   "rest": "https://rest.union.build",
-  "chainSymbolImageUrl": "https://union.build/u.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/union/chain.png",
   "nodeProvider": {
     "name": "Union Labs",
     "email": "hello@union.build",
