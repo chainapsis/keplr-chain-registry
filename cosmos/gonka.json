@@ -25,8 +25,8 @@
     },
     {
       "name": "PS on Nebius",
-      "rpc": "http://node1.gonka.ai:5000/chain-rpc/",
-      "rest": "http://node1.gonka.ai:5000/chain-api/"
+      "rpc": "http://node1.gonka.ai:8000/chain-rpc/",
+      "rest": "http://node1.gonka.ai:8000/chain-api/"
     }
   ],
   "bip44": {
