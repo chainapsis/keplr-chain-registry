@@ -140,6 +140,8 @@ export const validateCosmosChainInfo = async (
 
   await checkCoinGeckoIds(...Array.from(coinGeckoIds));
 
+  checkIsTestnet(chainInfo);
+
   return chainInfo;
 };
 
@@ -366,4 +368,23 @@ export const checkCurrencies = (chainInfo: ChainInfo) => {
       );
     }
   }
+};
+
+export const checkIsTestnet = (chainInfo: ChainInfo) => {
+  const chainNameInLowerCase = chainInfo.chainName.toLowerCase();
+  const isTestnet = chainInfo.isTestnet;
+
+  if (
+    (chainNameInLowerCase.includes("testnet") ||
+      chainNameInLowerCase.includes("devnet") ||
+      chainInfo.chainId.includes("testnet") ||
+      chainInfo.chainId.includes("devnet")) &&
+    !isTestnet
+  ) {
+    throw new Error(
+      'Add `"isTestnet": true` if your chain is a testnet or devnet',
+    );
+  }
+
+  return true;
 };
