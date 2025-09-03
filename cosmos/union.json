@@ -3,7 +3,7 @@
   "chainName": "Union",
   "rpc": "https://rpc.union.build",
   "rest": "https://rest.union.build",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/uniontestnet/images/union.png",
+  "chainSymbolImageUrl": "https://union.build/u.png",
   "nodeProvider": {
     "name": "Union Labs",
     "email": "hello@union.build",
