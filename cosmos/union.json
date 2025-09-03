@@ -4,6 +4,11 @@
   "rpc": "https://rpc.union.build",
   "rest": "https://rest.union.build",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/uniontestnet/images/union.png",
+  "nodeProvider": {
+    "name": "Union Labs",
+    "email": "hello@union.build",
+    "website": "https://union.build/"
+  },
   "bip44": {
     "coinType": 118
   },
