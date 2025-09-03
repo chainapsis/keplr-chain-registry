@@ -3,6 +3,7 @@
   "chainName": "Union",
   "rpc": "https://rpc.union.build",
   "rest": "https://rest.union.build",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/uniontestnet/images/union.png",
   "bip44": {
     "coinType": 118
   },
@@ -40,11 +41,5 @@
   },
   "features": [
     "cosmwasm"
-  ],
-  "beta": true,
-  "theme": {
-    "primaryColor": "#fff",
-    "gradient": "linear-gradient(180deg, rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0) 100%)"
-  },
-  "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/uniontestnet/images/union.png"
+  ]
 }
