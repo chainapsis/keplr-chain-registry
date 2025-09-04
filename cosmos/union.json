@@ -20,6 +20,7 @@
       "coinDenom": "U",
       "coinMinimalDenom": "au",
       "coinDecimals": 18,
+      "coinGeckoId": "union-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/union/chain.png"
     }
   ],
@@ -28,6 +29,7 @@
       "coinDenom": "U",
       "coinMinimalDenom": "au",
       "coinDecimals": 18,
+      "coinGeckoId": "union-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/union/chain.png",
       "gasPriceStep": {
         "low": 100000000,
@@ -40,6 +42,7 @@
     "coinDenom": "U",
     "coinMinimalDenom": "au",
     "coinDecimals": 18,
+    "coinGeckoId": "union-2",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/union/chain.png"
   },
   "features": ["cosmwasm"],
