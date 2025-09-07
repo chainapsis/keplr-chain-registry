@@ -1,7 +1,7 @@
 {
   "chainId": "paxi-mainnet",
   "chainName": "PAXI",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/paxi-mainnet/icon.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/paxi-mainnet/chain.png",
   "rpc": "https://mainnet-rpc.paxinet.io",
   "rest": "https://mainnet-lcd.paxinet.io",
   "nodeProvider": {
@@ -31,7 +31,7 @@
       "coinDenom": "PAXI",
       "coinMinimalDenom": "upaxi",
       "coinDecimals": 6,
-      "gasPriceStep": { "low": 0.01, "average": 0.025, "high": 0.04 }
+      "gasPriceStep": { "low": 0.035, "average": 0.055, "high": 0.075 }
     }
   ],
   "stakeCurrency": {
