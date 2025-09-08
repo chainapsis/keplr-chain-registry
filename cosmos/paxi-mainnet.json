@@ -1,5 +1,5 @@
 {
-  "chainId": "paxi-mainnet
+  "chainId": "paxi-mainnet",
   "chainName": "Paxi Network",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/paxi-mainnet/chain.png",
   "rpc": "https://mainnet-rpc.paxinet.io",
