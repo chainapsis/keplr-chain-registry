@@ -2,13 +2,8 @@
   "chainId": "symphony-1",
   "chainName": "Symphony",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony/chain.png",
-  "rpc": "https://symphony.rpc.nodeshub.online/",
-  "rest": "https://symphony.api.nodeshub.online/",
-  "nodeProvider": {
-    "name": "Nodes Hub",
-    "email": "contact@nodeshub.online",
-    "website": "https://nodeshub.online"
-  },
+  "rpc": "https://symphony-rpc.cogwheel.zone/",
+  "rest": "https://symphony-api.cogwheel.zone/",
   "bip44": {
     "coinType": 118
   },
@@ -34,8 +29,8 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony/husd.png"
     },
     {
-      "coinDenom": "HKHD",
-      "coinMinimalDenom": "ukhd",
+      "coinDenom": "HHKD",
+      "coinMinimalDenom": "uhkd",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony/hhkd.png"
     },
