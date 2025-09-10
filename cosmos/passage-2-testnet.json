@@ -1,0 +1,52 @@
+{
+  "rpc": "https://tendermint-pasg.testnet.us.nodefleet.net",
+  "rest": "https://rest-pasg.testnet.us.nodefleet.net",
+  "chainId": "passage-2-testnet",
+  "chainName": "Passage Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/passage/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "PASG",
+    "coinMinimalDenom": "upasg",
+    "coinDecimals": 6,
+    "coinGeckoId": "passage",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/passage/upasg.png"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "pasg",
+    "bech32PrefixAccPub": "pasgpub",
+    "bech32PrefixValAddr": "pasgvaloper",
+    "bech32PrefixValPub": "pasgvaloperpub",
+    "bech32PrefixConsAddr": "pasgvalcons",
+    "bech32PrefixConsPub": "pasgvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "PASG",
+      "coinMinimalDenom": "upasg",
+      "coinDecimals": 6,
+      "coinGeckoId": "passage",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/passage/upasg.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "PASG",
+      "coinMinimalDenom": "upasg",
+      "coinDecimals": 6,
+      "coinGeckoId": "passage",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/passage/upasg.png",
+      "gasPriceStep": {
+        "low": 12.5,
+        "average": 12.5,
+        "high": 12.5
+      }
+    }
+  ],
+  "features": [
+    "cosmwasm"
+  ],
+  "isTestnet": true
+}
