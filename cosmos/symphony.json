@@ -4,6 +4,11 @@
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/symphony/chain.png",
   "rpc": "https://symphony-rpc.cogwheel.zone/",
   "rest": "https://symphony-api.cogwheel.zone/",
+  "nodeProvider": {
+    "name": "Atlas Staking",
+    "email": "info@atlasstaking.com",
+    "website": "https://atlas-staking.com/"
+  },
   "bip44": {
     "coinType": 118
   },
