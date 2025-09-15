@@ -1,6 +1,6 @@
 {
-  "rpc": "https://81.169.136.147:63663/",
-  "rest": "https://81.169.136.147:1317/",
+  "rpc": "https://rebel-rpc.luncgoblins.com/",
+  "rest": "https://rebel-lcd.luncgoblins.com/",
   "chainId": "rebel-2",
   "chainName": "Terra Rebel Testnet",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/terra-rebel-testnet",
