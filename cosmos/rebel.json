@@ -2,8 +2,7 @@
   "rpc": "https://rebel-rpc.luncgoblins.com",
   "rest": "https://rebel-lcd.luncgoblins.com",
   "chainId": "rebel-2",
-  "chainName": "Terra Classic Testnet",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/terra-classic-testnet",
+  "chainName": "Terra Classic Testnet", 
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/chain.png",
   "stakeCurrency": {
     "coinDenom": "LUNC",
