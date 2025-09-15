@@ -195,6 +195,6 @@
       }
     }
   ],
-  "features": ["terra-classic-fee", "cosmwasm"]
+  "features": ["terra-classic-fee", "cosmwasm"],
   "isTestnet": true
 }
