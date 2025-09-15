@@ -42,14 +42,7 @@
     "coinDecimals": 6,
     "coinGeckoId": "terrausd",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/UST.png"
-  },
-  {
-    "coinDenom": "Juris",
-    "coinMinimalDenom": "juris",
-    "coinDecimals": 6,
-    "coinGeckoId": "juris-protocol",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/juris.png"
-  },
+  }, 
   {
     "coinDenom": "AUT",
     "coinMinimalDenom": "uaud",
@@ -203,4 +196,5 @@
     }
   ],
   "features": ["terra-classic-fee", "cosmwasm"]
+  "isTestnet": true
 }
