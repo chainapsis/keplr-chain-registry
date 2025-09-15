@@ -1,11 +1,11 @@
 {
-  "rpc": "https://rpc.noble.v9.noble.xyz/",
-  "rest": "https://api.noble.v9.noble.xyz/",
+  "rpc": "https://rpc.core.devnet.noble.xyz/",
+  "rest": "https://api.core.devnet.noble.xyz/",
   "chainId": "duke-1",
   "chainName": "Noble Devnet",
   "nodeProvider": {
     "name": "Noble",
-    "email": "hello@nobleassets.xyz",
+    "email": "hello@noble.xyz",
     "website": "https://www.noble.xyz"
   },
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/duke/chain.png",
@@ -26,30 +26,6 @@
       "coinMinimalDenom": "uusdc",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/duke/uusdc.png"
-    },
-    {
-      "coinDenom": "USDY",
-      "coinMinimalDenom": "ausdy",
-      "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/duke/ausdy.png"
-    },
-    {
-      "coinDenom": "USYC",
-      "coinMinimalDenom": "uusyc",
-      "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/duke/uusyc.png"
-    },
-    {
-      "coinDenom": "EURe",
-      "coinMinimalDenom": "ueure",
-      "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/duke/ueure.png"
-    },
-    {
-      "coinDenom": "USDN",
-      "coinMinimalDenom": "uusdn",
-      "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/duke/uusdn.png"
     }
   ],
   "feeCurrencies": [
