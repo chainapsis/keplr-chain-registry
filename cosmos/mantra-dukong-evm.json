@@ -53,5 +53,10 @@
     "eth-key-sign",
     "eth-secp256k1-cosmos"
   ],
+  "evm": {
+    "chainId": 5887,
+    "rpc": "https://evm.dukong.mantrachain.io",
+    "websocket": "https://evm.dukong.mantrachain.io/ws"
+  },
   "isTestnet": true
 }
