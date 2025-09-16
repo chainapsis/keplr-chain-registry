@@ -13,7 +13,6 @@
     "coinDenom": "PASG",
     "coinMinimalDenom": "upasg",
     "coinDecimals": 6,
-    "coinGeckoId": "passage",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/passage/upasg.png"
   },
   "bip44": {
