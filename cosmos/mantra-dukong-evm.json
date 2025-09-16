@@ -1,6 +1,6 @@
 {
   "chainId": "mantra-dukong-evm-1",
-  "chainName": "MANTRA Dukong Testnet (EVM Compatible)",
+  "chainName": "MANTRA Dukong Testnet (EVM Interoperable)",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra-dukong/chain.png",
   "rpc": "https://rpc.dukong.mantrachain.io",
   "rest": "https://api.dukong.mantrachain.io",
