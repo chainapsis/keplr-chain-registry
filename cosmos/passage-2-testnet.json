@@ -1,9 +1,14 @@
 {
-  "rpc": "https://tendermint-pasg.testnet.us.nodefleet.net",
-  "rest": "https://rest-pasg.testnet.us.nodefleet.net",
   "chainId": "passage-2-testnet",
   "chainName": "Passage Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/passage/chain.png",
+  "rpc": "https://tendermint-pasg.testnet.us.nodefleet.net",
+  "rest": "https://rest-pasg.testnet.us.nodefleet.net",
+  "nodeProvider": {
+    "name": "Nodefleet",
+    "email": "nodes@nodefleet.com",
+    "website": "https://nodefleet.org/"
+  },
   "stakeCurrency": {
     "coinDenom": "PASG",
     "coinMinimalDenom": "upasg",
