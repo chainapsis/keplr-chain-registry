@@ -1,0 +1,61 @@
+{
+  "rpc": "https://rpc.epix.zone",
+  "rest": "https://epix.api.silknodes.io",
+  "chainId": "epix_1916-1",
+  "chainName": "Epix",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/epix_1916/chain.png",
+  "nodeProvider": {
+    "name": "Epix",
+    "email": "info@epix.zone",
+    "website": "https://epix.zone/"
+  },
+  "evm": {
+    "chainId": 1916,
+    "rpc": "https://evmrpc.epix.zone/"
+  },
+  "stakeCurrency": {
+    "coinDenom": "EPIX",
+    "coinMinimalDenom": "aepix",
+    "coinDecimals": 18,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/epix_1916/chain.png"
+  },
+  "walletUrlForStaking": "https://explorer.epix.zone/epix/staking",
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "epix",
+    "bech32PrefixAccPub": "epixpub",
+    "bech32PrefixValAddr": "epixvaloper",
+    "bech32PrefixValPub": "epixvaloperpub",
+    "bech32PrefixConsAddr": "epixvalcons",
+    "bech32PrefixConsPub": "epixvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "EPIX",
+      "coinMinimalDenom": "aepix",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/epix_1916/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "EPIX",
+      "coinMinimalDenom": "aepix",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/epix_1916/chain.png",
+      "gasPriceStep": {
+        "low": 20000000000,
+        "average": 25000000000,
+        "high": 40000000000
+      }
+    }
+  ],
+  "features": [
+		"eth-address-gen",
+		"eth-key-sign",
+		"ibc-transfer",
+		"ibc-go"
+  ]
+}
