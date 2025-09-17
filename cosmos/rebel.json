@@ -1,5 +1,5 @@
 {
-  "rpc": "https://rebel-rpc.luncgoblins.com:443",
+  "rpc": "https://rebel-rpc.luncgoblins.com",
   "rest": "https://rebel-lcd.luncgoblins.com",
   "chainId": "rebel-2",
   "chainName": "Terra Classic Testnet", 
