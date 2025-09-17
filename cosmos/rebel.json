@@ -10,6 +10,11 @@
     "coinDecimals": 6, 
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/uluna.png"
   },
+  "nodeProvider": {
+    "name": "LuncGoblins",
+    "email": "emergency@luncgoblins.com",
+    "website": "https://www.jurisprotocol.com/"
+  },
   "bip44": {
     "coinType": 330
   },
