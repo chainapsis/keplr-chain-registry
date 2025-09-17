@@ -52,5 +52,5 @@
     "coinGeckoId": "mantra-dao",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra/om.png"
   },
-  "features": ["cosmwasm"]
+  "features": ["cosmwasm", "evm-feemarket"]
 }
