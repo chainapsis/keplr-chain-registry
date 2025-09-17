@@ -3,7 +3,7 @@
   "nodeProvider": {
     "name": "MANTRA Chain Association",
     "email": "security@mantrachain.io",
-    "website": "https://mantrachain.io"
+    "website": "https://mantrachain.io/"
   },
   "chainId": "eip155:5888",
   "chainName": "MANTRA EVM",
