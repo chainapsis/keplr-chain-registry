@@ -55,7 +55,6 @@
   "features": [
 		"eth-address-gen",
 		"eth-key-sign",
-		"ibc-transfer",
 		"ibc-go"
   ]
 }
