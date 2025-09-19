@@ -1,6 +1,6 @@
 {
   "rpc": "https://rpc.epix.zone",
-  "rest": "https://epix.api.silknodes.io",
+  "rest": "https://api.epix.zone",
   "chainId": "epix_1916-1",
   "chainName": "Epix",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/epix_1916/chain.png",
