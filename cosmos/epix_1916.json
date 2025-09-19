@@ -54,7 +54,6 @@
   ],
   "features": [
 		"eth-address-gen",
-		"eth-key-sign",
-		"ibc-go"
+		"eth-key-sign"
   ]
 }
