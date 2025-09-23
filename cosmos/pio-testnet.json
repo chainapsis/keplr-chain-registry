@@ -49,5 +49,6 @@
     "coinDenom": "HASH",
     "coinGeckoId": "provenance-blockchain",
     "coinMinimalDenom": "nhash"
-  }
+  },
+  "isTestnet": true
 }

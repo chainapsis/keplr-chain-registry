@@ -1,9 +1,9 @@
 {
     "chainId": "kima_testnet",
-    "chainName": "Kima Network Testnet",
+    "chainName": "Kima Sardis Network (Testnet)",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kima_testnet/chain.png",
-    "rpc": "https://rpc-testnet.kima.finance/",
-    "rest": "https://api-testnet.kima.finance/",
+    "rpc": "https://rpc.sardis.kima.network/",
+    "rest": "https://api.sardis.kima.network/",
     "nodeProvider": {
       "name": "Kima Network",
       "email": "support@kima.network",
@@ -46,5 +46,6 @@
       "coinMinimalDenom": "uKIMA",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kima_testnet/chain.png"
-    }
+    },
+    "isTestnet": true
   }

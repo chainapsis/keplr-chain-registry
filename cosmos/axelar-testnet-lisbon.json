@@ -133,5 +133,6 @@
       }
     }
   ],
-  "features": ["axelar-evm-bridge"]
+  "features": ["axelar-evm-bridge"],
+  "isTestnet": true
 }
