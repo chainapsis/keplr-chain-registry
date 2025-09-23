@@ -28,7 +28,7 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zig-test/uzig.png"
     },
     {
-      "coinDenom": "STZIG",
+      "coinDenom": "stzig",
       "coinMinimalDenom": "coin.zig1q5cuxuekvjdsl3l2t87jv83gdwjryc4hmh8s90y7mwgpyfwkqutsy9tqak.stzig",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zig-test/stzig.png"
