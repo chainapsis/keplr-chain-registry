@@ -25,6 +25,12 @@
         "coinDecimals": 6,
         "coinGeckoId": "zignaly",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zigchain/uzig.png"
+      },
+      {
+        "coinDenom": "stzig",
+        "coinMinimalDenom": "coin.zig109f7g2rzl2aqee7z6gffn8kfe9cpqx0mjkk7ethmx8m2hq4xpe9snmaam2.stzig",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zigchain/stzig.png"
       }
     ],
     "feeCurrencies": [
