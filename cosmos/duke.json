@@ -22,6 +22,12 @@
   },
   "currencies": [
     {
+      "coinDenom": "NOBLE",
+      "coinMinimalDenom": "anoble",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/duke/anoble.png"
+    },
+    {
       "coinDenom": "USDC",
       "coinMinimalDenom": "uusdc",
       "coinDecimals": 6,
@@ -37,7 +43,7 @@
       "gasPriceStep": {
         "low": 0.1,
         "average": 0.1,
-        "high": 0.2
+        "high": 0.1
       }
     }
   ],
