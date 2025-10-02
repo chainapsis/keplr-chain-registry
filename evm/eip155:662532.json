@@ -18,6 +18,12 @@
       "coinMinimalDenom": "noble-applayer-devnet-native",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:662532/noble-applayer-devnet-native.png"
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "erc20:0x99542A390463f14666dC253A4d4975EF9F6536a7",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:662532/erc20/0x99542A390463f14666dC253A4d4975EF9F6536a7.png"
     }
   ],
   "feeCurrencies": [
