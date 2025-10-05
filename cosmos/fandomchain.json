@@ -1,7 +1,7 @@
 {
     "chainId": "fandomChain",
     "chainName": "FANDOMCHAIN Network",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zigchain/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fandomchain/chain.png",
     "rpc": "http://vps-86cd20a9.vps.ovh.net:26657",
     "rest": "http://vps-86cd20a9.vps.ovh.net:1317",
      "nodeProvider": {
