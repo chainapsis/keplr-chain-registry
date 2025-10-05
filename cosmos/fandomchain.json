@@ -1,0 +1,50 @@
+{
+    "chainId": "fandomChain",
+    "chainName": "FANDOMCHAIN Network",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zigchain/chain.png",
+    "rpc": "http://vps-86cd20a9.vps.ovh.net:26657",
+    "rest": "http://vps-86cd20a9.vps.ovh.net:1317",
+     "nodeProvider": {
+      "name": "fandomChain",
+      "email": "fandomchaincontact@gmail.com",
+      "website": "https://fandom-chain-website.vercel.app"
+    },
+    "bip44": { "coinType": 118 },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "cosmos",
+      "bech32PrefixAccPub": "cosmospub",
+      "bech32PrefixValAddr": "cosmosvaloper",
+      "bech32PrefixValPub": "cosmosvaloperpub",
+      "bech32PrefixConsAddr": "cosmosvalcons",
+      "bech32PrefixConsPub": "cosmosvalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "FANDOMCHAIN",
+        "coinMinimalDenom": "fandomChain",
+        "coinDecimals": 0
+      },
+      {
+        "coinDenom": "TOKEN",
+        "coinMinimalDenom": "token",
+        "coinDecimals": 0
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "FANDOMCHAIN",
+        "coinMinimalDenom": "fandomChain",
+        "coinDecimals": 0
+      },
+      {
+        "coinDenom": "TOKEN",
+        "coinMinimalDenom": "token",
+        "coinDecimals": 0
+      }
+    ],
+    "stakeCurrency": {
+      "coinDenom": "FANDOMCHAIN",
+      "coinMinimalDenom": "fandomChain",
+      "coinDecimals": 0
+    }
+  }
