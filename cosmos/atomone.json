@@ -28,7 +28,8 @@
       "coinDenom": "PHOTON",
       "coinMinimalDenom": "uphoton",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/atomone/photon.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/atomone/photon.png",
+      "coinGeckoId": "photon-2"
     }
   ],
   "feeCurrencies": [
@@ -36,6 +37,7 @@
       "coinDenom": "PHOTON",
       "coinMinimalDenom": "uphoton",
       "coinDecimals": 6,
+      "coinGeckoId": "photon-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/atomone/photon.png",
       "gasPriceStep": {
         "low": 0.225,
