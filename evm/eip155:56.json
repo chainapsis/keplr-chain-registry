@@ -42,7 +42,7 @@
       "coinDecimals": 18,
       "coinGeckoId": "seraph",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:56/erc20/0xd6b48ccf41a62eb3891e58d0f006b19b01d50cca.png"
-    },
+    }
   ],
   "feeCurrencies": [
     {
