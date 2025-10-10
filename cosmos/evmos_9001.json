@@ -1,11 +1,11 @@
 {
-  "rpc": "https://rpc-evmos.keplr.app",
-  "rest": "https://lcd-evmos.keplr.app",
+  "rpc": "https://evmos-rpc.publicnode.com",
+  "rest": "https://evmos-rest.publicnode.com",
   "chainId": "evmos_9001-2",
   "chainName": "Evmos",
   "evm": {
     "chainId": 9001,
-    "rpc": "https://evm-evmos.keplr.app"
+    "rpc": "https://evmos-evm.publicnode.com"
   },
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/evmos_9001/chain.png",
   "stakeCurrency": {
