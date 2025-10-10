@@ -15,7 +15,6 @@
     "coinDenom": "OM",
     "coinMinimalDenom": "aom",
     "coinDecimals": 18,
-    "coinGeckoId": "mantra-dao",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5887/om.png"
   },
   "currencies": [
@@ -23,7 +22,6 @@
       "coinDenom": "OM",
       "coinMinimalDenom": "aom",
       "coinDecimals": 18,
-      "coinGeckoId": "mantra-dao",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5887/om.png"
     }
   ],
@@ -32,7 +30,6 @@
       "coinDenom": "OM",
       "coinMinimalDenom": "aom",
       "coinDecimals": 18,
-      "coinGeckoId": "mantra-dao",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5887/om.png"
     }
   ],

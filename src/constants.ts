@@ -51,6 +51,7 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "pocket",
   "xrplevm_1440000",
   "union",
+  "lumera-mainnet",
   "eip155:1",
   "eip155:10",
   "eip155:56",
