@@ -21,30 +21,20 @@
     "currencies": [
       {
         "coinDenom": "FANDOMCHAIN",
-        "coinMinimalDenom": "fandomChain",
-        "coinDecimals": 0
-      },
-      {
-        "coinDenom": "TOKEN",
-        "coinMinimalDenom": "token",
-        "coinDecimals": 0
+        "coinMinimalDenom": "ufandomChain",
+        "coinDecimals": 9  
       }
     ],
     "feeCurrencies": [
       {
         "coinDenom": "FANDOMCHAIN",
-        "coinMinimalDenom": "fandomChain",
-        "coinDecimals": 0
-      },
-      {
-        "coinDenom": "TOKEN",
-        "coinMinimalDenom": "token",
-        "coinDecimals": 0
+        "coinMinimalDenom": "ufandomChain",
+        "coinDecimals": 9  
       }
     ],
     "stakeCurrency": {
       "coinDenom": "FANDOMCHAIN",
-      "coinMinimalDenom": "fandomChain",
-      "coinDecimals": 0
+      "coinMinimalDenom": "ufandomChain",
+      "coinDecimals": 9  
     }
   }
