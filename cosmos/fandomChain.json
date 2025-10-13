@@ -1,7 +1,7 @@
 {
     "chainId": "fandomChain",
     "chainName": "FANDOMCHAIN Network",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fandomchain/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fandomChain/chain.png",
     "rpc": "https://rpc.fandomchain.com",
     "rest": "https://api.fandomchain.com",
      "nodeProvider": {
