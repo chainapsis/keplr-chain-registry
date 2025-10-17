@@ -16,6 +16,7 @@
       "coinDenom": "HYPE",
       "coinMinimalDenom": "hyperevm-native",
       "coinDecimals": 18,
+      "coinGeckoId": "hyperliquid",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:999/hyperevm-native.png"
     }
   ],
@@ -24,6 +25,7 @@
       "coinDenom": "HYPE",
       "coinMinimalDenom": "hyperevm-native",
       "coinDecimals": 18,
+      "coinGeckoId": "hyperliquid",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:999/hyperevm-native.png"
     }
   ],
