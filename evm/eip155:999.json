@@ -1,6 +1,6 @@
 {
-  "rpc": "https://hyperliquid.drpc.org",
-  "websocket": "wss://hyperliquid.drpc.org",
+  "rpc": "https://rpc.hyperliquid.xyz/evm",
+  "websocket": "wss://hyperliquid.xyz/evm",
   "nodeProvider": {
     "name": "dRPC",
     "website": "https://drpc.org/",
