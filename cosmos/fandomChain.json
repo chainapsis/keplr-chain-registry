@@ -11,12 +11,12 @@
     },
     "bip44": { "coinType": 118 },
     "bech32Config": {
-      "bech32PrefixAccAddr": "cosmos",
-      "bech32PrefixAccPub": "cosmospub",
-      "bech32PrefixValAddr": "cosmosvaloper",
-      "bech32PrefixValPub": "cosmosvaloperpub",
-      "bech32PrefixConsAddr": "cosmosvalcons",
-      "bech32PrefixConsPub": "cosmosvalconspub"
+      "bech32PrefixAccAddr": "fandom",
+      "bech32PrefixAccPub": "fandompub",
+      "bech32PrefixValAddr": "fandomvaloper",
+      "bech32PrefixValPub": "fandomvaloperpub",
+      "bech32PrefixConsAddr": "fandomvalcons",
+      "bech32PrefixConsPub": "fandomvalconspub"
     },
     "currencies": [
       {
