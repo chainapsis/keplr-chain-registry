@@ -86,4 +86,5 @@ export const nativeTestnetChainIdentifiers: string[] = [
   "athens_7001",
   "mantra-dukong",
   "grand",
+  "bbn-test",
 ];
