@@ -32,6 +32,12 @@
       "coinMinimalDenom": "upasg",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/passage-2-testnet/upasg.png"
+    },
+    {
+      "coinDenom": "ATOM",
+      "coinMinimalDenom": "ibc/63464862A712B7A127CD7218EAA2B56BFD7385103D4425C5926BD7341A2D241C",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/passage-2-testnet/ibc/63464862A712B7A127CD7218EAA2B56BFD7385103D4425C5926BD7341A2D241C.png"
     }
   ],
   "feeCurrencies": [
@@ -44,6 +50,17 @@
         "low": 12.5,
         "average": 12.5,
         "high": 12.5
+      }
+    },
+    {
+      "coinDenom": "ATOM",
+      "coinMinimalDenom": "ibc/63464862A712B7A127CD7218EAA2B56BFD7385103D4425C5926BD7341A2D241C",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/passage-2-testnet/ibc/63464862A712B7A127CD7218EAA2B56BFD7385103D4425C5926BD7341A2D241C.png",
+      "gasPriceStep": {
+        "average": 0.025,
+        "high": 0.03,
+        "low": 0.005
       }
     }
   ],
