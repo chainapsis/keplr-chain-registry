@@ -92,7 +92,7 @@
       {
         "coinDenom": "GAS",
         "coinMinimalDenom": "gas",
-        "coinDecimals": 18, 
+        "coinDecimals": 18
       }
 
     ],
