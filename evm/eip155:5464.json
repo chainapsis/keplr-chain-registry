@@ -88,6 +88,11 @@
         "coinDecimals": 6,
         "coinGeckoId": "noble-dollar-usdn",
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/erc20/0xE9A5C89eCff4323344cFaA4c659EFa42C80FE6cc.png"
+      },
+      {
+        "coinDenom": "GAS",
+        "coinMinimalDenom": "gas",
+        "coinDecimals": 18, 
       }
 
     ],
