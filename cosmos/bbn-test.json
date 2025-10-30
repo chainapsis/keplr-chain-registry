@@ -1,6 +1,6 @@
 {
   "chainId": "bbn-test-6",
-  "chainName": "Babylon Phase-2 Testnet",
+  "chainName": "Babylon Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/chain.png",
   "rpc": "https://rpc-babylon-testnet.keplr.app",
   "rest": "https://lcd-babylon-testnet.keplr.app",

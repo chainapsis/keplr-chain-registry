@@ -55,13 +55,6 @@
         "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5464/erc20/0xF11a9b22EA9D241607474C924561B39a1FF0BEe3.png" 
       },
       {
-        "coinDenom": "tBTC",
-        "coinMinimalDenom": "erc20:0xa740e6758e309840ffffe58f749f018386a3b70b",
-        "coinDecimals": 18,
-        "coinGeckoId": "tBTC",
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/erc20/0xa740E6758e309840ffFfe58f749F018386A3b70b.png"
-      },
-      {
         "coinDenom": "stATOM",
         "coinMinimalDenom": "erc20:0xDaF9d9032b5d5C92528d6aFf6a215514B7c21056",
         "coinDecimals": 6,

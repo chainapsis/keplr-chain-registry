@@ -46,5 +46,5 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/union/chain.png"
   },
   "features": ["cosmwasm"],
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/union"
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/union?modal=staking&chain=union-1&step_id=2"
 }

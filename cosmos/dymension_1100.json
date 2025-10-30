@@ -49,6 +49,6 @@
       }
     }
   ],
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/dymension",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/dymension?modal=staking&chain=dymension_1100-1&step_id=2",
   "features": ["eth-address-gen", "eth-key-sign"]
 }

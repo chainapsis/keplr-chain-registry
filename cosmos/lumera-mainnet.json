@@ -4,7 +4,7 @@
   "chainId": "lumera-mainnet-1",
   "chainName": "Lumera",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lumera-mainnet/chain.png",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/lumera",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/lumera?modal=staking&chain=lumera-mainnet-1&step_id=2",
   "stakeCurrency": {
     "coinDenom": "LUME",
     "coinMinimalDenom": "ulume",
