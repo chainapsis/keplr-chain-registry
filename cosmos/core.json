@@ -11,7 +11,7 @@
     "coinGeckoId": "persistence",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/uxprt.png"
   },
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/persistence-one",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/persistence-one?modal=staking&chain=core-1&step_id=2",
   "bip44": {
     "coinType": 118
   },

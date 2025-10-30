@@ -5,7 +5,7 @@
   "rpc": "https://rpc-likecoin.keplr.app",
   "rest": "https://lcd-likecoin.keplr.app",
   "walletUrl": "https://wallet.keplr.app/chains/likecoin",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/likecoin",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/likecoin?modal=staking&chain=likecoin-mainnet-2&step_id=2",
   "bip44": {
     "coinType": 118
   },

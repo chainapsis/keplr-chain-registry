@@ -15,7 +15,7 @@
     "bech32PrefixConsAddr": "poktvalcons",
     "bech32PrefixConsPub": "poktvalconspub"
   },
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/pocket-network",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/pocket-network?modal=staking&chain=pocket&step_id=2",
   "currencies": [
     {
       "coinDenom": "POKT",

@@ -16,7 +16,7 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/evmos_9001/aevmos.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/evmos",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/evmos",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/evmos?modal=staking&chain=evmos_9001-2&step_id=2",
   "bip44": {
     "coinType": 60
   },

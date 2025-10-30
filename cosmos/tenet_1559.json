@@ -17,7 +17,7 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tenet_1559/tenet.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/tenet",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/tenet",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/tenet?modal=staking&chain=tenet_1559-1&step_id=2",
   "bip44": {
     "coinType": 60
   },
