@@ -2,8 +2,8 @@
   "chainId": "shardeum_8118-1",
   "chainName": "Shardeum",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shardeum_8118/chain.png",
-  "rpc": "https://gcp.rpc.shardeum.org",
-  "rest": "https://gcp.rest.shardeum.org",
+  "rpc": "https://rpc.shardeum.org",
+  "rest": "https://rest.shardeum.org",
   "nodeProvider": {
     "name": "Shardeum",
     "email": "support@shardeum.org",
