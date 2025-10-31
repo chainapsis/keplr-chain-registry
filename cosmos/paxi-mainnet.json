@@ -1,0 +1,48 @@
+{
+  "chainId": "paxi-mainnet",
+  "chainName": "Paxi Network",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/paxi-mainnet/chain.png",
+  "rpc": "https://mainnet-rpc.paxinet.io",
+  "rest": "https://mainnet-lcd.paxinet.io",
+  "nodeProvider": {
+    "name": "Paxi Foundation",
+    "email": "support@paxinet.io",
+    "website": "https://paxinet.io"
+  },
+  "walletUrlForStaking": "https://ping.pub/paxi/staking",
+  "bip44": { "coinType": 118 },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "paxi",
+    "bech32PrefixAccPub": "paxipub",
+    "bech32PrefixValAddr": "paxivaloper",
+    "bech32PrefixValPub": "paxivaloperpub",
+    "bech32PrefixConsAddr": "paxivalcons",
+    "bech32PrefixConsPub": "paxivalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "PAXI",
+      "coinMinimalDenom": "upaxi",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/paxi-mainnet/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "PAXI",
+      "coinMinimalDenom": "upaxi",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/paxi-mainnet/chain.png",
+      "gasPriceStep": { "low": 0.035, "average": 0.055, "high": 0.075 }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "PAXI",
+    "coinMinimalDenom": "upaxi",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/paxi-mainnet/chain.png"
+  },
+  "features": ["cosmwasm"],
+  "isTestnet": false
+}
+

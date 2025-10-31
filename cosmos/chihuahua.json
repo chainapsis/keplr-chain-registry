@@ -100,5 +100,5 @@
     }
   ],
   "features": ["cosmwasm"],
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/chihuahua"
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/chihuahua?modal=staking&chain=chihuahua-1&step_id=2"
 }

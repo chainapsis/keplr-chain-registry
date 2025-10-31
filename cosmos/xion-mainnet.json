@@ -4,7 +4,7 @@
   "chainId": "xion-mainnet-1",
   "chainName": "XION",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xion-mainnet/chain.png",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/xion",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/xion?modal=staking&chain=xion-mainnet-1&step_id=2",
   "stakeCurrency": {
     "coinDenom": "XION",
     "coinMinimalDenom": "uxion",

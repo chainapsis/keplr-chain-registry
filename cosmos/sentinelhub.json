@@ -12,7 +12,7 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sentinelhub/udvpn.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/sentinel",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/sentinel",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/sentinel?modal=staking&chain=sentinelhub-2&step_id=2",
   "bip44": {
     "coinType": 118
   },

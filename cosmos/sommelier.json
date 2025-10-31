@@ -12,7 +12,7 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sommelier/usomm.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/sommelier",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/sommelier",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/sommelier?modal=staking&chain=sommelier-3&step_id=2",
   "bip44": {
     "coinType": 118
   },

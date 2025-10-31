@@ -3,7 +3,7 @@
   "rest": "https://lcd-injective.keplr.app",
   "chainId": "injective-1",
   "chainName": "Injective",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/injective",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/injective?modal=staking&chain=injective-1&step_id=2",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/inj.png",
   "bech32Config": {
     "bech32PrefixAccPub": "injpub",

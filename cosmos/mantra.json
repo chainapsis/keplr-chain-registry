@@ -1,7 +1,7 @@
 {
   "chainId": "mantra-1",
   "chainName": "MANTRA",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/mantra",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/mantra?modal=staking&chain=mantra-1&step_id=2",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra/chain.png",
   "rpc": "https://rpc-mantra.keplr.app",
   "rest": "https://lcd-mantra.keplr.app",
@@ -52,5 +52,5 @@
     "coinGeckoId": "mantra-dao",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra/om.png"
   },
-  "features": ["cosmwasm"]
+  "features": ["cosmwasm", "evm-feemarket"]
 }

@@ -35,6 +35,13 @@
       "coinDecimals": 18,
       "coinGeckoId": "tether",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:56/erc20/0x55d398326f99059fF775485246999027B3197955.png"
+    },
+    {
+      "coinDenom": "SERAPH",
+      "coinMinimalDenom": "erc20:0xd6b48ccf41a62eb3891e58d0f006b19b01d50cca",
+      "coinDecimals": 18,
+      "coinGeckoId": "seraph",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:56/erc20/0xd6b48ccf41a62eb3891e58d0f006b19b01d50cca.png"
     }
   ],
   "feeCurrencies": [

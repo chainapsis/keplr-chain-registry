@@ -1,0 +1,51 @@
+{
+  "chainId": "optio",
+  "chainName": "Optio",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/optio/opt.png",
+  "rpc": "https://rpc.optio.zone",
+  "rest": "https://api.optio.zone",
+  "nodeProvider": {
+    "name": "Optio Team",
+    "email": "support@optio.community",
+    "website": "https://optio.community"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "optio",
+    "bech32PrefixAccPub": "optiopub",
+    "bech32PrefixValAddr": "optiovaloper",
+    "bech32PrefixValPub": "optiovaloperpub",
+    "bech32PrefixConsAddr": "optiovalcons",
+    "bech32PrefixConsPub": "optiovalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "OPT",
+      "coinMinimalDenom": "uOPT",
+      "coinDecimals": 6,
+      "coinGeckoId": "optio",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/optio/opt.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "OPT",
+      "coinMinimalDenom": "uOPT",
+      "coinDecimals": 6,
+      "coinGeckoId": "optio",
+      "gasPriceStep": {
+        "low": 1.0,
+        "average": 1.5,
+        "high": 2.0
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "OPT",
+    "coinMinimalDenom": "uOPT",
+    "coinDecimals": 6,
+    "coinGeckoId": "optio"
+  }
+}

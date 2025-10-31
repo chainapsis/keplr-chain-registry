@@ -45,7 +45,7 @@
     "coinGeckoId": "seda-2",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/seda/chain.png"
   },
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/seda",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/seda?modal=staking&chain=seda-1&step_id=2",
   "features": [
     "cosmwasm"
   ]

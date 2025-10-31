@@ -12,7 +12,7 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kava_2222/ukava.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/kava",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/kava",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/kava?modal=staking&chain=kava_2222-10&step_id=2",
   "bip44": {
     "coinType": 459
   },

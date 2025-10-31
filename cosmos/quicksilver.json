@@ -11,7 +11,7 @@
     "coinGeckoId": "quicksilver",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/quicksilver/uqck.png"
   },
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/quicksilver",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/quicksilver?modal=staking&chain=quicksilver-2&step_id=2",
   "bip44": {
     "coinType": 118
   },
