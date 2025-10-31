@@ -59,28 +59,34 @@
         "coinMinimalDenom": "erc20:0xDaF9d9032b5d5C92528d6aFf6a215514B7c21056",
         "coinDecimals": 6,
         "coinGeckoId": "stride-staked-atom",
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/erc20/0xDaF9d9032b5d5C92528d6aFf6a215514B7c21056.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5464/erc20/0xDaF9d9032b5d5C92528d6aFf6a215514B7c21056.png"
       },
       {
         "coinDenom": "KING",
         "coinMinimalDenom": "erc20:0x58d9fbBc6037dedfBA99cAfA28e4C371b795ad97",
         "coinDecimals": 18,
         "coinGeckoId": "lrt-squared",
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/erc20/0x58d9fbBc6037dedfBA99cAfA28e4C371b795ad97.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5464/erc20/0x58d9fbBc6037dedfBA99cAfA28e4C371b795ad97.png"
       },
       {
         "coinDenom": "rETH",
         "coinMinimalDenom": "erc20:0x679121f168488185eca6Aaa3871687FF6d38Edb6",
         "coinDecimals": 18,
         "coinGeckoId": "rocket-pool-eth",
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/erc20/0x679121f168488185eca6Aaa3871687FF6d38Edb6.png" 
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5464/erc20/0x679121f168488185eca6Aaa3871687FF6d38Edb6.png" 
       },
       {
         "coinDenom": "USDN",
         "coinMinimalDenom": "erc20:0xE9A5C89eCff4323344cFaA4c659EFa42C80FE6cc",
         "coinDecimals": 6,
         "coinGeckoId": "noble-dollar-usdn",
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/erc20/0xE9A5C89eCff4323344cFaA4c659EFa42C80FE6cc.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5464/erc20/0xE9A5C89eCff4323344cFaA4c659EFa42C80FE6cc.png"
+      },
+      {
+        "coinDenom": "MUST",
+        "coinMinimalDenom": "erc20:0xf4e4f7b7a09c50d3cc710151536b88b48422f48b",
+        "coinDecimals": 18,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5464/erc20/0xF4e4F7b7A09C50d3cc710151536b88B48422f48B.png"
       },
       {
         "coinDenom": "GAS",
