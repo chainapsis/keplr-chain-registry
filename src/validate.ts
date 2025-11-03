@@ -348,6 +348,14 @@ export const checkCurrencies = (chainInfo: ChainInfo) => {
       ) {
         continue;
       }
+      // 오스모시스 위의 나마다도 봐준다.
+      if (
+        ChainIdHelper.parse(chainInfo.chainId).identifier === "osmosis" &&
+        currency.coinMinimalDenom ===
+          "ibc/C7110DEC66869DAE9BE9C3C60F4B5313B16A2204AE020C3B0527DD6B322386A3"
+      ) {
+        continue;
+      }
       if (
         ChainIdHelper.parse(chainInfo.chainId).identifier === "neutron" &&
         currency.coinMinimalDenom ===
