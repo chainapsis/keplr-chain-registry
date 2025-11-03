@@ -3,7 +3,7 @@
     "websocket": "wss://sagaevm-5464-1.ws.sagarpc.io",
     "nodeProvider": {
       "name": "Saga",
-      "email": "contact@keplr.app",
+      "email": "contact@saga.xyz",
       "website": "https://www.saga.xyz/"
     },
     "chainId": "eip155:5464", 
