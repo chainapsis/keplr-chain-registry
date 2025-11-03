@@ -1,7 +1,7 @@
 {
-    "chainId": "gonka",
+    "chainId": "gonka-mainnet",
     "chainName": "gonka",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/keplr-chain-registry/images/gonka/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gonka-mainnet/chain.png",
     "rpc":"https://gonka04.6block.com:8443/chain-rpc/",
     "rest": "https://gonka04.6block.com:8443/chain-api/",    
   "nodeProvider":{
@@ -25,7 +25,7 @@
       "coinDenom": "GNK",
       "coinMinimalDenom": "ngonka",
       "coinDecimals": 9,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gonka/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gonka-mainnet/chain.png"
     }
   ],
   "feeCurrencies": [
