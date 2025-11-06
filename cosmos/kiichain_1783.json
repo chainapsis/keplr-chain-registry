@@ -2,7 +2,7 @@
     "rpc": "https://rpc.kiivalidator.com",
     "rest": "https://lcd.kiivalidator.com",
     "chainId": "kiichain_1783-1",
-    "chainName": "Kii Testnet Oro",
+    "chainName": "Kiichain",
     "evm": {
         "chainId": 1783,
         "rpc": "https://json-rpc.kiivalidator.com"
