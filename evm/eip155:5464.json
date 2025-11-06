@@ -86,7 +86,7 @@
         "coinDenom": "MUST",
         "coinMinimalDenom": "erc20:0x541ed792855719d0b88a4274f1cd7f47ff9ec80b",
         "coinDecimals": 18,
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5464/erc20/0xF4e4F7b7A09C50d3cc710151536b88B48422f48B.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5464/erc20/0x541ed792855719d0b88a4274f1cd7f47ff9ec80b.png"
       },
       {
         "coinDenom": "GAS",
