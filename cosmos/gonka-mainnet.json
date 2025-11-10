@@ -1,6 +1,6 @@
 {
     "chainId": "gonka-mainnet",
-    "chainName": "gonka",
+    "chainName": "Gonka",
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gonka-mainnet/chain.png",
     "rpc":"https://gonka04.6block.com:8443/chain-rpc/",
     "rest": "https://gonka04.6block.com:8443/chain-api/",    
