@@ -46,5 +46,5 @@
     "coinMinimalDenom": "uatom",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/uatom.png"
   },
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/cosmos-hub"
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/cosmos-hub?modal=staking&chain=cosmoshub-4&step_id=2"
 }

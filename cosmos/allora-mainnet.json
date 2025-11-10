@@ -35,9 +35,9 @@
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/allora-mainnet/uallo.png",
       "gasPriceStep": {
-        "low": 10,
-        "average": 10,
-        "high": 12
+        "low": 500000000,
+        "average": 1000000000,
+        "high": 1500000000
       }
     }
   ],

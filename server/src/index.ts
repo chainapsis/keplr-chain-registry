@@ -36,7 +36,17 @@ const loadChains = async () => {
       fs.readFile(Path.join(cosmosChainsDirectory, fileName), "utf8"),
     ),
   );
-  cosmosChainInfos = cosmosChainContents.map((content) => JSON.parse(content));
+  cosmosChainInfos = cosmosChainContents
+    .filter((content) => {
+      try {
+        JSON.parse(content);
+        return true;
+      } catch (e) {
+        console.error("failed to parse chain info", content, e);
+        return false;
+      }
+    })
+    .map((content) => JSON.parse(content));
 
   const evmChainsDirectory = Path.join(__dirname, "static", "evm");
   const evmChainFiles = await fs.readdir(evmChainsDirectory);
@@ -45,24 +55,34 @@ const loadChains = async () => {
       fs.readFile(Path.join(evmChainsDirectory, fileName), "utf8"),
     ),
   );
-  evmChainInfos = evmChainContents.map((content) => {
-    const evmChainInfo = JSON.parse(content);
-    const chainId = parseInt(evmChainInfo.chainId.replace("eip155:", ""), 10);
-    return {
-      ...evmChainInfo,
-      rest: evmChainInfo.rpc,
-      evm: {
-        chainId,
-        rpc: evmChainInfo.rpc,
-        websocket: evmChainInfo.websocket,
-      },
-      features: [
-        "eth-address-gen",
-        "eth-key-sign",
-        ...(evmChainInfo.features || []),
-      ],
-    };
-  });
+  evmChainInfos = evmChainContents
+    .filter((content) => {
+      try {
+        JSON.parse(content);
+        return true;
+      } catch (e) {
+        console.error("failed to parse chain info", content, e);
+        return false;
+      }
+    })
+    .map((content) => {
+      const evmChainInfo = JSON.parse(content);
+      const chainId = parseInt(evmChainInfo.chainId.replace("eip155:", ""), 10);
+      return {
+        ...evmChainInfo,
+        rest: evmChainInfo.rpc,
+        evm: {
+          chainId,
+          rpc: evmChainInfo.rpc,
+          websocket: evmChainInfo.websocket,
+        },
+        features: [
+          "eth-address-gen",
+          "eth-key-sign",
+          ...(evmChainInfo.features || []),
+        ],
+      };
+    });
 
   cosmosChainInfos = cosmosChainInfos.sort((a, b) =>
     a.chainName.localeCompare(b.chainName),
