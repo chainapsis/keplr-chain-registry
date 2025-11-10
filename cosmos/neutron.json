@@ -7,7 +7,7 @@
   "bip44": {
     "coinType": 118
   },
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/neutron",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/neutron?modal=staking&chain=neutron-1&step_id=2",
   "bech32Config": {
     "bech32PrefixAccAddr": "neutron",
     "bech32PrefixAccPub": "neutronpub",
@@ -198,6 +198,18 @@
       "coinMinimalDenom": "factory/neutron1r5qx58l3xx2y8gzjtkqjndjgx69mktmapl45vns0pa73z0zpn7fqgltnll/TAB",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron1r5qx58l3xx2y8gzjtkqjndjgx69mktmapl45vns0pa73z0zpn7fqgltnll/TAB.png"
+    },
+    {
+      "coinDenom": "maxBTC",
+      "coinMinimalDenom": "factory/neutron17sp75wng9vl2hu3sf4ky86d7smmk3wle9gkts2gmedn9x4ut3xcqa5xp34/maxbtc",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron17sp75wng9vl2hu3sf4ky86d7smmk3wle9gkts2gmedn9x4ut3xcqa5xp34/maxbtc.png"
+    },
+    {
+      "coinDenom": "SEED",
+      "coinMinimalDenom": "factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/seed",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutron/factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/seed.png"
     }
   ],
   "feeCurrencies": [

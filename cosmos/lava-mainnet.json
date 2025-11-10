@@ -46,5 +46,5 @@
     }
   ],
   "features": [],
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/lava"
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/lava?modal=staking&chain=lava-mainnet-1&step_id=2"
 }

@@ -12,7 +12,7 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/crypto-org-chain-mainnet/basecro.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/crypto-org",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/crypto-org",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/crypto-org?modal=staking&chain=crypto-org-chain-mainnet-1&step_id=2",
   "bip44": {
     "coinType": 394
   },
