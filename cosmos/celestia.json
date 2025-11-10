@@ -46,5 +46,5 @@
     "coinMinimalDenom": "utia",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/celestia/utia.png"
   },
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/celestia"
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/celestia?modal=staking&chain=celestia&step_id=2"
 }
