@@ -1,0 +1,50 @@
+{
+    "chainId": "gonka-mainnet",
+    "chainName": "Gonka",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gonka-mainnet/chain.png",
+    "rpc":"https://gonka04.6block.com:8443/chain-rpc/",
+    "rest": "https://gonka04.6block.com:8443/chain-api/",    
+  "nodeProvider":{
+    "name": "6block",
+    "email": "hello@productscience.ai",
+    "website": "http://gonka.ai"
+  },
+  "bip44": {
+    "coinType": 1200
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "gonka",
+    "bech32PrefixAccPub": "gonkapub",
+    "bech32PrefixValAddr": "gonkavaloper",
+    "bech32PrefixValPub": "gonkavaloperpub",
+    "bech32PrefixConsAddr": "gonkavalcons",
+    "bech32PrefixConsPub": "gonkavalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "GNK",
+      "coinMinimalDenom": "ngonka",
+      "coinDecimals": 9,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gonka-mainnet/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "GNK",
+      "coinMinimalDenom": "ngonka",
+      "coinDecimals": 9,
+      "gasPriceStep": {
+        "low": 0,
+        "average": 0,
+        "high": 0
+      }
+    }
+  ],
+  "stakeCurrency": 
+  {
+    "coinDenom": "GNK",
+    "coinMinimalDenom": "ngonka",
+    "coinDecimals": 9
+  },
+  "features": ["cosmwasm"]
+} 
