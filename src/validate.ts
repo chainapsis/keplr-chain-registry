@@ -445,6 +445,7 @@ export const validateCoinGeckoIds = (chainInfo: ChainInfo): void => {
     }
 
     if (
+      !chainInfo.stakeCurrency.coinGeckoId &&
       [...chainInfo.currencies, ...chainInfo.feeCurrencies].some(
         (c) =>
           c.coinMinimalDenom === chainInfo.stakeCurrency?.coinMinimalDenom &&
