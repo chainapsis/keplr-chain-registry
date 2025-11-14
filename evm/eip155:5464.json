@@ -13,7 +13,12 @@
       "coinType": 60
     },
     "currencies": [
-        {
+      {
+        "coinDenom": "GAS",
+        "coinMinimalDenom": "gas",
+        "coinDecimals": 18
+      },  
+      {
         "coinDenom": "SAGA",
         "coinMinimalDenom": "erc20:0xA19377761FED745723B90993988E04d641c2CfFE",
         "coinDecimals": 6,
@@ -84,16 +89,10 @@
       },
       {
         "coinDenom": "MUST",
-        "coinMinimalDenom": "erc20:0x541ed792855719d0b88a4274f1cd7f47ff9ec80b",
+        "coinMinimalDenom": "erc20:0xa8b56ce258a7f55327bde886b0e947ee059ca434",
         "coinDecimals": 18,
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5464/erc20/0x541ed792855719d0b88a4274f1cd7f47ff9ec80b.png"
-      },
-      {
-        "coinDenom": "GAS",
-        "coinMinimalDenom": "gas",
-        "coinDecimals": 18
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5464/erc20/0xa8b56ce258a7f55327bde886b0e947ee059ca434.png"
       }
-
     ],
     "feeCurrencies": [
       {
