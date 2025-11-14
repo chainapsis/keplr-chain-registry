@@ -1,7 +1,7 @@
 
 {
   "chainId": "haqq_11235-1",
-  "chainName": "HAQQ Network",
+  "chainName": "HAQQ Network (EVM layer)",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/haqq_11235/chain.png",
   "rpc": "https://rpc.tm.haqq.network",
   "rest": "https://rest.cosmos.haqq.network",
