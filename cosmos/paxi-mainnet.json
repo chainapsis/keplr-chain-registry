@@ -23,6 +23,7 @@
     {
       "coinDenom": "PAXI",
       "coinMinimalDenom": "upaxi",
+      "coinGeckoId": "paxi-network",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/paxi-mainnet/chain.png"
     }
@@ -31,6 +32,7 @@
     {
       "coinDenom": "PAXI",
       "coinMinimalDenom": "upaxi",
+      "coinGeckoId": "paxi-network",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/paxi-mainnet/chain.png",
       "gasPriceStep": { "low": 0.035, "average": 0.055, "high": 0.075 }
@@ -39,6 +41,7 @@
   "stakeCurrency": {
     "coinDenom": "PAXI",
     "coinMinimalDenom": "upaxi",
+    "coinGeckoId": "paxi-network",
     "coinDecimals": 6,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/paxi-mainnet/chain.png"
   },
