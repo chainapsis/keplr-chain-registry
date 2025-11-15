@@ -1,0 +1,40 @@
+{
+    "chainId": "fandomChain",
+    "chainName": "FANDOMCHAIN Network",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/fandomChain/chain.png",
+    "rpc": "https://rpc.fandomchain.com",
+    "rest": "https://api.fandomchain.com",
+     "nodeProvider": {
+      "name": "fandomChain",
+      "email": "fandomchaincontact@gmail.com",
+      "website": "https://fandom-chain-website.vercel.app"
+    },
+    "bip44": { "coinType": 118 },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "fandom",
+      "bech32PrefixAccPub": "fandompub",
+      "bech32PrefixValAddr": "fandomvaloper",
+      "bech32PrefixValPub": "fandomvaloperpub",
+      "bech32PrefixConsAddr": "fandomvalcons",
+      "bech32PrefixConsPub": "fandomvalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "FANDOMCHAIN",
+        "coinMinimalDenom": "ufandomChain",
+        "coinDecimals": 9  
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "FANDOMCHAIN",
+        "coinMinimalDenom": "ufandomChain",
+        "coinDecimals": 9  
+      }
+    ],
+    "stakeCurrency": {
+      "coinDenom": "FANDOMCHAIN",
+      "coinMinimalDenom": "ufandomChain",
+      "coinDecimals": 9  
+    }
+  }

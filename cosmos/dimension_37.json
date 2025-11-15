@@ -1,10 +1,10 @@
 {
-  "rpc": "https://dimension-rpc.xpla.io",
-  "rest": "https://dimension-lcd.xpla.io",
+  "rpc": "https://rpc-dimension.keplr.app",
+  "rest": "https://lcd-dimension.keplr.app",
   "chainId": "dimension_37-1",
   "chainName": "XPLA",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dimension_37/chain.png",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/xpla",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/xpla?modal=staking&chain=dimension_37-1&step_id=2",
   "stakeCurrency": {
     "coinDenom": "XPLA",
     "coinMinimalDenom": "axpla",

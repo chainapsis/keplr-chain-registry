@@ -12,7 +12,7 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/irishub/uiris.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/irisnet",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/irisnet",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/irisnet?modal=staking&chain=irishub-1&step_id=2",
   "bip44": {
     "coinType": 118
   },

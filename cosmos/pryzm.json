@@ -3,7 +3,7 @@
   "rest": "https://lcd-pryzm.keplr.app",
   "chainId": "pryzm-1",
   "chainName": "Pryzm",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/pryzm",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/pryzm?modal=staking&chain=pryzm-1&step_id=2",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pryzm/chain.png",
   "stakeCurrency": {
     "coinDenom": "PRYZM",

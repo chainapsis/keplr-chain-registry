@@ -22,7 +22,7 @@
     "bech32PrefixConsAddr": "pasgvalcons",
     "bech32PrefixConsPub": "pasgvalconspub"
   },
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/passage",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/passage?modal=staking&chain=passage-2&step_id=2",
   "currencies": [
     {
       "coinDenom": "PASG",

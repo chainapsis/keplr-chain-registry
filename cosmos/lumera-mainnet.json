@@ -1,13 +1,15 @@
 {
-  "rpc": "https://rpc.lumera.io",
-  "rest": "https://lcd.lumera.io",
+  "rpc": "https://rpc-lumera.keplr.app",
+  "rest": "https://lcd-lumera.keplr.app",
   "chainId": "lumera-mainnet-1",
   "chainName": "Lumera",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lumera-mainnet/chain.png",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/lumera?modal=staking&chain=lumera-mainnet-1&step_id=2",
   "stakeCurrency": {
     "coinDenom": "LUME",
     "coinMinimalDenom": "ulume",
     "coinDecimals": 6,
+    "coinGeckoId": "lumera",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lumera-mainnet/chain.png"
   },
   "bip44": {
@@ -26,6 +28,7 @@
       "coinDenom": "LUME",
       "coinMinimalDenom": "ulume",
       "coinDecimals": 6,
+      "coinGeckoId": "lumera",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lumera-mainnet/chain.png"
     }
   ],
@@ -34,6 +37,7 @@
       "coinDenom": "LUME",
       "coinMinimalDenom": "ulume",
       "coinDecimals": 6,
+      "coinGeckoId": "lumera",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lumera-mainnet/chain.png",
       "gasPriceStep": {
         "low": 0.025,
@@ -42,12 +46,5 @@
       }
     }
   ],
-  "features": [
-    "cosmwasm"
-  ],
-  "nodeProvider": {
-    "name": "Lumera Protocol",
-    "email": "security@lumera.io",
-    "website": "https://lumera.io"
-  }
+  "features": ["cosmwasm"]
 }
