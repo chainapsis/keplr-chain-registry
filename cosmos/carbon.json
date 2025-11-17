@@ -2,6 +2,7 @@
   "chainId": "carbon-1",
   "chainName": "Carbon",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/carbon/chain.png",
+  "walletUrlForStaking": "https://app.dem.exchange/stake",
   "rpc": "https://tm-api.carbon.network",
   "rest": "https://api.carbon.network",
   "nodeProvider": {
