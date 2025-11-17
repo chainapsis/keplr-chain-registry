@@ -9,6 +9,7 @@
   "chainId": "vota-ash",
   "chainName": "Dora Vota",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/vota-ash/chain.png",
+  "walletUrlForStaking": "https://vota-explorer.dorafactory.org/doravota/staking",
   "stakeCurrency": {
     "coinDenom": "DORA",
     "coinMinimalDenom": "peaka",

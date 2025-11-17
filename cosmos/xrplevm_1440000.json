@@ -4,6 +4,7 @@
   "chainId": "xrplevm_1440000-1",
   "chainName": "XRPL EVM",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xrplevm_1440000/chain.png",
+  "walletUrlForStaking": "https://explorer.nodestake.org/xrp/staking",
   "bip44": {
     "coinType": 60
   },
@@ -43,9 +44,5 @@
       }
     }
   ],
-  "features": [
-    "eth-address-gen",
-    "eth-key-sign",
-    "axelar-evm-bridge"
-  ]
+  "features": ["eth-address-gen", "eth-key-sign", "axelar-evm-bridge"]
 }
