@@ -1,5 +1,5 @@
 {
-  "rpc": "https://validators.testnet.tyranodex.xyz",
+  "rpc": "https://rpc.testnet.tyranodex.xyz",
   "rest": "https://rest.testnet.tyranodex.xyz",
   "chainId": "ritbit-local",
   "chainName": "RITBIT Testnet",
