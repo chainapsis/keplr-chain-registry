@@ -1,6 +1,6 @@
 {
   "rpc": "https://validators.testnet.tyranodex.xyz",
-  "rest": "https://rest.testnet.tyranodex.xyz/",
+  "rest": "https://rest.testnet.tyranodex.xyz",
   "chainId": "ritbit-local",
   "chainName": "RITBIT Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ritbit-testnet/chain.png",
