@@ -88,5 +88,5 @@ export const nativeTestnetChainIdentifiers: string[] = [
   "mantra-dukong",
   "grand",
   "bbn-test",
-  "ritbit-local"
+  "ritbit-local",
 ];
