@@ -31,9 +31,9 @@
       "coinGeckoId": "hash-2",
       "coinMinimalDenom": "nhash",
       "gasPriceStep": {
-        "average": 1905,
-        "high": 2500,
-        "low": 1905
+        "low": 2550,
+        "average": 2550,
+        "high": 3000
       }
     }
   ],
