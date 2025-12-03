@@ -65,6 +65,8 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "eip155:43114",
   "eip155:81457",
   "eip155:80094",
+  "eip155:57073",
+  "eip155:59144",
 ];
 
 export const nativeTestnetChainIdentifiers: string[] = [
