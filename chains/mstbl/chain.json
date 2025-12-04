@@ -51,6 +51,21 @@
       }
     ]
   },
+  "currencies": [
+    {
+      "coinDenom": "STAKE",
+      "coinMinimalDenom": "stake",
+      "coinDecimals": 0,
+      "coinGeckoId": ""
+    },
+    {
+      "coinDenom": "MSTBL",
+      "coinMinimalDenom": "umstbl",
+      "coinDecimals": 6,
+      "coinGeckoId": "",
+      "coinImageUrl": ""
+    }
+  ],
   "codebase": {
     "git_repo": "https://github.com/Million-Dollar-Stable-Coin/MSTBL",
     "recommended_version": "v1.0.0",
