@@ -33,5 +33,6 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5887/om.png"
     }
   ],
-  "features": []
+  "features": [],
+  "isTestnet": true
 }
