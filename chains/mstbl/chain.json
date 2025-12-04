@@ -6,23 +6,23 @@
   "status": "live",
   "networkType": "testnet",
   "description": "Million Stable Coin (MSTBL) - A Cosmos SDK-based blockchain for a stable coin. Built on CosmWasm with CW20 contract for token management.",
-  "website": "",
+  "website": "https://mstbl.com",
   "documentation": "README.md",
-  "repository": "https://github.com/chainapsis/keplr-chain-registry",
+  "repository": "https://github.com/rh050/MSTBL-Blockchain",
   "logo_URIs": {
-    "png": "",
+    "png": "https://raw.githubusercontent.com/rh050/MSTBL-Blockchain/main/frontend/public/MSTBL_LOGO.png",
     "svg": ""
   },
   "apis": {
     "rpc": [
       {
-        "address": "http://34.57.32.80:26657",
+        "address": "https://rpc.stbl.mstbl.com",
         "provider": "MSTBL"
       }
     ],
     "rest": [
       {
-        "address": "http://34.57.32.80:1317",
+        "address": "https://api.stbl.mstbl.com",
         "provider": "MSTBL"
       }
     ],
@@ -63,11 +63,11 @@
       "coinMinimalDenom": "cw20:wasm14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9s0phg4d",
       "coinDecimals": 6,
       "coinGeckoId": "",
-      "coinImageUrl": ""
+      "coinImageUrl": "https://raw.githubusercontent.com/rh050/MSTBL-Blockchain/main/frontend/public/MSTBL_LOGO.png"
     }
   ],
   "codebase": {
-    "git_repo": "https://github.com/Million-Dollar-Stable-Coin/MSTBL",
+    "git_repo": "https://github.com/rh050/MSTBL-Blockchain",
     "recommended_version": "v1.0.0",
     "compatible_versions": [
       "v1.0.0"
