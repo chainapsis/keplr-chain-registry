@@ -1,0 +1,127 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "MSTBL",
+  "chainId": "mstbl-1",
+  "prettyName": "Million Stable Coin",
+  "status": "live",
+  "networkType": "testnet",
+  "description": "Million Stable Coin (MSTBL) - A Cosmos SDK-based blockchain for a stable coin. Built on CosmWasm with CW20 contract for token management.",
+  "website": "",
+  "documentation": "README.md",
+  "repository": "https://github.com/chainapsis/keplr-chain-registry",
+  "logo_URIs": {
+    "png": "",
+    "svg": ""
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "http://34.57.32.80:26657",
+        "provider": "MSTBL"
+      }
+    ],
+    "rest": [
+      {
+        "address": "http://34.57.32.80:1317",
+        "provider": "MSTBL"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "34.57.32.80:9090",
+        "provider": "MSTBL"
+      }
+    ]
+  },
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "ustbl",
+        "low_gas_price": 0.01,
+        "average_gas_price": 0.025,
+        "high_gas_price": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "staking_tokens": [
+      {
+        "denom": "stake"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/Million-Dollar-Stable-Coin/MSTBL",
+    "recommended_version": "v1.0.0",
+    "compatible_versions": [
+      "v1.0.0"
+    ],
+    "cosmos_sdk_version": "v0.45.0",
+    "consensus": {
+      "type": "tendermint",
+      "version": "v0.34.0"
+    },
+    "cosmwasm_enabled": true,
+    "cosmwasm_version": "v1.0.0"
+  },
+  "params": {
+    "unbonding_time": "1814400s",
+    "max_validators": 100,
+    "max_entries": 7,
+    "historical_entries": 10000,
+    "bond_denom": "stake",
+    "mint": {
+      "params": {
+        "mint_denom": "stake",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": 6311520
+      }
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.020000000000000000",
+        "base_proposer_reward": "0.010000000000000000",
+        "bonus_proposer_reward": "0.040000000000000000",
+        "withdraw_addr_enabled": true
+      }
+    },
+    "slashing": {
+      "params": {
+        "signed_blocks_window": 100,
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600s",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      }
+    },
+    "gov": {
+      "voting_params": {
+        "voting_period": "172800s"
+      },
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "stake",
+            "amount": "10000000"
+          }
+        ],
+        "max_deposit_period": "172800s"
+      },
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000"
+      }
+    }
+  },
+  "bech32_prefix": "wasm",
+  "daemon_name": "stbld",
+  "key_algos": [
+    "secp256k1"
+  ],
+  "extra_codecs": []
+}

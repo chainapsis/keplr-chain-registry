@@ -1,0 +1,55 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chain_name": "mstbl",
+  "assets": [
+    {
+      "description": "The native staking and fee token of the MSTBL blockchain",
+      "denom_units": [
+        {
+          "denom": "stake",
+          "exponent": 0
+        }
+      ],
+      "base": "stake",
+      "name": "Stake",
+      "display": "STAKE",
+      "symbol": "STAKE",
+      "logo_URIs": {
+        "png": "",
+        "svg": ""
+      },
+      "coingecko_id": ""
+    },
+    {
+      "description": "Million Stable Coin - CW20 token deployed on mstbl-1 blockchain via CosmWasm",
+      "denom_units": [
+        {
+          "denom": "wasm14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9s0phg4d",
+          "exponent": 0,
+          "aliases": [
+            "cw20:wasm14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9s0phg4d"
+          ]
+        },
+        {
+          "denom": "umstbl",
+          "exponent": 6
+        }
+      ],
+      "address": "wasm14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9s0phg4d",
+      "base": "wasm14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9s0phg4d",
+      "name": "Million Stable Coin",
+      "display": "mstbl",
+      "symbol": "MSTBL",
+      "logo_URIs": {
+        "png": "",
+        "svg": ""
+      },
+      "coingecko_id": "",
+      "keywords": [
+        "stablecoin",
+        "cosmwasm",
+        "cw20"
+      ]
+    }
+  ]
+}
