@@ -60,7 +60,7 @@
     },
     {
       "coinDenom": "MSTBL",
-      "coinMinimalDenom": "umstbl",
+      "coinMinimalDenom": "cw20:wasm14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9s0phg4d",
       "coinDecimals": 6,
       "coinGeckoId": "",
       "coinImageUrl": ""
