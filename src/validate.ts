@@ -19,6 +19,16 @@ export const fileToChainInfo = (filePath: string) => {
   return chainInfo;
 };
 
+const handleShadowChainId = (chainId: string): string => {
+  if (chainId === "mantra-dukong-evm-1") {
+    return "mantra-dukong-1";
+  } else if (chainId === "mantra-evm-1") {
+    return "mantra-1";
+  } else {
+    return chainId;
+  }
+};
+
 export const validateCosmosChainInfoFromPath = async (
   path: string,
 ): Promise<ChainInfo> => {
@@ -94,9 +104,10 @@ export const validateCosmosChainInfo = async (
     );
   }
 
+  const chainId = handleShadowChainId(chainInfo.chainId);
   // check RPC alive
   await checkRPCConnectivity(
-    chainInfo.chainId,
+    chainId,
     chainInfo.rpc,
     (url) => new WebSocket(url),
   );
@@ -117,7 +128,7 @@ export const validateCosmosChainInfo = async (
     chainIdentifier !== "sommelier" &&
     chainIdentifier !== "kyve"
   ) {
-    await checkRestConnectivity(chainInfo.chainId, chainInfo.rest);
+    await checkRestConnectivity(chainId, chainInfo.rest);
   }
 
   checkIsTestnet(chainInfo);
