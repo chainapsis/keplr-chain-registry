@@ -185,6 +185,13 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/ibc/0FA9232B262B89E77D1335D54FB1E1F506A92A7E4B51524B400DC69C68D28372.png"
     },
     {
+      "coinDenom": "NAM",
+      "coinMinimalDenom": "ibc/C7110DEC66869DAE9BE9C3C60F4B5313B16A2204AE020C3B0527DD6B322386A3",
+      "coinDecimals": 6,
+      "coinGeckoId": "namada",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/ibc/C7110DEC66869DAE9BE9C3C60F4B5313B16A2204AE020C3B0527DD6B322386A3.png"
+    },
+    {
       "coinDenom": "SPICE",
       "coinMinimalDenom": "factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/uspice",
       "coinDecimals": 6,
@@ -254,9 +261,9 @@
       "coinGeckoId": "osmosis",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/uosmo.png",
       "gasPriceStep": {
-        "low": 0.0025,
-        "average": 0.025,
-        "high": 0.04
+        "low": 0.03,
+        "average": 0.1,
+        "high": 0.16
       }
     }
   ],

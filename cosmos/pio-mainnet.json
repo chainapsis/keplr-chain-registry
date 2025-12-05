@@ -17,7 +17,7 @@
     {
       "coinDecimals": 9,
       "coinDenom": "HASH",
-      "coinGeckoId": "provenance-blockchain",
+      "coinGeckoId": "hash-2",
       "coinMinimalDenom": "nhash"
     }
   ],
@@ -28,12 +28,12 @@
     {
       "coinDecimals": 9,
       "coinDenom": "HASH",
-      "coinGeckoId": "provenance-blockchain",
+      "coinGeckoId": "hash-2",
       "coinMinimalDenom": "nhash",
       "gasPriceStep": {
-        "average": 1905,
-        "high": 2500,
-        "low": 1905
+        "low": 3200,
+        "average": 3200,
+        "high": 3600
       }
     }
   ],
@@ -47,7 +47,7 @@
   "stakeCurrency": {
     "coinDecimals": 9,
     "coinDenom": "HASH",
-    "coinGeckoId": "provenance-blockchain",
+    "coinGeckoId": "hash-2",
     "coinMinimalDenom": "nhash"
   }
 }
