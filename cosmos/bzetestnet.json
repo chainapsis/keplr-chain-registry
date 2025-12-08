@@ -13,7 +13,6 @@
       "coinDenom": "TBZE",
       "coinMinimalDenom": "utbz",
       "coinDecimals": 6,
-      "coinGeckoId": "bzedge",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bzetestnet/chain.png"
   },
   "bip44": {
@@ -32,14 +31,12 @@
       "coinDenom": "TBZE",
       "coinMinimalDenom": "utbz",
       "coinDecimals": 6,
-      "coinGeckoId": "bzedge",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bzetestnet/chain.png"
     },
 		{
       "coinDenom": "TVDL",
       "coinMinimalDenom": "factory/testbz1z3mkcr2jz424w6m49frgjmy9uhlrx69p4cvrgf/vidulum",
       "coinDecimals": 6,
-      "coinGeckoId": "vidulum",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bzetestnet/factory/testbz1z3mkcr2jz424w6m49frgjmy9uhlrx69p4cvrgf/vidulum.png"
     }
   ],
@@ -47,7 +44,6 @@
       "coinDenom": "TBZE",
       "coinMinimalDenom": "utbz",
       "coinDecimals": 6,
-      "coinGeckoId": "bzedge",
       "gasPriceStep": {
           "low": 0.001,
           "average": 0.01,
