@@ -24,8 +24,7 @@
     {
       "coinDenom": "BAND",
       "coinMinimalDenom": "uband",
-      "coinDecimals": 6,
-      "coinGeckoId": "band-protocol"
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
@@ -33,7 +32,6 @@
       "coinDenom": "BAND",
       "coinMinimalDenom": "uband",
       "coinDecimals": 6,
-      "coinGeckoId": "band-protocol",
       "gasPriceStep": {
         "low": 0.0025,
         "average": 0.003,
@@ -44,8 +42,7 @@
   "stakeCurrency": {
     "coinDenom": "BAND",
     "coinMinimalDenom": "uband",
-    "coinDecimals": 6,
-    "coinGeckoId": "band-protocol"
+    "coinDecimals": 6
   },
   "features": [],
   "isTestnet": true
