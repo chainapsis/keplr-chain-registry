@@ -1,5 +1,5 @@
 {
-  "chainId": "divine",
+  "chainId": "divine-testnet-1",
   "chainName": "Divine Testnet",
   "rpc": "https://rpc-testnet-node1.divineray.ca/",
   "rest": "https://rest-testnet-node1.divineray.ca/",
