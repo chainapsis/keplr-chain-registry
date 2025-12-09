@@ -52,6 +52,7 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "xrplevm_1440000",
   "union",
   "lumera-mainnet",
+  "zigchain",
   "eip155:1",
   "eip155:10",
   "eip155:56",
