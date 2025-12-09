@@ -29,9 +29,9 @@
       "coinDenom": "HASH",
       "coinMinimalDenom": "nhash",
       "gasPriceStep": {
-        "average": 19050,
-        "high": 25000,
-        "low": 19050
+        "average": 1,
+        "high": 1,
+        "low": 1
       }
     }
   ],
