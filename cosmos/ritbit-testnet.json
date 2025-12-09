@@ -1,9 +1,13 @@
 {
   "rpc": "https://rpc.testnet.tyranodex.xyz",
   "rest": "https://rest.testnet.tyranodex.xyz",
-  "chainId": "ritbit-local",
+  "chainId": "ritbit-testnet",
   "chainName": "RITBIT Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ritbit-local/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ritbit-testnet/chain.png",
+  "nodeProvider": {
+    "name": "RITBIT",
+    "email": "support@itrf.ru"
+  },
   "bech32Config": {
     "bech32PrefixAccAddr": "rit",
     "bech32PrefixAccPub": "ritpub",
@@ -25,6 +29,12 @@
       "coinDenom": "RIT",
       "coinDecimals": 18,
       "coinMinimalDenom": "urit"
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "uusdc",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ritbit-testnet/uusdc.png"
     }
   ],
   "feeCurrencies": [
