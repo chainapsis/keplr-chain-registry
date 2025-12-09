@@ -13,7 +13,6 @@
     "coinDenom": "DRC",
     "coinMinimalDenom": "uDRC",
     "coinDecimals": 6,
-    "coinGeckoId": "divine",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/divine-testnet/udrc.png"
   },
   "bip44": {
