@@ -47,6 +47,6 @@
     "coinDecimals": 18,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/republic_77701/arai.png"
   },
-  "features": ["eth-address-gen", "eth-key-sign"],
+  "features": ["eth-address-gen", "eth-key-sign", "eth-secp256k1-cosmos"],
   "isTestnet": true
 }
