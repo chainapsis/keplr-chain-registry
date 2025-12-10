@@ -1,0 +1,51 @@
+{
+  "chainId": "divine-1",
+  "chainName": "Divine Mainnet",
+  "rpc": "https://rpc-mainnet.divineray.ca/",
+  "rest": "https://rest-mainnet.divineray.ca/",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/divine/chain.png",
+  "nodeProvider": {
+    "name": "Divineray",
+    "email": "info@divineray.ca",
+    "website":"https://divineray.ca/"
+  },
+  "stakeCurrency": {
+    "coinDenom": "DRC",
+    "coinMinimalDenom": "uDRC",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/divine/udrc.png"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "divine",
+    "bech32PrefixAccPub": "divinepub",
+    "bech32PrefixValAddr": "divinevaloper",
+    "bech32PrefixValPub": "divinevaloperpub",
+    "bech32PrefixConsAddr": "divinevalcons",
+    "bech32PrefixConsPub": "divinevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "DRC",
+      "coinMinimalDenom": "uDRC",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/divine/udrc.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "DRC",
+      "coinMinimalDenom": "uDRC",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/divine/udrc.png",
+      "gasPriceStep": {
+        "low": 0.0025,
+        "average": 0.005,
+        "high": 0.05
+      }
+    }
+  ],
+  "features": []
+}
