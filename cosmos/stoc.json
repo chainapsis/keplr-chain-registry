@@ -1,0 +1,51 @@
+{
+  "rpc": "https://rpc-stoc-mainnet.stochainscan.io/",
+  "rest": "https://api-stoc-mainnet.stochainscan.io/",
+  "chainId": "stoc",
+  "chainName": "STO Chain",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stoc/chain.png",
+  "nodeProvider": {
+    "name": "STO Chain",
+    "email": "support@stochain.io",
+    "website": "https://www.stochain.io/"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "stoc",
+    "bech32PrefixAccPub": "stocpub",
+    "bech32PrefixValAddr": "stocvaloper",
+    "bech32PrefixValPub": "stocvaloperpub",
+    "bech32PrefixConsAddr": "stocvalcons",
+    "bech32PrefixConsPub": "stocvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "STOC",
+      "coinMinimalDenom": "ustoc",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stoc/ustoc.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "STOC",
+      "coinMinimalDenom": "ustoc",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stoc/ustoc.png",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.015,
+        "high": 0.02
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "STOC",
+    "coinMinimalDenom": "ustoc",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stoc/ustoc.png"
+  },
+  "features": ["eth-address-gen", "eth-key-sign"]
+}
