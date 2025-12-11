@@ -25,6 +25,7 @@
       "coinDenom": "STOC",
       "coinMinimalDenom": "ustoc",
       "coinDecimals": 6,
+      "coinGeckoId": "sto-chain",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stoc/ustoc.png"
     }
   ],
@@ -33,6 +34,7 @@
       "coinDenom": "STOC",
       "coinMinimalDenom": "ustoc",
       "coinDecimals": 6,
+      "coinGeckoId": "sto-chain",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stoc/ustoc.png",
       "gasPriceStep": {
         "low": 0.01,
@@ -45,6 +47,7 @@
     "coinDenom": "STOC",
     "coinMinimalDenom": "ustoc",
     "coinDecimals": 6,
+    "coinGeckoId": "sto-chain",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stoc/ustoc.png"
   },
   "features": []
