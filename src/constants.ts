@@ -68,6 +68,7 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "eip155:80094",
   "eip155:57073",
   "eip155:59144",
+  "stoc",
 ];
 
 export const nativeTestnetChainIdentifiers: string[] = [
@@ -91,4 +92,5 @@ export const nativeTestnetChainIdentifiers: string[] = [
   "mantra-dukong",
   "grand",
   "bbn-test",
+  "tstoc",
 ];
