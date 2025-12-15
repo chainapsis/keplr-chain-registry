@@ -1,7 +1,7 @@
   {
     "chainId": "cysicmint_4399-1",
     "chainName": "Cysic Network Mainnet",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cysic_4399/chain.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cysicmint_4399/chain.png",
     "rpc": "https://rpc.cysic.xyz",
     "rest": "https://rest.cysic.xyz",
     "walletUrlForStaking": "https://wallet.keplr.app/chains/cysic",
@@ -26,13 +26,13 @@
         "coinDenom": "CYS",
         "coinMinimalDenom": "CYS",
         "coinDecimals": 18,
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cysic_4399/cys.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cysicmint_4399/cys.png"
       },
       {
         "coinDenom": "CGT",
         "coinMinimalDenom": "CGT",
         "coinDecimals": 18,
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cysic_4399/cgt.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cysicmint_4399/cgt.png"
       }
     ],
     "feeCurrencies": [
@@ -40,7 +40,7 @@
         "coinDenom": "CYS",
         "coinMinimalDenom": "CYS",
         "coinDecimals": 18,
-        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cysic_4399/cys.png",
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cysicmint_4399/cys.png",
         "gasPriceStep": {
           "low": 25000000000,
           "average": 25000000000,
@@ -52,7 +52,7 @@
       "coinDenom": "CGT",
       "coinMinimalDenom": "CGT",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cysic_4399/cgt.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cysicmint_4399/cgt.png"
     },
     "features": [
       "eth-address-gen"
