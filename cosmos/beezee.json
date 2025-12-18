@@ -2,6 +2,7 @@
   "chainId": "beezee-1",
   "chainName": "BeeZee",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/beezee/chain.png",
+  "walletUrlForStaking": "https://staking.getbze.com",
   "rpc": "https://rpc.getbze.com",
   "rest": "https://rest.getbze.com",
   "nodeProvider": {
