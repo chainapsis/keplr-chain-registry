@@ -40,9 +40,9 @@
       "coinGeckoId": "kyve-network",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kyve/ukyve.png",
       "gasPriceStep": {
-        "low": 2,
-        "average": 3,
-        "high": 6
+        "low": 62.5,
+        "average": 80,
+        "high": 125
       }
     }
   ],
