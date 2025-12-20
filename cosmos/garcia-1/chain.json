@@ -1,0 +1,45 @@
+{
+  "chainId": "garcia-1",
+  "chainName": "Garcia",
+  "rpc": "https://3.39.21.210:26657",
+  "rest": "https://3.39.21.210:1317",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "cosmos",
+    "bech32PrefixAccPub": "cosmospub",
+    "bech32PrefixValAddr": "cosmosvaloper",
+    "bech32PrefixValPub": "cosmosvaloperpub",
+    "bech32PrefixConsAddr": "cosmosvalcons",
+    "bech32PrefixConsPub": "cosmosvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "GARCIA",
+      "coinMinimalDenom": "ugarcia",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://i.imgur.com/Hbz6OKj.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "GARCIA",
+      "coinMinimalDenom": "ugarcia",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://i.imgur.com/Hbz6OKj.png"
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "GARCIA",
+    "coinMinimalDenom": "ugarcia",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://i.imgur.com/Hbz6OKj.png"
+  },
+  "gasPriceStep": {
+    "low": 0.01,
+    "average": 0.025,
+    "high": 0.04
+  },
+  "features": ["stargate", "ibc-transfer"]
+}
