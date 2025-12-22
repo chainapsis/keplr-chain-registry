@@ -21,7 +21,8 @@
       "coinDecimals": 9,
       "coinDenom": "HASH",
       "coinGeckoId": "hash-2",
-      "coinMinimalDenom": "nhash"
+      "coinMinimalDenom": "nhash",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pio-mainnet/nhash.png"
     }
   ],
   "feeCurrencies": [
@@ -30,6 +31,7 @@
       "coinDenom": "HASH",
       "coinGeckoId": "hash-2",
       "coinMinimalDenom": "nhash",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pio-mainnet/nhash.png",
       "gasPriceStep": {
         "low": 1,
         "average": 1,
@@ -41,7 +43,8 @@
     "coinDecimals": 9,
     "coinDenom": "HASH",
     "coinGeckoId": "hash-2",
-    "coinMinimalDenom": "nhash"
+    "coinMinimalDenom": "nhash",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pio-mainnet/nhash.png"
   },
   "features": ["cosmwasm"]
 }
