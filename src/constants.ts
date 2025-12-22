@@ -53,6 +53,7 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "union",
   "lumera-mainnet",
   "zigchain",
+  "pio-mainnet",
   "eip155:1",
   "eip155:10",
   "eip155:56",
