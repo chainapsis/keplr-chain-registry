@@ -55,6 +55,7 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cysicmint_4399/cgt.png"
     },
     "features": [
-      "eth-address-gen"
+      "eth-address-gen",
+      "eth-key-sign"
     ]
   }
