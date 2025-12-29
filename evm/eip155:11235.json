@@ -7,7 +7,7 @@
     "website": "https://haqq.network"
   },
   "chainId": "eip155:11235",
-  "chainName": "HAQQ Network",
+  "chainName": "HAQQ Network (EVM layer)",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:11235/chain.png",
   "bip44": {
     "coinType": 60
