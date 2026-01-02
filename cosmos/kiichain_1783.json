@@ -41,8 +41,8 @@
             "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kiichain_1783/kii_coin.png",
             "gasPriceStep": {
                 "low": 600000000,
-                "average": 750000000,
-                "high": 1000000000
+                "average": 3000000000,
+                "high": 15000000000
             }
         }
     ],
