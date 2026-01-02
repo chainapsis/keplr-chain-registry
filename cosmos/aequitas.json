@@ -1,0 +1,52 @@
+{
+  "chainId": "aequitas-1",
+  "chainName": "Aequitas Protocol",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aequitas/chain.png",
+  "rpc": "https://rpc.aequitasprotocol.zone",
+  "rest": "https://api.aequitasprotocol.zone",
+  "nodeProvider": {
+    "name": "Aequitas Foundation",
+    "email": "validators@aequitasprotocol.zone",
+    "website": "https://aequitasprotocol.zone"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "repar",
+    "bech32PrefixAccPub": "reparpub",
+    "bech32PrefixValAddr": "reparvaloper",
+    "bech32PrefixValPub": "reparvaloperpub",
+    "bech32PrefixConsAddr": "reparvalcons",
+    "bech32PrefixConsPub": "reparvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "REPAR",
+      "coinMinimalDenom": "urepar",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aequitas/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "REPAR",
+      "coinMinimalDenom": "urepar",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aequitas/chain.png",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "REPAR",
+    "coinMinimalDenom": "urepar",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aequitas/chain.png"
+  },
+  "walletUrlForStaking": "https://app.aequitasprotocol.zone/staking",
+  "features": ["ibc-transfer", "ibc-go"]
+}
