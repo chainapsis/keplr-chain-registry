@@ -1,0 +1,15 @@
+syntax = "proto3";
+package garcia.garcia;
+
+import "amino/amino.proto";
+import "gogoproto/gogo.proto";
+
+option go_package = "garcia/x/garcia/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (amino.name) = "garcia/x/garcia/Params";
+  option (gogoproto.equal) = true;
+
+  
+}

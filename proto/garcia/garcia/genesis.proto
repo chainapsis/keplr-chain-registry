@@ -1,0 +1,17 @@
+syntax = "proto3";
+package garcia.garcia;
+
+import "amino/amino.proto";
+import "gogoproto/gogo.proto";
+import "garcia/garcia/params.proto";
+
+option go_package = "garcia/x/garcia/types";
+
+// GenesisState defines the garcia module's genesis state.
+message GenesisState {
+  // params defines all the parameters of the module.
+  Params params = 1 [
+    (gogoproto.nullable) = false,
+    (amino.dont_omitempty) = true
+  ];
+}
