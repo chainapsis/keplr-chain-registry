@@ -1,0 +1,55 @@
+{
+  "rpc": "https://rpc.stbl.mstbl.com",
+  "rest": "https://api.stbl.mstbl.com",
+  "chainId": "mstbl-1",
+  "chainName": "MSTBL",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mstbl/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "STAKE",
+    "coinMinimalDenom": "stake",
+    "coinDecimals": 0,
+    "coinGeckoId": ""
+  },
+  "walletUrl": "https://mstbl.com",
+  "walletUrlForStaking": "https://mstbl.com",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "wasm",
+    "bech32PrefixAccPub": "wasmpub",
+    "bech32PrefixValAddr": "wasmvaloper",
+    "bech32PrefixValPub": "wasmvaloperpub",
+    "bech32PrefixConsAddr": "wasmvalcons",
+    "bech32PrefixConsPub": "wasmvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "STAKE",
+      "coinMinimalDenom": "stake",
+      "coinDecimals": 0,
+      "coinGeckoId": ""
+    },
+    {
+      "coinDenom": "MSTBL",
+      "coinMinimalDenom": "cw20:wasm14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9s0phg4d",
+      "coinDecimals": 6,
+      "coinGeckoId": "",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mstbl/mstbl.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "STAKE",
+      "coinMinimalDenom": "stake",
+      "coinDecimals": 0,
+      "coinGeckoId": "",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "features": ["cosmwasm"]
+}
