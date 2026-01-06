@@ -4,6 +4,7 @@
   "chainId": "milkyway",
   "chainName": "MilkyWay",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/chain.png",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/milkyway?modal=staking&chain=milkyway&step_id=2",
   "stakeCurrency": {
     "coinDenom": "MILK",
     "coinMinimalDenom": "umilk",

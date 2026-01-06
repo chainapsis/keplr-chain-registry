@@ -22,31 +22,31 @@
   },
   "currencies": [
     {
-      "coinDenom": "OM",
-      "coinMinimalDenom": "uom",
-      "coinDecimals": 6,
+      "coinDenom": "MANTRA",
+      "coinMinimalDenom": "amantra",
+      "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra-dukong/om.png"
     }
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "OM",
-      "coinMinimalDenom": "uom",
-      "coinDecimals": 6,
+      "coinDenom": "MANTRA",
+      "coinMinimalDenom": "amantra",
+      "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra-dukong/om.png",
       "gasPriceStep": {
-        "low": 0.01,
-        "average": 0.025,
-        "high": 0.03
+        "low": 40000000000,
+        "average": 80000000000,
+        "high": 120000000000
       }
     }
   ],
   "stakeCurrency": {
-    "coinDenom": "OM",
-    "coinMinimalDenom": "uom",
-    "coinDecimals": 6,
+    "coinDenom": "MANTRA",
+    "coinMinimalDenom": "amantra",
+    "coinDecimals": 18,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra-dukong/om.png"
   },
-  "features": ["cosmwasm"],
+  "features": ["cosmwasm", "evm-feemarket"],
   "isTestnet": true
 }

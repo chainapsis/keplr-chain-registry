@@ -12,29 +12,27 @@
     "coinType": 60
   },
   "stakeCurrency": {
-    "coinDenom": "OM",
-    "coinMinimalDenom": "aom",
+    "coinDenom": "MANTRA",
+    "coinMinimalDenom": "amantra",
     "coinDecimals": 18,
-    "coinGeckoId": "mantra-dao",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5887/om.png"
   },
   "currencies": [
     {
-      "coinDenom": "OM",
-      "coinMinimalDenom": "aom",
+      "coinDenom": "MANTRA",
+      "coinMinimalDenom": "amantra",
       "coinDecimals": 18,
-      "coinGeckoId": "mantra-dao",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5887/om.png"
     }
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "OM",
-      "coinMinimalDenom": "aom",
+      "coinDenom": "MANTRA",
+      "coinMinimalDenom": "amantra",
       "coinDecimals": 18,
-      "coinGeckoId": "mantra-dao",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5887/om.png"
     }
   ],
-  "features": []
+  "features": [],
+  "isTestnet": true
 }

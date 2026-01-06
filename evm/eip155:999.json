@@ -1,6 +1,5 @@
 {
-  "rpc": "https://hyperliquid.drpc.org",
-  "websocket": "wss://hyperliquid.drpc.org",
+  "rpc": "https://rpc.hyperliquid.xyz/evm",
   "nodeProvider": {
     "name": "dRPC",
     "website": "https://drpc.org/",
@@ -17,7 +16,22 @@
       "coinDenom": "HYPE",
       "coinMinimalDenom": "hyperevm-native",
       "coinDecimals": 18,
+      "coinGeckoId": "hyperliquid",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:999/hyperevm-native.png"
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "erc20:0xb88339CB7199b77E23DB6E890353E22632Ba630f",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:999/erc20/0xb88339CB7199b77E23DB6E890353E22632Ba630f.png"
+    },
+    {
+      "coinDenom": "USD₮0",
+      "coinMinimalDenom": "erc20:0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+      "coinDecimals": 6,
+      "coinGeckoId": "usdt0",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:999/erc20/0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb.png"
     }
   ],
   "feeCurrencies": [
@@ -25,6 +39,7 @@
       "coinDenom": "HYPE",
       "coinMinimalDenom": "hyperevm-native",
       "coinDecimals": 18,
+      "coinGeckoId": "hyperliquid",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:999/hyperevm-native.png"
     }
   ],

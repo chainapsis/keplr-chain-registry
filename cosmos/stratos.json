@@ -5,7 +5,7 @@
   "chainName": "Stratos Network",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stratos/chain.png",
   "walletUrl": "https://wallet.keplr.app/chains/stratos",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/stratos",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/stratos?modal=staking&chain=stratos-1&step_id=2",
   "nodeProvider": {
     "name": "Stratos",
     "email": "info@thestratos.org",

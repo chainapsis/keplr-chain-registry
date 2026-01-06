@@ -37,7 +37,7 @@ This guildline outlines the basic information that is required for registering a
 Once approved, the Keplr browser extension will show the tag “Community-Driven” on the chain connection page, to let the users be aware that the integration was requested and implemented by the community and the Keplr team has gone through the verification process.
 
 <p align="center">
-  <img src="https://i.imgur.com/Zp2pthD.png" alt="Sample Image" style="width: 350px;"/>
+  <img src="https://i.imgur.com/I216R1M.png" alt="Sample Image" style="width: 350px;"/>
 </p>
 
 # Cosmos-SDK-based Chains
@@ -149,6 +149,7 @@ Here’s an overview of the structure of the directory. Please provide the infor
   - secretwasm: supports WASM smart contracts of Secret Network
   - eth-address-gen: supports EVM account generation
   - eth-key-sign: supports EVM signatures
+  - eth-secp256k1-cosmos: Required for chains built with [github.com/cosmos/evm](https://github.com/cosmos/evm)
   - axelar-evm-bridge: supports EVM bridge provided by Axelar Network
   - osmosis-txfees: supports paying fees in other currencies on Osmosis
 - isTestnet: set it to true when your chain is a testnet or devnet

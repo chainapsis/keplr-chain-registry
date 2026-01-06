@@ -120,27 +120,11 @@ export const validateCosmosChainInfo = async (
     await checkRestConnectivity(chainInfo.chainId, chainInfo.rest);
   }
 
-  // check coinGecko vaild
-  const coinGeckoIds = new Set<string>();
-  for (const currency of chainInfo.currencies) {
-    if (currency.coinGeckoId) {
-      coinGeckoIds.add(currency.coinGeckoId);
-    }
-  }
-
-  for (const currency of chainInfo.feeCurrencies) {
-    if (currency.coinGeckoId) {
-      coinGeckoIds.add(currency.coinGeckoId);
-    }
-  }
-
-  if (chainInfo.stakeCurrency?.coinGeckoId) {
-    coinGeckoIds.add(chainInfo.stakeCurrency.coinGeckoId);
-  }
-
-  await checkCoinGeckoIds(...Array.from(coinGeckoIds));
-
   checkIsTestnet(chainInfo);
+
+  validateCoinGeckoIds(chainInfo); // check coinGeckoId inputs vaild
+  const coinGeckoIds = collectCoinGeckoIds(chainInfo);
+  await checkCoinGeckoIdsAvailable(...Array.from(coinGeckoIds)); // check coinGeckoIds available in Coin Gecko
 
   return chainInfo;
 };
@@ -240,25 +224,11 @@ export const validateEvmChainInfo = async (
 
   await checkEvmRpcConnectivity(chainInfo.evm.chainId, chainInfo.rpc);
 
-  // check coinGecko vaild
-  const coinGeckoIds = new Set<string>();
-  for (const currency of chainInfo.currencies) {
-    if (currency.coinGeckoId) {
-      coinGeckoIds.add(currency.coinGeckoId);
-    }
-  }
+  checkIsTestnet(chainInfo);
 
-  for (const currency of chainInfo.feeCurrencies) {
-    if (currency.coinGeckoId) {
-      coinGeckoIds.add(currency.coinGeckoId);
-    }
-  }
-
-  if (chainInfo.stakeCurrency?.coinGeckoId) {
-    coinGeckoIds.add(chainInfo.stakeCurrency.coinGeckoId);
-  }
-
-  await checkCoinGeckoIds(...Array.from(coinGeckoIds));
+  validateCoinGeckoIds(chainInfo); // check coinGeckoId inputs vaild
+  const coinGeckoIds = collectCoinGeckoIds(chainInfo);
+  await checkCoinGeckoIdsAvailable(...Array.from(coinGeckoIds)); // check coinGeckoIds available in Coin Gecko
 
   return chainInfo;
 };
@@ -272,7 +242,7 @@ export const checkImageSize = (path: string) => {
   }
 };
 
-const checkCoinGeckoIds = async (...coinGeckoIds: string[]) => {
+const checkCoinGeckoIdsAvailable = async (...coinGeckoIds: string[]) => {
   const priceURL =
     process.env.PRICE_URL || "https://api.coingecko.com/api/v3/simple/price";
   const response = await fetch(
@@ -348,6 +318,14 @@ export const checkCurrencies = (chainInfo: ChainInfo) => {
       ) {
         continue;
       }
+      // 오스모시스 위의 나마다도 봐준다.
+      if (
+        ChainIdHelper.parse(chainInfo.chainId).identifier === "osmosis" &&
+        currency.coinMinimalDenom ===
+          "ibc/C7110DEC66869DAE9BE9C3C60F4B5313B16A2204AE020C3B0527DD6B322386A3"
+      ) {
+        continue;
+      }
       if (
         ChainIdHelper.parse(chainInfo.chainId).identifier === "neutron" &&
         currency.coinMinimalDenom ===
@@ -387,4 +365,96 @@ export const checkIsTestnet = (chainInfo: ChainInfo) => {
   }
 
   return true;
+};
+
+export const collectCoinGeckoIds = (chainInfo: ChainInfo): Set<string> => {
+  const coinGeckoIds = new Set<string>();
+
+  for (const currency of chainInfo.currencies) {
+    if (currency.coinGeckoId) {
+      coinGeckoIds.add(currency.coinGeckoId);
+    }
+  }
+
+  for (const currency of chainInfo.feeCurrencies) {
+    if (currency.coinGeckoId) {
+      coinGeckoIds.add(currency.coinGeckoId);
+    }
+  }
+
+  if (chainInfo.stakeCurrency?.coinGeckoId) {
+    coinGeckoIds.add(chainInfo.stakeCurrency.coinGeckoId);
+  }
+
+  return coinGeckoIds;
+};
+
+export const validateCoinGeckoIds = (chainInfo: ChainInfo): void => {
+  const throwError = {
+    missingCoinGeckoId: (coinMinimalDenom: string) => {
+      throw new Error(
+        `Provide coinGeckoId for the currency "${coinMinimalDenom}" in the "currencies", "feeCurrencies", and "stakeCurrency" fields all together`,
+      );
+    },
+    testnetHavingCoinGeckoId: () => {
+      throw new Error("Testnet chain should not have coinGeckoId");
+    },
+  };
+
+  for (const currency of chainInfo.currencies) {
+    if (currency.coinGeckoId && chainInfo.isTestnet) {
+      throwError.testnetHavingCoinGeckoId();
+    }
+
+    if (
+      !currency.coinGeckoId &&
+      ((chainInfo.stakeCurrency?.coinMinimalDenom ===
+        currency.coinMinimalDenom &&
+        !!chainInfo.stakeCurrency?.coinGeckoId) ||
+        chainInfo.feeCurrencies.some(
+          (c) =>
+            c.coinMinimalDenom === currency.coinMinimalDenom && !!c.coinGeckoId,
+        ))
+    ) {
+      throwError.missingCoinGeckoId(currency.coinMinimalDenom);
+    }
+  }
+
+  for (const currency of chainInfo.feeCurrencies) {
+    if (currency.coinGeckoId && chainInfo.isTestnet) {
+      throwError.testnetHavingCoinGeckoId();
+    }
+
+    if (
+      !currency.coinGeckoId &&
+      ((chainInfo.stakeCurrency?.coinMinimalDenom ===
+        currency.coinMinimalDenom &&
+        !!chainInfo.stakeCurrency?.coinGeckoId) ||
+        chainInfo.currencies.some(
+          (c) =>
+            c.coinMinimalDenom === currency.coinMinimalDenom && !!c.coinGeckoId,
+        ))
+    ) {
+      throwError.missingCoinGeckoId(currency.coinMinimalDenom);
+    }
+  }
+
+  if (chainInfo.stakeCurrency) {
+    if (chainInfo.stakeCurrency.coinGeckoId && chainInfo.isTestnet) {
+      throwError.testnetHavingCoinGeckoId();
+    }
+
+    if (
+      !chainInfo.stakeCurrency.coinGeckoId &&
+      [...chainInfo.currencies, ...chainInfo.feeCurrencies].some(
+        (c) =>
+          c.coinMinimalDenom === chainInfo.stakeCurrency?.coinMinimalDenom &&
+          !!c.coinGeckoId,
+      )
+    ) {
+      throwError.missingCoinGeckoId(
+        chainInfo.stakeCurrency.coinMinimalDenom ?? "",
+      );
+    }
+  }
 };

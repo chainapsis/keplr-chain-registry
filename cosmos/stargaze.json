@@ -12,7 +12,7 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stargaze/ustars.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/stargaze",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/stargaze",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/stargaze?modal=staking&chain=stargaze-1&step_id=2",
   "bip44": {
     "coinType": 118
   },

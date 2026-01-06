@@ -8,6 +8,7 @@
       "rpc": "https://rpc.qubetics.com"
     },
     "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qubetics_9030/chain.png",
+    "walletUrlForStaking": "https://delegator.qubetics.com/dashboard",
     "stakeCurrency": {
       "coinDenom": "TICS",
       "coinMinimalDenom": "tics",
