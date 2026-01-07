@@ -21,6 +21,20 @@
       "coinDecimals": 18,
       "coinGeckoId": "wrapped-monad",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:143/erc20/0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A.png"
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "erc20:0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:143/erc20/0x754704Bc059F8C67012fEd69BC8A327a5aafb603.png"
+    },
+    {
+      "coinDenom": "USDT",
+      "coinMinimalDenom": "erc20:0xe7cd86e13AC4309349F30B3435a9d337750fC82D",
+      "coinDecimals": 6,
+      "coinGeckoId": "tether",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:143/erc20/0xe7cd86e13AC4309349F30B3435a9d337750fC82D.png"
     }
   ],
   "feeCurrencies": [

@@ -21,6 +21,13 @@
       "coinDecimals": 6,
       "coinGeckoId": "usd-coin",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:137/erc20/0x3c499c542cef5e3811e1192ce70d8cc03d5c3359.png"
+    },
+    {
+      "coinDenom": "USDT",
+      "coinMinimalDenom": "erc20:0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+      "coinDecimals": 6,
+      "coinGeckoId": "tether",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:137/erc20/0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9.png"
     }
   ],
   "feeCurrencies": [
