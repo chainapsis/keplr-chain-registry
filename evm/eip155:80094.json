@@ -56,11 +56,11 @@
       "coinGeckoId": "berachain-bridged-wbtc-berachain"
     },
     {
-      "coinDenom": "USDT0",
+      "coinDenom": "USDT",
       "coinMinimalDenom": "erc20:0x779ded0c9e1022225f8e0630b35a9b54be713736",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:80094/erc20/0x779ded0c9e1022225f8e0630b35a9b54be713736.png",
-      "coinGeckoId": "usdt0"
+      "coinGeckoId": "tether"
     },
     {
       "coinDenom": "iBGT",
