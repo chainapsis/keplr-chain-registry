@@ -1,0 +1,48 @@
+{
+  "chainId": "cosmos-test",
+  "chainName": "CosmosTest",
+  "chainSymbolImageUrl": "null",
+  "rpc": "null",
+  "rest": "null",
+  "nodeProvider": {
+    "name": "Unification",
+    "email": "null",
+    "website": "null"
+  },
+  "walletUrlForStaking": "null",
+  "bip44": {
+    "coinType": 5555
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "null",
+    "bech32PrefixAccPub": "null",
+    "bech32PrefixValAddr": "null",
+    "bech32PrefixValPub": "null",
+    "bech32PrefixConsAddr": "null",
+    "bech32PrefixConsPub": "null"
+  },
+  "currencies": [
+    {
+      "coinDenom": "null",
+      "coinMinimalDenom": "null",
+      "coinDecimals": 9
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "null",
+      "coinMinimalDenom": "null",
+      "coinDecimals": 9,
+      "gasPriceStep": {
+        "low": 300,
+        "average": 400,
+        "high": 500
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "null",
+    "coinMinimalDenom": "null",
+    "coinDecimals": 9
+  }
+}
