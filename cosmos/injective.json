@@ -194,6 +194,18 @@
       "coinDecimals": 6,
       "coinMinimalDenom": "factory/inj1jdt04erw6jdmh6c939u87kldf3mvvmkedsjp3w/OYCI",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1jdt04erw6jdmh6c939u87kldf3mvvmkedsjp3w/oyci.png"
+    },
+    {
+      "coinDenom": "BTG",
+      "coinMinimalDenom": "factory/inj1hywezj8796044zdrsl9ugcn78zlvhc3jzafesm/BTG",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1hywezj8796044zdrsl9ugcn78zlvhc3jzafesm/bitcoingold.png"
+    },
+	  {
+      "coinDenom": "BTS",
+      "coinMinimalDenom": "factory/inj1hywezj8796044zdrsl9ugcn78zlvhc3jzafesm/BTS",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1hywezj8796044zdrsl9ugcn78zlvhc3jzafesm/bitcoinsilver.png"
     }
   ],
   "feeCurrencies": [
