@@ -1,0 +1,56 @@
+{
+  "rpc": "https://rpc.testchain.example.com",
+  "rest": "https://api.testchain.example.com",
+  "chainId": "testchain-1",
+  "chainName": "Test Chain",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/testchain/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "TEST",
+    "coinMinimalDenom": "utest",
+    "coinDecimals": 6,
+    "coinGeckoId": "test-token",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/testchain/utest.png"
+  },
+  "walletUrl": "https://wallet.testchain.example.com",
+  "walletUrlForStaking": "https://wallet.testchain.example.com/staking",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "test",
+    "bech32PrefixAccPub": "testpub",
+    "bech32PrefixValAddr": "testvaloper",
+    "bech32PrefixValPub": "testvaloperpub",
+    "bech32PrefixConsAddr": "testvalcons",
+    "bech32PrefixConsPub": "testvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "TEST",
+      "coinMinimalDenom": "utest",
+      "coinDecimals": 6,
+      "coinGeckoId": "test-token",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/testchain/utest.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "TEST",
+      "coinMinimalDenom": "utest",
+      "coinDecimals": 6,
+      "coinGeckoId": "test-token",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/testchain/utest.png",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "features": ["stargate", "ibc-transfer"],
+  "nodeProvider": {
+    "name": "Test Chain Foundation",
+    "email": "nodes@testchain.example.com",
+    "website": "https://testchain.example.com"
+  }
+}
