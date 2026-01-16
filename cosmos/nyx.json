@@ -1,9 +1,9 @@
 {
   "chainId": "nyx",
-  "chainName": "Nyx",
+  "chainName": "Nym",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nyx/chain.png",
   "rpc": "https://rpc.nyx.nodes.guru",
-  "rest": "https://api.nyx.nodes.guru/",
+  "rest": "https://api.nyx.nodes.guru",
   "nodeProvider": {
     "name": "NodesGuru",
     "email": "andreym@nodes.guru",
@@ -25,12 +25,15 @@
     "coinMinimalDenom": "unyx",
     "coinDecimals": 6
   },
+  "walletUrl": "https://nym.com/wallet",
+  "walletUrlForStaking": "https://nym.com/explorer/stake",
   "currencies": [
     {
       "coinDenom": "NYM",
       "coinMinimalDenom": "unym",
       "coinDecimals": 6,
-      "coinGeckoId": "nym"
+      "coinGeckoId": "nym",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nyx/nym.png"
     },
     {
       "coinDenom": "NYX",
@@ -44,6 +47,7 @@
       "coinMinimalDenom": "unym",
       "coinDecimals": 6,
       "coinGeckoId": "nym",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nyx/nym.png",
       "gasPriceStep": {
         "low": 0.025,
         "average": 0.025,
@@ -61,5 +65,7 @@
       }
     }
   ],
-  "features": ["cosmwasm"]
+  "features": [
+    "cosmwasm"
+  ]
 }
