@@ -1,0 +1,50 @@
+{
+  "chainId": "claudetest-1",
+  "chainName": "Claude Test Chain",
+  "rpc": "https://rpc.claudetest.network",
+  "rest": "https://api.claudetest.network",
+  "nodeProvider": {
+    "name": "Claude Test Foundation",
+    "email": "test@claudetest.network"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "claude",
+    "bech32PrefixAccPub": "claudepub",
+    "bech32PrefixValAddr": "claudevaloper",
+    "bech32PrefixValPub": "claudevaloperpub",
+    "bech32PrefixConsAddr": "claudevalcons",
+    "bech32PrefixConsPub": "claudevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "CLAUDE",
+      "coinMinimalDenom": "uclaude",
+      "coinDecimals": 6,
+      "coinGeckoId": "claude-test",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/claudetest/uclaude.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "CLAUDE",
+      "coinMinimalDenom": "uclaude",
+      "coinDecimals": 6,
+      "coinGeckoId": "claude-test",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "CLAUDE",
+    "coinMinimalDenom": "uclaude",
+    "coinDecimals": 6,
+    "coinGeckoId": "claude-test"
+  },
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/claudetest/chain.png"
+}
