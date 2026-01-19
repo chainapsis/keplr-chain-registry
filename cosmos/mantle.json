@@ -7,8 +7,8 @@
     "email": "hello@assetmantle.one",
     "website": "https://assetmantle.one/"
   },
-  "rpc": "https://rpc.assetmantle.one",
-  "rest": "https://rest.assetmantle.one",
+  "rpc": "https://assetmantle-rpc.stakerhouse.com",
+  "rest": "https://assetmantle-rest.stakerhouse.com",
   "bip44": {
     "coinType": 118
   },
