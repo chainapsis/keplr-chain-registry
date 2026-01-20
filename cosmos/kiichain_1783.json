@@ -2,7 +2,7 @@
     "rpc": "https://rpc.kiivalidator.com",
     "rest": "https://lcd.kiivalidator.com",
     "chainId": "kiichain_1783-1",
-    "chainName": "Kiichain",
+    "chainName": "KiiChain",
     "evm": {
         "chainId": 1783,
         "rpc": "https://json-rpc.kiivalidator.com"
@@ -52,7 +52,7 @@
         "eth-secp256k1-cosmos"
     ],
     "nodeProvider": {
-        "name": "Kiichain Protocol",
+        "name": "KiiChain Protocol",
         "email": "dev@kiichain.io",
         "website": "https://kiichain.io"
     },
