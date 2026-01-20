@@ -21,6 +21,13 @@
       "coinDecimals": 6,
       "coinGeckoId": "usd-coin",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:59144/erc20/0x176211869cA2b568f2A7D4EE941E073a821EE1ff.png"
+    },
+    {
+      "coinDenom": "axlUSDC",
+      "coinMinimalDenom": "erc20:0xEB466342C4d449BC9f53A865D5Cb90586f405215",
+      "coinDecimals": 6,
+      "coinGeckoId": "axlusdc",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:59144/erc20/0xEB466342C4d449BC9f53A865D5Cb90586f405215.png"
     }
   ],
   "feeCurrencies": [

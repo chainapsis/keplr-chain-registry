@@ -28,6 +28,13 @@
       "coinDecimals": 6,
       "coinGeckoId": "tether",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:42161/erc20/0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9.png"
+    },
+    {
+      "coinDenom": "axlUSDC",
+      "coinMinimalDenom": "erc20:0xEB466342C4d449BC9f53A865D5Cb90586f405215",
+      "coinDecimals": 6,
+      "coinGeckoId": "axlusdc",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:42161/erc20/0xEB466342C4d449BC9f53A865D5Cb90586f405215.png"
     }
   ],
   "feeCurrencies": [
