@@ -28,6 +28,20 @@
       "coinDecimals": 6,
       "coinGeckoId": "kyve-network",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:8453/erc20/0xad13bce42394add02e6c215a40e582309b7975c7.png"
+    },
+    {
+      "coinDenom": "axlUSDC",
+      "coinMinimalDenom": "erc20:0xEB466342C4d449BC9f53A865D5Cb90586f405215",
+      "coinDecimals": 6,
+      "coinGeckoId": "axlusdc",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:8453/erc20/0xEB466342C4d449BC9f53A865D5Cb90586f405215.png"
+    },
+    {
+      "coinDenom": "EURC",
+      "coinMinimalDenom": "erc20:0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+      "coinDecimals": 6,
+      "coinGeckoId": "euro-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:8453/erc20/0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42.png"
     }
   ],
   "feeCurrencies": [
