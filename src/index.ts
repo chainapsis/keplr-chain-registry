@@ -65,7 +65,12 @@ const main = async () => {
       );
     }
 
-    const chainIdentifier = libPath.parse(path).name;
+    let chainIdentifier = libPath.parse(path).name;
+    if (chainIdentifier === "mantra-dukong-evm") {
+      chainIdentifier = "mantra-dukong";
+    } else if (chainIdentifier === "mantra-evm") {
+      chainIdentifier = "mantra";
+    }
 
     const validateImageUrl = (url: string): string => {
       const baseURL = `https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/${chainIdentifier}/`;
