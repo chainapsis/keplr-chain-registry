@@ -2,13 +2,8 @@
   "chainId": "nyx",
   "chainName": "Nym",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nyx/chain.png",
-  "rpc": "https://rpc.nyx.nodes.guru",
-  "rest": "https://api.nyx.nodes.guru",
-  "nodeProvider": {
-    "name": "NodesGuru",
-    "email": "andreym@nodes.guru",
-    "website": "https://nodes.guru/"
-  },
+  "rpc": "https://rpc-nyx.keplr.app",
+  "rest": "https://lcd-nyx.keplr.app",
   "bip44": {
     "coinType": 118
   },
@@ -65,7 +60,5 @@
       }
     }
   ],
-  "features": [
-    "cosmwasm"
-  ]
+  "features": ["cosmwasm"]
 }
