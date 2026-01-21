@@ -16,9 +16,11 @@
     "bech32PrefixConsPub": "nvalconspub"
   },
   "stakeCurrency": {
-    "coinDenom": "nyx",
-    "coinMinimalDenom": "unyx",
-    "coinDecimals": 6
+    "coinDenom": "NYM",
+    "coinMinimalDenom": "unym",
+    "coinDecimals": 6,
+    "coinGeckoId": "nym",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nyx/nym.png"
   },
   "walletUrl": "https://nym.com/wallet",
   "walletUrlForStaking": "https://nym.com/explorer/stake",
