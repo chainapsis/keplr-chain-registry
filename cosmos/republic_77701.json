@@ -1,9 +1,9 @@
 {
-  "chainId": "republic_77701-1",
-  "chainName": "Republic AI Devnet",
+  "chainId": "raitestnet_77701-1",
+  "chainName": "Republic AI Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/republic_77701/chain.png",
-  "rpc": "https://rpc.republicai.io:26657",
-  "rest": "https://rpc.republicai.io:1317",
+  "rpc": "https://rpc.republicai.io",
+  "rest": "https://rest.republicai.io",
   "nodeProvider": {
     "name": "Republic AI",
     "email": "nkxmail@proton.me",
@@ -13,12 +13,12 @@
     "coinType": 60
   },
   "bech32Config": {
-    "bech32PrefixAccAddr": "republic",
-    "bech32PrefixAccPub": "republicpub",
-    "bech32PrefixValAddr": "republicvaloper",
-    "bech32PrefixValPub": "republicvaloperpub",
-    "bech32PrefixConsAddr": "republicvalcons",
-    "bech32PrefixConsPub": "republicvalconspub"
+    "bech32PrefixAccAddr": "rai",
+    "bech32PrefixAccPub": "raipub",
+    "bech32PrefixValAddr": "raivaloper",
+    "bech32PrefixValPub": "raivaloperpub",
+    "bech32PrefixConsAddr": "raivalcons",
+    "bech32PrefixConsPub": "raivalconspub"
   },
   "currencies": [
     {
