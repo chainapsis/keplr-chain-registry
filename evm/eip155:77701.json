@@ -1,6 +1,6 @@
 {
   "rpc": "https://evm-rpc.republicai.io",
-  "websocket": "wss://evm-rpc.republicai.io",
+  "websocket": "wss://evm-ws.republicai.io",
   "chainId": "eip155:77701",
   "chainName": "Republic AI Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/republic_77701/chain.png",
