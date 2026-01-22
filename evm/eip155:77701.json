@@ -1,0 +1,29 @@
+{
+  "rpc": "https://evm-rpc.republicai.io",
+  "websocket": "wss://evm-rpc.republicai.io",
+  "chainId": "eip155:77701",
+  "chainName": "Republic AI Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/republic_77701/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "RAI",
+      "coinMinimalDenom": "arai",
+      "coinDecimals": 18,
+      "coinGeckoId": "",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/republic_77701/arai.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "RAI",
+      "coinMinimalDenom": "arai",
+      "coinDecimals": 18,
+      "coinGeckoId": "",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/republic_77701/arai.png"
+    }
+  ],
+  "features": []
+}
