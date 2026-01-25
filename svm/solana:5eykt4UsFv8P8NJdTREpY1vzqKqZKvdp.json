@@ -1,11 +1,6 @@
 {
   "rpc": "https://api.mainnet-beta.solana.com",
   "websocket": "wss://api.mainnet-beta.solana.com",
-  "nodeProvider": {
-    "name": "",
-    "email": "",
-    "website": ""
-  },
   "chainId": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
   "chainName": "Solana",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/chain.png",

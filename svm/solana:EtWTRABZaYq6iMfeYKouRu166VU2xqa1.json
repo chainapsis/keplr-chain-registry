@@ -1,11 +1,6 @@
 {
   "rpc": "https://api.devnet.solana.com",
   "websocket": "wss://api.devnet.solana.com",
-  "nodeProvider": {
-    "name": "",
-    "email": "",
-    "website": ""
-  },
   "chainId": "solana:EtWTRABZaYq6iMfeYKouRu166VU2xqa1",
   "chainName": "Solana Devnet",
   "isTestnet": true,

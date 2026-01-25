@@ -389,6 +389,135 @@ export const collectCoinGeckoIds = (chainInfo: ChainInfo): Set<string> => {
   return coinGeckoIds;
 };
 
+export const validateSvmChainInfoFromPath = async (
+  path: string,
+): Promise<ChainInfo> => {
+  const parsed = libPath.parse(path);
+  if (parsed.ext !== ".json") {
+    throw new Error("File is not json");
+  }
+
+  // get json from file
+  const file = readFileSync(path, "utf-8");
+  const chainInfo: Omit<ChainInfo, "rest"> & { websocket: string } =
+    JSON.parse(file);
+
+  // validate chain info
+  return await validateSvmChainInfo(parsed.name, chainInfo);
+};
+
+export const validateSvmChainInfo = async (
+  chainIdentifier: string,
+  svmChainInfo: Omit<ChainInfo, "rest"> & { websocket: string },
+): Promise<ChainInfo> => {
+  // Check chain identifier matches chainId
+  if (svmChainInfo.chainId !== chainIdentifier) {
+    throw new Error(
+      `Chain identifier unmatched: (expected: ${svmChainInfo.chainId}, actual: ${chainIdentifier})`,
+    );
+  }
+
+  const { websocket, features, ...restSvmChainInfo } = svmChainInfo;
+  const chainInfoCandidate = {
+    ...restSvmChainInfo,
+    rest: svmChainInfo.rpc,
+    svm: {
+      rpc: svmChainInfo.rpc,
+      websocket,
+    },
+    features: features ?? [],
+  };
+
+  const prev = sortedJsonByKeyStringify(chainInfoCandidate);
+
+  // validate chain information
+  const chainInfo = await (async () => {
+    try {
+      return await validateBasicChainInfoType(chainInfoCandidate);
+    } catch (e: any) {
+      // Ignore bech32Config and coinType errors for SVM chains
+      const ignoredErrors = [
+        `"bech32Config" is required`,
+        `"value" failed custom validation because if bech32Config is undefined, coin type should be 60`,
+      ];
+      if (ignoredErrors.includes(e.message)) {
+        return chainInfoCandidate;
+      } else {
+        throw e;
+      }
+    }
+  })();
+
+  if (sortedJsonByKeyStringify(chainInfo) !== prev) {
+    throw new Error("Chain info has unknown field");
+  }
+
+  // Check currencies
+  checkCurrencies(chainInfo);
+
+  for (const feature of chainInfo.features ?? []) {
+    if (!NonRecognizableChainFeatures.includes(feature)) {
+      throw new Error(
+        `Only non recognizable feature should be provided: ${feature}`,
+      );
+    }
+  }
+
+  if (chainInfo.beta != null) {
+    throw new Error("Should not set 'beta' field");
+  }
+
+  if (chainInfo.rpc.startsWith("http://")) {
+    throw new Error(
+      "RPC endpoints cannot be set as HTTP, please set them as HTTPS",
+    );
+  }
+
+  // Check SVM RPC connectivity
+  await checkSvmRpcConnectivity(chainInfo.rpc);
+
+  checkIsTestnet(chainInfo);
+
+  validateCoinGeckoIds(chainInfo);
+  const coinGeckoIds = collectCoinGeckoIds(chainInfo);
+  if (coinGeckoIds.size > 0) {
+    await checkCoinGeckoIdsAvailable(...Array.from(coinGeckoIds));
+  }
+
+  return chainInfo;
+};
+
+const checkSvmRpcConnectivity = async (rpc: string): Promise<void> => {
+  try {
+    const response = await fetch(rpc, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        jsonrpc: "2.0",
+        id: 1,
+        method: "getHealth",
+      }),
+    });
+
+    if (!response.ok) {
+      throw new Error(
+        `SVM RPC health check failed with status: ${response.status}`,
+      );
+    }
+
+    const data = await response.json();
+    if (data.error) {
+      throw new Error(
+        `SVM RPC health check returned error: ${data.error.message}`,
+      );
+    }
+  } catch (e: any) {
+    throw new Error(`Failed to connect to SVM RPC: ${e.message}`);
+  }
+};
+
 export const validateCoinGeckoIds = (chainInfo: ChainInfo): void => {
   const throwError = {
     missingCoinGeckoId: (coinMinimalDenom: string) => {

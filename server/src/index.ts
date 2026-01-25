@@ -8,8 +8,8 @@ import { ChainInfo } from "@keplr-wallet/types";
 type SearchOption = "all" | "cosmos" | "evm" | "svm";
 type FilterOption = "all" | "chain" | "token" | "chainNameAndToken";
 
+let defaultChains: ChainInfo[] | undefined;
 let allChains: ChainInfo[] | undefined;
-let allChainsIncludingSvm: ChainInfo[] | undefined;
 let cosmosChainInfos: ChainInfo[] | undefined;
 let evmChainInfos: ChainInfo[] | undefined;
 let svmChainInfos: ChainInfo[] | undefined;
@@ -27,8 +27,20 @@ const isEvmOnlyChain = (chainInfo: ChainInfo): boolean => {
 };
 
 const loadChains = async () => {
-  if (allChains && allChainsIncludingSvm && cosmosChainInfos && evmChainInfos && svmChainInfos) {
-    return { allChains, allChainsIncludingSvm, cosmosChainInfos, evmChainInfos, svmChainInfos };
+  if (
+    defaultChains &&
+    allChains &&
+    cosmosChainInfos &&
+    evmChainInfos &&
+    svmChainInfos
+  ) {
+    return {
+      defaultChains,
+      allChains,
+      cosmosChainInfos,
+      evmChainInfos,
+      svmChainInfos,
+    };
   }
 
   const cosmosChainsDirectory = Path.join(__dirname, "static", "cosmos");
@@ -131,15 +143,21 @@ const loadChains = async () => {
     a.chainName.localeCompare(b.chainName),
   );
 
-  allChains = [...cosmosChainInfos, ...evmChainInfos].sort((a, b) =>
+  defaultChains = [...cosmosChainInfos, ...evmChainInfos].sort((a, b) =>
     a.chainName.localeCompare(b.chainName),
   );
 
-  allChainsIncludingSvm = [...allChains, ...svmChainInfos].sort((a, b) =>
+  allChains = [...defaultChains, ...svmChainInfos].sort((a, b) =>
     a.chainName.localeCompare(b.chainName),
   );
 
-  return { allChains, allChainsIncludingSvm, cosmosChainInfos, evmChainInfos, svmChainInfos };
+  return {
+    defaultChains,
+    allChains,
+    cosmosChainInfos,
+    evmChainInfos,
+    svmChainInfos,
+  };
 };
 
 const filterChains = (
@@ -199,14 +217,15 @@ app.use(async (ctx, next) => {
       ? searchTextRaw[0]?.trim().toLowerCase() || ""
       : searchTextRaw?.trim().toLowerCase() || "";
 
-    const { allChainsIncludingSvm, cosmosChainInfos, evmChainInfos, svmChainInfos } = await loadChains();
+    const { allChains, cosmosChainInfos, evmChainInfos, svmChainInfos } =
+      await loadChains();
 
     let filteredChains: ChainInfo[] = [];
 
     switch (searchOption) {
       case "all":
         filteredChains = filterChains(
-          allChainsIncludingSvm,
+          allChains,
           filterOption,
           trimmedSearchText,
         );
@@ -253,14 +272,15 @@ app.use(async (ctx) => {
       ? searchTextRaw[0]?.trim().toLowerCase() || ""
       : searchTextRaw?.trim().toLowerCase() || "";
 
-    const { allChains, cosmosChainInfos, evmChainInfos } = await loadChains();
+    const { defaultChains, cosmosChainInfos, evmChainInfos } =
+      await loadChains();
 
     let filteredChains: ChainInfo[] = [];
 
     switch (searchOption) {
       case "all":
         filteredChains = filterChains(
-          allChains,
+          defaultChains,
           filterOption,
           trimmedSearchText,
         );
