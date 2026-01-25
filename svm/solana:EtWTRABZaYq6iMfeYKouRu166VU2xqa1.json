@@ -8,6 +8,7 @@
   },
   "chainId": "solana:EtWTRABZaYq6iMfeYKouRu166VU2xqa1",
   "chainName": "Solana Devnet",
+  "isTestnet": true,
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/solana:EtWTRABZaYq6iMfeYKouRu166VU2xqa1/chain.png",
   "bip44": {
     "coinType": 501
