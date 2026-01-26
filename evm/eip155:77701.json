@@ -1,0 +1,33 @@
+{
+  "rpc": "https://evm-rpc.republicai.io",
+  "websocket": "wss://evm-ws.republicai.io",
+  "nodeProvider": {
+    "name": "Republic AI",
+    "email": "nkxmail@proton.me",
+    "website": "https://republicai.io"
+  },
+  "chainId": "eip155:77701",
+  "chainName": "Republic AI Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:77701/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "RAI",
+      "coinMinimalDenom": "rai-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:77701/arai.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "RAI",
+      "coinMinimalDenom": "rai-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:77701/arai.png"
+    }
+  ],
+  "features": [],
+  "isTestnet": true
+}
