@@ -48,5 +48,6 @@
             }
         }
     ],
-    "features": []
+    "features": [],
+    "isTestnet": true
 }
