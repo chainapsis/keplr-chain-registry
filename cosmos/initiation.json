@@ -1,6 +1,6 @@
 {
-  "rpc": "https://initia-testnet.rpc.kjnodes.com",
-  "rest": "https://initia-testnet.api.kjnodes.com",
+  "rpc": "https://rpc.testnet.initia.xyz",
+  "rest": "https://rest.testnet.initia.xyz",
   "chainId": "initiation-2",
   "chainName": "Initia Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/initiation/chain.png",

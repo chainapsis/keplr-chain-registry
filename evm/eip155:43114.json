@@ -16,6 +16,13 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:43114/avalanche-native.png"
     },
     {
+      "coinDenom": "WAVAX",
+      "coinMinimalDenom": "erc20:0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "coinDecimals": 18,
+      "coinGeckoId": "wrapped-avax",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:43114/erc20/0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7.png"
+    },
+    {
       "coinDenom": "USDC",
       "coinMinimalDenom": "erc20:0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
       "coinDecimals": 6,
@@ -35,6 +42,13 @@
       "coinDecimals": 6,
       "coinGeckoId": "tether",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:43114/erc20/0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7.png"
+    },
+    {
+      "coinDenom": "axlUSDC",
+      "coinMinimalDenom": "erc20:0xfaB550568C688d5D8A52C7d794cb93Edc26eC0eC",
+      "coinDecimals": 6,
+      "coinGeckoId": "axlusdc",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:43114/erc20/0xfaB550568C688d5D8A52C7d794cb93Edc26eC0eC.png"
     }
   ],
   "feeCurrencies": [

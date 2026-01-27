@@ -13,6 +13,7 @@
   "chainId": "archway-1",
   "chainName": "Archway",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/archway/chain.png",
+  "walletUrlForStaking": "https://connect.archway.io/staking",
   "currencies": [
     {
       "coinDecimals": 18,
@@ -49,6 +50,6 @@
   "nodeProvider": {
     "name": "Phi Labs",
     "email": "support@philabs.xyz",
-    "website":"https://philabs.xyz"
+    "website": "https://philabs.xyz"
   }
 }

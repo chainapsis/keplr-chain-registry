@@ -15,7 +15,7 @@
     "bech32PrefixConsAddr": "poktvalcons",
     "bech32PrefixConsPub": "poktvalconspub"
   },
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/pocket-network",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/pocket-network?modal=staking&chain=pocket&step_id=2",
   "currencies": [
     {
       "coinDenom": "POKT",
@@ -35,6 +35,7 @@
       "coinDenom": "POKT",
       "coinMinimalDenom": "upokt",
       "coinDecimals": 6,
+      "coinGeckoId": "pocket-network",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pocket/chain.png",
       "gasPriceStep": {
         "low": 0.01,
@@ -57,6 +58,7 @@
     "coinDenom": "POKT",
     "coinMinimalDenom": "upokt",
     "coinDecimals": 6,
+    "coinGeckoId": "pocket-network",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pocket/chain.png"
   },
   "features": []

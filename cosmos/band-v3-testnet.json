@@ -1,9 +1,9 @@
 {
-  "chainId": "band-laozi-testnet6",
-  "chainName": "BandChain Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/band-laozi-testnet6/chain.png",
-  "rpc": "https://rpc.laozi-testnet6.bandchain.org:443",
-  "rest": "https://laozi-testnet6.bandchain.org/api",
+  "chainId": "band-v3-testnet-1",
+  "chainName": "BandChain V3 Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/band-v3-testnet/chain.png",
+  "rpc": "https://rpc.band-v3-testnet.bandchain.org",
+  "rest": "https://band-v3-testnet.bandchain.org/api",
   "nodeProvider": {
     "name": "Band Protocol",
     "email": "dev@bandprotocol.com",
@@ -24,8 +24,7 @@
     {
       "coinDenom": "BAND",
       "coinMinimalDenom": "uband",
-      "coinDecimals": 6,
-      "coinGeckoId": "band-protocol"
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
@@ -33,7 +32,6 @@
       "coinDenom": "BAND",
       "coinMinimalDenom": "uband",
       "coinDecimals": 6,
-      "coinGeckoId": "band-protocol",
       "gasPriceStep": {
         "low": 0.0025,
         "average": 0.003,
@@ -44,8 +42,7 @@
   "stakeCurrency": {
     "coinDenom": "BAND",
     "coinMinimalDenom": "uband",
-    "coinDecimals": 6,
-    "coinGeckoId": "band-protocol"
+    "coinDecimals": 6
   },
   "features": [],
   "isTestnet": true

@@ -4,7 +4,7 @@
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn/chain.png",
   "rpc": "https://rpc-babylon.keplr.app",
   "rest": "https://lcd-babylon.keplr.app",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/babylon-genesis",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/babylon-genesis?modal=staking&chain=bbn-1&step_id=2",
   "bip44": {
     "coinType": 118
   },

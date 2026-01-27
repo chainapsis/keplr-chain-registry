@@ -3,7 +3,7 @@
   "rest": "https://lcd-injective.keplr.app",
   "chainId": "injective-1",
   "chainName": "Injective",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/injective",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/injective?modal=staking&chain=injective-1&step_id=2",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/inj.png",
   "bech32Config": {
     "bech32PrefixAccPub": "injpub",
@@ -71,6 +71,12 @@
       "coinDecimals": 6,
       "coinGeckoId": "hydro-protocol-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1etz0laas6h7vemg3qtd67jpr6lh8v7xz7gfzqw/hdro.png"
+    },
+    {
+      "coinDenom": "yINJ",
+      "coinDecimals": 18,
+      "coinMinimalDenom": "factory/inj1etz0laas6h7vemg3qtd67jpr6lh8v7xz7gfzqw/yINJ",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1etz0laas6h7vemg3qtd67jpr6lh8v7xz7gfzqw/yINJ.png"
     },
     {
       "coinDenom": "QUNT",
@@ -188,6 +194,18 @@
       "coinDecimals": 6,
       "coinMinimalDenom": "factory/inj1jdt04erw6jdmh6c939u87kldf3mvvmkedsjp3w/OYCI",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1jdt04erw6jdmh6c939u87kldf3mvvmkedsjp3w/oyci.png"
+    },
+    {
+      "coinDenom": "BTG",
+      "coinMinimalDenom": "factory/inj1hywezj8796044zdrsl9ugcn78zlvhc3jzafesm/BTG",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1hywezj8796044zdrsl9ugcn78zlvhc3jzafesm/bitcoingold.png"
+    },
+	  {
+      "coinDenom": "BTS",
+      "coinMinimalDenom": "factory/inj1hywezj8796044zdrsl9ugcn78zlvhc3jzafesm/BTS",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1hywezj8796044zdrsl9ugcn78zlvhc3jzafesm/bitcoinsilver.png"
     }
   ],
   "feeCurrencies": [

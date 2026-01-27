@@ -11,7 +11,7 @@
     "coinGeckoId": "kyve-network",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kyve/ukyve.png"
   },
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/kyve",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/kyve?modal=staking&chain=kyve-1&step_id=2",
   "bip44": {
     "coinType": 118
   },
@@ -40,9 +40,9 @@
       "coinGeckoId": "kyve-network",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kyve/ukyve.png",
       "gasPriceStep": {
-        "low": 2,
-        "average": 3,
-        "high": 6
+        "low": 62.5,
+        "average": 80,
+        "high": 125
       }
     }
   ],

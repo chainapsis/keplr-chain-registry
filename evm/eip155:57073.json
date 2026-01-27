@@ -21,6 +21,20 @@
       "coinDecimals": 6,
       "coinGeckoId": "stargate-bridged-usdc-ink",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:57073/erc20/0xF1815bd50389c46847f0Bda824eC8da914045D14.png"
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "erc20:0x2D270e6886d130D724215A266106e6832161EAEd",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:57073/erc20/0x2D270e6886d130D724215A266106e6832161EAEd.png"
+    },
+    {
+      "coinDenom": "USDT",
+      "coinMinimalDenom": "erc20:0x0200C29006150606B650577BBE7B6248F58470c1",
+      "coinDecimals": 6,
+      "coinGeckoId": "tether",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:57073/erc20/0x0200C29006150606B650577BBE7B6248F58470c1.png"
     }
   ],
   "feeCurrencies": [

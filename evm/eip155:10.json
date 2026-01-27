@@ -21,6 +21,20 @@
       "coinDecimals": 6,
       "coinGeckoId": "usd-coin",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:10/erc20/0x0b2c639c533813f4aa9d7837caf62653d097ff85.png"
+    },
+    {
+      "coinDenom": "USDT",
+      "coinMinimalDenom": "erc20:0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+      "coinDecimals": 6,
+      "coinGeckoId": "tether",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:10/erc20/0x94b008aa00579c1307b0ef2c499ad98a8ce58e58.png"
+    },
+    {
+      "coinDenom": "axlUSDC",
+      "coinMinimalDenom": "erc20:0xEB466342C4d449BC9f53A865D5Cb90586f405215",
+      "coinDecimals": 6,
+      "coinGeckoId": "axlusdc",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:10/erc20/0xEB466342C4d449BC9f53A865D5Cb90586f405215.png"
     }
   ],
   "feeCurrencies": [
