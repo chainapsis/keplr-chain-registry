@@ -396,6 +396,13 @@ export const validateSvmChainInfo = async (
     );
   }
 
+  const svmChainIdRegex = /^[a-z]+:[1-9A-HJ-NP-Za-km-z]+$/;
+  if (!svmChainIdRegex.test(chainIdentifier)) {
+    throw new Error(
+      "Invalid chain identifier. It should be {namespace}:{base58-hash}",
+    );
+  }
+
   const { websocket, features, ...restSvmChainInfo } = svmChainInfo;
   const chainInfoCandidate = {
     ...restSvmChainInfo,
