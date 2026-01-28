@@ -418,7 +418,8 @@ export const validateSvmChainInfo = async (
 
   const chainInfo = await (async () => {
     try {
-      return await validateBasicChainInfoType(chainInfoCandidate);
+      await validateBasicChainInfoType(chainInfoCandidate);
+      return chainInfoCandidate;
     } catch (e: any) {
       const ignoredErrors = [
         `"bech32Config" is required`,
@@ -434,6 +435,10 @@ export const validateSvmChainInfo = async (
 
   if (sortedJsonByKeyStringify(chainInfo) !== prev) {
     throw new Error("Chain info has unknown field");
+  }
+
+  if (chainInfo.svm == null) {
+    throw new Error("Something went wrong with 'svm' field");
   }
 
   checkCurrencies(chainInfo);
