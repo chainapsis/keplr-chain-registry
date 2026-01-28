@@ -1,7 +1,7 @@
 {
   "rpc": "https://rpc.cosmos.directory/shido",
   "rest": "https://rest.cosmos.directory/shido",
-  "chainId": "shido_9008-1",
+  "chainId": "shido_9009-1",
   "chainName": "Shido",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shido_9008/chain.png",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/shido?modal=staking&chain=shido_9008-1&step_id=2",
