@@ -25,11 +25,6 @@
       "coinDenom": "STAKE",
       "coinMinimalDenom": "stake",
       "coinDecimals": 0
-    },
-    {
-      "coinDenom": "MSTBL",
-      "coinMinimalDenom": "cw20:wasm14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9s0phg4d:MSTBL",
-      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
