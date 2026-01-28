@@ -1,6 +1,6 @@
 {
-  "rpc": "https://rpc-omniflixhub.keplr.app",
-  "rest": "https://lcd-omniflixhub.keplr.app",
+  "rpc": "https://sifchain-rpc.polkachu.com",
+  "rest": "https://sifchain-api.polkachu.com",
   "chainId": "omniflixhub-1",
   "chainName": "OmniFlix",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/omniflixhub/chain.png",
