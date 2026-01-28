@@ -1,0 +1,51 @@
+{
+  "rpc": "https://pisco-rpc.terra.dev/",
+  "rest": "https://pisco-lcd.terra.dev",
+  "chainId": "pisco-1",
+  "chainName": "Pisco",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shido_9008/chain.png",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/pisco?modal=staking&chain=pisco-1&step_id=2",
+  "stakeCurrency": {
+    "coinDenom": "PISCO",
+    "coinMinimalDenom": "pisco",
+    "coinDecimals": 18,
+    "coinGeckoId": "pisco-1",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pisco/pisco.png"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "pisco",
+    "bech32PrefixAccPub": "piscopub",
+    "bech32PrefixValAddr": "piscovaloper",
+    "bech32PrefixValPub": "piscovaloperpub",
+    "bech32PrefixConsAddr": "piscovalcons",
+    "bech32PrefixConsPub": "piscovalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "PISCO",
+      "coinMinimalDenom": "pisco",
+      "coinDecimals": 18,
+      "coinGeckoId": "pisco-1",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pisco/pisco.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "PISCO",
+      "coinMinimalDenom": "pisco",
+      "coinDecimals": 18,
+      "coinGeckoId": "pisco-1",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pisco/pisco.png",
+      "gasPriceStep": {
+        "low": 0.001,
+        "average": 0.0025,
+        "high": 0.025
+      }
+    }
+  ],
+  "features": [],
+  "isTestnet": true
+}
