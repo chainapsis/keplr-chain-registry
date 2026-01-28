@@ -1,0 +1,49 @@
+{
+  "chainId": "test-1",
+  "chainName": "test Chain",
+  "chainSymbolImageUrl": "https://...",
+  "rpc": "https://rpc.test.com",
+  "rest": "https://lcd.test.com",
+  "nodeProvider": {
+    "name": "Provider Name",
+    "email": "contact@example.com"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "example",
+    "bech32PrefixAccPub": "examplepub",
+    "bech32PrefixValAddr": "examplevaloper",
+    "bech32PrefixValPub": "examplevaloperpub",
+    "bech32PrefixConsAddr": "examplevalcons",
+    "bech32PrefixConsPub": "examplevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "EXAMPLE",
+      "coinMinimalDenom": "uexample",
+      "coinDecimals": 6,
+      "coinGeckoId": "example-token",
+      "coinImageUrl": "https://..."
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "EXAMPLE",
+      "coinMinimalDenom": "uexample",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "EXAMPLE",
+    "coinMinimalDenom": "uexample",
+    "coinDecimals": 6
+  },
+  "features": ["ibc-transfer", "ibc-go"]
+}
