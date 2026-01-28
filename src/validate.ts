@@ -403,7 +403,7 @@ export const validateSvmChainInfo = async (
     );
   }
 
-  const { websocket, features, ...restSvmChainInfo } = svmChainInfo;
+  const { websocket, ...restSvmChainInfo } = svmChainInfo;
   const chainInfoCandidate = {
     ...restSvmChainInfo,
     rest: svmChainInfo.rpc,
@@ -411,7 +411,6 @@ export const validateSvmChainInfo = async (
       rpc: svmChainInfo.rpc,
       websocket,
     },
-    features: features ?? [],
   };
 
   const prev = sortedJsonByKeyStringify(chainInfoCandidate);
@@ -442,14 +441,6 @@ export const validateSvmChainInfo = async (
   }
 
   checkCurrencies(chainInfo);
-
-  for (const feature of chainInfo.features ?? []) {
-    if (!NonRecognizableChainFeatures.includes(feature)) {
-      throw new Error(
-        `Only non recognizable feature should be provided: ${feature}`,
-      );
-    }
-  }
 
   if (chainInfo.beta != null) {
     throw new Error("Should not set 'beta' field");

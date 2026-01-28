@@ -23,6 +23,5 @@
       "coinDecimals": 9,
       "coinGeckoId": "solana"
     }
-  ],
-  "features": []
+  ]
 }

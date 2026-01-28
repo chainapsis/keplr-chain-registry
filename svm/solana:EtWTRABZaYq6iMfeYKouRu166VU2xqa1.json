@@ -22,6 +22,5 @@
       "coinMinimalDenom": "lamport",
       "coinDecimals": 9
     }
-  ],
-  "features": []
+  ]
 }
