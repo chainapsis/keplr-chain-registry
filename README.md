@@ -6,9 +6,10 @@
 > # install node modules
 > yarn install
 >
-> # validate your json file (for Cosmos-SDK-based chains or EVM chains)
+> # validate your json file (for Cosmos-SDK-based chains, EVM chains, or SVM chains)
 > yarn validate cosmos/{your file.json}
 > yarn validate evm/{your file.json}
+> yarn validate svm/{your file.json}
 > ```
 >
 > READ THE GUIDELINES BELLOW CAREFULLY, PAYING PARTICULAR ATTENTION TO THE "features" IN THE [[REQUIREMENT DETAILS for Cosmos-based chains](#cosmos-sdk-based-chain-registration-form-requirement-details)] and [[REQUIREMENT DETAILS for EVM-based chains](#evm-based-chain-registration-form-requirement-details)].
@@ -28,6 +29,7 @@ To make a pull request, please carefully read and follow the guidelines below. A
 - [Requirements and Preparation](#requirements-and-preparation)
 - [Cosmos-SDK-based Chains](#cosmos-sdk-based-chains)
 - [EVM-based Chains](#evm-based-chains)
+- [SVM-based Chains](#svm-based-chains)
 - [Notes](#note)
 
 # Requirements and Preparation
@@ -249,6 +251,79 @@ Here’s an overview of the structure of the directory. Please provide the infor
 - coinGeckoId(optional): the active API ID for Keplr to get the price from CoinGecko. For a testnet chain, this field is not accepted.
 - features: any other features that are additionally supported by the chain
   - op-stack-l1-data-fee: supports paying L1 data fee for OP stack based chain
+
+# SVM-based Chains
+
+## SVM-based Chain Registration Directory Structure
+
+SVM-based chain identifier follows [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/main/CAIPs/caip-2.md) format with {namespace}:{reference} structure, where reference is a base58 encoded hash.
+
+```
+  The chain identifier of `Solana Mainnet` is `solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp`.
+  The chain identifier of `Solana Devnet` is `solana:EtWTRABZaYq6iMfeYKouRu166VU2xqa1`.
+```
+
+Here's an overview of the structure of the directory. Please provide the information and files complying with the requirements.
+
+```
+.
+├── svm
+│     ├── solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp.json    # Chains (Each file should be named `{chain-identifier}.json')
+│     ├── solana:EtWTRABZaYq6iMfeYKouRu166VU2xqa1.json
+│     └── ...
+└── images                                                 # Collection of image assets
+      ├── solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp         # Image assets of Solana (Each directory should be named `{chain-identifier}`.)
+      │     ├── chain.png                                  # Solana logo(png, 256x256px)
+      │     └── sol.png                                    # Solana native token logo(png, 256x256px)
+      └── ...
+```
+
+### SVM-based Chain Registration Form
+
+```json
+{
+  "rpc": "https://api.mainnet-beta.solana.com",
+  "websocket": "wss://api.mainnet-beta.solana.com",
+  "chainId": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+  "chainName": "Solana",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/chain.png",
+  "bip44": {
+    "coinType": 501
+  },
+  "currencies": [
+    {
+      "coinDenom": "SOL",
+      "coinMinimalDenom": "lamport",
+      "coinDecimals": 9,
+      "coinGeckoId": "solana",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/sol.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "SOL",
+      "coinMinimalDenom": "lamport",
+      "coinDecimals": 9,
+      "coinGeckoId": "solana"
+    }
+  ]
+}
+```
+
+### SVM-based Chain Registration Form Requirement Details
+
+- rpc: URL of RPC endpoint of the chain
+- websocket: URL of WebSocket endpoint of the chain
+- chainId: chain identifier in a form of {namespace}:{base58-hash} (ex. solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp)
+- chainName: the name of the chain that will be displayed on the wallet
+- chainSymbolImageUrl: Image URL of the chain.
+  - https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/{chain-identifier}/{file-name}.png
+  - Please modify the chain-identifier and file-name from the link above and upload it.
+- bip44: BIP-44 coin type (501 for Solana)
+- currencies: the list of the supported currencies
+- feeCurrencies: the list of the tokens that are accepted for fees
+- coinGeckoId(optional): the active API ID for Keplr to get the price from CoinGecko. For a testnet chain, this field is not accepted.
+- isTestnet: set it to true when your chain is a testnet or devnet
 
 ## NOTE:
 
