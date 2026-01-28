@@ -669,8 +669,7 @@
     {
       "coinDenom": "IBCX",
       "coinMinimalDenom": "factory/osmo14klwqgkmackvx2tqa0trtg69dmy0nrg4ntq4gjgw2za4734r5seqjqm4gm/uibcx",
-      "coinDecimals": 6,
-      "coinGeckoId": "ibc-index"
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
