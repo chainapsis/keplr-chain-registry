@@ -1,6 +1,6 @@
 {
-  "rpc": "https://pisco-rpc.terra.dev/",
-  "rest": "https://pisco-lcd.terra.dev",
+  "rpc": "https://terra-testnet-rpc.polkachu.com/",
+  "rest": "https://terra-testnet-api.polkachu.com",
   "chainId": "pisco-1",
   "chainName": "Pisco",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shido_9008/chain.png",
