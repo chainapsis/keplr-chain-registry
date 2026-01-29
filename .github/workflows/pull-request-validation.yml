@@ -30,6 +30,7 @@ jobs:
           files: |
             cosmos/**
             evm/**
+            svm/**
 
       - name: Validate changed files
         run: |

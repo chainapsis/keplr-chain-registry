@@ -5,12 +5,14 @@ import ServerlessHttp from "serverless-http";
 import fs from "fs/promises";
 import { ChainInfo } from "@keplr-wallet/types";
 
-type SearchOption = "all" | "cosmos" | "evm";
+type SearchOption = "all" | "cosmos" | "evm" | "svm";
 type FilterOption = "all" | "chain" | "token" | "chainNameAndToken";
 
+let defaultChains: ChainInfo[] | undefined;
 let allChains: ChainInfo[] | undefined;
 let cosmosChainInfos: ChainInfo[] | undefined;
 let evmChainInfos: ChainInfo[] | undefined;
+let svmChainInfos: ChainInfo[] | undefined;
 
 const app = new Koa();
 app.use(serve(Path.resolve(__dirname, "static")));
@@ -25,8 +27,20 @@ const isEvmOnlyChain = (chainInfo: ChainInfo): boolean => {
 };
 
 const loadChains = async () => {
-  if (allChains && cosmosChainInfos && evmChainInfos) {
-    return { allChains, cosmosChainInfos, evmChainInfos };
+  if (
+    defaultChains &&
+    allChains &&
+    cosmosChainInfos &&
+    evmChainInfos &&
+    svmChainInfos
+  ) {
+    return {
+      defaultChains,
+      allChains,
+      cosmosChainInfos,
+      evmChainInfos,
+      svmChainInfos,
+    };
   }
 
   const cosmosChainsDirectory = Path.join(__dirname, "static", "cosmos");
@@ -84,18 +98,66 @@ const loadChains = async () => {
       };
     });
 
+  const svmChainsDirectory = Path.join(__dirname, "static", "svm");
+  svmChainInfos = await (async () => {
+    try {
+      const svmChainFiles = await fs.readdir(svmChainsDirectory);
+      const svmChainContents = await Promise.all(
+        svmChainFiles.map((fileName) =>
+          fs.readFile(Path.join(svmChainsDirectory, fileName), "utf8"),
+        ),
+      );
+      return svmChainContents
+        .filter((content) => {
+          try {
+            JSON.parse(content);
+            return true;
+          } catch (e) {
+            console.error("failed to parse svm chain info", content, e);
+            return false;
+          }
+        })
+        .map((content) => {
+          const svmChainInfo = JSON.parse(content);
+          return {
+            ...svmChainInfo,
+            rest: svmChainInfo.rpc,
+            svm: {
+              rpc: svmChainInfo.rpc,
+              websocket: svmChainInfo.websocket,
+            },
+          };
+        });
+    } catch {
+      return [];
+    }
+  })();
+
   cosmosChainInfos = cosmosChainInfos.sort((a, b) =>
     a.chainName.localeCompare(b.chainName),
   );
   evmChainInfos = evmChainInfos.sort((a, b) =>
     a.chainName.localeCompare(b.chainName),
   );
-
-  allChains = [...cosmosChainInfos, ...evmChainInfos].sort((a, b) =>
+  svmChainInfos = svmChainInfos.sort((a, b) =>
     a.chainName.localeCompare(b.chainName),
   );
 
-  return { allChains, cosmosChainInfos, evmChainInfos };
+  defaultChains = [...cosmosChainInfos, ...evmChainInfos].sort((a, b) =>
+    a.chainName.localeCompare(b.chainName),
+  );
+
+  allChains = [...defaultChains, ...svmChainInfos].sort((a, b) =>
+    a.chainName.localeCompare(b.chainName),
+  );
+
+  return {
+    defaultChains,
+    allChains,
+    cosmosChainInfos,
+    evmChainInfos,
+    svmChainInfos,
+  };
 };
 
 const filterChains = (
@@ -144,6 +206,61 @@ const filterChains = (
   });
 };
 
+app.use(async (ctx, next) => {
+  if (ctx.path !== "/chains/all") return next();
+
+  try {
+    const searchOption = (ctx.query["searchOption"] ?? "all") as SearchOption;
+    const filterOption = (ctx.query["filterOption"] ?? "all") as FilterOption;
+    const searchTextRaw = ctx.query["searchText"];
+    const trimmedSearchText = Array.isArray(searchTextRaw)
+      ? searchTextRaw[0]?.trim().toLowerCase() || ""
+      : searchTextRaw?.trim().toLowerCase() || "";
+
+    const { allChains, cosmosChainInfos, evmChainInfos, svmChainInfos } =
+      await loadChains();
+
+    let filteredChains: ChainInfo[] = [];
+
+    switch (searchOption) {
+      case "all":
+        filteredChains = filterChains(
+          allChains,
+          filterOption,
+          trimmedSearchText,
+        );
+        break;
+      case "cosmos":
+        filteredChains = filterChains(
+          cosmosChainInfos,
+          filterOption,
+          trimmedSearchText,
+        );
+        break;
+      case "evm":
+        filteredChains = filterChains(
+          evmChainInfos,
+          filterOption,
+          trimmedSearchText,
+        );
+        break;
+      case "svm":
+        filteredChains = filterChains(
+          svmChainInfos,
+          filterOption,
+          trimmedSearchText,
+        );
+        break;
+    }
+
+    ctx.body = { chains: filteredChains };
+  } catch (error) {
+    ctx.status = 500;
+    ctx.body = { error: "Internal Server Error" };
+    console.error("Error processing /chains/all request:", error);
+  }
+});
+
 app.use(async (ctx) => {
   if (ctx.path !== "/chains") return;
 
@@ -155,14 +272,15 @@ app.use(async (ctx) => {
       ? searchTextRaw[0]?.trim().toLowerCase() || ""
       : searchTextRaw?.trim().toLowerCase() || "";
 
-    const { allChains, cosmosChainInfos, evmChainInfos } = await loadChains();
+    const { defaultChains, cosmosChainInfos, evmChainInfos } =
+      await loadChains();
 
     let filteredChains: ChainInfo[] = [];
 
     switch (searchOption) {
       case "all":
         filteredChains = filterChains(
-          allChains,
+          defaultChains,
           filterOption,
           trimmedSearchText,
         );
