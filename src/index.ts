@@ -2,6 +2,7 @@ import {
   checkImageSize,
   validateCosmosChainInfoFromPath,
   validateEvmChainInfoFromPath,
+  validateSvmChainInfoFromPath,
 } from "./validate";
 import libPath from "path";
 import { ChainIdHelper } from "@keplr-wallet/cosmos";
@@ -22,10 +23,17 @@ const main = async () => {
     const path = args[0];
 
     const isEVMOnlyChain = path.includes("eip155:");
+    const isSVMChain = path.startsWith("svm/");
 
-    const chainInfo = isEVMOnlyChain
-      ? await validateEvmChainInfoFromPath(path)
-      : await validateCosmosChainInfoFromPath(path);
+    const chainInfo = await (async () => {
+      if (isSVMChain) {
+        return await validateSvmChainInfoFromPath(path);
+      }
+      if (isEVMOnlyChain) {
+        return await validateEvmChainInfoFromPath(path);
+      }
+      return await validateCosmosChainInfoFromPath(path);
+    })();
 
     const isNativeSupported = (() => {
       const chainIdentifier = ChainIdHelper.parse(chainInfo.chainId).identifier;
@@ -43,13 +51,19 @@ const main = async () => {
         .some((s) => s === chainIdentifier);
     })();
 
-    if (!isNativeSupported && !isTestnetChain && !chainInfo.nodeProvider) {
+    if (
+      !isNativeSupported &&
+      !isTestnetChain &&
+      !isSVMChain &&
+      !chainInfo.nodeProvider
+    ) {
       throw new Error("Node provider should be provided");
     }
 
     if (
       !isNativeSupported &&
       !isTestnetChain &&
+      !isSVMChain &&
       !chainInfo.chainSymbolImageUrl
     ) {
       throw new Error("chainSymbolImageUrl should be provided");

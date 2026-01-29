@@ -2,12 +2,14 @@ import { readdirSync } from "fs";
 import {
   validateCosmosChainInfoFromPath,
   validateEvmChainInfoFromPath,
+  validateSvmChainInfoFromPath,
 } from "./validate";
 import * as core from "@actions/core";
 
 const main = async () => {
   const cosmosJsonFiles = readdirSync("cosmos");
   const evmJsonFiles = readdirSync("evm");
+  const svmJsonFiles = readdirSync("svm");
   core.setOutput("hasError", false);
 
   let errorMessages: (
@@ -34,6 +36,19 @@ const main = async () => {
         evmJsonFiles.map(async (file) => {
           try {
             await validateEvmChainInfoFromPath(`evm/${file}`);
+          } catch (e) {
+            return {
+              file,
+              error: e,
+            };
+          }
+          return undefined;
+        }),
+      )
+      .concat(
+        svmJsonFiles.map(async (file) => {
+          try {
+            await validateSvmChainInfoFromPath(`svm/${file}`);
           } catch (e) {
             return {
               file,

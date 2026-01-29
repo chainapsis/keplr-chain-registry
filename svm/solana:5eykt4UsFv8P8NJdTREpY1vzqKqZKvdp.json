@@ -1,0 +1,27 @@
+{
+  "rpc": "https://api.mainnet-beta.solana.com",
+  "websocket": "wss://api.mainnet-beta.solana.com",
+  "chainId": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+  "chainName": "Solana",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/chain.png",
+  "bip44": {
+    "coinType": 501
+  },
+  "currencies": [
+    {
+      "coinDenom": "SOL",
+      "coinMinimalDenom": "lamport",
+      "coinDecimals": 9,
+      "coinGeckoId": "solana",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/sol.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "SOL",
+      "coinMinimalDenom": "lamport",
+      "coinDecimals": 9,
+      "coinGeckoId": "solana"
+    }
+  ]
+}

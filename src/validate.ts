@@ -27,14 +27,12 @@ export const validateCosmosChainInfoFromPath = async (
     throw new Error("File is not json");
   }
 
-  // get json from file
   const chainInfo = fileToChainInfo(path);
 
   if (chainInfo.hideInUI && chainInfo.chainId !== "wormchain") {
     throw new Error("Should not hide chain in UI");
   }
 
-  // validate chain info
   return await validateCosmosChainInfo(parsed.name, chainInfo);
 };
 
@@ -44,14 +42,12 @@ export const validateCosmosChainInfo = async (
 ): Promise<ChainInfo> => {
   const prev = sortedJsonByKeyStringify(chainInfo);
 
-  // validate chain information
   chainInfo = await validateBasicChainInfoType(chainInfo);
 
   if (sortedJsonByKeyStringify(chainInfo) !== prev) {
     throw new Error("Chain info has unknown field");
   }
 
-  // Check chain identifier
   const parsedChainId = ChainIdHelper.parse(chainInfo.chainId).identifier;
   if (parsedChainId !== chainIdentifier) {
     throw new Error(
@@ -59,12 +55,10 @@ export const validateCosmosChainInfo = async (
     );
   }
 
-  // Check currencies
   checkCurrencies(chainInfo);
 
   for (const feature of chainInfo.features ?? []) {
     if (!NonRecognizableChainFeatures.includes(feature)) {
-      // Pass validation for ibc-v2
       if (feature !== "ibc-v2") {
         throw new Error(
           `Only non recognizable feature should be provided: ${feature}`,
@@ -94,7 +88,6 @@ export const validateCosmosChainInfo = async (
     );
   }
 
-  // check RPC alive
   await checkRPCConnectivity(
     chainInfo.chainId,
     chainInfo.rpc,
@@ -111,7 +104,6 @@ export const validateCosmosChainInfo = async (
     await checkEvmRpcConnectivity(chainInfo.evm.chainId, chainInfo.evm.rpc);
   }
 
-  // check REST alive
   if (
     chainIdentifier !== "gravity-bridge" &&
     chainIdentifier !== "sommelier" &&
@@ -122,9 +114,9 @@ export const validateCosmosChainInfo = async (
 
   checkIsTestnet(chainInfo);
 
-  validateCoinGeckoIds(chainInfo); // check coinGeckoId inputs vaild
+  validateCoinGeckoIds(chainInfo);
   const coinGeckoIds = collectCoinGeckoIds(chainInfo);
-  await checkCoinGeckoIdsAvailable(...Array.from(coinGeckoIds)); // check coinGeckoIds available in Coin Gecko
+  await checkCoinGeckoIdsAvailable(...Array.from(coinGeckoIds));
 
   return chainInfo;
 };
@@ -137,12 +129,10 @@ export const validateEvmChainInfoFromPath = async (
     throw new Error("File is not json");
   }
 
-  // get json from file
   const file = readFileSync(path, "utf-8");
   const chainInfo: Omit<ChainInfo, "rest"> & { websocket: string } =
     JSON.parse(file);
 
-  // validate chain info
   return await validateEvmChainInfo(parsed.name, chainInfo);
 };
 
@@ -150,7 +140,6 @@ export const validateEvmChainInfo = async (
   chainIdentifier: string,
   evmChainInfo: Omit<ChainInfo, "rest"> & { websocket: string },
 ): Promise<ChainInfo> => {
-  // Check chain identifier
   const parsedChainId = ChainIdHelper.parse(evmChainInfo.chainId).identifier;
   if (parsedChainId !== chainIdentifier) {
     throw new Error(
@@ -177,12 +166,10 @@ export const validateEvmChainInfo = async (
     features: ["eth-address-gen", "eth-key-sign"].concat(features ?? []),
   };
   const prev = sortedJsonByKeyStringify(chainInfoCandidate);
-  // validate chain information
   const chainInfo = await (async () => {
     try {
       return await validateBasicChainInfoType(chainInfoCandidate);
     } catch (e: any) {
-      // Ignore bech32Config error
       if (e.message === `"bech32Config" is required`) {
         return chainInfoCandidate;
       } else {
@@ -198,12 +185,10 @@ export const validateEvmChainInfo = async (
     throw new Error("Something went wrong with 'evm' field");
   }
 
-  // Check currencies
   checkCurrencies(chainInfo);
 
   for (const feature of chainInfo.features ?? []) {
     if (!NonRecognizableChainFeatures.includes(feature)) {
-      // Pass validation for ibc-v2
       if (feature !== "ibc-v2") {
         throw new Error(
           `Only non recognizable feature should be provided: ${feature}`,
@@ -226,9 +211,9 @@ export const validateEvmChainInfo = async (
 
   checkIsTestnet(chainInfo);
 
-  validateCoinGeckoIds(chainInfo); // check coinGeckoId inputs vaild
+  validateCoinGeckoIds(chainInfo);
   const coinGeckoIds = collectCoinGeckoIds(chainInfo);
-  await checkCoinGeckoIdsAvailable(...Array.from(coinGeckoIds)); // check coinGeckoIds available in Coin Gecko
+  await checkCoinGeckoIdsAvailable(...Array.from(coinGeckoIds));
 
   return chainInfo;
 };
@@ -269,7 +254,6 @@ const checkCoinGeckoIdsAvailable = async (...coinGeckoIds: string[]) => {
 };
 
 export const checkCurrencies = (chainInfo: ChainInfo) => {
-  // Check stake currency
   if (
     chainInfo.stakeCurrency &&
     !chainInfo.currencies.some(
@@ -282,7 +266,6 @@ export const checkCurrencies = (chainInfo: ChainInfo) => {
     );
   }
 
-  // Check fee currency
   if (
     !chainInfo.feeCurrencies
       .filter((feeCurrency) => !feeCurrency.coinMinimalDenom.startsWith("ibc/"))
@@ -297,7 +280,6 @@ export const checkCurrencies = (chainInfo: ChainInfo) => {
     throw new Error(`Fee Currency must be included in currencies`);
   }
 
-  // Check currencies
   for (const currency of chainInfo.currencies) {
     const denomHelper = new DenomHelper(currency.coinMinimalDenom);
     if (denomHelper.type !== "native" && denomHelper.type !== "erc20") {
@@ -387,6 +369,131 @@ export const collectCoinGeckoIds = (chainInfo: ChainInfo): Set<string> => {
   }
 
   return coinGeckoIds;
+};
+
+export const validateSvmChainInfoFromPath = async (
+  path: string,
+): Promise<ChainInfo> => {
+  const parsed = libPath.parse(path);
+  if (parsed.ext !== ".json") {
+    throw new Error("File is not json");
+  }
+
+  const file = readFileSync(path, "utf-8");
+  const chainInfo: Omit<ChainInfo, "rest"> & { websocket: string } =
+    JSON.parse(file);
+
+  return await validateSvmChainInfo(parsed.name, chainInfo);
+};
+
+export const validateSvmChainInfo = async (
+  chainIdentifier: string,
+  svmChainInfo: Omit<ChainInfo, "rest"> & { websocket: string },
+): Promise<ChainInfo> => {
+  if (svmChainInfo.chainId !== chainIdentifier) {
+    throw new Error(
+      `Chain identifier unmatched: (expected: ${svmChainInfo.chainId}, actual: ${chainIdentifier})`,
+    );
+  }
+
+  const svmChainIdRegex = /^[a-z]+:[1-9A-HJ-NP-Za-km-z]+$/;
+  if (!svmChainIdRegex.test(chainIdentifier)) {
+    throw new Error(
+      "Invalid chain identifier. It should be {namespace}:{base58-hash}",
+    );
+  }
+
+  const { websocket, ...restSvmChainInfo } = svmChainInfo;
+  const chainInfoCandidate = {
+    ...restSvmChainInfo,
+    rest: svmChainInfo.rpc,
+    svm: {
+      rpc: svmChainInfo.rpc,
+      websocket,
+    },
+  };
+
+  const prev = sortedJsonByKeyStringify(chainInfoCandidate);
+
+  const chainInfo = await (async () => {
+    try {
+      await validateBasicChainInfoType(chainInfoCandidate);
+      return chainInfoCandidate;
+    } catch (e: any) {
+      const ignoredErrors = [
+        `"bech32Config" is required`,
+        `"value" failed custom validation because if bech32Config is undefined, coin type should be 60`,
+      ];
+      if (ignoredErrors.includes(e.message)) {
+        return chainInfoCandidate;
+      } else {
+        throw e;
+      }
+    }
+  })();
+
+  if (sortedJsonByKeyStringify(chainInfo) !== prev) {
+    throw new Error("Chain info has unknown field");
+  }
+
+  if (chainInfo.svm == null) {
+    throw new Error("Something went wrong with 'svm' field");
+  }
+
+  checkCurrencies(chainInfo);
+
+  if (chainInfo.beta != null) {
+    throw new Error("Should not set 'beta' field");
+  }
+
+  if (chainInfo.rpc.startsWith("http://")) {
+    throw new Error(
+      "RPC endpoints cannot be set as HTTP, please set them as HTTPS",
+    );
+  }
+
+  await checkSvmRpcConnectivity(chainInfo.rpc);
+
+  checkIsTestnet(chainInfo);
+
+  validateCoinGeckoIds(chainInfo);
+  const coinGeckoIds = collectCoinGeckoIds(chainInfo);
+  if (coinGeckoIds.size > 0) {
+    await checkCoinGeckoIdsAvailable(...Array.from(coinGeckoIds));
+  }
+
+  return chainInfo;
+};
+
+const checkSvmRpcConnectivity = async (rpc: string): Promise<void> => {
+  try {
+    const response = await fetch(rpc, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        jsonrpc: "2.0",
+        id: 1,
+        method: "getHealth",
+      }),
+    });
+
+    if (!response.ok) {
+      throw new Error(
+        `SVM RPC health check failed with status: ${response.status}`,
+      );
+    }
+
+    const data = await response.json();
+    if (data.error) {
+      throw new Error(
+        `SVM RPC health check returned error: ${data.error.message}`,
+      );
+    }
+  } catch (e: any) {
+    throw new Error(`Failed to connect to SVM RPC: ${e.message}`);
+  }
 };
 
 export const validateCoinGeckoIds = (chainInfo: ChainInfo): void => {
