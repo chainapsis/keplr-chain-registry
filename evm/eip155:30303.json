@@ -1,0 +1,28 @@
+{
+  "rpc": "https://rpc.internal.ethiq.network/",
+  "chainId": "eip155:30303",
+  "chainName": "Ethiq",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:30303/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "ETH",
+      "coinMinimalDenom": "ethereum-native",
+      "coinDecimals": 18,
+      "coinGeckoId": "ethereum",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:30303/ethereum-native.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ETH",
+      "coinMinimalDenom": "ethereum-native",
+      "coinDecimals": 18,
+      "coinGeckoId": "ethereum",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:30303/ethereum-native.png"
+    }
+  ],
+  "features": []
+}
