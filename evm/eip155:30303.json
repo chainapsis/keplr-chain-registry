@@ -1,5 +1,5 @@
 {
-  "rpc": "https://rpc.internal.ethiq.network/",
+  "rpc": "https://rpc.ethiq.network/",
   "chainId": "eip155:30303",
   "chainName": "Ethiq",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:30303/chain.png",
