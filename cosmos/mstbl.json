@@ -2,7 +2,7 @@
   "chainId": "mstbl-1",
   "chainName": "MSTBL Testnet",
   "isTestnet": true,
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/rh050/MSTBL-Blockchain/main/images/mstbl-logo.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/rh050/MSTBL-Blockchain/main/images/MSTBL_LOGO.png",
   "rpc": "https://rpc.stbl.mstbl.com",
   "rest": "https://api.stbl.mstbl.com",
   "nodeProvider": {
