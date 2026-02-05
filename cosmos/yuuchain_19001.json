@@ -1,7 +1,7 @@
 {
-  "chainId": "yuuchain_9001-1",
+  "chainId": "yuuchain_19001-1",
   "chainName": "YuuChain",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/yuuchain_9001/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/yuuchain_19001/chain.png",
   "rpc": "https://tendermint.theyuusystem.com",
   "rest": "https://api.theyuusystem.com",
   "nodeProvider": {
