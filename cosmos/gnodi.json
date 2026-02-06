@@ -1,0 +1,48 @@
+{
+  "chainId": "gnodi",
+  "chainName": "Gnodi",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gnodi/gnod.png",
+  "rpc": "https://rpc.gnodi.zone",
+  "rest": "https://api.gnodi.zone",
+  "nodeProvider": {
+    "name": "Gnodi Team",
+    "email": "info@gnodiblockchain.org",
+    "website": "https://gnodiblockchain.org"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "gnodi",
+    "bech32PrefixAccPub": "gnodipub",
+    "bech32PrefixValAddr": "gnodivaloper",
+    "bech32PrefixValPub": "gnodivaloperpub",
+    "bech32PrefixConsAddr": "gnodivalcons",
+    "bech32PrefixConsPub": "gnodivalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "GNOD",
+      "coinMinimalDenom": "uGNOD",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gnodi/gnod.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "GNOD",
+      "coinMinimalDenom": "uGNOD",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 1.0,
+        "average": 1.5,
+        "high": 2.0
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "GNOD",
+    "coinMinimalDenom": "uGNOD",
+    "coinDecimals": 6
+  }
+}
