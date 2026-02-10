@@ -35,7 +35,6 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "ssc",
   "seda",
   "dimension_37",
-  "pryzm",
   "zetachain_7000",
   "lava-mainnet",
   "mantra",
