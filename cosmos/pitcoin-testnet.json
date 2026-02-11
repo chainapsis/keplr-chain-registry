@@ -1,0 +1,56 @@
+{
+    "chainId":  "pitcoin-testnet-1",
+    "chainName":  "Pitcoin Testnet",
+    "chainSymbolImageUrl":  "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pitcoin-testnet/chain.png",
+    "rpc":  "https://rpc.monero-pulse.com",
+    "rest":  "https://rest.monero-pulse.com",
+    "nodeProvider":  {
+                         "name":  "trendy",
+                         "email":  "donnythedingus@gmail.com",
+                         "website":  "https://monero-pulse.com"
+                     },
+    "bip44":  {
+                  "coinType":  118
+              },
+    "bech32Config":  {
+                         "bech32PrefixAccAddr":  "cosmos",
+                         "bech32PrefixAccPub":  "cosmospub",
+                         "bech32PrefixValAddr":  "cosmosvaloper",
+                         "bech32PrefixValPub":  "cosmosvaloperpub",
+                         "bech32PrefixConsAddr":  "cosmosvalcons",
+                         "bech32PrefixConsPub":  "cosmosvalconspub"
+                     },
+    "currencies":  [
+                       {
+                           "coinDenom":  "PIT",
+                           "coinMinimalDenom":  "upit",
+                           "coinDecimals":  6,
+                           "coinImageUrl":  "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pitcoin-testnet/chain.png"
+                       }
+                   ],
+    "feeCurrencies":  [
+                          {
+                              "coinDenom":  "PIT",
+                              "coinMinimalDenom":  "upit",
+                              "coinDecimals":  6,
+                              "coinImageUrl":  "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pitcoin-testnet/chain.png",
+                              "gasPriceStep":  {
+                                                   "low":  0.001,
+                                                   "average":  0.001,
+                                                   "high":  0.001
+                                               }
+                          }
+                      ],
+    "stakeCurrency":  {
+                          "coinDenom":  "PIT",
+                          "coinMinimalDenom":  "upit",
+                          "coinDecimals":  6,
+                          "coinImageUrl":  "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pitcoin-testnet/chain.png"
+                      },
+    "features":  [
+                     "stargate",
+                     "ibc-transfer",
+                     "cosmwasm"
+                 ],
+    "isTestnet":  true
+}
