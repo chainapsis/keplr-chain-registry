@@ -1,6 +1,6 @@
 {
-  "rpc": "https://trade-api.devnet.tradeview.com/tendermint/",
-  "rest": "https://trade-api.devnet.tradeview.com/",
+  "rpc": "https://tendermint-trade.devnet.tradeview.com",
+  "rest": "https://api-trade.devnet.tradeview.com",
   "chainId": "tradeview-dev",
   "chainName": "Tradeview Devnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tradeview-dev/chain.png",
@@ -39,6 +39,10 @@
       }
     }
   ],
+  "nodeProvider":{
+      "name":"TradeView",
+      "email":"developer@tradeview.com"
+    },
   "features": [],
   "isTestnet": true
 }
