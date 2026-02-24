@@ -1,0 +1,52 @@
+{
+  "bech32Config": {
+    "bech32PrefixAccAddr": "mock",
+    "bech32PrefixAccPub": "mockpub",
+    "bech32PrefixConsAddr": "mockvalcons",
+    "bech32PrefixConsPub": "mockvalconspub",
+    "bech32PrefixValAddr": "mockvaloper",
+    "bech32PrefixValPub": "mockvaloperpub"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "chainId": "mockchain-1",
+  "chainName": "Mock Chain",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mockchain/chain.png",
+  "currencies": [
+    {
+      "coinDecimals": 6,
+      "coinDenom": "MOCK",
+      "coinMinimalDenom": "umock",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mockchain/umock.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDecimals": 6,
+      "coinDenom": "MOCK",
+      "coinMinimalDenom": "umock",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mockchain/umock.png",
+      "gasPriceStep": {
+        "average": 0.025,
+        "high": 0.03,
+        "low": 0.01
+      }
+    }
+  ],
+  "features": [],
+  "nodeProvider": {
+    "name": "Mock Provider",
+    "email": "mock@example.com",
+    "website": "https://mockchain.example.com"
+  },
+  "rest": "https://lcd-mockchain.keplr.app",
+  "rpc": "https://rpc-mockchain.keplr.app",
+  "stakeCurrency": {
+    "coinDecimals": 6,
+    "coinDenom": "MOCK",
+    "coinMinimalDenom": "umock",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mockchain/umock.png"
+  },
+  "isTestnet": true
+}
