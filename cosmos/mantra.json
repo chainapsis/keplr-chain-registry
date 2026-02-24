@@ -18,9 +18,9 @@
   },
   "currencies": [
     {
-      "coinDenom": "OM",
-      "coinMinimalDenom": "uom",
-      "coinDecimals": 6,
+      "coinDenom": "MANTRA",
+      "coinMinimalDenom": "amantra",
+      "coinDecimals": 18,
       "coinGeckoId": "mantra-dao",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra/om.png"
     },
@@ -33,9 +33,9 @@
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "OM",
-      "coinMinimalDenom": "uom",
-      "coinDecimals": 6,
+      "coinDenom": "MANTRA",
+      "coinMinimalDenom": "amantra",
+      "coinDecimals": 18,
       "coinGeckoId": "mantra-dao",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra/om.png",
       "gasPriceStep": {
@@ -46,9 +46,9 @@
     }
   ],
   "stakeCurrency": {
-    "coinDenom": "OM",
-    "coinMinimalDenom": "uom",
-    "coinDecimals": 6,
+    "coinDenom": "MANTRA",
+    "coinMinimalDenom": "amantra",
+    "coinDecimals": 18,
     "coinGeckoId": "mantra-dao",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra/om.png"
   },
