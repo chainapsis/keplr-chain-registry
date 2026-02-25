@@ -21,7 +21,7 @@
       "coinDenom": "MANTRA",
       "coinMinimalDenom": "amantra",
       "coinDecimals": 18,
-      "coinGeckoId": "mantra-dao",
+      "coinGeckoId": "mantra",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra/om.png"
     },
     {
@@ -36,7 +36,7 @@
       "coinDenom": "MANTRA",
       "coinMinimalDenom": "amantra",
       "coinDecimals": 18,
-      "coinGeckoId": "mantra-dao",
+      "coinGeckoId": "mantra",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra/om.png",
       "gasPriceStep": {
         "low": 0.01,
@@ -49,7 +49,7 @@
     "coinDenom": "MANTRA",
     "coinMinimalDenom": "amantra",
     "coinDecimals": 18,
-    "coinGeckoId": "mantra-dao",
+    "coinGeckoId": "mantra",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra/om.png"
   },
   "features": ["cosmwasm", "evm-feemarket"]
