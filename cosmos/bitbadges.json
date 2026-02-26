@@ -1,6 +1,10 @@
 {
   "rpc": "https://rpc.bitbadges.io",
   "rest": "https://lcd.bitbadges.io",
+  "evm": {
+    "chainId": 50024,
+    "rpc": "https://evm-rpc.bitbadges.io"
+  },
   "chainId": "bitbadges-1",
   "chainName": "BitBadges",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/bitbadgeslogo.png",
@@ -11,7 +15,7 @@
     "website":"https://bitbadges.io"
   },
   "bip44": {
-    "coinType": 118
+    "coinType": 60
   },
   "bech32Config": {
     "bech32PrefixAccAddr": "bb",
@@ -48,5 +52,5 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/badge_logo.png"
     }
   ],
-  "features": []
+  "features": ["eth-address-gen", "eth-key-sign"]
 }
