@@ -8,7 +8,7 @@
   },
   "chainId": "morocco-1",
   "chainName": "Terp Network",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/morocco/chain.png",
   "stakeCurrency": {
     "coinDenom": "TERP",
     "coinMinimalDenom": "uterp",
@@ -43,7 +43,7 @@
       "coinDenom": "TERP",
       "coinMinimalDenom": "uterp",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/chain.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/morocco/chain.png",
       "gasPriceStep": {
         "low": 0.02,
         "average": 0.04,
