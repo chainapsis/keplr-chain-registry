@@ -12,7 +12,8 @@
       "coinDenom": "cBTC",
       "coinMinimalDenom": "cbtc",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:4114/cbtc.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:4114/cbtc.png",
+      "coinGeckoId": "bitcoin"
     }
   ],
   "feeCurrencies": [
@@ -20,7 +21,8 @@
       "coinDenom": "cBTC",
       "coinMinimalDenom": "cbtc",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:4114/cbtc.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:4114/cbtc.png",
+      "coinGeckoId": "bitcoin"
     }
   ],
   "features": []

@@ -2,8 +2,8 @@
   "chainId": "likecoin-mainnet-2",
   "chainName": "LikeCoin",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/likecoin-mainnet/chain.png",
-  "rpc": "https://rpc-likecoin.keplr.app",
-  "rest": "https://lcd-likecoin.keplr.app",
+  "rpc": "https://mainnet-node.like.co/rpc",
+  "rest": "https://mainnet-node.like.co",
   "walletUrl": "https://wallet.keplr.app/chains/likecoin",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/likecoin?modal=staking&chain=likecoin-mainnet-2&step_id=2",
   "bip44": {
