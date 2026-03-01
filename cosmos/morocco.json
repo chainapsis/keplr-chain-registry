@@ -8,7 +8,7 @@
   },
   "chainId": "morocco-1",
   "chainName": "Terp Network",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/terpnetwork/images/terp.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/chain.png",
   "stakeCurrency": {
     "coinDenom": "TERP",
     "coinMinimalDenom": "uterp",
@@ -43,7 +43,7 @@
       "coinDenom": "TERP",
       "coinMinimalDenom": "uterp",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/terpnetwork/images/terp.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/chain.png",
       "gasPriceStep": {
         "low": 0.02,
         "average": 0.04,
@@ -54,7 +54,7 @@
       "coinDenom": "THIOL",
       "coinMinimalDenom": "uthiol",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/terpnetwork/images/thiol.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thiol.png",
       "gasPriceStep": {
         "low": 0.5,
         "average": 0.75,
