@@ -39,9 +39,9 @@
       "coinGeckoId": "mantra",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra/om.png",
       "gasPriceStep": {
-        "low": 0.01,
-        "average": 0.025,
-        "high": 0.03
+        "low": 40000000000,
+        "average": 80000000000,
+        "high": 120000000000
       }
     }
   ],
