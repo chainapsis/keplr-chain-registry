@@ -1,6 +1,6 @@
 {
-  "rpc": "https://api.mainnet.solana.com",
-  "websocket": "wss://api.mainnet.solana.com",
+  "rpc": "https://rpc-solana.keplr.app",
+  "websocket": "wss://rpc-solana.keplr.app",
   "chainId": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
   "chainName": "Solana",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/chain.png",
