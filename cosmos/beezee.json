@@ -68,8 +68,8 @@
       "coinDecimals": 6,
       "coinGeckoId": "bzedge",
       "gasPriceStep": {
-          "low": 0.001,
-          "average": 0.01,
+          "low": 0.01,
+          "average": 0.05,
           "high": 0.1
       },
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/beezee/chain.png"
