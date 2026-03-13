@@ -1,13 +1,13 @@
 {
   "chainId": "coreum-mainnet-1",
-  "chainName": "Coreum",
+  "chainName": "TX",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/coreum-mainnet/chain.png",
-  "rpc": "https://full-node.mainnet-1.coreum.dev:26657",
-  "rest": "https://full-node.mainnet-1.coreum.dev:1317",
+  "rpc": "https://rpc.mainnet-1.tx.org:443",
+  "rest": "https://rest.mainnet-1.tx.org:443",
   "nodeProvider": {
-    "name": "Coreum Full Node",
-    "website":"https://www.coreum.com/",
-    "email": "hello@coreum.com"
+    "name": "TX Foundation",
+    "website": "https://www.tx.org/",
+    "email": "ops@tx.org"
   },
   "bip44": {
     "coinType": 990
@@ -22,18 +22,18 @@
   },
   "currencies": [
     {
-      "coinDenom": "CORE",
+      "coinDenom": "TX",
       "coinMinimalDenom": "ucore",
       "coinDecimals": 6,
-      "coinGeckoId": "coreum"
+      "coinGeckoId": "tx"
     }
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "CORE",
+      "coinDenom": "TX",
       "coinMinimalDenom": "ucore",
       "coinDecimals": 6,
-      "coinGeckoId": "coreum",
+      "coinGeckoId": "tx",
       "gasPriceStep": {
         "low": 0.0625,
         "average": 0.0625,
@@ -42,10 +42,10 @@
     }
   ],
   "stakeCurrency": {
-    "coinDenom": "CORE",
+    "coinDenom": "TX",
     "coinMinimalDenom": "ucore",
     "coinDecimals": 6,
-    "coinGeckoId": "coreum"
+    "coinGeckoId": "tx"
   },
   "features": [
     "cosmwasm"
