@@ -239,5 +239,7 @@
   "features": [
     "axelar-evm-bridge"
   ],
-  "txExplorerUrl": "https://www.mintscan.io/axelar/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://www.mintscan.io/axelar/transactions/${txHash}"
+  }
 }

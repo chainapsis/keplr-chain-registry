@@ -49,5 +49,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://www.mintscan.io/bitbadges/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://www.mintscan.io/bitbadges/transactions/${txHash}"
+  }
 }

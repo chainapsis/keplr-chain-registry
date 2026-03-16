@@ -199,5 +199,7 @@
     "terra-classic-fee",
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://finder.terra-classic.hexxagon.io/mainnet/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://finder.terra-classic.hexxagon.io/mainnet/tx/${txHash}"
+  }
 }

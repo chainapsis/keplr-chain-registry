@@ -103,5 +103,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://www.mintscan.io/terra/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://www.mintscan.io/terra/transactions/${txHash}"
+  }
 }

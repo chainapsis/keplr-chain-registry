@@ -71,5 +71,7 @@
       "coinType": 118
     }
   ],
-  "txExplorerUrl": "https://agoric.explorers.guru/transaction/${txHash}"
+  "explorers": {
+    "txPage": "https://agoric.explorers.guru/transaction/${txHash}"
+  }
 }

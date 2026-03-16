@@ -23,5 +23,7 @@
       "coinDecimals": 9
     }
   ],
-  "txExplorerUrl": "https://explorer.solana.com/tx/${txHash}?cluster=devnet"
+  "explorers": {
+    "txPage": "https://explorer.solana.com/tx/${txHash}?cluster=devnet"
+  }
 }

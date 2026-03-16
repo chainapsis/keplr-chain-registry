@@ -49,5 +49,7 @@
     "coinGeckoId": "titan"
   },
   "features": [],
-  "txExplorerUrl": "https://blockexplorer.taketitan.com/taketitan/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://blockexplorer.taketitan.com/taketitan/tx/${txHash}"
+  }
 }

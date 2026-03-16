@@ -49,5 +49,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://www.mintscan.io/passage/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://www.mintscan.io/passage/transactions/${txHash}"
+  }
 }

@@ -232,5 +232,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://ezstaking.app/crescent/txs/${txHash}"
+  "explorers": {
+    "txPage": "https://ezstaking.app/crescent/txs/${txHash}"
+  }
 }

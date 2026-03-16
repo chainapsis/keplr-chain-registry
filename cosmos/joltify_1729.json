@@ -52,5 +52,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://explorer.whenmoonwhenlambo.money/joltify/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.whenmoonwhenlambo.money/joltify/tx/${txHash}"
+  }
 }

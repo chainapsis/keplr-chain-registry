@@ -49,5 +49,7 @@
     "coinGeckoId": "unification"
   },
   "features": [],
-  "txExplorerUrl": "https://explorer.unification.io/u/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.unification.io/u/tx/${txHash}"
+  }
 }

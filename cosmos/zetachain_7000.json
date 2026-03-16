@@ -55,5 +55,7 @@
     "eth-key-sign"
   ],
   "walletUrlForStaking": "https://wallet.keplr.app/chains/zetachain?modal=staking&chain=zetachain_7000-1&step_id=2",
-  "txExplorerUrl": "https://explorer.zetachain.com/cc/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.zetachain.com/cc/tx/${txHash}"
+  }
 }

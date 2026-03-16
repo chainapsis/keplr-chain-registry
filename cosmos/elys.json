@@ -93,5 +93,7 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elys/chain.png"
   },
   "features": [],
-  "txExplorerUrl": "https://explorer.nodestake.org/elys/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.nodestake.org/elys/tx/${txHash}"
+  }
 }

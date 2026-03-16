@@ -49,5 +49,7 @@
   "features": [
     "op-stack-l1-data-fee"
   ],
-  "txExplorerUrl": "https://explorer.inkonchain.com/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.inkonchain.com/tx/${txHash}"
+  }
 }

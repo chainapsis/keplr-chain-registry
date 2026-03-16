@@ -35,5 +35,7 @@
   ],
   "features": [],
   "isTestnet": true,
-  "txExplorerUrl": "https://blockscout.mantrascan.io/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://blockscout.mantrascan.io/tx/${txHash}"
+  }
 }

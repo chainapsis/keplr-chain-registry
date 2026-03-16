@@ -49,5 +49,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://explorer.tcnetwork.io/seda/transaction/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.tcnetwork.io/seda/transaction/${txHash}"
+  }
 }

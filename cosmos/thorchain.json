@@ -222,5 +222,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://thorchain.net/#/txs/${txHash}"
+  "explorers": {
+    "txPage": "https://thorchain.net/#/txs/${txHash}"
+  }
 }

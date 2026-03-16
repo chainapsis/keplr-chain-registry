@@ -102,5 +102,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://sagaevm-5464-1.sagaexplorer.io/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://sagaevm-5464-1.sagaexplorer.io/tx/${txHash}"
+  }
 }

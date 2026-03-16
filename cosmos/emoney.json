@@ -127,5 +127,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://ezstaking.app/emoney/txs/${txHash}"
+  "explorers": {
+    "txPage": "https://ezstaking.app/emoney/txs/${txHash}"
+  }
 }

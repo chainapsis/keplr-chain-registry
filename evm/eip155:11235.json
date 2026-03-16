@@ -38,5 +38,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://explorer.haqq.network/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.haqq.network/tx/${txHash}"
+  }
 }

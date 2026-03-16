@@ -53,5 +53,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://explorer.c4e.io/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.c4e.io/transactions/${txHash}"
+  }
 }

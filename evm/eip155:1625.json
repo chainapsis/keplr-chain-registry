@@ -26,5 +26,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://explorer.gravity.xyz/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.gravity.xyz/tx/${txHash}"
+  }
 }

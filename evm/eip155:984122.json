@@ -31,5 +31,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://explorer.forma.art/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.forma.art/tx/${txHash}"
+  }
 }

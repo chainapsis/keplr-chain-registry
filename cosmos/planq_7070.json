@@ -92,5 +92,7 @@
     "eth-key-sign",
     "force-enable-evm-ledger"
   ],
-  "txExplorerUrl": "https://atomscan.com/planq/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://atomscan.com/planq/transactions/${txHash}"
+  }
 }

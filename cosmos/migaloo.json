@@ -93,5 +93,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://atomscan.com/migaloo/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://atomscan.com/migaloo/transactions/${txHash}"
+  }
 }

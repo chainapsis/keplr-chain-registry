@@ -47,5 +47,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://paloma.explorers.guru/transaction/${txHash}"
+  "explorers": {
+    "txPage": "https://paloma.explorers.guru/transaction/${txHash}"
+  }
 }

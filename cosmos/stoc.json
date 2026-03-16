@@ -51,5 +51,7 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stoc/ustoc.png"
   },
   "features": [],
-  "txExplorerUrl": "https://stochainscan.io/en/transaction/${txHash}"
+  "explorers": {
+    "txPage": "https://stochainscan.io/en/transaction/${txHash}"
+  }
 }

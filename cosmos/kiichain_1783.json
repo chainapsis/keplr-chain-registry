@@ -57,5 +57,7 @@
     "website": "https://kiichain.io"
   },
   "isTestnet": false,
-  "txExplorerUrl": "https://explorer.kiichain.io/kiichain/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.kiichain.io/kiichain/tx/${txHash}"
+  }
 }

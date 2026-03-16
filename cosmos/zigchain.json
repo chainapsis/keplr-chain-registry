@@ -55,5 +55,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://app.range.org/tx/zigchain/${txHash}"
+  "explorers": {
+    "txPage": "https://app.range.org/tx/zigchain/${txHash}"
+  }
 }

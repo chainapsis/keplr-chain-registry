@@ -54,5 +54,7 @@
     "cosmwasm"
   ],
   "walletUrlForStaking": "https://explorer.furya.network/furya-1/staking",
-  "txExplorerUrl": "https://explorer.furya.network/furya-1/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.furya.network/furya-1/tx/${txHash}"
+  }
 }

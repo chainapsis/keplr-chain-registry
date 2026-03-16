@@ -99,5 +99,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://ping.pub/nolus/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://ping.pub/nolus/tx/${txHash}"
+  }
 }

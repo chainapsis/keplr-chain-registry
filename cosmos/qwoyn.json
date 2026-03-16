@@ -45,5 +45,7 @@
     "coinDecimals": 6
   },
   "features": [],
-  "txExplorerUrl": "https://staking-explorer.com/transaction.php?chain=qwoyn&tx=${txHash}"
+  "explorers": {
+    "txPage": "https://staking-explorer.com/transaction.php?chain=qwoyn&tx=${txHash}"
+  }
 }

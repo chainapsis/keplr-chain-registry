@@ -55,5 +55,7 @@
       "coinType": 118
     }
   ],
-  "txExplorerUrl": "https://www.mintscan.io/crypto-org/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://www.mintscan.io/crypto-org/transactions/${txHash}"
+  }
 }

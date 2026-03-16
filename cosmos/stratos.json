@@ -56,5 +56,7 @@
     "eth-address-gen",
     "eth-key-sign"
   ],
-  "txExplorerUrl": "https://explorer.thestratos.org/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.thestratos.org/transactions/${txHash}"
+  }
 }

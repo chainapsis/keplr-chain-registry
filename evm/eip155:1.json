@@ -53,5 +53,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://etherscan.io/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://etherscan.io/tx/${txHash}"
+  }
 }

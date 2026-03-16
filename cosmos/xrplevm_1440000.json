@@ -49,5 +49,7 @@
     "eth-key-sign",
     "axelar-evm-bridge"
   ],
-  "txExplorerUrl": "https://explorer.xrplevm.org/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.xrplevm.org/tx/${txHash}"
+  }
 }

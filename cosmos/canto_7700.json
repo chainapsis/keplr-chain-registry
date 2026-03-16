@@ -53,5 +53,7 @@
     "eth-address-gen",
     "eth-key-sign"
   ],
-  "txExplorerUrl": "https://cosmos-explorers.neobase.one/canto/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://cosmos-explorers.neobase.one/canto/tx/${txHash}"
+  }
 }

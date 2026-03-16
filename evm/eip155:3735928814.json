@@ -29,5 +29,7 @@
   ],
   "features": [],
   "isTestnet": true,
-  "txExplorerUrl": "https://explorer.testnet.abs.xyz/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.testnet.abs.xyz/tx/${txHash}"
+  }
 }

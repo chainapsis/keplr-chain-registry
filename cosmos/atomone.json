@@ -66,5 +66,7 @@
     "coinGeckoId": "atomone"
   },
   "features": [],
-  "txExplorerUrl": "https://www.mintscan.io/atomone/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://www.mintscan.io/atomone/tx/${txHash}"
+  }
 }

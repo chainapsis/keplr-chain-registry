@@ -61,5 +61,7 @@
     "eth-address-gen",
     "eth-key-sign"
   ],
-  "txExplorerUrl": "https://www.mintscan.io/evmos/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://www.mintscan.io/evmos/transactions/${txHash}"
+  }
 }

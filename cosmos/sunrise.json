@@ -62,5 +62,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://explorer.tcnetwork.io/sunrise/transaction/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.tcnetwork.io/sunrise/transaction/${txHash}"
+  }
 }

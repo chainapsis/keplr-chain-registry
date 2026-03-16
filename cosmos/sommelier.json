@@ -43,5 +43,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://www.mintscan.io/sommelier/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://www.mintscan.io/sommelier/transactions/${txHash}"
+  }
 }

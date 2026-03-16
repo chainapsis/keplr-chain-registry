@@ -48,5 +48,7 @@
     "coinGeckoId": "firmachain"
   },
   "features": [],
-  "txExplorerUrl": "https://staking-explorer.com/transaction.php?chain=firmachain&tx=${txHash}"
+  "explorers": {
+    "txPage": "https://staking-explorer.com/transaction.php?chain=firmachain&tx=${txHash}"
+  }
 }

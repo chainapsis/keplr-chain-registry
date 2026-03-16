@@ -54,5 +54,7 @@
     "cosmwasm"
   ],
   "walletUrlForStaking": "https://explorer.helichain.com/Helichain/",
-  "txExplorerUrl": "https://staking-explorer.com/transaction.php?chain=heli&tx=${txHash}"
+  "explorers": {
+    "txPage": "https://staking-explorer.com/transaction.php?chain=heli&tx=${txHash}"
+  }
 }

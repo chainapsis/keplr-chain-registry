@@ -45,5 +45,7 @@
   },
   "features": [],
   "isTestnet": true,
-  "txExplorerUrl": "https://explorer.govgen.io/govgen/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.govgen.io/govgen/tx/${txHash}"
+  }
 }

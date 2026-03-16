@@ -51,5 +51,7 @@
     "eth-address-gen",
     "eth-key-sign"
   ],
-  "txExplorerUrl": "https://explorer.aioz.network/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.aioz.network/tx/${txHash}"
+  }
 }

@@ -59,5 +59,7 @@
     "eth-key-sign",
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://shidoscan.com/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://shidoscan.com/tx/${txHash}"
+  }
 }

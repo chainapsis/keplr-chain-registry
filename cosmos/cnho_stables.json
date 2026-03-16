@@ -48,5 +48,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://explorer.cnho.io/transaction/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.cnho.io/transaction/${txHash}"
+  }
 }

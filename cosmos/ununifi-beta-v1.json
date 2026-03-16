@@ -51,5 +51,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://ununifi.io/explorer/txs/${txHash}"
+  "explorers": {
+    "txPage": "https://ununifi.io/explorer/txs/${txHash}"
+  }
 }

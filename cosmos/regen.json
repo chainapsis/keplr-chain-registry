@@ -56,5 +56,7 @@
   "features": [
     "authz-msg-revoke-fixed"
   ],
-  "txExplorerUrl": "https://ezstaking.app/regen/txs/${txHash}"
+  "explorers": {
+    "txPage": "https://ezstaking.app/regen/txs/${txHash}"
+  }
 }

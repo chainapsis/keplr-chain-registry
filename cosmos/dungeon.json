@@ -52,5 +52,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://ping.pub/Dungeonchain/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://ping.pub/Dungeonchain/tx/${txHash}"
+  }
 }

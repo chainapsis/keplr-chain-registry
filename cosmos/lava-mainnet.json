@@ -47,5 +47,7 @@
   ],
   "features": [],
   "walletUrlForStaking": "https://wallet.keplr.app/chains/lava?modal=staking&chain=lava-mainnet-1&step_id=2",
-  "txExplorerUrl": "https://lava.explorers.guru/transaction/${txHash}"
+  "explorers": {
+    "txPage": "https://lava.explorers.guru/transaction/${txHash}"
+  }
 }

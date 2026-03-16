@@ -30,5 +30,7 @@
   ],
   "features": [],
   "isTestnet": true,
-  "txExplorerUrl": "https://explorer.republicai.io/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.republicai.io/tx/${txHash}"
+  }
 }

@@ -48,5 +48,7 @@
     "coinGeckoId": "medibloc"
   },
   "features": [],
-  "txExplorerUrl": "https://www.mintscan.io/medibloc/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://www.mintscan.io/medibloc/transactions/${txHash}"
+  }
 }

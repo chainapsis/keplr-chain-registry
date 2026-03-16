@@ -61,5 +61,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://bscscan.com/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://bscscan.com/tx/${txHash}"
+  }
 }

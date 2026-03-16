@@ -54,5 +54,7 @@
     "cosmwasm"
   ],
   "walletUrlForStaking": "https://app.teritori.com/staking",
-  "txExplorerUrl": "https://www.mintscan.io/teritori/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://www.mintscan.io/teritori/transactions/${txHash}"
+  }
 }

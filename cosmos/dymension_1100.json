@@ -54,5 +54,7 @@
     "eth-address-gen",
     "eth-key-sign"
   ],
-  "txExplorerUrl": "https://www.mintscan.io/dymension/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://www.mintscan.io/dymension/tx/${txHash}"
+  }
 }

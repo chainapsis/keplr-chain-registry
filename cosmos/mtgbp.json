@@ -46,5 +46,7 @@
     "coinDecimals": 6
   },
   "features": [],
-  "txExplorerUrl": "https://blockexplorer.mtgbp.com/mtgbp/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://blockexplorer.mtgbp.com/mtgbp/tx/${txHash}"
+  }
 }

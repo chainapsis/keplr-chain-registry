@@ -327,5 +327,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://www.mintscan.io/stride/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://www.mintscan.io/stride/transactions/${txHash}"
+  }
 }

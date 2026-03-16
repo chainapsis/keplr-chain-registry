@@ -48,5 +48,7 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/arkeo-main-v1/chain.png"
   },
   "features": [],
-  "txExplorerUrl": "https://exp.stakevillage.net/arkeo-mainnet/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://exp.stakevillage.net/arkeo-mainnet/tx/${txHash}"
+  }
 }

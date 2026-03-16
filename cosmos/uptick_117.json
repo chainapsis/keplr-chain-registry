@@ -51,5 +51,7 @@
     "eth-address-gen",
     "eth-key-sign"
   ],
-  "txExplorerUrl": "https://staking-explorer.com/transaction.php?chain=uptick&tx=${txHash}"
+  "explorers": {
+    "txPage": "https://staking-explorer.com/transaction.php?chain=uptick&tx=${txHash}"
+  }
 }

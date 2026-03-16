@@ -30,5 +30,7 @@
   ],
   "features": [],
   "isTestnet": true,
-  "txExplorerUrl": "https://chainscan-galileo.0g.ai/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://chainscan-galileo.0g.ai/tx/${txHash}"
+  }
 }

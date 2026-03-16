@@ -104,5 +104,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://explorer.kopi.money/luwak-1/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.kopi.money/luwak-1/tx/${txHash}"
+  }
 }

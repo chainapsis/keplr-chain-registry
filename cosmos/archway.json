@@ -54,5 +54,7 @@
     "email": "support@philabs.xyz",
     "website": "https://philabs.xyz"
   },
-  "txExplorerUrl": "https://mintscan.io/archway/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://mintscan.io/archway/transactions/${txHash}"
+  }
 }

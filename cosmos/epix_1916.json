@@ -56,5 +56,7 @@
     "eth-address-gen",
     "eth-key-sign"
   ],
-  "txExplorerUrl": "https://explorer.epix.zone/epix/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.epix.zone/epix/tx/${txHash}"
+  }
 }

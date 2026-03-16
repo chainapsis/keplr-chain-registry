@@ -48,5 +48,7 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/hippo-protocol/chain.png"
   },
   "features": [],
-  "txExplorerUrl": "https://river.hippoprotocol.ai/hippo-protocol/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://river.hippoprotocol.ai/hippo-protocol/tx/${txHash}"
+  }
 }

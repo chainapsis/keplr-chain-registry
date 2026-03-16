@@ -65,5 +65,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://nibiru.explorers.guru/transaction/${txHash}"
+  "explorers": {
+    "txPage": "https://nibiru.explorers.guru/transaction/${txHash}"
+  }
 }

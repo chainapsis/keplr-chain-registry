@@ -48,5 +48,7 @@
     "coinDecimals": 6,
     "coinGeckoId": "optio"
   },
-  "txExplorerUrl": "https://explore.optioblockchain.com/optio/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explore.optioblockchain.com/optio/tx/${txHash}"
+  }
 }

@@ -53,5 +53,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://www.mintscan.io/iris/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://www.mintscan.io/iris/transactions/${txHash}"
+  }
 }

@@ -35,5 +35,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://testnet.memecorescan.io/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://testnet.memecorescan.io/tx/${txHash}"
+  }
 }

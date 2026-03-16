@@ -182,5 +182,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://www.mintscan.io/persistence/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://www.mintscan.io/persistence/transactions/${txHash}"
+  }
 }

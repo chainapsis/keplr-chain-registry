@@ -48,5 +48,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://ping.pub/divine/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://ping.pub/divine/tx/${txHash}"
+  }
 }

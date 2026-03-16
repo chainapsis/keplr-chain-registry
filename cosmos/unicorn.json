@@ -48,5 +48,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://uwu.direct/Unicorn/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://uwu.direct/Unicorn/tx/${txHash}"
+  }
 }

@@ -48,5 +48,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://explorer.sentinel.co/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.sentinel.co/transactions/${txHash}"
+  }
 }

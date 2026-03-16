@@ -30,5 +30,7 @@
   ],
   "features": [],
   "isTestnet": true,
-  "txExplorerUrl": "https://7210.testnet.routescan.io/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://7210.testnet.routescan.io/tx/${txHash}"
+  }
 }

@@ -46,5 +46,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://ezstaking.app/nois/txs/${txHash}"
+  "explorers": {
+    "txPage": "https://ezstaking.app/nois/txs/${txHash}"
+  }
 }

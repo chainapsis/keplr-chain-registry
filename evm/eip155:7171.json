@@ -45,5 +45,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://explorer.bit-rock.io/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.bit-rock.io/tx/${txHash}"
+  }
 }

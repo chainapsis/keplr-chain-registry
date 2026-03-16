@@ -61,5 +61,7 @@
     "eth-address-gen",
     "eth-key-sign"
   ],
-  "txExplorerUrl": "https://ping.pub/haqq/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://ping.pub/haqq/tx/${txHash}"
+  }
 }

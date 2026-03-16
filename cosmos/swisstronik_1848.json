@@ -52,5 +52,7 @@
     "eth-address-gen",
     "eth-key-sign"
   ],
-  "txExplorerUrl": "https://explorer-cosmos.mainnet.swisstronik.com/swisstronik/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer-cosmos.mainnet.swisstronik.com/swisstronik/tx/${txHash}"
+  }
 }

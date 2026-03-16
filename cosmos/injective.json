@@ -227,5 +227,7 @@
     "eth-key-sign",
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://www.mintscan.io/injective/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://www.mintscan.io/injective/transactions/${txHash}"
+  }
 }

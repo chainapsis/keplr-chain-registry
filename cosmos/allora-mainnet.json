@@ -49,5 +49,7 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/allora-mainnet/uallo.png"
   },
   "features": [],
-  "txExplorerUrl": "https://explorer.allora.network/explorer/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.allora.network/explorer/transactions/${txHash}"
+  }
 }

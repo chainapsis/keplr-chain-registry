@@ -30,5 +30,7 @@
   ],
   "features": [],
   "isTestnet": true,
-  "txExplorerUrl": "https://explorer.sketchpad-1.forma.art/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.sketchpad-1.forma.art/tx/${txHash}"
+  }
 }

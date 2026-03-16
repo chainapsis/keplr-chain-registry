@@ -31,5 +31,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://explorer.vanarchain.com/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.vanarchain.com/tx/${txHash}"
+  }
 }

@@ -28,5 +28,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://explorer.barra.wardenprotocol.org/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.barra.wardenprotocol.org/tx/${txHash}"
+  }
 }

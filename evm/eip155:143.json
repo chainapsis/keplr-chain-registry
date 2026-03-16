@@ -47,5 +47,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://monadscan.com/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://monadscan.com/tx/${txHash}"
+  }
 }

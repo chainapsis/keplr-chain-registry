@@ -50,5 +50,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://sixscan.io/sixnet/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://sixscan.io/sixnet/tx/${txHash}"
+  }
 }

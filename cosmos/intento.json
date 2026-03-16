@@ -72,5 +72,7 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/intento/into.png"
   },
   "features": [],
-  "txExplorerUrl": "https://explorer.intento.zone/intento-mainnet/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.intento.zone/intento-mainnet/tx/${txHash}"
+  }
 }

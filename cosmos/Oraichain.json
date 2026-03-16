@@ -68,5 +68,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://scan.orai.io/txs/${txHash}"
+  "explorers": {
+    "txPage": "https://scan.orai.io/txs/${txHash}"
+  }
 }

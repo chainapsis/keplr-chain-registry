@@ -40,5 +40,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://lineascan.build/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://lineascan.build/tx/${txHash}"
+  }
 }

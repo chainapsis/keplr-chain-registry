@@ -55,5 +55,7 @@
     "eth-key-sign",
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://www.mintscan.io/xpla/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://www.mintscan.io/xpla/transactions/${txHash}"
+  }
 }

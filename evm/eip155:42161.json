@@ -47,5 +47,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://arbiscan.io/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://arbiscan.io/tx/${txHash}"
+  }
 }

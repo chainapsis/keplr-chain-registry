@@ -149,5 +149,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://milkyway.valopers.com/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://milkyway.valopers.com/transactions/${txHash}"
+  }
 }

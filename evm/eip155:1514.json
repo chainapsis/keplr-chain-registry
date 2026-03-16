@@ -26,5 +26,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://storyscan.io/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://storyscan.io/tx/${txHash}"
+  }
 }

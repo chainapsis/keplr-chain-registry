@@ -63,5 +63,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://ping.pub/terp/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://ping.pub/terp/tx/${txHash}"
+  }
 }

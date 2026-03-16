@@ -55,5 +55,7 @@
     "cosmwasm"
   ],
   "isTestnet": false,
-  "txExplorerUrl": "https://explorer.paxinet.io/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.paxinet.io/tx/${txHash}"
+  }
 }

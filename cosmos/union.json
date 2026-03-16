@@ -49,5 +49,7 @@
     "cosmwasm"
   ],
   "walletUrlForStaking": "https://wallet.keplr.app/chains/union?modal=staking&chain=union-1&step_id=2",
-  "txExplorerUrl": "https://explorer.union.build/union/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.union.build/union/tx/${txHash}"
+  }
 }

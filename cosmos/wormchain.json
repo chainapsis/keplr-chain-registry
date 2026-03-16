@@ -126,5 +126,7 @@
     "cosmwasm"
   ],
   "hideInUI": true,
-  "txExplorerUrl": "https://bigdipper.live/wormhole/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://bigdipper.live/wormhole/transactions/${txHash}"
+  }
 }

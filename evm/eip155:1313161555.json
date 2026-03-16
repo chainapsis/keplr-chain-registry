@@ -36,5 +36,7 @@
   ],
   "features": [],
   "isTestnet": true,
-  "txExplorerUrl": "https://explorer.testnet.aurora.dev/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.testnet.aurora.dev/tx/${txHash}"
+  }
 }

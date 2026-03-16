@@ -61,5 +61,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://snowtrace.io/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://snowtrace.io/tx/${txHash}"
+  }
 }

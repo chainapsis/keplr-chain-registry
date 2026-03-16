@@ -48,5 +48,7 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/self/chain.png"
   },
   "features": [],
-  "txExplorerUrl": "https://staking-explorer.com/transaction.php?chain=self&tx=${txHash}"
+  "explorers": {
+    "txPage": "https://staking-explorer.com/transaction.php?chain=self&tx=${txHash}"
+  }
 }

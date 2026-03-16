@@ -50,5 +50,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://explorer.stavr.tech/Source-Mainnet/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.stavr.tech/Source-Mainnet/tx/${txHash}"
+  }
 }

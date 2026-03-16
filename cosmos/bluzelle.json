@@ -55,5 +55,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://ping.explorer.net.bluzelle.com/bluzelle/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://ping.explorer.net.bluzelle.com/bluzelle/tx/${txHash}"
+  }
 }

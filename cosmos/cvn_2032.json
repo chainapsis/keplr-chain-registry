@@ -54,5 +54,7 @@
     "eth-address-gen",
     "eth-key-sign"
   ],
-  "txExplorerUrl": "https://staking-explorer.com/transaction.php?chain=conscious&tx=${txHash}"
+  "explorers": {
+    "txPage": "https://staking-explorer.com/transaction.php?chain=conscious&tx=${txHash}"
+  }
 }

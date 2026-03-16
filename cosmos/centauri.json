@@ -212,5 +212,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://ping.pub/composable/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://ping.pub/composable/tx/${txHash}"
+  }
 }

@@ -59,5 +59,7 @@
     "eth-address-gen",
     "eth-key-sign"
   ],
-  "txExplorerUrl": "https://pundiscan.io/evm/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://pundiscan.io/evm/tx/${txHash}"
+  }
 }

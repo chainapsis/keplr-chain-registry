@@ -37,5 +37,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://explorer.mantrachain.io/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.mantrachain.io/tx/${txHash}"
+  }
 }

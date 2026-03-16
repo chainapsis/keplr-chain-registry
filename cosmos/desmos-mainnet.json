@@ -48,5 +48,7 @@
     "coinGeckoId": "desmos"
   },
   "features": [],
-  "txExplorerUrl": "https://www.mintscan.io/desmos/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://www.mintscan.io/desmos/transactions/${txHash}"
+  }
 }

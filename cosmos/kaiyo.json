@@ -170,5 +170,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://finder.kujira.app/kaiyo-1/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://finder.kujira.app/kaiyo-1/tx/${txHash}"
+  }
 }

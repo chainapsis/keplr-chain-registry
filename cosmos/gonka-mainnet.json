@@ -48,5 +48,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://gonka04.6block.com:8443/dashboard/gonka/txs/${txHash}"
+  "explorers": {
+    "txPage": "https://gonka04.6block.com:8443/dashboard/gonka/txs/${txHash}"
+  }
 }

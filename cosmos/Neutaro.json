@@ -47,5 +47,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://explorer.neutaro.io/Neutaro/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.neutaro.io/Neutaro/tx/${txHash}"
+  }
 }

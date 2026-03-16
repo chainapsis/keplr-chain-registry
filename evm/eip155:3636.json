@@ -27,5 +27,7 @@
   ],
   "features": [],
   "isTestnet": true,
-  "txExplorerUrl": "https://testnet.botanixscan.io/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://testnet.botanixscan.io/tx/${txHash}"
+  }
 }

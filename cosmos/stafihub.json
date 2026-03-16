@@ -67,5 +67,7 @@
       }
     }
   ],
-  "txExplorerUrl": "https://www.mintscan.io/stafi/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://www.mintscan.io/stafi/transactions/${txHash}"
+  }
 }

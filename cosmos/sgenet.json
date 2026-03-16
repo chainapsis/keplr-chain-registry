@@ -51,5 +51,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://blockexplorer.sgenetwork.io/sge/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://blockexplorer.sgenetwork.io/sge/tx/${txHash}"
+  }
 }

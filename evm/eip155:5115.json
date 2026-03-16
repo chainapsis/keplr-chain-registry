@@ -30,5 +30,7 @@
   ],
   "features": [],
   "isTestnet": true,
-  "txExplorerUrl": "https://explorer.testnet.citrea.xyz/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.testnet.citrea.xyz/tx/${txHash}"
+  }
 }

@@ -133,5 +133,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://explorer.int3face.zone/int3face-1/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.int3face.zone/int3face-1/tx/${txHash}"
+  }
 }

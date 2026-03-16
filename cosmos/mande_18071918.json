@@ -49,5 +49,7 @@
     "eth-address-gen",
     "eth-key-sign"
   ],
-  "txExplorerUrl": "https://dym.fyi/r/mande/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://dym.fyi/r/mande/tx/${txHash}"
+  }
 }

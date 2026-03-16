@@ -49,5 +49,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://portal.lumera.io/lumera-mainnet-1/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://portal.lumera.io/lumera-mainnet-1/tx/${txHash}"
+  }
 }

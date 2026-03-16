@@ -87,5 +87,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://berascan.com/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://berascan.com/tx/${txHash}"
+  }
 }

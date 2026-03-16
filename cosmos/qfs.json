@@ -46,5 +46,7 @@
     "coinDecimals": 6
   },
   "features": [],
-  "txExplorerUrl": "https://blockexplorer.qfsone.com/qfs/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://blockexplorer.qfsone.com/qfs/tx/${txHash}"
+  }
 }

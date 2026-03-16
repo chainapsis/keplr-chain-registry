@@ -58,5 +58,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://explorer.flame.network/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.flame.network/tx/${txHash}"
+  }
 }

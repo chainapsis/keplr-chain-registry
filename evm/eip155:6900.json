@@ -29,5 +29,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://6900.routescan.io/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://6900.routescan.io/tx/${txHash}"
+  }
 }

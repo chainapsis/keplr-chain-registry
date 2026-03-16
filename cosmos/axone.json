@@ -50,5 +50,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://axone.valopers.com/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://axone.valopers.com/transactions/${txHash}"
+  }
 }

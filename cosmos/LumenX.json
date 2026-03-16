@@ -46,5 +46,7 @@
     "coinDecimals": 6
   },
   "features": [],
-  "txExplorerUrl": "https://explorer.chaintools.tech/lumenx/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.chaintools.tech/lumenx/tx/${txHash}"
+  }
 }

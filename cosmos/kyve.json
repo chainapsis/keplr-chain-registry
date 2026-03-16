@@ -47,5 +47,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://www.mintscan.io/kyve/txs/${txHash}"
+  "explorers": {
+    "txPage": "https://www.mintscan.io/kyve/txs/${txHash}"
+  }
 }

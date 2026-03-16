@@ -69,5 +69,7 @@
     "cosmwasm",
     "osmosis-txfees"
   ],
-  "txExplorerUrl": "https://explorer.vinjan-inc.com/symphony/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.vinjan-inc.com/symphony/tx/${txHash}"
+  }
 }

@@ -42,5 +42,7 @@
   "features": [
     "op-stack-l1-data-fee"
   ],
-  "txExplorerUrl": "https://unichain.blockscout.com/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://unichain.blockscout.com/tx/${txHash}"
+  }
 }

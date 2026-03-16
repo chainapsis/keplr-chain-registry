@@ -62,5 +62,7 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pocket/chain.png"
   },
   "features": [],
-  "txExplorerUrl": "https://explorer.blockval.io/pocket/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.blockval.io/pocket/tx/${txHash}"
+  }
 }

@@ -53,5 +53,7 @@
       }
     }
   ],
-  "txExplorerUrl": "https://www.mintscan.io/lum/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://www.mintscan.io/lum/transactions/${txHash}"
+  }
 }

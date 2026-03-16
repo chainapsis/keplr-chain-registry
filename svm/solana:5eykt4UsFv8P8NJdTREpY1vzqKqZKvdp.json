@@ -24,5 +24,7 @@
       "coinGeckoId": "solana"
     }
   ],
-  "txExplorerUrl": "https://explorer.solana.com/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.solana.com/tx/${txHash}"
+  }
 }

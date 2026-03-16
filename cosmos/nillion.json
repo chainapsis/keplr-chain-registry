@@ -47,5 +47,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://nillionhub.org/explorer/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://nillionhub.org/explorer/transactions/${txHash}"
+  }
 }

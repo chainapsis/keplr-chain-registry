@@ -132,5 +132,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://www.mintscan.io/bitsong/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://www.mintscan.io/bitsong/transactions/${txHash}"
+  }
 }

@@ -31,5 +31,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://flarescan.com/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://flarescan.com/tx/${txHash}"
+  }
 }

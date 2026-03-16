@@ -44,5 +44,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://hyperscan.xyz/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://hyperscan.xyz/tx/${txHash}"
+  }
 }

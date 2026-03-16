@@ -30,5 +30,7 @@
   ],
   "features": [],
   "isTestnet": true,
-  "txExplorerUrl": "https://hyperevmscan.io/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://hyperevmscan.io/tx/${txHash}"
+  }
 }

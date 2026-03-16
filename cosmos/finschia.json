@@ -53,5 +53,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://www.mintscan.io/finschia/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://www.mintscan.io/finschia/tx/${txHash}"
+  }
 }

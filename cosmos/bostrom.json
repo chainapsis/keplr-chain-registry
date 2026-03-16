@@ -70,5 +70,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://cyb.ai/network/bostrom/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://cyb.ai/network/bostrom/tx/${txHash}"
+  }
 }

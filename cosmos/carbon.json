@@ -480,5 +480,7 @@
     "coinGeckoId": "switcheo"
   },
   "features": [],
-  "txExplorerUrl": "https://scan.carbon.network/transaction/${txHash}?net=main"
+  "explorers": {
+    "txPage": "https://scan.carbon.network/transaction/${txHash}?net=main"
+  }
 }

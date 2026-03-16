@@ -48,5 +48,7 @@
     "coinMinimalDenom": "uaaron",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aaronetwork/chain.png"
   },
-  "txExplorerUrl": "https://ping.pub/Aaron%20Network/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://ping.pub/Aaron%20Network/tx/${txHash}"
+  }
 }

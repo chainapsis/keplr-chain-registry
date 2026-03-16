@@ -38,5 +38,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://explorer.aurora.dev/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.aurora.dev/tx/${txHash}"
+  }
 }

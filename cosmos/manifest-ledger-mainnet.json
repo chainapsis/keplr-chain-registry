@@ -50,5 +50,7 @@
     "coinDecimals": 6
   },
   "features": [],
-  "txExplorerUrl": "https://explorer.manifest.network/transaction/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.manifest.network/transaction/${txHash}"
+  }
 }

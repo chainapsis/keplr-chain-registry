@@ -54,5 +54,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://explorer.diamond.zenrocklabs.io/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.diamond.zenrocklabs.io/transactions/${txHash}"
+  }
 }

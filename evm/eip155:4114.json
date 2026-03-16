@@ -26,5 +26,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://explorer.mainnet.citrea.xyz/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.mainnet.citrea.xyz/tx/${txHash}"
+  }
 }

@@ -56,5 +56,7 @@
     "cosmwasm",
     "evm-feemarket"
   ],
-  "txExplorerUrl": "https://mintscan.io/mantra/txs/${txHash}"
+  "explorers": {
+    "txPage": "https://mintscan.io/mantra/txs/${txHash}"
+  }
 }

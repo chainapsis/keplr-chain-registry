@@ -49,5 +49,7 @@
     "coinGeckoId": "cheqd-network"
   },
   "features": [],
-  "txExplorerUrl": "https://explorer.cheqd.io/transactions/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.cheqd.io/transactions/${txHash}"
+  }
 }

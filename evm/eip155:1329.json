@@ -34,5 +34,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://seitrace.com/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://seitrace.com/tx/${txHash}"
+  }
 }

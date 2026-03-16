@@ -81,5 +81,7 @@
   "features": [
     "cosmwasm"
   ],
-  "txExplorerUrl": "https://ping.pub/odin/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://ping.pub/odin/tx/${txHash}"
+  }
 }

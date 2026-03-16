@@ -109,5 +109,7 @@
     "eth-address-gen",
     "eth-key-sign"
   ],
-  "txExplorerUrl": "https://explorer.ist/Titan/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://explorer.ist/Titan/tx/${txHash}"
+  }
 }

@@ -73,5 +73,7 @@
     }
   ],
   "features": [],
-  "txExplorerUrl": "https://tara.to/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://tara.to/tx/${txHash}"
+  }
 }

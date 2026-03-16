@@ -54,5 +54,7 @@
     "cosmwasm"
   ],
   "walletUrlForStaking": "https://aurascan.io/",
-  "txExplorerUrl": "https://aurascan.io/tx/${txHash}"
+  "explorers": {
+    "txPage": "https://aurascan.io/tx/${txHash}"
+  }
 }
