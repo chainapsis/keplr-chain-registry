@@ -57,5 +57,9 @@
       }
     }
   ],
-  "features": ["eth-address-gen", "eth-key-sign"]
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ],
+  "txExplorerUrl": "https://www.mintscan.io/evmos/transactions/${txHash}"
 }

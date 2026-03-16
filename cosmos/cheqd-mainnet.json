@@ -7,7 +7,7 @@
   "nodeProvider": {
     "name": "Cheqd Network",
     "email": "security-github@cheqd.io",
-    "website":"https://cheqd.io/"
+    "website": "https://cheqd.io/"
   },
   "walletUrlForStaking": "https://cheqd.omniflix.co",
   "bip44": {
@@ -48,5 +48,6 @@
     "coinDecimals": 9,
     "coinGeckoId": "cheqd-network"
   },
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://explorer.cheqd.io/transactions/${txHash}"
 }

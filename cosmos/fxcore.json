@@ -15,7 +15,7 @@
   "nodeProvider": {
     "name": "Function X",
     "email": "contact@functionx.io",
-    "website":"https://functionx.io"
+    "website": "https://functionx.io"
   },
   "bech32Config": {
     "bech32PrefixAccAddr": "fx",
@@ -58,5 +58,6 @@
   "features": [
     "eth-address-gen",
     "eth-key-sign"
-  ]
+  ],
+  "txExplorerUrl": "https://pundiscan.io/evm/tx/${txHash}"
 }

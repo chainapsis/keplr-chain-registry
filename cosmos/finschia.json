@@ -7,7 +7,7 @@
   "nodeProvider": {
     "name": "Finschia Foundation",
     "email": "dev@finschia.org",
-    "website":"https://www.finschia.io"
+    "website": "https://www.finschia.io"
   },
   "bip44": {
     "coinType": 438
@@ -50,5 +50,8 @@
     "coinGeckoId": "link",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/finschia/chain.png"
   },
-  "features": ["cosmwasm"]
+  "features": [
+    "cosmwasm"
+  ],
+  "txExplorerUrl": "https://www.mintscan.io/finschia/tx/${txHash}"
 }

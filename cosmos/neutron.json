@@ -292,5 +292,8 @@
       }
     }
   ],
-  "features": ["cosmwasm"]
+  "features": [
+    "cosmwasm"
+  ],
+  "txExplorerUrl": "https://www.mintscan.io/neutron/transactions/${txHash}"
 }

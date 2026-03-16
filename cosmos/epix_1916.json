@@ -53,7 +53,8 @@
     }
   ],
   "features": [
-		"eth-address-gen",
-		"eth-key-sign"
-  ]
+    "eth-address-gen",
+    "eth-key-sign"
+  ],
+  "txExplorerUrl": "https://explorer.epix.zone/epix/tx/${txHash}"
 }

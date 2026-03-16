@@ -53,5 +53,8 @@
       }
     }
   ],
-  "features": ["authz-msg-revoke-fixed"]
+  "features": [
+    "authz-msg-revoke-fixed"
+  ],
+  "txExplorerUrl": "https://ezstaking.app/regen/txs/${txHash}"
 }

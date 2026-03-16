@@ -105,5 +105,6 @@
       }
     }
   ],
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://www.mintscan.io/noble/txs/${txHash}"
 }

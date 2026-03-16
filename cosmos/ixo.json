@@ -49,5 +49,6 @@
       }
     }
   ],
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://staking-explorer.com/transaction.php?chain=impacthub&tx=${txHash}"
 }

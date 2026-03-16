@@ -29,5 +29,6 @@
     }
   ],
   "features": [],
-  "isTestnet": true
+  "isTestnet": true,
+  "txExplorerUrl": "https://hyperevmscan.io/tx/${txHash}"
 }

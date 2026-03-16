@@ -52,5 +52,6 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/ethereum-native.png"
     }
   ],
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://etherscan.io/tx/${txHash}"
 }

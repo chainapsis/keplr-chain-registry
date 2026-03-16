@@ -50,5 +50,6 @@
     "eth-secp256k1-initia",
     "evm-ledger-sign-plain-json",
     "cosmwasm"
-  ]
+  ],
+  "txExplorerUrl": "https://scan.initia.xyz/moo-1/txs/${txHash}"
 }

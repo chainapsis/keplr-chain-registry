@@ -60,5 +60,6 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:56/binance-native.png"
     }
   ],
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://bscscan.com/tx/${txHash}"
 }

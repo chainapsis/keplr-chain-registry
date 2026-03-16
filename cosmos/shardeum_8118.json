@@ -45,5 +45,9 @@
     "coinMinimalDenom": "ashm",
     "coinDecimals": 18
   },
-  "features": ["eth-address-gen", "eth-key-sign"]
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ],
+  "txExplorerUrl": "https://explorer.shardeum.org/tx/${txHash}"
 }

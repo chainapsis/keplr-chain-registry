@@ -23,7 +23,9 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/archway/aarch.png"
     }
   ],
-  "features": ["cosmwasm"],
+  "features": [
+    "cosmwasm"
+  ],
   "feeCurrencies": [
     {
       "coinDecimals": 18,
@@ -51,5 +53,6 @@
     "name": "Phi Labs",
     "email": "support@philabs.xyz",
     "website": "https://philabs.xyz"
-  }
+  },
+  "txExplorerUrl": "https://mintscan.io/archway/transactions/${txHash}"
 }

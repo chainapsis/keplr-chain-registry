@@ -73,7 +73,7 @@
       },
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elys/uatom.png"
     },
-{
+    {
       "coinDenom": "XRP",
       "coinMinimalDenom": "ibc/8464A63954C0350A26C8588E20719F3A0AC8705E4CA0F7450B60C3F16B2D3421",
       "coinDecimals": 18,
@@ -92,5 +92,6 @@
     "coinDecimals": 6,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elys/chain.png"
   },
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://explorer.nodestake.org/elys/tx/${txHash}"
 }

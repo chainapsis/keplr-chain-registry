@@ -44,5 +44,6 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:7171/chain.png"
     }
   ],
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://explorer.bit-rock.io/tx/${txHash}"
 }

@@ -6,7 +6,7 @@
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nois/chain.png",
   "nodeProvider": {
     "name": "nysa.network",
-    "website":"https://nysa.network/",
+    "website": "https://nysa.network/",
     "email": "contact@nysa.network"
   },
   "stakeCurrency": {
@@ -45,5 +45,6 @@
       }
     }
   ],
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://ezstaking.app/nois/txs/${txHash}"
 }

@@ -251,7 +251,7 @@
       "coinMinimalDenom": "factory/osmo1x7s7a2erqspkm6e79n7yh7fw3yh7xx4lt54mxg/uquark",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/osmosis/factory/osmo1x7s7a2erqspkm6e79n7yh7fw3yh7xx4lt54mxg/uquark.png"
-    }    
+    }
   ],
   "feeCurrencies": [
     {
@@ -267,5 +267,10 @@
       }
     }
   ],
-  "features": ["cosmwasm", "osmosis-txfees", "osmosis-base-fee-beta"]
+  "features": [
+    "cosmwasm",
+    "osmosis-txfees",
+    "osmosis-base-fee-beta"
+  ],
+  "txExplorerUrl": "https://www.mintscan.io/osmosis/transactions/${txHash}"
 }

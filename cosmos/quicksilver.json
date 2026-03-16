@@ -76,5 +76,8 @@
       }
     }
   ],
-  "features": ["authz-msg-revoke-fixed"]
+  "features": [
+    "authz-msg-revoke-fixed"
+  ],
+  "txExplorerUrl": "https://explorer.quicksilver.zone/transactions/${txHash}"
 }

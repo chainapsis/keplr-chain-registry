@@ -54,5 +54,6 @@
   },
   "features": [
     "cosmwasm"
-  ]
+  ],
+  "txExplorerUrl": "https://www.mintscan.io/babylon/transactions/${txHash}"
 }

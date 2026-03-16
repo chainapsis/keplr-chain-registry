@@ -4,7 +4,7 @@
   "nodeProvider": {
     "name": "Joltify",
     "email": "contact@joltify.io",
-    "website":"https://joltify.io"
+    "website": "https://joltify.io"
   },
   "chainId": "joltify_1729-1",
   "chainName": "Joltify",
@@ -51,5 +51,6 @@
       }
     }
   ],
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://explorer.whenmoonwhenlambo.money/joltify/tx/${txHash}"
 }

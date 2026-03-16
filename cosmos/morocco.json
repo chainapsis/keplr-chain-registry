@@ -56,11 +56,12 @@
       "gasPriceStep": {
         "low": 0.5,
         "average": 0.75,
-        "high": 1.0
+        "high": 1
       }
     }
   ],
   "features": [
     "cosmwasm"
-  ]
+  ],
+  "txExplorerUrl": "https://ping.pub/terp/tx/${txHash}"
 }

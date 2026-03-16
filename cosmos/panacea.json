@@ -7,7 +7,7 @@
   "nodeProvider": {
     "name": "MediBloc",
     "email": "blockchain@medibloc.org",
-    "website":"https://medibloc.com"
+    "website": "https://medibloc.com"
   },
   "bip44": {
     "coinType": 371
@@ -47,5 +47,6 @@
     "coinDecimals": 6,
     "coinGeckoId": "medibloc"
   },
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://www.mintscan.io/medibloc/transactions/${txHash}"
 }

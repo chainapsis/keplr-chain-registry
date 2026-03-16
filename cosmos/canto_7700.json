@@ -52,5 +52,6 @@
   "features": [
     "eth-address-gen",
     "eth-key-sign"
-  ]
+  ],
+  "txExplorerUrl": "https://cosmos-explorers.neobase.one/canto/tx/${txHash}"
 }

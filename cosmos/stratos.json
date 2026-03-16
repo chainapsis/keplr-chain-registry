@@ -52,5 +52,9 @@
     "coinGeckoId": "stratos",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stratos/stos.png"
   },
-  "features": ["eth-address-gen", "eth-key-sign"]
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ],
+  "txExplorerUrl": "https://explorer.thestratos.org/transactions/${txHash}"
 }

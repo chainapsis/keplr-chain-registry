@@ -29,5 +29,6 @@
     }
   ],
   "features": [],
-  "isTestnet": true
+  "isTestnet": true,
+  "txExplorerUrl": "https://7210.testnet.routescan.io/tx/${txHash}"
 }

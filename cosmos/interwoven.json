@@ -53,5 +53,6 @@
     "initia-dynamicfee",
     "eth-secp256k1-initia",
     "evm-ledger-sign-plain-json"
-  ]
+  ],
+  "txExplorerUrl": "https://scan.initia.xyz/interwoven-1/txs/${txHash}"
 }

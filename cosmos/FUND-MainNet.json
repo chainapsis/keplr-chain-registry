@@ -7,7 +7,7 @@
   "nodeProvider": {
     "name": "Unification",
     "email": "hello@unification.com",
-    "website":"https://unification.com/"
+    "website": "https://unification.com/"
   },
   "walletUrlForStaking": "https://explorer.unification.chainmasters.ninja/wallet",
   "bip44": {
@@ -48,5 +48,6 @@
     "coinDecimals": 9,
     "coinGeckoId": "unification"
   },
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://explorer.unification.io/u/tx/${txHash}"
 }

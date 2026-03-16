@@ -42,5 +42,6 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sommelier/usomm.png"
     }
   ],
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://www.mintscan.io/sommelier/transactions/${txHash}"
 }

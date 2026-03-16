@@ -64,5 +64,6 @@
   "features": [
     "eth-address-gen",
     "eth-key-sign"
-  ]
+  ],
+  "txExplorerUrl": "https://explorer.stavr.tech/realio-mainnet/tx/${txHash}"
 }

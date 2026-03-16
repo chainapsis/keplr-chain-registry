@@ -50,5 +50,10 @@
     "chainId": 37,
     "rpc": "https://dimension-evm-rpc.xpla.dev"
   },
-  "features": ["eth-address-gen", "eth-key-sign", "cosmwasm"]
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign",
+    "cosmwasm"
+  ],
+  "txExplorerUrl": "https://www.mintscan.io/xpla/transactions/${txHash}"
 }

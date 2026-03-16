@@ -136,5 +136,6 @@
         "high": 0.3
       }
     }
-  ]
+  ],
+  "txExplorerUrl": "https://www.mintscan.io/sei/transactions/${txHash}"
 }

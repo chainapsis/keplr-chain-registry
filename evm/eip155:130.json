@@ -39,5 +39,8 @@
       "coinGeckoId": "ethereum"
     }
   ],
-  "features": ["op-stack-l1-data-fee"]
+  "features": [
+    "op-stack-l1-data-fee"
+  ],
+  "txExplorerUrl": "https://unichain.blockscout.com/tx/${txHash}"
 }

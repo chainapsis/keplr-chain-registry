@@ -48,5 +48,9 @@
     }
   ],
   "walletUrlForStaking": "https://explorer-cosmos.mainnet.swisstronik.com/swisstronik/staking",
-  "features": ["eth-address-gen", "eth-key-sign"]
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ],
+  "txExplorerUrl": "https://explorer-cosmos.mainnet.swisstronik.com/swisstronik/tx/${txHash}"
 }

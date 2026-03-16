@@ -47,5 +47,6 @@
   },
   "features": [
     "cosmwasm"
-  ]
+  ],
+  "txExplorerUrl": "https://explorer.playonvector.com/vector/tx/${txHash}"
 }

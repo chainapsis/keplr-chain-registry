@@ -1,4 +1,3 @@
-
 {
   "chainId": "haqq_11235-1",
   "chainName": "HAQQ Network",
@@ -61,5 +60,6 @@
   "features": [
     "eth-address-gen",
     "eth-key-sign"
-  ]
+  ],
+  "txExplorerUrl": "https://ping.pub/haqq/tx/${txHash}"
 }

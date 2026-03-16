@@ -22,7 +22,9 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/uatom.png"
     }
   ],
-  "features": ["ibc-v2"],
+  "features": [
+    "ibc-v2"
+  ],
   "feeCurrencies": [
     {
       "coinDecimals": 6,
@@ -46,5 +48,6 @@
     "coinMinimalDenom": "uatom",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/uatom.png"
   },
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/cosmos-hub?modal=staking&chain=cosmoshub-4&step_id=2"
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/cosmos-hub?modal=staking&chain=cosmoshub-4&step_id=2",
+  "txExplorerUrl": "https://www.mintscan.io/cosmos/transactions/${txHash}"
 }

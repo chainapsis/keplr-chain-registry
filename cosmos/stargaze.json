@@ -113,5 +113,6 @@
       }
     }
   ],
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://www.mintscan.io/stargaze/transactions/${txHash}"
 }

@@ -8,7 +8,7 @@
   "nodeProvider": {
     "name": "BitBadges",
     "email": "business@bitbadges.io",
-    "website":"https://bitbadges.io"
+    "website": "https://bitbadges.io"
   },
   "bip44": {
     "coinType": 118
@@ -48,5 +48,6 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitbadges/badge_logo.png"
     }
   ],
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://www.mintscan.io/bitbadges/transactions/${txHash}"
 }

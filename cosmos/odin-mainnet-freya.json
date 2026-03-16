@@ -31,7 +31,7 @@
       "coinMinimalDenom": "loki",
       "coinDecimals": 6,
       "coinGeckoId": "odin-protocol",
-       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/odin-mainnet-freya/loki.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/odin-mainnet-freya/loki.png"
     },
     {
       "coinDenom": "GEO",
@@ -40,7 +40,7 @@
       "coinGeckoId": "geodb",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/odin-mainnet-freya/mGeo.png"
     },
-{
+    {
       "coinDenom": "DOKI",
       "coinMinimalDenom": "udoki",
       "coinDecimals": 6,
@@ -78,5 +78,8 @@
     "coinDecimals": 6,
     "coinGeckoId": "odin-protocol"
   },
-  "features": ["cosmwasm"]
+  "features": [
+    "cosmwasm"
+  ],
+  "txExplorerUrl": "https://ping.pub/odin/tx/${txHash}"
 }

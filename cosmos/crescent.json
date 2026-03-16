@@ -7,7 +7,7 @@
   "nodeProvider": {
     "name": "Crescent Node",
     "email": "contact@crescent.network",
-    "website":"https://crescent.network"
+    "website": "https://crescent.network"
   },
   "stakeCurrency": {
     "coinDenom": "CRE",
@@ -231,5 +231,6 @@
       }
     }
   ],
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://ezstaking.app/crescent/txs/${txHash}"
 }

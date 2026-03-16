@@ -108,5 +108,6 @@
     "cosmwasm",
     "eth-address-gen",
     "eth-key-sign"
-  ]
+  ],
+  "txExplorerUrl": "https://explorer.ist/Titan/tx/${txHash}"
 }

@@ -7,7 +7,7 @@
   "nodeProvider": {
     "name": "Divineray",
     "email": "info@divineray.ca",
-    "website":"https://divineray.ca/"
+    "website": "https://divineray.ca/"
   },
   "stakeCurrency": {
     "coinDenom": "DRC",
@@ -47,5 +47,6 @@
       }
     }
   ],
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://ping.pub/divine/tx/${txHash}"
 }

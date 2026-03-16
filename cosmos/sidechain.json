@@ -66,5 +66,8 @@
       "coinGeckoId": "bitcoin"
     }
   ],
-  "features": ["cosmwasm"]
+  "features": [
+    "cosmwasm"
+  ],
+  "txExplorerUrl": "https://ping.pub/side/tx/${txHash}"
 }

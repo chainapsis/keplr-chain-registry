@@ -48,5 +48,6 @@
       }
     }
   ],
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://ping.pub/gitopia/tx/${txHash}"
 }

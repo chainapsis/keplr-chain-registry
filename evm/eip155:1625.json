@@ -25,5 +25,6 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1625/chain.png"
     }
   ],
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://explorer.gravity.xyz/tx/${txHash}"
 }

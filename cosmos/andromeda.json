@@ -52,5 +52,6 @@
   },
   "features": [
     "cosmwasm"
-  ]
+  ],
+  "txExplorerUrl": "https://explorer.stavr.tech/Andromeda-Mainnet/tx/${txHash}"
 }

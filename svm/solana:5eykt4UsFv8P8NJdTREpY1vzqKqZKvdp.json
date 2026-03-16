@@ -23,5 +23,6 @@
       "coinDecimals": 9,
       "coinGeckoId": "solana"
     }
-  ]
+  ],
+  "txExplorerUrl": "https://explorer.solana.com/tx/${txHash}"
 }

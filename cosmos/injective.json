@@ -201,7 +201,7 @@
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj1hywezj8796044zdrsl9ugcn78zlvhc3jzafesm/bitcoingold.png"
     },
-	  {
+    {
       "coinDenom": "BTS",
       "coinMinimalDenom": "factory/inj1hywezj8796044zdrsl9ugcn78zlvhc3jzafesm/BTS",
       "coinDecimals": 6,
@@ -222,5 +222,10 @@
       }
     }
   ],
-  "features": ["eth-address-gen", "eth-key-sign", "cosmwasm"]
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign",
+    "cosmwasm"
+  ],
+  "txExplorerUrl": "https://www.mintscan.io/injective/transactions/${txHash}"
 }

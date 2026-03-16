@@ -14,9 +14,9 @@
   "chainName": "Aaron Network",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aaronetwork/chain.png",
   "nodeProvider": {
-    "name":"Aaron Network",
+    "name": "Aaron Network",
     "email": "aaronetwork@proton.me",
-    "website":"https://aaronetwork.xyz"
+    "website": "https://aaronetwork.xyz"
   },
   "currencies": [
     {
@@ -47,5 +47,6 @@
     "coinDenom": "AARON",
     "coinMinimalDenom": "uaaron",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aaronetwork/chain.png"
-  }
+  },
+  "txExplorerUrl": "https://ping.pub/Aaron%20Network/tx/${txHash}"
 }

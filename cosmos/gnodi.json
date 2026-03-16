@@ -34,9 +34,9 @@
       "coinMinimalDenom": "uGNOD",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 1.0,
+        "low": 1,
         "average": 1.5,
-        "high": 2.0
+        "high": 2
       }
     }
   ],

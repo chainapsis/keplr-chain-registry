@@ -46,5 +46,8 @@
     "coinMinimalDenom": "nhash",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pio-mainnet/nhash.png"
   },
-  "features": ["cosmwasm"]
+  "features": [
+    "cosmwasm"
+  ],
+  "txExplorerUrl": "https://www.mintscan.io/provenance/transactions/${txHash}"
 }

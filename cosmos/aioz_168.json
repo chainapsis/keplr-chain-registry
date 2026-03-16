@@ -7,7 +7,7 @@
   "nodeProvider": {
     "name": "AIOZ Network",
     "email": "contact@aioz.network",
-    "website":"https://aioz.network"
+    "website": "https://aioz.network"
   },
   "stakeCurrency": {
     "coinDenom": "AIOZ",
@@ -47,5 +47,9 @@
       }
     }
   ],
-  "features": ["eth-address-gen", "eth-key-sign"]
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ],
+  "txExplorerUrl": "https://explorer.aioz.network/tx/${txHash}"
 }

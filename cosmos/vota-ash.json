@@ -51,5 +51,6 @@
       }
     }
   ],
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://vota-explorer.dorafactory.org/doravota/tx/${txHash}"
 }

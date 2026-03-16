@@ -33,5 +33,6 @@
       "coinGeckoId": "sei-network"
     }
   ],
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://seitrace.com/tx/${txHash}"
 }

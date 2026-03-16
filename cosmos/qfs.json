@@ -45,5 +45,6 @@
     "coinMinimalDenom": "uqfs",
     "coinDecimals": 6
   },
-  "features": [ ]
+  "features": [],
+  "txExplorerUrl": "https://blockexplorer.qfsone.com/qfs/tx/${txHash}"
 }

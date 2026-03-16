@@ -28,5 +28,6 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:258432/althea-native.png"
     }
   ],
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://altheascan.com/tx/${txHash}"
 }

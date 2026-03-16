@@ -51,5 +51,8 @@
     "coinGeckoId": "zenrock",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/diamond/chain.png"
   },
-  "features": ["cosmwasm"]
+  "features": [
+    "cosmwasm"
+  ],
+  "txExplorerUrl": "https://explorer.diamond.zenrocklabs.io/transactions/${txHash}"
 }

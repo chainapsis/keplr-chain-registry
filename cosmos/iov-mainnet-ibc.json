@@ -55,5 +55,6 @@
     {
       "coinType": 118
     }
-  ]
+  ],
+  "txExplorerUrl": "https://ping.pub/starname/tx/${txHash}"
 }

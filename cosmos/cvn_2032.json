@@ -4,7 +4,7 @@
   "nodeProvider": {
     "name": "consciousDao",
     "email": "messages@consciousdao.com",
-    "website":"https://cvn.io"
+    "website": "https://cvn.io"
   },
   "chainId": "cvn_2032-1",
   "chainName": "conscious",
@@ -50,5 +50,9 @@
       }
     }
   ],
-  "features": ["eth-address-gen", "eth-key-sign"]
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ],
+  "txExplorerUrl": "https://staking-explorer.com/transaction.php?chain=conscious&tx=${txHash}"
 }

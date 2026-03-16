@@ -48,5 +48,6 @@
     "coinMinimalDenom": "usynt",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/synternet/synt.png"
   },
-  "walletUrlForStaking": "https://staking.synternet.com"
+  "walletUrlForStaking": "https://staking.synternet.com",
+  "txExplorerUrl": "https://staking-explorer.com/transaction.php?chain=synternet&tx=${txHash}"
 }

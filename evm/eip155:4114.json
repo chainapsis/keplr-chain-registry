@@ -25,5 +25,6 @@
       "coinGeckoId": "bitcoin"
     }
   ],
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://explorer.mainnet.citrea.xyz/tx/${txHash}"
 }

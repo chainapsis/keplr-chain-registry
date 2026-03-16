@@ -22,5 +22,6 @@
       "coinMinimalDenom": "lamport",
       "coinDecimals": 9
     }
-  ]
+  ],
+  "txExplorerUrl": "https://explorer.solana.com/tx/${txHash}?cluster=devnet"
 }

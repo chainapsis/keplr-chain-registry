@@ -50,6 +50,9 @@
     "coinGeckoId": "fanfury",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/furya/ufury.png"
   },
-  "features": ["cosmwasm"],
-  "walletUrlForStaking": "https://explorer.furya.network/furya-1/staking"
+  "features": [
+    "cosmwasm"
+  ],
+  "walletUrlForStaking": "https://explorer.furya.network/furya-1/staking",
+  "txExplorerUrl": "https://explorer.furya.network/furya-1/tx/${txHash}"
 }

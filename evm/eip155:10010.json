@@ -27,5 +27,6 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:10010/chain.png"
     }
   ],
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://explorer.barra.wardenprotocol.org/tx/${txHash}"
 }

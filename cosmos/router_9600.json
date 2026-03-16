@@ -16,7 +16,9 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/router_9600/chain.png"
   },
   "walletUrlForStaking": "https://hub.routerprotocol.com/staking",
-  "bip44": { "coinType": 60 },
+  "bip44": {
+    "coinType": 60
+  },
   "bech32Config": {
     "bech32PrefixAccAddr": "router",
     "bech32PrefixAccPub": "routerpub",
@@ -53,5 +55,9 @@
     "email": "siva@routerprotocol.com",
     "website": "https://www.routerprotocol.com"
   },
-  "features": ["eth-address-gen", "eth-key-sign"]
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ],
+  "txExplorerUrl": "https://routerscan.io/transactions/${txHash}"
 }

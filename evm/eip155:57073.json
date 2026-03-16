@@ -46,5 +46,8 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:57073/ink-native.png"
     }
   ],
-  "features": ["op-stack-l1-data-fee"]
+  "features": [
+    "op-stack-l1-data-fee"
+  ],
+  "txExplorerUrl": "https://explorer.inkonchain.com/tx/${txHash}"
 }

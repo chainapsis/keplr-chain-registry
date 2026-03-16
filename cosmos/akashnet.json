@@ -47,5 +47,6 @@
       }
     }
   ],
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://www.mintscan.io/akash/transactions/${txHash}"
 }

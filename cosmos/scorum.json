@@ -54,5 +54,6 @@
     "coinDecimals": 9,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/scorum/scr.png"
   },
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://ezstaking.app/scorum/txs/${txHash}"
 }

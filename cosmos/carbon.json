@@ -479,5 +479,6 @@
     "coinDecimals": 8,
     "coinGeckoId": "switcheo"
   },
-  "features": []
+  "features": [],
+  "txExplorerUrl": "https://scan.carbon.network/transaction/${txHash}?net=main"
 }

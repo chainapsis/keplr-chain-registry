@@ -52,5 +52,6 @@
   ],
   "features": [
     "cosmwasm"
-  ]
+  ],
+  "txExplorerUrl": "https://www.mintscan.io/tgrade/tx/${txHash}"
 }

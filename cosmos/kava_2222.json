@@ -96,5 +96,8 @@
       }
     }
   ],
-  "features": ["authz-msg-revoke-fixed"]
+  "features": [
+    "authz-msg-revoke-fixed"
+  ],
+  "txExplorerUrl": "https://www.mintscan.io/kava/transactions/${txHash}"
 }

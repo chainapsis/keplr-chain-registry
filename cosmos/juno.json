@@ -66,5 +66,6 @@
   "features": [
     "cosmwasm",
     "authz-msg-revoke-fixed"
-  ]
+  ],
+  "txExplorerUrl": "https://ezstaking.app/juno/txs/${txHash}"
 }
