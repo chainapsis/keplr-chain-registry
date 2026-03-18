@@ -45,6 +45,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://hyperscan.xyz/tx/${txHash}"
+    "txPage": "https://hyperevmscan.io/tx/${txHash}"
   }
 }

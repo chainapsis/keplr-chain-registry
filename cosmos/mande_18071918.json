@@ -48,8 +48,5 @@
   "features": [
     "eth-address-gen",
     "eth-key-sign"
-  ],
-  "explorers": {
-    "txPage": "https://dym.fyi/r/mande/tx/${txHash}"
-  }
+  ]
 }

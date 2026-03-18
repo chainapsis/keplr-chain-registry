@@ -30,6 +30,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://altheascan.com/tx/${txHash}"
+    "txPage": "https://www.mintscan.io/althea/tx/${txHash}"
   }
 }

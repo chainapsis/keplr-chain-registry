@@ -72,8 +72,5 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:841/taraxa-native.png"
     }
   ],
-  "features": [],
-  "explorers": {
-    "txPage": "https://tara.to/tx/${txHash}"
-  }
+  "features": []
 }

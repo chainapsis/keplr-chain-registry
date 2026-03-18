@@ -59,6 +59,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://explorer.flame.network/tx/${txHash}"
+    "txPage": "https://flare-explorer.flare.network/tx/${txHash}"
   }
 }
