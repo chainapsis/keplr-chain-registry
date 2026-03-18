@@ -57,8 +57,5 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:253368190/utia.png"
     }
   ],
-  "features": [],
-  "explorers": {
-    "txPage": "https://flare-explorer.flare.network/tx/${txHash}"
-  }
+  "features": []
 }
