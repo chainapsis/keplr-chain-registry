@@ -55,6 +55,6 @@
     "website": "https://philabs.xyz"
   },
   "explorers": {
-    "txPage": "https://mintscan.io/archway/transactions/${txHash}"
+    "txPage": "https://mintscan.io/archway/transactions/{txHash}"
   }
 }

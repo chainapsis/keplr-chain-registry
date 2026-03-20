@@ -213,6 +213,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://ping.pub/composable/tx/${txHash}"
+    "txPage": "https://ping.pub/composable/tx/{txHash}"
   }
 }

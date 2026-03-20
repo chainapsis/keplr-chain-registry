@@ -49,6 +49,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://ping.pub/divine/tx/${txHash}"
+    "txPage": "https://ping.pub/divine/tx/{txHash}"
   }
 }

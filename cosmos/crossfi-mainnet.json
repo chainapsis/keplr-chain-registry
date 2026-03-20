@@ -64,6 +64,6 @@
     "coinMinimalDenom": "mpx"
   },
   "explorers": {
-    "txPage": "https://xfiscan.com/tx/${txHash}"
+    "txPage": "https://xfiscan.com/tx/{txHash}"
   }
 }

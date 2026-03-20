@@ -104,6 +104,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://www.mintscan.io/terra/transactions/${txHash}"
+    "txPage": "https://www.mintscan.io/terra/transactions/{txHash}"
   }
 }

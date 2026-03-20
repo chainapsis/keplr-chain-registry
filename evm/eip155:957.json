@@ -47,6 +47,6 @@
     "op-stack-l1-data-fee"
   ],
   "explorers": {
-    "txPage": "https://explorer.lyra.finance/tx/${txHash}"
+    "txPage": "https://explorer.lyra.finance/tx/{txHash}"
   }
 }

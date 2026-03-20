@@ -50,6 +50,6 @@
     "axelar-evm-bridge"
   ],
   "explorers": {
-    "txPage": "https://explorer.xrplevm.org/tx/${txHash}"
+    "txPage": "https://explorer.xrplevm.org/tx/{txHash}"
   }
 }

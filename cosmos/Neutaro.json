@@ -48,6 +48,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://explorer.neutaro.io/Neutaro/tx/${txHash}"
+    "txPage": "https://explorer.neutaro.io/Neutaro/tx/{txHash}"
   }
 }

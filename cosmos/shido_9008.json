@@ -60,6 +60,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://shidoscan.com/tx/${txHash}"
+    "txPage": "https://shidoscan.com/tx/{txHash}"
   }
 }

@@ -80,6 +80,6 @@
     "authz-msg-revoke-fixed"
   ],
   "explorers": {
-    "txPage": "https://explorer.quicksilver.zone/transactions/${txHash}"
+    "txPage": "https://explorer.quicksilver.zone/transactions/{txHash}"
   }
 }

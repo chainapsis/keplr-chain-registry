@@ -240,6 +240,6 @@
     "axelar-evm-bridge"
   ],
   "explorers": {
-    "txPage": "https://www.mintscan.io/axelar/transactions/${txHash}"
+    "txPage": "https://www.mintscan.io/axelar/transactions/{txHash}"
   }
 }

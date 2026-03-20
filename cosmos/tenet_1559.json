@@ -57,6 +57,6 @@
     "eth-key-sign"
   ],
   "explorers": {
-    "txPage": "https://ping.pub/tenet/tx/${txHash}"
+    "txPage": "https://ping.pub/tenet/tx/{txHash}"
   }
 }

@@ -50,6 +50,6 @@
     "op-stack-l1-data-fee"
   ],
   "explorers": {
-    "txPage": "https://explorer.inkonchain.com/tx/${txHash}"
+    "txPage": "https://explorer.inkonchain.com/tx/{txHash}"
   }
 }

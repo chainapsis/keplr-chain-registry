@@ -62,6 +62,6 @@
     "eth-key-sign"
   ],
   "explorers": {
-    "txPage": "https://ping.pub/haqq/tx/${txHash}"
+    "txPage": "https://ping.pub/haqq/tx/{txHash}"
   }
 }

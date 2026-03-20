@@ -47,6 +47,6 @@
   },
   "features": [],
   "explorers": {
-    "txPage": "https://explorer.dys.dysonprotocol.com/dyson/tx/${txHash}"
+    "txPage": "https://explorer.dys.dysonprotocol.com/dyson/tx/{txHash}"
   }
 }

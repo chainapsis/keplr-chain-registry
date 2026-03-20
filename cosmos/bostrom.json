@@ -71,6 +71,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://cyb.ai/network/bostrom/tx/${txHash}"
+    "txPage": "https://cyb.ai/network/bostrom/tx/{txHash}"
   }
 }

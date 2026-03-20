@@ -150,6 +150,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://milkyway.valopers.com/transactions/${txHash}"
+    "txPage": "https://milkyway.valopers.com/transactions/{txHash}"
   }
 }

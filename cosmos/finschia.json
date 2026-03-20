@@ -54,6 +54,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://www.mintscan.io/finschia/tx/${txHash}"
+    "txPage": "https://www.mintscan.io/finschia/tx/{txHash}"
   }
 }

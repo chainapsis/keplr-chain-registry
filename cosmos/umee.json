@@ -51,6 +51,6 @@
     "authz-msg-revoke-fixed"
   ],
   "explorers": {
-    "txPage": "https://explorer.stavr.tech/umee/tx/${txHash}"
+    "txPage": "https://explorer.stavr.tech/umee/tx/{txHash}"
   }
 }

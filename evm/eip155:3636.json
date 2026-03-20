@@ -28,6 +28,6 @@
   "features": [],
   "isTestnet": true,
   "explorers": {
-    "txPage": "https://testnet.botanixscan.io/tx/${txHash}"
+    "txPage": "https://testnet.botanixscan.io/tx/{txHash}"
   }
 }

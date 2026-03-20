@@ -86,6 +86,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://www.mintscan.io/comdex/transactions/${txHash}"
+    "txPage": "https://www.mintscan.io/comdex/transactions/{txHash}"
   }
 }

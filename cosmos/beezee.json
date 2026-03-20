@@ -78,6 +78,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://ping.pub/beezee/tx/${txHash}"
+    "txPage": "https://ping.pub/beezee/tx/{txHash}"
   }
 }

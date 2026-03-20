@@ -57,6 +57,6 @@
     }
   ],
   "explorers": {
-    "txPage": "https://ping.pub/starname/tx/${txHash}"
+    "txPage": "https://ping.pub/starname/tx/{txHash}"
   }
 }

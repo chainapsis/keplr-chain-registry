@@ -70,6 +70,6 @@
     "osmosis-txfees"
   ],
   "explorers": {
-    "txPage": "https://explorer.vinjan-inc.com/symphony/tx/${txHash}"
+    "txPage": "https://explorer.vinjan-inc.com/symphony/tx/{txHash}"
   }
 }

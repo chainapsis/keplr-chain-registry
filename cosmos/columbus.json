@@ -200,6 +200,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://finder.terra-classic.hexxagon.io/mainnet/tx/${txHash}"
+    "txPage": "https://finder.terra-classic.hexxagon.io/mainnet/tx/{txHash}"
   }
 }

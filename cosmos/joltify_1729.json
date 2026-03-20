@@ -53,6 +53,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://explorer.whenmoonwhenlambo.money/joltify/tx/${txHash}"
+    "txPage": "https://explorer.whenmoonwhenlambo.money/joltify/tx/{txHash}"
   }
 }

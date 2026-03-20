@@ -48,6 +48,6 @@
   "features": [],
   "walletUrlForStaking": "https://wallet.meme.sx",
   "explorers": {
-    "txPage": "https://ping.pub/meme/tx/${txHash}"
+    "txPage": "https://ping.pub/meme/tx/{txHash}"
   }
 }

@@ -93,6 +93,6 @@
     "force-enable-evm-ledger"
   ],
   "explorers": {
-    "txPage": "https://atomscan.com/planq/transactions/${txHash}"
+    "txPage": "https://atomscan.com/planq/transactions/{txHash}"
   }
 }

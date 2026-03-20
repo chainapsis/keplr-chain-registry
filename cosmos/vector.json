@@ -49,6 +49,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://explorer.playonvector.com/vector/tx/${txHash}"
+    "txPage": "https://explorer.playonvector.com/vector/tx/{txHash}"
   }
 }

@@ -32,6 +32,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://explorer.vanarchain.com/tx/${txHash}"
+    "txPage": "https://explorer.vanarchain.com/tx/{txHash}"
   }
 }

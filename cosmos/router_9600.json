@@ -60,6 +60,6 @@
     "eth-key-sign"
   ],
   "explorers": {
-    "txPage": "https://routerscan.io/transactions/${txHash}"
+    "txPage": "https://routerscan.io/transactions/{txHash}"
   }
 }

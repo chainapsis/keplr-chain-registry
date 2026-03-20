@@ -57,6 +57,6 @@
     "eth-key-sign"
   ],
   "explorers": {
-    "txPage": "https://explorer.epix.zone/epix/tx/${txHash}"
+    "txPage": "https://explorer.epix.zone/epix/tx/{txHash}"
   }
 }

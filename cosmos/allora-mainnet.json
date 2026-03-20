@@ -50,6 +50,6 @@
   },
   "features": [],
   "explorers": {
-    "txPage": "https://explorer.allora.network/explorer/transactions/${txHash}"
+    "txPage": "https://explorer.allora.network/explorer/transactions/{txHash}"
   }
 }

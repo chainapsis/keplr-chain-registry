@@ -39,6 +39,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://explorer.haqq.network/tx/${txHash}"
+    "txPage": "https://explorer.haqq.network/tx/{txHash}"
   }
 }

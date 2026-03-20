@@ -66,6 +66,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://nibiru.explorers.guru/transaction/${txHash}"
+    "txPage": "https://nibiru.explorers.guru/transaction/{txHash}"
   }
 }

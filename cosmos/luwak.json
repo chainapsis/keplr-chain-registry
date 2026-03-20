@@ -105,6 +105,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://explorer.kopi.money/luwak-1/tx/${txHash}"
+    "txPage": "https://explorer.kopi.money/luwak-1/tx/{txHash}"
   }
 }

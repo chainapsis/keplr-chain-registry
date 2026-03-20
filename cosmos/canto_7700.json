@@ -54,6 +54,6 @@
     "eth-key-sign"
   ],
   "explorers": {
-    "txPage": "https://cosmos-explorers.neobase.one/canto/tx/${txHash}"
+    "txPage": "https://cosmos-explorers.neobase.one/canto/tx/{txHash}"
   }
 }

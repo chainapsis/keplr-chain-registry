@@ -51,6 +51,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://staking-explorer.com/transaction.php?chain=impacthub&tx=${txHash}"
+    "txPage": "https://staking-explorer.com/transaction.php?chain=impacthub&tx={txHash}"
   }
 }

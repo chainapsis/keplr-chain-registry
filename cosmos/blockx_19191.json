@@ -52,6 +52,6 @@
     "eth-key-sign"
   ],
   "explorers": {
-    "txPage": "https://ping.pub/blockx/tx/${txHash}"
+    "txPage": "https://ping.pub/blockx/tx/{txHash}"
   }
 }

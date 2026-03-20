@@ -63,6 +63,6 @@
   },
   "features": [],
   "explorers": {
-    "txPage": "https://explorer.blockval.io/pocket/tx/${txHash}"
+    "txPage": "https://explorer.blockval.io/pocket/tx/{txHash}"
   }
 }

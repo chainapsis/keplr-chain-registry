@@ -35,6 +35,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://seitrace.com/tx/${txHash}"
+    "txPage": "https://seitrace.com/tx/{txHash}"
   }
 }

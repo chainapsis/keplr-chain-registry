@@ -56,6 +56,6 @@
   ],
   "isTestnet": false,
   "explorers": {
-    "txPage": "https://explorer.paxinet.io/tx/${txHash}"
+    "txPage": "https://explorer.paxinet.io/tx/{txHash}"
   }
 }

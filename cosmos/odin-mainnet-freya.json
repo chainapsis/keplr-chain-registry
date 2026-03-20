@@ -82,6 +82,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://ping.pub/odin/tx/${txHash}"
+    "txPage": "https://ping.pub/odin/tx/{txHash}"
   }
 }

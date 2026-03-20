@@ -52,6 +52,6 @@
   },
   "features": [],
   "explorers": {
-    "txPage": "https://stochainscan.io/en/transaction/${txHash}"
+    "txPage": "https://stochainscan.io/en/transaction/{txHash}"
   }
 }

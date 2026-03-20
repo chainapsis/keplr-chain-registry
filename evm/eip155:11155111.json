@@ -49,6 +49,6 @@
   "features": [],
   "isTestnet": true,
   "explorers": {
-    "txPage": "https://sepolia.etherscan.io/tx/${txHash}"
+    "txPage": "https://sepolia.etherscan.io/tx/{txHash}"
   }
 }

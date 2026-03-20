@@ -51,6 +51,6 @@
   "features": [],
   "walletUrlForStaking": "https://wallet.bitcanna.io",
   "explorers": {
-    "txPage": "https://www.mintscan.io/bitcanna/txs/${txHash}"
+    "txPage": "https://www.mintscan.io/bitcanna/txs/{txHash}"
   }
 }

@@ -57,6 +57,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://explorer.honeywood.io/HoneyWood/tx/${txHash}"
+    "txPage": "https://explorer.honeywood.io/HoneyWood/tx/{txHash}"
   }
 }

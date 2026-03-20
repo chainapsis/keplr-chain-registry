@@ -48,6 +48,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://paloma.explorers.guru/transaction/${txHash}"
+    "txPage": "https://paloma.explorers.guru/transaction/{txHash}"
   }
 }

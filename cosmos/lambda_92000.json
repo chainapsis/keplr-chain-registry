@@ -59,6 +59,6 @@
     "eth-key-sign"
   ],
   "explorers": {
-    "txPage": "https://explorer.lambdablockchain.com/tx/${txHash}"
+    "txPage": "https://explorer.lambdablockchain.com/tx/{txHash}"
   }
 }

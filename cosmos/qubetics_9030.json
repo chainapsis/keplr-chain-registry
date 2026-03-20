@@ -60,6 +60,6 @@
     "eth-key-sign"
   ],
   "explorers": {
-    "txPage": "https://ticsscan.com/tx/${txHash}"
+    "txPage": "https://ticsscan.com/tx/{txHash}"
   }
 }

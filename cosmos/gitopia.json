@@ -50,6 +50,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://ping.pub/gitopia/tx/${txHash}"
+    "txPage": "https://ping.pub/gitopia/tx/{txHash}"
   }
 }

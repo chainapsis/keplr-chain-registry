@@ -58,6 +58,6 @@
   },
   "isTestnet": false,
   "explorers": {
-    "txPage": "https://explorer.kiichain.io/kiichain/tx/${txHash}"
+    "txPage": "https://explorer.kiichain.io/kiichain/tx/{txHash}"
   }
 }

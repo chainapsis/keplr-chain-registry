@@ -52,6 +52,6 @@
     "axelar-evm-bridge"
   ],
   "explorers": {
-    "txPage": "https://ozonescan.io/tx/${txHash}"
+    "txPage": "https://ozonescan.io/tx/{txHash}"
   }
 }

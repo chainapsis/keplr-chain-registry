@@ -50,6 +50,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://www.mintscan.io/bitbadges/transactions/${txHash}"
+    "txPage": "https://www.mintscan.io/bitbadges/transactions/{txHash}"
   }
 }

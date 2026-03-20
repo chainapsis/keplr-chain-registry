@@ -50,6 +50,6 @@
   },
   "features": [],
   "explorers": {
-    "txPage": "https://explorer.unification.io/u/tx/${txHash}"
+    "txPage": "https://explorer.unification.io/u/tx/{txHash}"
   }
 }

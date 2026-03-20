@@ -47,6 +47,6 @@
   },
   "features": [],
   "explorers": {
-    "txPage": "https://explorer.chaintools.tech/lumenx/tx/${txHash}"
+    "txPage": "https://explorer.chaintools.tech/lumenx/tx/{txHash}"
   }
 }

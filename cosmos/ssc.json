@@ -50,6 +50,6 @@
     "authz-msg-revoke-fixed"
   ],
   "explorers": {
-    "txPage": "https://www.mintscan.io/saga/transactions/${txHash}"
+    "txPage": "https://www.mintscan.io/saga/transactions/{txHash}"
   }
 }

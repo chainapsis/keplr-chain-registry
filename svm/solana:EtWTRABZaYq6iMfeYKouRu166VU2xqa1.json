@@ -24,6 +24,6 @@
     }
   ],
   "explorers": {
-    "txPage": "https://explorer.solana.com/tx/${txHash}?cluster=devnet"
+    "txPage": "https://explorer.solana.com/tx/{txHash}?cluster=devnet"
   }
 }

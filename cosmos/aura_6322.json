@@ -55,6 +55,6 @@
   ],
   "walletUrlForStaking": "https://aurascan.io/",
   "explorers": {
-    "txPage": "https://aurascan.io/tx/${txHash}"
+    "txPage": "https://aurascan.io/tx/{txHash}"
   }
 }

@@ -64,6 +64,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://ping.pub/terp/tx/${txHash}"
+    "txPage": "https://ping.pub/terp/tx/{txHash}"
   }
 }

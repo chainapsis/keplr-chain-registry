@@ -50,6 +50,6 @@
     "eth-key-sign"
   ],
   "explorers": {
-    "txPage": "https://explorer.shardeum.org/tx/${txHash}"
+    "txPage": "https://explorer.shardeum.org/tx/{txHash}"
   }
 }

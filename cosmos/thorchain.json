@@ -223,6 +223,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://thorchain.net/#/txs/${txHash}"
+    "txPage": "https://thorchain.net/#/txs/{txHash}"
   }
 }

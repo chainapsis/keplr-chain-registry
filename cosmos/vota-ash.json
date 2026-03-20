@@ -53,6 +53,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://vota-explorer.dorafactory.org/doravota/tx/${txHash}"
+    "txPage": "https://vota-explorer.dorafactory.org/doravota/tx/{txHash}"
   }
 }

@@ -53,6 +53,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://ping.pub/Dungeonchain/tx/${txHash}"
+    "txPage": "https://ping.pub/Dungeonchain/tx/{txHash}"
   }
 }

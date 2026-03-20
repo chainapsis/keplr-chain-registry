@@ -54,6 +54,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://explorer.c4e.io/transactions/${txHash}"
+    "txPage": "https://explorer.c4e.io/transactions/{txHash}"
   }
 }

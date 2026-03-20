@@ -63,6 +63,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://explorer.tcnetwork.io/sunrise/transaction/${txHash}"
+    "txPage": "https://explorer.tcnetwork.io/sunrise/transaction/{txHash}"
   }
 }

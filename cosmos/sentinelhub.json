@@ -49,6 +49,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://explorer.sentinel.co/transactions/${txHash}"
+    "txPage": "https://explorer.sentinel.co/transactions/{txHash}"
   }
 }

@@ -62,6 +62,6 @@
     "eth-key-sign"
   ],
   "explorers": {
-    "txPage": "https://www.mintscan.io/evmos/transactions/${txHash}"
+    "txPage": "https://www.mintscan.io/evmos/transactions/{txHash}"
   }
 }

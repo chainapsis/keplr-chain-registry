@@ -171,6 +171,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://finder.kujira.app/kaiyo-1/tx/${txHash}"
+    "txPage": "https://finder.kujira.app/kaiyo-1/tx/{txHash}"
   }
 }

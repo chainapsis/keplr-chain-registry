@@ -32,6 +32,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://explorer.forma.art/tx/${txHash}"
+    "txPage": "https://explorer.forma.art/tx/{txHash}"
   }
 }

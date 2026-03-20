@@ -49,6 +49,6 @@
   },
   "features": [],
   "explorers": {
-    "txPage": "https://river.hippoprotocol.ai/hippo-protocol/tx/${txHash}"
+    "txPage": "https://river.hippoprotocol.ai/hippo-protocol/tx/{txHash}"
   }
 }

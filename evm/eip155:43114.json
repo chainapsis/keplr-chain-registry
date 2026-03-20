@@ -62,6 +62,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://snowtrace.io/tx/${txHash}"
+    "txPage": "https://snowtrace.io/tx/{txHash}"
   }
 }

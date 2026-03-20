@@ -57,6 +57,6 @@
     "op-stack-l1-data-fee"
   ],
   "explorers": {
-    "txPage": "https://basescan.org/tx/${txHash}"
+    "txPage": "https://basescan.org/tx/{txHash}"
   }
 }

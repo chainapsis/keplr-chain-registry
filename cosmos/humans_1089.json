@@ -51,6 +51,6 @@
     "eth-key-sign"
   ],
   "explorers": {
-    "txPage": "https://www.mintscan.io/humans/tx/${txHash}"
+    "txPage": "https://www.mintscan.io/humans/tx/{txHash}"
   }
 }

@@ -55,6 +55,6 @@
     "evm-ledger-sign-plain-json"
   ],
   "explorers": {
-    "txPage": "https://scan.initia.xyz/interwoven-1/txs/${txHash}"
+    "txPage": "https://scan.initia.xyz/interwoven-1/txs/{txHash}"
   }
 }

@@ -50,6 +50,6 @@
   },
   "features": [],
   "explorers": {
-    "txPage": "https://explorer.cheqd.io/transactions/${txHash}"
+    "txPage": "https://explorer.cheqd.io/transactions/{txHash}"
   }
 }

@@ -94,6 +94,6 @@
   },
   "features": [],
   "explorers": {
-    "txPage": "https://explorer.nodestake.org/elys/tx/${txHash}"
+    "txPage": "https://explorer.nodestake.org/elys/tx/{txHash}"
   }
 }

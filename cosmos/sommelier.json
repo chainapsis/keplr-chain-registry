@@ -44,6 +44,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://www.mintscan.io/sommelier/transactions/${txHash}"
+    "txPage": "https://www.mintscan.io/sommelier/transactions/{txHash}"
   }
 }

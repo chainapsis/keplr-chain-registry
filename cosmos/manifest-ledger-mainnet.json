@@ -51,6 +51,6 @@
   },
   "features": [],
   "explorers": {
-    "txPage": "https://explorer.manifest.network/transaction/${txHash}"
+    "txPage": "https://explorer.manifest.network/transaction/{txHash}"
   }
 }

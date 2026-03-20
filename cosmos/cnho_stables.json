@@ -49,6 +49,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://explorer.cnho.io/transaction/${txHash}"
+    "txPage": "https://explorer.cnho.io/transaction/{txHash}"
   }
 }

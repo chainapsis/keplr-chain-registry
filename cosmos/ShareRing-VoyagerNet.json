@@ -48,6 +48,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://explorer.shareri.ng/transactions/${txHash}"
+    "txPage": "https://explorer.shareri.ng/transactions/{txHash}"
   }
 }

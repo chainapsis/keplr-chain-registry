@@ -53,6 +53,6 @@
     "eth-key-sign"
   ],
   "explorers": {
-    "txPage": "https://explorer-cosmos.mainnet.swisstronik.com/swisstronik/tx/${txHash}"
+    "txPage": "https://explorer-cosmos.mainnet.swisstronik.com/swisstronik/tx/{txHash}"
   }
 }

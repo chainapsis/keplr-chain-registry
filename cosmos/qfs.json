@@ -47,6 +47,6 @@
   },
   "features": [],
   "explorers": {
-    "txPage": "https://blockexplorer.qfsone.com/qfs/tx/${txHash}"
+    "txPage": "https://blockexplorer.qfsone.com/qfs/tx/{txHash}"
   }
 }

@@ -25,6 +25,6 @@
     }
   ],
   "explorers": {
-    "txPage": "https://explorer.solana.com/tx/${txHash}"
+    "txPage": "https://explorer.solana.com/tx/{txHash}"
   }
 }

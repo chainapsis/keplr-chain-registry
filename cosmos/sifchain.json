@@ -472,6 +472,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://ping.pub/sifchain/tx/${txHash}"
+    "txPage": "https://ping.pub/sifchain/tx/{txHash}"
   }
 }

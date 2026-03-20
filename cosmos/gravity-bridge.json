@@ -469,6 +469,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://www.mintscan.io/gravity-bridge/transactions/${txHash}"
+    "txPage": "https://www.mintscan.io/gravity-bridge/transactions/{txHash}"
   }
 }

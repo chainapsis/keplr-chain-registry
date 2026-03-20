@@ -133,6 +133,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://www.mintscan.io/bitsong/transactions/${txHash}"
+    "txPage": "https://www.mintscan.io/bitsong/transactions/{txHash}"
   }
 }

@@ -50,6 +50,6 @@
   },
   "features": [],
   "explorers": {
-    "txPage": "https://blockexplorer.taketitan.com/taketitan/tx/${txHash}"
+    "txPage": "https://blockexplorer.taketitan.com/taketitan/tx/{txHash}"
   }
 }

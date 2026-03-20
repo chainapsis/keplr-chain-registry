@@ -273,6 +273,6 @@
     "osmosis-base-fee-beta"
   ],
   "explorers": {
-    "txPage": "https://www.mintscan.io/osmosis/transactions/${txHash}"
+    "txPage": "https://www.mintscan.io/osmosis/transactions/{txHash}"
   }
 }

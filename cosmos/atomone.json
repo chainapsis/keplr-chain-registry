@@ -67,6 +67,6 @@
   },
   "features": [],
   "explorers": {
-    "txPage": "https://www.mintscan.io/atomone/tx/${txHash}"
+    "txPage": "https://www.mintscan.io/atomone/tx/{txHash}"
   }
 }

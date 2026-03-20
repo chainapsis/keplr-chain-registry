@@ -296,6 +296,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://www.mintscan.io/neutron/transactions/${txHash}"
+    "txPage": "https://www.mintscan.io/neutron/transactions/{txHash}"
   }
 }

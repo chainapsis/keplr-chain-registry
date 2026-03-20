@@ -49,6 +49,6 @@
   },
   "features": [],
   "explorers": {
-    "txPage": "https://staking-explorer.com/transaction.php?chain=firmachain&tx=${txHash}"
+    "txPage": "https://staking-explorer.com/transaction.php?chain=firmachain&tx={txHash}"
   }
 }

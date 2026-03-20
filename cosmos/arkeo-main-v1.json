@@ -49,6 +49,6 @@
   },
   "features": [],
   "explorers": {
-    "txPage": "https://exp.stakevillage.net/arkeo-mainnet/tx/${txHash}"
+    "txPage": "https://exp.stakevillage.net/arkeo-mainnet/tx/{txHash}"
   }
 }

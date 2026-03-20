@@ -56,6 +56,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://ping.explorer.net.bluzelle.com/bluzelle/tx/${txHash}"
+    "txPage": "https://ping.explorer.net.bluzelle.com/bluzelle/tx/{txHash}"
   }
 }

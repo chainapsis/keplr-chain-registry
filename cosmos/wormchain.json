@@ -127,6 +127,6 @@
   ],
   "hideInUI": true,
   "explorers": {
-    "txPage": "https://bigdipper.live/wormhole/transactions/${txHash}"
+    "txPage": "https://bigdipper.live/wormhole/transactions/{txHash}"
   }
 }

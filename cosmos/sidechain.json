@@ -70,6 +70,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://ping.pub/side/tx/${txHash}"
+    "txPage": "https://ping.pub/side/tx/{txHash}"
   }
 }

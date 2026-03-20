@@ -49,6 +49,6 @@
     "coinGeckoId": "optio"
   },
   "explorers": {
-    "txPage": "https://explore.optioblockchain.com/optio/tx/${txHash}"
+    "txPage": "https://explore.optioblockchain.com/optio/tx/{txHash}"
   }
 }

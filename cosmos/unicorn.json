@@ -49,6 +49,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://uwu.direct/Unicorn/tx/${txHash}"
+    "txPage": "https://uwu.direct/Unicorn/tx/{txHash}"
   }
 }

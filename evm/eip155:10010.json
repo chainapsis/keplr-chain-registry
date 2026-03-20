@@ -29,6 +29,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://explorer.barra.wardenprotocol.org/tx/${txHash}"
+    "txPage": "https://explorer.barra.wardenprotocol.org/tx/{txHash}"
   }
 }

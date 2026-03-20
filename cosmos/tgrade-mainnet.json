@@ -54,6 +54,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://www.mintscan.io/tgrade/tx/${txHash}"
+    "txPage": "https://www.mintscan.io/tgrade/tx/{txHash}"
   }
 }

@@ -228,6 +228,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://www.mintscan.io/injective/transactions/${txHash}"
+    "txPage": "https://www.mintscan.io/injective/transactions/{txHash}"
   }
 }

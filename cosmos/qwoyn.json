@@ -46,6 +46,6 @@
   },
   "features": [],
   "explorers": {
-    "txPage": "https://staking-explorer.com/transaction.php?chain=qwoyn&tx=${txHash}"
+    "txPage": "https://staking-explorer.com/transaction.php?chain=qwoyn&tx={txHash}"
   }
 }

@@ -31,6 +31,6 @@
   "features": [],
   "isTestnet": true,
   "explorers": {
-    "txPage": "https://7222.testnet.routescan.io/tx/${txHash}"
+    "txPage": "https://7222.testnet.routescan.io/tx/{txHash}"
   }
 }

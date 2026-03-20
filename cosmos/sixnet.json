@@ -51,6 +51,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://v2.sixscan.io/tx/${txHash}"
+    "txPage": "https://v2.sixscan.io/tx/{txHash}"
   }
 }

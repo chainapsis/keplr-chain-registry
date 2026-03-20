@@ -68,6 +68,6 @@
     "authz-msg-revoke-fixed"
   ],
   "explorers": {
-    "txPage": "https://ezstaking.app/juno/txs/${txHash}"
+    "txPage": "https://ezstaking.app/juno/txs/{txHash}"
   }
 }

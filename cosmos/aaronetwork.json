@@ -49,6 +49,6 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aaronetwork/chain.png"
   },
   "explorers": {
-    "txPage": "https://ping.pub/Aaron%20Network/tx/${txHash}"
+    "txPage": "https://ping.pub/Aaron%20Network/tx/{txHash}"
   }
 }

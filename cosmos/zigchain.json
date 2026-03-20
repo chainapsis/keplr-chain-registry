@@ -56,6 +56,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://app.range.org/tx/zigchain/${txHash}"
+    "txPage": "https://app.range.org/tx/zigchain/{txHash}"
   }
 }

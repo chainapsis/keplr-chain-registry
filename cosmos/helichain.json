@@ -55,6 +55,6 @@
   ],
   "walletUrlForStaking": "https://explorer.helichain.com/Helichain/",
   "explorers": {
-    "txPage": "https://staking-explorer.com/transaction.php?chain=heli&tx=${txHash}"
+    "txPage": "https://staking-explorer.com/transaction.php?chain=heli&tx={txHash}"
   }
 }

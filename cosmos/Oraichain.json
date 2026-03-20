@@ -69,6 +69,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://scan.orai.io/txs/${txHash}"
+    "txPage": "https://scan.orai.io/txs/{txHash}"
   }
 }

@@ -134,6 +134,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://explorer.int3face.zone/int3face-1/tx/${txHash}"
+    "txPage": "https://explorer.int3face.zone/int3face-1/tx/{txHash}"
   }
 }

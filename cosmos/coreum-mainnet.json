@@ -51,6 +51,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://www.mintscan.io/coreum/transactions/${txHash}"
+    "txPage": "https://www.mintscan.io/coreum/transactions/{txHash}"
   }
 }

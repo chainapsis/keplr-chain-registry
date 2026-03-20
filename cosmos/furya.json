@@ -55,6 +55,6 @@
   ],
   "walletUrlForStaking": "https://explorer.furya.network/furya-1/staking",
   "explorers": {
-    "txPage": "https://explorer.furya.network/furya-1/tx/${txHash}"
+    "txPage": "https://explorer.furya.network/furya-1/tx/{txHash}"
   }
 }

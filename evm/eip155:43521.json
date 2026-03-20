@@ -36,6 +36,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://testnet.memecorescan.io/tx/${txHash}"
+    "txPage": "https://testnet.memecorescan.io/tx/{txHash}"
   }
 }

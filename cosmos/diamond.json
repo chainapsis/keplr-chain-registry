@@ -55,6 +55,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://explorer.diamond.zenrocklabs.io/transactions/${txHash}"
+    "txPage": "https://explorer.diamond.zenrocklabs.io/transactions/{txHash}"
   }
 }

@@ -233,6 +233,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://ezstaking.app/crescent/txs/${txHash}"
+    "txPage": "https://ezstaking.app/crescent/txs/{txHash}"
   }
 }

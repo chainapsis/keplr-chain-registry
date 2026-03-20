@@ -138,6 +138,6 @@
     }
   ],
   "explorers": {
-    "txPage": "https://www.mintscan.io/sei/transactions/${txHash}"
+    "txPage": "https://www.mintscan.io/sei/transactions/{txHash}"
   }
 }

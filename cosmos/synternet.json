@@ -50,6 +50,6 @@
   },
   "walletUrlForStaking": "https://staking.synternet.com",
   "explorers": {
-    "txPage": "https://staking-explorer.com/transaction.php?chain=synternet&tx=${txHash}"
+    "txPage": "https://staking-explorer.com/transaction.php?chain=synternet&tx={txHash}"
   }
 }

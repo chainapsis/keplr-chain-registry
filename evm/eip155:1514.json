@@ -27,6 +27,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://storyscan.io/tx/${txHash}"
+    "txPage": "https://storyscan.io/tx/{txHash}"
   }
 }

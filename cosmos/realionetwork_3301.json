@@ -66,6 +66,6 @@
     "eth-key-sign"
   ],
   "explorers": {
-    "txPage": "https://explorer.stavr.tech/realio-mainnet/tx/${txHash}"
+    "txPage": "https://explorer.stavr.tech/realio-mainnet/tx/{txHash}"
   }
 }

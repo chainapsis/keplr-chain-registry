@@ -103,6 +103,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://sagaevm-5464-1.sagaexplorer.io/tx/${txHash}"
+    "txPage": "https://sagaevm-5464-1.sagaexplorer.io/tx/{txHash}"
   }
 }

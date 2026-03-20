@@ -50,6 +50,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://portal.lumera.io/lumera-mainnet-1/tx/${txHash}"
+    "txPage": "https://portal.lumera.io/lumera-mainnet-1/tx/{txHash}"
   }
 }

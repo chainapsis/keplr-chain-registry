@@ -55,6 +55,6 @@
   ],
   "walletUrlForStaking": "https://app.teritori.com/staking",
   "explorers": {
-    "txPage": "https://www.mintscan.io/teritori/transactions/${txHash}"
+    "txPage": "https://www.mintscan.io/teritori/transactions/{txHash}"
   }
 }

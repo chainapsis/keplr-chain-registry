@@ -94,6 +94,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://atomscan.com/migaloo/transactions/${txHash}"
+    "txPage": "https://atomscan.com/migaloo/transactions/{txHash}"
   }
 }

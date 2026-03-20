@@ -50,6 +50,6 @@
     "op-stack-l1-data-fee"
   ],
   "explorers": {
-    "txPage": "https://blastscan.io/tx/${txHash}"
+    "txPage": "https://blastscan.io/tx/{txHash}"
   }
 }

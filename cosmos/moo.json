@@ -52,6 +52,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://scan.initia.xyz/moo-1/txs/${txHash}"
+    "txPage": "https://scan.initia.xyz/moo-1/txs/{txHash}"
   }
 }

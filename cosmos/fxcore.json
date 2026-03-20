@@ -60,6 +60,6 @@
     "eth-key-sign"
   ],
   "explorers": {
-    "txPage": "https://pundiscan.io/evm/tx/${txHash}"
+    "txPage": "https://pundiscan.io/evm/tx/{txHash}"
   }
 }

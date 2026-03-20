@@ -49,6 +49,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://gonka04.6block.com:8443/dashboard/gonka/txs/${txHash}"
+    "txPage": "https://gonka04.6block.com:8443/dashboard/gonka/txs/{txHash}"
   }
 }

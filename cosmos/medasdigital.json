@@ -51,6 +51,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://explorer.medas-digital.io:3100/medasdigital/transactions/${txHash}"
+    "txPage": "https://explorer.medas-digital.io:3100/medasdigital/transactions/{txHash}"
   }
 }

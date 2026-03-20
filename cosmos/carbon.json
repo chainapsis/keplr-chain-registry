@@ -481,6 +481,6 @@
   },
   "features": [],
   "explorers": {
-    "txPage": "https://scan.carbon.network/transaction/${txHash}?net=main"
+    "txPage": "https://scan.carbon.network/transaction/{txHash}?net=main"
   }
 }

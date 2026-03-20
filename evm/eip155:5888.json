@@ -38,6 +38,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://explorer.mantrachain.io/tx/${txHash}"
+    "txPage": "https://explorer.mantrachain.io/tx/{txHash}"
   }
 }

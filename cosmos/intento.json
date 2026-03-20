@@ -73,6 +73,6 @@
   },
   "features": [],
   "explorers": {
-    "txPage": "https://explorer.intento.zone/intento-mainnet/tx/${txHash}"
+    "txPage": "https://explorer.intento.zone/intento-mainnet/tx/{txHash}"
   }
 }
