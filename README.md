@@ -122,7 +122,10 @@ Here’s an overview of the structure of the directory. Please provide the infor
     "coinDecimals": 6,
     "coinGeckoId": "osmosis"
   },
-  "features": ["cosmwasm", "osmosis-txfees"]
+  "features": ["cosmwasm", "osmosis-txfees"],
+  "explorers": {
+    "txPage": "https://www.mintscan.io/osmosis/tx/{txHash}"
+  }
 }
 ```
 
@@ -155,6 +158,12 @@ Here’s an overview of the structure of the directory. Please provide the infor
   - axelar-evm-bridge: supports EVM bridge provided by Axelar Network
   - osmosis-txfees: supports paying fees in other currencies on Osmosis
 - isTestnet: set it to true when your chain is a testnet or devnet
+- explorers(optional): block explorer configuration for transaction lookup
+  - txPage: URL template for transaction pages. Available placeholders:
+    - `{txHash}` - transaction hash in uppercase hex
+    - `{txHash:lowercase}` - transaction hash in lowercase hex
+    - `{txHash:uppercase}` - transaction hash in uppercase hex (same as `{txHash}`)
+    - Example: `"https://www.mintscan.io/osmosis/tx/{txHash}"`
 
 # EVM-based Chains
 
@@ -228,7 +237,10 @@ Here’s an overview of the structure of the directory. Please provide the infor
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/ethereum-native.png"
     }
   ],
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://etherscan.io/tx/0x{txHash}"
+  }
 }
 ```
 
@@ -251,6 +263,13 @@ Here’s an overview of the structure of the directory. Please provide the infor
 - coinGeckoId(optional): the active API ID for Keplr to get the price from CoinGecko. For a testnet chain, this field is not accepted.
 - features: any other features that are additionally supported by the chain
   - op-stack-l1-data-fee: supports paying L1 data fee for OP stack based chain
+- explorers(optional): block explorer configuration for transaction lookup
+  - txPage: URL template for transaction pages. Available placeholders:
+    - `{txHash}` - transaction hash in uppercase hex
+    - `{txHash:lowercase}` - transaction hash in lowercase hex
+    - `{txHash:uppercase}` - transaction hash in uppercase hex (same as `{txHash}`)
+    - Example: `"https://etherscan.io/tx/0x{txHash}"`
+    - Example: `"https://lineascan.build/tx/0x{txHash:lowercase}"`
 
 # SVM-based Chains
 
@@ -306,7 +325,10 @@ Here's an overview of the structure of the directory. Please provide the informa
       "coinDecimals": 9,
       "coinGeckoId": "solana"
     }
-  ]
+  ],
+  "explorers": {
+    "txPage": "https://explorer.solana.com/tx/{txHash}"
+  }
 }
 ```
 
@@ -324,6 +346,12 @@ Here's an overview of the structure of the directory. Please provide the informa
 - feeCurrencies: the list of the tokens that are accepted for fees
 - coinGeckoId(optional): the active API ID for Keplr to get the price from CoinGecko. For a testnet chain, this field is not accepted.
 - isTestnet: set it to true when your chain is a testnet or devnet
+- explorers(optional): block explorer configuration for transaction lookup
+  - txPage: URL template for transaction pages. Available placeholders:
+    - `{txHash}` - transaction hash in uppercase hex
+    - `{txHash:lowercase}` - transaction hash in lowercase hex
+    - `{txHash:uppercase}` - transaction hash in uppercase hex (same as `{txHash}`)
+    - Example: `"https://explorer.solana.com/tx/{txHash}"`
 
 ## NOTE:
 
