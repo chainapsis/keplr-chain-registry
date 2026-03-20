@@ -13,7 +13,6 @@
       "coinDenom": "TBZE",
       "coinMinimalDenom": "ubze",
       "coinDecimals": 6,
-      "coinGeckoId": "bzedge",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bzetestnet/chain.png"
   },
   "bip44": {
@@ -32,7 +31,6 @@
       "coinDenom": "TBZE",
       "coinMinimalDenom": "ubze",
       "coinDecimals": 6,
-      "coinGeckoId": "bzedge",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bzetestnet/chain.png"
     }
   ],
@@ -40,7 +38,6 @@
       "coinDenom": "TBZE",
       "coinMinimalDenom": "ubze",
       "coinDecimals": 6,
-      "coinGeckoId": "bzedge",
       "gasPriceStep": {
           "low": 0.01,
           "average": 0.05,
