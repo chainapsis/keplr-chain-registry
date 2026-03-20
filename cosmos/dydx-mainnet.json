@@ -58,6 +58,6 @@
   "walletUrlForStaking": "https://wallet.keplr.app/chains/dydx?modal=staking&chain=dydx-mainnet-1&step_id=2",
   "features": [],
   "explorers": {
-    "txPage": "https://www.mintscan.io/dydx/txs/{txHash}"
+    "txPage": "https://www.mintscan.io/dydx/tx/{txHash}"
   }
 }

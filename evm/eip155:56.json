@@ -62,6 +62,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://bscscan.com/tx/{txHash}"
+    "txPage": "https://bscscan.com/tx/0x{txHash}"
   }
 }

@@ -48,6 +48,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://polygonscan.com/tx/{txHash}"
+    "txPage": "https://polygonscan.com/tx/0x{txHash}"
   }
 }

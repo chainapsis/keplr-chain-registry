@@ -57,6 +57,6 @@
     "evm-feemarket"
   ],
   "explorers": {
-    "txPage": "https://mintscan.io/mantra/txs/{txHash}"
+    "txPage": "https://www.mintscan.io/mantra/tx/{txHash}"
   }
 }

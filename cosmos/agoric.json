@@ -72,6 +72,6 @@
     }
   ],
   "explorers": {
-    "txPage": "https://agoric.explorers.guru/transaction/{txHash}"
+    "txPage": "https://www.mintscan.io/agoric/tx/{txHash}"
   }
 }

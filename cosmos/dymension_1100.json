@@ -55,6 +55,6 @@
     "eth-key-sign"
   ],
   "explorers": {
-    "txPage": "https://www.mintscan.io/dymension/tx/{txHash}"
+    "txPage": "https://dym.fyi/tx/{txHash:uppercase}"
   }
 }

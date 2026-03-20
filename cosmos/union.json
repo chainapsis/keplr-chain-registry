@@ -50,6 +50,6 @@
   ],
   "walletUrlForStaking": "https://wallet.keplr.app/chains/union?modal=staking&chain=union-1&step_id=2",
   "explorers": {
-    "txPage": "https://explorer.union.build/union/tx/{txHash}"
+    "txPage": "https://explorer.union.build/union/tx/{txHash:uppercase}"
   }
 }

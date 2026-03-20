@@ -56,6 +56,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://www.mintscan.io/xpla/transactions/{txHash}"
+    "txPage": "https://www.mintscan.io/xpla/tx/{txHash}"
   }
 }

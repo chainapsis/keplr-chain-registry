@@ -50,6 +50,6 @@
   },
   "walletUrlForStaking": "https://wallet.keplr.app/chains/cosmos-hub?modal=staking&chain=cosmoshub-4&step_id=2",
   "explorers": {
-    "txPage": "https://www.mintscan.io/cosmos/transactions/{txHash}"
+    "txPage": "https://www.mintscan.io/cosmos/tx/{txHash}"
   }
 }

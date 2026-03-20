@@ -48,6 +48,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://nillionhub.org/explorer/transactions/{txHash}"
+    "txPage": "https://www.mintscan.io/nillion/tx/{txHash}"
   }
 }

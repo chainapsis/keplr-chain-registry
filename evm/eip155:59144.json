@@ -41,6 +41,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://lineascan.build/tx/{txHash}"
+    "txPage": "https://lineascan.build/tx/0x{txHash:lowercase}"
   }
 }

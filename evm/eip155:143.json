@@ -48,6 +48,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://monadscan.com/tx/{txHash}"
+    "txPage": "https://monadvision.com/tx/0x{txHash:lowercase}"
   }
 }

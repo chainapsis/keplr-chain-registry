@@ -48,6 +48,6 @@
   },
   "walletUrlForStaking": "https://wallet.keplr.app/chains/celestia?modal=staking&chain=celestia&step_id=2",
   "explorers": {
-    "txPage": "https://mintscan.io/celestia/txs/{txHash}"
+    "txPage": "https://www.mintscan.io/celestia/tx/{txHash}"
   }
 }

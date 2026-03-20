@@ -107,6 +107,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://www.mintscan.io/noble/txs/{txHash}"
+    "txPage": "https://www.mintscan.io/noble/tx/{txHash}"
   }
 }

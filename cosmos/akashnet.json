@@ -49,6 +49,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://www.mintscan.io/akash/transactions/{txHash}"
+    "txPage": "https://www.mintscan.io/akash/tx/{txHash}"
   }
 }

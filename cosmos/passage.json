@@ -50,6 +50,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://www.mintscan.io/passage/transactions/{txHash}"
+    "txPage": "https://ping.pub/passage/tx/{txHash}"
   }
 }

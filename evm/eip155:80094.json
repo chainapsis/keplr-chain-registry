@@ -88,6 +88,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://berascan.com/tx/{txHash}"
+    "txPage": "https://berascan.com/tx/0x{txHash}"
   }
 }

@@ -48,6 +48,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://www.mintscan.io/kyve/txs/{txHash}"
+    "txPage": "https://explorer.kyve.network/kyve/tx/{txHash:uppercase}"
   }
 }

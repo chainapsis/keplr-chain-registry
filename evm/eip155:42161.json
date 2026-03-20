@@ -48,6 +48,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://arbiscan.io/tx/{txHash}"
+    "txPage": "https://arbiscan.io/tx/0x{txHash}"
   }
 }
