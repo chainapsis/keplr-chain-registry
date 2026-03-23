@@ -1,6 +1,6 @@
 {
-  "rpc": "https://rpc-milkyway.keplr.app",
-  "rest": "https://lcd-milkyway.keplr.app",
+  "rpc": "https://rpc.mainnet.milkyway.zone",
+  "rest": "https://lcd.mainnet.milkyway.zone",
   "chainId": "milkyway",
   "chainName": "MilkyWay",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/milkyway/chain.png",
@@ -146,5 +146,10 @@
       }
     }
   ],
+  "nodeProvider": {
+    "name": "MilkyWay",
+    "email": "security@milkyway.zone",
+    "website": "https://milkyway.zone"
+  },
   "features": ["cosmwasm"]
 }
