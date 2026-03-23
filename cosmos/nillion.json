@@ -1,6 +1,6 @@
 {
-  "rpc": "https://rpc-nillion.keplr.app",
-  "rest": "https://lcd-nillion.keplr.app",
+  "rpc": "https://nillion-rpc.lavenderfive.com",
+  "rest": "https://nillion-api.lavenderfive.com",
   "chainId": "nillion-1",
   "chainName": "Nillion",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/nillion?modal=staking&chain=nillion-1&step_id=2",
@@ -46,6 +46,11 @@
       }
     }
   ],
+  "nodeProvider": {
+    "name": "Lavender.Five",
+    "email": "hello@lavenderfive.com",
+    "website": "https://lavenderfive.com/"
+  },
   "features": [],
   "explorers": {
     "txPage": "https://www.mintscan.io/nillion/tx/{txHash}"
