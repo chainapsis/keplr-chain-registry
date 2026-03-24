@@ -86,5 +86,8 @@
       "coinGeckoId": "berachain-bera"
     }
   ],
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://berascan.com/tx/0x{txHash}"
+  }
 }

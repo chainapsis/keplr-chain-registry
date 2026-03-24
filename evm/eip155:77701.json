@@ -29,5 +29,8 @@
     }
   ],
   "features": [],
-  "isTestnet": true
+  "isTestnet": true,
+  "explorers": {
+    "txPage": "https://explorer.republicai.io/tx/{txHash}"
+  }
 }

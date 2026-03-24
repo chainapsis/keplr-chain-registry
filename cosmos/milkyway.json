@@ -151,5 +151,10 @@
     "email": "security@milkyway.zone",
     "website": "https://milkyway.zone"
   },
-  "features": ["cosmwasm"]
+  "features": [
+    "cosmwasm"
+  ],
+  "explorers": {
+    "txPage": "https://www.mintscan.io/milkyway/tx/{txHash}"
+  }
 }

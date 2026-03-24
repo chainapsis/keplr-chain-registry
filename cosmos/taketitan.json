@@ -48,5 +48,8 @@
     "coinDecimals": 6,
     "coinGeckoId": "titan"
   },
-  "features": [ ]
+  "features": [],
+  "explorers": {
+    "txPage": "https://blockexplorer.taketitan.com/taketitan/tx/{txHash}"
+  }
 }

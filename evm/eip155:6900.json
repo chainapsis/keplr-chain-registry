@@ -28,5 +28,8 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:6900/chain.png"
     }
   ],
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://6900.routescan.io/tx/{txHash}"
+  }
 }

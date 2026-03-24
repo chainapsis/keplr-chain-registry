@@ -60,5 +60,8 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:43114/avalanche-native.png"
     }
   ],
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://subnets.avax.network/c-chain/tx/0x{txHash:lowercase}"
+  }
 }

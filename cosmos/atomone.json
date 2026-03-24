@@ -49,7 +49,7 @@
       "coinDenom": "ATONE",
       "coinMinimalDenom": "uatone",
       "coinDecimals": 6,
-      "coinGeckoId": "atomone", 
+      "coinGeckoId": "atomone",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/atomone/chain.png",
       "gasPriceStep": {
         "low": 0.025,
@@ -65,5 +65,8 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/atomone/chain.png",
     "coinGeckoId": "atomone"
   },
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://www.mintscan.io/atomone/tx/{txHash}"
+  }
 }

@@ -5,7 +5,9 @@
   "rpc": "https://rpc-zigchain.keplr.app",
   "rest": "https://lcd-zigchain.keplr.app",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/zigchain?modal=staking&chain=zigchain-1&step_id=2",
-  "bip44": { "coinType": 118 },
+  "bip44": {
+    "coinType": 118
+  },
   "bech32Config": {
     "bech32PrefixAccAddr": "zig",
     "bech32PrefixAccPub": "zigpub",
@@ -50,5 +52,10 @@
     "coinGeckoId": "zignaly",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zigchain/uzig.png"
   },
-  "features": ["cosmwasm"]
+  "features": [
+    "cosmwasm"
+  ],
+  "explorers": {
+    "txPage": "https://www.zigscan.org/tx/{txHash:uppercase}"
+  }
 }

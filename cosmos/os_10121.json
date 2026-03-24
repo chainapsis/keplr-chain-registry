@@ -50,5 +50,8 @@
     "eth-address-gen",
     "eth-key-sign",
     "axelar-evm-bridge"
-  ]
+  ],
+  "explorers": {
+    "txPage": "https://ozonescan.io/tx/{txHash}"
+  }
 }

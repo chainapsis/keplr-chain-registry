@@ -35,5 +35,8 @@
     }
   ],
   "features": [],
-  "isTestnet": true
+  "isTestnet": true,
+  "explorers": {
+    "txPage": "https://explorer.testnet.aurora.dev/tx/{txHash}"
+  }
 }

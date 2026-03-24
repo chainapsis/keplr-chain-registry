@@ -45,5 +45,10 @@
     "coinMinimalDenom": "uwunicorn",
     "coinDecimals": 6
   },
-  "features": ["cosmwasm"]
+  "features": [
+    "cosmwasm"
+  ],
+  "explorers": {
+    "txPage": "https://uwu.direct/Unicorn/tx/{txHash}"
+  }
 }

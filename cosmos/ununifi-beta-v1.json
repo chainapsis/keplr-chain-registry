@@ -4,7 +4,7 @@
   "nodeProvider": {
     "name": "UnUniFi",
     "email": "info@ununifi.io",
-    "website":"https://ununifi.io/"
+    "website": "https://ununifi.io/"
   },
   "chainId": "ununifi-beta-v1",
   "chainName": "UnUniFi",
@@ -50,5 +50,8 @@
   ],
   "features": [
     "cosmwasm"
-  ]
+  ],
+  "explorers": {
+    "txPage": "https://ununifi.io/explorer/txs/{txHash}"
+  }
 }

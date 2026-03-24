@@ -25,5 +25,8 @@
       "coinGeckoId": "bitcoin"
     }
   ],
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://explorer.mainnet.citrea.xyz/tx/0x{txHash:lowercase}"
+  }
 }

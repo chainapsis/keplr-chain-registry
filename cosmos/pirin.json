@@ -96,5 +96,10 @@
       }
     }
   ],
-  "features": ["cosmwasm"]
+  "features": [
+    "cosmwasm"
+  ],
+  "explorers": {
+    "txPage": "https://ping.pub/nolus/tx/{txHash}"
+  }
 }

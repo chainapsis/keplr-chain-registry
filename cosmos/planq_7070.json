@@ -87,5 +87,12 @@
     "coinGeckoId": "planq",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/planq_7070/aplanq.png"
   },
-  "features": ["eth-address-gen", "eth-key-sign", "force-enable-evm-ledger"]
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign",
+    "force-enable-evm-ledger"
+  ],
+  "explorers": {
+    "txPage": "https://atomscan.com/planq/transactions/{txHash}"
+  }
 }

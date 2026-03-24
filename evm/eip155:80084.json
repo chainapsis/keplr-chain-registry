@@ -40,5 +40,8 @@
     }
   ],
   "features": [],
-  "isTestnet": true
+  "isTestnet": true,
+  "explorers": {
+    "txPage": "https://80084.testnet.routescan.io/tx/{txHash}"
+  }
 }

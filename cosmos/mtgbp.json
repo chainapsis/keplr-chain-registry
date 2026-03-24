@@ -45,5 +45,8 @@
     "coinMinimalDenom": "umtgbp",
     "coinDecimals": 6
   },
-  "features": [ ]
+  "features": [],
+  "explorers": {
+    "txPage": "https://blockexplorer.mtgbp.com/mtgbp/tx/{txHash}"
+  }
 }

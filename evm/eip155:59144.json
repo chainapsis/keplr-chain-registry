@@ -39,5 +39,8 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:59144/linea-native.png"
     }
   ],
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://lineascan.build/tx/0x{txHash:lowercase}"
+  }
 }

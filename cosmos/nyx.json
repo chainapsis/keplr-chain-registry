@@ -62,5 +62,10 @@
       }
     }
   ],
-  "features": ["cosmwasm"]
+  "features": [
+    "cosmwasm"
+  ],
+  "explorers": {
+    "txPage": "https://nym.explorers.guru/transaction/{txHash:uppercase}"
+  }
 }

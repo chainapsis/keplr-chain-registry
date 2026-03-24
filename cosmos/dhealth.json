@@ -7,7 +7,7 @@
   "nodeProvider": {
     "name": "dHealth Network",
     "email": "son@dhealth.com",
-    "website":"https://dhealth.com"
+    "website": "https://dhealth.com"
   },
   "bip44": {
     "coinType": 10111
@@ -57,5 +57,8 @@
   },
   "features": [
     "cosmwasm"
-  ]
+  ],
+  "explorers": {
+    "txPage": "https://staking-explorer.com/transaction.php?chain=dhealth&tx={txHash}"
+  }
 }

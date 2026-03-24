@@ -50,6 +50,11 @@
     "coinGeckoId": "teritori",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/teritori/utori.png"
   },
-  "features": ["cosmwasm"],
-  "walletUrlForStaking": "https://app.teritori.com/staking"
+  "features": [
+    "cosmwasm"
+  ],
+  "walletUrlForStaking": "https://app.teritori.com/staking",
+  "explorers": {
+    "txPage": "https://www.mintscan.io/teritori/transactions/{txHash}"
+  }
 }

@@ -43,5 +43,10 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:957/derive-ethereum.png"
     }
   ],
-  "features": ["op-stack-l1-data-fee"]
+  "features": [
+    "op-stack-l1-data-fee"
+  ],
+  "explorers": {
+    "txPage": "https://explorer.lyra.finance/tx/{txHash}"
+  }
 }

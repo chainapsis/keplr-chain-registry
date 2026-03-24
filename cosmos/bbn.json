@@ -54,5 +54,8 @@
   },
   "features": [
     "cosmwasm"
-  ]
+  ],
+  "explorers": {
+    "txPage": "https://www.mintscan.io/babylon/tx/{txHash}"
+  }
 }

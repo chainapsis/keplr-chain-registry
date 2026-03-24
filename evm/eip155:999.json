@@ -43,5 +43,8 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:999/hyperevm-native.png"
     }
   ],
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://hyperevmscan.io/tx/{txHash}"
+  }
 }

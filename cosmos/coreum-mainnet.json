@@ -49,5 +49,8 @@
   },
   "features": [
     "cosmwasm"
-  ]
+  ],
+  "explorers": {
+    "txPage": "https://www.mintscan.io/coreum/transactions/{txHash}"
+  }
 }

@@ -51,5 +51,8 @@
     "email": "hello@lavenderfive.com",
     "website": "https://lavenderfive.com/"
   },
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://www.mintscan.io/nillion/tx/{txHash}"
+  }
 }

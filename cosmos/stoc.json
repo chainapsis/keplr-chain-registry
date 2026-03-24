@@ -50,5 +50,8 @@
     "coinGeckoId": "sto-chain",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stoc/ustoc.png"
   },
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://stochainscan.io/en/transaction/{txHash}"
+  }
 }

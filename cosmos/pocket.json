@@ -61,5 +61,8 @@
     "coinGeckoId": "pocket-network",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pocket/chain.png"
   },
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://explorer.pocket.network/pocket-mainnet/tx/{txHash:uppercase}"
+  }
 }

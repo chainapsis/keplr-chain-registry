@@ -52,5 +52,11 @@
     "coinGeckoId": "mantra",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantra/om.png"
   },
-  "features": ["cosmwasm", "evm-feemarket"]
+  "features": [
+    "cosmwasm",
+    "evm-feemarket"
+  ],
+  "explorers": {
+    "txPage": "https://www.mintscan.io/mantra/tx/{txHash}"
+  }
 }

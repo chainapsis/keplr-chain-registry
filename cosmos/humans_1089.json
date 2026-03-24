@@ -46,5 +46,11 @@
       }
     }
   ],
-  "features": ["eth-address-gen", "eth-key-sign"]
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ],
+  "explorers": {
+    "txPage": "https://www.mintscan.io/humans/tx/{txHash}"
+  }
 }

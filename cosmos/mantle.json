@@ -52,5 +52,8 @@
   },
   "features": [],
   "walletUrl": "https://wallet.assetmantle.one",
-  "walletUrlForStaking": "https://wallet.assetmantle.one/stake"
+  "walletUrlForStaking": "https://wallet.assetmantle.one/stake",
+  "explorers": {
+    "txPage": "https://www.mintscan.io/asset-mantle/transactions/{txHash}"
+  }
 }

@@ -36,9 +36,9 @@
       "coinDecimals": 6,
       "coinGeckoId": "optio",
       "gasPriceStep": {
-        "low": 1.0,
+        "low": 1,
         "average": 1.5,
-        "high": 2.0
+        "high": 2
       }
     }
   ],
@@ -47,5 +47,8 @@
     "coinMinimalDenom": "uOPT",
     "coinDecimals": 6,
     "coinGeckoId": "optio"
+  },
+  "explorers": {
+    "txPage": "https://explore.optioblockchain.com/optio/tx/{txHash}"
   }
 }

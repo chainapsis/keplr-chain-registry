@@ -46,5 +46,8 @@
       }
     }
   ],
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://explorer.kyve.network/kyve/tx/{txHash:uppercase}"
+  }
 }

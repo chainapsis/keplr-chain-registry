@@ -6,7 +6,7 @@
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tenet_1559/tenet.png",
   "nodeProvider": {
     "name": "Tenet Foundation",
-    "website":"https://tenet.org/",
+    "website": "https://tenet.org/",
     "email": "info@tenet.org"
   },
   "stakeCurrency": {
@@ -52,5 +52,11 @@
       }
     }
   ],
-  "features": ["eth-address-gen", "eth-key-sign"]
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ],
+  "explorers": {
+    "txPage": "https://ping.pub/tenet/tx/{txHash}"
+  }
 }

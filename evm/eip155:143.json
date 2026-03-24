@@ -46,5 +46,8 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:143/monad-native.png"
     }
   ],
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://monadvision.com/tx/0x{txHash:lowercase}"
+  }
 }

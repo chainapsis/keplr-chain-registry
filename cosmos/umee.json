@@ -47,5 +47,10 @@
       }
     }
   ],
-  "features": ["authz-msg-revoke-fixed"]
+  "features": [
+    "authz-msg-revoke-fixed"
+  ],
+  "explorers": {
+    "txPage": "https://ping.pub/umee/tx/{txHash}"
+  }
 }

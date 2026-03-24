@@ -50,6 +50,12 @@
       }
     }
   ],
-  "features": ["eth-address-gen", "eth-key-sign"],
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/zetachain?modal=staking&chain=zetachain_7000-1&step_id=2"
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ],
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/zetachain?modal=staking&chain=zetachain_7000-1&step_id=2",
+  "explorers": {
+    "txPage": "https://www.mintscan.io/zeta/tx/{txHash}"
+  }
 }

@@ -34,5 +34,8 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:43521/memecore-native.png"
     }
   ],
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://testnet.memecorescan.io/tx/{txHash}"
+  }
 }

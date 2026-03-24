@@ -4,7 +4,7 @@
   "nodeProvider": {
     "name": "Sunrise",
     "email": "info@sunriselayer.io",
-    "website":"https://sunriselayer.io"
+    "website": "https://sunriselayer.io"
   },
   "chainId": "sunrise-1",
   "chainName": "Sunrise",
@@ -61,5 +61,8 @@
   ],
   "features": [
     "cosmwasm"
-  ]
+  ],
+  "explorers": {
+    "txPage": "https://explorer.tcnetwork.io/sunrise/transaction/{txHash}"
+  }
 }
