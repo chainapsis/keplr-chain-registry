@@ -32,6 +32,13 @@
       "coinGeckoId": "akash-network",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/akashnet/uakt.png"
     }
+    {
+      "coinDenom": "ACT",
+      "coinMinimalDenom": "uact",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/akashnet/uakt.png"
+    }
   ],
   "feeCurrencies": [
     {
