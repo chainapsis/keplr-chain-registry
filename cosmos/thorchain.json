@@ -198,6 +198,34 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/xrp-xrp.png"
     },
     {
+      "coinDenom": "SOL",
+      "coinMinimalDenom": "sol-sol",
+      "coinDecimals": 8,
+      "coinGeckoId": "solana",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/sol-sol.png"
+    },
+    {
+      "coinDenom": "USDT.TRON",
+      "coinMinimalDenom": "tron-usdt-tr7nhqjekqxgtci8q8zy4pl8otszgjlj6t",
+      "coinDecimals": 8,
+      "coinGeckoId": "tether",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/tron.usdt-tr7nhqjekqxgtci8q8zy4pl8otszgjlj6t.png"
+    },
+    {
+      "coinDenom": "TRX",
+      "coinMinimalDenom": "tron-trx",
+      "coinDecimals": 8,
+      "coinGeckoId": "tron",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/tron-trx.png"
+    },
+    {
+      "coinDenom": "VVV",
+      "coinMinimalDenom": "base-vvv-0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf",
+      "coinDecimals": 8,
+      "coinGeckoId": "venice-token",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thorchain/base-vvv-0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf.png"
+    },
+    {
       "coinDenom": "ETH.BASE",
       "coinMinimalDenom": "base-eth",
       "coinDecimals": 8,
