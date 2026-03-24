@@ -1,0 +1,49 @@
+{
+  "chainId": "mstbl-1",
+  "chainName": "MSTBL Testnet",
+  "isTestnet": true,
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mstbl/MSTBL_LOGO.png",
+  "rpc": "https://rpc.stbl.mstbl.com",
+  "rest": "https://api.stbl.mstbl.com",
+  "nodeProvider": {
+    "name": "MSTBL",
+    "email": "support@mstbl.com",
+    "website": "https://mstbl.com"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "mstbl",
+    "bech32PrefixAccPub": "mstblpub",
+    "bech32PrefixValAddr": "mstblvaloper",
+    "bech32PrefixValPub": "mstblvaloperpub",
+    "bech32PrefixConsAddr": "mstblvalcons",
+    "bech32PrefixConsPub": "mstblvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "STAKE",
+      "coinMinimalDenom": "stake",
+      "coinDecimals": 0
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "STAKE",
+      "coinMinimalDenom": "stake",
+      "coinDecimals": 0,
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "STAKE",
+    "coinMinimalDenom": "stake",
+    "coinDecimals": 0
+  },
+  "features": ["cosmwasm"]
+}
