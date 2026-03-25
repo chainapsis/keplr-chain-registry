@@ -37,7 +37,7 @@
       "coinMinimalDenom": "uact",
       "coinDecimals": 6,
       "coinGeckoId": "usd-coin",
-      "nonTransferable: true",
+      "nonTransferable": "true",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/akashnet/uakt.png"
     }
   ],
