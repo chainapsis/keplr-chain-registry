@@ -42,6 +42,16 @@
         "average": 1.1,
         "high": 3
       }
+    },
+    {
+      "coinDenom": "PWR",
+      "coinMinimalDenom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwr",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.40,
+        "average": 0.5,
+        "high": 1
+      }
     }
   ],
   "stakeCurrency": {
