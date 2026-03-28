@@ -3,13 +3,12 @@
   "rest": "https://api.xyra-mainnet.org",
   "chainId": "xyra-2",
   "nodeProvider": {
-    "name": "Xyra Team",
+    "name": "Xyra Chain",
     "email": "rizkimaryanto7@gmail.com",
     "website": "https://xyra-mainnet.org"
   },
   "chainName": "Xyra Chain",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xyra/chain.png",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/xyra?modal=staking&chain=xyra-2&step_id=2",
   "stakeCurrency": {
     "coinDenom": "XYRA",
     "coinMinimalDenom": "uXyrium",
@@ -48,11 +47,7 @@
       }
     }
   ],
-  "features": [
-    "cosmwasm",
-    "ibc-transfer",
-    "ibc-go"
-  ],
+  "features": [],
   "explorers": {
     "txPage": "https://explorer.xyra-mainnet.org/xyra/tx/{txHash}"
   }
