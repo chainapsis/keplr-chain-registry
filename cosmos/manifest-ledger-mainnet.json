@@ -2,8 +2,8 @@
   "chainId": "manifest-ledger-mainnet",
   "chainName": "Manifest",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/manifest-ledger-mainnet/chain.png",
-  "rpc": "https://nodes.liftedinit.app/manifest/rpc",
-  "rest": "https://nodes.liftedinit.app/manifest/api",
+  "rpc": "https://nodes.manifest.network/manifest/rpc",
+  "rest": "https://nodes.manifest.network/manifest/api",
   "nodeProvider": {
     "name": "The Lifted Initiative",
     "email": "hello@manifest.network",
