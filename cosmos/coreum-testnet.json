@@ -42,7 +42,8 @@
   "stakeCurrency": {
     "coinDenom": "TESTTX",
     "coinMinimalDenom": "utestcore",
-    "coinDecimals": 6
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/coreum-testnet/utestcore.png"
   },
   "features": [
     "cosmwasm"

@@ -45,7 +45,8 @@
     "coinDenom": "TX",
     "coinMinimalDenom": "ucore",
     "coinDecimals": 6,
-    "coinGeckoId": "tx"
+    "coinGeckoId": "tx",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/coreum-mainnet/ucore.png"
   },
   "features": [
     "cosmwasm"
