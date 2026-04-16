@@ -13,14 +13,14 @@
   "bip44": {
     "coinType": 118
   },
-  "bech32Config": {
-    "bech32PrefixAccAddr": "mstbl",
-    "bech32PrefixAccPub": "mstblpub",
-    "bech32PrefixValAddr": "mstblvaloper",
-    "bech32PrefixValPub": "mstblvaloperpub",
-    "bech32PrefixConsAddr": "mstblvalcons",
-    "bech32PrefixConsPub": "mstblvalconspub"
-  },
+  ""bech32Config": {
+    "bech32PrefixAccAddr": "wasm",
+    "bech32PrefixAccPub": "wasmpub",
+    "bech32PrefixValAddr": "wasmvaloper",
+    "bech32PrefixValPub": "wasmvaloperpub",
+    "bech32PrefixConsAddr": "wasmvalcons",
+    "bech32PrefixConsPub": "wasmvalconspub"
+},
   "currencies": [
     {
       "coinDenom": "STAKE",
