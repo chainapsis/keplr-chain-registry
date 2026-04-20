@@ -49,6 +49,13 @@
       "coinDecimals": 6,
       "coinGeckoId": "axlusdc",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:56/erc20/0x4268B8F0B87b6Eae5d897996E6b845ddbD99Adf3.png"
+    }, 
+    {
+      "coinDenom": "SHISA",
+      "coinMinimalDenom": "erc20:0x595b0774d1B2C87dBf9720912ba0870aE9B94444",
+      "coinDecimals": 18,
+      "coinGeckoId": "shisa",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:56/erc20/0x595b0774d1B2C87dBf9720912ba0870aE9B94444.png"
     }
   ],
   "feeCurrencies": [
