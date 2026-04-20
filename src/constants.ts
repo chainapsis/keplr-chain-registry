@@ -5,7 +5,6 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "agoric",
   "akashnet",
   "axelar-dojo",
-  "bostrom",
   "core",
   "irishub",
   "kava_2222",
