@@ -1,0 +1,33 @@
+{
+  "rpc": "https://evm-stoc-testnet.stochainscan.io",
+  "websocket": "wss://ws-stoc-testnet.stochainscan.io",
+  "chainId": "eip155:1999",
+  "chainName": "STO Chain Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1999/chain.png",
+  "nodeProvider": {
+    "name": "STO Chain",
+    "email": "support@stochain.io",
+    "website": "https://www.stochain.io/"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "TSTOC",
+      "coinMinimalDenom": "tstoc-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1999/tstoc-native.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "TSTOC",
+      "coinMinimalDenom": "tstoc-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1999/tstoc-native.png"
+    }
+  ],
+  "features": [],
+  "isTestnet": true
+}

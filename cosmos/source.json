@@ -7,7 +7,7 @@
   "nodeProvider": {
     "name": "tcnetwork",
     "email": "support@tcnetwork.io",
-    "website":"https://tcnetwork.io/"
+    "website": "https://tcnetwork.io/"
   },
   "bip44": {
     "coinType": 118
@@ -49,5 +49,8 @@
   },
   "features": [
     "cosmwasm"
-  ]
+  ],
+  "explorers": {
+    "txPage": "https://explorer.stavr.tech/Source-Mainnet/tx/{txHash}"
+  }
 }

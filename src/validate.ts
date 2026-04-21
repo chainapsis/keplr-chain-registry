@@ -27,14 +27,12 @@ export const validateCosmosChainInfoFromPath = async (
     throw new Error("File is not json");
   }
 
-  // get json from file
   const chainInfo = fileToChainInfo(path);
 
   if (chainInfo.hideInUI && chainInfo.chainId !== "wormchain") {
     throw new Error("Should not hide chain in UI");
   }
 
-  // validate chain info
   return await validateCosmosChainInfo(parsed.name, chainInfo);
 };
 
@@ -44,14 +42,12 @@ export const validateCosmosChainInfo = async (
 ): Promise<ChainInfo> => {
   const prev = sortedJsonByKeyStringify(chainInfo);
 
-  // validate chain information
   chainInfo = await validateBasicChainInfoType(chainInfo);
 
   if (sortedJsonByKeyStringify(chainInfo) !== prev) {
     throw new Error("Chain info has unknown field");
   }
 
-  // Check chain identifier
   const parsedChainId = ChainIdHelper.parse(chainInfo.chainId).identifier;
   if (parsedChainId !== chainIdentifier) {
     throw new Error(
@@ -59,14 +55,15 @@ export const validateCosmosChainInfo = async (
     );
   }
 
-  // Check currencies
   checkCurrencies(chainInfo);
 
   for (const feature of chainInfo.features ?? []) {
     if (!NonRecognizableChainFeatures.includes(feature)) {
-      throw new Error(
-        `Only non recognizable feature should be provided: ${feature}`,
-      );
+      if (feature !== "ibc-v2") {
+        throw new Error(
+          `Only non recognizable feature should be provided: ${feature}`,
+        );
+      }
     }
   }
 
@@ -91,7 +88,6 @@ export const validateCosmosChainInfo = async (
     );
   }
 
-  // check RPC alive
   await checkRPCConnectivity(
     chainInfo.chainId,
     chainInfo.rpc,
@@ -108,7 +104,6 @@ export const validateCosmosChainInfo = async (
     await checkEvmRpcConnectivity(chainInfo.evm.chainId, chainInfo.evm.rpc);
   }
 
-  // check REST alive
   if (
     chainIdentifier !== "gravity-bridge" &&
     chainIdentifier !== "sommelier" &&
@@ -117,25 +112,11 @@ export const validateCosmosChainInfo = async (
     await checkRestConnectivity(chainInfo.chainId, chainInfo.rest);
   }
 
-  // check coinGecko vaild
-  const coinGeckoIds = new Set<string>();
-  for (const currency of chainInfo.currencies) {
-    if (currency.coinGeckoId) {
-      coinGeckoIds.add(currency.coinGeckoId);
-    }
-  }
+  checkIsTestnet(chainInfo);
 
-  for (const currency of chainInfo.feeCurrencies) {
-    if (currency.coinGeckoId) {
-      coinGeckoIds.add(currency.coinGeckoId);
-    }
-  }
-
-  if (chainInfo.stakeCurrency?.coinGeckoId) {
-    coinGeckoIds.add(chainInfo.stakeCurrency.coinGeckoId);
-  }
-
-  await checkCoinGeckoIds(...Array.from(coinGeckoIds));
+  validateCoinGeckoIds(chainInfo);
+  const coinGeckoIds = collectCoinGeckoIds(chainInfo);
+  await checkCoinGeckoIdsAvailable(...Array.from(coinGeckoIds));
 
   return chainInfo;
 };
@@ -148,12 +129,10 @@ export const validateEvmChainInfoFromPath = async (
     throw new Error("File is not json");
   }
 
-  // get json from file
   const file = readFileSync(path, "utf-8");
   const chainInfo: Omit<ChainInfo, "rest"> & { websocket: string } =
     JSON.parse(file);
 
-  // validate chain info
   return await validateEvmChainInfo(parsed.name, chainInfo);
 };
 
@@ -161,7 +140,6 @@ export const validateEvmChainInfo = async (
   chainIdentifier: string,
   evmChainInfo: Omit<ChainInfo, "rest"> & { websocket: string },
 ): Promise<ChainInfo> => {
-  // Check chain identifier
   const parsedChainId = ChainIdHelper.parse(evmChainInfo.chainId).identifier;
   if (parsedChainId !== chainIdentifier) {
     throw new Error(
@@ -188,12 +166,10 @@ export const validateEvmChainInfo = async (
     features: ["eth-address-gen", "eth-key-sign"].concat(features ?? []),
   };
   const prev = sortedJsonByKeyStringify(chainInfoCandidate);
-  // validate chain information
   const chainInfo = await (async () => {
     try {
       return await validateBasicChainInfoType(chainInfoCandidate);
     } catch (e: any) {
-      // Ignore bech32Config error
       if (e.message === `"bech32Config" is required`) {
         return chainInfoCandidate;
       } else {
@@ -209,14 +185,15 @@ export const validateEvmChainInfo = async (
     throw new Error("Something went wrong with 'evm' field");
   }
 
-  // Check currencies
   checkCurrencies(chainInfo);
 
   for (const feature of chainInfo.features ?? []) {
     if (!NonRecognizableChainFeatures.includes(feature)) {
-      throw new Error(
-        `Only non recognizable feature should be provided: ${feature}`,
-      );
+      if (feature !== "ibc-v2") {
+        throw new Error(
+          `Only non recognizable feature should be provided: ${feature}`,
+        );
+      }
     }
   }
 
@@ -232,25 +209,11 @@ export const validateEvmChainInfo = async (
 
   await checkEvmRpcConnectivity(chainInfo.evm.chainId, chainInfo.rpc);
 
-  // check coinGecko vaild
-  const coinGeckoIds = new Set<string>();
-  for (const currency of chainInfo.currencies) {
-    if (currency.coinGeckoId) {
-      coinGeckoIds.add(currency.coinGeckoId);
-    }
-  }
+  checkIsTestnet(chainInfo);
 
-  for (const currency of chainInfo.feeCurrencies) {
-    if (currency.coinGeckoId) {
-      coinGeckoIds.add(currency.coinGeckoId);
-    }
-  }
-
-  if (chainInfo.stakeCurrency?.coinGeckoId) {
-    coinGeckoIds.add(chainInfo.stakeCurrency.coinGeckoId);
-  }
-
-  await checkCoinGeckoIds(...Array.from(coinGeckoIds));
+  validateCoinGeckoIds(chainInfo);
+  const coinGeckoIds = collectCoinGeckoIds(chainInfo);
+  await checkCoinGeckoIdsAvailable(...Array.from(coinGeckoIds));
 
   return chainInfo;
 };
@@ -264,7 +227,7 @@ export const checkImageSize = (path: string) => {
   }
 };
 
-const checkCoinGeckoIds = async (...coinGeckoIds: string[]) => {
+const checkCoinGeckoIdsAvailable = async (...coinGeckoIds: string[]) => {
   const priceURL =
     process.env.PRICE_URL || "https://api.coingecko.com/api/v3/simple/price";
   const response = await fetch(
@@ -291,7 +254,6 @@ const checkCoinGeckoIds = async (...coinGeckoIds: string[]) => {
 };
 
 export const checkCurrencies = (chainInfo: ChainInfo) => {
-  // Check stake currency
   if (
     chainInfo.stakeCurrency &&
     !chainInfo.currencies.some(
@@ -304,7 +266,6 @@ export const checkCurrencies = (chainInfo: ChainInfo) => {
     );
   }
 
-  // Check fee currency
   if (
     !chainInfo.feeCurrencies
       .filter((feeCurrency) => !feeCurrency.coinMinimalDenom.startsWith("ibc/"))
@@ -319,7 +280,6 @@ export const checkCurrencies = (chainInfo: ChainInfo) => {
     throw new Error(`Fee Currency must be included in currencies`);
   }
 
-  // Check currencies
   for (const currency of chainInfo.currencies) {
     const denomHelper = new DenomHelper(currency.coinMinimalDenom);
     if (denomHelper.type !== "native" && denomHelper.type !== "erc20") {
@@ -332,8 +292,275 @@ export const checkCurrencies = (chainInfo: ChainInfo) => {
       currency.coinMinimalDenom.startsWith("ibc/") &&
       ChainIdHelper.parse(chainInfo.chainId).identifier !== "centauri"
     ) {
+      // 오스모시스 위의 페넘브라는 일단 봐준다.
+      if (
+        ChainIdHelper.parse(chainInfo.chainId).identifier === "osmosis" &&
+        currency.coinMinimalDenom ===
+          "ibc/0FA9232B262B89E77D1335D54FB1E1F506A92A7E4B51524B400DC69C68D28372"
+      ) {
+        continue;
+      }
+      // 오스모시스 위의 나마다도 봐준다.
+      if (
+        ChainIdHelper.parse(chainInfo.chainId).identifier === "osmosis" &&
+        currency.coinMinimalDenom ===
+          "ibc/C7110DEC66869DAE9BE9C3C60F4B5313B16A2204AE020C3B0527DD6B322386A3"
+      ) {
+        continue;
+      }
+      if (
+        ChainIdHelper.parse(chainInfo.chainId).identifier === "neutron" &&
+        currency.coinMinimalDenom ===
+          "ibc/9598CDEB7C6DB7FC21E746C8E0250B30CD5154F39CA111A9D4948A4362F638BD"
+      ) {
+        continue;
+      }
+      if (
+        ChainIdHelper.parse(chainInfo.chainId).identifier === "osmosis" &&
+        currency.coinMinimalDenom ===
+          "ibc/573FCD90FACEE750F55A8864EF7D38265F07E5A9273FA0E8DAFD39951332B580"
+      ) {
+        continue;
+      }
+
       throw new Error(
         `Do not provide ibc currency to currencies: ${currency.coinMinimalDenom}`,
+      );
+    }
+  }
+};
+
+export const checkIsTestnet = (chainInfo: ChainInfo) => {
+  const chainNameInLowerCase = chainInfo.chainName.toLowerCase();
+  const isTestnet = chainInfo.isTestnet;
+
+  if (
+    (chainNameInLowerCase.includes("testnet") ||
+      chainNameInLowerCase.includes("devnet") ||
+      chainInfo.chainId.includes("testnet") ||
+      chainInfo.chainId.includes("devnet")) &&
+    !isTestnet
+  ) {
+    throw new Error(
+      'Add `"isTestnet": true` if your chain is a testnet or devnet',
+    );
+  }
+
+  return true;
+};
+
+export const collectCoinGeckoIds = (chainInfo: ChainInfo): Set<string> => {
+  const coinGeckoIds = new Set<string>();
+
+  for (const currency of chainInfo.currencies) {
+    if (currency.coinGeckoId) {
+      coinGeckoIds.add(currency.coinGeckoId);
+    }
+  }
+
+  for (const currency of chainInfo.feeCurrencies) {
+    if (currency.coinGeckoId) {
+      coinGeckoIds.add(currency.coinGeckoId);
+    }
+  }
+
+  if (chainInfo.stakeCurrency?.coinGeckoId) {
+    coinGeckoIds.add(chainInfo.stakeCurrency.coinGeckoId);
+  }
+
+  return coinGeckoIds;
+};
+
+export const validateSvmChainInfoFromPath = async (
+  path: string,
+): Promise<ChainInfo> => {
+  const parsed = libPath.parse(path);
+  if (parsed.ext !== ".json") {
+    throw new Error("File is not json");
+  }
+
+  const file = readFileSync(path, "utf-8");
+  const chainInfo: Omit<ChainInfo, "rest"> & { websocket: string } =
+    JSON.parse(file);
+
+  return await validateSvmChainInfo(parsed.name, chainInfo);
+};
+
+export const validateSvmChainInfo = async (
+  chainIdentifier: string,
+  svmChainInfo: Omit<ChainInfo, "rest"> & { websocket: string },
+): Promise<ChainInfo> => {
+  if (svmChainInfo.chainId !== chainIdentifier) {
+    throw new Error(
+      `Chain identifier unmatched: (expected: ${svmChainInfo.chainId}, actual: ${chainIdentifier})`,
+    );
+  }
+
+  const svmChainIdRegex = /^[a-z]+:[1-9A-HJ-NP-Za-km-z]+$/;
+  if (!svmChainIdRegex.test(chainIdentifier)) {
+    throw new Error(
+      "Invalid chain identifier. It should be {namespace}:{base58-hash}",
+    );
+  }
+
+  const { websocket, ...restSvmChainInfo } = svmChainInfo;
+  const chainInfoCandidate = {
+    ...restSvmChainInfo,
+    rest: svmChainInfo.rpc,
+    svm: {
+      rpc: svmChainInfo.rpc,
+      websocket,
+    },
+  };
+
+  const prev = sortedJsonByKeyStringify(chainInfoCandidate);
+
+  const chainInfo = await (async () => {
+    try {
+      await validateBasicChainInfoType(chainInfoCandidate);
+      return chainInfoCandidate;
+    } catch (e: any) {
+      const ignoredErrors = [
+        `"bech32Config" is required`,
+        `"value" failed custom validation because if bech32Config is undefined, coin type should be 60`,
+      ];
+      if (ignoredErrors.includes(e.message)) {
+        return chainInfoCandidate;
+      } else {
+        throw e;
+      }
+    }
+  })();
+
+  if (sortedJsonByKeyStringify(chainInfo) !== prev) {
+    throw new Error("Chain info has unknown field");
+  }
+
+  if (chainInfo.svm == null) {
+    throw new Error("Something went wrong with 'svm' field");
+  }
+
+  checkCurrencies(chainInfo);
+
+  if (chainInfo.beta != null) {
+    throw new Error("Should not set 'beta' field");
+  }
+
+  if (chainInfo.rpc.startsWith("http://")) {
+    throw new Error(
+      "RPC endpoints cannot be set as HTTP, please set them as HTTPS",
+    );
+  }
+
+  await checkSvmRpcConnectivity(chainInfo.rpc);
+
+  checkIsTestnet(chainInfo);
+
+  validateCoinGeckoIds(chainInfo);
+  const coinGeckoIds = collectCoinGeckoIds(chainInfo);
+  if (coinGeckoIds.size > 0) {
+    await checkCoinGeckoIdsAvailable(...Array.from(coinGeckoIds));
+  }
+
+  return chainInfo;
+};
+
+const checkSvmRpcConnectivity = async (rpc: string): Promise<void> => {
+  try {
+    const response = await fetch(rpc, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        jsonrpc: "2.0",
+        id: 1,
+        method: "getHealth",
+      }),
+    });
+
+    if (!response.ok) {
+      throw new Error(
+        `SVM RPC health check failed with status: ${response.status}`,
+      );
+    }
+
+    const data = await response.json();
+    if (data.error) {
+      throw new Error(
+        `SVM RPC health check returned error: ${data.error.message}`,
+      );
+    }
+  } catch (e: any) {
+    throw new Error(`Failed to connect to SVM RPC: ${e.message}`);
+  }
+};
+
+export const validateCoinGeckoIds = (chainInfo: ChainInfo): void => {
+  const throwError = {
+    missingCoinGeckoId: (coinMinimalDenom: string) => {
+      throw new Error(
+        `Provide coinGeckoId for the currency "${coinMinimalDenom}" in the "currencies", "feeCurrencies", and "stakeCurrency" fields all together`,
+      );
+    },
+    testnetHavingCoinGeckoId: () => {
+      throw new Error("Testnet chain should not have coinGeckoId");
+    },
+  };
+
+  for (const currency of chainInfo.currencies) {
+    if (currency.coinGeckoId && chainInfo.isTestnet) {
+      throwError.testnetHavingCoinGeckoId();
+    }
+
+    if (
+      !currency.coinGeckoId &&
+      ((chainInfo.stakeCurrency?.coinMinimalDenom ===
+        currency.coinMinimalDenom &&
+        !!chainInfo.stakeCurrency?.coinGeckoId) ||
+        chainInfo.feeCurrencies.some(
+          (c) =>
+            c.coinMinimalDenom === currency.coinMinimalDenom && !!c.coinGeckoId,
+        ))
+    ) {
+      throwError.missingCoinGeckoId(currency.coinMinimalDenom);
+    }
+  }
+
+  for (const currency of chainInfo.feeCurrencies) {
+    if (currency.coinGeckoId && chainInfo.isTestnet) {
+      throwError.testnetHavingCoinGeckoId();
+    }
+
+    if (
+      !currency.coinGeckoId &&
+      ((chainInfo.stakeCurrency?.coinMinimalDenom ===
+        currency.coinMinimalDenom &&
+        !!chainInfo.stakeCurrency?.coinGeckoId) ||
+        chainInfo.currencies.some(
+          (c) =>
+            c.coinMinimalDenom === currency.coinMinimalDenom && !!c.coinGeckoId,
+        ))
+    ) {
+      throwError.missingCoinGeckoId(currency.coinMinimalDenom);
+    }
+  }
+
+  if (chainInfo.stakeCurrency) {
+    if (chainInfo.stakeCurrency.coinGeckoId && chainInfo.isTestnet) {
+      throwError.testnetHavingCoinGeckoId();
+    }
+
+    if (
+      !chainInfo.stakeCurrency.coinGeckoId &&
+      [...chainInfo.currencies, ...chainInfo.feeCurrencies].some(
+        (c) =>
+          c.coinMinimalDenom === chainInfo.stakeCurrency?.coinMinimalDenom &&
+          !!c.coinGeckoId,
+      )
+    ) {
+      throwError.missingCoinGeckoId(
+        chainInfo.stakeCurrency.coinMinimalDenom ?? "",
       );
     }
   }

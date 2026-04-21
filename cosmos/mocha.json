@@ -1,6 +1,6 @@
 {
-  "rpc": "https://rpc-celestia-testnet-mocha.keplr.app",
-  "rest": "https://lcd-celestia-testnet-mocha.keplr.app",
+  "rpc": "https://rpc-1.testnet.celestia.nodes.guru",
+  "rest": "https://api-1.testnet.celestia.nodes.guru",
   "chainId": "mocha-4",
   "chainName": "Celestia Mocha Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mocha/chain.png",
@@ -39,5 +39,6 @@
       }
     }
   ],
-  "features": []
+  "features": [],
+  "isTestnet": true
 }

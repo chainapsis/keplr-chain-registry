@@ -1,0 +1,52 @@
+{
+  "chainId": "raitestnet_77701-1",
+  "chainName": "Republic AI Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/raitestnet_77701/chain.png",
+  "rpc": "https://rpc.republicai.io",
+  "rest": "https://rest.republicai.io",
+  "nodeProvider": {
+    "name": "Republic AI",
+    "email": "nkxmail@proton.me",
+    "website": "https://republicai.io"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "rai",
+    "bech32PrefixAccPub": "raipub",
+    "bech32PrefixValAddr": "raivaloper",
+    "bech32PrefixValPub": "raivaloperpub",
+    "bech32PrefixConsAddr": "raivalcons",
+    "bech32PrefixConsPub": "raivalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "RAI",
+      "coinMinimalDenom": "arai",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/raitestnet_77701/arai.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "RAI",
+      "coinMinimalDenom": "arai",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/raitestnet_77701/arai.png",
+      "gasPriceStep": {
+        "low": 10000000000,
+        "average": 25000000000,
+        "high": 40000000000
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "RAI",
+    "coinMinimalDenom": "arai",
+    "coinDecimals": 18,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/raitestnet_77701/arai.png"
+  },
+  "features": ["eth-address-gen", "eth-key-sign", "eth-secp256k1-cosmos"],
+  "isTestnet": true
+}

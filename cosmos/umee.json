@@ -12,7 +12,7 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/umee/uumee.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/umee",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/umee",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/umee?modal=staking&chain=umee-1&step_id=2",
   "bip44": {
     "coinType": 118
   },
@@ -47,5 +47,10 @@
       }
     }
   ],
-  "features": ["authz-msg-revoke-fixed"]
+  "features": [
+    "authz-msg-revoke-fixed"
+  ],
+  "explorers": {
+    "txPage": "https://ping.pub/umee/tx/{txHash}"
+  }
 }

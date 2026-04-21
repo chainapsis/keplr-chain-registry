@@ -5,14 +5,14 @@
   "chainName": "Sentinel",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sentinelhub/chain.png",
   "stakeCurrency": {
-    "coinDenom": "DVPN",
+    "coinDenom": "P2P",
     "coinMinimalDenom": "udvpn",
     "coinDecimals": 6,
     "coinGeckoId": "sentinel",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sentinelhub/udvpn.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/sentinel",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/sentinel",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/sentinel?modal=staking&chain=sentinelhub-2&step_id=2",
   "bip44": {
     "coinType": 118
   },
@@ -26,7 +26,7 @@
   },
   "currencies": [
     {
-      "coinDenom": "DVPN",
+      "coinDenom": "P2P",
       "coinMinimalDenom": "udvpn",
       "coinDecimals": 6,
       "coinGeckoId": "sentinel",
@@ -35,7 +35,7 @@
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "DVPN",
+      "coinDenom": "P2P",
       "coinMinimalDenom": "udvpn",
       "coinDecimals": 6,
       "coinGeckoId": "sentinel",
@@ -47,5 +47,8 @@
       }
     }
   ],
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://ping.pub/sentinel/tx/{txHash:uppercase}"
+  }
 }

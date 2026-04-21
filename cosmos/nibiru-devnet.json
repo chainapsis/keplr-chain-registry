@@ -1,6 +1,6 @@
 {
   "chainId": "nibiru-devnet-1",
-  "chainName": "nibirudevnet",
+  "chainName": "Nibiru Devnet 1",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-devnet/chain.png",
   "rpc": "https://rpc.devnet-1.nibiru.fi/",
   "rest": "https://lcd.devnet-1.nibiru.fi/",
@@ -47,5 +47,6 @@
     "coinDecimals": 6,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nibiru-devnet/chain.png"
   },
-  "features": ["cosmwasm"]
+  "features": ["cosmwasm"],
+  "isTestnet": true
 }

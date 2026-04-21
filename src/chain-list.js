@@ -61,6 +61,10 @@ async function init() {
     return !chainInfo.hideInUI;
   });
 
+  const isOnKeplrMobile = /KeplrWalletMobile|Android|iPhone/g.test(
+    navigator.userAgent,
+  );
+
   let registeredChainIds = [];
   if (keplr) {
     const registeredResponse = await keplr.getChainInfosWithoutEndpoints();
@@ -75,16 +79,31 @@ async function init() {
 
   removeChainListChild();
 
-  const filteredChainInfos = chainInfos.filter(
-    (chainInfo) =>
-      !registeredChainIds.includes(parse(chainInfo.chainId).identifier),
-  );
+  const filteredChainInfos = chainInfos
+    .filter(
+      (chainInfo) =>
+        !registeredChainIds.includes(parse(chainInfo.chainId).identifier),
+    )
+    .filter((chainInfo) => {
+      if (isOnKeplrMobile) {
+        return !chainInfo.chainId.startsWith("eip155:");
+      } else {
+        return true;
+      }
+    });
 
   const registeredChainInfos = chainInfos
     .filter((chainInfo) => chainInfo.nodeProvider)
     .filter((chainInfo) =>
       registeredChainIds.includes(parse(chainInfo.chainId).identifier),
-    );
+    )
+    .filter((chainInfo) => {
+      if (isOnKeplrMobile) {
+        return !chainInfo.chainId.startsWith("eip155:");
+      } else {
+        return true;
+      }
+    });
 
   if (filteredChainInfos.length > 0) {
     filteredChainInfos.map((chainInfo) => {

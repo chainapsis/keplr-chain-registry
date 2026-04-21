@@ -47,5 +47,8 @@
     "coinDecimals": 6,
     "coinGeckoId": "band-protocol"
   },
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://www.mintscan.io/band/transactions/{txHash}"
+  }
 }

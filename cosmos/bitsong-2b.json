@@ -4,7 +4,7 @@
   "nodeProvider": {
     "name": "BitSong",
     "email": "hello@bitsong.io",
-    "website":"https://bitsong.io/"
+    "website": "https://bitsong.io/"
   },
   "chainId": "bitsong-2b",
   "chainName": "BitSong",
@@ -131,5 +131,8 @@
   ],
   "features": [
     "cosmwasm"
-  ]
+  ],
+  "explorers": {
+    "txPage": "https://www.mintscan.io/bitsong/transactions/{txHash}"
+  }
 }

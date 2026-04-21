@@ -17,7 +17,6 @@
       "coinDenom": "TIA",
       "coinMinimalDenom": "forma-native",
       "coinDecimals": 18,
-      "coinGeckoId": "celestia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:984123/utia.png"
     }
   ],
@@ -26,9 +25,12 @@
       "coinDenom": "TIA",
       "coinMinimalDenom": "forma-native",
       "coinDecimals": 18,
-      "coinGeckoId": "celestia",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:984123/utia.png"
     }
   ],
-  "features": []
+  "features": [],
+  "isTestnet": true,
+  "explorers": {
+    "txPage": "https://explorer.sketchpad-1.forma.art/tx/{txHash}"
+  }
 }

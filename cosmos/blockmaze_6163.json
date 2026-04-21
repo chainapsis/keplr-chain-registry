@@ -1,0 +1,58 @@
+{
+    "rpc": "https://tendermint.testnet.stackflow.site",
+    "rest": "https://bm-api.testnet.stackflow.site",
+    "chainId": "blockmaze_6163-1",
+    "chainName": "Blockmaze-Testnet",
+    "evm": {
+      "chainId": 6163,
+      "rpc": "https://evm-rpc.testnet.stackflow.site"
+    },
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/blockmaze_6163/chain.png",
+    "walletUrlForStaking": "https://delegator.testnet.stackflow.site",
+    "stakeCurrency": {
+      "coinDenom": "BMZ",
+      "coinMinimalDenom": "bmz",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/blockmaze_6163/bmz.png"
+    },
+    "nodeProvider":{
+      "name":"Blockmaze",
+      "email":"info@blockmaze.com",
+      "website":"https://blockmaze.com"
+    },
+    "bip44": {
+      "coinType": 60
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "blockmaze",
+      "bech32PrefixAccPub": "blockmazepub",
+      "bech32PrefixValAddr": "blockmazevaloper",
+      "bech32PrefixValPub": "blockmazevaloperpub",
+      "bech32PrefixConsAddr": "blockmazevalcons",
+      "bech32PrefixConsPub": "blockmazevalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "BMZ",
+        "coinMinimalDenom": "bmz",
+        "coinDecimals": 18,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/blockmaze_6163/bmz.png"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "BMZ",
+        "coinMinimalDenom": "bmz",
+        "coinDecimals": 18,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/blockmaze_6163/bmz.png",
+        "gasPriceStep": {
+          "low": 1500000000000,
+          "average": 2000000000000,
+          "high": 2500000000000
+        }
+      }
+    ],
+    "features": ["eth-address-gen", "eth-key-sign"],
+    "isTestnet": true
+  }
+  

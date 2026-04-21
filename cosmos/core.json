@@ -2,7 +2,7 @@
   "rpc": "https://rpc-persistence.keplr.app",
   "rest": "https://lcd-persistence.keplr.app",
   "chainId": "core-1",
-  "chainName": "Persistence",
+  "chainName": "Persistence One",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/chain.png",
   "stakeCurrency": {
     "coinDenom": "XPRT",
@@ -11,8 +11,7 @@
     "coinGeckoId": "persistence",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/uxprt.png"
   },
-  "walletUrl": "https://wallet.keplr.app/chains/persistence",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/persistence",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/persistence-one?modal=staking&chain=core-1&step_id=2",
   "bip44": {
     "coinType": 118
   },
@@ -83,7 +82,7 @@
       "coinGeckoId": "persistence",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/core/uxprt.png",
       "gasPriceStep": {
-        "low": 0,
+        "low": 0.01,
         "average": 0.025,
         "high": 0.04
       }
@@ -182,5 +181,8 @@
   ],
   "features": [
     "cosmwasm"
-  ]
+  ],
+  "explorers": {
+    "txPage": "https://www.mintscan.io/persistence/tx/{txHash}"
+  }
 }

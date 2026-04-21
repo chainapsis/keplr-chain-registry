@@ -7,8 +7,8 @@
     "email": "hello@assetmantle.one",
     "website": "https://assetmantle.one/"
   },
-  "rpc": "https://rpc.assetmantle.one",
-  "rest": "https://rest.assetmantle.one",
+  "rpc": "https://assetmantle-rpc.stakerhouse.com",
+  "rest": "https://assetmantle-rest.stakerhouse.com",
   "bip44": {
     "coinType": 118
   },
@@ -37,7 +37,7 @@
       "coinGeckoId": "assetmantle",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mantle/chain.png",
       "gasPriceStep": {
-        "low": 0.01,
+        "low": 0,
         "average": 0.025,
         "high": 0.04
       }
@@ -52,5 +52,8 @@
   },
   "features": [],
   "walletUrl": "https://wallet.assetmantle.one",
-  "walletUrlForStaking": "https://wallet.assetmantle.one/stake"
+  "walletUrlForStaking": "https://wallet.assetmantle.one/stake",
+  "explorers": {
+    "txPage": "https://www.mintscan.io/asset-mantle/transactions/{txHash}"
+  }
 }

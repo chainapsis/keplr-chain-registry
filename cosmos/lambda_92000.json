@@ -57,5 +57,8 @@
   "features": [
     "eth-address-gen",
     "eth-key-sign"
-  ]
+  ],
+  "explorers": {
+    "txPage": "https://explorer.lambdablockchain.com/tx/{txHash}"
+  }
 }

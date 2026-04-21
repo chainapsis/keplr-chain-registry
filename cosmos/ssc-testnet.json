@@ -46,5 +46,6 @@
     "name": "Saga",
     "email": "support@saga.xyz",
     "website": "https://saga.xyz"
-  }
+  },
+  "isTestnet": true
 }

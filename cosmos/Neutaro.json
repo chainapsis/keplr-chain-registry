@@ -2,12 +2,12 @@
   "chainId": "Neutaro-1",
   "chainName": "Neutaro",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/Neutaro/chain.png",
-  "rpc": "http://rpc.neutaro.tech:26657/",
-  "rest": "http://api.neutaro.tech:1317/",
+  "rpc": "https://rpc2.neutaro.io:443/",
+  "rest": "https://api2.neutaro.io:443/",
   "nodeProvider": {
     "name": "Neutaro",
     "email": "info@neutaro.com",
-    "website":"https://neutaro.com/"
+    "website": "https://neutaro.com/"
   },
   "bip44": {
     "coinType": 118
@@ -46,5 +46,8 @@
   },
   "features": [
     "cosmwasm"
-  ]
+  ],
+  "explorers": {
+    "txPage": "https://explorer.neutaro.io/Neutaro/tx/{txHash}"
+  }
 }

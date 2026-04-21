@@ -1,0 +1,52 @@
+{
+  "rpc": "https://rpc-stoc-testnet.stochainscan.io/",
+  "rest": "https://api-stoc-testnet.stochainscan.io/",
+  "chainId": "tstoc",
+  "chainName": "STO Chain Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tstoc/chain.png",
+  "nodeProvider": {
+    "name": "STO Chain",
+    "email": "support@stochain.io",
+    "website": "https://www.stochain.io/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "stoc",
+    "bech32PrefixAccPub": "stocpub",
+    "bech32PrefixValAddr": "stocvaloper",
+    "bech32PrefixValPub": "stocvaloperpub",
+    "bech32PrefixConsAddr": "stocvalcons",
+    "bech32PrefixConsPub": "stocvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "TSTOC",
+      "coinMinimalDenom": "utstoc",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tstoc/utstoc.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "TSTOC",
+      "coinMinimalDenom": "utstoc",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tstoc/utstoc.png",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.015,
+        "high": 0.02
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "TSTOC",
+    "coinMinimalDenom": "utstoc",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tstoc/utstoc.png"
+  },
+  "features": [],
+  "isTestnet": true
+}
