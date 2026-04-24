@@ -19,7 +19,7 @@
     "coinDecimals": 18,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/epix_1916/chain.png"
   },
-  "walletUrlForStaking": "https://explorer.epix.zone/epix/staking",
+  "walletUrlForStaking": "https://explorer.epix.zone/#/staking",
   "bip44": {
     "coinType": 60
   },
