@@ -1,7 +1,7 @@
 {
   "chainId": "millioncoins",
   "chainName": "Million Stable Coin",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mstbl/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/millioncoins/chain.png",
   "rpc": "https://rpc.stbl.mstbl.com",
   "rest": "https://api.stbl.mstbl.com",
   "nodeProvider": {
@@ -23,7 +23,7 @@
       "coinDenom": "MSTBL",
       "coinMinimalDenom": "umstbl",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mstbl/mstbl.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/millioncoins/millioncoins.png"
     }
   ],
   "feeCurrencies": [
