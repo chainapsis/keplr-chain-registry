@@ -1,0 +1,58 @@
+{
+  "rpc": "https://sentry.evm-rpc.injective.network/",
+  "websocket": "wss://sentry.evm-ws.injective.network",
+  "nodeProvider": {
+    "name": "Injective Foundation",
+    "email": "contact@injectivelabs.org",
+    "website": "https://injective.com"
+  },
+  "chainId": "eip155:1776",
+  "chainName": "Injective EVM",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1776/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "INJ",
+      "coinMinimalDenom": "injective-native",
+      "coinDecimals": 18,
+      "coinGeckoId": "injective-protocol",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1776/injective-native.png"
+    },
+    {
+      "coinDenom": "wINJ",
+      "coinMinimalDenom": "erc20:0x0000000088827d2d103ee2d9A6b781773AE03FfB",
+      "coinDecimals": 18,
+      "coinGeckoId": "injective-protocol",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1776/erc20/0x0000000088827d2d103ee2d9A6b781773AE03FfB.png"
+    },
+    {
+      "coinDenom": "wETH",
+      "coinMinimalDenom": "erc20:0x83A15000b753AC0EeE06D2Cb41a69e76D0D5c7F7",
+      "coinDecimals": 18,
+      "coinGeckoId": "weth",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1776/erc20/0x83A15000b753AC0EeE06D2Cb41a69e76D0D5c7F7.png"
+    },
+    {
+      "coinDenom": "USDT",
+      "coinMinimalDenom": "erc20:0x88f7F2b685F9692caf8c478f5BADF09eE9B1Cc13",
+      "coinDecimals": 6,
+      "coinGeckoId": "tether",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1776/erc20/0x88f7F2b685F9692caf8c478f5BADF09eE9B1Cc13.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "INJ",
+      "coinMinimalDenom": "injective-native",
+      "coinDecimals": 18,
+      "coinGeckoId": "injective-protocol",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1776/injective-native.png"
+    }
+  ],
+  "features": [],
+  "explorers": {
+    "txPage": "https://blockscout.injective.network/tx/0x{txHash:lowercase}"
+  }
+}
