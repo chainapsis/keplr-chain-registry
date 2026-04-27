@@ -1,0 +1,54 @@
+{
+  "chainId": "hazinachain-1",
+  "chainName": "HazinaChain",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/hazinachain/chain.png",
+  "rpc": "https://rpc.hazinachain.com",
+  "rest": "https://api.hazinachain.com",
+  "nodeProvider": {
+    "name": "HazinaChain",
+    "email": "info@hazinachain.com",
+    "website": "https://hazinachain.com"
+  },
+  "walletUrlForStaking": "https://explorer.hazinachain.com",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "hazina",
+    "bech32PrefixAccPub": "hazinapub",
+    "bech32PrefixValAddr": "hazinavaloper",
+    "bech32PrefixValPub": "hazinavaloperpub",
+    "bech32PrefixConsAddr": "hazinavalcons",
+    "bech32PrefixConsPub": "hazinavalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "HZN",
+      "coinMinimalDenom": "uhzn",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/hazinachain/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "HZN",
+      "coinMinimalDenom": "uhzn",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/hazinachain/chain.png",
+      "gasPriceStep": {
+        "low": 0.001,
+        "average": 0.0025,
+        "high": 0.01
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "HZN",
+    "coinMinimalDenom": "uhzn",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/hazinachain/chain.png"
+  },
+  "explorers": {
+    "txPage": "https://explorer.hazinachain.com/tx/{txHash}"
+  }
+}
