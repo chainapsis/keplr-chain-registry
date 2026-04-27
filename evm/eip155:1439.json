@@ -1,0 +1,48 @@
+{
+  "rpc": "https://k8s.testnet.json-rpc.injective.network/",
+  "websocket": "wss://k8s.testnet.ws.injective.network/",
+  "nodeProvider": {
+    "name": "Injective Foundation",
+    "email": "contact@injectivelabs.org",
+    "website": "https://injective.com"
+  },
+  "chainId": "eip155:1439",
+  "chainName": "Injective EVM Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1439/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "INJ",
+      "coinMinimalDenom": "injective-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1439/injective-native.png"
+    },
+    {
+      "coinDenom": "wINJ",
+      "coinMinimalDenom": "erc20:0x0000000088827d2d103ee2d9A6b781773AE03FfB",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1439/erc20/0x0000000088827d2d103ee2d9A6b781773AE03FfB.png"
+    },
+    {
+      "coinDenom": "USDT",
+      "coinMinimalDenom": "erc20:0xaDC7bcB5d8fe053Ef19b4E0C861c262Af6e0db60",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1439/erc20/0xaDC7bcB5d8fe053Ef19b4E0C861c262Af6e0db60.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "INJ",
+      "coinMinimalDenom": "injective-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1439/injective-native.png"
+    }
+  ],
+  "features": [],
+  "isTestnet": true,
+  "explorers": {
+    "txPage": "https://testnet.blockscout.injective.network/tx/0x{txHash:lowercase}"
+  }
+}
