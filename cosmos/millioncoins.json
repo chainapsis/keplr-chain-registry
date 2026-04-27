@@ -1,0 +1,47 @@
+{
+  "chainId": "millioncoins",
+  "chainName": "Million Stable Coin",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/millioncoins/chain.png",
+  "rpc": "https://rpc.stbl.mstbl.com",
+  "rest": "https://api.stbl.mstbl.com",
+  "nodeProvider": {
+    "name": "MSTBL",
+    "email": "support@mstbl.com",
+    "website": "https://mstbl.com"
+  },
+  "bip44": { "coinType": 118 },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "wasm",
+    "bech32PrefixAccPub": "wasmpub",
+    "bech32PrefixValAddr": "wasmvaloper",
+    "bech32PrefixValPub": "wasmvaloperpub",
+    "bech32PrefixConsAddr": "wasmvalcons",
+    "bech32PrefixConsPub": "wasmvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "MSTBL",
+      "coinMinimalDenom": "umstbl",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/millioncoins/millioncoins.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "MSTBL",
+      "coinMinimalDenom": "umstbl",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "MSTBL",
+    "coinMinimalDenom": "umstbl",
+    "coinDecimals": 6
+  },
+  "features": ["cosmwasm"]
+}
