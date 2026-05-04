@@ -1,6 +1,10 @@
 {
-  "rpc": "https://rpc-umee.keplr.app",
-  "rest": "https://lcd-umee.keplr.app",
+  "rpc": "https://rpc-umee.mzonder.com",
+  "rest": "https://api-umee.mzonder.com",
+  "nodeProvider": {
+    "name": "MZONDER",
+    "website": "https://www.mzonder.com"
+  },
   "chainId": "umee-1",
   "chainName": "UX",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/umee/chain.png",
