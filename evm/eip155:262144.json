@@ -1,0 +1,10 @@
+{
+  "chainId": "eip155:262144",
+  "chainName": "MPCQ Network",
+  "rpc": "https://rpc.mpcq.moneypoolscash.com",
+  "features": ["eth-address-gen", "eth-key-sign"],
+  "currencies": [{
+    "coinDenom": "MPCQ",
+    "coinDecimals": 18
+  }]
+}
