@@ -1,6 +1,6 @@
 {
   "chainId": "1919",
-  "chainName": "Turkchain",
+  "chainName": "turkchain",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/turkchain/chain.png",
   "rpc": "https://node.turkscan.com",
   "rest": "https://api.turkscan.com",
