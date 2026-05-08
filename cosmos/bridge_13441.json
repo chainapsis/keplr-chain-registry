@@ -1,0 +1,58 @@
+{
+  "rpc": "https://rpc.node0.mainnet.bridgeless.com",
+  "rest": "https://rpc-api.node0.mainnet.bridgeless.com",
+  "chainId": "bridge_13441-1",
+  "chainName": "BRIDGELESS",
+  "nodeProvider": {
+    "name": "BRIDGELESS",
+    "email": "support@bridgeless.com",
+    "website": "https://bridgeless.com"
+  },
+  "evm": {
+    "chainId": 13441,
+    "rpc": "https://eth-rpc.node0.mainnet.bridgeless.com"
+  },
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bridge_13441/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "BRIDGE",
+    "coinMinimalDenom": "abridge",
+    "coinDecimals": 18,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bridge_13441/BRIDGE.png"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "bridge",
+    "bech32PrefixAccPub": "bridgepub",
+    "bech32PrefixValAddr": "bridgevaloper",
+    "bech32PrefixValPub": "bridgevaloperpub",
+    "bech32PrefixConsAddr": "bridgevalcons",
+    "bech32PrefixConsPub": "bridgevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "BRIDGE",
+      "coinMinimalDenom": "abridge",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bridge_13441/BRIDGE.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "BRIDGE",
+      "coinMinimalDenom": "abridge",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bridge_13441/BRIDGE.png",
+      "gasPriceStep": {
+        "low": 1000000000,
+        "average": 1000000000,
+        "high": 1000000000
+      }
+    }
+  ],
+  "features": ["eth-address-gen", "eth-key-sign"],
+  "explorers": {
+    "txPage": "https://scan.mainnet.bridgeless.com/transactions/{txHash}"
+  }
+}

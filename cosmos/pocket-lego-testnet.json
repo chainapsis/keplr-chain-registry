@@ -1,15 +1,14 @@
 {
-
-  "chainId": "pocket-beta",
+  "chainId": "pocket-lego-testnet",
   "chainName": "Pocket Network Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pocket-beta/chain.png",
-  "rpc": "https://shannon-testnet-grove-rpc.beta.poktroll.com",
-  "rest": "https://shannon-testnet-grove-api.beta.poktroll.com",
   "nodeProvider": {
-    "name": "Grove",
-    "email": "hello@grove.city",
-    "website": "https://grove.city"
+    "name": "Pocket Network Foundation",
+    "email": "directors@pokt.foundation",
+    "website": "https://pocket.network/"
   },
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pocket-lego-testnet/chain.png",
+  "rpc": "https://sauron-rpc.beta.infra.pocket.network",
+  "rest": "https://sauron-api.beta.infra.pocket.network",
   "bip44": {
     "coinType": 118
   },
@@ -21,12 +20,13 @@
     "bech32PrefixConsAddr": "poktvalcons",
     "bech32PrefixConsPub": "poktvalconspub"
   },
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/pocket-network?modal=staking&chain=pocket&step_id=2",
   "currencies": [
     {
       "coinDenom": "POKT",
       "coinMinimalDenom": "upokt",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pocket-beta/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/pocket-lego-testnet/chain.png"
     },
     {
       "coinDenom": "MACT",
@@ -50,10 +50,10 @@
       "coinMinimalDenom": "umact",
       "coinDecimals": 6,
       "gasPriceStep": {
-          "low": 0.01,
-          "average": 0.01,
-          "high": 0.01
-        }
+        "low": 0.01,
+        "average": 0.01,
+        "high": 0.01
+      }
     }
   ],
   "stakeCurrency": {
@@ -62,5 +62,8 @@
     "coinDecimals": 6
   },
   "features": [],
-  "isTestnet": true
+  "isTestnet": true,
+  "explorers": {
+    "txPage": "https://explorer.pocket.network/pocket-lego-testnet/tx/{txHash:uppercase}"
+  }
 }

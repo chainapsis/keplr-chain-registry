@@ -1,6 +1,11 @@
 {
   "rpc": "https://rpc-injective.keplr.app",
   "rest": "https://lcd-injective.keplr.app",
+  "evm": {
+    "chainId": 1776,
+    "rpc": "https://sentry.evm-rpc.injective.network",
+    "websocket": "wss://sentry.evm-ws.injective.network"
+  },
   "chainId": "injective-1",
   "chainName": "Injective",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/injective?modal=staking&chain=injective-1&step_id=2",
@@ -30,6 +35,27 @@
       "coinMinimalDenom": "inj",
       "coinGeckoId": "injective-protocol",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/inj.png"
+    },
+    {
+      "coinDenom": "wINJ",
+      "coinMinimalDenom": "erc20:0x0000000088827d2d103ee2d9a6b781773ae03ffb",
+      "coinDecimals": 18,
+      "coinGeckoId": "injective-protocol",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/erc20/0x0000000088827d2d103ee2d9a6b781773ae03ffb.png"
+    },
+    {
+      "coinDenom": "wETH",
+      "coinMinimalDenom": "erc20:0x83a15000b753ac0eeee06d2cb41a69e76d0d5c7f7",
+      "coinDecimals": 18,
+      "coinGeckoId": "weth",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/erc20/0x83a15000b753ac0eeee06d2cb41a69e76d0d5c7f7.png"
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "erc20:0xa00c59ff5a080d2b954d0c75e46e22a0c371235a",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/erc20/0xa00c59ff5a080d2b954d0c75e46e22a0c371235a.png"
     },
     {
       "coinDenom": "USDT",

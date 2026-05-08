@@ -228,6 +228,14 @@ export const checkImageSize = (path: string) => {
 };
 
 const checkCoinGeckoIdsAvailable = async (...coinGeckoIds: string[]) => {
+  // No-op when there are no coinGeckoIds to verify (e.g. testnet chains,
+  // which forbid coinGeckoId on every currency). Without this guard a
+  // `?ids=` empty query is sent and any price proxy that 4xx's it would
+  // surface as a misleading "Failed to fetch coinGeckoId" error.
+  if (coinGeckoIds.length === 0) {
+    return;
+  }
+
   const priceURL =
     process.env.PRICE_URL || "https://api.coingecko.com/api/v3/simple/price";
   const response = await fetch(

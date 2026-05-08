@@ -41,6 +41,12 @@
       "coinDecimals": 6,
       "coinGeckoId": "wrappedm-by-m0",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/erc20/0x437cc33344a0b27a429f795ff6b469c72698b291.png"
+    },
+    {
+      "coinDenom": "roETH",
+      "coinMinimalDenom": "erc20:0xf9bF4b8Bd40bc82269841769350C8eeeb7184759",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/erc20/0xf9bF4b8Bd40bc82269841769350C8eeeb7184759.png"
     }
   ],
   "feeCurrencies": [
