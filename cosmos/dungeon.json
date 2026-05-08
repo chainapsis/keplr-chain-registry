@@ -2,12 +2,12 @@
   "chainId": "dungeon-1",
   "chainName": "Dungeonchain",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png",
-  "rpc": "https://dungeon-wallet.rpc.quasarstaking.ai:443",
-  "rest": "https://dungeon-wallet.api.quasarstaking.ai",
+  "rpc": "https://rpc.dungeongames.io",
+  "rest": "https://api.dungeongames.io",
   "nodeProvider": {
     "name": "Crypto Dungeon",
     "email": "cryptodungeonma@gmail.com",
-    "website": "https://www.cryptodungeon.org/"
+    "website": "https://dungeongames.io"
   },
   "bip44": {
     "coinType": 118
