@@ -26,6 +26,12 @@
       "coinDenom": "NTHR",
       "coinMinimalDenom": "factory/cosmos1wdja2gcsesyl07raq9jm3rcvu0sse5zkev0h8m/Nether",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/factory/cosmos1wdja2gcsesyl07raq9jm3rcvu0sse5zkev0h8m/Nether.png"
+    },
+    {
+      "coinDecimals": 6,
+      "coinDenom": "CINN",
+      "coinMinimalDenom": "factory/cosmos1czdq25vuxw64gcj3lwvl3z93l76d92y7nys9u2/cinn",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/factory/cosmos1czdq25vuxw64gcj3lwvl3z93l76d92y7nys9u2/cinn.png"
     }
   ],
   "features": [
