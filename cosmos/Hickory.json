@@ -33,7 +33,7 @@
       "coinMinimalDenom": "uhic",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.01,
+        "low": 0.01,  
         "average": 0.025,
         "high": 0.04
       }
