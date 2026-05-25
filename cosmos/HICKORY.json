@@ -44,7 +44,5 @@
     "coinMinimalDenom": "uhic",
     "coinDecimals": 6
   },
-  "features": [
-    "cosmwasm"
-  ]
+  "features": [ ]
 }
