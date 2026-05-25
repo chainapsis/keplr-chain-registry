@@ -1,0 +1,46 @@
+{
+  "chainId": "Hickory",
+  "chainName": "Hickory Blockchain",
+  "rpc": "https://rpc.hickoryblockchain.com",
+  "rest": "https://rest.hickoryblockchain.com",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "hic",
+    "bech32PrefixAccPub": "hicpub",
+    "bech32PrefixValAddr": "hicvaloper",
+    "bech32PrefixValPub": "hicvaloperpub",
+    "bech32PrefixConsAddr": "hicvalcons",
+    "bech32PrefixConsPub": "hicvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "HIC",
+      "coinMinimalDenom": "uhic",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "HIC",
+      "coinMinimalDenom": "uhic",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "HIC",
+    "coinMinimalDenom": "uhic",
+    "coinDecimals": 6
+  },
+  "features": [
+    "stargate",
+    "ibc-transfer"
+  ],
+  "explorerUrlToTx": "https://hicscan.com/tx/{txHash}"
+}
