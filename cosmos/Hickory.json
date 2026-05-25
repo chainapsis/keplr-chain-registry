@@ -1,7 +1,7 @@
 {
   "chainId": "Hickory",
   "chainName": "Hickory",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/HicDevs/keplr-chain-registry/main/images/hickory/chain.png",     
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/HicDevs/keplr-chain-registry/main/images/hickory/chain.png",    
   "rpc": "https://rpc.hickoryblockchain.com",
   "rest": "https://rest.hickoryblockchain.com",
   "nodeProvider": {
