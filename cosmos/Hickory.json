@@ -1,9 +1,9 @@
 {
-  "chainId": "Hickory",
-  "chainName": "Hickory",
-  "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/master/images/HICKORY/chain.png"
-  "rpc": "https://rpc.hickoryblockchain.com",
-  "rest": "https://rest.hickoryblockchain.com",
+ "chainId": "Hickory",
+ "chainName": "Hickory",
+ "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/master/images/HICKORY/chain.png",
+ "rpc": "https://rpc.hickoryblockchain.com",
+ "rest": "https://rest.hickoryblockchain.com",
   "nodeProvider": {
     "name": "Hickory Blockchain Development",
     "email": "mail@hickoryblockchain.com",
