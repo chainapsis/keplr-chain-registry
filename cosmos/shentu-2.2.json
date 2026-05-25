@@ -50,5 +50,8 @@
       }
     }
   ],
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://www.mintscan.io/shentu/transactions/{txHash}"
+  }
 }

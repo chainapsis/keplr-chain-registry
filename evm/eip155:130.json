@@ -1,6 +1,6 @@
 {
-  "rpc": "https://evm-130.keplr.app",
-  "websocket": "wss://evm-130.keplr.app/websocket",
+  "rpc": "https://unichain-rpc.publicnode.com",
+  "websocket": "wss://unichain-rpc.publicnode.com",
   "chainId": "eip155:130",
   "chainName": "Unichain",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:130/chain.png",
@@ -14,6 +14,20 @@
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:130/unichain-native.png",
       "coinGeckoId": "ethereum"
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "erc20:0x078d782b760474a361dda0af3839290b0ef57ad6",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:130/erc20/0x078d782b760474a361dda0af3839290b0ef57ad6.png"
+    },
+    {
+      "coinDenom": "USDT",
+      "coinMinimalDenom": "erc20:0x9151434b16b9763660705744891fa906f660ecc5",
+      "coinDecimals": 6,
+      "coinGeckoId": "tether",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:130/erc20/0x9151434b16b9763660705744891fa906f660ecc5.png"
     }
   ],
   "feeCurrencies": [
@@ -25,5 +39,10 @@
       "coinGeckoId": "ethereum"
     }
   ],
-  "features": ["op-stack-l1-data-fee"]
+  "features": [
+    "op-stack-l1-data-fee"
+  ],
+  "explorers": {
+    "txPage": "https://unichain.blockscout.com/tx/0x{txHash}"
+  }
 }

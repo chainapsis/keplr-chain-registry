@@ -44,5 +44,12 @@
       }
     }
   ],
-  "features": ["eth-address-gen", "eth-key-sign", "axelar-evm-bridge"]
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign",
+    "axelar-evm-bridge"
+  ],
+  "explorers": {
+    "txPage": "https://explorer.xrplevm.org/tx/{txHash}"
+  }
 }

@@ -28,5 +28,8 @@
     }
   ],
   "features": [],
-  "isTestnet": true
+  "isTestnet": true,
+  "explorers": {
+    "txPage": "https://explorer.testnet.abs.xyz/tx/{txHash}"
+  }
 }

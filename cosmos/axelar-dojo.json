@@ -236,5 +236,10 @@
       }
     }
   ],
-  "features": ["axelar-evm-bridge"]
+  "features": [
+    "axelar-evm-bridge"
+  ],
+  "explorers": {
+    "txPage": "https://www.mintscan.io/axelar/tx/{txHash}"
+  }
 }

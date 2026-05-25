@@ -99,6 +99,11 @@
       }
     }
   ],
-  "features": ["cosmwasm"],
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/chihuahua?modal=staking&chain=chihuahua-1&step_id=2"
+  "features": [
+    "cosmwasm"
+  ],
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/chihuahua?modal=staking&chain=chihuahua-1&step_id=2",
+  "explorers": {
+    "txPage": "https://www.mintscan.io/chihuahua/tx/{txHash}"
+  }
 }

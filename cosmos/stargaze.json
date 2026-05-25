@@ -113,5 +113,8 @@
       }
     }
   ],
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://www.mintscan.io/stargaze/tx/{txHash}"
+  }
 }

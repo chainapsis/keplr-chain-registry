@@ -96,5 +96,10 @@
       }
     }
   ],
-  "features": ["authz-msg-revoke-fixed"]
+  "features": [
+    "authz-msg-revoke-fixed"
+  ],
+  "explorers": {
+    "txPage": "https://www.mintscan.io/kava/tx/{txHash}"
+  }
 }

@@ -28,7 +28,8 @@
     {
       "coinDenom": "RIT",
       "coinDecimals": 18,
-      "coinMinimalDenom": "urit"
+      "coinMinimalDenom": "urit",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ritbit-testnet/chain.png"
     },
     {
       "coinDenom": "USDC",
@@ -47,8 +48,21 @@
         "average": 25000000000,
         "high": 50000000000
       }
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "uusdc",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.025,
+        "average": 0.025,
+        "high": 0.03
+      }
     }
   ],
   "features": [],
+  "explorers": {
+    "txPage": "https://explorer.testnet.tyranodex.xyz/ritbit-testnet/tx/{txHash}"
+  },
   "isTestnet": true
 }

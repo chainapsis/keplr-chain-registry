@@ -47,5 +47,8 @@
       }
     }
   ],
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://ping.pub/sentinel/tx/{txHash:uppercase}"
+  }
 }

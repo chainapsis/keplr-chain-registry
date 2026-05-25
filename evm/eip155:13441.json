@@ -1,0 +1,34 @@
+{
+  "rpc": "https://eth-rpc.node0.mainnet.bridgeless.com",
+  "chainId": "eip155:13441",
+  "chainName": "BRIDGELESS",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:13441/chain.png",
+  "nodeProvider": {
+    "name": "BRIDGELESS",
+    "email": "support@bridgeless.com",
+    "website": "https://bridgeless.com"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "BRIDGE",
+      "coinMinimalDenom": "abridge",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:13441/BRIDGE.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "BRIDGE",
+      "coinMinimalDenom": "abridge",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:13441/BRIDGE.png"
+    }
+  ],
+  "features": [],
+  "explorers": {
+    "txPage": "https://explorer.mainnet.bridgeless.com/tx/{txHash}"
+  }
+}

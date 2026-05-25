@@ -1,0 +1,57 @@
+{
+  "chainId": "nvnm-testnet-1",
+  "chainName": "NVNM Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nvnm-testnet/chain.png",
+  "rpc": "https://rpc.testnet.nvnmchain.io",
+  "rest": "https://api.testnet.nvnmchain.io",
+  "nodeProvider": {
+    "name": "NVNM Chain",
+    "email": "contact@nvnmchain.io",
+    "website": "https://www.nvnmchain.io/"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "nvnm",
+    "bech32PrefixAccPub": "nvnmpub",
+    "bech32PrefixValAddr": "nvnmvaloper",
+    "bech32PrefixValPub": "nvnmvaloperpub",
+    "bech32PrefixConsAddr": "nvnmvalcons",
+    "bech32PrefixConsPub": "nvnmvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "MANTRAUSD",
+      "coinMinimalDenom": "amantrausd",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nvnm-testnet/mantraUSD.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "MANTRAUSD",
+      "coinMinimalDenom": "amantrausd",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nvnm-testnet/mantraUSD.png",
+      "gasPriceStep": {
+        "low": 100000,
+        "average": 400000,
+        "high": 800000
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "MANTRAUSD",
+    "coinMinimalDenom": "amantrausd",
+    "coinDecimals": 18,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nvnm-testnet/mantraUSD.png"
+  },
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign",
+    "eth-secp256k1-cosmos",
+    "evm-feemarket"
+    ],
+  "isTestnet": true
+}

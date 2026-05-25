@@ -44,5 +44,8 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/govgen/chain.png"
   },
   "features": [],
-  "isTestnet": true
+  "isTestnet": true,
+  "explorers": {
+    "txPage": "https://explorer.govgen.io/govgen/tx/{txHash}"
+  }
 }

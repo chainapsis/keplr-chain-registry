@@ -37,7 +37,7 @@
       "coinMinimalDenom": "uist",
       "coinDecimals": 6,
       "coinGeckoId": "inter-stable-token",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/agoric/uist.png"    
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/agoric/uist.png"
     }
   ],
   "feeCurrencies": [
@@ -70,5 +70,8 @@
     {
       "coinType": 118
     }
-  ]
+  ],
+  "explorers": {
+    "txPage": "https://www.mintscan.io/agoric/tx/{txHash}"
+  }
 }

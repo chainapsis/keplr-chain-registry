@@ -65,5 +65,10 @@
       }
     }
   ],
-  "features": ["cosmwasm"]
+  "features": [
+    "cosmwasm"
+  ],
+  "explorers": {
+    "txPage": "https://scan.orai.io/txs/{txHash}"
+  }
 }

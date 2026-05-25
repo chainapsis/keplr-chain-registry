@@ -48,5 +48,8 @@
   ],
   "features": [
     "cosmwasm"
-  ]
+  ],
+  "explorers": {
+    "txPage": "https://explorer.burnt.com/xion-mainnet-1/tx/{txHash}"
+  }
 }

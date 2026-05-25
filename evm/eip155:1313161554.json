@@ -37,5 +37,8 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1313161554/aurora-native.png"
     }
   ],
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://explorer.aurora.dev/tx/{txHash}"
+  }
 }

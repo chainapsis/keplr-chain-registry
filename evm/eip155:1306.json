@@ -1,0 +1,32 @@
+{
+  "rpc": "https://evm-stoc-mainnet.stochainscan.io",
+  "websocket": "wss://ws-stoc-mainnet.stochainscan.io",
+  "chainId": "eip155:1306",
+  "chainName": "STO Chain",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1306/chain.png",
+  "nodeProvider": {
+    "name": "STO Chain",
+    "email": "support@stochain.io",
+    "website": "https://www.stochain.io/"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "STOC",
+      "coinMinimalDenom": "stoc-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1306/stoc-native.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "STOC",
+      "coinMinimalDenom": "stoc-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1306/stoc-native.png"
+    }
+  ],
+  "features": []
+}

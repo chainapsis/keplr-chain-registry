@@ -1,12 +1,12 @@
 {
-  "rpc": "https://rpc.mainnet.taraxa.io",         
-  "websocket": "wss://ws.rpc.mainnet.taraxa.io",   
+  "rpc": "https://rpc.mainnet.taraxa.io",
+  "websocket": "wss://ws.rpc.mainnet.taraxa.io",
   "nodeProvider": {
     "name": "Taraxa Foundation",
     "email": "contact@taraxa.io",
     "website": "https://taraxa.io"
   },
-  "chainId": "eip155:841",                       
+  "chainId": "eip155:841",
   "chainName": "Taraxa",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:841/chain.png",
   "bip44": {
@@ -35,7 +35,7 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:841/erc20/0xe6a69cd4ff127ad8e53c21a593f7bac4c608945e.png"
     },
     {
-    "coinDenom": "USDT",
+      "coinDenom": "USDT",
       "coinMinimalDenom": "erc20:0x69d411cbf6dbad54bfe36f81d0a39922625bc78c",
       "coinDecimals": 18,
       "coinGeckoId": "taraxa-bridged-usdt-taraxa",

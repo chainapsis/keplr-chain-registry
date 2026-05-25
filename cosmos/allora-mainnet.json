@@ -26,6 +26,7 @@
       "coinDenom": "ALLO",
       "coinMinimalDenom": "uallo",
       "coinDecimals": 18,
+      "coinGeckoId": "allora",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/allora-mainnet/uallo.png"
     }
   ],
@@ -34,6 +35,7 @@
       "coinDenom": "ALLO",
       "coinMinimalDenom": "uallo",
       "coinDecimals": 18,
+      "coinGeckoId": "allora",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/allora-mainnet/uallo.png",
       "gasPriceStep": {
         "low": 500000000,
@@ -46,7 +48,11 @@
     "coinDenom": "ALLO",
     "coinMinimalDenom": "uallo",
     "coinDecimals": 18,
+    "coinGeckoId": "allora",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/allora-mainnet/uallo.png"
   },
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://explorer.allora.network/explorer/transactions/{txHash}"
+  }
 }

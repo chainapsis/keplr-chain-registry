@@ -48,5 +48,8 @@
   "walletUrlForStaking": "https://wallet.keplr.app/chains/seda?modal=staking&chain=seda-1&step_id=2",
   "features": [
     "cosmwasm"
-  ]
+  ],
+  "explorers": {
+    "txPage": "https://explorer.tcnetwork.io/seda/transaction/{txHash}"
+  }
 }

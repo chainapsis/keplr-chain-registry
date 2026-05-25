@@ -47,10 +47,15 @@
       }
     }
   ],
-  "features": ["authz-msg-revoke-fixed"],
+  "features": [
+    "authz-msg-revoke-fixed"
+  ],
   "alternativeBIP44s": [
     {
       "coinType": 118
     }
-  ]
+  ],
+  "explorers": {
+    "txPage": "https://www.mintscan.io/crypto-org/tx/{txHash}"
+  }
 }

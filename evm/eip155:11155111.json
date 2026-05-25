@@ -47,5 +47,8 @@
     }
   ],
   "features": [],
-  "isTestnet": true
+  "isTestnet": true,
+  "explorers": {
+    "txPage": "https://sepolia.etherscan.io/tx/{txHash}"
+  }
 }

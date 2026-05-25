@@ -66,5 +66,8 @@
   "features": [
     "cosmwasm",
     "authz-msg-revoke-fixed"
-  ]
+  ],
+  "explorers": {
+    "txPage": "https://ping.pub/juno/tx/{txHash}"
+  }
 }

@@ -1,0 +1,51 @@
+{
+  "chainId": "mirage-1",
+  "chainName": "Mirage",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mirage/chain.png",
+  "rpc": "https://mirage.talk/rpc",
+  "rest": "https://mirage.talk/lcd",
+  "nodeProvider": {
+    "name": "Mirage Foundation",
+    "email": "support@mirage.vote",
+    "website": "https://mirage.foundation"
+  },
+  "stakeCurrency": {
+    "coinDenom": "MIRAGE",
+    "coinMinimalDenom": "umirage",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mirage/umirage.png"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "mirage",
+    "bech32PrefixAccPub": "miragepub",
+    "bech32PrefixValAddr": "miragevaloper",
+    "bech32PrefixValPub": "miragevaloperpub",
+    "bech32PrefixConsAddr": "miragevalcons",
+    "bech32PrefixConsPub": "miragevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "MIRAGE",
+      "coinMinimalDenom": "umirage",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mirage/umirage.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "MIRAGE",
+      "coinMinimalDenom": "umirage",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mirage/umirage.png",
+      "gasPriceStep": {
+        "low": 5000,
+        "average": 7500,
+        "high": 10000
+      }
+    }
+  ],
+  "features": []
+}

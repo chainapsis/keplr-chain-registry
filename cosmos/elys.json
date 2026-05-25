@@ -2,8 +2,13 @@
   "chainId": "elys-1",
   "chainName": "Elys Network",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elys/chain.png",
-  "rpc": "https://rpc-elys.keplr.app",
-  "rest": "https://lcd-elys.keplr.app",
+  "rpc": "https://rpc.elys.network",
+  "rest": "https://api.elys.network",
+  "nodeProvider": {
+    "name": "elys network",
+    "email": "team@elys.network",
+    "website": "https://elys.network"
+  },
   "walletUrlForStaking": "https://wallet.keplr.app/chains/elys-network?modal=staking&chain=elys-1&step_id=2",
   "bip44": {
     "coinType": 118
@@ -68,7 +73,7 @@
       },
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elys/uatom.png"
     },
-{
+    {
       "coinDenom": "XRP",
       "coinMinimalDenom": "ibc/8464A63954C0350A26C8588E20719F3A0AC8705E4CA0F7450B60C3F16B2D3421",
       "coinDecimals": 18,
@@ -87,5 +92,8 @@
     "coinDecimals": 6,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/elys/chain.png"
   },
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://explorer.nodestake.org/elys/tx/{txHash}"
+  }
 }

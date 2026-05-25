@@ -1,6 +1,6 @@
 {
-  "rpc": "https://evm-1514.keplr.app",
-  "websocket": "wss://evm-1514.keplr.app/websocket",
+  "rpc": "https://story-rpc.publicnode.com",
+  "websocket": "wss://story-rpc.publicnode.com",
   "chainId": "eip155:1514",
   "chainName": "Story",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1514/chain.png",
@@ -25,5 +25,8 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1514/story-native.png"
     }
   ],
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://www.storyscan.io/tx/0x{txHash}"
+  }
 }
