@@ -1,0 +1,34 @@
+{
+  "chainId": "lumen-1",
+  "chainName": "Lumen",
+  "rpc": "https://rpc.lumen.chaintools.tech",
+  "rest": "https://api.lumen.chaintools.tech",
+  "stakeCurrency": {
+    "coinDenom": "LMN",
+    "coinMinimalDenom": "ulmn",
+    "coinDecimals": 6
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "lumen",
+    "bech32PrefixAccPub": "lumenpub",
+    "bech32PrefixValAddr": "lumenvaloper",
+    "bech32PrefixValPub": "lumenvaloperpub",
+    "bech32PrefixConsAddr": "lumenvalcons",
+    "bech32PrefixConsPub": "lumenvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "LMN",
+      "coinMinimalDenom": "ulmn",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "LMN",
+      "coinMinimalDenom": "ulmn",
+      "coinDecimals": 6
+    }
+  ],
+  "features": ["ibc-transfer"]
+}
