@@ -1,12 +1,10 @@
 {
-  "chainId": "lumen-1",
+  "chainId": "lumen",
   "chainName": "Lumen",
   "rpc": "https://rpc.lumen.chaintools.tech",
   "rest": "https://api.lumen.chaintools.tech",
-  "stakeCurrency": {
-    "coinDenom": "LMN",
-    "coinMinimalDenom": "ulmn",
-    "coinDecimals": 6
+  "bip44": {
+    "coinType": 118
   },
   "bech32Config": {
     "bech32PrefixAccAddr": "lumen",
@@ -30,5 +28,11 @@
       "coinDecimals": 6
     }
   ],
+  "nodeProvider": {
+    "name": "Lumen",
+    "email": "contact@lumen-network.org",
+    "website": "https://lumen-network.org/"
+  },
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumen/images/lmn.png",
   "features": ["ibc-transfer"]
 }
