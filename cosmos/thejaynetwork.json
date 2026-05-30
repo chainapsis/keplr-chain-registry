@@ -1,0 +1,48 @@
+{
+  "chainId": "thejaynetwork",
+  "chainName": "The Jay Network",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thejaynetwork/chain.png",
+  "rpc": "https://wallet.thejaynetwork.com/rpc",
+  "rest": "https://wallet.thejaynetwork.com/rest",
+  "nodeProvider": {
+    "name": "The Jay Network Team",
+    "email": "thejaynetwork2026@gmail.com",
+    "website": "https://thejaynetwork.com/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "yjay",
+    "bech32PrefixAccPub": "yjaypub",
+    "bech32PrefixValAddr": "yjayvaloper",
+    "bech32PrefixValPub": "yjayvaloperpub",
+    "bech32PrefixConsAddr": "yjayvalcons",
+    "bech32PrefixConsPub": "yjayvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "JAY",
+      "coinMinimalDenom": "ujay",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "JAY",
+      "coinMinimalDenom": "ujay",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.0025,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "JAY",
+    "coinMinimalDenom": "ujay",
+    "coinDecimals": 6
+  },
+  "features": ["cosmwasm"]
+}
