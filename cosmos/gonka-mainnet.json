@@ -2,10 +2,10 @@
   "chainId": "gonka-mainnet",
   "chainName": "Gonka",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gonka-mainnet/chain.png",
-  "rpc": "https://gonka04.6block.com:8443/chain-rpc/",
-  "rest": "https://gonka04.6block.com:8443/chain-api/",
+  "rpc": "https://rpc.gonka.gg/key/keplr/chain-rpc/",
+  "rest": "https://rpc.gonka.gg/key/keplr/chain-api/",
   "nodeProvider": {
-    "name": "6block",
+    "name": "Gonka Labs",
     "email": "hello@productscience.ai",
     "website": "http://gonka.ai"
   },
@@ -34,9 +34,9 @@
       "coinMinimalDenom": "ngonka",
       "coinDecimals": 9,
       "gasPriceStep": {
-        "low": 0,
-        "average": 0,
-        "high": 0
+        "low": 1.5,
+        "average": 1.75,
+        "high": 2.0
       }
     }
   ],
@@ -49,6 +49,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://gonka04.6block.com:8443/dashboard/gonka/txs/{txHash}"
+    "txPage": "https://gonka.gg/transactions/{txHash}"
   }
 }
