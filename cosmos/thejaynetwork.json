@@ -1,6 +1,6 @@
 {
-  "rpc": "http://node1.thejaynetwork.com:26657",
-  "rest": "http://node1.thejaynetwork.com:1317",
+  "rpc": "https://pixture.thejaynetwork.com/rpc",
+  "rest": "https://pixture.thejaynetwork.com/rest",
   "chainId": "thejaynetwork",
   "chainName": "The Jay Network",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/OneNov0209/keplr-chain-registry/refs/heads/main/images/TheJayNetwork/jay-1.png",
