@@ -1,0 +1,52 @@
+{
+  "rpc": "http://node1.thejaynetwork.com:26657",
+  "rest": "http://node1.thejaynetwork.com:1317",
+  "chainId": "thejaynetwork",
+  "chainName": "The Jay Network",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/OneNov0209/keplr-chain-registry/refs/heads/main/images/TheJayNetwork/jay-1.png",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/the-jay-network?modal=staking&chain=thejaynetwork&step_id=2",
+  "stakeCurrency": {
+    "coinDenom": "JAY",
+    "coinMinimalDenom": "ujay",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/OneNov0209/keplr-chain-registry/refs/heads/main/images/TheJayNetwork/jay-1.png"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "yjay",
+    "bech32PrefixAccPub": "yjaypub",
+    "bech32PrefixValAddr": "yjayvaloper",
+    "bech32PrefixValPub": "yjayvaloperpub",
+    "bech32PrefixConsAddr": "yjayvalcons",
+    "bech32PrefixConsPub": "yjayvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "JAY",
+      "coinMinimalDenom": "ujay",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/OneNov0209/keplr-chain-registry/refs/heads/main/images/TheJayNetwork/jay-1.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "JAY",
+      "coinMinimalDenom": "ujay",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/OneNov0209/keplr-chain-registry/refs/heads/main/images/TheJayNetwork/jay-1.png",
+      "gasPriceStep": {
+        "low": 0.025,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "features": [
+    "cosmwasm"
+  ],
+  "explorers": {
+    "txPage": "https://jayscan.thejaynetwork.com/tx/{txHash}"
+  }
+}
