@@ -43,7 +43,7 @@
     }
   ],
   "features": [
-    "cosmwasm"
+    "ibc-transfer"
   ],
   "explorers": {
     "txPage": "https://explorer.onenov.xyz/thejaynetwork/tx/{txHash}"
