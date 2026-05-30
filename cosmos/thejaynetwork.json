@@ -4,7 +4,6 @@
   "chainId": "thejaynetwork",
   "chainName": "The Jay Network",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/OneNov0209/keplr-chain-registry/refs/heads/main/images/TheJayNetwork/jay-1.png",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/the-jay-network?modal=staking&chain=thejaynetwork&step_id=2",
   "stakeCurrency": {
     "coinDenom": "JAY",
     "coinMinimalDenom": "ujay",
@@ -47,6 +46,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://jayscan.thejaynetwork.com/tx/{txHash}"
+    "txPage": "https://explorer.onenov.xyz/thejaynetwork/tx/{txHash}"
   }
 }
