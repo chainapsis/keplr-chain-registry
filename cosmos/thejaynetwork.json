@@ -24,7 +24,8 @@
     {
       "coinDenom": "JAY",
       "coinMinimalDenom": "ujay",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thejaynetwork/chain.png"
     }
   ],
   "feeCurrencies": [
@@ -36,13 +37,15 @@
         "low": 0.0025,
         "average": 0.025,
         "high": 0.04
-      }
+      },
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thejaynetwork/chain.png"
     }
   ],
   "stakeCurrency": {
     "coinDenom": "JAY",
     "coinMinimalDenom": "ujay",
-    "coinDecimals": 6
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/thejaynetwork/chain.png"
   },
   "features": ["cosmwasm"]
 }
