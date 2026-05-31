@@ -42,9 +42,6 @@
       }
     }
   ],
-  "features": [
-    "ibc-transfer"
-  ],
   "explorers": {
     "txPage": "https://explorer.onenov.xyz/thejaynetwork/tx/{txHash}"
   }
