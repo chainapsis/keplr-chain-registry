@@ -33,6 +33,5 @@
     "email": "contact@lumen-network.org",
     "website": "https://lumen-network.org/"
   },
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumen/images/lmn.png",
-  "features": ["ibc-transfer"]
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumen/images/lmn.png"
 }
