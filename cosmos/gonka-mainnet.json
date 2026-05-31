@@ -5,9 +5,9 @@
   "rpc": "https://rpc.gonka.gg/key/keplr/chain-rpc/",
   "rest": "https://rpc.gonka.gg/key/keplr/chain-api/",
   "nodeProvider": {
-    "name": "Gonka Labs",
-    "email": "hello@productscience.ai",
-    "website": "http://gonka.ai"
+    "name": "GonkaLabs",
+    "email": "info@gonka.gg",
+    "website": "https://gonka.gg/"
   },
   "bip44": {
     "coinType": 1200
@@ -34,9 +34,9 @@
       "coinMinimalDenom": "ngonka",
       "coinDecimals": 9,
       "gasPriceStep": {
-        "low": 1.5,
-        "average": 1.75,
-        "high": 2.0
+        "low": 0,
+        "average": 0,
+        "high": 0
       }
     }
   ],
