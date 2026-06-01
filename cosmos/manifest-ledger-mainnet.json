@@ -2,8 +2,8 @@
   "chainId": "manifest-ledger-mainnet",
   "chainName": "Manifest",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/manifest-ledger-mainnet/chain.png",
-  "rpc": "https://nodes.liftedinit.app/manifest/rpc",
-  "rest": "https://nodes.liftedinit.app/manifest/api",
+  "rpc": "https://nodes.manifest.network/manifest/rpc",
+  "rest": "https://nodes.manifest.network/manifest/api",
   "nodeProvider": {
     "name": "The Lifted Initiative",
     "email": "hello@manifest.network",
@@ -30,6 +30,11 @@
       "coinDenom": "POA",
       "coinMinimalDenom": "upoa",
       "coinDecimals": 6
+    },
+    {
+      "coinDenom": "PWR",
+      "coinMinimalDenom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwr",
+      "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
@@ -41,6 +46,16 @@
         "low": 1.05,
         "average": 1.1,
         "high": 3
+      }
+    },
+    {
+      "coinDenom": "PWR",
+      "coinMinimalDenom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwr",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.4,
+        "average": 0.5,
+        "high": 1
       }
     }
   ],
