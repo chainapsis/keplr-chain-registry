@@ -168,6 +168,12 @@
       "coinMinimalDenom": "utwd",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/TWT.png"
+    },
+    {
+      "coinDenom": "isLUNC",
+      "coinMinimalDenom": "cw20:terra1h9dg99v9nt22zsvd959cjtttmfp8x0paqtuegwecsjd3py2f9mqq5vrss3",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/columbus/isLUNC.png"
     }
   ],
   "feeCurrencies": [
