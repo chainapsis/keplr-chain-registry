@@ -7,12 +7,12 @@
     "coinType": 118
   },
   "bech32Config": {
-    "bech32PrefixAccAddr": "lumen",
-    "bech32PrefixAccPub": "lumenpub",
-    "bech32PrefixValAddr": "lumenvaloper",
-    "bech32PrefixValPub": "lumenvaloperpub",
-    "bech32PrefixConsAddr": "lumenvalcons",
-    "bech32PrefixConsPub": "lumenvalconspub"
+    "bech32PrefixAccAddr": "lmn",
+    "bech32PrefixAccPub": "lmnpub",
+    "bech32PrefixValAddr": "lmnvaloper",
+    "bech32PrefixValPub": "lmnvaloperpub",
+    "bech32PrefixConsAddr": "lmnvalcons",
+    "bech32PrefixConsPub": "lmnvalconspub"
   },
   "currencies": [
     {
