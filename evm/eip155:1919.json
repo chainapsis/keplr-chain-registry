@@ -1,0 +1,35 @@
+{
+  "rpc": "https://rpc.turkscan.com",
+  "websocket": "ws://node.turkscan.com/websocket",
+  "nodeProvider": {
+    "name": "Turkchain",
+    "email": "info@turkscan.com",
+    "website": "https://turkscan.com"
+  },
+  "chainId": "eip155:1919",
+  "chainName": "Turkchain",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1919/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "TURK",
+      "coinMinimalDenom": "ethereum-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1919/turk-native.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "TURK",
+      "coinMinimalDenom": "ethereum-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1919/turk-native.png"
+    }
+  ],
+  "features": [],
+  "explorers": {
+    "txPage": "https://turkscan.com/tx/0x{txHash}"
+  }
+}
