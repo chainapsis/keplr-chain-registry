@@ -25,7 +25,12 @@
     {
       "coinDenom": "LMN",
       "coinMinimalDenom": "ulmn",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0,
+        "average": 0,
+        "high": 0
+      }
     }
   ],
   "nodeProvider": {
