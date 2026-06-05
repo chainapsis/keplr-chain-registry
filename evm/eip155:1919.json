@@ -1,12 +1,12 @@
 {
   "rpc": "https://rpc.turkscan.com",
-  "websocket": "wss://rpc.turkscan.com/websocket",
+  "websocket": "ws://node.turkscan.com/websocket",
   "nodeProvider": {
     "name": "Turkchain",
     "email": "info@turkscan.com",
     "website": "https://turkscan.com"
   },
-  "chainId": "1919",
+  "chainId": "eip155:1919",
   "chainName": "Turkchain",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1919/chain.png",
   "bip44": {
