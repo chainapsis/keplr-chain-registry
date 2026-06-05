@@ -1,0 +1,37 @@
+{
+  "chainId": "lumen",
+  "chainName": "Lumen",
+  "rpc": "https://rpc.lumen.chaintools.tech",
+  "rest": "https://api.lumen.chaintools.tech",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "lumen",
+    "bech32PrefixAccPub": "lumenpub",
+    "bech32PrefixValAddr": "lumenvaloper",
+    "bech32PrefixValPub": "lumenvaloperpub",
+    "bech32PrefixConsAddr": "lumenvalcons",
+    "bech32PrefixConsPub": "lumenvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "LMN",
+      "coinMinimalDenom": "ulmn",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "LMN",
+      "coinMinimalDenom": "ulmn",
+      "coinDecimals": 6
+    }
+  ],
+  "nodeProvider": {
+    "name": "Lumen",
+    "email": "contact@lumen-network.org",
+    "website": "https://lumen-network.org/"
+  },
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lumen/lmn.png"
+}
