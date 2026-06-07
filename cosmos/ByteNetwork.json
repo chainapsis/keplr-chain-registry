@@ -1,40 +1,40 @@
 {
-  "chainId": "ByteNetwork-1",
-  "chainName": "ByteNetwork",
-  "rpc": "https://bytenetwork.ddns.net/rpc/",
-  "rest": "https://bytenetwork.ddns.net/lcd/",
-  "bech32Config": {
-    "bech32PrefixAccAddr": "byte",
-    "bech32PrefixAccPub": "bytepub",
-    "bech32PrefixValAddr": "bytevaloper",
-    "bech32PrefixValPub": "bytevaloperpub",
-    "bech32PrefixConsAddr": "bytevalcons",
-    "bech32PrefixConsPub": "bytevalconspub"
-  },
-  "currencies": [
-    {
-      "coinDenom": "BYTE",
-      "coinMinimalDenom": "ubyte",
-      "coinDecimals": 6
-    }
-  ],
-  "feeCurrencies": [
-    {
-      "coinDenom": "BYTE",
-      "coinMinimalDenom": "ubyte",
-      "coinDecimals": 6,
-      "gasPriceStep": {
-        "low": 0.025,
-        "average": 0.025,
-        "high": 0.025
-      }
-    }
-  ],
-  "stakeCurrency": {
-    "coinDenom": "BYTE",
-    "coinMinimalDenom": "ubyte",
-    "coinDecimals": 6
-  },
-  "features": [],
-  "isTestnet": true
+  "chainId": "ByteNetwork-1",
+  "chainName": "ByteNetwork",
+  "rpc": "https://bytenetwork.ddns.net/rpc/",
+  "rest": "https://bytenetwork.ddns.net/lcd/",
+  "bech32Config": {
+    "bech32PrefixAccAddr": "byte",
+    "bech32PrefixAccPub": "bytepub",
+    "bech32PrefixValAddr": "bytevaloper",
+    "bech32PrefixValPub": "bytevaloperpub",
+    "bech32PrefixConsAddr": "bytevalcons",
+    "bech32PrefixConsPub": "bytevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "BYTE",
+      "coinMinimalDenom": "ubyte",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "BYTE",
+      "coinMinimalDenom": "ubyte",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.025,
+        "average": 0.025,
+        "high": 0.025
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "BYTE",
+    "coinMinimalDenom": "ubyte",
+    "coinDecimals": 6
+  },
+  "features": [],
+  "isTestnet": true
 }
