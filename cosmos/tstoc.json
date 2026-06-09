@@ -1,7 +1,7 @@
 {
   "rpc": "https://rpc-stoc-testnet.stochainscan.io/",
   "rest": "https://api-stoc-testnet.stochainscan.io/",
-  "chainId": "tstoc",
+  "chainId": "tstoc_1999-1",
   "chainName": "STO Chain Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tstoc/chain.png",
   "nodeProvider": {
