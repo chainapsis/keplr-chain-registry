@@ -1,6 +1,11 @@
 {
-  "rpc": "https://rpc-stargaze.keplr.app",
-  "rest": "https://lcd-stargaze.keplr.app",
+  "rpc": "https://stargaze-rpc.polkachu.com",
+  "rest": "https://stargaze-api.polkachu.com",
+  "nodeProvider": {
+    "name": "Polkachu",
+    "email": "hello@polkachu.com",
+    "website": "https://polkachu.com/"
+  },
   "chainId": "stargaze-1",
   "chainName": "Stargaze",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stargaze/chain.png",
