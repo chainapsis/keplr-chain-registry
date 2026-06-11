@@ -1,6 +1,6 @@
 {
-  "rpc": "https://evm-4114.keplr.app",
-  "websocket": "wss://evm-4114.keplr.app",
+  "rpc": "https://rpc.mainnet.citrea.xyz",
+  "websocket": "wss://rpc.mainnet.citrea.xyz",
   "chainId": "eip155:4114",
   "chainName": "Citrea",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:4114/citrea-black.png",
