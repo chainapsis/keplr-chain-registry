@@ -236,20 +236,41 @@ const checkCoinGeckoIdsAvailable = async (...coinGeckoIds: string[]) => {
     return;
   }
 
+  const ids = coinGeckoIds.join(", ");
   const priceURL =
     process.env.PRICE_URL || "https://api.coingecko.com/api/v3/simple/price";
-  const response = await fetch(
-    `${priceURL}?vs_currencies=usd&ids=${coinGeckoIds.join(",")}`,
-  );
-
-  if (!response.ok) {
-    throw new Error(`Failed to fetch coinGeckoId ${coinGeckoIds.join(", ")}`);
+  let response: Response;
+  try {
+    response = await fetch(
+      `${priceURL}?vs_currencies=usd&ids=${Array.from(coinGeckoIds)
+        .map(encodeURIComponent)
+        .join(",")}`,
+    );
+  } catch (e: any) {
+    throw new Error(
+      `Price endpoint request failed for coinGeckoId ${ids}: ${e.message}`,
+    );
   }
 
-  const data = await response.json();
+  if (!response.ok) {
+    throw new Error(
+      `Price endpoint returned HTTP ${response.status} while fetching coinGeckoId ${ids}`,
+    );
+  }
+
+  let data: Record<string, any>;
+  try {
+    data = await response.json();
+  } catch (e: any) {
+    throw new Error(
+      `Price endpoint returned invalid JSON while fetching coinGeckoId ${ids}: ${e.message}`,
+    );
+  }
 
   if (data.hasOwnProperty("error")) {
-    throw new Error(`Failed to fetch coinGeckoId ${coinGeckoIds.join(", ")}`);
+    throw new Error(
+      `Price endpoint returned error while fetching coinGeckoId ${ids}`,
+    );
   }
 
   for (const coinGeckoId of coinGeckoIds) {
