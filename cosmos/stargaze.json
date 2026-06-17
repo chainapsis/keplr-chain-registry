@@ -10,7 +10,7 @@
   "chainName": "Stargaze",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stargaze/chain.png",
   "stakeCurrency": {
-    "coinDenom": "STARS",
+    "coinDenom": "STARS.og",
     "coinMinimalDenom": "ustars",
     "coinDecimals": 6,
     "coinGeckoId": "stargaze",
@@ -31,7 +31,7 @@
   },
   "currencies": [
     {
-      "coinDenom": "STARS",
+      "coinDenom": "STARS.og",
       "coinMinimalDenom": "ustars",
       "coinDecimals": 6,
       "coinGeckoId": "stargaze",
@@ -106,7 +106,7 @@
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "STARS",
+      "coinDenom": "STARS.og",
       "coinMinimalDenom": "ustars",
       "coinDecimals": 6,
       "coinGeckoId": "stargaze",

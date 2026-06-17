@@ -136,7 +136,7 @@
       "coinGeckoId": "secret"
     },
     {
-      "coinDenom": "STARS",
+      "coinDenom": "STARS.og",
       "coinMinimalDenom": "ibc/4F393C3FCA4190C0A6756CE7F6D897D5D1BE57D6CCB80D0BC87393566A7B6602",
       "coinDecimals": 6,
       "coinGeckoId": "stargaze"
