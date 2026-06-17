@@ -2,8 +2,8 @@
   "chainId": "kaiyo-1",
   "chainName": "Kujira",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/chain.png",
-  "rpc": "https://kujira-rpc.nodes.defiantlabs.net",
-  "rest": "https://rest.cosmos.directory/kujira/",
+  "rpc": "https://kujira.ibs.team/rpc",
+  "rest": "https://kujira.ibs.team/api",
   "nodeProvider": {
     "name": "PFC",
     "email": "pfc-validator@protonmail.com",
