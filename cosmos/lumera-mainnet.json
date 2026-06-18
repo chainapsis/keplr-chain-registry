@@ -9,7 +9,6 @@
     "coinDenom": "LUME",
     "coinMinimalDenom": "ulume",
     "coinDecimals": 6,
-    "coinGeckoId": "lumera",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lumera-mainnet/chain.png"
   },
   "bip44": {
@@ -28,7 +27,6 @@
       "coinDenom": "LUME",
       "coinMinimalDenom": "ulume",
       "coinDecimals": 6,
-      "coinGeckoId": "lumera",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lumera-mainnet/chain.png"
     }
   ],
@@ -37,7 +35,6 @@
       "coinDenom": "LUME",
       "coinMinimalDenom": "ulume",
       "coinDecimals": 6,
-      "coinGeckoId": "lumera",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lumera-mainnet/chain.png",
       "gasPriceStep": {
         "low": 0.025,
