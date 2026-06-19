@@ -3,8 +3,8 @@
 "chainName": "IslamicChain",
 "chainSymbolImageUrl": "https://islamicchain.org/assets/images/islamicchain.png",
 
-"rpc": "https://signer.islamicchain.org/sign/",
-"rest": "https://signer.islamicchain.org/sign/",
+"rpc": "https://signer.islamicchain.org/sign",
+"rest": "https://signer.islamicchain.org/sign",
 
 "nodeProvider": {
 "name": "Decima Technologies",
@@ -45,7 +45,7 @@
 },
 {
 "coinDenom": "SovUSDT",
-"coinMinimalDenom": "usovusdt",
+"coinMinimalDenom": "uusdt",
 "coinDecimals": 6
 }
 ],
