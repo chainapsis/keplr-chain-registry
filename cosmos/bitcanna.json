@@ -2,7 +2,7 @@
   "chainId": "bitcanna-1",
   "chainName": "BitCanna v1",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bitcanna/chain.png",
-  "rpc": "https://bcna.rpc.arcturian.tech/",
+  "rpc": "https://rpc.bitcanna.network/",
   "rest": "https://bcna.api.arcturian.tech/",
   "nodeProvider": {
     "name": "BitCanna Network Community",
