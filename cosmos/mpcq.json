@@ -1,0 +1,49 @@
+{
+  "chainId": "mpcq-262144",
+  "chainName": "MPCQ Network",
+  "chainSymbolImageUrl": "https://mpcq.moneypoolscash.com/logo.png",
+  "rpc": "https://rpc.moneypoolscash.com",
+  "rest": "https://rest.moneypoolscash.com",
+  "nodeProvider": {
+    "name": "MPCQ",
+    "email": "admin@moneypoolscash.com",
+    "website": "https://mpcq.moneypoolscash.com"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "cosmos",
+    "bech32PrefixAccPub": "cosmospub",
+    "bech32PrefixValAddr": "cosmosvaloper",
+    "bech32PrefixValPub": "cosmosvaloperpub",
+    "bech32PrefixConsAddr": "cosmosvalcons",
+    "bech32PrefixConsPub": "cosmosvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "MPCQ",
+      "coinMinimalDenom": "ampcq",
+      "coinDecimals": 18,
+      "coinGeckoId": "mpcq"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "MPCQ",
+      "coinMinimalDenom": "ampcq",
+      "coinDecimals": 18,
+      "gasPriceStep": {
+        "low": 0.001,
+        "average": 0.01,
+        "high": 0.025
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "MPCQ",
+    "coinMinimalDenom": "ampcq",
+    "coinDecimals": 18
+  },
+  "features": ["eth-address-gen", "eth-key-sign", "cosmwasm"]
+}
