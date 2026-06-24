@@ -1,6 +1,6 @@
 {
-  "rpc": "https://evm-56.keplr.app",
-  "websocket": "wss://evm-56.keplr.app/websocket",
+  "rpc": "https://bsc-rpc.publicnode.com",
+  "websocket": "wss://bsc-rpc.publicnode.com",
   "chainId": "eip155:56",
   "chainName": "BNB Smart Chain",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:56/chain.png",

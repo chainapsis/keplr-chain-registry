@@ -1,9 +1,9 @@
 {
   "rpc": "https://rpc-stoc-testnet.stochainscan.io/",
   "rest": "https://api-stoc-testnet.stochainscan.io/",
-  "chainId": "tstoc",
+  "chainId": "tstoc_1999-1",
   "chainName": "STO Chain Testnet",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tstoc/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tstoc_1999/chain.png",
   "nodeProvider": {
     "name": "STO Chain",
     "email": "support@stochain.io",
@@ -25,7 +25,7 @@
       "coinDenom": "TSTOC",
       "coinMinimalDenom": "utstoc",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tstoc/utstoc.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tstoc_1999/utstoc.png"
     }
   ],
   "feeCurrencies": [
@@ -33,7 +33,7 @@
       "coinDenom": "TSTOC",
       "coinMinimalDenom": "utstoc",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tstoc/utstoc.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tstoc_1999/utstoc.png",
       "gasPriceStep": {
         "low": 0.01,
         "average": 0.015,
@@ -45,7 +45,7 @@
     "coinDenom": "TSTOC",
     "coinMinimalDenom": "utstoc",
     "coinDecimals": 6,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tstoc/utstoc.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tstoc_1999/utstoc.png"
   },
   "features": [],
   "isTestnet": true

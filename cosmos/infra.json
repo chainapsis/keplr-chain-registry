@@ -1,0 +1,56 @@
+{
+    "rpc": "https://infra.uquad.org/rpc",
+    "rest": "https://infra.uquad.org/rest",
+    "nodeProvider": {
+        "name": "Infra",
+        "website": "https://infra.uquad.org/",
+        "discord": "https://discord.gg/jrnQaaQN3G"
+    },
+    "chainId": "infra",
+    "chainName": "Infra",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/infra/chain.png",
+    "stakeCurrency": {
+        "coinDenom": "BIGHT",
+        "coinMinimalDenom": "ubight",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/infra/chain.png"
+    },
+    "walletUrl": "https://infra.uquad.org/",
+    "bip44": {
+        "coinType": 118
+    },
+    "bech32Config": {
+        "bech32PrefixAccAddr": "infra",
+        "bech32PrefixAccPub": "infrapub",
+        "bech32PrefixValAddr": "infravaloper",
+        "bech32PrefixValPub": "infravaloperpub",
+        "bech32PrefixConsAddr": "infravalcons",
+        "bech32PrefixConsPub": "infravalconspub"
+    },
+    "currencies": [
+        {
+            "coinDenom": "BIGHT",
+            "coinMinimalDenom": "ubight",
+            "coinDecimals": 6,
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/infra/chain.png"
+        }
+    ],
+    "feeCurrencies": [
+        {
+            "coinDenom": "BIGHT",
+            "coinMinimalDenom": "ubight",
+            "coinDecimals": 6,
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/infra/chain.png",
+            "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.0125,
+                "high": 0.025
+            }
+        }
+    ],
+    "features": [],
+    "isTestnet": false,
+    "explorers": {
+        "txPage": "https://infra.uquad.org/tx?hash={txHash}"
+    }
+}

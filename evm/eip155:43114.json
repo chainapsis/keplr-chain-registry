@@ -1,6 +1,6 @@
 {
-  "rpc": "https://evm-43114.keplr.app",
-  "websocket": "wss://evm-43114.keplr.app/websocket",
+  "rpc": "https://avalanche-c-chain-rpc.publicnode.com",
+  "websocket": "wss://avalanche-c-chain-rpc.publicnode.com",
   "chainId": "eip155:43114",
   "chainName": "Avalanche",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:43114/chain.png",

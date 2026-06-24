@@ -12,7 +12,6 @@ export const nativeMainnetChainIdentifiers: string[] = [
   "secret",
   "sentinelhub",
   "sommelier",
-  "stargaze",
   "stride",
   "crypto-org-chain-mainnet",
   "quicksilver",

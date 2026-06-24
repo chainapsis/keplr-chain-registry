@@ -1,6 +1,6 @@
 {
-  "rpc": "https://humans.rpc.kjnodes.com/",
-  "rest": "https://humans.api.kjnodes.com/",
+  "rpc": "https://rpc.humans.nodestake.org",
+  "rest": "https://api.humans.nodestake.org",
   "chainId": "humans_1089-1",
   "chainName": "Humans.ai",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/humans_1089/logo.png",
@@ -31,7 +31,8 @@
     {
       "coinDenom": "HEART",
       "coinMinimalDenom": "aheart",
-      "coinDecimals": 18
+      "coinDecimals": 18,
+      "coinGeckoId": "humans-ai"
     }
   ],
   "feeCurrencies": [
@@ -39,6 +40,7 @@
       "coinDenom": "HEART",
       "coinMinimalDenom": "aheart",
       "coinDecimals": 18,
+      "coinGeckoId": "humans-ai",
       "gasPriceStep": {
         "low": 80000000000,
         "average": 120000000000,

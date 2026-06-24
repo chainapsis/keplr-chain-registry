@@ -32,6 +32,19 @@
       "coinDenom": "CINN",
       "coinMinimalDenom": "factory/cosmos1czdq25vuxw64gcj3lwvl3z93l76d92y7nys9u2/cinn",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/factory/cosmos1czdq25vuxw64gcj3lwvl3z93l76d92y7nys9u2/cinn.png"
+    },
+    {
+      "coinDecimals": 6,
+      "coinDenom": "ART",
+      "coinMinimalDenom": "factory/cosmos1w9ee57gnduzm4l9h6xwn9tee9pyh8wlr4r9r35/art",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/factory/cosmos1w9ee57gnduzm4l9h6xwn9tee9pyh8wlr4r9r35/art.png"
+    },
+    {
+      "coinDecimals": 6,
+      "coinDenom": "STARS",
+      "coinGeckoId": "stargaze",
+      "coinMinimalDenom": "factory/cosmos1s8qx0zvz8yd6e4x0mqmqf7fr9vvfn6226hkvrq/ustars",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/factory/cosmos1s8qx0zvz8yd6e4x0mqmqf7fr9vvfn6226hkvrq/ustars.png"
     }
   ],
   "features": [
