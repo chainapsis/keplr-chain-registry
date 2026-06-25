@@ -45,5 +45,5 @@
     "coinDecimals": 6,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/safrochain/saf.png"
   },
-  "features": ["cosmwasm", "ibc-transfer", "ibc-go"]
+  "features": ["cosmwasm"]
 }
