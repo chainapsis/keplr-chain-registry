@@ -39,7 +39,8 @@
         "average": 0.07,
         "high": 0.09
       },
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png",
+      "coinGeckoId": "dragon-coin-2"
     }
   ],
   "stakeCurrency": {
