@@ -1,0 +1,110 @@
+{
+    "rpc": "https://core.uquad.org/rpc",
+    "rest": "https://core.uquad.org/api",
+    "nodeProvider": {
+        "name": "QUAD Core",
+        "website": "https://uquad.org/",
+        "discord": "https://discord.gg/jrnQaaQN3G"
+    },
+    "chainId": "quad",
+    "chainName": "QUAD Core",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/quad/chain.png",
+    "stakeCurrency": {
+        "coinDenom": "QUAD",
+        "coinMinimalDenom": "uquad",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/quad/chain.png"
+    },
+    "walletUrl": "https://uquad.org/",
+    "bip44": {
+        "coinType": 118
+    },
+    "bech32Config": {
+        "bech32PrefixAccAddr": "quad",
+        "bech32PrefixAccPub": "quadpub",
+        "bech32PrefixValAddr": "quadvaloper",
+        "bech32PrefixValPub": "quadvaloperpub",
+        "bech32PrefixConsAddr": "quadvalcons",
+        "bech32PrefixConsPub": "quadvalconspub"
+    },
+    "currencies": [
+        {
+            "coinDenom": "QUAD",
+            "coinMinimalDenom": "uquad",
+            "coinDecimals": 6,
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/quad/chain.png"
+        },
+        {
+            "coinDenom": "stQUAD",
+            "coinMinimalDenom": "stquad",
+            "coinDecimals": 6,
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/quad/chain.png"
+        },
+        {
+            "coinDenom": "AKT",
+            "coinMinimalDenom": "ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4",
+            "coinDecimals": 6,
+            "coinGeckoId": "akash-network"
+        },
+        {
+            "coinDenom": "ATOM",
+            "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+            "coinDecimals": 6,
+            "coinGeckoId": "cosmos"
+        },
+        {
+            "coinDenom": "STRD",
+            "coinMinimalDenom": "ibc/64FA16099B90915C5A5DE0FE7AB4E52535D76EA2107DA68143B99B0BEB567791",
+            "coinDecimals": 6,
+            "coinGeckoId": "stride"
+        },
+        {
+            "coinDenom": "TIA",
+            "coinMinimalDenom": "ibc/BF28D9C17E0306B194D50F51C3B2590BEAD15E04E03ADD34C3A26E62D85C9676",
+            "coinDecimals": 6,
+            "coinGeckoId": "celestia"
+        },
+        {
+            "coinDenom": "OSMO",
+            "coinMinimalDenom": "ibc/9C4DCD21B48231D0BC2AC3D1B74A864746B37E4292694C93C617324250D002FC",
+            "coinDecimals": 6,
+            "coinGeckoId": "osmosis"
+        },
+        {
+            "coinDenom": "USDC",
+            "coinMinimalDenom": "ibc/E1F2CA2C6F68108A7232528A2E25126061BAF02B0A1E8956471EC84276C9C5E1",
+            "coinDecimals": 6,
+            "coinGeckoId": "usd-coin"
+        },
+        {
+            "coinDenom": "INJ",
+            "coinMinimalDenom": "ibc/4F9BFE4F1919009E01C5D5960E35D15EFF330B846ADC4B2BECE5170E1AAEC0CE",
+            "coinDecimals": 18,
+            "coinGeckoId": "injective-protocol"
+        },
+        {
+            "coinDenom": "NTRN",
+            "coinMinimalDenom": "ibc/43C92566AEA8C100CF924DB324BD8F699B6374CA5B93BF6BCFEC4777B62D50D1",
+            "coinDecimals": 6,
+            "coinGeckoId": "neutron"
+        }
+    ],
+    "feeCurrencies": [
+        {
+            "coinDenom": "QUAD",
+            "coinMinimalDenom": "uquad",
+            "coinDecimals": 6,
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/quad/chain.png",
+            "gasPriceStep": {
+                "low": 0.025,
+                "average": 0.125,
+                "high": 1.0
+            }
+        }
+    ],
+    "features": [],
+    "isTestnet": false,
+    "explorers": {
+        "txPage": "https://core.uquad.org/tx-result?hash={txHash}"
+    }
+}
