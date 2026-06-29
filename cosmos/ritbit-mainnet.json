@@ -1,11 +1,11 @@
 {
-  "rpc": "https://rpc.mainnet.tyranodex.xyz",
-  "rest": "https://rest.mainnet.tyranodex.xyz",
+  "rpc": "https://rpc.mainnet.rubin.trade",
+  "rest": "https://rest.mainnet.rubin.trade",
   "chainId": "ritbit-mainnet",
-  "chainName": "RITBIT",
+  "chainName": "Rubin",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ritbit-mainnet/chain.png",
   "nodeProvider": {
-    "name": "RITBIT",
+    "name": "Rubin",
     "email": "support@itrf.ru"
   },
   "stakeCurrency": {
@@ -64,6 +64,6 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://explorer.tyranodex.xyz/ritbit-mainnet/tx/{txHash}"
+    "txPage": "https://explorer.rubin.trade/ritbit-mainnet/tx/{txHash}"
   }
 }

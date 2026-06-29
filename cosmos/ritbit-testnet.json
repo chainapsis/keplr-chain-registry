@@ -1,11 +1,11 @@
 {
-  "rpc": "https://rpc.testnet.tyranodex.xyz",
-  "rest": "https://rest.testnet.tyranodex.xyz",
+  "rpc": "https://rpc.testnet.rubin.trade",
+  "rest": "https://rest.testnet.rubin.trade",
   "chainId": "ritbit-testnet",
-  "chainName": "RITBIT Testnet",
+  "chainName": "Rubin Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ritbit-testnet/chain.png",
   "nodeProvider": {
-    "name": "RITBIT",
+    "name": "Rubin",
     "email": "support@itrf.ru"
   },
   "bech32Config": {
@@ -62,7 +62,7 @@
   ],
   "features": [],
   "explorers": {
-    "txPage": "https://explorer.testnet.tyranodex.xyz/ritbit-testnet/tx/{txHash}"
+    "txPage": "https://explorer.testnet.rubin.trade/ritbit-testnet/tx/{txHash}"
   },
   "isTestnet": true
 }
