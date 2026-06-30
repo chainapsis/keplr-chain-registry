@@ -60,6 +60,12 @@
       "coinMinimalDenom": "factory/bze1972aqfzdg29ugjln74edx0xvcg4ehvysjptk77/CTL",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/beezee/factory/bze1972aqfzdg29ugjln74edx0xvcg4ehvysjptk77/ctl.png"
+    },
+    {
+      "coinDenom": "PHMN",
+      "coinMinimalDenom": "ibc/8605EA2EBBE7529DA769EE6550B10D54C9905E7AA20832F1FE78187F28288712",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/beezee/ibc/8605EA2EBBE7529DA769EE6550B10D54C9905E7AA20832F1FE78187F28288712.png"
     }
   ],
   "feeCurrencies": [
