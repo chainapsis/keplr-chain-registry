@@ -1,0 +1,52 @@
+{
+  "chainId": "limonata_10777-1",
+  "chainName": "Limonata Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/limonata_10777/chain.png",
+  "rpc": "https://cosmos-rpc.limonata.xyz",
+  "rest": "https://rest.limonata.xyz",
+  "nodeProvider": {
+    "name": "Limonata",
+    "email": "limonatablockchain@gmail.com",
+    "website": "https://limonata.xyz"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "cosmos",
+    "bech32PrefixAccPub": "cosmospub",
+    "bech32PrefixValAddr": "cosmosvaloper",
+    "bech32PrefixValPub": "cosmosvaloperpub",
+    "bech32PrefixConsAddr": "cosmosvalcons",
+    "bech32PrefixConsPub": "cosmosvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "LIMO",
+      "coinMinimalDenom": "aLIMO",
+      "coinDecimals": 18
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "LIMO",
+      "coinMinimalDenom": "aLIMO",
+      "coinDecimals": 18,
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "LIMO",
+    "coinMinimalDenom": "aLIMO",
+    "coinDecimals": 18
+  },
+  "features": ["eth-address-gen", "eth-key-sign", "eth-secp256k1-cosmos"],
+  "isTestnet": true,
+  "explorers": {
+    "txPage": "https://explorer.limonata.xyz/tx/{txHash}"
+  }
+}
