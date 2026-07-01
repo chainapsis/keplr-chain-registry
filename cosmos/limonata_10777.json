@@ -4,6 +4,10 @@
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/limonata_10777/chain.png",
   "rpc": "https://cosmos-rpc.limonata.xyz",
   "rest": "https://rest.limonata.xyz",
+  "evm": {
+    "chainId": 10777,
+    "rpc": "https://rpc.limonata.xyz"
+  },
   "nodeProvider": {
     "name": "Limonata",
     "email": "limonatablockchain@gmail.com",
@@ -44,7 +48,11 @@
     "coinMinimalDenom": "aLIMO",
     "coinDecimals": 18
   },
-  "features": ["eth-address-gen", "eth-key-sign", "eth-secp256k1-cosmos"],
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign",
+    "eth-secp256k1-cosmos"
+  ],
   "isTestnet": true,
   "explorers": {
     "txPage": "https://explorer.limonata.xyz/tx/{txHash}"
