@@ -1,0 +1,51 @@
+{
+  "chainId": "qorechain-diana",
+  "chainName": "QoreChain Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qorechain-diana/chain.png",
+  "rpc": "https://rpc-testnet.qore.host",
+  "rest": "https://api-testnet.qore.host",
+  "nodeProvider": {
+    "name": "QoreChain",
+    "email": "nodes@qorechain.io",
+    "website": "https://www.qorechain.io"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "qor",
+    "bech32PrefixAccPub": "qorpub",
+    "bech32PrefixValAddr": "qorvaloper",
+    "bech32PrefixValPub": "qorvaloperpub",
+    "bech32PrefixConsAddr": "qorvalcons",
+    "bech32PrefixConsPub": "qorvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "QOR",
+      "coinMinimalDenom": "uqor",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "QOR",
+      "coinMinimalDenom": "uqor",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.1,
+        "average": 0.15,
+        "high": 0.25
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "QOR",
+    "coinMinimalDenom": "uqor",
+    "coinDecimals": 6
+  },
+  "features": [
+    "cosmwasm"
+  ],
+  "isTestnet": true
+}
