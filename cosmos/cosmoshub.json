@@ -57,6 +57,12 @@
       "coinDenom": "RESP",
       "coinMinimalDenom": "factory/cosmos1nxxz937qd6zqxllwplydy6hts97c4amaqj8jxa57nsme3dmckk4s3mqujr/RESP",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/factory/cosmos1nxxz937qd6zqxllwplydy6hts97c4amaqj8jxa57nsme3dmckk4s3mqujr/RESP.png"
+    },
+    {
+      "coinDecimals": 6,
+      "coinDenom": "WEIRD",
+      "coinMinimalDenom": "factory/cosmos1qq6jp560cq3dg83lw9ss9azvxvzcsm593y96gg6fp2792e95ndpqnp9t5r/weird",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/factory/cosmos1qq6jp560cq3dg83lw9ss9azvxvzcsm593y96gg6fp2792e95ndpqnp9t5r/WEIRD.png"
     }
   ],
   "features": [
