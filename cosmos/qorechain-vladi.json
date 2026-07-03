@@ -1,0 +1,53 @@
+{
+  "chainId": "qorechain-vladi",
+  "chainName": "QoreChain",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/qorechain-vladi/chain.png",
+  "rpc": "https://rpc.qore.host",
+  "rest": "https://api.qore.host",
+  "nodeProvider": {
+    "name": "QoreChain",
+    "email": "nodes@qorechain.io",
+    "website": "https://www.qorechain.io"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "qor",
+    "bech32PrefixAccPub": "qorpub",
+    "bech32PrefixValAddr": "qorvaloper",
+    "bech32PrefixValPub": "qorvaloperpub",
+    "bech32PrefixConsAddr": "qorvalcons",
+    "bech32PrefixConsPub": "qorvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "QOR",
+      "coinMinimalDenom": "uqor",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "QOR",
+      "coinMinimalDenom": "uqor",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.1,
+        "average": 0.15,
+        "high": 0.25
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "QOR",
+    "coinMinimalDenom": "uqor",
+    "coinDecimals": 6
+  },
+  "features": [
+    "cosmwasm"
+  ],
+  "explorers": {
+    "txPage": "https://explore.qore.network/tx/{txHash}"
+  }
+}
