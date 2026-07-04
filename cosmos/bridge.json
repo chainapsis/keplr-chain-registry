@@ -1,0 +1,56 @@
+{
+    "rpc": "https://bridge.uquad.org/rpc",
+    "rest": "https://bridge.uquad.org/rest",
+    "nodeProvider": {
+        "name": "QUAD Bridge",
+        "website": "https://bridge.uquad.org/",
+        "discord": "https://discord.gg/jrnQaaQN3G"
+    },
+    "chainId": "bridge-1",
+    "chainName": "QUAD Bridge",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bridge/chain.png",
+    "stakeCurrency": {
+        "coinDenom": "OBOL",
+        "coinMinimalDenom": "uobol",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bridge/chain.png"
+    },
+    "walletUrl": "https://wallet.uquad.org/",
+    "bip44": {
+        "coinType": 118
+    },
+    "bech32Config": {
+        "bech32PrefixAccAddr": "bridge",
+        "bech32PrefixAccPub": "bridgepub",
+        "bech32PrefixValAddr": "bridgevaloper",
+        "bech32PrefixValPub": "bridgevaloperpub",
+        "bech32PrefixConsAddr": "bridgevalcons",
+        "bech32PrefixConsPub": "bridgevalconspub"
+    },
+    "currencies": [
+        {
+            "coinDenom": "OBOL",
+            "coinMinimalDenom": "uobol",
+            "coinDecimals": 6,
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bridge/chain.png"
+        }
+    ],
+    "feeCurrencies": [
+        {
+            "coinDenom": "OBOL",
+            "coinMinimalDenom": "uobol",
+            "coinDecimals": 6,
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bridge/chain.png",
+            "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+            }
+        }
+    ],
+    "features": [],
+    "isTestnet": false,
+    "explorers": {
+        "txPage": "https://bridge.uquad.org/tx?hash={txHash}"
+    }
+}
