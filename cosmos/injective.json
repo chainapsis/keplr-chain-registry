@@ -238,6 +238,12 @@
       "coinMinimalDenom": "factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_3_0181da33a45490e9",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/eric.png"
+    },
+    {
+      "coinDenom": "HELIXPOINT",
+      "coinMinimalDenom": "factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_8_be9bddf36b94db69",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/helixpoint.png"
     }
   ],
   "feeCurrencies": [
