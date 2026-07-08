@@ -46,9 +46,9 @@
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/blockmaze_6162/bmz.png",
       "gasPriceStep": {
-        "low": 1000000000,
-        "average": 1500000000,
-        "high": 2000000000
+        "low": 150000000000,
+        "average": 175000000000,
+        "high": 200000000000
       }
     }
   ],
