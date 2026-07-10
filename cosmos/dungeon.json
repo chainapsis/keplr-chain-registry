@@ -1,14 +1,21 @@
 {
-  "chainId": "dungeon-1",
-  "chainName": "Dungeonchain",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png",
   "rpc": "https://rpc.dungeongames.io",
   "rest": "https://api.dungeongames.io",
   "nodeProvider": {
     "name": "Crypto Dungeon",
-    "email": "cryptodungeonma@gmail.com",
-    "website": "https://www.cryptodungeon.org/"
+    "email": "support@dungeongames.io",
+    "website": "https://dungeongames.io"
   },
+  "chainId": "dungeon-1",
+  "chainName": "Dungeon",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "DGN",
+    "coinMinimalDenom": "udgn",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/udgn.png"
+  },
+  "walletUrlForStaking": "https://dex.dungeongames.io",
   "bip44": {
     "coinType": 118
   },
@@ -24,9 +31,14 @@
     {
       "coinDenom": "DGN",
       "coinMinimalDenom": "udgn",
-      "coinGeckoId": "dragon-coin-2",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/udgn.png"
+    },
+    {
+      "coinDenom": "WBTC",
+      "coinMinimalDenom": "factory/dungeon1wtzjvusmm6r370k0nfwtejywl4qklf7rmhf0ng43tdsqh70cljjqc7gh6q/wbtc",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/wbtc.png"
     }
   ],
   "feeCurrencies": [
@@ -34,26 +46,15 @@
       "coinDenom": "DGN",
       "coinMinimalDenom": "udgn",
       "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/udgn.png",
       "gasPriceStep": {
         "low": 0.05,
         "average": 0.07,
-        "high": 0.09
-      },
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png",
-      "coinGeckoId": "dragon-coin-2"
+        "high": 0.1
+      }
     }
   ],
-  "stakeCurrency": {
-    "coinDenom": "DGN",
-    "coinMinimalDenom": "udgn",
-    "coinDecimals": 6,
-    "coinGeckoId": "dragon-coin-2",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png"
-  },
   "features": [
     "cosmwasm"
-  ],
-  "explorers": {
-    "txPage": "https://ping.pub/Dungeonchain/tx/{txHash}"
-  }
+  ]
 }
