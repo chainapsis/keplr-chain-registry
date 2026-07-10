@@ -4,10 +4,14 @@ on:
     types: [opened, synchronize]
     branches: [main]
 
+permissions:
+  contents: read
+  pull-requests: read
+
 jobs:
   validation:
     name: Pull Request Suggest Chain Validation
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Checkout
@@ -25,16 +29,20 @@ jobs:
 
       - name: Get changed files
         id: changed-files
-        uses: tj-actions/changed-files@v34
+        uses: step-security/changed-files@v47.0.5
         with:
+          use_rest_api: true
           files: |
             cosmos/**
             evm/**
+            svm/**
 
       - name: Validate changed files
         run: |
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            if [[ $file == *".json"* ]]; then
-              yarn ts-node src/index.ts $file
+            if [[ "$file" == *".json"* ]]; then
+              yarn ts-node src/index.ts "$file"
             fi
           done
+        env:
+          PRICE_URL: ${{ secrets.PRICE_URL }}

@@ -1,0 +1,54 @@
+{
+  "chainId": "ethwei-testnet-1",
+  "chainName": "Ethwei Testnet",
+  "nodeProvider": {
+    "name": "CyphCube",
+    "email": "info@cyphcube.com",
+    "website": "https://ethwei.com"
+  },
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ethwei-testnet/chain.png",
+  "rpc": "https://rpc-testnet.ethwei.com",
+  "rest": "https://api-testnet.ethwei.com",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "ete",
+    "bech32PrefixAccPub": "etepub",
+    "bech32PrefixValAddr": "etevaloper",
+    "bech32PrefixValPub": "etevaloperpub",
+    "bech32PrefixConsAddr": "etevalcons",
+    "bech32PrefixConsPub": "etevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "ETE",
+      "coinMinimalDenom": "WEI",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ethwei-testnet/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ETE",
+      "coinMinimalDenom": "WEI",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.04
+      },
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ethwei-testnet/chain.png"
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "ETE",
+    "coinMinimalDenom": "WEI",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ethwei-testnet/chain.png"
+  },
+  "explorers": {
+    "txPage": "https://explorer.ethwei.com/testnet/tx/{txHash}"
+  },
+  "isTestnet": true
+}

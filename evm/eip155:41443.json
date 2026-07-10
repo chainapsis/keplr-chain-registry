@@ -1,0 +1,35 @@
+{
+  "rpc": "https://erpc.nesa.ai",
+  "websocket": "wss://ewss.nesa.ai",
+  "nodeProvider": {
+    "name": "Nesa",
+    "email": "hi@nesa.ai",
+    "website": "https://nesa.ai"
+  },
+  "chainId": "eip155:41443",
+  "chainName": "Nesa",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:41443/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "NES",
+      "coinMinimalDenom": "nesa-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:41443/nesa-native.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "NES",
+      "coinMinimalDenom": "nesa-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:41443/nesa-native.png"
+    }
+  ],
+  "features": [],
+  "explorers": {
+    "txPage": "https://explorer-evm.nesa.ai/tx/0x{txHash}"
+  }
+}

@@ -1,0 +1,48 @@
+{
+    "chainId": "rubcoin",
+    "chainName": "Rubcoin",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rubcoin/chain.png",
+    "rpc": "https://rpc.rubcoin.online",
+    "rest": "https://api.rubcoin.online",
+    "nodeProvider": {
+      "name": "Rubcoin",
+      "email": "admin@rubcoin.online",
+      "website": "https://rubcoin.online/"
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "rubcoin",
+      "bech32PrefixAccPub": "rubcoinpub",
+      "bech32PrefixValAddr": "rubcoinvaloper",
+      "bech32PrefixValPub": "rubcoinvaloperpub",
+      "bech32PrefixConsAddr": "rubcoinvalcons",
+      "bech32PrefixConsPub": "rubcoinvalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "RUBCOIN",
+        "coinMinimalDenom": "urubcoin",
+        "coinDecimals": 6
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "RUBCOIN",
+        "coinMinimalDenom": "urubcoin",
+        "coinDecimals": 6,
+        "gasPriceStep": {
+          "low": 0.025,
+          "average": 0.03,
+          "high": 0.035
+        }
+      }
+    ],
+    "stakeCurrency": {
+      "coinDenom": "RUBCOIN",
+      "coinMinimalDenom": "urubcoin",
+      "coinDecimals": 6
+    },
+    "features": []
+  }

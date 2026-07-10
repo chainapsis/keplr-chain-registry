@@ -44,5 +44,6 @@
     "name": "Phi Labs",
     "email": "support@philabs.xyz",
     "website":"https://philabs.xyz"
-  }
+  },
+  "isTestnet": true
 }

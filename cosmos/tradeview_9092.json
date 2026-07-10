@@ -1,0 +1,56 @@
+{
+    "rpc": "https://tendermint.devnet.tradeview.com",
+    "rest": "https://swagger.devnet.tradeview.com",
+    "chainId": "tradeview_9092-1",
+    "chainName": "TradeView-devnet",
+    "evm": {
+      "chainId": 9092,
+      "rpc": "https://evm.devnet.tradeview.com"
+    },
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tradeview_9092/chain.png",
+    "stakeCurrency": {
+      "coinDenom": "TVX",
+      "coinMinimalDenom": "tvx",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tradeview_9092/tvx.png"
+    },
+    "nodeProvider":{
+      "name":"TradeView",
+      "email":"developer@tradeview.com"
+    },
+    "bip44": {
+      "coinType": 60
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "tradeview",
+      "bech32PrefixAccPub": "tradeviewpub",
+      "bech32PrefixValAddr": "tradeviewvaloper",
+      "bech32PrefixValPub": "tradeviewvaloperpub",
+      "bech32PrefixConsAddr": "tradeviewvalcons",
+      "bech32PrefixConsPub": "tradeviewvalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "TVX",
+        "coinMinimalDenom": "tvx",
+        "coinDecimals": 18,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tradeview_9092/tvx.png"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "TVX",
+        "coinMinimalDenom": "tvx",
+        "coinDecimals": 18,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tradeview_9092/tvx.png",
+        "gasPriceStep": {
+          "low": 80000000000,
+          "average": 80000000000,
+          "high": 80000000000
+        }
+      }
+    ],
+    "features": ["eth-address-gen", "eth-key-sign"],
+    "isTestnet": true
+  }
+  

@@ -1,6 +1,6 @@
 {
   "chainId": "swisstronik_1291-1",
-  "chainName": "Swisstronik",
+  "chainName": "Swisstronik Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/swisstronik_1291/chain.png",
   "rpc": "https://rpc.testnet.swisstronik.com",
   "rest": "https://api.testnet.swisstronik.com",
@@ -48,5 +48,6 @@
     }
   ],
   "walletUrlForStaking": "https://explorer-cosmos.testnet.swisstronik.com/swisstronik/staking",
-  "features": ["eth-address-gen", "eth-key-sign"]
+  "features": ["eth-address-gen", "eth-key-sign"],
+  "isTestnet": true
 }

@@ -47,5 +47,6 @@
     "name": "Lava",
     "website": "https://www.lavanet.xyz/",
     "email": "amir@lava.foundation"
-  }
+  },
+  "isTestnet": true
 }
