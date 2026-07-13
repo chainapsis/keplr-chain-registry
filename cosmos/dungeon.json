@@ -1,0 +1,60 @@
+{
+  "rpc": "https://rpc.dungeongames.io",
+  "rest": "https://api.dungeongames.io",
+  "nodeProvider": {
+    "name": "Crypto Dungeon",
+    "email": "support@dungeongames.io",
+    "website": "https://dungeongames.io"
+  },
+  "chainId": "dungeon-1",
+  "chainName": "Dungeon",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "DGN",
+    "coinMinimalDenom": "udgn",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/udgn.png"
+  },
+  "walletUrlForStaking": "https://dex.dungeongames.io",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "dungeon",
+    "bech32PrefixAccPub": "dungeonpub",
+    "bech32PrefixValAddr": "dungeonvaloper",
+    "bech32PrefixValPub": "dungeonvaloperpub",
+    "bech32PrefixConsAddr": "dungeonvalcons",
+    "bech32PrefixConsPub": "dungeonvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "DGN",
+      "coinMinimalDenom": "udgn",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/udgn.png"
+    },
+    {
+      "coinDenom": "WBTC",
+      "coinMinimalDenom": "factory/dungeon1wtzjvusmm6r370k0nfwtejywl4qklf7rmhf0ng43tdsqh70cljjqc7gh6q/wbtc",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/wbtc.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "DGN",
+      "coinMinimalDenom": "udgn",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/udgn.png",
+      "gasPriceStep": {
+        "low": 0.05,
+        "average": 0.07,
+        "high": 0.1
+      }
+    }
+  ],
+  "features": [
+    "cosmwasm"
+  ]
+}
