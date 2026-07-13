@@ -244,6 +244,12 @@
       "coinMinimalDenom": "factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_8_be9bddf36b94db69",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/helixpoint.png"
+    },
+    {
+      "coinDenom": "BERB",
+      "coinMinimalDenom": "factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_11_273ee1ea53abbcad",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/berb.png"
     }
   ],
   "feeCurrencies": [
