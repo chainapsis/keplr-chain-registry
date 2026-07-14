@@ -51,6 +51,7 @@
         }
       }
     ],
-    "features": ["eth-address-gen", "eth-key-sign","cosmwasm"]
+    "features": ["eth-address-gen", "eth-key-sign","cosmwasm"],
+    "isTestnet": true
   }
   

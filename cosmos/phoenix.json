@@ -99,6 +99,11 @@
     "coinGeckoId": "terra-luna-2",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/uluna.png"
   },
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/terra",
-  "features": ["cosmwasm"]
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/terra?modal=staking&chain=phoenix-1&step_id=2",
+  "features": [
+    "cosmwasm"
+  ],
+  "explorers": {
+    "txPage": "https://www.mintscan.io/terra/tx/{txHash}"
+  }
 }

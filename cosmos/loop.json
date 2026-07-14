@@ -3,7 +3,7 @@
   "rest": "https://api.loop.pfc.zone",
   "nodeProvider": {
     "name": "PFC",
-    "website":"https://pfc.zone/",
+    "website": "https://pfc.zone/",
     "email": "pfc@pfc.zone"
   },
   "chainId": "loop-1",
@@ -45,12 +45,11 @@
       "coinMinimalDenom": "upoa",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.0,
-        "average": 0.0,
-        "high": 0.0
+        "low": 0,
+        "average": 0,
+        "high": 0
       }
     },
-
     {
       "coinDenom": "TOKEN",
       "coinMinimalDenom": "token",
@@ -59,9 +58,11 @@
       "gasPriceStep": {
         "low": 0,
         "average": 0,
-        "high": 0.0
+        "high": 0
       }
     }
   ],
-  "features": ["cosmwasm"]
+  "features": [
+    "cosmwasm"
+  ]
 }

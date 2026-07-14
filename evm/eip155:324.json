@@ -1,0 +1,51 @@
+{
+  "rpc": "https://mainnet.era.zksync.io",
+  "websocket": "wss://mainnet.era.zksync.io/ws",
+  "nodeProvider": {
+    "name": "ZKsync",
+    "website": "https://zksync.io",
+    "discord": "https://join.zksync.dev/"
+  },
+  "chainId": "eip155:324",
+  "chainName": "ZKsync Era",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:324/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "ETH",
+      "coinMinimalDenom": "zksync-native",
+      "coinDecimals": 18,
+      "coinGeckoId": "ethereum",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:324/zksync-native.png"
+    },
+    {
+      "coinDenom": "ZK",
+      "coinMinimalDenom": "erc20:0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e",
+      "coinDecimals": 18,
+      "coinGeckoId": "zksync",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:324/erc20/0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e.png"
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "erc20:0x1d17cbcf0d6d143135ae902365d2e5e2a16538d4",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:324/erc20/0x1d17cbcf0d6d143135ae902365d2e5e2a16538d4.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ETH",
+      "coinMinimalDenom": "zksync-native",
+      "coinDecimals": 18,
+      "coinGeckoId": "ethereum",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:324/zksync-native.png"
+    }
+  ],
+  "features": [],
+  "explorers": {
+    "txPage": "https://explorer.zksync.io/tx/0x{txHash:lowercase}"
+  }
+}

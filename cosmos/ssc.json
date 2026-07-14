@@ -7,7 +7,7 @@
   "bip44": {
     "coinType": 118
   },
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/saga",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/saga?modal=staking&chain=ssc-1&step_id=2",
   "bech32Config": {
     "bech32PrefixAccAddr": "saga",
     "bech32PrefixAccPub": "sagapub",
@@ -45,5 +45,11 @@
     "coinDecimals": 6,
     "coinGeckoId": "saga-2",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ssc/chain.png"
+  },
+  "features": [
+    "authz-msg-revoke-fixed"
+  ],
+  "explorers": {
+    "txPage": "https://www.mintscan.io/saga/tx/{txHash}"
   }
 }

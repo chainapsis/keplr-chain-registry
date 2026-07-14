@@ -1,11 +1,11 @@
 {
-  "rpc": "https://tendermint.shidoscan.com",
-  "rest": "https://swagger.shidoscan.com",
+  "rpc": "https://rpc.shidoscan.net",
+  "rest": "https://api.shidoscan.net",
   "chainId": "shido_9008-1",
   "chainName": "Shido",
   "evm": {
     "chainId": 9008,
-    "rpc": "https://rpc-nodes.shidoscan.com"
+    "rpc": "https://evm.shidoscan.net"
   },
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shido_9008/chain.png",
   "stakeCurrency": {
@@ -15,10 +15,10 @@
     "coinGeckoId": "shido-2",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shido_9008/shido.png"
   },
-  "nodeProvider":{
-    "name":"Shido",
-    "email":"info@shido.finance",
-    "website":"https://shido.io/"
+  "nodeProvider": {
+    "name": "Shido",
+    "email": "info@shido.finance",
+    "website": "https://shido.io/"
   },
   "bip44": {
     "coinType": 60
@@ -54,5 +54,12 @@
       }
     }
   ],
-  "features": ["eth-address-gen", "eth-key-sign","cosmwasm"]
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign",
+    "cosmwasm"
+  ],
+  "explorers": {
+    "txPage": "https://shidoscan.com/tx/{txHash}"
+  }
 }

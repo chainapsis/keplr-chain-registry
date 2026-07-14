@@ -2,8 +2,8 @@
   "chainId": "kaiyo-1",
   "chainName": "Kujira",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kaiyo/chain.png",
-  "rpc": "https://kujira-rpc.nodes.defiantlabs.net",
-  "rest": "https://rest.cosmos.directory/kujira/",
+  "rpc": "https://kujira.ibs.team/rpc",
+  "rest": "https://kujira.ibs.team/api",
   "nodeProvider": {
     "name": "PFC",
     "email": "pfc-validator@protonmail.com",
@@ -152,6 +152,12 @@
       "coinMinimalDenom": "ibc/1B38805B1C75352B28169284F96DF56BDEBD9E8FAC005BDCC8CF0378C82AA8E7",
       "coinDecimals": 18,
       "coinGeckoId": "ethereum"
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "ibc/FE98AAD68F02F03565E9FA39A5E627946699B2B07115889ED812D8BA639576A9",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin"
     }
   ],
   "stakeCurrency": {
@@ -163,5 +169,8 @@
   },
   "features": [
     "cosmwasm"
-  ]
+  ],
+  "explorers": {
+    "txPage": "https://finder.kujira.app/kaiyo-1/tx/{txHash}"
+  }
 }

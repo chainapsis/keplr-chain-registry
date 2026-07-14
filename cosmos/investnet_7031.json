@@ -1,0 +1,56 @@
+{
+    "rpc": "https://tendermint.devnet.invest.net",
+    "rest": "https://swagger.devnet.invest.net",
+    "chainId": "investnet_7031-1",
+    "chainName": "Invest Network-devnet",
+    "evm": {
+      "chainId": 7031,
+      "rpc": "https://evm.devnet.invest.net"
+    },
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/investnet_7031/chain.png",
+    "stakeCurrency": {
+      "coinDenom": "INVST",
+      "coinMinimalDenom": "invst",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/investnet_7031/invst.png"
+    },
+    "nodeProvider":{
+      "name":"Invest Network",
+      "email":"developer@invest.net"
+    },
+    "bip44": {
+      "coinType": 60
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "investnet",
+      "bech32PrefixAccPub": "investnetpub",
+      "bech32PrefixValAddr": "investnetvaloper",
+      "bech32PrefixValPub": "investnetvaloperpub",
+      "bech32PrefixConsAddr": "investnetvalcons",
+      "bech32PrefixConsPub": "investnetvalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "INVST",
+        "coinMinimalDenom": "invst",
+        "coinDecimals": 18,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/investnet_7031/invst.png"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "INVST",
+        "coinMinimalDenom": "invst",
+        "coinDecimals": 18,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/investnet_7031/invst.png",
+        "gasPriceStep": {
+          "low": 80000000000,
+          "average": 80000000000,
+          "high": 80000000000
+        }
+      }
+    ],
+    "features": ["eth-address-gen", "eth-key-sign"],
+    "isTestnet": true
+  }
+  

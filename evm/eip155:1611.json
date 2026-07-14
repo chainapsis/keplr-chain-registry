@@ -1,0 +1,41 @@
+{
+  "rpc": "https://evm.nvnmchain.io",
+  "nodeProvider": {
+    "name": "NVNM Chain",
+    "email": "contact@nvnmchain.io",
+    "website": "https://www.nvnmchain.io/"
+  },
+  "chainId": "eip155:1611",
+  "chainName": "NVNM Mainnet EVM",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1611/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "stakeCurrency": {
+    "coinDenom": "MANTRAUSD",
+    "coinMinimalDenom": "amantrausd",
+    "coinDecimals": 18,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1611/mantraUSD.png"
+  },
+  "currencies": [
+    {
+      "coinDenom": "MANTRAUSD",
+      "coinMinimalDenom": "amantrausd",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1611/mantraUSD.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "MANTRAUSD",
+      "coinMinimalDenom": "amantrausd",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1611/mantraUSD.png"
+    }
+  ],
+  "features": [],
+  "isTestnet": false,
+  "explorers": {
+    "txPage": "https://explorer.evm.nvnmchain.io/tx/{txHash}"
+  }
+}

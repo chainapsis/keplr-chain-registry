@@ -20,9 +20,54 @@
       "coinGeckoId": "cosmos",
       "coinMinimalDenom": "uatom",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/uatom.png"
+    },
+    {
+      "coinDecimals": 6,
+      "coinDenom": "NTHR",
+      "coinMinimalDenom": "factory/cosmos1wdja2gcsesyl07raq9jm3rcvu0sse5zkev0h8m/Nether",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/factory/cosmos1wdja2gcsesyl07raq9jm3rcvu0sse5zkev0h8m/Nether.png"
+    },
+    {
+      "coinDecimals": 6,
+      "coinDenom": "CINN",
+      "coinMinimalDenom": "factory/cosmos1czdq25vuxw64gcj3lwvl3z93l76d92y7nys9u2/cinn",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/factory/cosmos1czdq25vuxw64gcj3lwvl3z93l76d92y7nys9u2/cinn.png"
+    },
+    {
+      "coinDecimals": 6,
+      "coinDenom": "ART",
+      "coinMinimalDenom": "factory/cosmos1w9ee57gnduzm4l9h6xwn9tee9pyh8wlr4r9r35/art",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/factory/cosmos1w9ee57gnduzm4l9h6xwn9tee9pyh8wlr4r9r35/art.png"
+    },
+    {
+      "coinDecimals": 6,
+      "coinDenom": "STARS",
+      "coinGeckoId": "stargaze",
+      "coinMinimalDenom": "factory/cosmos1s8qx0zvz8yd6e4x0mqmqf7fr9vvfn6226hkvrq/ustars",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/factory/cosmos1s8qx0zvz8yd6e4x0mqmqf7fr9vvfn6226hkvrq/ustars.png"
+    },
+    {
+      "coinDecimals": 6,
+      "coinDenom": "PHMN",
+      "coinMinimalDenom": "factory/cosmos146s5j3t7gh2g37ywm47dp8avhesu2htvjjaxq7z55e7xj0rq0k8q5qnjjy/PHMN",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/factory/cosmos146s5j3t7gh2g37ywm47dp8avhesu2htvjjaxq7z55e7xj0rq0k8q5qnjjy/PHMN.png"
+    },
+    {
+      "coinDecimals": 6,
+      "coinDenom": "RESP",
+      "coinMinimalDenom": "factory/cosmos1nxxz937qd6zqxllwplydy6hts97c4amaqj8jxa57nsme3dmckk4s3mqujr/RESP",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/factory/cosmos1nxxz937qd6zqxllwplydy6hts97c4amaqj8jxa57nsme3dmckk4s3mqujr/RESP.png"
+    },
+    {
+      "coinDecimals": 6,
+      "coinDenom": "WEIRD",
+      "coinMinimalDenom": "factory/cosmos1qq6jp560cq3dg83lw9ss9azvxvzcsm593y96gg6fp2792e95ndpqnp9t5r/weird",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/factory/cosmos1qq6jp560cq3dg83lw9ss9azvxvzcsm593y96gg6fp2792e95ndpqnp9t5r/WEIRD.png"
     }
   ],
-  "features": [],
+  "features": [
+    "ibc-v2"
+  ],
   "feeCurrencies": [
     {
       "coinDecimals": 6,
@@ -46,5 +91,8 @@
     "coinMinimalDenom": "uatom",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/uatom.png"
   },
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/cosmos-hub"
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/cosmos-hub?modal=staking&chain=cosmoshub-4&step_id=2",
+  "explorers": {
+    "txPage": "https://www.mintscan.io/cosmos/tx/{txHash}"
+  }
 }

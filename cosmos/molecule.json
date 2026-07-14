@@ -1,0 +1,52 @@
+{
+  "chainId": "molecule",
+  "chainName": "MoleculeAI",
+
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/molecule/chain.png",
+
+  "rpc":  "https://rpc.moleculeai.tech",
+  "rest": "https://api.moleculeai.tech",
+
+  "nodeProvider": {
+    "name": "MoleculeAI Core",
+    "email": "contact@moleculeai.tech",
+    "website": "https://moleculeai.tech"
+  },
+
+  "bip44": { "coinType": 118 },
+
+  "bech32Config": {
+    "bech32PrefixAccAddr":  "molecule",
+    "bech32PrefixAccPub":   "moleculepub",
+    "bech32PrefixValAddr":  "moleculevaloper",
+    "bech32PrefixValPub":   "moleculevaloperpub",
+    "bech32PrefixConsAddr": "moleculevalcons",
+    "bech32PrefixConsPub":  "moleculevalconspub"
+  },
+
+  "currencies": [
+    {
+      "coinDenom":        "MOLAI",
+      "coinMinimalDenom": "molai",
+      "coinDecimals":      6
+    }
+  ],
+
+  "feeCurrencies": [
+    {
+      "coinDenom":        "MOLAI",
+      "coinMinimalDenom": "molai",
+      "coinDecimals":      6,
+      "gasPriceStep": { "low": 0.01, "average": 0.025, "high": 0.03 }
+    }
+  ],
+
+  "stakeCurrency": {
+    "coinDenom":        "MOLAI",
+    "coinMinimalDenom": "molai",
+    "coinDecimals":      6
+  },
+
+  "features": ["cosmwasm"]
+}
+

@@ -1,0 +1,32 @@
+{
+  "rpc": "https://rpc.moneypoolscash.com",
+  "websocket": "wss://rpc.moneypoolscash.com",
+  "nodeProvider": {
+    "name": "MPCQ",
+    "email": "admin@moneypoolscash.com",
+    "website": "https://mpcq.moneypoolscash.com"
+  },
+  "chainId": "eip155:262144",
+  "chainName": "MPCQ Network",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:262144/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "MPCQ",
+      "coinMinimalDenom": "mpcq-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:262144/mpcq-native.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "MPCQ",
+      "coinMinimalDenom": "mpcq-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:262144/mpcq-native.png"
+    }
+  ],
+  "features": []
+}
