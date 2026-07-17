@@ -2,8 +2,8 @@
   "chainId": "tail-1",
   "chainName": "TAIL Network",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/tail/images/logo-mark.png",
-  "rpc": "http://rpc.trusttails.io:26657",
-  "rest": "http://api.trusttails.io:1317",
+  "rpc": "https://rpc.trusttails.io",
+  "rest": "https://api.trusttails.io",
   "nodeProvider": {
     "name": "TrustTails",
     "email": "trusttailscoin@gmail.com",
