@@ -1,0 +1,47 @@
+{
+  "chainId": "tail-1",
+  "chainName": "TAIL Network",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/tail/images/logo-mark.png",
+  "rpc": "http://rpc.trusttails.io:26657",
+  "rest": "http://api.trusttails.io:1317",
+  "nodeProvider": {
+    "name": "TrustTails",
+    "email": "trusttailscoin@gmail.com",
+    "website": "https://trusttails.io"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "tail",
+    "bech32PrefixAccPub": "tailpub",
+    "bech32PrefixValAddr": "tailvaloper",
+    "bech32PrefixValPub": "tailvaloperpub",
+    "bech32PrefixConsAddr": "tailvalcons",
+    "bech32PrefixConsPub": "tailvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "TAIL",
+      "coinMinimalDenom": "utail",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "TAIL",
+      "coinMinimalDenom": "utail",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.0025,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "TAIL",
+    "coinMinimalDenom": "utail",
+    "coinDecimals": 6
+  }
+}
