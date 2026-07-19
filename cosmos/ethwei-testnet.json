@@ -4,7 +4,7 @@
   "nodeProvider": {
     "name": "CyphCube",
     "email": "info@cyphcube.com",
-    "website": "https://ethwei.com"
+    "website": "https://cyphcube.com"
   },
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ethwei-testnet/chain.png",
   "rpc": "https://rpc-testnet.ethwei.com",
