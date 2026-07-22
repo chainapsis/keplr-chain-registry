@@ -1,11 +1,11 @@
 {
-  "rpc": "https://v2-tendermint.testnet.stackflow.site",
-  "rest": "https://v2-bm-api.testnet.stackflow.site",
+  "rpc": "https://testnet-tendermint.blockmaze.com",
+  "rest": "https://testnet-bm-api.blockmaze.com",
   "chainId": "blockmaze_6162-1",
   "chainName": "Blockmaze Testnet V2",
   "evm": {
     "chainId": 6162,
-    "rpc": "https://v2-evm-rpc.testnet.stackflow.site"
+    "rpc": "https://testnet-evm-rpc.blockmaze.com"
   },
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/blockmaze_6162/chain.png",
   "walletUrlForStaking": "https://delegator.testnet.stackflow.site",
