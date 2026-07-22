@@ -1,0 +1,47 @@
+{
+  "chainId": "tail-1",
+  "chainName": "TAIL Network",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tail/tail.png",
+  "rpc": "https://rpc.trusttails.io",
+  "rest": "https://api.trusttails.io",
+  "nodeProvider": {
+    "name": "TrustTails",
+    "email": "trusttailscoin@gmail.com",
+    "website": "https://trusttails.io"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "tail",
+    "bech32PrefixAccPub": "tailpub",
+    "bech32PrefixValAddr": "tailvaloper",
+    "bech32PrefixValPub": "tailvaloperpub",
+    "bech32PrefixConsAddr": "tailvalcons",
+    "bech32PrefixConsPub": "tailvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "TAIL",
+      "coinMinimalDenom": "utail",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "TAIL",
+      "coinMinimalDenom": "utail",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.0025,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "TAIL",
+    "coinMinimalDenom": "utail",
+    "coinDecimals": 6
+  }
+}
