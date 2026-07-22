@@ -1,5 +1,5 @@
 {
-  "rpc": "https://bsc-rpc.keccak.io",
+  "rpc": "https://bsc.api.pocket.network",
   "websocket": "wss://bsc-rpc.publicnode.com",
   "chainId": "eip155:56",
   "chainName": "BNB Smart Chain",
