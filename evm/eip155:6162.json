@@ -1,6 +1,6 @@
 {
-  "rpc": "https://v2-evm-rpc.testnet.stackflow.site",
-  "websocket": "wss://v2-evm-rpc.testnet.stackflow.site",
+  "rpc": "https://testnet-evm-rpc.blockmaze.com",
+  "websocket": "wss://testnet-evm-ws.blockmaze.com",
   "chainId": "eip155:6162",
   "chainName": "Blockmaze Testnet V2 (EVM)",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:6162/chain.png",
@@ -36,6 +36,6 @@
   "features": [],
   "isTestnet": true,
   "explorers": {
-    "txPage": "https://explorer.testnet.stackflow.site/evm/tx/{txHash}"
+    "txPage": "https://testnet-explorer.bmzscan.com/evm/tx/{txHash}"
   }
 }
