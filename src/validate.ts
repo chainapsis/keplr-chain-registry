@@ -330,6 +330,14 @@ export const checkCurrencies = (chainInfo: ChainInfo) => {
       ) {
         continue;
       }
+      // nBTC on Osmosis from Nomic.
+      if (
+        ChainIdHelper.parse(chainInfo.chainId).identifier === "osmosis" &&
+        currency.coinMinimalDenom ===
+          "ibc/75345531D87BD90BF108BE7240BD721CB2CB0A1F16D4EBA71B09EC3C43E15C8F"
+      ) {
+        continue;
+      }
 
       throw new Error(
         `Do not provide ibc currency to currencies: ${currency.coinMinimalDenom}`,
