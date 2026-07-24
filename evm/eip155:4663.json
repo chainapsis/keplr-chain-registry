@@ -1,6 +1,6 @@
 {
   "rpc": "https://rpc.mainnet.chain.robinhood.com",
-  "websocket": "wss://feed.mainnet.chain.robinhood.com",
+  "websocket": "wss://robinhood-rpc.publicnode.com",
   "nodeProvider": {
     "name": "Robinhood",
     "email": "chain-developers-group@robinhood.com",
