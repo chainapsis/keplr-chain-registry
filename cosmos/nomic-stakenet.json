@@ -1,0 +1,62 @@
+{
+  "rpc": "https://stakenet-rpc.nomic.io:2096",
+  "rest": "https://app.nomic.io:8443",
+  "chainId": "nomic-stakenet-3",
+  "chainName": "Nomic",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nomic-stakenet/chain.png",
+  "nodeProvider": {
+    "name": "Nomic",
+    "discord": "https://discord.gg/nomic",
+    "website": "https://nomic.io/"
+  },
+  "stakeCurrency": {
+    "coinDenom": "NOM",
+    "coinMinimalDenom": "unom",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nomic-stakenet/unom.png"
+  },
+  "walletUrl": "https://app.nomic.io",
+  "walletUrlForStaking": "https://app.nomic.io/staking",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "nomic",
+    "bech32PrefixAccPub": "nomic",
+    "bech32PrefixValAddr": "nomic",
+    "bech32PrefixValPub": "nomic",
+    "bech32PrefixConsAddr": "nomic",
+    "bech32PrefixConsPub": "nomic"
+  },
+  "currencies": [
+    {
+      "coinDenom": "NOM",
+      "coinMinimalDenom": "unom",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nomic-stakenet/unom.png"
+    },
+    {
+      "coinDenom": "nBTC",
+      "coinMinimalDenom": "usat",
+      "coinDecimals": 14,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nomic-stakenet/usat.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "NOM",
+      "coinMinimalDenom": "unom",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/nomic-stakenet/unom.png",
+      "gasPriceStep": {
+        "low": 0,
+        "average": 0,
+        "high": 0
+      }
+    }
+  ],
+  "features": [],
+  "explorers": {
+    "txPage": "https://bigdipper.live/nomic/transactions/{txHash}"
+  }
+}
