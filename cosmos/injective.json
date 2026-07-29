@@ -3,8 +3,8 @@
   "rest": "https://lcd-injective.keplr.app",
   "evm": {
     "chainId": 1776,
-    "rpc": "https://sentry.evm-rpc.injective.network",
-    "websocket": "wss://sentry.evm-ws.injective.network"
+    "rpc": "https://evm-injective.keplr.app",
+    "websocket": "wss://ws-evm-injective.keplr.app"
   },
   "chainId": "injective-1",
   "chainName": "Injective",
