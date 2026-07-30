@@ -46,9 +46,9 @@
       "coinMinimalDenom": "urit",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/ritbit-mainnet/chain.png",
       "gasPriceStep": {
-        "low": 12500000000,
-        "average": 12500000000,
-        "high": 20000000000
+        "low": 25000000000,
+        "average": 30000000000,
+        "high": 40000000000
       }
     },
     {
