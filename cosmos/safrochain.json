@@ -9,7 +9,9 @@
     "email": "dev@safrochain.com",
     "website": "https://safrochain.com"
   },
-  "bip44": { "coinType": 118 },
+  "bip44": {
+    "coinType": 118
+  },
   "bech32Config": {
     "bech32PrefixAccAddr": "addr_safro",
     "bech32PrefixAccPub": "addr_safropub",
@@ -24,6 +26,12 @@
       "coinMinimalDenom": "usaf",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/safrochain/saf.png"
+    },
+    {
+      "coinDenom": "DYMA",
+      "coinMinimalDenom": "factory/addr_safro1zlqc8hf3drqz9ntaklfhddetfay3tt9n9c2tar/udyma",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/safrochain/dyma.png"
     }
   ],
   "feeCurrencies": [
@@ -45,5 +53,7 @@
     "coinDecimals": 6,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/safrochain/saf.png"
   },
-  "features": ["cosmwasm"]
+  "features": [
+    "cosmwasm"
+  ]
 }
