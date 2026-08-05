@@ -48,13 +48,6 @@
       }
     }
   ],
-  "stakeCurrency": {
-    "coinDenom": "AXM",
-    "coinMinimalDenom": "uaxm",
-    "coinDecimals": 6,
-    "coinGeckoId": "axiome",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axiome/uaxm.png"
-  },
   "features": ["cosmwasm"],
   "explorers": {
     "txPage": "https://axiomechain.pro/transactions/{txHash}"
