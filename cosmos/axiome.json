@@ -42,9 +42,9 @@
       "coinGeckoId": "axiome",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axiome/uaxm.png",
       "gasPriceStep": {
-        "low": 0.05,
-        "average": 0.1,
-        "high": 0.25
+        "low": 1,
+        "average": 1.65,
+        "high": 7.4
       }
     }
   ],
