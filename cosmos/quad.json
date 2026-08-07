@@ -1,0 +1,62 @@
+{
+    "rpc": "https://core.uquad.org/rpc",
+    "rest": "https://core.uquad.org/api",
+    "nodeProvider": {
+        "name": "QUAD Core",
+        "website": "https://uquad.org/",
+        "discord": "https://discord.gg/jrnQaaQN3G"
+    },
+    "chainId": "quad",
+    "chainName": "QUAD Core",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/quad/chain.png",
+    "stakeCurrency": {
+        "coinDenom": "QUAD",
+        "coinMinimalDenom": "uquad",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/quad/chain.png"
+    },
+    "walletUrl": "https://uquad.org/",
+    "bip44": {
+        "coinType": 118
+    },
+    "bech32Config": {
+        "bech32PrefixAccAddr": "quad",
+        "bech32PrefixAccPub": "quadpub",
+        "bech32PrefixValAddr": "quadvaloper",
+        "bech32PrefixValPub": "quadvaloperpub",
+        "bech32PrefixConsAddr": "quadvalcons",
+        "bech32PrefixConsPub": "quadvalconspub"
+    },
+    "currencies": [
+        {
+            "coinDenom": "QUAD",
+            "coinMinimalDenom": "uquad",
+            "coinDecimals": 6,
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/quad/chain.png"
+        },
+        {
+            "coinDenom": "stQUAD",
+            "coinMinimalDenom": "stquad",
+            "coinDecimals": 6,
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/quad/chain.png"
+        }
+    ],
+    "feeCurrencies": [
+        {
+            "coinDenom": "QUAD",
+            "coinMinimalDenom": "uquad",
+            "coinDecimals": 6,
+            "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/quad/chain.png",
+            "gasPriceStep": {
+                "low": 0.025,
+                "average": 0.125,
+                "high": 1.0
+            }
+        }
+    ],
+    "features": [],
+    "isTestnet": false,
+    "explorers": {
+        "txPage": "https://core.uquad.org/tx-result?hash={txHash}"
+    }
+}

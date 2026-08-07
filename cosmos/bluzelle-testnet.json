@@ -51,5 +51,6 @@
     "coinDecimals": 6
     }
   ],
-  "features": []
+  "features": [],
+  "isTestnet": true
 }

@@ -1,0 +1,55 @@
+{
+  "chainId": "Do-Chain",
+  "chainName": "Do-Chain",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/Do-Chain/chain.png",
+  "rpc": "https://do-chain.com/rpc",
+  "rest": "https://do-chain.com/lcd",
+  "nodeProvider": {
+    "name": "Do-Chain",
+    "email": "info@do-chain.com",
+    "website": "https://www.do-chain.com/"
+  },
+  "bip44": {
+    "coinType": 888
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "do",
+    "bech32PrefixAccPub": "dopub",
+    "bech32PrefixValAddr": "dovaloper",
+    "bech32PrefixValPub": "dovaloperpub",
+    "bech32PrefixConsAddr": "dovalcons",
+    "bech32PrefixConsPub": "dovalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "DO",
+      "coinMinimalDenom": "udo",
+      "coinDecimals": 6
+    },
+    {
+      "coinDenom": "DODx",
+      "coinMinimalDenom": "udodx",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "DO",
+      "coinMinimalDenom": "udo",
+      "coinDecimals": 6,
+      "gasPriceStep": {
+        "low": 0.000006,
+        "average": 0.00001,
+        "high": 0.00002
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "DO",
+    "coinMinimalDenom": "udo",
+    "coinDecimals": 6
+  },
+  "features": [
+    "cosmwasm"
+  ]
+}

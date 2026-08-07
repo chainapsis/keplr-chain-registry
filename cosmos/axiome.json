@@ -1,0 +1,55 @@
+{
+  "chainId": "axiome-1",
+  "chainName": "Axiome",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axiome/chain.png",
+  "rpc": "https://api-chain.axiomechain.org",
+  "rest": "https://axm-lcd.trickle.pro",
+  "nodeProvider": {
+    "name": "Axiome Community",
+    "email": "Trickle@inbox.eu"
+  },
+  "bip44": {
+    "coinType": 546
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "axm",
+    "bech32PrefixAccPub": "axmpub",
+    "bech32PrefixValAddr": "axmvaloper",
+    "bech32PrefixValPub": "axmvaloperpub",
+    "bech32PrefixConsAddr": "axmvalcons",
+    "bech32PrefixConsPub": "axmvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "AXM",
+      "coinMinimalDenom": "uaxm",
+      "coinDecimals": 6,
+      "coinGeckoId": "axiome",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axiome/uaxm.png"
+    },
+    {
+      "coinDenom": "RET",
+      "coinMinimalDenom": "uret",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axiome/uret.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "AXM",
+      "coinMinimalDenom": "uaxm",
+      "coinDecimals": 6,
+      "coinGeckoId": "axiome",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/axiome/uaxm.png",
+      "gasPriceStep": {
+        "low": 1,
+        "average": 1.65,
+        "high": 7.4
+      }
+    }
+  ],
+  "features": ["cosmwasm"],
+  "explorers": {
+    "txPage": "https://axiomechain.pro/transactions/{txHash}"
+  }
+}

@@ -65,6 +65,7 @@
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/test-core/uxprt.png"
     },
-    "features": ["cosmwasm"]
+    "features": ["cosmwasm"],
+    "isTestnet": true
   }
 

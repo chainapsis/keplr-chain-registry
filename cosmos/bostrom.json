@@ -1,6 +1,6 @@
 {
-  "rpc": "https://rpc-cyber.keplr.app",
-  "rest": "https://lcd-cyber.keplr.app",
+  "rpc": "https://rpc.bostrom.cybernode.ai",
+  "rest": "https://lcd.bostrom.cybernode.ai",
   "chainId": "bostrom",
   "chainName": "Bostrom",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bostrom/chain.png",
@@ -11,8 +11,11 @@
     "coinGeckoId": "bostrom",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bostrom/boot.png"
   },
-  "walletUrl": "https://wallet.keplr.app/chains/bostrom",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/bostrom",
+  "nodeProvider": {
+    "name": "cybercongress",
+    "discord": "https://discord.gg/ARwv74ZyGH",
+    "website": "https://cyb.ai"
+  },
   "bip44": {
     "coinType": 118
   },
@@ -69,5 +72,8 @@
   ],
   "features": [
     "cosmwasm"
-  ]
+  ],
+  "explorers": {
+    "txPage": "https://cyb.ai/network/bostrom/tx/{txHash}"
+  }
 }

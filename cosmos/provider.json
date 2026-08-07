@@ -45,5 +45,6 @@
 
     "coinMinimalDenom": "uatom",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/provider/uatom.png"
-  }
+  },
+  "isTestnet": true
 }

@@ -12,7 +12,7 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/juno/ujuno.png"
   },
   "walletUrl": "https://wallet.keplr.app/chains/juno",
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/juno",
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/juno?modal=staking&chain=juno-1&step_id=2",
   "bip44": {
     "coinType": 118
   },
@@ -31,6 +31,12 @@
       "coinDecimals": 6,
       "coinGeckoId": "juno-network",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/juno/ujuno.png"
+    },
+    {
+      "coinDenom": "EMPR",
+      "coinMinimalDenom": "factory/juno1zjqsel42pj5e6wvxxw7hjs9gn06yqz4m3ffyua3x2v44m4l8trjsr92q9s/empr",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/juno/factory/juno1zjqsel42pj5e6wvxxw7hjs9gn06yqz4m3ffyua3x2v44m4l8trjsr92q9s/empr.png"
     }
   ],
   "feeCurrencies": [
@@ -60,5 +66,8 @@
   "features": [
     "cosmwasm",
     "authz-msg-revoke-fixed"
-  ]
+  ],
+  "explorers": {
+    "txPage": "https://ping.pub/juno/tx/{txHash}"
+  }
 }

@@ -5,10 +5,10 @@
   "rpc": "https://rpc-lumenx.cryptonet.pl",
   "rest": "https://api-lumenx.cryptonet.pl",
   "nodeProvider": {
-        "name": "CryptoNet",
-        "email": "contact@cryptonet.pl",
-        "website": "https://cryptonet.pl"
-    },
+    "name": "CryptoNet",
+    "email": "contact@cryptonet.pl",
+    "website": "https://cryptonet.pl"
+  },
   "walletUrlForStaking": "https://explorer.kynraze.com/lumenx/staking",
   "bip44": {
     "coinType": 118
@@ -45,5 +45,8 @@
     "coinMinimalDenom": "ulumen",
     "coinDecimals": 6
   },
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://explorer.chaintools.tech/lumenx/tx/{txHash}"
+  }
 }

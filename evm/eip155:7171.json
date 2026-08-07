@@ -1,0 +1,48 @@
+{
+  "rpc": "https://brockrpc.io",
+  "websocket": "wss://brockrpc.io/ws",
+  "chainId": "eip155:7171",
+  "chainName": "Bitrock Mainnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:7171/chain.png",
+  "nodeProvider": {
+    "name": "Bitrock",
+    "website": "https://bit-rock.io",
+    "email": "info@bit-rock.io"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "BROCK",
+      "coinMinimalDenom": "bitrock-native",
+      "coinDecimals": 18,
+      "coinGeckoId": "bitrock",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:7171/chain.png"
+    },
+    {
+      "coinDenom": "ROCKSWAP",
+      "coinMinimalDenom": "erc20:0x826628622a8b55f4af6ac2a1dd1273bf837e651a",
+      "coinDecimals": 18,
+      "coinGeckoId": "rockswap",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:7171/erc20/0x826628622a8b55f4af6ac2a1dd1273bf837e651a.png"
+    },
+    {
+      "coinDenom": "MSMIL",
+      "coinMinimalDenom": "erc20:0xaa72d86210ac33bca2de6139403f9af37398e721",
+      "coinDecimals": 18,
+      "coinGeckoId": "milestone-millions",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:7171/erc20/0xaa72d86210ac33bca2de6139403f9af37398e721.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "BROCK",
+      "coinMinimalDenom": "bitrock-native",
+      "coinDecimals": 18,
+      "coinGeckoId": "bitrock",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:7171/chain.png"
+    }
+  ],
+  "features": []
+}

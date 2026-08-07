@@ -1,0 +1,199 @@
+{
+  "rpc": "https://rebel-rpc.luncgoblins.com",
+  "rest": "https://rebel-lcd.luncgoblins.com",
+  "chainId": "rebel-2",
+  "chainName": "Terra Classic Testnet", 
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "LUNC",
+    "coinMinimalDenom": "uluna",
+    "coinDecimals": 6, 
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/uluna.png"
+  },
+  "nodeProvider": {
+    "name": "LuncGoblins",
+    "email": "emergency@luncgoblins.com",
+    "website": "https://www.jurisprotocol.com/"
+  },
+  "bip44": {
+    "coinType": 330
+  },
+  "alternativeBIP44s": [
+    {
+      "coinType": 118
+    }
+  ],
+  "bech32Config": {
+    "bech32PrefixAccAddr": "terra",
+    "bech32PrefixAccPub": "terrapub",
+    "bech32PrefixValAddr": "terravaloper",
+    "bech32PrefixValPub": "terravaloperpub",
+    "bech32PrefixConsAddr": "terravalcons",
+    "bech32PrefixConsPub": "terravalconspub"
+  },
+  "currencies": [
+  {
+    "coinDenom": "LUNC",
+    "coinMinimalDenom": "uluna",
+    "coinDecimals": 6, 
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/uluna.png"
+  },
+  {
+    "coinDenom": "USTC",
+    "coinMinimalDenom": "uusd",
+    "coinDecimals": 6, 
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/UST.png"
+  }, 
+  {
+    "coinDenom": "AUT",
+    "coinMinimalDenom": "uaud",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/AUT.png"
+  },
+  {
+    "coinDenom": "CAT",
+    "coinMinimalDenom": "ucad",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/CAT.png"
+  },
+  {
+    "coinDenom": "CHT",
+    "coinMinimalDenom": "uchf",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/CHT.png"
+  },
+  {
+    "coinDenom": "CNT",
+    "coinMinimalDenom": "ucny",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/CNT.png"
+  },
+  {
+    "coinDenom": "DKT",
+    "coinMinimalDenom": "udkk",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/DKT.png"
+  },
+  {
+    "coinDenom": "GBT",
+    "coinMinimalDenom": "ugbp",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/GBT.png"
+  },
+  {
+    "coinDenom": "EUT",
+    "coinMinimalDenom": "ueur",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/EUT.png"
+  },
+  {
+    "coinDenom": "HKT",
+    "coinMinimalDenom": "uhkd",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/HKT.png"
+  },
+  {
+    "coinDenom": "INT",
+    "coinMinimalDenom": "uinr",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/INT.png"
+  },
+  {
+    "coinDenom": "IDT",
+    "coinMinimalDenom": "uidr",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/IDT.png"
+  },
+  {
+    "coinDenom": "JPT",
+    "coinMinimalDenom": "ujpy",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/JPT.png"
+  },
+  {
+    "coinDenom": "KRT",
+    "coinMinimalDenom": "ukrw",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/KRT.png"
+  },
+  {
+    "coinDenom": "MNT",
+    "coinMinimalDenom": "umnt",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/MNT.png"
+  },
+  {
+    "coinDenom": "MYT",
+    "coinMinimalDenom": "umyr",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/MYT.png"
+  },
+  {
+    "coinDenom": "NOT",
+    "coinMinimalDenom": "unok",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/NOT.png"
+  },
+  {
+    "coinDenom": "PHT",
+    "coinMinimalDenom": "uphp",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/PHT.png"
+  },
+  {
+    "coinDenom": "SDT",
+    "coinMinimalDenom": "usdr",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/SDT.png"
+  },
+  {
+    "coinDenom": "SET",
+    "coinMinimalDenom": "usek",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/SET.png"
+  },
+  {
+    "coinDenom": "SGT",
+    "coinMinimalDenom": "usgd",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/SGT.png"
+  },
+  {
+    "coinDenom": "THT",
+    "coinMinimalDenom": "uthb",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/THT.png"
+  },
+  {
+    "coinDenom": "TWT",
+    "coinMinimalDenom": "utwd",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/TWT.png"
+  }
+],
+  "feeCurrencies": [
+    {
+      "coinDenom": "LUNC",
+      "coinMinimalDenom": "uluna",
+      "coinDecimals": 6, 
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/rebel/uluna.png",
+      "gasPriceStep": {
+        "low": 28.325,
+        "average": 28.325,
+        "high": 28.325
+      }
+    },
+    {
+      "coinDenom": "USTC",
+      "coinMinimalDenom": "uusd",
+      "coinDecimals": 6, 
+      "gasPriceStep": {
+        "low": 0.75,
+        "average": 0.75,
+        "high": 0.75
+      }
+    }
+  ],
+  "features": ["terra-classic-fee", "cosmwasm"],
+  "isTestnet": true
+}

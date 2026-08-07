@@ -467,5 +467,8 @@
       "coinDecimals": 6
     }
   ],
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://www.mintscan.io/gravity-bridge/transactions/{txHash}"
+  }
 }

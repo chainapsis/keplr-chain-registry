@@ -7,7 +7,7 @@
   "nodeProvider": {
     "name": "HoneyWood",
     "email": "media@honeywood.io",
-    "website":"https://honeywood.io/"
+    "website": "https://honeywood.io/"
   },
   "stakeCurrency": {
     "coinDenom": "CONE",
@@ -55,5 +55,8 @@
       }
     }
   ],
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://explorer.honeywood.io/HoneyWood/tx/{txHash}"
+  }
 }

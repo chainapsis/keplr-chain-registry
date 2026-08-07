@@ -7,7 +7,7 @@
   "nodeProvider": {
     "name": "Nodes.Guru",
     "email": "support@nodes.guru",
-    "website":"https://nodes.guru/"
+    "website": "https://nodes.guru/"
   },
   "bip44": {
     "coinType": 118
@@ -33,7 +33,7 @@
       "coinMinimalDenom": "ugrain",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.00,
+        "low": 0,
         "average": 0.01,
         "high": 0.025
       }
@@ -46,5 +46,8 @@
   },
   "features": [
     "cosmwasm"
-  ]
+  ],
+  "explorers": {
+    "txPage": "https://paloma.explorers.guru/transaction/{txHash}"
+  }
 }

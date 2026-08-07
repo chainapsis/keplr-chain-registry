@@ -4,7 +4,7 @@
   "nodeProvider": {
     "name": "SIX NodeOps",
     "email": "nantanart@six.network",
-    "website":"https://sixprotocol.com/"
+    "website": "https://sixprotocol.com/"
   },
   "chainId": "sixnet",
   "chainName": "SIX Protocol",
@@ -49,5 +49,8 @@
       }
     }
   ],
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://v2.sixscan.io/tx/{txHash}"
+  }
 }

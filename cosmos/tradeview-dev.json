@@ -1,0 +1,48 @@
+{
+  "rpc": "https://tendermint-trade.devnet.tradeview.com",
+  "rest": "https://api-trade.devnet.tradeview.com",
+  "chainId": "tradeview-dev",
+  "chainName": "Tradeview Devnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tradeview-dev/chain.png",
+  "bech32Config": {
+    "bech32PrefixAccAddr": "tradeview",
+    "bech32PrefixAccPub": "tradeviewpub",
+    "bech32PrefixValAddr": "tradeviewvaloper",
+    "bech32PrefixValPub": "tradeviewvaloperpub",
+    "bech32PrefixConsAddr": "tradeviewvalcons",
+    "bech32PrefixConsPub": "tradeviewvalconspub"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "stakeCurrency": {
+    "coinDenom": "TVX",
+    "coinDecimals": 18,
+    "coinMinimalDenom": "atvx"
+  },
+  "currencies": [
+    {
+      "coinDenom": "TVX",
+      "coinDecimals": 18,
+      "coinMinimalDenom": "atvx"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "TVX",
+      "coinDecimals": 18,
+      "coinMinimalDenom": "atvx",
+      "gasPriceStep": {
+        "low": 25000000000,
+        "average": 25000000000,
+        "high": 50000000000
+      }
+    }
+  ],
+  "nodeProvider":{
+      "name":"TradeView",
+      "email":"developer@tradeview.com"
+    },
+  "features": [],
+  "isTestnet": true
+}

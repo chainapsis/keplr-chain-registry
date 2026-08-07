@@ -33,7 +33,12 @@
       "coinDenom": "SEDA",
       "coinMinimalDenom": "aseda",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/seda-1-testnet/chain.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/seda-1-testnet/chain.png",
+      "gasPriceStep": {
+        "low": 10000000000,
+        "average": 15000000000,
+        "high": 20000000000
+      }
     }
   ],
   "stakeCurrency": {
@@ -42,5 +47,6 @@
     "coinDecimals": 18,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/seda-1-testnet/chain.png"
   },
-  "features": ["cosmwasm"]
+  "features": ["cosmwasm"],
+  "isTestnet": true
 }

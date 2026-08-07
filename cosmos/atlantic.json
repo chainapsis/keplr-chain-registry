@@ -38,5 +38,6 @@
         "high": 0.12
       }
     }
-  ]
+  ],
+  "isTestnet": true
 }

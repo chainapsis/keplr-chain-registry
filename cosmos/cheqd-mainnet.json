@@ -7,7 +7,7 @@
   "nodeProvider": {
     "name": "Cheqd Network",
     "email": "security-github@cheqd.io",
-    "website":"https://cheqd.io/"
+    "website": "https://cheqd.io/"
   },
   "walletUrlForStaking": "https://cheqd.omniflix.co",
   "bip44": {
@@ -36,9 +36,9 @@
       "coinDecimals": 9,
       "coinGeckoId": "cheqd-network",
       "gasPriceStep": {
-        "low": 25,
-        "average": 50,
-        "high": 100
+        "low": 5000,
+        "average": 7500,
+        "high": 10000
       }
     }
   ],
@@ -48,5 +48,8 @@
     "coinDecimals": 9,
     "coinGeckoId": "cheqd-network"
   },
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://explorer.cheqd.io/transactions/{txHash}"
+  }
 }

@@ -470,5 +470,8 @@
       }
     }
   ],
-  "features": []
+  "features": [],
+  "explorers": {
+    "txPage": "https://ping.pub/sifchain/tx/{txHash}"
+  }
 }

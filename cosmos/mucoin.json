@@ -1,0 +1,54 @@
+{
+  "chainId": "mucoin-1",
+  "chainName": "MuCoin",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mucoin/chain.png",
+  "rpc": "https://rpc.mucoin.org",
+  "rest": "https://rest.mucoin.org",
+  "nodeProvider": {
+    "name": "MuCoin",
+    "email": "admin@mucoin.org",
+    "website": "https://mucoin.org"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "muc",
+    "bech32PrefixAccPub": "mucpub",
+    "bech32PrefixValAddr": "mucvaloper",
+    "bech32PrefixValPub": "mucvaloperpub",
+    "bech32PrefixConsAddr": "mucvalcons",
+    "bech32PrefixConsPub": "mucvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "MUC",
+      "coinMinimalDenom": "umuc",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mucoin/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "MUC",
+      "coinMinimalDenom": "umuc",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mucoin/chain.png",
+      "gasPriceStep": {
+        "low": 0.0025,
+        "average": 0.005,
+        "high": 0.01
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "MUC",
+    "coinMinimalDenom": "umuc",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mucoin/chain.png"
+  },
+  "features": [],
+  "explorers": {
+    "txPage": "https://mucoin.org/transaction/{txHash}"
+  }
+}

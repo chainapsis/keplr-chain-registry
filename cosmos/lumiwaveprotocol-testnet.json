@@ -1,0 +1,52 @@
+{
+  "rpc": "https://lwp-testnet.lumiwavelab.com/tendermint",
+  "rest": "https://lwp-testnet.lumiwavelab.com",
+  "chainId": "lumiwaveprotocol-testnet",
+  "chainName": "LumiWave Protocol Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lumiwaveprotocol-testnet/chain.png",
+  "nodeProvider": {
+    "name": "LumiWave Protocol",
+    "email": "contact@lumiwavelab.com",
+    "website": "https://lumiwavelab.com/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "lumi",
+    "bech32PrefixAccPub": "lumipub",
+    "bech32PrefixValAddr": "lumiValoper",
+    "bech32PrefixValPub": "lumiValoperpub",
+    "bech32PrefixConsAddr": "lumiValcons",
+    "bech32PrefixConsPub": "lumiValconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "LWP",
+      "coinMinimalDenom": "ulwp",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lumiwaveprotocol-testnet/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "LWP",
+      "coinMinimalDenom": "ulwp",
+      "coinDecimals": 6,
+      "coinImageUrl":  "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lumiwaveprotocol-testnet/chain.png",
+      "gasPriceStep": {
+        "low": 0.005,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "LWP",
+    "coinMinimalDenom": "ulwp",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lumiwaveprotocol-testnet/chain.png"
+  },
+  "features": [],
+  "isTestnet": true
+}

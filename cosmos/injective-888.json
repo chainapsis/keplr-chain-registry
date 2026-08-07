@@ -1,13 +1,18 @@
 {
   "rpc": "https://testnet.sentry.tm.injective.network",
   "rest": "https://testnet.sentry.lcd.injective.network",
+  "evm": {
+    "chainId": 1439,
+    "rpc": "https://k8s.testnet.json-rpc.injective.network",
+    "websocket": "wss://k8s.testnet.ws.injective.network"
+  },
   "chainId": "injective-888",
   "chainName": "Injective (Testnet)",
   "nodeProvider": {
     "name": "Injective",
     "email": "contact@injectivelabs.org"
   },
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective-888/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective-888/inj.png",
   "bech32Config": {
     "bech32PrefixAccPub": "injpub",
     "bech32PrefixValPub": "injvaloperpub",
@@ -31,6 +36,36 @@
       "coinDecimals": 18,
       "coinMinimalDenom": "inj",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective-888/inj.png"
+    },
+    {
+      "coinDenom": "wINJ",
+      "coinMinimalDenom": "erc20:0x0000000088827d2d103ee2d9a6b781773ae03ffb",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective-888/erc20/0x0000000088827d2d103ee2d9a6b781773ae03ffb.png"
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "erc20:0x0c382e685bbeefe5d3d9c29e29e341fee8e84c5d",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective-888/erc20/0x0c382e685bbeefe5d3d9c29e29e341fee8e84c5d.png"
+    },
+    {
+      "coinDenom": "USDT (Testnet)",
+      "coinDecimals": 6,
+      "coinMinimalDenom": "peggy0x87aB3B4C8661e07D6372361211B96ed4Dc36B1B5",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective-888/peggy0x87aB3B4C8661e07D6372361211B96ed4Dc36B1B5.png"
+    },
+    {
+      "coinDenom": "USDC (Testnet)",
+      "coinDecimals": 6,
+      "coinMinimalDenom": "factory/inj17vytdwqczqz72j65saukplrktd4gyfme5agf6c/usdc",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective-888/factory/inj17vytdwqczqz72j65saukplrktd4gyfme5agf6c/usdc.png"
+    },
+    {
+      "coinDenom": "ATOM (Testnet)",
+      "coinDecimals": 8,
+      "coinMinimalDenom": "factory/inj17vytdwqczqz72j65saukplrktd4gyfme5agf6c/atom",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective-888/factory/inj17vytdwqczqz72j65saukplrktd4gyfme5agf6c/atom.png"
     }
   ],
   "feeCurrencies": [
@@ -50,5 +85,6 @@
     "eth-address-gen",
     "eth-key-sign",
     "cosmwasm"
-  ]
+  ],
+  "isTestnet": true
 }
