@@ -37,7 +37,16 @@
       "coinMinimalDenom": "factory/juno1zjqsel42pj5e6wvxxw7hjs9gn06yqz4m3ffyua3x2v44m4l8trjsr92q9s/empr",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/juno/factory/juno1zjqsel42pj5e6wvxxw7hjs9gn06yqz4m3ffyua3x2v44m4l8trjsr92q9s/empr.png"
-    }
+    },
+{
+  "coinDenom": "RED",
+  "coinMinimalDenom": "factory/juno1kv7zk68g2rm7w5f8u3ckqgywresqnsjy5qzk68mu0s9yyu7u0u9skyfpu2/red",
+  "coinDecimals": 6,
+  "coinImageUrl": "https://raw.githubusercontent.com/pappous-cmd/keplr-chain-registry/main/images/juno/FACTORY/JUNO1KV7ZK68G2RM7W5F8U3CKQGYWRESQNSJY5QZK68MU0S9YYU7U0U9SKYFPU2/red1.png"
+}
+
+
+    
   ],
   "feeCurrencies": [
     {
