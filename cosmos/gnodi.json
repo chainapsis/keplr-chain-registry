@@ -2,12 +2,12 @@
   "chainId": "gnodi",
   "chainName": "Gnodi",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/gnodi/gnod.png",
-  "rpc": "https://rpc.gnodi.zone",
-  "rest": "https://api.gnodi.zone",
+  "rpc": "https://rpc.gnodipowered.com",
+  "rest": "https://api.gnodipowered.com",
   "nodeProvider": {
-    "name": "Gnodi Team",
-    "email": "info@gnodiblockchain.org",
-    "website": "https://gnodiblockchain.org"
+    "name": "Gnodi Powered",
+    "email": "support@blockreign.tech",
+    "website": "https://gnodipowered.com/"
   },
   "bip44": {
     "coinType": 118
@@ -44,5 +44,8 @@
     "coinDenom": "GNOD",
     "coinMinimalDenom": "uGNOD",
     "coinDecimals": 6
+  },
+  "explorers": {
+    "txPage": "https://gnodiscanner.com/txs/{txHash}"
   }
 }
