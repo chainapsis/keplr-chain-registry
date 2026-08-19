@@ -1,0 +1,54 @@
+{
+  "chainId": "sovr-1",
+  "chainName": "Sovren",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sovr/chain.png",
+  "rpc": "https://rpc.sovrchain.net",
+  "rest": "https://api.sovrchain.net",
+  "nodeProvider": {
+    "name": "Sovren",
+    "email": "support@sovrentech.io",
+    "website": "https://sovrentech.io"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "sovr",
+    "bech32PrefixAccPub": "sovrpub",
+    "bech32PrefixValAddr": "sovrvaloper",
+    "bech32PrefixValPub": "sovrvaloperpub",
+    "bech32PrefixConsAddr": "sovrvalcons",
+    "bech32PrefixConsPub": "sovrvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "SOVR",
+      "coinMinimalDenom": "usovr",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sovr/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "SOVR",
+      "coinMinimalDenom": "usovr",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sovr/chain.png",
+      "gasPriceStep": {
+        "low": 0.001,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "SOVR",
+    "coinMinimalDenom": "usovr",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sovr/chain.png"
+  },
+  "features": ["cosmwasm"],
+  "explorers": {
+    "txPage": "https://sovrscan.com/transactions/{txHash}"
+  }
+}
