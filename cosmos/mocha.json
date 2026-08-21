@@ -1,7 +1,7 @@
 {
   "rpc": "https://rpc-1.testnet.celestia.nodes.guru",
   "rest": "https://api-1.testnet.celestia.nodes.guru",
-  "chainId": "mocha-4",
+  "chainId": "mocha-5",
   "chainName": "Celestia Mocha Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/mocha/chain.png",
   "stakeCurrency": {
