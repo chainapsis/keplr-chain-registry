@@ -38,6 +38,34 @@
       "coinDecimals": 18,
       "coinGeckoId": "shido-2",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shido_9008/shido.png"
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "erc20:0xee1fc22381e6b6bb5ee3bf6b5ec58df6f5480df8",
+      "coinDecimals": 6,
+      "coinGeckoId": "shido-bridged-usdc",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shido_9008/erc20/0xee1fc22381e6b6bb5ee3bf6b5ec58df6f5480df8.png"
+    },
+    {
+      "coinDenom": "BPL",
+      "coinMinimalDenom": "erc20:0x7fD02b081b9005b560C5ee51A3F6c3a4747f5fe1",
+      "coinDecimals": 18,
+      "coinGeckoId": "bubble-protocol",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shido_9008/erc20/0x7fD02b081b9005b560C5ee51A3F6c3a4747f5fe1.png"
+    },
+    {
+      "coinDenom": "KENSEI",
+      "coinMinimalDenom": "erc20:0xfB889425B72c97C5b4484cF148AE2404AB7A13e7",
+      "coinDecimals": 18,
+      "coinGeckoId": "kensei",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shido_9008/erc20/0xfB889425B72c97C5b4484cF148AE2404AB7A13e7.png"
+    },
+    {
+      "coinDenom": "RAKUN",
+      "coinMinimalDenom": "erc20:0x56009A137Ed6D56E0133A52363a78063F429Ece4",
+      "coinDecimals": 18,
+      "coinGeckoId": "rakun-2",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/shido_9008/erc20/0x56009A137Ed6D56E0133A52363a78063F429Ece4.png"
     }
   ],
   "feeCurrencies": [
@@ -60,6 +88,6 @@
     "cosmwasm"
   ],
   "explorers": {
-    "txPage": "https://shidoscan.com/tx/{txHash}"
+    "txPage": "https://shidoscan.net/tx/{txHash}"
   }
 }
