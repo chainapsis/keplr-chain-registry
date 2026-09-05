@@ -1,0 +1,51 @@
+{
+  "chainId": "congrid-main",
+  "chainName": "Congrid",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/congrid-main/chain.png",
+  "rpc": "https://congrid.net/rpc",
+  "rest": "https://congrid.net/rest",
+  "nodeProvider": {
+    "name": "Congrid",
+    "email": "congridcoin@gmail.com",
+    "website": "https://congrid.net"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "congrid",
+    "bech32PrefixAccPub": "congridpub",
+    "bech32PrefixValAddr": "congridvaloper",
+    "bech32PrefixValPub": "congridvaloperpub",
+    "bech32PrefixConsAddr": "congridvalcons",
+    "bech32PrefixConsPub": "congridvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "CONGRID",
+      "coinMinimalDenom": "ucongrid",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/congrid-main/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "CONGRID",
+      "coinMinimalDenom": "ucongrid",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/congrid-main/chain.png",
+      "gasPriceStep": {
+        "low": 0.001,
+        "average": 0.0025,
+        "high": 0.004
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "CONGRID",
+    "coinMinimalDenom": "ucongrid",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/congrid-main/chain.png"
+  },
+  "features": []
+}
