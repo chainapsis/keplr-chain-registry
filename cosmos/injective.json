@@ -257,6 +257,12 @@
       "coinDecimals": 18,
       "coinGeckoId": "motion-6",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/motion.png"
+    },
+    {
+      "coinDenom": "ZZTOP",
+      "coinMinimalDenom": "factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_157_99c09d972f9c1f79",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/zztop.png"
     }
   ],
   "feeCurrencies": [
