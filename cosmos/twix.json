@@ -1,0 +1,54 @@
+{
+  "rpc": "https://rpc.twixchain.com",
+  "rest": "https://api.twixchain.com",
+  "chainId": "twix-1",
+  "chainName": "TWIX Mainnet",
+  "evm": {
+    "chainId": 1415006552,
+    "rpc": "https://evm.twixchain.com"
+  },
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/twix/chain.png",
+  "nodeProvider": {
+    "name": "TWIX Chain",
+    "email": "admin@twixchain.com",
+    "website": "https://twixchain.com"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "twix",
+    "bech32PrefixAccPub": "twixpub",
+    "bech32PrefixValAddr": "twixvaloper",
+    "bech32PrefixValPub": "twixvaloperpub",
+    "bech32PrefixConsAddr": "twixvalcons",
+    "bech32PrefixConsPub": "twixvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "TWIX",
+      "coinMinimalDenom": "atwix",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/twix/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "TWIX",
+      "coinMinimalDenom": "atwix",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/twix/chain.png",
+      "gasPriceStep": {
+        "low": 1000000000,
+        "average": 1250000000,
+        "high": 1500000000
+      }
+    }
+  ],
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign",
+    "eth-secp256k1-cosmos"
+  ],
+  "isTestnet": false
+}
