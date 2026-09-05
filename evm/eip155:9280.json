@@ -1,0 +1,36 @@
+{
+  "rpc": "https://rpc-testnet.rabbitchain.org",
+  "websocket": "wss://rpc-testnet.rabbitchain.org/ws",
+  "nodeProvider": {
+    "name": "Rabbit Chain",
+    "website": "https://rabbitchain.org",
+    "discord": "https://discord.gg/TBWspuEZss"
+  },
+  "chainId": "eip155:9280",
+  "chainName": "Rabbit Chain Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:9280/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "tRAB",
+      "coinMinimalDenom": "rabbit-testnet-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:9280/rabbit-testnet-native.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "tRAB",
+      "coinMinimalDenom": "rabbit-testnet-native",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:9280/rabbit-testnet-native.png"
+    }
+  ],
+  "features": [],
+  "isTestnet": true,
+  "explorers": {
+    "txPage": "https://explorer-testnet.rabbitchain.org/tx/{txHash}"
+  }
+}
