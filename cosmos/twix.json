@@ -32,6 +32,12 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/twix/chain.png"
     }
   ],
+  "stakeCurrency": {
+    "coinDenom": "TWIX",
+    "coinMinimalDenom": "atwix",
+    "coinDecimals": 18,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/twix/chain.png"
+  },
   "feeCurrencies": [
     {
       "coinDenom": "TWIX",
