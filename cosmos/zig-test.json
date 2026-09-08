@@ -39,7 +39,12 @@
       "coinDenom": "ZIG",
       "coinMinimalDenom": "azig",
       "coinDecimals": 18,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zig-test/azig.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zig-test/azig.png",
+      "gasPriceStep": {
+        "low": 2500000000,
+        "average": 25000000000,
+        "high": 50000000000
+      }
     }
   ],
   "stakeCurrency": {
