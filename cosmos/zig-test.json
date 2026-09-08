@@ -2,7 +2,7 @@
   "chainId": "zig-test-2",
   "chainName": "ZIGChain Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zig-test/chain.png",
-  "rpc": "https://testnet-rpc.zigchain.com",
+  "rpc": "https://public-zigchain-testnet-rpc.numia.xyz",
   "rest": "https://testnet-api.zigchain.com",
   "nodeProvider": {
     "name": "ZIGChain",
@@ -23,9 +23,9 @@
   "currencies": [
     {
       "coinDenom": "ZIG",
-      "coinMinimalDenom": "uzig",
-      "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zig-test/uzig.png"
+      "coinMinimalDenom": "azig",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zig-test/azig.png"
     },
     {
       "coinDenom": "stzig",
@@ -37,17 +37,19 @@
   "feeCurrencies": [
     {
       "coinDenom": "ZIG",
-      "coinMinimalDenom": "uzig",
-      "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zig-test/uzig.png"
+      "coinMinimalDenom": "azig",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zig-test/azig.png"
     }
   ],
   "stakeCurrency": {
     "coinDenom": "ZIG",
-    "coinMinimalDenom": "uzig",
-    "coinDecimals": 6,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zig-test/uzig.png"
+    "coinMinimalDenom": "azig",
+    "coinDecimals": 18,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zig-test/azig.png"
   },
-  "features": ["cosmwasm"],
+  "features": [
+    "cosmwasm"
+  ],
   "isTestnet": true
 }
