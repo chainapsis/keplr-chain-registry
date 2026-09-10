@@ -40,13 +40,13 @@
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "TERP",
+      "coinDenom": "THIOL",
       "coinMinimalDenom": "uthiol",
       "coinDecimals": 6,
       "gasPriceStep": {
-        "low": 0.02,
-        "average": 0.04,
-        "high": 0.075
+        "low": 0.05,
+        "average": 0.075,
+        "high": 0.1
       }
     }
   ],
