@@ -1,10 +1,10 @@
 {
-  "rpc": "https://rpc-terp.zenchainlabs.io",
-  "rest": "https://api-terp.zenchainlabs.io",
+  "rpc": "https://rpc.terp.network",
+  "rest": "https://api.terp.network",
   "nodeProvider": {
-    "name": "ZenChainLabs",
-    "email": "support@zenchainlabs.io",
-    "website": "https://zenchainlabs.io/"
+    "name": "TerpNetFoundation",
+    "email": "team.terp@protonmail.com",
+    "website": "https://terp.network/"
   },
   "chainId": "morocco-1",
   "chainName": "Terp Network",
@@ -14,7 +14,7 @@
     "coinMinimalDenom": "uterp",
     "coinDecimals": 6
   },
-  "walletUrlForStaking": "https://ping.pub/terp/staking",
+  "walletUrlForStaking": "https://restake.app/terpnetwork",
   "bip44": {
     "coinType": 118
   },
@@ -41,22 +41,12 @@
   "feeCurrencies": [
     {
       "coinDenom": "TERP",
-      "coinMinimalDenom": "uterp",
+      "coinMinimalDenom": "uthiol",
       "coinDecimals": 6,
       "gasPriceStep": {
         "low": 0.02,
         "average": 0.04,
         "high": 0.075
-      }
-    },
-    {
-      "coinDenom": "THIOL",
-      "coinMinimalDenom": "uthiol",
-      "coinDecimals": 6,
-      "gasPriceStep": {
-        "low": 0.5,
-        "average": 0.75,
-        "high": 1
       }
     }
   ],
