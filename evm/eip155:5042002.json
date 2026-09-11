@@ -1,0 +1,36 @@
+{
+  "rpc": "https://rpc.testnet.arc.network",
+  "websocket": "wss://rpc.testnet.arc.network",
+  "nodeProvider": {
+    "name": "Circle",
+    "website": "https://www.circle.com/",
+    "discord": "https://discord.com/invite/buildonarc"
+  },
+  "chainId": "eip155:5042002",
+  "chainName": "Arc Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5042002/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "usdc",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5042002/usdc.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "usdc",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5042002/usdc.png"
+    }
+  ],
+  "features": [],
+  "isTestnet": true,
+  "explorers": {
+    "txPage": "https://testnet.arcscan.app/tx/{txHash}"
+  }
+}
