@@ -17,7 +17,7 @@
   },
   "currencies": [
     {
-      "coinDenom": "USDC",
+      "coinDenom": "USDC.n (Noble)",
       "coinMinimalDenom": "uusdc",
       "coinDecimals": 6,
       "coinGeckoId": "usd-coin",
@@ -59,7 +59,7 @@
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "USDC",
+      "coinDenom": "USDC.n (Noble)",
       "coinMinimalDenom": "uusdc",
       "coinDecimals": 6,
       "coinGeckoId": "usd-coin",
