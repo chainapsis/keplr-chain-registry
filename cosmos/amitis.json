@@ -1,0 +1,54 @@
+{
+  "chainId": "amitis-network",
+  "chainName": "Amitis Network",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/amitis/chain.png",
+  "rpc": "https://rpc.amitis.network",
+  "rest": "https://rest.amitis.network",
+  "nodeProvider": {
+    "name": "Amitis Network",
+    "email": "dev@amitis.network",
+    "website": "https://amitis.network"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "amitis",
+    "bech32PrefixAccPub": "amitispub",
+    "bech32PrefixValAddr": "amitisvaloper",
+    "bech32PrefixValPub": "amitisvaloperpub",
+    "bech32PrefixConsAddr": "amitisvalcons",
+    "bech32PrefixConsPub": "amitisvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "AMTS",
+      "coinMinimalDenom": "uamts",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/amitis/images/amts.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "AMTS",
+      "coinMinimalDenom": "uamts",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/amitis/images/amts.png",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "AMTS",
+    "coinMinimalDenom": "uamts",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/amitis/images/amts.png"
+  },
+  "features": ["cosmwasm"],
+  "explorers": {
+    "txPage": "https://www.mintscan.io/amitis/tx/{txHash}"
+  }
+}
