@@ -51,7 +51,7 @@
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/erc20/0x83a15000b753ac0eeee06d2cb41a69e76d0d5c7f7.png"
     },
     {
-      "coinDenom": "USDC (Injective)",
+      "coinDenom": "USDC.inj (Injective)",
       "coinMinimalDenom": "erc20:0xa00c59ff5a080d2b954d0c75e46e22a0c371235a",
       "coinDecimals": 6,
       "coinGeckoId": "usd-coin",
