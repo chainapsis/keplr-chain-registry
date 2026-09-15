@@ -1,7 +1,7 @@
 {
   "chainId": "amitis-network",
   "chainName": "Amitis Network",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/amitis/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/amitis-network/chain.png",
   "rpc": "https://rpc.amitis.network",
   "rest": "https://rest.amitis.network",
   "nodeProvider": {
@@ -25,7 +25,7 @@
       "coinDenom": "AMTS",
       "coinMinimalDenom": "uamts",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/amitis/images/amts.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/amitis-network/amts.png"
     }
   ],
   "feeCurrencies": [
@@ -33,7 +33,7 @@
       "coinDenom": "AMTS",
       "coinMinimalDenom": "uamts",
       "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/amitis/images/amts.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/amitis-network/amts.png",
       "gasPriceStep": {
         "low": 0.01,
         "average": 0.025,
@@ -45,7 +45,7 @@
     "coinDenom": "AMTS",
     "coinMinimalDenom": "uamts",
     "coinDecimals": 6,
-    "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/amitis/images/amts.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/amitis-network/amts.png"
   },
   "features": ["cosmwasm"],
   "explorers": {
