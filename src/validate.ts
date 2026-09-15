@@ -88,11 +88,15 @@ export const validateCosmosChainInfo = async (
     );
   }
 
-  await checkRPCConnectivity(
-    chainInfo.chainId,
-    chainInfo.rpc,
-    (url) => new WebSocket(url),
-  );
+  if (chainIdentifier === "nomic-stakenet") {
+    await checkNomicRpcConnectivity(chainInfo.chainId, chainInfo.rpc);
+  } else {
+    await checkRPCConnectivity(
+      chainInfo.chainId,
+      chainInfo.rpc,
+      (url) => new WebSocket(url),
+    );
+  }
 
   if (chainInfo.evm) {
     if (chainInfo.evm.chainId === 1329) {
@@ -107,7 +111,9 @@ export const validateCosmosChainInfo = async (
   if (
     chainIdentifier !== "gravity-bridge" &&
     chainIdentifier !== "sommelier" &&
-    chainIdentifier !== "kyve"
+    chainIdentifier !== "kyve" &&
+    // Nomic exposes its custom query API rather than Cosmos SDK REST.
+    chainIdentifier !== "nomic-stakenet"
   ) {
     await checkRestConnectivity(chainInfo.chainId, chainInfo.rest);
   }
@@ -119,6 +125,26 @@ export const validateCosmosChainInfo = async (
   await checkCoinGeckoIdsAvailable(...Array.from(coinGeckoIds));
 
   return chainInfo;
+};
+
+const checkNomicRpcConnectivity = async (
+  expectedChainId: string,
+  rpc: string,
+): Promise<void> => {
+  const response = await fetch(new URL("/status", rpc));
+  if (!response.ok) {
+    throw new Error(`Failed to fetch Nomic RPC status: ${response.status}`);
+  }
+
+  const data = (await response.json()) as {
+    result?: { node_info?: { network?: string } };
+  };
+  const actualChainId = data.result?.node_info?.network;
+  if (actualChainId !== expectedChainId) {
+    throw new Error(
+      `Nomic RPC chain ID mismatch: expected ${expectedChainId}, got ${actualChainId}`,
+    );
+  }
 };
 
 export const validateEvmChainInfoFromPath = async (
