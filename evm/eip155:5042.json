@@ -1,0 +1,37 @@
+{
+  "rpc": "https://rpc.mainnet.arc.io",
+  "websocket": "wss://rpc.blockdaemon.mainnet.arc.io/websocket",
+  "nodeProvider": {
+    "name": "Circle",
+    "website": "https://www.circle.com/",
+    "discord": "https://discord.com/invite/buildonarc"
+  },
+  "chainId": "eip155:5042",
+  "chainName": "Arc",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5042/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "usdc",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5042/usdc.png",
+      "coinGeckoId": "usd-coin"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "usdc",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:5042/usdc.png",
+      "coinGeckoId": "usd-coin"
+    }
+  ],
+  "features": [],
+  "explorers": {
+    "txPage": "https://explorer.arc.io/tx/0x{txHash}"
+  }
+}
