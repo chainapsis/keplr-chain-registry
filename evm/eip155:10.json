@@ -1,5 +1,5 @@
 {
-  "rpc": "https://optimism-rpc.publicnode.com",
+  "rpc": "https://mainnet.optimism.io",
   "websocket": "wss://optimism-rpc.publicnode.com",
   "chainId": "eip155:10",
   "chainName": "Optimism",
