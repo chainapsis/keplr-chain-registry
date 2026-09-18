@@ -2,8 +2,8 @@
   "chainId": "chihuahua-1",
   "chainName": "Chihuahua",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/chihuahua/chain.png",
-  "rpc": "https://rpc-chihuahua.keplr.app",
-  "rest": "https://lcd-chihuahua.keplr.app",
+  "rpc": "https://rpc.chihuahua.wtf",
+  "rest": "https://api.chihuahua.wtf",
   "stakeCurrency": {
     "coinDenom": "HUAHUA",
     "coinMinimalDenom": "uhuahua",
