@@ -1,0 +1,63 @@
+{
+  "rpc": "https://tendermint.hyvechain.com",
+  "rest": "https://api.hyvechain.com",
+  "chainId": "hyve_7847-1",
+  "chainName": "HyveChain",
+  "evm": {
+    "chainId": 7847,
+    "rpc": "https://rpc.hyvechain.com"
+  },
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/hyve_7847/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "HYVE",
+    "coinMinimalDenom": "ahyve",
+    "coinDecimals": 18,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/hyve_7847/ahyve.png"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "hyve",
+    "bech32PrefixAccPub": "hyvepub",
+    "bech32PrefixValAddr": "hyvevaloper",
+    "bech32PrefixValPub": "hyvevaloperpub",
+    "bech32PrefixConsAddr": "hyvevalcons",
+    "bech32PrefixConsPub": "hyvevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "HYVE",
+      "coinMinimalDenom": "ahyve",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/hyve_7847/ahyve.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "HYVE",
+      "coinMinimalDenom": "ahyve",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/hyve_7847/ahyve.png",
+      "gasPriceStep": {
+        "low": 10000000000,
+        "average": 15000000000,
+        "high": 20000000000
+      }
+    }
+  ],
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign",
+    "eth-secp256k1-cosmos"
+  ],
+  "nodeProvider": {
+    "name": "HyveChain",
+    "email": "craig@hyvechain.com",
+    "website": "https://hyvechain.com"
+  },
+  "isTestnet": false,
+  "explorers": {
+    "txPage": "https://explorer.hyvechain.com/cosmos/tx/{txHash}"
+  }
+}
