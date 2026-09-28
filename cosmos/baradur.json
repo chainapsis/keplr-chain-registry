@@ -1,0 +1,54 @@
+{
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "baradur",
+    "bech32PrefixAccPub": "baradurpub",
+    "bech32PrefixConsAddr": "baradurvalcons",
+    "bech32PrefixConsPub": "baradurvalconspub",
+    "bech32PrefixValAddr": "baradurvaloper",
+    "bech32PrefixValPub": "baradurvaloperpub"
+  },
+  "chainId": "baradur",
+  "chainName": "Baradur",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/baradur/chain.png",
+  "currencies": [
+    {
+      "coinDecimals": 6,
+      "coinDenom": "SAU",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/baradur/usau.png",
+      "coinMinimalDenom": "usau"
+    }
+  ],
+  "features": [
+    "cosmwasm"
+  ],
+  "feeCurrencies": [
+    {
+      "coinDecimals": 6,
+      "coinDenom": "SAU",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/baradur/usau.png",
+      "coinMinimalDenom": "usau",
+      "gasPriceStep": {
+        "average": 0.05,
+        "high": 0.1,
+        "low": 0.033
+      }
+    }
+  ],
+  "rest": "https://lcd-baradur.kryptey.com",
+  "rpc": "https://rpc-baradur.kryptey.com",
+  "stakeCurrency": {
+    "coinDecimals": 6,
+    "coinDenom": "SAU",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/baradur/usau.png",
+    "coinMinimalDenom": "usau"
+  },
+  "walletUrl": "https://kryptey.com",
+  "nodeProvider": {
+    "name": "Kryptey",
+    "email": "admin@kryptey.com",
+    "website": "https://kryptey.com"
+  }
+}
