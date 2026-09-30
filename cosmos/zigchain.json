@@ -19,10 +19,10 @@
   "currencies": [
     {
       "coinDenom": "ZIG",
-      "coinMinimalDenom": "uzig",
-      "coinDecimals": 6,
+      "coinMinimalDenom": "azig",
+      "coinDecimals": 18,
       "coinGeckoId": "zignaly",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zigchain/uzig.png"
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zigchain/azig.png"
     },
     {
       "coinDenom": "stzig",
@@ -34,23 +34,23 @@
   "feeCurrencies": [
     {
       "coinDenom": "ZIG",
-      "coinMinimalDenom": "uzig",
-      "coinDecimals": 6,
+      "coinMinimalDenom": "azig",
+      "coinDecimals": 18,
       "coinGeckoId": "zignaly",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zigchain/uzig.png",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zigchain/azig.png",
       "gasPriceStep": {
-        "low": 0.0025,
-        "average": 0.025,
-        "high": 0.05
+        "low": 2500000000,
+        "average": 25000000000,
+        "high": 50000000000
       }
     }
   ],
   "stakeCurrency": {
     "coinDenom": "ZIG",
-    "coinMinimalDenom": "uzig",
-    "coinDecimals": 6,
+    "coinMinimalDenom": "azig",
+    "coinDecimals": 18,
     "coinGeckoId": "zignaly",
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zigchain/uzig.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zigchain/azig.png"
   },
   "features": [
     "cosmwasm"
