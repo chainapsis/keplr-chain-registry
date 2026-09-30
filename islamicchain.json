@@ -1,0 +1,82 @@
+{
+"chainId": "islamicchain-1",
+"chainName": "IslamicChain",
+"chainSymbolImageUrl": "https://islamicchain.org/assets/images/islamicchain.png",
+
+"rpc": "https://signer.islamicchain.org/sign/",
+"rest": "https://signer.islamicchain.org/sign/",
+
+"nodeProvider": {
+"name": "Decima Technologies",
+"email": "[support@islamicchain.org](mailto:support@islamicchain.org)",
+"website": "https://islamicchain.org"
+},
+
+"walletUrlForStaking": "https://islamicchain.org",
+
+"bip44": {
+"coinType": 118
+},
+
+"bech32Config": {
+"bech32PrefixAccAddr": "islamicchain",
+"bech32PrefixAccPub": "islamicchainpub",
+"bech32PrefixValAddr": "islamicchainvaloper",
+"bech32PrefixValPub": "islamicchainvaloperpub",
+"bech32PrefixConsAddr": "islamicchainvalcons",
+"bech32PrefixConsPub": "islamicchainvalconspub"
+},
+
+"currencies": [
+{
+"coinDenom": "PMCN",
+"coinMinimalDenom": "upmcn",
+"coinDecimals": 18
+},
+{
+"coinDenom": "DCMA",
+"coinMinimalDenom": "udcma",
+"coinDecimals": 10
+},
+{
+"coinDenom": "NFUEL",
+"coinMinimalDenom": "unfuel",
+"coinDecimals": 18
+},
+{
+"coinDenom": "SovUSDT",
+"coinMinimalDenom": "usovusdt",
+"coinDecimals": 6
+}
+],
+
+"feeCurrencies": [
+{
+"coinDenom": "NFUEL",
+"coinMinimalDenom": "unfuel",
+"coinDecimals": 18,
+"gasPriceStep": {
+"low": 0.100,
+"average": 0.300,
+"high": 1.000
+}
+}
+],
+
+"stakeCurrency": {
+"coinDenom": "NFUEL",
+"coinMinimalDenom": "unfuel",
+"coinDecimals": 18
+},
+
+"features": [
+"identity-module",
+"kyc-native",
+"ic-01-assets",
+"sovereign-assets"
+],
+
+"explorers": {
+"txPage": "https://islamicchain.org/transaction.php?hash=<tx_hash>"
+}
+}
