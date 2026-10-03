@@ -263,6 +263,12 @@
       "coinMinimalDenom": "factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_157_99c09d972f9c1f79",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/zztop.png"
+    },
+    {
+      "coinDenom": "SPROUT",
+      "coinMinimalDenom": "erc20:0x503f2a7bac1e2ff2800aa92edb82abef0bfa631e",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/injective/erc20/0x503f2a7bac1e2ff2800aa92edb82abef0bfa631e.png"
     }
   ],
   "feeCurrencies": [
