@@ -2,12 +2,10 @@
   "chainId": "bbn-test-6",
   "chainName": "Babylon Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-test/chain.png",
-  "rpc": "https://babylon-testnet-rpc.nodes.guru",
-  "rest": "https://babylon-testnet-api.nodes.guru",
+  "rpc": "https://babylon-testnet-rpc.polkachu.com",
+  "rest": "https://babylon-testnet-api.polkachu.com",
   "nodeProvider": {
-    "name": "Keplr",
-    "email": "devops@keplr.app",
-    "website": "https://infra.keplr.app"
+    "name": "Polkachu",
   },
   "bip44": {
     "coinType": 118
