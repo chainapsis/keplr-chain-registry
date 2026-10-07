@@ -5,7 +5,9 @@
   "rpc": "https://babylon-testnet-rpc.polkachu.com",
   "rest": "https://babylon-testnet-api.polkachu.com",
   "nodeProvider": {
-    "name": "Polkachu"
+    "name": "Polkachu",
+    "email": "hello@polkachu.com",
+    "website": "https://polkachu.com/"
   },
   "bip44": {
     "coinType": 118
