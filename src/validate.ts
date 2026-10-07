@@ -330,6 +330,14 @@ export const checkCurrencies = (chainInfo: ChainInfo) => {
       ) {
         continue;
       }
+      // Preserve the existing LBTC registration on Babylon testnet.
+      if (
+        ChainIdHelper.parse(chainInfo.chainId).identifier === "bbn-test" &&
+        currency.coinMinimalDenom ===
+          "ibc/13A78C8607F1ABD49DA5EC474262E3D69312A797FB0026BC4F9961D74EB6E066"
+      ) {
+        continue;
+      }
       // nBTC on Osmosis from Nomic.
       if (
         ChainIdHelper.parse(chainInfo.chainId).identifier === "osmosis" &&

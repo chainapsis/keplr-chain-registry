@@ -6,6 +6,8 @@
   "rest": "https://babylon-testnet-api.polkachu.com",
   "nodeProvider": {
     "name": "Polkachu",
+    "email": "hello@polkachu.com",
+    "website": "https://polkachu.com/"
   },
   "bip44": {
     "coinType": 118
