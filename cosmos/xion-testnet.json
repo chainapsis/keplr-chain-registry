@@ -31,7 +31,8 @@
     {
       "coinDenom": "verUSD",
       "coinMinimalDenom": "factory/xion17grq736740r70awldugfs3mls3stu9haewctv2/verusd",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xion-testnet/verusd.png"
     }
   ],
   "feeCurrencies": [
@@ -50,6 +51,7 @@
       "coinDenom": "verUSD",
       "coinMinimalDenom": "factory/xion17grq736740r70awldugfs3mls3stu9haewctv2/verusd",
       "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xion-testnet/verusd.png",
       "gasPriceStep": {
         "low": 0.005,
         "average": 0.005,

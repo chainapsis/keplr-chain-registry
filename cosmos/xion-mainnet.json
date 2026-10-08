@@ -35,7 +35,8 @@
       "coinDenom": "verUSD",
       "coinMinimalDenom": "factory/xion17grq736740r70awldugfs3mls3stu9haewctv2/verusd",
       "coinDecimals": 6,
-      "coinGeckoId": "stable-coin-2"
+      "coinGeckoId": "stable-coin-2",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xion-mainnet/verusd.png"
     }
   ],
   "feeCurrencies": [
