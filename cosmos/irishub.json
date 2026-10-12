@@ -1,7 +1,7 @@
 {
   "rpc": "https://rpc-iris.keplr.app",
   "rest": "https://lcd-iris.keplr.app",
-  "chainId": "irishub-1",
+  "chainId": "irishub-2",
   "chainName": "IRISnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/irishub/chain.png",
   "stakeCurrency": {
