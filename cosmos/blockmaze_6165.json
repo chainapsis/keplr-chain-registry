@@ -1,0 +1,55 @@
+{
+  "rpc": "https://native-rpc.blockmaze.org",
+  "rest": "https://api.blockmaze.org",
+  "chainId": "blockmaze_6165-1",
+  "chainName": "Blockmaze Mainnet",
+  "evm": {
+    "chainId": 6165,
+    "rpc": "https://rpc.blockmaze.org"
+  },
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/blockmaze_6165/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "BMZ",
+    "coinMinimalDenom": "Rho18",
+    "coinDecimals": 18,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/blockmaze_6165/bmz.png"
+  },
+  "nodeProvider": {
+    "name": "Blockmaze",
+    "email": "info@blockmaze.com",
+    "website": "https://blockmaze.com"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "bmz",
+    "bech32PrefixAccPub": "bmzpub",
+    "bech32PrefixValAddr": "bmzvaloper",
+    "bech32PrefixValPub": "bmzvaloperpub",
+    "bech32PrefixConsAddr": "bmzvalcons",
+    "bech32PrefixConsPub": "bmzvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "BMZ",
+      "coinMinimalDenom": "Rho18",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/blockmaze_6165/bmz.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "BMZ",
+      "coinMinimalDenom": "Rho18",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/blockmaze_6165/bmz.png",
+      "gasPriceStep": {
+        "low": 150000000000,
+        "average": 175000000000,
+        "high": 200000000000
+      }
+    }
+  ],
+  "features": ["eth-address-gen", "eth-key-sign"]
+}
