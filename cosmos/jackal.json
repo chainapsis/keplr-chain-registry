@@ -2,8 +2,8 @@
   "chainId": "jackal-1",
   "chainName": "Jackal",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/jackal/chain.png",
-  "rpc": "https://rpc-jackal.keplr.app",
-  "rest": "https://lcd-jackal.keplr.app",
+  "rpc": "https://rpc.jackal.nodestake.org",
+  "rest": "https://api.jackal.nodestake.org",
   "walletUrlForStaking": "https://wallet.keplr.app/chains/jackal?modal=staking&chain=jackal-1&step_id=2",
   "bip44": {
     "coinType": 118
