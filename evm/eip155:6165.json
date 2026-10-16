@@ -1,0 +1,40 @@
+{
+  "rpc": "https://rpc.blockmaze.org",
+  "websocket": "wss://ws.blockmaze.org",
+  "chainId": "eip155:6165",
+  "chainName": "Blockmaze Mainnet (EVM)",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:6165/chain.png",
+  "nodeProvider": {
+    "name": "Blockmaze",
+    "email": "info@blockmaze.com",
+    "website": "https://blockmaze.com"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "currencies": [
+    {
+      "coinDenom": "BMZ",
+      "coinMinimalDenom": "Rho18",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:6165/bmz.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "BMZ",
+      "coinMinimalDenom": "Rho18",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:6165/bmz.png",
+      "gasPriceStep": {
+        "low": 150000000000,
+        "average": 175000000000,
+        "high": 200000000000
+      }
+    }
+  ],
+  "features": [],
+  "explorers": {
+    "txPage": "https://bmzexplorer.com/tx/0x{txHash}"
+  }
+}
