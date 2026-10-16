@@ -5,7 +5,7 @@
   "chainName": "CONX Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cube_47/chain.png",
   "stakeCurrency": {
-    "coinDenom": "XPLA",
+    "coinDenom": "CONX",
     "coinMinimalDenom": "axpla",
     "coinDecimals": 18,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cube_47/axpla.png"
@@ -23,7 +23,7 @@
   },
   "currencies": [
     {
-      "coinDenom": "XPLA",
+      "coinDenom": "CONX",
       "coinMinimalDenom": "axpla",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cube_47/axpla.png"
@@ -31,7 +31,7 @@
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "XPLA",
+      "coinDenom": "CONX",
       "coinMinimalDenom": "axpla",
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cube_47/axpla.png",
