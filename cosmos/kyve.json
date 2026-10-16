@@ -11,7 +11,7 @@
     "coinGeckoId": "kyve-network",
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kyve/ukyve.png"
   },
-  "walletUrlForStaking": "https://wallet.keplr.app/chains/kyve?modal=staking&chain=kyve-1&step_id=2",
+  "walletUrlForStaking": "https://ping.pub/kyve",
   "bip44": {
     "coinType": 118
   },
