@@ -1,6 +1,6 @@
 {
-  "rpc": "https://rpc-stride.keplr.app",
-  "rest": "https://lcd-stride.keplr.app",
+  "rpc": "https://stride-strd-rpc.polkachu.com",
+  "rest": "https://stride-strd-api.polkachu.com",
   "chainId": "stride-1",
   "chainName": "Stride",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/stride/chain.png",
