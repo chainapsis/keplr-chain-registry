@@ -28,6 +28,12 @@
       "coinMinimalDenom": "uluxa",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/luxa/uluxa.png"
+    },
+    {
+      "coinDenom": "SHARD",
+      "coinMinimalDenom": "ushard",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/luxa/ushard.png"
     }
   ],
   "feeCurrencies": [
