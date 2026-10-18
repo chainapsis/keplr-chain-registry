@@ -1,0 +1,52 @@
+{
+  "rpc": "https://rpc.luxaecosystem.xyz",
+  "rest": "https://api.luxaecosystem.xyz",
+  "chainId": "luxa-1",
+  "chainName": "LUXA Network",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/luxa/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "LUXA",
+    "coinMinimalDenom": "uluxa",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/luxa/uluxa.png"
+  },
+  "walletUrl": "https://luxaecosystem.xyz/vault.html",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "luxa",
+    "bech32PrefixAccPub": "luxapub",
+    "bech32PrefixValAddr": "luxavaloper",
+    "bech32PrefixValPub": "luxavaloperpub",
+    "bech32PrefixConsAddr": "luxavalcons",
+    "bech32PrefixConsPub": "luxavalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "LUXA",
+      "coinMinimalDenom": "uluxa",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/luxa/uluxa.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "LUXA",
+      "coinMinimalDenom": "uluxa",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/luxa/uluxa.png",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "features": [
+    "cosmwasm"
+  ],
+  "explorers": {
+    "txPage": "https://luxaecosystem.xyz/explorer.html?tx={txHash}"
+  }
+}
