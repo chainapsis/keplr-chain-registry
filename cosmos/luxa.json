@@ -1,6 +1,11 @@
 {
   "rpc": "https://rpc.luxaecosystem.xyz",
   "rest": "https://api.luxaecosystem.xyz",
+  "nodeProvider": {
+    "name": "LUXA Network",
+    "email": "luxatokenofficial@gmail.com",
+    "website": "https://luxaecosystem.xyz"
+  },
   "chainId": "luxa-1",
   "chainName": "LUXA Network",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/luxa/chain.png",
@@ -11,6 +16,7 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/luxa/uluxa.png"
   },
   "walletUrl": "https://luxaecosystem.xyz/vault.html",
+  "walletUrlForStaking": "https://luxaecosystem.xyz/vault.html",
   "bip44": {
     "coinType": 118
   },
