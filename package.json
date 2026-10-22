@@ -15,6 +15,7 @@
     "start": "next start",
     "lint": "next lint",
     "build:server": "tsc -p ./server/tsconfig.json && mkdir -p ./server/build/static && cp -r ./cosmos ./server/build/static && cp -r ./evm ./server/build/static && cp -r ./svm ./server/build/static",
+    "typecheck:pulumi": "tsc --noEmit --skipLibCheck --target es2020 --module commonjs --moduleResolution node pulumi/index.ts",
     "bundle:server": "rm -rf ./server/bundle && esbuild ./server/src/index.ts --bundle --minify --sourcemap --platform=node --target=node22 --outdir=./server/bundle && mkdir -p ./server/bundle/static && cp -r ./cosmos ./server/bundle/static && cp -r ./evm ./server/bundle/static && cp -r ./svm ./server/bundle/static",
     "bundle:zip": "cd ./server && zip -r ../bundle.zip ./bundle"
   },
@@ -45,8 +46,8 @@
     "ws": "^8.11.0"
   },
   "devDependencies": {
-    "@pulumi/aws": "^6.8.0",
-    "@pulumi/pulumi": "^3.93.0",
+    "@pulumi/aws": "^6.64.0",
+    "@pulumi/pulumi": "^3.136.0",
     "@types/cors": "^2.8.13",
     "@types/eslint": "^8.4.10",
     "@types/koa": "^2.13.11",

@@ -26,6 +26,7 @@ jobs:
 
       - run: npm install --global yarn
       - run: yarn install --frozen-lockfile
+      - run: yarn typecheck:pulumi
       - run: yarn build:server
       - run: yarn bundle:server
       - run: yarn bundle:zip
