@@ -1,0 +1,60 @@
+{
+  "chainId": "zetaphy_77390-1",
+  "chainName": "ZETAPHY Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zetaphy_77390/chain.png",
+  "rpc": "https://rpc.sawasdeecoin.com/rpc",
+  "rest": "https://rpc.sawasdeecoin.com/rest",
+  "evm": {
+    "chainId": 77390,
+    "rpc": "https://rpc.sawasdeecoin.com"
+  },
+  "nodeProvider": {
+    "name": "ZETAPHY",
+    "email": "sawasdeecoin@gmail.com",
+    "website": "https://app.sawasdeecoin.com"
+  },
+  "walletUrlForStaking": "https://app.sawasdeecoin.com/?tab=stake",
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "zetaphy",
+    "bech32PrefixAccPub": "zetaphypub",
+    "bech32PrefixValAddr": "zetaphyvaloper",
+    "bech32PrefixValPub": "zetaphyvaloperpub",
+    "bech32PrefixConsAddr": "zetaphyvalcons",
+    "bech32PrefixConsPub": "zetaphyvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "ZETAPHY",
+      "coinMinimalDenom": "azetaphy",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zetaphy_77390/azetaphy.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ZETAPHY",
+      "coinMinimalDenom": "azetaphy",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zetaphy_77390/azetaphy.png",
+      "gasPriceStep": {
+        "low": 1000000000,
+        "average": 2000000000,
+        "high": 4000000000
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "ZETAPHY",
+    "coinMinimalDenom": "azetaphy",
+    "coinDecimals": 18,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zetaphy_77390/azetaphy.png"
+  },
+  "features": ["eth-address-gen", "eth-key-sign", "eth-secp256k1-cosmos", "cosmwasm"],
+  "isTestnet": true,
+  "explorers": {
+    "txPage": "https://explorer.sawasdeecoin.com/#/tx/{txHash}"
+  }
+}
