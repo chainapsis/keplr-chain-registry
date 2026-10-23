@@ -52,6 +52,12 @@
       "coinMinimalDenom": "factory/terra1dndhtdr2v7ca8rrn67chlqw3cl3xhm3m2uxls62vghcg3fsh5tpss5xmcu/MOAR",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/MOAR.png"
+    },
+    {
+      "coinDenom": "GEM",
+      "coinMinimalDenom": "factory/terra187wskthf3t9t4pnt3hu4j2674ympc066tvz502/ugem",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/GEM.png"
     }
   ],
   "feeCurrencies": [
