@@ -44,7 +44,7 @@ const lambda = new aws.lambda.Function(
     name: `chain-registry-lambda-function-${stack}`,
     role: role.arn,
     code: new pulumi.asset.FileArchive("../bundle.zip"),
-    runtime: "nodejs18.x",
+    runtime: aws.lambda.Runtime.NodeJS22dX,
     handler: "bundle/index.handler",
     timeout: 15,
     memorySize: 256,
