@@ -1,0 +1,43 @@
+{
+  "rpc": "https://public-zigchain-testnet-evm-rpc.numia.xyz",
+  "nodeProvider": {
+    "name": "Numia",
+    "email": "support@numia.xyz",
+    "website": "https://numia.xyz"
+  },
+  "chainId": "eip155:2061",
+  "chainName": "ZIGChain Testnet EVM",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:2061/chain.png",
+  "bip44": {
+    "coinType": 60
+  },
+  "stakeCurrency": {
+    "coinDenom": "ZIG",
+    "coinMinimalDenom": "azig",
+    "coinDecimals": 18,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:2061/azig.png"
+  },
+  "currencies": [
+    {
+      "coinDenom": "ZIG",
+      "coinMinimalDenom": "azig",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:2061/azig.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ZIG",
+      "coinMinimalDenom": "azig",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:2061/azig.png",
+      "gasPriceStep": {
+        "low": 2500000000,
+        "average": 25000000000,
+        "high": 50000000000
+      }
+    }
+  ],
+  "features": [],
+  "isTestnet": true
+}

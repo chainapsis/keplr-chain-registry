@@ -3,11 +3,11 @@
   "chainName": "ZIGChain Testnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zig-test/chain.png",
   "rpc": "https://public-zigchain-testnet-rpc.numia.xyz",
-  "rest": "https://testnet-api.zigchain.com",
+  "rest": "https://public-zigchain-testnet-lcd.numia.xyz",
   "nodeProvider": {
-    "name": "ZIGChain",
-    "email": "hello@zigchain.com",
-    "website": "https://zigchain.com/"
+    "name": "Numia",
+    "email": "support@numia.xyz",
+    "website": "https://numia.xyz"
   },
   "bip44": {
     "coinType": 118
@@ -54,7 +54,8 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zig-test/azig.png"
   },
   "features": [
-    "cosmwasm"
+    "cosmwasm",
+    "evm-feemarket"
   ],
   "isTestnet": true
 }
