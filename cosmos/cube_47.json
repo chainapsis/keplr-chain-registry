@@ -36,9 +36,9 @@
       "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cube_47/axpla.png",
       "gasPriceStep": {
-        "low": 280000000000,
-        "average": 280000000000,
-        "high": 280000000000
+        "low": 1200000000000,
+        "average": 1200000000000,
+        "high": 1200000000000
       }
     }
   ],
@@ -49,8 +49,13 @@
   "nodeProvider": {
     "name": "Holdings",
     "email": "contact@xpla.io",
-    "website": "https://xpla.io"
+    "website": "https://conx.xyz"
   },
-  "features": ["eth-address-gen", "eth-key-sign", "cosmwasm"],
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign",
+    "eth-secp256k1-cosmos",
+    "cosmwasm"
+  ],
   "isTestnet": true
 }
