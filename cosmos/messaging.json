@@ -1,0 +1,55 @@
+{
+  "rpc": "https://dchat.online/rpc",
+  "rest": "https://dchat.online/rest",
+  "chainId": "messaging",
+  "chainName": "DChat",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/messaging/chain.png",
+  "nodeProvider": {
+    "name": "DChat",
+    "email": "abuse@dchat.online",
+    "website": "https://dchat.online"
+  },
+  "stakeCurrency": {
+    "coinDenom": "SHH",
+    "coinMinimalDenom": "udchat",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/messaging/shh.png"
+  },
+  "walletUrlForStaking": "https://dchat.online",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "dc",
+    "bech32PrefixAccPub": "dcpub",
+    "bech32PrefixValAddr": "dcvaloper",
+    "bech32PrefixValPub": "dcvaloperpub",
+    "bech32PrefixConsAddr": "dcvalcons",
+    "bech32PrefixConsPub": "dcvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "SHH",
+      "coinMinimalDenom": "udchat",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/messaging/shh.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "SHH",
+      "coinMinimalDenom": "udchat",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/messaging/shh.png",
+      "gasPriceStep": {
+        "low": 0.0025,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "features": [],
+  "explorers": {
+    "txPage": "https://dchat.online/explorer/tx/{txHash}"
+  }
+}
