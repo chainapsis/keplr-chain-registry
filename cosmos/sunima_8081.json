@@ -1,0 +1,53 @@
+{
+  "rpc": "https://sunima.uk/chain-rpc",
+  "rest": "https://sunima.uk/chain-rest",
+  "chainId": "sunima_8081-2",
+  "chainName": "Sunima Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sunima_8081/chain.png",
+  "nodeProvider": {
+    "name": "Sunima Labs",
+    "email": "hello@sunima.uk",
+    "website": "https://sunima.uk"
+  },
+  "walletUrlForStaking": "https://sunima.uk/testnet/stake.html",
+  "stakeCurrency": {
+    "coinDenom": "SUNA",
+    "coinMinimalDenom": "asuna",
+    "coinDecimals": 18
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "sunima",
+    "bech32PrefixAccPub": "sunimapub",
+    "bech32PrefixValAddr": "sunimavaloper",
+    "bech32PrefixValPub": "sunimavaloperpub",
+    "bech32PrefixConsAddr": "sunimavalcons",
+    "bech32PrefixConsPub": "sunimavalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "SUNA",
+      "coinMinimalDenom": "asuna",
+      "coinDecimals": 18
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "SUNA",
+      "coinMinimalDenom": "asuna",
+      "coinDecimals": 18,
+      "gasPriceStep": {
+        "low": 1000000000,
+        "average": 2500000000,
+        "high": 5000000000
+      }
+    }
+  ],
+  "features": [],
+  "isTestnet": true,
+  "explorers": {
+    "txPage": "https://scan.sunima.uk/#/tx/{txHash}"
+  }
+}
