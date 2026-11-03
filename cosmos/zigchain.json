@@ -53,7 +53,8 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zigchain/azig.png"
   },
   "features": [
-    "cosmwasm"
+    "cosmwasm",
+    "evm-feemarket"
   ],
   "explorers": {
     "txPage": "https://www.zigscan.org/tx/{txHash:uppercase}"
