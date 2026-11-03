@@ -1,0 +1,60 @@
+{
+  "rpc": "https://public-comet-rpc.c8ntinuum.io",
+  "rest": "https://public-comet-grpc-web.c8ntinuum.io",
+  "chainId": "c8ntinuum_8-1",
+  "chainName": "c8ntinuum",
+  "evm": {
+    "chainId": 8,
+    "rpc": "https://public-evm-rpc.c8ntinuum.io"
+  },
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/c8ntinuum_8/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "CTM",
+    "coinMinimalDenom": "ctm",
+    "coinDecimals": 18,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/c8ntinuum_8/ctm.png"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "c8",
+    "bech32PrefixAccPub": "c8pub",
+    "bech32PrefixValAddr": "c8valoper",
+    "bech32PrefixValPub": "c8valoperpub",
+    "bech32PrefixConsAddr": "c8valcons",
+    "bech32PrefixConsPub": "c8valconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "CTM",
+      "coinMinimalDenom": "ctm",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/c8ntinuum_8/ctm.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "CTM",
+      "coinMinimalDenom": "ctm",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/c8ntinuum_8/ctm.png",
+      "gasPriceStep": {
+        "low": 222000000000,
+        "average": 444000000000,
+        "high": 888000000000
+      }
+    }
+  ],
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign",
+    "eth-secp256k1-cosmos"
+  ],
+  "nodeProvider": {
+    "name": "c8ntinuum",
+    "email": "contact@c8ntinuum.com",
+    "website": "https://c8ntinuum.com"
+  },
+  "isTestnet": false
+}
