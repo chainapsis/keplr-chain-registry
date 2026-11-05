@@ -55,5 +55,8 @@
   },
   "features": [
     "cosmwasm"
-  ]
+  ],
+    "explorers": {
+    "txPage": "https://safrochain.valopers.com/transactions/{txHash}"
+  }
 }
