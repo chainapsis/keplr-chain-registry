@@ -49,5 +49,8 @@
         }
     ],
     "features": [],
-    "isTestnet": true
+    "isTestnet": true,
+    "explorers": {
+    "txPage": "https://testnet.safrochain.valopers.com/transactions/{txHash}"
+  }
 }
