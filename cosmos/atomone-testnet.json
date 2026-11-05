@@ -65,5 +65,8 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/atomone-testnet/atone.png"
   },
   "features": [],
-  "isTestnet": true
+  "isTestnet": true,
+  "explorers": {
+    "txPage": "https://testnet.atomone.valopers.com/transactions/{txHash}"
+  }
 }
