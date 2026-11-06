@@ -54,7 +54,8 @@
     }
   ],
   "features": [
-    "cosmwasm"
+    "cosmwasm",
+    "ibc-go-v7-hot-fix"
   ],
   "explorers": {
     "txPage": "https://explorer.burnt.com/xion-mainnet-1/tx/{txHash}"
