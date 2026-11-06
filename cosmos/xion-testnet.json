@@ -67,5 +67,8 @@
     "email": "security@burnt.com",
     "website": "https://xion.burnt.com"
   },
-  "isTestnet": true
+  "isTestnet": true,
+  "explorers": {
+    "txPage": "https://testnet.verona.valopers.com/transactions/{txHash}"
+  }
 }
