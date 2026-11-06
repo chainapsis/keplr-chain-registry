@@ -48,7 +48,7 @@
   ],
   "evm": {
     "chainId": 37,
-    "rpc": "https://dimension-evm-rpc.xpla.dev"
+    "rpc": "https://dimension-evm-rpc.zenaad.com"
   },
   "features": [
     "eth-address-gen",
