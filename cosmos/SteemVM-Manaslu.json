@@ -1,0 +1,71 @@
+{
+  "chainId": "SteemVM-Manaslu-81630",
+  "chainName": "SteemVM",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/SteemVM-Manaslu/chain.png",
+  "rpc": "https://rpc.steemvmscan.com",
+  "rest": "https://api.steemvmscan.com",
+  "evm": {
+    "chainId": 81630,
+    "rpc": "https://evm.steemvmscan.com"
+  },
+  "nodeProvider": {
+    "name": "SteemVM",
+    "email": "github@mprabidhi.com",
+    "website": "https://steemvmscan.com"
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "steem",
+    "bech32PrefixAccPub": "steempub",
+    "bech32PrefixValAddr": "steemvaloper",
+    "bech32PrefixValPub": "steemvaloperpub",
+    "bech32PrefixConsAddr": "steemvalcons",
+    "bech32PrefixConsPub": "steemvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "STEEM",
+      "coinMinimalDenom": "asteem",
+      "coinDecimals": 18,
+      "coinGeckoId": "steem",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/SteemVM-Manaslu/chain.png"
+    },
+    {
+      "coinDenom": "SBD",
+      "coinMinimalDenom": "asbd",
+      "coinDecimals": 18,
+      "coinGeckoId": "steem-dollars"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "STEEM",
+      "coinMinimalDenom": "asteem",
+      "coinDecimals": 18,
+      "coinGeckoId": "steem",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/SteemVM-Manaslu/chain.png",
+      "gasPriceStep": {
+        "low": 1000000000,
+        "average": 1250000000,
+        "high": 1500000000
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "STEEM",
+    "coinMinimalDenom": "asteem",
+    "coinDecimals": 18,
+    "coinGeckoId": "steem",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/SteemVM-Manaslu/chain.png"
+  },
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign",
+    "eth-secp256k1-cosmos"
+  ],
+  "explorers": {
+    "txPage": "https://steemvmscan.com/tx/{txHash}"
+  }
+}
