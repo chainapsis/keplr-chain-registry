@@ -1,0 +1,46 @@
+{
+  "chainId": "wpd-l2a-mainnet-1",
+  "chainName": "wpd-l2a-mainnet-1",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/wpd-l2a-mainnet/chain.png",
+  "rpc": "https://rpc-l2a.peaceism.io",
+  "rest": "https://api-l2a.peaceism.io",
+  "nodeProvider": {
+    "name": "Peaceism",
+    "email": "info@peaceism.org",
+    "website": "https://www.peaceism.io/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "leea",
+    "bech32PrefixAccPub": "leeapub",
+    "bech32PrefixValAddr": "leeavaloper",
+    "bech32PrefixValPub": "leeavaloperpub",
+    "bech32PrefixConsAddr": "leeavalcons",
+    "bech32PrefixConsPub": "leeavalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "LEEA",
+      "coinMinimalDenom": "leea",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/wpd-l2a-mainnet/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "LEEA",
+      "coinMinimalDenom": "leea",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/wpd-l2a-mainnet/chain.png"
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "LEEA",
+    "coinMinimalDenom": "leea",
+    "coinDecimals": 8,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/wpd-l2a-mainnet/chain.png"
+  },
+  "features": []
+}

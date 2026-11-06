@@ -1,0 +1,46 @@
+{
+  "chainId": "wpd-mainnet-1",
+  "chainName": "WPD Mainnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/wpd-mainnet/chain.png",
+  "rpc": "https://rpc.peaceism.io",
+  "rest": "https://api.peaceism.io",
+  "nodeProvider": {
+    "name": "Peaceism",
+    "email": "info@peaceism.org",
+    "website": "https://www.peaceism.io/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "wpd",
+    "bech32PrefixAccPub": "wpdpub",
+    "bech32PrefixValAddr": "wpdvaloper",
+    "bech32PrefixValPub": "wpdvaloperpub",
+    "bech32PrefixConsAddr": "wpdvalcons",
+    "bech32PrefixConsPub": "wpdvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "PCSM",
+      "coinMinimalDenom": "pcsm",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/wpd-mainnet/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "PCSM",
+      "coinMinimalDenom": "pcsm",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/wpd-mainnet/chain.png"
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "PCSM",
+    "coinMinimalDenom": "pcsm",
+    "coinDecimals": 8,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/wpd-mainnet/chain.png"
+  },
+  "features": []
+}
