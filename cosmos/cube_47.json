@@ -1,6 +1,6 @@
 {
-  "rpc": "https://cube-rpc.xpla.io",
-  "rest": "https://cube-lcd.xpla.io",
+  "rpc": "https://cube-rpc.zenaad.com",
+  "rest": "https://cube-lcd.zenaad.com",
   "chainId": "cube_47-5",
   "chainName": "xplatestnet",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cube_47/chain.png",
@@ -44,7 +44,7 @@
   ],
   "evm": {
     "chainId": 47,
-    "rpc": "https://cube-evm-rpc.xpla.dev"
+    "rpc": "https://cube-evm-rpc.zenaad.com"
   },
   "nodeProvider": {
     "name": "Holdings",
