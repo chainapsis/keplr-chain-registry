@@ -58,6 +58,12 @@
       "coinMinimalDenom": "factory/terra187wskthf3t9t4pnt3hu4j2674ympc066tvz502/ugem",
       "coinDecimals": 6,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/GEM.png"
+    },
+    {
+      "coinDenom": "xCAPA",
+      "coinMinimalDenom": "factory/terra1em2n05k385nj7zmjey0vq0gpxzntz9l5z4mnhjqvg32yak07q8rqqyjrhc/xCAPA",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/phoenix/xCAPA.png"
     }
   ],
   "feeCurrencies": [
