@@ -23,28 +23,28 @@
   "currencies": [
     {
       "coinDenom": "TSTOC",
-      "coinMinimalDenom": "utstoc",
-      "coinDecimals": 6,
+      "coinMinimalDenom": "atstoc",
+      "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tstoc_1999/utstoc.png"
     }
   ],
   "feeCurrencies": [
     {
       "coinDenom": "TSTOC",
-      "coinMinimalDenom": "utstoc",
-      "coinDecimals": 6,
+      "coinMinimalDenom": "atstoc",
+      "coinDecimals": 18,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tstoc_1999/utstoc.png",
       "gasPriceStep": {
-        "low": 0.01,
-        "average": 0.015,
-        "high": 0.02
+        "low": 10000000000,
+        "average": 15000000000,
+        "high": 20000000000
       }
     }
   ],
   "stakeCurrency": {
     "coinDenom": "TSTOC",
-    "coinMinimalDenom": "utstoc",
-    "coinDecimals": 6,
+    "coinMinimalDenom": "atstoc",
+    "coinDecimals": 18,
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/tstoc_1999/utstoc.png"
   },
   "features": [],
