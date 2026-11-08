@@ -1,71 +1,533 @@
-{
-  "rpc": "https://evm-1.keplr.app",
-  "websocket": "wss://evm-1.keplr.app/websocket",
-  "chainId": "eip155:1",
-  "chainName": "Ethereum",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/chain.png",
-  "bip44": {
-    "coinType": 60
-  },
-  "currencies": [
-    {
-      "coinDenom": "ETH",
-      "coinMinimalDenom": "ethereum-native",
-      "coinDecimals": 18,
-      "coinGeckoId": "ethereum",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/ethereum-native.png"
-    },
-    {
-      "coinDenom": "M",
-      "coinMinimalDenom": "erc20:0x866a2bf4e572cbcf37d5071a7a58503bfb36be1b",
-      "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/erc20/0x866a2bf4e572cbcf37d5071a7a58503bfb36be1b.png"
-    },
-    {
-      "coinDenom": "USDC",
-      "coinMinimalDenom": "erc20:0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
-      "coinDecimals": 6,
-      "coinGeckoId": "usd-coin",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/erc20/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.png"
-    },
-    {
-      "coinDenom": "USDT",
-      "coinMinimalDenom": "erc20:0xdAC17F958D2ee523a2206206994597C13D831ec7",
-      "coinDecimals": 6,
-      "coinGeckoId": "tether",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/erc20/0xdAC17F958D2ee523a2206206994597C13D831ec7.png"
-    },
-    {
-      "coinDenom": "wM",
-      "coinMinimalDenom": "erc20:0x437cc33344a0b27a429f795ff6b469c72698b291",
-      "coinDecimals": 6,
-      "coinGeckoId": "wrappedm-by-m0",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/erc20/0x437cc33344a0b27a429f795ff6b469c72698b291.png"
-    },
-    {
-      "coinDenom": "roETH",
-      "coinMinimalDenom": "erc20:0xf9bF4b8Bd40bc82269841769350C8eeeb7184759",
-      "coinDecimals": 6,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/erc20/0xf9bF4b8Bd40bc82269841769350C8eeeb7184759.png"
-    },
-    {
-      "coinDenom": "WGNK",
-      "coinMinimalDenom": "erc20:0x972a7a92d92796a98801a8818bcf91f1648f2f68",
-      "coinDecimals": 9,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/erc20/0x972a7a92d92796a98801a8818bcf91f1648f2f68.png"
-    }  
-  ],
-  "feeCurrencies": [
-    {
-      "coinDenom": "ETH",
-      "coinMinimalDenom": "ethereum-native",
-      "coinDecimals": 18,
-      "coinGeckoId": "ethereum",
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/eip155:1/ethereum-native.png"
-    }
-  ],
-  "features": [],
-  "explorers": {
-    "txPage": "https://etherscan.io/tx/0x{txHash}"
-  }
+
+#!/usr/bin/env bash
+set -euo pipefail
+
+PROJECT="ai-wallet-security-shield"
+
+mkdir -p "$PROJECT/backend/app" "$PROJECT/frontend" "$PROJECT/tests"
+cd "$PROJECT"
+
+cat > backend/app/__init__.py <<'EOF'
+EOF
+
+cat > backend/app/config.py <<'EOF'
+import os
+
+class Settings:
+    APP_NAME = "AI Wallet Security Shield"
+    API_KEY = os.getenv("OPENAI_API_KEY", "")
+    MODEL = os.getenv("OPENAI_MODEL", "gpt-4.1-mini")
+    ADMIN_TOKEN = os.getenv("ADMIN_TOKEN", "")
+    DATABASE_PATH = os.getenv("DATABASE_PATH", "/data/shield.db")
+
+settings = Settings()
+EOF
+
+cat > backend/app/security.py <<'EOF'
+import os
+import secrets
+from fastapi import Header, HTTPException
+
+def require_admin(authorization: str = Header(default="")):
+    expected = os.getenv("ADMIN_TOKEN", "")
+    if not expected:
+        raise HTTPException(503, "ADMIN_TOKEN belum dikonfigurasi")
+    supplied = authorization.removeprefix("Bearer ").strip()
+    if not secrets.compare_digest(supplied, expected):
+        raise HTTPException(401, "Unauthorized")
+    return True
+EOF
+
+cat > backend/app/ai_engine.py <<'EOF'
+import json
+from openai import OpenAI
+from .config import settings
+
+def analyze_with_ai(payload: dict) -> dict:
+    if not settings.API_KEY:
+        return {
+            "available": False,
+            "assessment": "AI tidak dikonfigurasi",
+            "risk": "unknown"
+        }
+
+    client = OpenAI(api_key=settings.API_KEY)
+
+    response = client.chat.completions.create(
+        model=settings.MODEL,
+        temperature=0,
+        messages=[
+            {
+                "role": "system",
+                "content": (
+                    "You are a wallet security analyst. "
+                    "Analyze transaction metadata only. "
+                    "Never request seed phrases or private keys. "
+                    "Return JSON with risk (low, medium, high, unknown) "
+                    "and explanation. Treat unverified information as unknown."
+                )
+            },
+            {
+                "role": "user",
+                "content": json.dumps(payload)
+            }
+        ],
+        response_format={"type": "json_object"}
+    )
+
+    return json.loads(response.choices[0].message.content)
+EOF
+
+cat > backend/app/scanner.py <<'EOF'
+from urllib.parse import urlparse
+
+BLOCKED_DOMAINS = {
+    "wallet-drainer.example",
+    "fake-airdrop.example",
 }
+
+def scan_url(url: str) -> dict:
+    try:
+        parsed = urlparse(url)
+        if parsed.scheme != "https" or not parsed.hostname:
+            return {
+                "allowed": False,
+                "risk": "high",
+                "reason": "URL harus menggunakan HTTPS dan host yang valid"
+            }
+
+        host = parsed.hostname.lower().rstrip(".")
+        if host in BLOCKED_DOMAINS:
+            return {
+                "allowed": False,
+                "risk": "high",
+                "reason": "Domain masuk daftar blokir"
+            }
+
+        return {
+            "allowed": True,
+            "risk": "unknown",
+            "reason": "Tidak ditemukan kecocokan daftar blokir lokal"
+        }
+    except Exception:
+        return {
+            "allowed": False,
+            "risk": "high",
+            "reason": "URL tidak dapat diperiksa"
+        }
+
+def scan_transaction(tx: dict) -> dict:
+    required = ["wallet", "chain", "to", "value"]
+    if any(not tx.get(field) for field in required):
+        return {
+            "allowed": False,
+            "risk": "high",
+            "reason": "Metadata transaksi tidak lengkap"
+        }
+
+    if tx.get("chain") not in ("ethereum", "polygon", "cosmos", "osmosis"):
+        return {
+            "allowed": False,
+            "risk": "high",
+            "reason": "Jaringan belum didukung"
+        }
+
+    if tx.get("simulation_ok") is not True:
+        return {
+            "allowed": False,
+            "risk": "unknown",
+            "reason": "Simulasi transaksi belum berhasil"
+        }
+
+    if tx.get("contract_verified") is not True:
+        return {
+            "allowed": False,
+            "risk": "high",
+            "reason": "Kontrak belum diverifikasi"
+        }
+
+    if tx.get("recipient_blocked") is True:
+        return {
+            "allowed": False,
+            "risk": "high",
+            "reason": "Penerima masuk daftar blokir"
+        }
+
+    return {
+        "allowed": True,
+        "risk": "low",
+        "reason": "Pemeriksaan aturan lokal berhasil"
+    }
+
+def enforce_strict_policy(local: dict, ai: dict | None = None) -> dict:
+    ai = ai or {}
+    if not local.get("allowed"):
+        return {"allowed": False, "reason": local.get("reason")}
+
+    # AI tidak boleh membatalkan keputusan blokir dari aturan lokal.
+    if ai.get("risk") in ("high", "unknown"):
+        return {
+            "allowed": False,
+            "reason": "AI tidak dapat memastikan transaksi aman"
+        }
+
+    if ai.get("risk") == "medium":
+        return {
+            "allowed": False,
+            "reason": "Risiko menengah diblokir oleh kebijakan strict"
+        }
+
+    if ai.get("risk") != "low":
+        return {
+            "allowed": False,
+            "reason": "Hasil analisis AI tidak valid atau tidak tersedia"
+        }
+
+    return {"allowed": True, "reason": "Lolos pemeriksaan lokal dan AI"}
+EOF
+
+cat > backend/app/main.py <<'EOF'
+import sqlite3
+from contextlib import asynccontextmanager
+from fastapi import FastAPI, Depends, HTTPException
+from pydantic import BaseModel, Field
+from .config import settings
+from .security import require_admin
+from .scanner import scan_url, scan_transaction, enforce_strict_policy
+from .ai_engine import analyze_with_ai
+
+def init_db():
+    conn = sqlite3.connect(settings.DATABASE_PATH)
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS events (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            event_type TEXT NOT NULL,
+            result TEXT NOT NULL,
+            reason TEXT NOT NULL,
+            created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+        )
+    """)
+    conn.commit()
+    conn.close()
+
+def log_event(event_type: str, result: str, reason: str):
+    conn = sqlite3.connect(settings.DATABASE_PATH)
+    conn.execute(
+        "INSERT INTO events(event_type,result,reason) VALUES(?,?,?)",
+        (event_type, result, reason)
+    )
+    conn.commit()
+    conn.close()
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    init_db()
+    yield
+
+app = FastAPI(
+    title=settings.APP_NAME,
+    version="1.0.0",
+    lifespan=lifespan
+)
+
+class URLRequest(BaseModel):
+    url: str = Field(min_length=8, max_length=2048)
+
+class TransactionRequest(BaseModel):
+    wallet: str = Field(min_length=3, max_length=128)
+    chain: str
+    to: str = Field(min_length=3, max_length=128)
+    value: str
+    simulation_ok: bool = False
+    contract_verified: bool = False
+    recipient_blocked: bool = False
+
+@app.get("/health")
+def health():
+    return {"status": "ok", "service": settings.APP_NAME}
+
+@app.get("/")
+def root():
+    return {"message": settings.APP_NAME, "dashboard": "/dashboard"}
+
+@app.get("/dashboard")
+def dashboard():
+    from fastapi.responses import HTMLResponse
+    with open("frontend/index.html", encoding="utf-8") as f:
+        return HTMLResponse(f.read())
+
+@app.post("/api/scan/url")
+def url_scan(data: URLRequest, _: bool = Depends(require_admin)):
+    result = scan_url(data.url)
+    log_event("url", "allowed" if result["allowed"] else "blocked",
+              result["reason"])
+    return result
+
+@app.post("/api/scan/transaction")
+def transaction_scan(data: TransactionRequest,
+                     _: bool = Depends(require_admin)):
+    payload = data.model_dump()
+    local = scan_transaction(payload)
+
+    if not local["allowed"]:
+        final = {"allowed": False, "reason": local["reason"]}
+    else:
+        try:
+            ai = analyze_with_ai(payload)
+            final = enforce_strict_policy(local, ai)
+        except Exception:
+            final = {
+                "allowed": False,
+                "reason": "Analisis AI gagal; kebijakan fail-closed aktif"
+            }
+
+    log_event(
+        "transaction",
+        "allowed" if final["allowed"] else "blocked",
+        final["reason"]
+    )
+    return final
+
+@app.get("/api/events")
+def events(_: bool = Depends(require_admin)):
+    conn = sqlite3.connect(settings.DATABASE_PATH)
+    rows = conn.execute(
+        "SELECT id,event_type,result,reason,created_at "
+        "FROM events ORDER BY id DESC LIMIT 100"
+    ).fetchall()
+    conn.close()
+
+    return [
+        {
+            "id": r[0], "type": r[1], "result": r[2],
+            "reason": r[3], "created_at": r[4]
+        } for r in rows
+    ]
+EOF
+
+cat > backend/requirements.txt <<'EOF'
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+openai==1.82.0
+pydantic==2.11.5
+pytest==8.3.5
+httpx==0.28.1
+EOF
+
+cat > frontend/index.html <<'EOF'
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Wallet Security Shield</title>
+<style>
+body{font-family:Arial;background:#101827;color:#e8eef8;margin:0;padding:24px}
+main{max-width:900px;margin:auto}
+.card{background:#1d2a3d;padding:20px;border-radius:12px;margin:16px 0}
+input,button{padding:12px;border-radius:7px;border:0;margin:5px 0}
+input{width:min(95%,500px)}
+button{background:#2563eb;color:white;cursor:pointer}
+pre{white-space:pre-wrap;overflow-wrap:anywhere}
+small{color:#aab8ca}
+</style>
+</head>
+<body>
+<main>
+<h1>AI Wallet Security Shield</h1>
+<p><small>Security monitoring dashboard · Strict policy</small></p>
+<div class="card">
+<h2>Status server</h2>
+<button onclick="health()">Periksa status</button>
+<pre id="status">Belum diperiksa</pre>
+</div>
+<div class="card">
+<h2>Pemeriksaan URL</h2>
+<input id="url" placeholder="https://example.com">
+<br><button onclick="scanUrl()">Periksa URL</button>
+<pre id="urlresult"></pre>
+</div>
+<div class="card">
+<h2>Riwayat ancaman</h2>
+<button onclick="events()">Muat riwayat</button>
+<pre id="history"></pre>
+</div>
+<p><small>API admin token disimpan di browser hanya selama sesi. Jangan gunakan dashboard melalui HTTP publik.</small></p>
+</main>
+<script>
+let token = sessionStorage.getItem("shield_token") || "";
+if (!token) {
+  token = prompt("Masukkan ADMIN_TOKEN:");
+  if (token) sessionStorage.setItem("shield_token", token);
+}
+async function api(path, options={}) {
+  const response = await fetch(path, {
+    ...options,
+    headers: {
+      "Content-Type":"application/json",
+      "Authorization":"Bearer "+token,
+      ...(options.headers || {})
+    }
+  });
+  const body = await response.json();
+  if (!response.ok) throw new Error(body.detail || "Request gagal");
+  return body;
+}
+async function health() {
+  try {
+    document.getElementById("status").textContent =
+      JSON.stringify(await fetch("/health").then(r=>r.json()),null,2);
+  } catch(e) { document.getElementById("status").textContent=e.message; }
+}
+async function scanUrl() {
+  try {
+    const result=await api("/api/scan/url",{
+      method:"POST",
+      body:JSON.stringify({url:document.getElementById("url").value})
+    });
+    document.getElementById("urlresult").textContent=JSON.stringify(result,null,2);
+  } catch(e) { document.getElementById("urlresult").textContent=e.message; }
+}
+async function events() {
+  try {
+    document.getElementById("history").textContent=
+      JSON.stringify(await api("/api/events"),null,2);
+  } catch(e) { document.getElementById("history").textContent=e.message; }
+}
+</script>
+</body>
+</html>
+EOF
+
+cat > tests/test_scanner.py <<'EOF'
+from backend.app.scanner import (
+    scan_url, scan_transaction, enforce_strict_policy
+)
+
+def test_http_url_blocked():
+    assert scan_url("http://example.com")["allowed"] is False
+
+def test_incomplete_transaction_blocked():
+    assert scan_transaction({})["allowed"] is False
+
+def test_unverified_contract_blocked():
+    tx = {
+        "wallet": "0x123",
+        "chain": "ethereum",
+        "to": "0x456",
+        "value": "1",
+        "simulation_ok": True,
+        "contract_verified": False,
+        "recipient_blocked": False
+    }
+    assert scan_transaction(tx)["allowed"] is False
+
+def test_ai_unknown_blocks():
+    local = {"allowed": True}
+    ai = {"risk": "unknown"}
+    assert enforce_strict_policy(local, ai)["allowed"] is False
+
+def test_ai_low_allows_only_after_local_pass():
+    local = {"allowed": True}
+    ai = {"risk": "low"}
+    assert enforce_strict_policy(local, ai)["allowed"] is True
+EOF
+
+cat > .env.example <<'EOF'
+OPENAI_API_KEY=replace_with_your_key
+OPENAI_MODEL=gpt-4.1-mini
+ADMIN_TOKEN=replace_with_a_long_random_secret
+DATABASE_PATH=/data/shield.db
+EOF
+
+cat > .gitignore <<'EOF'
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+data/
+EOF
+
+cat > Dockerfile <<'EOF'
+FROM python:3.12-slim
+WORKDIR /app
+COPY backend/requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+COPY backend ./backend
+COPY frontend ./frontend
+RUN mkdir -p /data
+ENV DATABASE_PATH=/data/shield.db
+EXPOSE 8000
+CMD ["uvicorn","backend.app.main:app","--host","0.0.0.0","--port","8000"]
+EOF
+
+cat > docker-compose.yml <<'EOF'
+services:
+  shield:
+    build: .
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - shield_data:/data
+volumes:
+  shield_data:
+EOF
+
+cat > README.md <<'EOF'
+# AI Wallet Security Shield
+
+Security preflight API and dashboard for wallet-related applications.
+
+## Supported wallet ecosystems
+- MetaMask and Trust Wallet: EVM address metadata.
+- Keplr, Leap Wallet, Cosmostation: Cosmos address metadata.
+
+This release does not connect to wallet extensions or intercept their native
+transaction prompts. A dApp or transaction backend must call the preflight
+API before requesting wallet signature.
+
+## Security
+- Never submit seed phrases or private keys.
+- OpenAI analyzes transaction metadata only.
+- Local policy is authoritative.
+- Unknown, failed, or incomplete checks are blocked.
+- HTTPS and an authenticated reverse proxy are required for public deployment.
+
+## Install
+```bash
+cp .env.example .env
+# Edit .env and set OPENAI_API_KEY and ADMIN_TOKEN
+docker compose up -d --build
+```
+
+Open http://127.0.0.1:8000/dashboard through an SSH tunnel or a secured
+HTTPS reverse proxy.
+
+## Test
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r backend/requirements.txt
+pytest -q
+```
+
+## API
+POST /api/scan/url
+POST /api/scan/transaction
+GET /api/events
+
+Send `Authorization: Bearer YOUR_ADMIN_TOKEN` for protected endpoints.
+
+## Important
+This is a security preflight foundation, not an audited wallet firewall.
+Contract verification and simulation must be connected to trusted chain
+infrastructure before production use. Do not claim that a transaction is
+blocked in a native wallet unless the wallet integration actually enforces it.
+EOF
+
+echo "Project created at: $(pwd)"
+echo "Next: cp .env.example .env and edit the secrets."
