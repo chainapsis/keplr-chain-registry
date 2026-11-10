@@ -1,6 +1,6 @@
 {
-  "rpc": "https://rpc-initia.keplr.app",
-  "rest": "https://lcd-initia.keplr.app",
+  "rpc": "https://rpc-dummy.dummy",
+  "rest": "https://lcd-dummy.dummy",
   "chainId": "interwoven-1",
   "chainName": "Initia",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/interwoven/chain.png",
