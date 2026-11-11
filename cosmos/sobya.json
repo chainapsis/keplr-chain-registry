@@ -10,7 +10,7 @@
     "coinDecimals": 18
   },
   "bip44": {
-    "coinType": 118
+    "coinType": 60
   },
   "bech32Config": {
     "bech32PrefixAccAddr": "sobya",
