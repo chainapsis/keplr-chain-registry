@@ -13,12 +13,12 @@
     "coinType": 118
   },
   "bech32Config": {
-    "bech32PrefixAccAddr": "leea",
-    "bech32PrefixAccPub": "leeapub",
-    "bech32PrefixValAddr": "leeavaloper",
-    "bech32PrefixValPub": "leeavaloperpub",
-    "bech32PrefixConsAddr": "leeavalcons",
-    "bech32PrefixConsPub": "leeavalconspub"
+    "bech32PrefixAccAddr": "poa",
+    "bech32PrefixAccPub": "poapub",
+    "bech32PrefixValAddr": "poavaloper",
+    "bech32PrefixValPub": "poavaloperpub",
+    "bech32PrefixConsAddr": "poavalcons",
+    "bech32PrefixConsPub": "poavalconspub"
   },
   "currencies": [
     {
@@ -26,21 +26,24 @@
       "coinMinimalDenom": "leea",
       "coinDecimals": 8,
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/wpd-l2a-mainnet/chain.png"
+    },
+    {
+      "coinDenom": "POATOKEN",
+      "coinMinimalDenom": "poatoken",
+      "coinDecimals": 8
     }
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "LEEA",
-      "coinMinimalDenom": "leea",
-      "coinDecimals": 8,
-      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/wpd-l2a-mainnet/chain.png"
+      "coinDenom": "POATOKEN",
+      "coinMinimalDenom": "poatoken",
+      "coinDecimals": 8
     }
   ],
   "stakeCurrency": {
-    "coinDenom": "LEEA",
-    "coinMinimalDenom": "leea",
-    "coinDecimals": 8,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/wpd-l2a-mainnet/chain.png"
+    "coinDenom": "POATOKEN",
+    "coinMinimalDenom": "poatoken",
+    "coinDecimals": 8
   },
   "features": []
 }
