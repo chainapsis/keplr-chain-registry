@@ -22,7 +22,8 @@ jobs:
       - name: Setup nodejs
         uses: actions/setup-node@v6
         with:
-          node-version: "22.23.4"
+          node-version: "^22.23.5"
+          check-latest: true
 
       - run: npm install --global yarn
       - run: yarn install --frozen-lockfile

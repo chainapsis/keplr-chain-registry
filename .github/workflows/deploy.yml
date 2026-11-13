@@ -13,7 +13,8 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v6
         with:
-          node-version: "22.23.4"
+          node-version: "^22.23.5"
+          check-latest: true
           registry-url: "https://registry.npmjs.org"
       - run: npm install --global yarn
       - name: Get yarn cache directory path
