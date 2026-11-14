@@ -1,0 +1,56 @@
+{
+  "bech32Config": {
+    "bech32PrefixAccAddr": "bs9",
+    "bech32PrefixAccPub": "bs9pub",
+    "bech32PrefixConsAddr": "bs9valcons",
+    "bech32PrefixConsPub": "bs9valconspub",
+    "bech32PrefixValAddr": "bs9valoper",
+    "bech32PrefixValPub": "bs9valoperpub"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "chainId": "blakiston",
+  "chainName": "Blakiston",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/blakiston/chain.png",
+  "currencies": [
+    {
+      "coinDecimals": 0,
+      "coinDenom": "TLN",
+      "coinMinimalDenom": "tln",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/blakiston/chain.png"
+    }
+  ],
+  "features": [
+    "cosmwasm"
+  ],
+  "feeCurrencies": [
+    {
+      "coinDecimals": 0,
+      "coinDenom": "TLN",
+      "coinMinimalDenom": "tln",
+      "gasPriceStep": {
+        "low": 0.0005,
+        "average": 0.0006,
+        "high": 0.0008
+      },
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/blakiston/chain.png"
+    }
+  ],
+  "rest": "https://api.blakiston.org",
+  "rpc": "https://rpc.blakiston.org",
+  "stakeCurrency": {
+    "coinDecimals": 0,
+    "coinDenom": "TLN",
+    "coinMinimalDenom": "tln",
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/blakiston/chain.png"
+  },
+  "nodeProvider": {
+    "name": "Blakiston",
+    "email": "ops@blakiston.com",
+    "website": "https://blakiston.org"
+  },
+  "explorers": {
+    "txPage": "https://blakiston.org/tx/{txHash}"
+  }
+}
