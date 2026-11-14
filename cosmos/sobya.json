@@ -1,0 +1,49 @@
+{
+  "rpc": "https://sobya-rpc.nodesafe-app.xyz",
+  "rest": "https://sobya-api.nodesafe-app.xyz",
+  "chainId": "sobya-1",
+  "chainName": "SOBYA",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sobya/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "SOBY",
+    "coinMinimalDenom": "asobya",
+    "coinDecimals": 18
+  },
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "sobya",
+    "bech32PrefixAccPub": "sobyapub",
+    "bech32PrefixValAddr": "sobyavaloper",
+    "bech32PrefixValPub": "sobyavaloperpub",
+    "bech32PrefixConsAddr": "sobyavalcons",
+    "bech32PrefixConsPub": "sobyavalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "SOBY",
+      "coinMinimalDenom": "asobya",
+      "coinDecimals": 18
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "SOBY",
+      "coinMinimalDenom": "asobya",
+      "coinDecimals": 18
+    }
+  ],
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign",
+    "eth-secp256k1-cosmos"
+  ],
+  "nodeProvider": {
+    "name": "NodeSafe",
+    "email": "sobya-coin@outlook.com"
+  },
+  "explorers": {
+    "txPage": "https://explorer.nodesafe-app.xyz/sobya/tx/{txHash}"
+  }
+}
