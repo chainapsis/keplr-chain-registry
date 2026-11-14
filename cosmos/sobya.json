@@ -31,7 +31,12 @@
     {
       "coinDenom": "SOBY",
       "coinMinimalDenom": "asobya",
-      "coinDecimals": 18
+      "coinDecimals": 18,
+      "gasPriceStep": {
+        "low": 0.000000001,
+        "average": 0.00000000125,
+        "high": 0.0000000015
+      }
     }
   ],
   "features": [
