@@ -24,14 +24,16 @@
     {
       "coinDenom": "SOBY",
       "coinMinimalDenom": "asobya",
-      "coinDecimals": 18
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sobya/chain.png"
     }
   ],
   "feeCurrencies": [
     {
       "coinDenom": "SOBY",
       "coinMinimalDenom": "asobya",
-      "coinDecimals": 18
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/sobya/chain.png"
     }
   ],
   "features": [
