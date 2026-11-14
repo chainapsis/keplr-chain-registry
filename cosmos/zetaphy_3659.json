@@ -1,0 +1,65 @@
+{
+  "chainId": "zetaphy_3659-1",
+  "chainName": "ZETAPHY",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zetaphy_3659/chain.png",
+  "explorers": {
+    "txPage": "https://explorer.sawasdeecoin.com/?network=mainnet#/tx/{txHash}"
+  },
+  "rpc": "https://129-221-199-191.sslip.io/rpc",
+  "rest": "https://129-221-199-191.sslip.io/rest",
+  "evm": {
+    "chainId": 3659,
+    "rpc": "https://129-221-199-191.sslip.io"
+  },
+  "nodeProvider": {
+    "name": "ZETAPHY",
+    "email": "sawasdeecoin@gmail.com",
+    "website": "https://app.sawasdeecoin.com"
+  },
+  "walletUrlForStaking": "https://app.sawasdeecoin.com/?tab=stake",
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "zetaphy",
+    "bech32PrefixAccPub": "zetaphypub",
+    "bech32PrefixValAddr": "zetaphyvaloper",
+    "bech32PrefixValPub": "zetaphyvaloperpub",
+    "bech32PrefixConsAddr": "zetaphyvalcons",
+    "bech32PrefixConsPub": "zetaphyvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "ZTPHY",
+      "coinMinimalDenom": "azetaphy",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zetaphy_3659/azetaphy.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ZTPHY",
+      "coinMinimalDenom": "azetaphy",
+      "coinDecimals": 18,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zetaphy_3659/azetaphy.png",
+      "gasPriceStep": {
+        "low": 1000000000,
+        "average": 1000000000,
+        "high": 2000000000
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "ZTPHY",
+    "coinMinimalDenom": "azetaphy",
+    "coinDecimals": 18,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/zetaphy_3659/azetaphy.png"
+  },
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign",
+    "eth-secp256k1-cosmos",
+    "cosmwasm"
+  ],
+  "isTestnet": false
+}
