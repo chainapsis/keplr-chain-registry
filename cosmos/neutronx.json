@@ -1,0 +1,65 @@
+{
+  "rpc": "https://rpc.neutronchain.io",
+  "rest": "https://api.neutronchain.io",
+  "chainId": "neutronx-1",
+  "chainName": "NeutronX",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutronx/chain.png",
+  "nodeProvider": {
+    "name": "NeutronX",
+    "email": "neutronx.official@neutronx.com",
+    "website": "https://neutronx.com"
+  },
+  "stakeCurrency": {
+    "coinDenom": "NTX",
+    "coinMinimalDenom": "untx",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutronx/untx.png"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "neutronx",
+    "bech32PrefixAccPub": "neutronxpub",
+    "bech32PrefixValAddr": "neutronxvaloper",
+    "bech32PrefixValPub": "neutronxvaloperpub",
+    "bech32PrefixConsAddr": "neutronxvalcons",
+    "bech32PrefixConsPub": "neutronxvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "NTX",
+      "coinMinimalDenom": "untx",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutronx/untx.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "NTX",
+      "coinMinimalDenom": "untx",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/neutronx/untx.png",
+      "gasPriceStep": {
+        "low": 0.025,
+        "average": 0.03,
+        "high": 0.05
+      }
+    },
+    {
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "ibc/ED4C195406CEFBAC6CF3AA64BBF84292910D27B51C78D81374101F9424BC1EC1",
+      "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
+      "gasPriceStep": {
+        "low": 0.001,
+        "average": 0.0015,
+        "high": 0.002
+      }
+    }
+  ],
+  "features": [],
+  "explorers": {
+    "txPage": "https://explorer.neutronchain.io/tx/{txHash}"
+  }
+}
