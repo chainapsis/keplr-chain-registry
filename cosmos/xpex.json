@@ -1,0 +1,54 @@
+{
+  "rpc": "https://rpc.xpexpex.com",
+  "rest": "https://api.xpexpex.com",
+  "chainId": "xpex-2",
+  "chainName": "XPEX",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xpex/chain.png",
+  "nodeProvider": {
+    "name": "XPEX",
+    "email": "support@xpexpex.com",
+    "website": "https://xpexpex.com"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "xpex",
+    "bech32PrefixAccPub": "xpexpub",
+    "bech32PrefixValAddr": "xpexvaloper",
+    "bech32PrefixValPub": "xpexvaloperpub",
+    "bech32PrefixConsAddr": "xpexvalcons",
+    "bech32PrefixConsPub": "xpexvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "XPX",
+      "coinMinimalDenom": "uxpx",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xpex/xpx.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "XPX",
+      "coinMinimalDenom": "uxpx",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xpex/xpx.png",
+      "gasPriceStep": {
+        "low": 0,
+        "average": 0,
+        "high": 0
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "XPX",
+    "coinMinimalDenom": "uxpx",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xpex/xpx.png"
+  },
+  "features": [],
+  "explorers": {
+    "txPage": "https://xpexpex.com/explorer/tx/{txHash}"
+  }
+}
