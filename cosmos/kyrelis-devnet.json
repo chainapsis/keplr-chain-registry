@@ -1,0 +1,52 @@
+{
+  "chainId": "kyrelis-devnet-2",
+  "chainName": "KYRELIS Devnet 2",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kyrelis-devnet/chain.png",
+  "rpc": "https://raspberrypi.tail3fb8f3.ts.net/rpc",
+  "rest": "https://raspberrypi.tail3fb8f3.ts.net/rest",
+  "nodeProvider": {
+    "name": "KYRELIS",
+    "website": "https://raspberrypi.tail3fb8f3.ts.net",
+    "email": "20player11Studios@protonmail.com"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "kyr",
+    "bech32PrefixAccPub": "kyrpub",
+    "bech32PrefixValAddr": "kyrvaloper",
+    "bech32PrefixValPub": "kyrvaloperpub",
+    "bech32PrefixConsAddr": "kyrvalcons",
+    "bech32PrefixConsPub": "kyrvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "KYRL",
+      "coinMinimalDenom": "ukyrl",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kyrelis-devnet/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "KYRL",
+      "coinMinimalDenom": "ukyrl",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kyrelis-devnet/chain.png",
+      "gasPriceStep": {
+        "low": 0.001,
+        "average": 0.002,
+        "high": 0.004
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "KYRL",
+    "coinMinimalDenom": "ukyrl",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kyrelis-devnet/chain.png"
+  },
+  "features": [],
+  "isTestnet": true
+}
