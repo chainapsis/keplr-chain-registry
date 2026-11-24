@@ -346,6 +346,14 @@ export const checkCurrencies = (chainInfo: ChainInfo) => {
       ) {
         continue;
       }
+      // Canonical USDC on dYdX (x/canonicalusdc, dYdX v9.9.0).
+      if (
+        ChainIdHelper.parse(chainInfo.chainId).identifier === "dydx-mainnet" &&
+        currency.coinMinimalDenom ===
+          "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5"
+      ) {
+        continue;
+      }
 
       throw new Error(
         `Do not provide ibc currency to currencies: ${currency.coinMinimalDenom}`,
