@@ -29,6 +29,13 @@
       "coinMinimalDenom": "adydx",
       "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dydx-mainnet/adydx.png",
       "coinGeckoId": "dydx-chain"
+    },
+    {
+      "coinDenom": "USDC",
+      "coinDecimals": 6,
+      "coinMinimalDenom": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dydx-mainnet/ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5.png",
+      "coinGeckoId": "usd-coin"
     }
   ],
   "feeCurrencies": [
@@ -48,6 +55,7 @@
       "coinDenom": "USDC",
       "coinMinimalDenom": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
       "coinDecimals": 6,
+      "coinGeckoId": "usd-coin",
       "gasPriceStep": {
         "low": 0.025,
         "average": 0.025,
