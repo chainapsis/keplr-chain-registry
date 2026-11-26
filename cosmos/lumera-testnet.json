@@ -11,7 +11,7 @@
     "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/lumera-testnet/chain.png"
   },
   "bip44": {
-    "coinType": 118
+    "coinType": 60
   },
   "bech32Config": {
     "bech32PrefixAccAddr": "lumera",
@@ -43,7 +43,10 @@
     }
   ],
   "features": [
-    "cosmwasm"
+    "cosmwasm",
+    "eth-address-gen",
+    "eth-key-sign",
+    "eth-secp256k1-cosmos"
   ],
   "nodeProvider": {
     "name": "Lumera Protocol",
