@@ -1,9 +1,9 @@
 {
-  "chainId": "kyrelis-1",
+  "chainId": "kyrelis-2",
   "chainName": "KYRELIS",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kyrelis/chain.png",
-  "rpc": "https://raspberrypi.tail3fb8f3.ts.net:8443/rpc",
-  "rest": "https://raspberrypi.tail3fb8f3.ts.net:8443/rest",
+  "rpc": "https://blockchain.tail3fb8f3.ts.net:8443/rpc",
+  "rest": "https://blockchain.tail3fb8f3.ts.net:8443/rest",
   "nodeProvider": {
     "name": "KYRELIS Network",
     "email": "20player11Studios@protonmail.com",
