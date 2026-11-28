@@ -1,12 +1,12 @@
 {
-  "chainId": "kyrelis-devnet-2",
-  "chainName": "KYRELIS Devnet 2",
+  "chainId": "kyrelis-devnet-3",
+  "chainName": "KYRELIS Devnet 3",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kyrelis-devnet/chain.png",
-  "rpc": "https://raspberrypi.tail3fb8f3.ts.net/rpc",
-  "rest": "https://raspberrypi.tail3fb8f3.ts.net/rest",
+  "rpc": "https://blockchain.tail3fb8f3.ts.net/rpc",
+  "rest": "https://blockchain.tail3fb8f3.ts.net/rest",
   "nodeProvider": {
     "name": "KYRELIS",
-    "website": "https://raspberrypi.tail3fb8f3.ts.net",
+    "website": "https://blockchain.tail3fb8f3.ts.net",
     "email": "20player11Studios@protonmail.com"
   },
   "bip44": {
