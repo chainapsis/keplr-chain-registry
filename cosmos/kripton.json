@@ -1,0 +1,54 @@
+{
+  "chainId": "kripton-1",
+  "chainName": "KRIPTON",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kripton/chain.png",
+  "rpc": "https://rpc.kripton.live",
+  "rest": "https://api.kripton.live",
+  "nodeProvider": {
+    "name": "KRIPTON",
+    "email": "wunschbaumaler@yahoo.com",
+    "website": "https://kripton.live"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "kripton",
+    "bech32PrefixAccPub": "kriptonpub",
+    "bech32PrefixValAddr": "kriptonvaloper",
+    "bech32PrefixValPub": "kriptonvaloperpub",
+    "bech32PrefixConsAddr": "kriptonvalcons",
+    "bech32PrefixConsPub": "kriptonvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "KPT",
+      "coinMinimalDenom": "ukpt",
+      "coinDecimals": 8,
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kripton/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "KPT",
+      "coinMinimalDenom": "ukpt",
+      "coinDecimals": 8,
+      "gasPriceStep": {
+        "low": 1,
+        "average": 1.5,
+        "high": 2
+      },
+      "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kripton/chain.png"
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "KPT",
+    "coinMinimalDenom": "ukpt",
+    "coinDecimals": 8,
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/kripton/chain.png"
+  },
+  "features": [],
+  "explorers": {
+    "txPage": "https://kripton.live/explorer/#/tx/{txHash}"
+  }
+}
